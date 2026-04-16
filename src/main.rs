@@ -2,10 +2,10 @@ use std::{collections::HashMap, fs, io::Write, path::Path, str::from_utf8};
 
 use serde_json::Value;
 
-mod infer_ts_types;
+mod infer_types;
 mod types;
 
-use crate::infer_ts_types::{common_shape, shape_to_code, value_to_shape};
+use crate::infer_types::{common_shape, shape_to_code, value_to_shape};
 
 const BASE_URL: &str = "http://studien.ost.ch";
 
