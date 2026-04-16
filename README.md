@@ -1,5 +1,5 @@
 # 2lost
 
-(studien.ost.ch)[https://studien.ost.ch] scraper
+[studien.ost.ch](https://studien.ost.ch) scraper
 
-Inspired by (lost.university)[https://lost.university]
+Inspired by [lost.university](https://lost.university)
