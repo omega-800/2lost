@@ -119,15 +119,16 @@ pub fn shape_to_code(name: &str, shape: &Shape) -> (String, Option<String>) {
             let mut inner_defs = String::new();
 
             let mut struct_def = format!(
-                "#[derive(Serialize, Deserialize)]\n#[serde(rename_all = \"camelCase\")]\nstruct {} {{\n",
+                "#[derive(Serialize, Deserialize, Debug)]\n#[serde(rename_all = \"camelCase\")]\npub struct {} {{\n",
                 type_name
             );
             for (key, val) in map.iter() {
-                let (field_type, field_defs) = shape_to_code(key, val);
+                let fname = name.to_owned() + &uppercase_first_letter(key);
+                let (field_type, field_defs) = shape_to_code(&fname, val);
                 if let Some(defs) = field_defs {
                     inner_defs += &defs;
                 }
-                struct_def += &format!("  {}: {},\n", to_snake_case(key), field_type);
+                struct_def += &format!("  pub {}: {},\n", to_snake_case(key), field_type);
             }
             struct_def += &format!("}}\n");
 

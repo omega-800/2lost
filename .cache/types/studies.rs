@@ -1,90 +1,90 @@
 use serde::{Deserialize, Serialize};
 
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Studies {
-  art: String,
-  bezeichnung: String,
-  zuordnungen: Vec<Zuordnungen>,
-  id: i64,
-  studienberater: Option<Studienberater>,
-  typ: Option<String>,
-  kuerzel: String,
-  parent: Option<Parent>,
-  version_kuerzel: String,
-  form: Option<String>,
-  uebersetzungen: Option<Vec<Uebersetzungen>>,
-  kredits: Option<Vec<Kredits>>,
-  spezialisierungen: Option<Vec<Spezialisierungen>>,
+pub struct Studies {
+  pub form: Option<String>,
+  pub id: i64,
+  pub art: String,
+  pub kredits: Option<Vec<StudiesKredits>>,
+  pub typ: Option<String>,
+  pub uebersetzungen: Option<Vec<StudiesUebersetzungen>>,
+  pub bezeichnung: String,
+  pub studienberater: Option<StudiesStudienberater>,
+  pub parent: Option<StudiesParent>,
+  pub zuordnungen: Vec<StudiesZuordnungen>,
+  pub kuerzel: String,
+  pub version_kuerzel: String,
+  pub spezialisierungen: Option<Vec<StudiesSpezialisierungen>>,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Zuordnungen {
-  typ: String,
-  bezeichnung: String,
-  sem_empfehlung: i64,
-  ist_pflichtmodul: bool,
-  id: i64,
-  url: String,
-  kategorien: Option<Vec<Kategorien>>,
-  kuerzel: String,
-  ist_abschluss_arbeit: bool,
+pub struct StudiesKredits {
+  pub min_kredits: i64,
+  pub id: i64,
+  pub kategorien: Vec<StudiesKreditsKategorien>,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Kategorien {
-  kreditpunkte: i64,
-  kuerzel: String,
-  bezeichnung: String,
-  id: i64,
+pub struct StudiesKreditsKategorien {
+  pub id: i64,
+  pub bezeichnung: String,
+  pub kuerzel: String,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Studienberater {
-  name: String,
-  id: i64,
-  vorname: String,
+pub struct StudiesUebersetzungen {
+  pub bezeichnung: String,
+  pub id: i64,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Parent {
-  url: String,
-  bezeichnung: String,
-  id: i64,
-  kuerzel: String,
+pub struct StudiesStudienberater {
+  pub vorname: String,
+  pub id: i64,
+  pub name: String,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Uebersetzungen {
-  bezeichnung: String,
-  id: i64,
+pub struct StudiesParent {
+  pub kuerzel: String,
+  pub bezeichnung: String,
+  pub id: i64,
+  pub url: String,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Kredits {
-  kategorien: Vec<Kategorien>,
-  id: i64,
-  min_kredits: i64,
+pub struct StudiesZuordnungen {
+  pub sem_empfehlung: i64,
+  pub kuerzel: String,
+  pub url: String,
+  pub ist_pflichtmodul: bool,
+  pub typ: String,
+  pub bezeichnung: String,
+  pub id: i64,
+  pub ist_abschluss_arbeit: bool,
+  pub kategorien: Option<Vec<StudiesZuordnungenKategorien>>,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Kategorien {
-  bezeichnung: String,
-  id: i64,
-  kuerzel: String,
+pub struct StudiesZuordnungenKategorien {
+  pub kreditpunkte: i64,
+  pub bezeichnung: String,
+  pub id: i64,
+  pub kuerzel: String,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Spezialisierungen {
-  url: String,
-  uebersetzungen: Option<Vec<Uebersetzungen>>,
-  bezeichnung: String,
-  id: i64,
-  kuerzel: String,
+pub struct StudiesSpezialisierungen {
+  pub url: String,
+  pub id: i64,
+  pub bezeichnung: String,
+  pub uebersetzungen: Option<Vec<StudiesSpezialisierungenUebersetzungen>>,
+  pub kuerzel: String,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Uebersetzungen {
-  bezeichnung: String,
-  id: i64,
+pub struct StudiesSpezialisierungenUebersetzungen {
+  pub bezeichnung: String,
+  pub id: i64,
 }

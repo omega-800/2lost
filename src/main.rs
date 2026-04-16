@@ -1,15 +1,40 @@
-use std::{collections::HashMap, fs, io::Write, path::Path, str::from_utf8};
+use std::{
+    collections::HashMap,
+    env,
+    fs::{self, File},
+    io::{BufReader, Write},
+    path::Path,
+    str::from_utf8,
+};
 
 use serde_json::Value;
 
 mod infer_types;
 mod types;
 
-use crate::infer_types::{common_shape, shape_to_code, value_to_shape};
+use crate::{
+    infer_types::{common_shape, shape_to_code, value_to_shape},
+    types::Studies,
+};
 
 const BASE_URL: &str = "http://studien.ost.ch";
 
 fn main() {
+    let args: Vec<String> = env::args().collect();
+
+    if args.len() > 1 && &args[1] == "-s" {
+        scrape();
+    } else if args.len() > 1 && &args[1] == "-t" {
+        let path = Path::new("./.cache/studies/10306_MiT.json");
+        let f = File::open(path).unwrap();
+        let r = BufReader::new(f);
+        let t: Studies = serde_json::from_reader(r).unwrap();
+    } else {
+        println!("Usage: {} -[s|t]", &args[0]);
+    }
+}
+
+fn scrape() {
     println!("Fetching html");
     let html = fetch_or_cache(BASE_URL, "html.html");
 
@@ -103,7 +128,7 @@ fn fetch_studies<'a>(study_names: &Vec<&'a str>) -> HashMap<&'a str, Value> {
 // with .json
 // 4462
 fn parse_studies<'a>(modules: &'a HashMap<&str, Value>) -> Vec<&'a str> {
-    modules
+    let mut res: Vec<&'a str> = modules
         .iter()
         .filter_map(|(_, v)| {
             if let Value::Object(v) = v
@@ -127,7 +152,11 @@ fn parse_studies<'a>(modules: &'a HashMap<&str, Value>) -> Vec<&'a str> {
             None
         })
         .flatten()
-        .collect()
+        .collect();
+
+    res.sort();
+    res.dedup();
+    res
 }
 
 fn fetch_modules<'a>(module_names: &Vec<&'a str>) -> HashMap<&'a str, Value> {
@@ -192,30 +221,3 @@ fn parse_modules(html: &str) -> Vec<&str> {
         })
         .collect()
 }
-
-// ls *.json | xargs yq -oy '. | keys' | sort | uniq -c | sort -bgr
-// 4451 - zustand
-// 4451 - sprache
-// 4451 - semesterBewertung
-// 4451 - kuerzel
-// 4451 - id
-// 4451 - bezeichnung
-// 4450 - kreditpunkte
-// 4438 - orte
-// 4425 - kurse
-// 4406 - zuordnungen
-// 4212 - uebersetzungen
-// 4148 - dozenten
-// 4031 - lernziele
-// 3830 - durchfuehrungen
-// 2682 - skriptAblageLink
-// 2237 - pruefung
-// 1680 - vorgaenger
-// 1680 - nachfolger
-// 1605 - vorausgKenntnisse
-// 1187 - empfehlungen
-//  637 - voraussetzungen
-//  562 - anschlussmodule
-//  186 - mengen
-//    8 - inhalt
-//    3 - methoden

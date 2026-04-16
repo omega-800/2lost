@@ -1,192 +1,192 @@
 use serde::{Deserialize, Serialize};
 
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Modules {
-  id: i64,
-  empfehlungen: Option<Vec<Empfehlungen>>,
-  bezeichnung: String,
-  lernziele: Option<String>,
-  inhalt: Option<String>,
-  voraussetzungen: Option<Vec<Voraussetzungen>>,
-  durchfuehrungen: Option<Durchfuehrungen>,
-  mengen: Option<Vec<Mengen>>,
-  sprache: String,
-  kreditpunkte: Option<i64>,
-  kurse: Option<Vec<Kurse>>,
-  vorausg_kenntnisse: Option<String>,
-  kuerzel: String,
-  skript_ablage_link: Option<String>,
-  semester_bewertung: String,
-  methoden: Option<String>,
-  pruefung: Option<Vec<Pruefung>>,
-  anschlussmodule: Option<Vec<Anschlussmodule>>,
-  uebersetzungen: Option<Vec<Uebersetzungen>>,
-  nachfolger: Option<Nachfolger>,
-  zustand: String,
-  vorgaenger: Option<Vorgaenger>,
-  orte: Option<Vec<Orte>>,
-  dozenten: Option<Vec<Dozenten>>,
-  zuordnungen: Option<Vec<Zuordnungen>>,
+pub struct Modules {
+  pub lernziele: Option<String>,
+  pub methoden: Option<String>,
+  pub orte: Option<Vec<ModulesOrte>>,
+  pub zustand: String,
+  pub kurse: Option<Vec<ModulesKurse>>,
+  pub id: i64,
+  pub inhalt: Option<String>,
+  pub sprache: String,
+  pub nachfolger: Option<ModulesNachfolger>,
+  pub durchfuehrungen: Option<ModulesDurchfuehrungen>,
+  pub kuerzel: String,
+  pub pruefung: Option<Vec<ModulesPruefung>>,
+  pub uebersetzungen: Option<Vec<ModulesUebersetzungen>>,
+  pub dozenten: Option<Vec<ModulesDozenten>>,
+  pub skript_ablage_link: Option<String>,
+  pub semester_bewertung: String,
+  pub bezeichnung: String,
+  pub zuordnungen: Option<Vec<ModulesZuordnungen>>,
+  pub kreditpunkte: Option<i64>,
+  pub anschlussmodule: Option<Vec<ModulesAnschlussmodule>>,
+  pub empfehlungen: Option<Vec<ModulesEmpfehlungen>>,
+  pub vorgaenger: Option<ModulesVorgaenger>,
+  pub mengen: Option<Vec<ModulesMengen>>,
+  pub voraussetzungen: Option<Vec<ModulesVoraussetzungen>>,
+  pub vorausg_kenntnisse: Option<String>,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Empfehlungen {
-  kuerzel: String,
-  url: String,
-  id: i64,
-  bezeichnung: String,
+pub struct ModulesOrte {
+  pub kuerzel: String,
+  pub ort: String,
+  pub id: i64,
+  pub bezeichnung: String,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Voraussetzungen {
-  bezeichnung: String,
-  url: String,
-  id: i64,
-  kuerzel: String,
+pub struct ModulesKurse {
+  pub uebersetzungen: Option<Vec<ModulesKurseUebersetzungen>>,
+  pub empf_lehrmittel: Option<String>,
+  pub kurselemente: Option<Vec<ModulesKurseKurselemente>>,
+  pub bezeichnung: String,
+  pub id: i64,
+  pub lernziele: Option<String>,
+  pub kreditpunkte: Option<f64>,
+  pub planinhalt: Option<String>,
+  pub kuerzel: String,
+  pub dozenten: Option<Vec<ModulesKurseDozenten>>,
+  pub leistungsnachweis: Option<String>,
+  pub bemerkung_kurs: Option<String>,
+  pub bibliographie: Option<String>,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Durchfuehrungen {
-  end_semester: String,
-  begin_jahr: i64,
-  end_jahr: i64,
-  begin_semester: String,
-  count: Option<i64>,
+pub struct ModulesKurseUebersetzungen {
+  pub bezeichnung: String,
+  pub id: i64,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Mengen {
-  module: Vec<Module>,
-  id: i64,
-  d_mod_menge_art: i64,
-  name: String,
+pub struct ModulesKurseKurselemente {
+  pub anz_lektionen: Option<f64>,
+  pub id: i64,
+  pub harte_grenze: Option<bool>,
+  pub max_teilnehmer: i64,
+  pub art: String,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Module {
-  bezeichnung: String,
-  id: i64,
-  url: String,
-  kuerzel: String,
+pub struct ModulesKurseDozenten {
+  pub name: String,
+  pub id: i64,
+  pub vorname: String,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Kurse {
-  kurselemente: Option<Vec<Kurselemente>>,
-  leistungsnachweis: Option<String>,
-  kreditpunkte: Option<f64>,
-  bemerkung_kurs: Option<String>,
-  dozenten: Option<Vec<Dozenten>>,
-  uebersetzungen: Option<Vec<Uebersetzungen>>,
-  planinhalt: Option<String>,
-  kuerzel: String,
-  empf_lehrmittel: Option<String>,
-  bibliographie: Option<String>,
-  bezeichnung: String,
-  id: i64,
-  lernziele: Option<String>,
+pub struct ModulesNachfolger {
+  pub url: String,
+  pub kuerzel: String,
+  pub id: i64,
+  pub bezeichnung: String,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Kurselemente {
-  id: i64,
-  art: String,
-  max_teilnehmer: i64,
-  harte_grenze: Option<bool>,
-  anz_lektionen: Option<f64>,
+pub struct ModulesDurchfuehrungen {
+  pub begin_semester: String,
+  pub begin_jahr: i64,
+  pub end_semester: String,
+  pub count: Option<i64>,
+  pub end_jahr: i64,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Dozenten {
-  id: i64,
-  name: String,
-  vorname: String,
+pub struct ModulesPruefung {
+  pub bemerkung_pruefung: Option<String>,
+  pub zulassungs_bedingung: Option<String>,
+  pub pruefung_mue: bool,
+  pub prf_abmeldbar: bool,
+  pub id: i64,
+  pub art: String,
+  pub pruefung_schr: bool,
+  pub dauer_prf_mue: Option<i64>,
+  pub dauer_prf_schr: Option<i64>,
+  pub zulassung: bool,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Uebersetzungen {
-  id: i64,
-  bezeichnung: String,
+pub struct ModulesUebersetzungen {
+  pub sprache: String,
+  pub bezeichnung: String,
+  pub id: i64,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Pruefung {
-  prf_abmeldbar: bool,
-  dauer_prf_mue: Option<i64>,
-  id: i64,
-  pruefung_mue: bool,
-  art: String,
-  pruefung_schr: bool,
-  bemerkung_pruefung: Option<String>,
-  dauer_prf_schr: Option<i64>,
-  zulassung: bool,
-  zulassungs_bedingung: Option<String>,
+pub struct ModulesDozenten {
+  pub name: String,
+  pub id: i64,
+  pub vorname: String,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Anschlussmodule {
-  bezeichnung: String,
-  id: i64,
-  kuerzel: String,
-  url: String,
+pub struct ModulesZuordnungen {
+  pub ist_pflichtmodul: bool,
+  pub ist_abschluss_arbeit: bool,
+  pub typ: String,
+  pub kuerzel: String,
+  pub bezeichnung: String,
+  pub kategorien: Option<Vec<ModulesZuordnungenKategorien>>,
+  pub sem_empfehlung: i64,
+  pub id: i64,
+  pub url: String,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Uebersetzungen {
-  id: i64,
-  bezeichnung: String,
-  sprache: String,
+pub struct ModulesZuordnungenKategorien {
+  pub bezeichnung: String,
+  pub kreditpunkte: i64,
+  pub id: i64,
+  pub kuerzel: String,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Nachfolger {
-  kuerzel: String,
-  url: String,
-  bezeichnung: String,
-  id: i64,
+pub struct ModulesAnschlussmodule {
+  pub url: String,
+  pub bezeichnung: String,
+  pub id: i64,
+  pub kuerzel: String,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Vorgaenger {
-  kuerzel: String,
-  id: i64,
-  url: String,
-  bezeichnung: String,
+pub struct ModulesEmpfehlungen {
+  pub bezeichnung: String,
+  pub kuerzel: String,
+  pub url: String,
+  pub id: i64,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Orte {
-  bezeichnung: String,
-  id: i64,
-  ort: String,
-  kuerzel: String,
+pub struct ModulesVorgaenger {
+  pub id: i64,
+  pub kuerzel: String,
+  pub bezeichnung: String,
+  pub url: String,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Dozenten {
-  id: i64,
-  vorname: String,
-  name: String,
+pub struct ModulesMengen {
+  pub name: String,
+  pub id: i64,
+  pub d_mod_menge_art: i64,
+  pub module: Vec<ModulesMengenModule>,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Zuordnungen {
-  typ: String,
-  url: String,
-  kuerzel: String,
-  id: i64,
-  ist_abschluss_arbeit: bool,
-  sem_empfehlung: i64,
-  ist_pflichtmodul: bool,
-  bezeichnung: String,
-  kategorien: Option<Vec<Kategorien>>,
+pub struct ModulesMengenModule {
+  pub id: i64,
+  pub url: String,
+  pub kuerzel: String,
+  pub bezeichnung: String,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-struct Kategorien {
-  kuerzel: String,
-  bezeichnung: String,
-  id: i64,
-  kreditpunkte: i64,
+pub struct ModulesVoraussetzungen {
+  pub bezeichnung: String,
+  pub kuerzel: String,
+  pub url: String,
+  pub id: i64,
 }
