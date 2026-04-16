@@ -1,0 +1,160 @@
+{
+  "id": 19224,
+  "kuerzel": "M_FuVar2EC",
+  "bezeichnung": "Funktionen mehrerer Variablen (2 ECTS-Punkte)",
+  "kreditpunkte": 2,
+  "lernziele": "Ge&uuml;bter Umgang mit Funktionen mehrerer Variablen",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 19225,
+      "kuerzel": "FuVar2EC",
+      "bezeichnung": "Funktionen mehrerer Variablen (2 ECTS-Punkte)",
+      "lernziele": "siehe oben",
+      "planinhalt": "Gradient, Extremalaufgaben, Fehlerrechnung, Mehrfachintegrale, Methode der kleinsten Quadratsumme (Fit)&nbsp;",
+      "kurselemente": [
+        {
+          "id": 19226,
+          "art": "Vorlesung",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 19227,
+          "art": "Uebung",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Funktionen mehrerer Variablen (2 ECTS-Punkte)"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Functions of Several Variables (2 ECTS Points)"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 538995,
+      "name": "Weibel",
+      "vorname": "Reto"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 20106,
+      "kuerzel": "M_An2M",
+      "bezeichnung": "Analysis 2 (M-I)",
+      "url": "allModules/20106_M_An2M.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 19224,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Funktionen mehrerer Variablen (2 ECTS-Punkte)"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Functions of Several Variables (2 ECTS Points)"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2008,
+    "beginSemester": "HS",
+    "endJahr": 2013,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 19224,
+    "kuerzel": "M_FuVar2EC",
+    "bezeichnung": "Funktionen mehrerer Variablen (2 ECTS-Punkte)",
+    "url": "allModules/19224_M_FuVar2EC.json"
+  }
+}

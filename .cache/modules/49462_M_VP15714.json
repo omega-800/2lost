@@ -1,0 +1,221 @@
+{
+  "id": 49462,
+  "kuerzel": "M_VP15714",
+  "bezeichnung": "Human Machine Interface (HMI)",
+  "kreditpunkte": 15,
+  "lernziele": "<p>Fachkompetenz:</p>\n<ul>\n    <li>Kenntnisse von verschiedenen Technologien um HMIs zu realisieren</li>\n    <li>F&auml;higkeit anspruchsvolle Human Machine Interfaces (HMI) mit einer ausgew&auml;hlten Technologie zu implementieren</li>\n    <li>F&auml;higkeit verschiedene Technologien f&uuml;r die Eignung f&uuml;r eine bestimmte Anwendung zu bewerten </li>\n</ul>\n<p>Sozialkompetenz</p>\n<ul>\n    <li>Kommunikations- und Kooperationsf&auml;higkeit</li>\n</ul>\n<p>Selbstkompetenz</p>\n<ul>\n    <li>Selbst&auml;ndiges Arbeit, Verantwortung &uuml;bernehmen</li>\n</ul>",
+  "vorausgKenntnisse": "Bachelor of Science in Systemtechnik",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 49463,
+      "kuerzel": "VP_1571401",
+      "bezeichnung": "Konzept und Desing eines HMI",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>kennen verschiedene Technologien um HMIs zu realisieren.</li>\n    <li>k&ouml;nnen anspruchsvolle Anwendungen mit einer ausgew&auml;hlten Technologie implementieren.</li>\n    <li>k&ouml;nnen Technologien f&uuml;r die Eignung f&uuml;r eine bestimmte Anwendung evaluieren.<br /></li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Single Page Applications</li>\n    <li>JavaScript Frameworks: AngularJS, jQuery, Dojo</li>\n    <li>3-tier Web Applikationen</li>\n    <li>Mobile applications</li>\n    <li>HTML5</li>\n</ul>\n<p>&nbsp;</p>",
+      "empfLehrmittel": "Projektarbeit, Literaturstudium, Selbststudium",
+      "bemerkungKurs": "Teile der Literatur k&ouml;nnen in Englisch sein",
+      "leistungsnachweis": "Das zu bearbeitende Projekt wird mittels Bericht und Pr&auml;sentation bewertet.",
+      "kurselemente": [
+        {
+          "id": 49464,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002823,
+          "name": "Pawlitzek",
+          "vorname": "René"
+        }
+      ]
+    },
+    {
+      "id": 49465,
+      "kuerzel": "VP_1571402",
+      "bezeichnung": "HTML5 und OPC-UA",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>kennen die M&ouml;glichkeiten von HTML5.</li>\n    <li>k&ouml;nnen Human Machine Interface mit HTML5 &amp; JavaScript umsetzen.</li>\n    <li>k&ouml;nnen erkennen, ob OPC-UA, jQuery, etc. f&uuml;r ganz bestimmte Anwendungsbereiche geeignet sind.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>OPC-UA</li>\n    <li>HTML5</li>\n    <li>JQuery</li>\n    <li>JavaScript</li>\n</ul>",
+      "bibliographie": "<ul>\n    <li>Buch: OPC Unified Architecture <br />ISBN-13: 978-3642088421</li>\n    <li>Buch &uuml;ber HTML5: z.B: A Software Engineer Learns HTML5, JavaScript and jQuery<br />ISBN-13: 978-1493692613<br /></li>\n</ul>",
+      "empfLehrmittel": "Selbststudium",
+      "leistungsnachweis": "Der Kurs wird mittels einer Pr&auml;sentation bewertet.",
+      "kurselemente": [
+        {
+          "id": 49466,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 36,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002823,
+          "name": "Pawlitzek",
+          "vorname": "René"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002823,
+      "name": "Pawlitzek",
+      "vorname": "René"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Human Machine Interface (HMI)"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2015,
+    "beginSemester": "HS",
+    "endJahr": 2015,
+    "endSemester": "HS"
+  }
+}

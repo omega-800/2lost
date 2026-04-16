@@ -1,0 +1,168 @@
+{
+  "id": 43632,
+  "kuerzel": "M_VE3",
+  "bezeichnung": "Virtuelles Entwickeln 3",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Vertiefung der Kompetenzen zur virtuellen Entwicklung komplexer Komponenten und Systeme mit zukunftsgerichteten Ans&auml;tzen.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 43633,
+      "kuerzel": "CADM3",
+      "bezeichnung": "CAD M3",
+      "planinhalt": "<p>Vertiefung der CAD-Kenntnisse in Bezug auf Industriedesign und modernen Konstruktionsans&auml;tzen (z.B. Algorithmic Modelling)</p>",
+      "bibliographie": "",
+      "kurselemente": [
+        {
+          "id": 43634,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "CAD M3"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "CAD M3"
+        }
+      ]
+    },
+    {
+      "id": 43635,
+      "kuerzel": "MBSE",
+      "bezeichnung": "Model Based Systems Engineering",
+      "lernziele": "<ul>\n<li>Die Studierenden kennen den Produkt-Entwicklungsprozess nach VDI 2206.</li>\n<li>Die Studierenden kennen die wichtigsten MBSE (Model-Based Systems-Engineering) Werkzeuge und k&ouml;nne diese einsetzen.</li>\n<li>Die Studierenden k&ouml;nnen mechatronische Systeme mit SysML modellieren (Use-Cases, Requirements, Context-Diagram, System-Architecture, Interfaces).</li>\n<li>Die Studierenden k&ouml;nnen Systemmodelle simulieren und validieren.</li>\n</ul>",
+      "planinhalt": "<p>Grundlagen &nbsp;und Werkzeuge f&uuml;r &nbsp;Model Based Systems-Engineering:</p>\n<ul>\n<li>Systemdenken, &nbsp;V-Modell und System-Architekturen</li>\n<li>Bausteine der Systemmodellierung: Use-Cases, &nbsp;Requirements, System-Blocks, Interfaces und Test-Cases anhand der Modellierungssprache SysML.</li>\n<li>Verhaltensmodelle</li>\n<li>Kennenlernen von Modellierungswerkzeugen (2D und 3D)</li>\n<li>Validierung und Verifikation von Modellen.</li>\n<li>Tracability von System-Modellen im PLM</li>\n</ul>\n<p>&nbsp;</p>\n<p>\"Hand's on\" Umsetzung eines eigenen Systems-Engineering Projektes.</p>\n<p>&nbsp;</p>\n<p>Der Kurs richtet sich an Studierende aus allen Ingenieur-Studieng&auml;ngen.</p>",
+      "bibliographie": "<p>Unterlagen gem&auml;ss Moodle&nbsp;<br />INCOSE Systems Engineering Handbook</p>",
+      "kurselemente": [
+        {
+          "id": 43636,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        },
+        {
+          "id": 43637,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Model Based Systems Engineering"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Model Based Systems Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10244,
+      "bezeichnung": "Produktentwicklung",
+      "kuerzel": "M-I-PE",
+      "url": "allStudies/10244_M-I-PE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 539814,
+      "name": "Nyffenegger",
+      "vorname": "Felix"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 31619,
+      "kuerzel": "M_VE2",
+      "bezeichnung": "Virtuelles Entwickeln 2",
+      "url": "allModules/31619_M_VE2.json"
+    },
+    {
+      "id": 43978,
+      "kuerzel": "M_VE1",
+      "bezeichnung": "Virtuelles Entwickeln 1",
+      "url": "allModules/43978_M_VE1.json"
+    },
+    {
+      "id": 43998,
+      "kuerzel": "M_VE2n",
+      "bezeichnung": "Virtuelles Entwickeln 2",
+      "url": "allModules/43998_M_VE2n.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 43632,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 240,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Abgabe des Miniprojektes (Model Based Systems Engineering)</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Virtuelles entwickeln 3"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Virtual development 3"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "nachfolger": {
+    "id": 43632,
+    "kuerzel": "M_VE3",
+    "bezeichnung": "Virtuelles Entwickeln 3",
+    "url": "allModules/43632_M_VE3.json"
+  }
+}

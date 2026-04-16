@@ -1,0 +1,361 @@
+{
+  "id": 15386,
+  "kuerzel": "M_WrStat",
+  "bezeichnung": "Wahrscheinlichkeitsrechnung und Statistik",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Verst&#228;ndnis der grundlegenden Begriffe aus der Wahrscheinlichkeitsrechnung und Statistik <br />Fertigkeit im Berechnen von Ereigniswahrscheinlichkeiten <br />Kenntnis wichtiger Wahrscheinlichkeitsverteilungen und ihrer Kenngr&#246;ssen <br />F&#228;higkeit, statistische Aussagen kritisch zu bewerten <br />F&#228;higkeit, Wahrscheinlichkeitsexperimente zu simulieren <br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 15387,
+      "kuerzel": "WrStat",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung und Statistik",
+      "planinhalt": "<p>Ereignisse und deren Wahrscheinlichkeit <br />Bedingte Wahrscheinlichkeit <br />Berechnung von Wahrscheinlichkeiten <br />Zufallsvariablen und ihre Wahrscheinlichkeitsverteilung <br />Kenngr&#246;ssen von Wahrscheinlichkeitsverteilungen <br />Rechnen mit Zufallsvariablen <br />Hypothesentests <br />Simulation von Zufallsexperimenten <br /></p>",
+      "kurselemente": [
+        {
+          "id": 15388,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 15389,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Wahrscheinlichkeitsrechnung und Statistik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Theory of Probability and Statistics"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10005,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10005_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10011,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10011_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10109,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10109_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 263,
+      "name": "Müller",
+      "vorname": "Andreas"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 10935,
+      "kuerzel": "M_An2E",
+      "bezeichnung": "Analysis 2 für Elektrotechnik",
+      "url": "allModules/10935_M_An2E.json"
+    },
+    {
+      "id": 10952,
+      "kuerzel": "M_An2I",
+      "bezeichnung": "Analysis 2 für Informatiker",
+      "url": "allModules/10952_M_An2I.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 15386,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung und Statistik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Theory of Probability and Statistics"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "WS",
+    "endJahr": 2013,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 10992,
+    "kuerzel": "M_WrStat",
+    "bezeichnung": "Wahrscheinlichkeitsrechnung und Statistik",
+    "url": "allModules/10992_M_WrStat.json"
+  },
+  "nachfolger": {
+    "id": 15386,
+    "kuerzel": "M_WrStat",
+    "bezeichnung": "Wahrscheinlichkeitsrechnung und Statistik",
+    "url": "allModules/15386_M_WrStat.json"
+  }
+}

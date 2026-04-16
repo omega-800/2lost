@@ -1,0 +1,293 @@
+{
+  "id": 65118,
+  "kuerzel": "M_SW_Eng",
+  "bezeichnung": "Software Engineering Fundamentals",
+  "kreditpunkte": 3,
+  "lernziele": "<ul>\n<li>Werkzeuge und Techniken professioneller Software-Entwicklung kennen und anwenden k&ouml;nnen.</li>\n<li>C++ Programme mit graphischer Benutzerschnittstelle (GUI-Programme) erstellen k&ouml;nnen.</li>\n<li>Durchf&uuml;hrung eines Softwareprojekts in einem Vierer-Team. Im Ausnahmefall besteht die Teamgr&ouml;sse aus 3 oder 5 Studierenden.</li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 65119,
+      "kuerzel": "SwEng",
+      "bezeichnung": "Software Engineering Fundamentals",
+      "planinhalt": "<p>Werkzeuge und Techniken</p><ul><li>Versionsverwaltung mit Git</li><li>Unit Testing</li><li>Generierung der Dokumentation aus dem Source-Code mit Hilfe von Doxygen</li><li>Erstellen von GUI-Programmen mit Hilfe der qt-Library.</li></ul><p>Software Entwicklung</p><ul><li>Vorgehensmodelle</li><li>Requirements Management</li><li>Software Projektmanagement</li><li>Testen von Software (u.a. Unit Testing)</li><li>Refactoring (&Uuml;berarbeitung, Verbesserung bestehender Software)</li><li>Entwurfsprinzipien</li><li>Ereignisbasierte Programmierung, Entwurf von GUI-Programmen</li></ul><p>(&Auml;nderungen vorbehalten)</p>",
+      "kurselemente": [
+        {
+          "id": 65120,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 65121,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Software Engineering Fundamentals"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Software Engineering Fundamentals"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10120,
+      "bezeichnung": "Maschinenbau-Informatik",
+      "kuerzel": "M-I-MI",
+      "url": "allStudies/10120_M-I-MI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10083,
+      "bezeichnung": "Maschinenbau-Informatik",
+      "kuerzel": "M-I-MI",
+      "url": "allStudies/10083_M-I-MI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533876,
+      "name": "Bonderer",
+      "vorname": "Reto"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 28375,
+      "kuerzel": "M_ProgCPP",
+      "bezeichnung": "Programmieren in C++",
+      "url": "allModules/28375_M_ProgCPP.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Software Engineering Fundamentals"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Software Engineering Fundamentals"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 1,
+    "beginJahr": 2026,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 40879,
+    "kuerzel": "M_PMSW_Eng",
+    "bezeichnung": "Projektmanagement und Software Engineering",
+    "url": "allModules/40879_M_PMSW_Eng.json"
+  }
+}

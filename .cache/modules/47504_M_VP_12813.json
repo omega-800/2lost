@@ -1,0 +1,236 @@
+{
+  "id": 47504,
+  "kuerzel": "M_VP_12813",
+  "bezeichnung": "Automation und Mechatronik II a",
+  "kreditpunkte": 15,
+  "lernziele": "<p>Fachkompetenzen:</p>\n<ul>\n    <li>Steuerungstechnik, Softwareentwicklung, Echtzeitprogrammierung, Kinematik, Modellbildung, Regelung, Bahnplaner </li>\n    <li>Die Studierenden verstehen den Aufbau von Robotersteuerungen und k&ouml;nnen Bahnplaner F&uuml;r Roboter entwickeln. </li>\n</ul>\n<p>Methodenkompetenzen:</p>\n<ul>\n    <li>Analyse, Kreativit&auml;t, vernetztes Denken. </li>\n    <li>Die Studierenden k&ouml;nnen den Einsatz von verschiedenen Robotertypen zusammen mit Peripherieger&auml;ten und Sensoren planen und die Realisierung im Labor durchf&uuml;hren. </li>\n    <li>Sie verstehen den Roboter als flexible Automatisierungskomponente, &uuml;berblicken und verstehen die Teilsysteme des Roboters </li>\n</ul>\n<p>Sozialkompetenzen:</p>\n<ul>\n    <li>Kommunikations- und Kooperationsf&auml;higkeit </li>\n</ul>\n<p>Selbstkompetenzen:</p>\n<ul>\n    <li>Selbst&auml;ndigkeit, Verantwortlichkeit </li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 47505,
+      "kuerzel": "VP_1281301",
+      "bezeichnung": "Entwicklung Bahnplaner für Robotersteuerung",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Fachkompetenzen:</p>\n<ul>\n    <li>Steuerungstechnik, Softwareentwicklung, Echtzeitprogrammierung, Kinematik, Modellbildung, Regelung, Bahnplaner. </li>\n    <li>Die Studierenden verstehen den Aufbau von Robotersteuerungen und k&ouml;nnen Bahnplaner f&uuml;r Roboter&nbsp;entwickeln. </li>\n</ul>\n<p>Methodenkompetenzen:</p>\n<ul>\n    <li>Analyse, Kreativit&auml;t, vernetztes Denken </li>\n</ul>\n<p>Sozialkompetenzen:</p>\n<ul>\n    <li>Kommunikations- und Kooperationsf&auml;higkeit </li>\n</ul>\n<p>Selbstkompetenzen:</p>\n<ul>\n    <li>Selbst&auml;ndigkeit, Verantwortlichkeit</li>\n</ul>",
+      "planinhalt": "<p>Teilprojektbearbeitung (Entwurf, Bau oder Realisierung) einer Bahnplanung f&uuml;r Roboter (Software).</p>",
+      "bibliographie": "<p>nach Bedarf</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "Das zu bearbeitende Projekt wird mittels m&uuml;ndlicher Pr&uuml;fung nach Projektabschluss bewertet.",
+      "kurselemente": [
+        {
+          "id": 47506,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000825,
+          "name": "Nagel",
+          "vorname": "Günter"
+        }
+      ]
+    },
+    {
+      "id": 47507,
+      "kuerzel": "VP_1281302",
+      "bezeichnung": "Praktische Anwendung der Zustandsregelung anhand eins realen Modells",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Fachkompetenzen:</p>\n<ul>\n    <li>Kinematik, Modellbildung, Regelung, HIL Simulation und dSpice.</li>\n</ul>\n<p>Methodenkompetenzen:</p>\n<ul>\n    <li>vernetztes Denken.</li>\n</ul>\n<p>Selbstkompetenzen:</p>\n<ul>\n    <li>Selbst&auml;ndigkeit, Verantwortlichkeit.</li>\n</ul>",
+      "planinhalt": "<p>Vertiefung in der Regeltechnik</p>\n<ul>\n    <li>Theorie Zustandsregelung</li>\n    <li>Theorie Digitale Regelung</li>\n    <li>Modellbildung</li>\n</ul>",
+      "bibliographie": "<p>Fachliteratur</p>",
+      "empfLehrmittel": "<p>Selbststudium und Reading Group</p>",
+      "leistungsnachweis": "W&auml;hrend des Semesters wird ein Fachvortrag gehalten.",
+      "kurselemente": [
+        {
+          "id": 47508,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000825,
+          "name": "Nagel",
+          "vorname": "Günter"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000825,
+      "name": "Nagel",
+      "vorname": "Günter"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 47207,
+      "kuerzel": "M_VP_11710",
+      "bezeichnung": "Automation und Mechatronik I",
+      "url": "allModules/47207_M_VP_11710.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Automation and Mechatronics II a"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2012,
+    "beginSemester": "FS",
+    "endJahr": 2012,
+    "endSemester": "FS"
+  }
+}

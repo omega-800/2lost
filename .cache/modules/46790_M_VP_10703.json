@@ -1,0 +1,221 @@
+{
+  "id": 46790,
+  "kuerzel": "M_VP_10703",
+  "bezeichnung": "Dynamik mechanischer Systeme I",
+  "kreditpunkte": 15,
+  "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen ein komplexes mechanisches System mathematisch modellieren.</li>\n    <li>k&ouml;nnen Versuchs- und Messtechniken sicher anwenden.</li>\n    <li>k&ouml;nnen das detaillierte Festigkeitsverhalten von metallischen Werkstoffen beurteilen und einen vollst&auml;ndigen Festigkeitsnachweises durchf&uuml;hren.</li>\n    <li>k&ouml;nnen die Bewegungsgleichungen elastischer Mehrk&ouml;rpersysteme beschreiben.</li>\n</ul>",
+  "vorausgKenntnisse": "Bachelor of Science in Systemtechnik mit Vertiefung in Mechanik und Produktion",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 46791,
+      "kuerzel": "VP_1070301",
+      "bezeichnung": "Rechnerische und/oder versuchtechnische Optimierung einer antriebstechnischen Einheit",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen das detaillierte Festigkeitsverhalten von metallischen Werkstoffen beurteilen.</li>\n    <li>k&ouml;nnen ein komplexes mechanischen Systems mathematisch modellieren.</li>\n    <li>k&ouml;nnen das dynamische Verhalten eines Systems &uuml;ber ein Mehrk&ouml;rpersimulationsprogramm simulieren.</li>\n    <li>k&ouml;nnen die Simulationsergebnisse interpretieren und Optimierungsvorschl&auml;ge davon ableiten.</li>\n    <li>k&ouml;nnen Versuchs- und Messtechniken sicher anwenden.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>FKM-Richtlinie Festigkeitsnachweis</li>\n    <li>Mechanisches Ersatzmodell</li>\n    <li>Versuchstechnik</li>\n    <li>Messtechnik</li>\n</ul>",
+      "bibliographie": "<p>Mayr: Technische Mechanik<br />FKM-Richtlinie: Rechnerischer Festigkeitsnachweis von Maschinenbauteilen<br />Haibach: Betriebsfestigkeit<br />Niemann, Winter, H&ouml;hn: Maschinenelemente</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "Das zu bearbeitende Projekt wird mittels m&uuml;ndlicher Pr&uuml;fung nach Projektabschluss bewertet.",
+      "kurselemente": [
+        {
+          "id": 46792,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001060,
+          "name": "Althaus",
+          "vorname": "Josef"
+        }
+      ]
+    },
+    {
+      "id": 46793,
+      "kuerzel": "VP_1070302",
+      "bezeichnung": "Festigkeitsnachweis, Dynamik mechanischer Systeme",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen das detaillierte Festigkeitsverhalten von metallischen Werkstoffen beurteilen und einen vollst&auml;ndigen Festigkeitsnachweises durchf&uuml;hren.</li>\n    <li>k&ouml;nnen die Bewegungsgleichungen elastischer Mehrk&ouml;rpersysteme beschreiben.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>FKM-Richtlinie Festigkeitsnachweis</li>\n    <li>Mechanisches Ersatzmodell</li>\n</ul>",
+      "bibliographie": "<p>Mayr: Technische Mechanik<br />FKM-Richtlinie: Rechnerischer Festigkeitsnachweis von Maschinenbauteilen<br />Haibach: Betriebsfestigkeit<br />Niemann, Winter, H&ouml;hn: Maschinenelemente<br />Vorlesungsscript TUM: Mehrk&ouml;rpersimulation<br />Simpack-Seminarunterlagen: Multibody Simulation Software</p>",
+      "empfLehrmittel": "<p>Puzzle Methode</p>\n<p>Besuch von Konferenzen/Fachtagungen</p>",
+      "leistungsnachweis": "Dieser Kurs wird mittels eines Fachvortrages bewertet.",
+      "kurselemente": [
+        {
+          "id": 46794,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001060,
+          "name": "Althaus",
+          "vorname": "Josef"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2001060,
+      "name": "Althaus",
+      "vorname": "Josef"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Dynamics of Mechanical Systems I"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2010,
+    "beginSemester": "HS",
+    "endJahr": 2010,
+    "endSemester": "HS"
+  }
+}

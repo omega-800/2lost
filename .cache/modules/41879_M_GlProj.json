@@ -1,0 +1,210 @@
+{
+  "id": 41879,
+  "kuerzel": "M_GlProj",
+  "bezeichnung": "Grundlagen der Projektierung von Tragwerken",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n<li>Verstehen die Bestimmung aller wesentlichen Einwirkungen auf Tragwerke gem&auml;ss Norm SIA 261.</li>\n<li>Verstehen von Bemessungskonzepten zur Gew&auml;hrleistung von Tragsicherheit und Gebrauchstauglichkeit von Bauwerken gem&auml;ss Normen SIA 260 und SIA 261.</li>\n<li>F&auml;higkeit einfache Tragwerke aus der Ingenieurpraxis zu modellieren und von Hand zu bemessen</li>\n<li>Verst&auml;ndnis von Zuverl&auml;ssigkeit und Robustheit von Tragwerken mit Statistik und Wahrscheinlichkeit als Basis.&nbsp;</li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 41880,
+      "kuerzel": "GlProj",
+      "bezeichnung": "Grundlagen der Projektierung von Tragwerken",
+      "lernziele": "<ul>\n<li>Verst&auml;ndnis f&uuml;r den Umgang mit Berechnungsmodellen zur Gew&auml;hrleistung von Tragsicherheit und Gebrauchstauglichkeit von Bauwerken.</li>\n<li>Sicherheit in der Anwendung von Normen SIA 260 und SIA 261 1</li>\n<li>F&auml;higkeit einfache Tragwerke aus der Ingenieurpraxis zu modellieren und von Hand zu bemessen</li>\n<li>Verst&auml;ndnis von Zuverl&auml;ssigkeit und Robustheit von Tragwerken mit Statistik und Wahrscheinlichkeit als Basis.&nbsp;</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Bestimmung aller wesentlichen Einwirkungen auf Tragwerke gem&auml;ss Norm SIA 261.</li>\n<li>Projektierungselemente (Gef&auml;hrdungsbild, Nutzungszustand, Bemessungssituationen, Tragsicherheit, Gebrauchstauglichkeit)</li>\n<li>Einwirkungen auf Tragwerke, Last- und Reduktionsbeiwerte, Bemessungswerte</li>\n<li>Grenzzust&auml;nde der Tragsicherheit und der Gebrauchstauglichkeit</li>\n<li>Modellieren und Bemessen einfacher Tragwerke in der Ingenieurpraxis</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 41881,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 41882,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Grundlagen der Projektierung von Tragwerken"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Fundamentals of Structural Design"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10197,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10197_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10234,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10234_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10261,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10261_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5010785,
+      "name": "Marković",
+      "vorname": "Ivan"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 28467,
+      "kuerzel": "M_Baustoff1",
+      "bezeichnung": "Baustoffe 1",
+      "url": "allModules/28467_M_Baustoff1.json"
+    },
+    {
+      "id": 42046,
+      "kuerzel": "M_Bausta1",
+      "bezeichnung": "Baustatik 1: Statisch bestimmte Systeme",
+      "url": "allModules/42046_M_Bausta1.json"
+    },
+    {
+      "id": 42079,
+      "kuerzel": "M_Baustat2",
+      "bezeichnung": "Baustatik 2: Elastizität und Plastizität",
+      "url": "allModules/42079_M_Baustat2.json"
+    },
+    {
+      "id": 42087,
+      "kuerzel": "M_BAST3",
+      "bezeichnung": "Baustatik 3: Statisch unbestimmte Systeme",
+      "url": "allModules/42087_M_BAST3.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 41879,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "zulassungsBedingung": "",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Grundlagen der Projektierung von Tragwerken"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Fundamentals of Structural Design"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2024,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 40381,
+    "kuerzel": "M_GlProj",
+    "bezeichnung": "Grundlagen der Projektierung von Tragwerken",
+    "url": "allModules/40381_M_GlProj.json"
+  }
+}

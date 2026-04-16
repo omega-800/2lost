@@ -1,0 +1,128 @@
+{
+  "id": 37920,
+  "kuerzel": "M_GBIM",
+  "bezeichnung": "BIM-Grundlagen",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Mit Building Information Modeling (BIM) werden die Kernprozesse der Bauindustrie digitalisiert. 2D-Pl&auml;ne gehen in Modellen auf und Informationen zum Bauwerk, wie beispielsweise Baubeschreibungen und Leistungsverzeichnissen oder Informationen f&uuml;rs Facility Management werden im Modell hinterlegt oder mit dem Modell verkn&uuml;pf.</p>\n<p>Mit der Anwendung der BIM-Methode wird vor Baubeginn ein digitaler Zwilling eines Bauwerks erstellt, womit sich ganz neue M&ouml;glichkeiten er&ouml;ffnen, Automatisierungen und Optimierungen vornehmen lassen.</p>\n<p>Die BIM-Einf&uuml;hrung unterteilt sich in die drei Themengebiete: Einf&uuml;hrung in die Grundlagen der Informationstechnologie, Einf&uuml;hrung in die Grundlagen von Building Information Modeling und Einf&uuml;hrung in die BIM-Konstruktion.</p>\n<p>&nbsp;</p>\n<p>Mit der Einf&uuml;hrung in die Grundlagen der Informationstechnologie wird der Tatsache Rechnung getragen, dass Building Information Modeling auf Softwarel&ouml;sungen basiert und grundlegendes Wissen im Umgang mit Computern, Software, Netzwerken und dem immer wichtiger werdenden Thema IT-Sicherheit erlangt wird.</p>\n<p>Die Einf&uuml;hrung in die Grundlagen von Building Information Modeling (BIM) vermittelt Basiswissen zu Fachbegriffen, zur BIM-Methodik selbst, zu Prozessen und BIM-Rollen, zu relevanten Normen und Richtlinien und zu BIM-relevanten Dokumenten wie den Auftraggeber Informationsanforderungen (AIA) und dem BIM-Projektabwicklungsplan (BAP).</p>\n<p>Die modellbasierte Konstruktion dient zur praxisnahen Umsetzung des erlangen BIM-Grundlagenwissens. Modelle werden erstellt, Informationen hinterlegt und interpretiert. Der Umgang mit Modellen f&uuml;r den Hoch- und Tiefbau wird praxisnah erlernt und ge&uuml;bt.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 37921,
+      "kuerzel": "GBIM",
+      "bezeichnung": "BIM-Grundlagen",
+      "lernziele": "<p>Die Grundlagen der Informationstechnologie, von Hard- und Software sowie Betriebssysteme und Anwendungen erlernen und verstehen. Basiswissen &uuml;ber kleine Netzwerke und deren Protokolle erlangen. Das Design von IT-Systemen verstehen unter Ber&uuml;cksichtigung von IT-Sicherheitsaspekten. Kennenlernen der f&uuml;r die Schweiz relevante Bausoftware-Landschaft.</p>\n<p>Verstehen und praxisgerechtes Anwenden der Grundlagen von BIM / des digitalen Zwillings von Bauwerken unter Mitwirkung und Einfluss der verschiedenen Rollen bei der Planung und Ausf&uuml;hrung.</p>\n<p>Erlernen der F&auml;higkeit BIM-Modelle zu erstellen, mit vorhandenen Modellen umzugehen und Modelle zu interpretieren in Bezug auf die Planung, Ausf&uuml;hrung und der Bewirtschaftung inklusive des Informationsgehaltes je Phase im Bauprozess.</p>",
+      "planinhalt": "<ul>\n<li>Einf&uuml;hrung in Hard- und Software, Betriebssysteme, Anwendungen</li>\n<li>Einf&uuml;hrung in Netzwerke und Protokolle</li>\n<li>IT-Architekturen, Virtualisierung und Cloud, IT-Sicherheit</li>\n<li>Grundlagen Digitalisierung</li>\n<li>BIM Fachbegriffe und Methodik</li>\n<li>Prozesse und BIM-Rollen</li>\n<li>BIM-Normen und Richtlinien</li>\n<li>BIM-Dokumente</li>\n<li>BIM-Konstruktion</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 37924,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 37925,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "BIM-Grundlagen"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "BIM-Fundamentals"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10197,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10197_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5024145,
+      "name": "Beth",
+      "vorname": "Martin"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 37920,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "BIM-Grundlagen"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "BIM-Fundamentals"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2020,
+    "beginSemester": "HS",
+    "endJahr": 2020,
+    "endSemester": "HS"
+  }
+}

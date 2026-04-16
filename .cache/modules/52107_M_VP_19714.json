@@ -1,0 +1,226 @@
+{
+  "id": 52107,
+  "kuerzel": "M_VP_19714",
+  "bezeichnung": "Optimierung eines mechanischen Systems I",
+  "kreditpunkte": 15,
+  "lernziele": "<p>Die Studierenden​</p><ul><li>k&ouml;nnen ein komplexes mechanisches System modellieren, hinsichtlich mechanisch/thermischem Verhalten und/oder Dynamik simulieren und optimieren.</li><li>k&ouml;nnen Versuchs- und Messtechniken sicher anwenden.</li><li>besitzen gute Kenntnisse in der Projektf&uuml;hrung.</li><li>k&ouml;nnen den statischen und dynamischen Festigkeitsnachweis f&uuml;r Maschinenbauteile gem&auml;ss der FKM-Richtlinie durchf&uuml;hren.</li></ul><p>&nbsp;</p>",
+  "vorausgKenntnisse": "<p>Bachelor of Science in Systemtechnik mit Vertiefung in Maschinenbau</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 52108,
+      "kuerzel": "VP_1971401",
+      "bezeichnung": "Optimierung eines mechanischen Systems",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen ein komplexes mechanisches System modellieren, hinsichtlich mechanisch/thermischem Verhalten und/oder Dynamik simulieren und optimieren.</li><li>k&ouml;nnen Versuchs- und Messtechniken sicher anwenden.</li><li>besitzen gute Kenntnisse in der Projektf&uuml;hrung</li></ul>",
+      "planinhalt": "<ul><li>Mechanisches Ersatzmodell</li><li>FEM- und/oder MKS-Simulation</li><li>Versuchs- und Messtechnik</li><li>Projektmanagement</li></ul>",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird anhand eines Berichtes, einer Pr&auml;sentation und einer m&uuml;ndlicher Pr&uuml;fung nach Projektabschluss bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 52109,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001060,
+          "name": "Althaus",
+          "vorname": "Josef"
+        }
+      ]
+    },
+    {
+      "id": 52110,
+      "kuerzel": "VP_1971402",
+      "bezeichnung": "Festigkeitsnachweis mittels FKM-Richtlinien",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen einen Festigkeitsnachweis mittels der FKM-Richtlinie ausf&uuml;hren.</li></ul>",
+      "planinhalt": "<ul><li>&bull;&nbsp;FKM-Richtlinie: Rechnerischer Festigkeitsnachweis f&uuml;r Maschinenbauteile</li></ul>",
+      "bibliographie": "<p>Mayr: Technische Mechanik<br />FKM-Richtlinie: Rechnerischer Festigkeitsnachweis von Maschinenbauteilen</p>",
+      "empfLehrmittel": "<p>Puzzle Methode</p>",
+      "leistungsnachweis": "<p>Dieser Kurs wird mittels Bericht, Fachvortrag und m&uuml;ndlicher Pr&uuml;fung bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 52111,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001060,
+          "name": "Althaus",
+          "vorname": "Josef"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2001060,
+      "name": "Althaus",
+      "vorname": "Josef"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Optimization of a Mechanical System I"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2019,
+    "beginSemester": "HS",
+    "endJahr": 2019,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 51451,
+    "kuerzel": "M_VP_18702",
+    "bezeichnung": "Optimierung eines mechanischen Systems I",
+    "url": "allModules/51451_M_VP_18702.json"
+  }
+}

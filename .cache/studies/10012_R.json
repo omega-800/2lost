@@ -1,0 +1,1649 @@
+{
+  "id": 10012,
+  "kuerzel": "R",
+  "bezeichnung": "Raumplanung",
+  "versionKuerzel": "U1_01",
+  "typ": "FH",
+  "art": "Studiengang",
+  "form": "Vollzeit",
+  "kredits": [
+    {
+      "id": 10199,
+      "minKredits": 56,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)"
+        }
+      ]
+    },
+    {
+      "id": 10205,
+      "minKredits": 56,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)"
+        }
+      ]
+    },
+    {
+      "id": 10255,
+      "minKredits": 20,
+      "kategorien": [
+        {
+          "id": 10075,
+          "kuerzel": "K_DAR_U01",
+          "bezeichnung": "Diplomarbeit Raumplanung  (Übergang)"
+        }
+      ]
+    }
+  ],
+  "studienberater": {
+    "id": 247,
+    "name": "Matta",
+    "vorname": "Thomas"
+  },
+  "zuordnungen": [
+    {
+      "id": 12504,
+      "kuerzel": "mUk_BLMan1",
+      "bezeichnung": "Bau- und Liegenschaftsmanagement 1",
+      "url": "allModules/12504_mUk_BLMan1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12506,
+      "kuerzel": "mUk_BLMan2",
+      "bezeichnung": "Bau- und Liegenschaftsmanagement 2",
+      "url": "allModules/12506_mUk_BLMan2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12796,
+      "kuerzel": "mUk_KoSpezA",
+      "bezeichnung": "Berufsbezogenes Schreiben (Spez.mod.A)",
+      "url": "allModules/12796_mUk_KoSpezA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12532,
+      "kuerzel": "mUk_CadBLR2",
+      "bezeichnung": "CAD BLR 2",
+      "url": "allModules/12532_mUk_CadBLR2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11329,
+      "kuerzel": "M_DAR",
+      "bezeichnung": "Diplomarbeit Raumplanung",
+      "url": "allModules/11329_M_DAR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10075,
+          "kuerzel": "K_DAR_U01",
+          "bezeichnung": "Diplomarbeit Raumplanung  (Übergang)",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 11005,
+      "kuerzel": "M_English1",
+      "bezeichnung": "English Level 1",
+      "url": "allModules/11005_M_English1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11007,
+      "kuerzel": "M_English2",
+      "bezeichnung": "English Level 2",
+      "url": "allModules/11007_M_English2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11008,
+      "kuerzel": "M_English3",
+      "bezeichnung": "English Level 3",
+      "url": "allModules/11008_M_English3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11009,
+      "kuerzel": "M_English4",
+      "bezeichnung": "English Level 4",
+      "url": "allModules/11009_M_English4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10981,
+      "kuerzel": "M_Franz1",
+      "bezeichnung": "Französisch 1",
+      "url": "allModules/10981_M_Franz1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10982,
+      "kuerzel": "M_Franz2",
+      "bezeichnung": "Französisch 2",
+      "url": "allModules/10982_M_Franz2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12700,
+      "kuerzel": "mUk_Fue",
+      "bezeichnung": "Führung",
+      "url": "allModules/12700_mUk_Fue.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11335,
+      "kuerzel": "U_GIS",
+      "bezeichnung": "Geografische Informationssysteme - Übergangsmodul",
+      "url": "allModules/11335_U_GIS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 12718,
+      "kuerzel": "mUk_Gis1",
+      "bezeichnung": "GIS 1 (Geografische Informationssysteme - Einführung)",
+      "url": "allModules/12718_mUk_Gis1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12720,
+      "kuerzel": "mUk_Gis2",
+      "bezeichnung": "GIS 2 (Geografische Informationssysteme - Vertiefung)",
+      "url": "allModules/12720_mUk_Gis2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13048,
+      "kuerzel": "mUk_SoWGP",
+      "bezeichnung": "Ingenieur in Wirtschaft, Gesellschaft und Politik",
+      "url": "allModules/13048_mUk_SoWGP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10977,
+      "kuerzel": "M_Ital1",
+      "bezeichnung": "Italienisch 1",
+      "url": "allModules/10977_M_Ital1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 15667,
+      "kuerzel": "M_Ital2",
+      "bezeichnung": "Italienisch 2",
+      "url": "allModules/15667_M_Ital2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10959,
+      "kuerzel": "M_Jap1",
+      "bezeichnung": "Japanisch 1",
+      "url": "allModules/10959_M_Jap1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10960,
+      "kuerzel": "M_Jap2",
+      "bezeichnung": "Japanisch 2",
+      "url": "allModules/10960_M_Jap2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11145,
+      "kuerzel": "M_KomPla1",
+      "bezeichnung": "Kommunikation 1 für PlanerInnen",
+      "url": "allModules/11145_M_KomPla1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 10949,
+      "kuerzel": "M_KomPla2",
+      "bezeichnung": "Kommunikation 2 für PlanerInnen",
+      "url": "allModules/10949_M_KomPla2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 12798,
+      "kuerzel": "mUk_KultGGl",
+      "bezeichnung": "Kulturgeschichte 1 (Grundlagen)",
+      "url": "allModules/12798_mUk_KultGGl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12802,
+      "kuerzel": "mUk_KultGKl",
+      "bezeichnung": "Kulturgeschichte 4 (Kulturlandschaft)",
+      "url": "allModules/12802_mUk_KultGKl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12806,
+      "kuerzel": "mUk_KultGTg",
+      "bezeichnung": "Kulturgeschichte 5 (Technik- und Architekturgeschichte)",
+      "url": "allModules/12806_mUk_KultGTg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11167,
+      "kuerzel": "M_KgsArch",
+      "bezeichnung": "Kulturgeschichte: Architektur- und Stadtbaugeschichte",
+      "url": "allModules/11167_M_KgsArch.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 11023,
+      "kuerzel": "M_LpFpSp1",
+      "bezeichnung": "Landschafts-; Freiraum-; Städteplanung 1",
+      "url": "allModules/11023_M_LpFpSp1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 11024,
+      "kuerzel": "M_LpFpSp2",
+      "bezeichnung": "Landschafts-; Freiraum-; Städteplanung 2",
+      "url": "allModules/11024_M_LpFpSp2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 16337,
+      "kuerzel": "M_Lp1",
+      "bezeichnung": "Landschaftsplanung 1",
+      "url": "allModules/16337_M_Lp1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 16356,
+      "kuerzel": "M_Lp2",
+      "bezeichnung": "Landschaftsplanung 2",
+      "url": "allModules/16356_M_Lp2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 11044,
+      "kuerzel": "M_Lp5",
+      "bezeichnung": "Landschaftsplanung 5 (Interdisziplinäres Projekt L und R)",
+      "url": "allModules/11044_M_Lp5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 12872,
+      "kuerzel": "mUk_ModMed",
+      "bezeichnung": "Moderation/Partizipation",
+      "url": "allModules/12872_mUk_ModMed.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15988,
+      "kuerzel": "M_NL1",
+      "bezeichnung": "Natur und Landschaft 1",
+      "url": "allModules/15988_M_NL1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 16217,
+      "kuerzel": "M_NL2",
+      "bezeichnung": "Natur und Landschaft 2",
+      "url": "allModules/16217_M_NL2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 12892,
+      "kuerzel": "mUk_NatLa3",
+      "bezeichnung": "Natur und Landschaft 3",
+      "url": "allModules/12892_mUk_NatLa3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12896,
+      "kuerzel": "mUk_OefArb",
+      "bezeichnung": "Öffentlichkeitsarbeit",
+      "url": "allModules/12896_mUk_OefArb.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 18412,
+      "kuerzel": "M_PG1VK1",
+      "bezeichnung": "Planungsgrundlagen 1 / Verkehr 1",
+      "url": "allModules/18412_M_PG1VK1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 18419,
+      "kuerzel": "M_PG2",
+      "bezeichnung": "Planungsgrundlagen 2",
+      "url": "allModules/18419_M_PG2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 18429,
+      "kuerzel": "M_PG3",
+      "bezeichnung": "Planungsgrundlagen 3",
+      "url": "allModules/18429_M_PG3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 18439,
+      "kuerzel": "M_PIM1",
+      "bezeichnung": "Planungsinstrumente und Methodik 1",
+      "url": "allModules/18439_M_PIM1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 18499,
+      "kuerzel": "M_PIM5",
+      "bezeichnung": "Planungsinstrumente und Methodik 5",
+      "url": "allModules/18499_M_PIM5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 18468,
+      "kuerzel": "M_PIM6",
+      "bezeichnung": "Planungsinstrumente und Methodik 6",
+      "url": "allModules/18468_M_PIM6.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 12930,
+      "kuerzel": "mUk_PlgMeth3",
+      "bezeichnung": "Planungsmethodik 3",
+      "url": "allModules/12930_mUk_PlgMeth3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12932,
+      "kuerzel": "mUk_PlgStat1",
+      "bezeichnung": "Planungsstatistik 1 (Übergang)",
+      "url": "allModules/12932_mUk_PlgStat1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12934,
+      "kuerzel": "mUk_PlgStat2",
+      "bezeichnung": "Planungsstatistik 2 (Übergang)",
+      "url": "allModules/12934_mUk_PlgStat2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12952,
+      "kuerzel": "mUk_ProjektR",
+      "bezeichnung": "Projektarbeit",
+      "url": "allModules/12952_mUk_ProjektR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13000,
+      "kuerzel": "mUk_RPlg3",
+      "bezeichnung": "Raumplanung 3",
+      "url": "allModules/13000_mUk_RPlg3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13002,
+      "kuerzel": "mUk_RPlg4",
+      "bezeichnung": "Raumplanung 4",
+      "url": "allModules/13002_mUk_RPlg4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 16383,
+      "kuerzel": "M_RP4",
+      "bezeichnung": "Raumplanung 4",
+      "url": "allModules/16383_M_RP4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 16388,
+      "kuerzel": "M_RP5",
+      "bezeichnung": "Raumplanung 5",
+      "url": "allModules/16388_M_RP5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 13004,
+      "kuerzel": "mUk_RPlg5",
+      "bezeichnung": "Raumplanung 5 (Kommunale Planung 1)",
+      "url": "allModules/13004_mUk_RPlg5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11334,
+      "kuerzel": "U_RP5",
+      "bezeichnung": "Raumplanung 5 - Übergangsmodul",
+      "url": "allModules/11334_U_RP5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 13006,
+      "kuerzel": "mUk_RPlg5a",
+      "bezeichnung": "Raumplanung 5A",
+      "url": "allModules/13006_mUk_RPlg5a.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11336,
+      "kuerzel": "U_RP6_SS06",
+      "bezeichnung": "Raumplanung 6  - Übergangsmodul SS06",
+      "url": "allModules/11336_U_RP6_SS06.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 13008,
+      "kuerzel": "mUk_RPlg6",
+      "bezeichnung": "Raumplanung 6 (Kommunale Planung 2)",
+      "url": "allModules/13008_mUk_RPlg6.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11337,
+      "kuerzel": "U_RP6_SS07",
+      "bezeichnung": "Raumplanung 6 - Übergangsmodul SS07",
+      "url": "allModules/11337_U_RP6_SS07.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 13010,
+      "kuerzel": "mUk_RPlg6a",
+      "bezeichnung": "Raumplanung 6A",
+      "url": "allModules/13010_mUk_RPlg6a.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11160,
+      "kuerzel": "M_RP7",
+      "bezeichnung": "Raumplanung 7",
+      "url": "allModules/11160_M_RP7.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 17207,
+      "kuerzel": "M_RP7",
+      "bezeichnung": "Raumplanung 7",
+      "url": "allModules/17207_M_RP7.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 11163,
+      "kuerzel": "M_ReKgs",
+      "bezeichnung": "Recht 1 und Kulturgeschichte",
+      "url": "allModules/11163_M_ReKgs.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 18509,
+      "kuerzel": "M_RE2",
+      "bezeichnung": "Recht 2",
+      "url": "allModules/18509_M_RE2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 17926,
+      "kuerzel": "M_RE3_R",
+      "bezeichnung": "Recht 3 (R)",
+      "url": "allModules/17926_M_RE3_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 11104,
+      "kuerzel": "M_ReUPB2SP",
+      "bezeichnung": "Recht und Standortpolitik",
+      "url": "allModules/11104_M_ReUPB2SP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 13166,
+      "kuerzel": "mUk_VwlRw",
+      "bezeichnung": "Regionalwirtschaft und öffentliche Finanzen",
+      "url": "allModules/13166_mUk_VwlRw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13028,
+      "kuerzel": "mUk_SEntw",
+      "bezeichnung": "Siedlungsentwurf",
+      "url": "allModules/13028_mUk_SEntw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15660,
+      "kuerzel": "U_SOek4",
+      "bezeichnung": "Siedlungsökologie 4 - Uebergangsmodul WS 06/07",
+      "url": "allModules/15660_U_SOek4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13036,
+      "kuerzel": "mUk_SOek3",
+      "bezeichnung": "Siedlungsökologie und Infrastruktur 3",
+      "url": "allModules/13036_mUk_SOek3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13038,
+      "kuerzel": "mUk_SOek4",
+      "bezeichnung": "Siedlungsökologie und Infrastruktur 4",
+      "url": "allModules/13038_mUk_SOek4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10975,
+      "kuerzel": "M_Span1",
+      "bezeichnung": "Spanisch 1",
+      "url": "allModules/10975_M_Span1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10980,
+      "kuerzel": "M_Span2",
+      "bezeichnung": "Spanisch 2",
+      "url": "allModules/10980_M_Span2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11330,
+      "kuerzel": "U_ST1",
+      "bezeichnung": "Städtebau 1 - Übergangsmodul",
+      "url": "allModules/11330_U_ST1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 16408,
+      "kuerzel": "M_St1A1",
+      "bezeichnung": "Städtebau 1 / Architektur 1",
+      "url": "allModules/16408_M_St1A1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 11331,
+      "kuerzel": "U_ST2",
+      "bezeichnung": "Städtebau 2 - Übergangsmodul",
+      "url": "allModules/11331_U_ST2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 16418,
+      "kuerzel": "M_St2A2",
+      "bezeichnung": "Städtebau 2 / Architektur 2",
+      "url": "allModules/16418_M_St2A2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 17221,
+      "kuerzel": "M_St3Fp1",
+      "bezeichnung": "Städtebau 3 / Freiraumplanung 1",
+      "url": "allModules/17221_M_St3Fp1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 15692,
+      "kuerzel": "M_ST4",
+      "bezeichnung": "Städtebau 4",
+      "url": "allModules/15692_M_ST4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 11169,
+      "kuerzel": "M_ST4",
+      "bezeichnung": "Städtebau 4",
+      "url": "allModules/11169_M_ST4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 16348,
+      "kuerzel": "M_St4Fp2",
+      "bezeichnung": "Städtebau 4 / Freiraumplanung 2",
+      "url": "allModules/16348_M_St4Fp2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 17932,
+      "kuerzel": "M_St5A3",
+      "bezeichnung": "Städtebau 5 / Architektur 3",
+      "url": "allModules/17932_M_St5A3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 18086,
+      "kuerzel": "M_St6Fp4",
+      "bezeichnung": "Städtebau 6 / Freiraumplanung 4",
+      "url": "allModules/18086_M_St6Fp4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 18093,
+      "kuerzel": "M_St7Fp5",
+      "bezeichnung": "Städtebau 7 / Freiraumplanung 5",
+      "url": "allModules/18093_M_St7Fp5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 13256,
+      "kuerzel": "mUk_Typo2",
+      "bezeichnung": "Typografie-Layout-Farbe 2",
+      "url": "allModules/13256_mUk_Typo2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 14116,
+      "kuerzel": "mUk_K_U2R",
+      "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+      "url": "allModules/14116_mUk_K_U2R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11127,
+      "kuerzel": "M_UmwTour",
+      "bezeichnung": "Umwelt und Tourismus",
+      "url": "allModules/11127_M_UmwTour.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 12986,
+      "kuerzel": "mUk_ReUPB2",
+      "bezeichnung": "Umwelt, Planungs- und Baurecht 2",
+      "url": "allModules/12986_mUk_ReUPB2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12988,
+      "kuerzel": "mUk_ReUPB3",
+      "bezeichnung": "Umwelt-, Planungs- und Baurecht 3",
+      "url": "allModules/12988_mUk_ReUPB3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12982,
+      "kuerzel": "mUk_ReUnt",
+      "bezeichnung": "Unternehmensrecht",
+      "url": "allModules/12982_mUk_ReUnt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13106,
+      "kuerzel": "mUk_UrbDes1",
+      "bezeichnung": "Urban Design 1",
+      "url": "allModules/13106_mUk_UrbDes1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13108,
+      "kuerzel": "mUk_UrbDes2",
+      "bezeichnung": "Urban Design 2",
+      "url": "allModules/13108_mUk_UrbDes2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13110,
+      "kuerzel": "mUk_UrbDes3",
+      "bezeichnung": "Urban Design 3",
+      "url": "allModules/13110_mUk_UrbDes3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13112,
+      "kuerzel": "mUk_UrbDes4",
+      "bezeichnung": "Urban Design 4",
+      "url": "allModules/13112_mUk_UrbDes4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 18569,
+      "kuerzel": "M_VKCAD",
+      "bezeichnung": "Verkehr  und CAD",
+      "url": "allModules/18569_M_VKCAD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 11332,
+      "kuerzel": "U_Vk1",
+      "bezeichnung": "Verkehr 1 - Übergangsmodul",
+      "url": "allModules/11332_U_Vk1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 18195,
+      "kuerzel": "M_VK2",
+      "bezeichnung": "Verkehr 2",
+      "url": "allModules/18195_M_VK2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 15574,
+      "kuerzel": "U_Vk2",
+      "bezeichnung": "Verkehr 2 - Übergangsmodul",
+      "url": "allModules/15574_U_Vk2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 13124,
+      "kuerzel": "mUk_Verkehr2B",
+      "bezeichnung": "Verkehr 2-B (Vertiefungskurs Integrierte Verkehrsplanung 2)",
+      "url": "allModules/13124_mUk_Verkehr2B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 18213,
+      "kuerzel": "M_VK3",
+      "bezeichnung": "Verkehr 3",
+      "url": "allModules/18213_M_VK3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 13126,
+      "kuerzel": "mUk_Verkehr3B",
+      "bezeichnung": "Verkehr 3-B (Vertiefungskurs Integrierte Verkehrsplanung 1)",
+      "url": "allModules/13126_mUk_Verkehr3B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13136,
+      "kuerzel": "mUk_VerkR3",
+      "bezeichnung": "Verkehr 3-R",
+      "url": "allModules/13136_mUk_VerkR3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13138,
+      "kuerzel": "mUk_VerkR4",
+      "bezeichnung": "Verkehr 4-R",
+      "url": "allModules/13138_mUk_VerkR4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13140,
+      "kuerzel": "mUk_VerkR5",
+      "bezeichnung": "Verkehr 5 R  (Vertiefungskurs Integrierte Verkehrsplanung 1)",
+      "url": "allModules/13140_mUk_VerkR5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 18514,
+      "kuerzel": "M_VK6",
+      "bezeichnung": "Verkehr 6",
+      "url": "allModules/18514_M_VK6.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 13142,
+      "kuerzel": "mUk_VerkR6",
+      "bezeichnung": "Verkehr 6 R (Vertiefungskurs Integrierte Verkehrsplanung 2)",
+      "url": "allModules/13142_mUk_VerkR6.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11102,
+      "kuerzel": "M_VU1",
+      "bezeichnung": "Verkehr und Umwelt 1",
+      "url": "allModules/11102_M_VU1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 16222,
+      "kuerzel": "M_VU2",
+      "bezeichnung": "Verkehr und Umwelt 2",
+      "url": "allModules/16222_M_VU2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 11107,
+      "kuerzel": "M_VU3",
+      "bezeichnung": "Verkehr und Umwelt 3",
+      "url": "allModules/11107_M_VU3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 11112,
+      "kuerzel": "M_VU4",
+      "bezeichnung": "Verkehr und Umwelt 4",
+      "url": "allModules/11112_M_VU4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 13146,
+      "kuerzel": "mUk_VertSS1",
+      "bezeichnung": "Vertiefungskurs Stadtplanung / Städtebau 1",
+      "url": "allModules/13146_mUk_VertSS1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 13148,
+      "kuerzel": "mUk_VertSS2",
+      "bezeichnung": "Vertiefungskurs Stadtplanung / Städtebau 2",
+      "url": "allModules/13148_mUk_VertSS2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 13158,
+      "kuerzel": "mUk_VProjR1",
+      "bezeichnung": "Vertiefungsprojekt 1 (Raumplanung)",
+      "url": "allModules/13158_mUk_VProjR1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 13160,
+      "kuerzel": "mUk_VProjR2",
+      "bezeichnung": "Vertiefungsprojekt 2 (Raumplanung)",
+      "url": "allModules/13160_mUk_VProjR2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 11077,
+      "kuerzel": "M_VisKom1",
+      "bezeichnung": "Visuelle Kommunikation 1",
+      "url": "allModules/11077_M_VisKom1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 11088,
+      "kuerzel": "M_VisKom2",
+      "bezeichnung": "Visuelle Kommunikation 2",
+      "url": "allModules/11088_M_VisKom2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 13152,
+      "kuerzel": "mUk_VisKom2",
+      "bezeichnung": "Visuelle Kommunikation 2",
+      "url": "allModules/13152_mUk_VisKom2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10061,
+          "kuerzel": "K_U1R",
+          "bezeichnung": "Übergangsmodule Raumplanung 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10970,
+      "kuerzel": "M_VisKom3",
+      "bezeichnung": "Visuelle Kommunikation 3",
+      "url": "allModules/10970_M_VisKom3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 17448,
+      "kuerzel": "M_VisKom3",
+      "bezeichnung": "Visuelle Kommunikation 3",
+      "url": "allModules/17448_M_VisKom3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 13170,
+      "kuerzel": "mUk_VwlVwWp",
+      "bezeichnung": "Volkswirtschaft und Wirtschaftspolitik",
+      "url": "allModules/13170_mUk_VwlVwWp.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10067,
+          "kuerzel": "K_U2R",
+          "bezeichnung": "Übergangsmodule Raumplanung 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10947,
+      "kuerzel": "M_Wasser1",
+      "bezeichnung": "Wasser 1",
+      "url": "allModules/10947_M_Wasser1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11097,
+      "kuerzel": "M_WoeF",
+      "bezeichnung": "Wirtschaft, öffentliche Finanzen und Raumplanung",
+      "url": "allModules/11097_M_WoeF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    }
+  ]
+}

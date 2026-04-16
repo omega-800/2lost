@@ -1,0 +1,98 @@
+{
+  "id": 11199,
+  "kuerzel": "M_BAM",
+  "bezeichnung": "Bachelor-Arbeit Maschinentechnik",
+  "kreditpunkte": 12,
+  "lernziele": "<p>Der angehende Bachelor Maschinentechnik HSR setzt die im Studium erworbenen F&#228;higkeiten und Kenntnisse an einer aktuellen, praxisentsprechenden&nbsp;Problemstellung um. Er erarbeitet und pr&#228;sentiert ein Resultat, das seine Bef&#228;higung zum berufsgerechten Arbeiten belegt.</p>",
+  "vorausgKenntnisse": "<p>bestandene Module bis und mit 5. Semester gem&auml;ss eines Studienplans bzw. abgesprochenen individuellen Studienschwerpunkts</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10376,
+      "kuerzel": "BAM",
+      "bezeichnung": "Bachelorarbeit Maschinentechnik",
+      "planinhalt": "<p>enstprechend der konkreten Aufgabenstellung</p>",
+      "kurselemente": [
+        {
+          "id": 11269,
+          "art": "Bachelor-Arbeit",
+          "anzLektionen": 12,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Bachelorarbeit Maschinentechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Bachelor Thesis Mechanical Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10086,
+          "kuerzel": "M-BA",
+          "bezeichnung": "Bachelor-Arbeit Maschinentechnik",
+          "kreditpunkte": 12
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1261,
+      "name": "Gysin",
+      "vorname": "Hanspeter"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Bachelor-Arbeit Maschinentechnik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Bachelor Thesis Mechanical Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2008,
+    "beginSemester": "FS",
+    "endJahr": 2009,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 11199,
+    "kuerzel": "M_BAM",
+    "bezeichnung": "Bachelor-Arbeit Maschinentechnik",
+    "url": "allModules/11199_M_BAM.json"
+  }
+}

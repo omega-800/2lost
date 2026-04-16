@@ -1,0 +1,154 @@
+{
+  "id": 56326,
+  "kuerzel": "M_AAC",
+  "bezeichnung": "Angriff und Abwehr im Cyberspace",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Kryptografische Grundlagen</p><p>Die Studierenden</p><ul><li>kennen symmetrische und asymmetrische Krypto Verfahren.</li><li>kennen kryptographische Hashfunktionen.</li><li>verstehen die Funktionsweise von digitalen Signaturen.</li><li>verstehen die Funktionsweise und Bedeutung von Zertifikaten.</li></ul><p>Schutzmassnahmen und Angriffe</p><p>Die Studierenden</p><ul><li>verstehen Passw&ouml;rter, deren Einsatz, St&auml;rken und Schw&auml;chen.</li><li>verstehen Seitenkanal-Angriffe und kennen Abwehrmassnahmen.</li><li>kennen bekannte Angriffe der Vergangenheit (Snowden-Files).</li><li>kennen Tempest Angriffe und Schutzmassnahmen.</li></ul><p>Schw&auml;chen von Service-Infrastruktur</p><p>Die Studierenden</p><ul><li>verstehen Penetration Testing und k&ouml;nnen solche Tools bedienen.</li><li>kennen WLAN schw&auml;chen und Angriffsmethoden.</li><li>kennen Web-Basierte Angriffe, vor allem SQL-Injection.</li></ul><p>Sicherheit eigener Computer und Inhalte</p><p>Die Studierenden</p><ul><li>verstehen Festplatten-Verschl&uuml;sselung, Methoden und Tools.</li><li>kennen verschiedene bekannte Schwachstellen von Systemen und die dazu passenden Angriffsszenarien.</li></ul>",
+  "vorausgKenntnisse": "<p>Vorausgesetzt sind die Module Informatik 1 und 2.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 56327,
+      "kuerzel": "AAC",
+      "bezeichnung": "Angriff und Abwehr im Cyberspace",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Kryptografische Grundlagen</p><p>Die Studierenden</p><ul><li>kennen symmetrische und asymmetrische Krypto Verfahren.</li><li>kennen kryptographische Hashfunktionen.</li><li>verstehen die Funktionsweise von digitalen Signaturen.</li><li>verstehen die Funktionsweise und Bedeutung von Zertifikaten.</li></ul><p>Schutzmassnahmen und Angriffe</p><p>Die Studierenden</p><ul><li>verstehen Passw&ouml;rter, deren Einsatz, St&auml;rken und Schw&auml;chen.</li><li>verstehen Seitenkanal-Angriffe und kennen Abwehrmassnahmen.</li><li>kennen bekannte Angriffe der Vergangenheit (Snowden-Files).</li><li>kennen Tempest Angriffe und Schutzmassnahmen.</li></ul><p>Schw&auml;chen von Servie-Infrastrukturen</p><p>Die Studierenden</p><ul><li>verstehen Penetration Testing und k&ouml;nnen solche Tools bedienen.</li><li>kennen WLAN schw&auml;chen und Angriffsmethoden.</li><li>kennen Web-Basierte Angriffe, vor allem SQL-Injection.</li></ul><p>Sicherheit eigener Computer und Inhalte</p><p>Die Studierenden</p><ul><li>verstehen Festplatten-Verschl&uuml;sselung, Methoden und Tools.</li><li>kennen verschiedene bekannte Schwachstellen von Systemen und die dazu passenden Angriffsszenarien.</li></ul>",
+      "planinhalt": "<ul>\n    <li>Grundlagen der Kryptographie, Ver- und Entschl&uuml;sselung</li>\n    <li>Symmetrische und asymmetrische Kryptologieverfahren</li>\n    <li>Typische Werkzeuge zur Verschl&uuml;sselung und Entschl&uuml;sselung</li>\n    <li>Typische Werkzeuge und Angriffsverfahren gegen Kryptologie</li>\n    <li>Alternative Angriffsverfahren und Gegenmassnahmen</li>\n    <li>Sensibilisierung auf Daten- und &Uuml;bertragungssicherheit</li>\n</ul>",
+      "bibliographie": "Vorlesungsunterlagen (eventuell Skript)",
+      "empfLehrmittel": "<p>Vorlesung</p>\n<p>&Uuml;bungen</p>\n<p>Selbststudium</p>\n<p>Tutorials</p>",
+      "bemerkungKurs": "<p>Der Kurs findet an 4 Samstagen (zwei in Buchs und zwei in St. Gallen) &agrave; 7 Lektionen statt (Total 28 Lektionen).</p>\n<p>Unterrichtssprache ist deutsch und/oder Englisch. Die Literatur, Unterlagen und &Uuml;bungen sind zu wesentlichen Teilen in Englisch.</p>",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben.",
+      "kurselemente": [
+        {
+          "id": 56328,
+          "art": "Blockkurs",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 25,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002908,
+          "name": "Kranz",
+          "vorname": "Samuel Josef"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10284,
+      "bezeichnung": "Mechatronik BB",
+      "kuerzel": "MT_BB",
+      "url": "allStudies/10284_MT_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10189,
+          "kuerzel": "Kat_ZTuWM",
+          "bezeichnung": "Zukunftsthema und Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10285,
+      "bezeichnung": "Mechatronik VZ",
+      "kuerzel": "MT_VZ",
+      "url": "allStudies/10285_MT_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10189,
+          "kuerzel": "Kat_ZTuWM",
+          "bezeichnung": "Zukunftsthema und Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002908,
+      "name": "Kranz",
+      "vorname": "Samuel Josef"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2025,
+    "beginSemester": "HS",
+    "endJahr": 2025,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 52630,
+    "kuerzel": "M_AAC",
+    "bezeichnung": "Angriff und Abwehr im Cyberspace",
+    "url": "allModules/52630_M_AAC.json"
+  }
+}

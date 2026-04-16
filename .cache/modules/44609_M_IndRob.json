@@ -1,0 +1,328 @@
+{
+  "id": 44609,
+  "kuerzel": "M_IndRob",
+  "bezeichnung": "Industrielle Robotik",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Robotik ist ein interdisziplin&auml;res Fachgebiet, das in vielf&auml;ltigen industriellen Anwendungen zum Einsatz kommt. Eine Ingenieurin oder ein Ingenieur der Maschinentechnik, Elektrotechnik und Mechatronik kann das Potenzial der industriellen Robotik erkennen und bewerten. Sie/Er besitzt die F&auml;higkeit, ein robotisches System zu konzipieren und Roboter f&uuml;r Produktionsprozesse zu implementieren und zu programmieren. Des Weiteren ist sie/er in der Lage, den m&ouml;glichen Einsatz von kollaborativen Robotern einzusch&auml;tzen.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 44610,
+      "kuerzel": "IndRob",
+      "bezeichnung": "Industrielle Robotik",
+      "lernziele": "<p>Die Teilnehmenden k&ouml;nnen:<br />- das Potential der Robotik f&uuml;r Produktionsprozesse einsch&auml;tzen<br />- passende Robotersysteme und Roboterperipherien evaluieren<br />- die Eigenschaften der Industrieroboter (u.a. Freiheitsgrad, Arbeitsraum und Genauigkeit) bestimmen<br />- Roboterprogramme f&uuml;r Grundprozesse der industriellen Produktion erstellen<br />- Robotische Abl&auml;ufe simulieren und mit realen Robotern testen<br />- Anwendungen der kollaborativen Robotik planen, auslegen und programmieren</p>",
+      "planinhalt": "<ul>\n<li>Aufbau der industriellen Roboter und Handlingssysteme</li>\n<li>Robotische Komponenten und Systeme, inkl. Greifertechnik</li>\n<li>Koordinatentransformation, Roboterkinematik</li>\n<li>Bewegungsart und Interpolation</li>\n<li>Roboterdynamik</li>\n<li>Regelung und Steuerung von Robotern</li>\n<li>Kollaborative Robotik und Mensch-Maschine Interaktion</li>\n<li>Potenzialanalyse, Erstellung eines Umsetzungsplanes f&uuml;r roboterbasierte Prozesse</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 44611,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 44613,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Industrielle Robotik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Industrial Robotics"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10206,
+      "bezeichnung": "Automation und Robotik",
+      "kuerzel": "M-I-AR",
+      "url": "allStudies/10206_M-I-AR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10079,
+      "bezeichnung": "Automation und Robotik",
+      "kuerzel": "M-I-AR",
+      "url": "allStudies/10079_M-I-AR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10240,
+      "bezeichnung": "Automation und Robotik",
+      "kuerzel": "M-I-AR",
+      "url": "allStudies/10240_M-I-AR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10117,
+      "bezeichnung": "Automation und Robotik",
+      "kuerzel": "M-I-AR",
+      "url": "allStudies/10117_M-I-AR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1269,
+      "name": "Koller",
+      "vorname": "Agathe"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 43505,
+      "kuerzel": "M_LinAlg2EC",
+      "bezeichnung": "Lineare Algebra (2 ECTS-Punkte)",
+      "url": "allModules/43505_M_LinAlg2EC.json"
+    },
+    {
+      "id": 43573,
+      "kuerzel": "M_An1M",
+      "bezeichnung": "Analysis 1 (M-I)",
+      "url": "allModules/43573_M_An1M.json"
+    },
+    {
+      "id": 43662,
+      "kuerzel": "M_VekGM",
+      "bezeichnung": "Vektorgeometrie (M-I)",
+      "url": "allModules/43662_M_VekGM.json"
+    },
+    {
+      "id": 43682,
+      "kuerzel": "M_An2M",
+      "bezeichnung": "Analysis 2 (M-I)",
+      "url": "allModules/43682_M_An2M.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 44609,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Praktika absolviert</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Industrielle Robotik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Industrial robotics"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2025,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 24046,
+    "kuerzel": "M_Rob",
+    "bezeichnung": "Robotik",
+    "url": "allModules/24046_M_Rob.json"
+  }
+}

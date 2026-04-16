@@ -1,0 +1,228 @@
+{
+  "id": 20609,
+  "kuerzel": "M_AT",
+  "bezeichnung": "Antriebstechnik",
+  "kreditpunkte": 4,
+  "lernziele": "<p>F&auml;higkeit zur Auslegung geeigneter elektrischer, pneumatischer und hydraulischer&nbsp;Antriebssysteme erwerben<br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 20610,
+      "kuerzel": "FluAn",
+      "bezeichnung": "Fluidisch",
+      "lernziele": "<p style=\"MARGIN: 0cm 3.15pt 0pt 0cm\" class=\"MsoNormal\">&nbsp;</p>",
+      "planinhalt": "<p>&Uuml;berblick &uuml;ber den Aufbau und die Arbeitsweise fluidischer Antriebe.<br />Auslegung der gesamten fluidischen Antriebsl&ouml;sung inkl. Energieversorgung.</p>\n<p>Pneumatik: <br />&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Grundlagen Schaltplanaufbau und Komponenten repetieren<br />&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aufbau und Eigenschaften pneumatischer Antriebskomponenten unterscheiden<br />&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Auslegung, Dimensionierung und Projektierung pneumatischer Anlagen vornehmen<br />&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Praktikum 1 zur Vertiefung und Festigung des Lerninhalts Pneumatik<br />Elektropneumatik<br />&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Grundlagen Schaltplanaufbau und Komponenten repetieren<br />&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Praktikum 2 zur Vertiefung und Festigung des Lerninhalts Elektropneumatik<br />Hydraulik<br />&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Grundlagen Schaltplanaufbau und Komponenten repetieren<br />&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aufbau und Eigenschaften hydraulischer Antriebskomponenten unterscheiden<br />&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Auslegung, Dimensionierung und Projektierung hydraulischer Anlagen vornehmen<br />&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Praktikum 3 zur Vertiefung und Festigung des Lerninhalts Hydraulik<br /></p>",
+      "kurselemente": [
+        {
+          "id": 20611,
+          "art": "Vorlesung",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 20612,
+          "art": "Praktikum",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Fluidisch"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Fluid Drive"
+        }
+      ]
+    },
+    {
+      "id": 20614,
+      "kuerzel": "ElAn",
+      "bezeichnung": "Elektrisch",
+      "lernziele": "<ul>\n    <li>Einf&uuml;hrung in die Grundz&uuml;ge der elektromechanischen Energiewandlung </li>\n    <li>Verst&auml;ndnis &uuml;ber den Aufbau, die Funktionsweise und das Betriebsverhalten der wichtigen elektrischen Maschinen </li>\n    <li>F&auml;higkeit zur Projektierung elektrischer Maschinen </li>\n</ul>\n<pre class=\"modul\">&nbsp;</pre>",
+      "planinhalt": "<ol>&nbsp;</ol>\n    <ul>\n        <li>Die elektrodynamischen Grundgesetze </li>\n        <li>Allgemeine Kennzeichen und Mermale elektrischer Maschinen </li>\n        <li>Gleichstrommaschinen: Aufbau und Wirkungsweise,&nbsp;Grundgleichungen,&nbsp;Betriebsverhalten und Schaltungsvarianten&nbsp; </li>\n        <li>Synchronmaschinen: Bauarten, Funktion,&nbsp;Betriebseigenschaften,&nbsp;Sonderbauformen </li>\n        <li>Drehstrom-Asynchronmaschinen: Bauarten,&nbsp;Schaltungen,&nbsp;Wirkungsweise,&nbsp;Betriebseigenschaften, Kreisdiagramm </li>\n        <li>Steuerung und Regelung elektrischer&nbsp;Maschinen </li>\n        <li>Dimensionierung und Projektierung elektrischer Antriebe&nbsp;&nbsp; </li>\n    </ul>\n    <ol>&nbsp;</ol>",
+      "kurselemente": [
+        {
+          "id": 20615,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 20616,
+          "art": "Uebung",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 20617,
+          "art": "Praktikum",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrisch"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electrical Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1269,
+      "name": "Koller",
+      "vorname": "Agathe"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 20609,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Antriebstechnik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Drive Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2012,
+    "beginSemester": "FS",
+    "endJahr": 2012,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 20609,
+    "kuerzel": "M_AT",
+    "bezeichnung": "Antriebstechnik",
+    "url": "allModules/20609_M_AT.json"
+  }
+}

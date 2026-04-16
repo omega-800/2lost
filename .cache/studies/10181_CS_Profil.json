@@ -1,0 +1,55 @@
+{
+  "id": 10181,
+  "kuerzel": "CS_Profil",
+  "bezeichnung": "Computer Science",
+  "versionKuerzel": "MSE_20",
+  "art": "Profil",
+  "parent": {
+    "id": 10175,
+    "kuerzel": "TuIT",
+    "bezeichnung": "Technik und IT",
+    "url": "allStudies/10175_TuIT.json"
+  },
+  "zuordnungen": [
+    {
+      "id": 37886,
+      "kuerzel": "M_BuBP_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37886_M_BuBP_MT.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 37570,
+      "kuerzel": "M_TuIT_MT_JM",
+      "bezeichnung": "Master Thesis (JM)",
+      "url": "allModules/37570_M_TuIT_MT_JM.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 37888,
+      "kuerzel": "M_BuBP_MT_JM",
+      "bezeichnung": "Master Thesis (JM)",
+      "url": "allModules/37888_M_BuBP_MT_JM.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    }
+  ]
+}

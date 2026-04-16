@@ -1,0 +1,188 @@
+{
+  "id": 11188,
+  "kuerzel": "M_EmbSys2",
+  "bezeichnung": "Embedded Systems 2",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Eigenschaften, Funktion und Aufbau zentraler Systemkomponenten und <br />-konzepte verstehen </li>\n    <li>Grundlagen und Konzepte verteilter Systeme erarbeiten&nbsp; </li>\n    <li>Herausforderungen bei Evaluation, Entwicklung und Test von eingebetteten Systemen kennen und praxisgerecht umsetzen </li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10363,
+      "kuerzel": "EmbSys2",
+      "bezeichnung": "Embedded Systems 2",
+      "planinhalt": "<ul>\n<li>Massenspeicher, Aufzeichnungsverfahren, Dateisysteme, RAID</li><li>Periphere Ger&#228;te- und Feldbusse</li><li>Grundlagen verteilter Systeme</li><li>Architektur und Handhabung ausgew&#228;hlter Mikrocontroller und -prozessoren</li><li>Inhaltliche &#196;nderungen und weitere Themen m&#246;glich</li></ul>",
+      "kurselemente": [
+        {
+          "id": 10856,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        },
+        {
+          "id": 10857,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Embedded Systems 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Embedded Systems 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 896,
+      "name": "Brändle",
+      "vorname": "Erwin"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11187,
+      "kuerzel": "M_EmbSys1",
+      "bezeichnung": "Embedded Systems 1",
+      "url": "allModules/11187_M_EmbSys1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11188,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Embedded Systems 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Embedded Systems 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2012,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 11188,
+    "kuerzel": "M_EmbSys2",
+    "bezeichnung": "Embedded Systems 2",
+    "url": "allModules/11188_M_EmbSys2.json"
+  }
+}

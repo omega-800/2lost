@@ -1,0 +1,143 @@
+{
+  "id": 46125,
+  "kuerzel": "M_TdP",
+  "bezeichnung": "Technik des Publizierens",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Leitidee: Bis vor wenigen Jahren wurden Publikationen mit Word geschrieben und dann einem Setzer zur Endausarbeitung weiter gereicht. Heute ist es f&uuml;r Ingenieure g&auml;ngig, einen Artikel, einen Bericht oder eine Anleitung &uuml;ber die ganze Druckvorstufe selber zu verfassen und direkt an die Druckerei zu liefern. Es gelten dabei sehr hohe Massst&auml;be setztechnischer Art. NTB-Absolventen haben jedoch im Normalfall nur Word-Kenntnisse, obwohl das Desktop-Publishing (DTP) als Basisqualifikation immer mehr vorausgesetzt wird.</p>\n<p>&nbsp;</p>\n<p>Kompetenzen: Die Studierenden sind in der Lage, mit einer professionellen public-domain Software f&uuml;r die Satztechnik aus dem Entwurf eines Textes ein professionell gelayoutetes Dokument f&uuml;r die Druckerei herzustellen, d.h. s&auml;mtliche Prozesse der Druckvorstufe selbstst&auml;ndig auszuf&uuml;hren.</p>",
+  "vorausgKenntnisse": "<p>Ebenfalls vorausgesetzt ist das Modul Elektrotechnik &amp; Lineare Algebra I.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 46126,
+      "kuerzel": "TdP",
+      "bezeichnung": "Technik des Publizierens",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Leitidee: Bis vor wenigen Jahren wurden Publikationen mit Word geschrieben und dann einem Setzer zur Endausarbeitung weiter gereicht. Heute ist es f&uuml;r Ingenieure g&auml;ngig, einen Artikel, einen Bericht oder eine Anleitung &uuml;ber die ganze Druckvorstufe selber zu verfassen und direkt an die Druckerei zu liefern. Es gelten dabei sehr hohe Massst&auml;be setztechnischer Art. NTB-Absolventen haben jedoch im Normalfall nur Word-Kenntnisse, obwohl das Desktop-Publishing (DTP) als Basisqualifikation immer mehr vorausgesetzt wird.</p>\n<p>&nbsp;</p>\n<p>Kompetenzen: Die Studierenden sind in der Lage, mit einer professionellen public-domain Software f&uuml;r die Satztechnik aus dem Entwurf eines Textes ein professionell gelayoutetes Dokument f&uuml;r die Druckerei herzustellen, d.h. s&auml;mtliche Prozesse der Druckvorstufe selbstst&auml;ndig auszuf&uuml;hren.</p>",
+      "planinhalt": "<p>Grundbegriffe der Typografie, Prozesse der Druckvorstufe (prepress) und des Drucks (press), Layout und Formelsatz, &Uuml;bersicht Software Desktop Publishing (DTP).</p>\n<p>Schwerpunkt: DTP anhand Fallstudien und Einsatz f&uuml;r die Bachelor-Arbeit.</p>",
+      "empfLehrmittel": "Zu jedem Thema Einführung mit Vorlesung und Demonstration in PC-Zimmer, danach betreutes Selbststudium bis Stundenende, gefolgt von unbetreutem Selbststudium im gleichen Umfang bis auf die nächste Lektion. Schwerpunkt Unterrichtsstil: Praktikum.",
+      "leistungsnachweis": "Während der Unterrichtszeit wird eine Prüfung geschrieben und eine Fallstudie bearbeitet.",
+      "kurselemente": [
+        {
+          "id": 46127,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 25,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000213,
+          "name": "Strassen",
+          "vorname": "Tyko"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000213,
+      "name": "Strassen",
+      "vorname": "Tyko"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 52859,
+      "kuerzel": "M_DKM",
+      "bezeichnung": "Differentialrechnung & Klassische Mechanik",
+      "url": "allModules/52859_M_DKM.json"
+    },
+    {
+      "id": 52989,
+      "kuerzel": "M_IEM",
+      "bezeichnung": "Integralrechnung & Elektrizität / Magnetismus",
+      "url": "allModules/52989_M_IEM.json"
+    },
+    {
+      "id": 53726,
+      "kuerzel": "M_AKK_I",
+      "bezeichnung": "Allgemeiner kultureller Kontext I",
+      "url": "allModules/53726_M_AKK_I.json"
+    },
+    {
+      "id": 53731,
+      "kuerzel": "M_AKK_II",
+      "bezeichnung": "Allgemeiner kultureller Kontext II",
+      "url": "allModules/53731_M_AKK_II.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 2,
+      "kuerzel": "WSG",
+      "bezeichnung": "Waldau St.Gallen",
+      "ort": "St. Gallen"
+    },
+    {
+      "id": 3,
+      "kuerzel": "CH",
+      "bezeichnung": "Chur",
+      "ort": "Chur"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Technbology of Publishing"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2008,
+    "beginSemester": "FS",
+    "endJahr": 2014,
+    "endSemester": "FS"
+  }
+}

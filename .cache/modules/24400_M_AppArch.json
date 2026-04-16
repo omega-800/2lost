@@ -1,0 +1,290 @@
+{
+  "id": 24400,
+  "kuerzel": "M_AppArch",
+  "bezeichnung": "Application Architecture",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Moderne Unternehmensanwendungen sind verteilte Software-Systeme, deren Architekturen webbasierte User Interfaces mit komponenten- und objektorientierter Applikationslogik und etablierten Datenbank-Technologien kombinieren, um Gesch&auml;ftsprozesse auf allen F&uuml;hrungsebenen zu unterst&uuml;tzen und teilweise zu automatisieren.&nbsp; </p>\n<p>Dieses Modul f&uuml;hrt in den Entwurf und die Implementierung von Anwendungsarchitekturen im Enterprise Computing ein: </p>\n<ul>\n    <li>Sie k&ouml;nnen die definierenden Merkmale von Unternehmensanwendungen und die daraus resultierenden Designherausforderungen und L&ouml;sungsans&auml;tze erkl&auml;ren. </li>\n    <li>Sie k&ouml;nnen die Funktionsweise von Applikationsservern und Integration Middleware allgemein und am Beispiel der Java Enterprise Edition (JEE) beschreiben. </li>\n    <li>Sie k&ouml;nnen service-orientierte Architekturen musterorientiert entwerfen und als Web Services implementieren bzw. integrieren. </li>\n    <li>Sie k&ouml;nnen Anwendungs- und Integrationsarchitekturkonzepte auf konkrete Technologien und Frameworks abbilden und diese vergleichen. </li>\n    <li>Sie k&ouml;nnen wichtige Artefakte in Consulting- und Integrationsmethoden aus der Praxis erkl&auml;ren und anwenden. </li>\n    <li>Sie k&ouml;nnen die gesammelten ersten Erfahrungen mit ausgew&auml;hlten Middleware-Produkten und Open Source Assets in Entwicklungsprojekten anwenden.<br /></li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 24401,
+      "kuerzel": "AppArch",
+      "bezeichnung": "Application Architecture",
+      "lernziele": "Siehe Lernziele auf der Modulebene.",
+      "planinhalt": "<ol>\n    <li>Einsatzszenarien und Anwendungstypen (Praxisbeispiele); funktionale und nichtfunktionale Anforderungen, Design-Herausforderungen und L&ouml;sungsans&auml;tze; technische und organisatorische Rahmenbedingungen </li>\n    <li>Layers und Tiers, Java Enterprise Edition (JEE) als Beispiel eines geschichteten Referenzmodells f&uuml;r Anwendungsarchitekturen </li>\n    <li>Entwurfsmethodik und Architekturmuster im Enterprise Computing &ndash;Auffrischung bereits bekannter Muster und Einf&uuml;hrung dom&auml;nenspezifischer Muster (Fowler, Evans, Hohpe/Woolf): Inversion of Control, Dependency Injection; Presentation Layer, Business Logic Layer, Data Access Layer; Domain-Driven Design </li>\n    <li>Ausgew&auml;hlte JEE-Konzepte und alternative Containertechnologien wie Spring Framework </li>\n    <li>Message-Oriented Middleware (MOM) und Enterprise Integration (EAI) &ndash; Konzepte, Patterns und Technologien: Message Construction, Message Routing, Message Transformation, Message Consumption </li>\n    <li>Prinzipien und Entwurfsmuster f&uuml;r serviceorientierte Architekturen (SOA): Loose Kopplung, Service Contract, Enterprise Service Bus, Service Composition </li>\n    <li>WSDL/SOAP-basierte Web Services und RESTful HTTP zur Implementierung der SOA-Muster </li>\n    <li>Business Process Management (BPM) am Beispiel der Workflow-Sprache BPMN, Applikationsmanagement mit JMX </li>\n    <li>Beispiele f&uuml;r Applikationsserver und Integrations-Middleware &ndash; kommerziell erh&auml;ltliche Produkte, in der Praxis verwendete Open Source Assets </li>\n    <li>Fallstudie aus der Praxis und Ausblick auf Cloud Computing<br /></li>\n</ol>",
+      "kurselemente": [
+        {
+          "id": 24402,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 24403,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Application Architecture"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Application Architecture"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10106,
+      "bezeichnung": "Application Design - Cloud Solutions",
+      "kuerzel": "ADCS",
+      "url": "allStudies/10106_ADCS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10108,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10108_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10161,
+      "bezeichnung": "Data Engineering & Machine Intelligence",
+      "kuerzel": "DaEngMaInt",
+      "url": "allStudies/10161_DaEngMaInt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10127,
+      "bezeichnung": "Generalist",
+      "kuerzel": "GEN",
+      "url": "allStudies/10127_GEN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10230,
+      "bezeichnung": "Frontend Engineering",
+      "kuerzel": "FrEng",
+      "url": "allStudies/10230_FrEng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10107,
+      "bezeichnung": "Network & Cloud-Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10107_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10229,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10229_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5000585,
+      "name": "Zimmermann",
+      "vorname": "Olaf"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 18558,
+      "kuerzel": "M_SE1",
+      "bezeichnung": "Software-Engineering 1",
+      "url": "allModules/18558_M_SE1.json"
+    },
+    {
+      "id": 24019,
+      "kuerzel": "M_Vss",
+      "bezeichnung": "Verteilte SW-Systeme",
+      "url": "allModules/24019_M_Vss.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 24400,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Application Architecture"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Application Architecture"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2014,
+    "beginSemester": "HS",
+    "endJahr": 2015,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 23322,
+    "kuerzel": "M_EnCom",
+    "bezeichnung": "Enterprise Computing",
+    "url": "allModules/23322_M_EnCom.json"
+  },
+  "nachfolger": {
+    "id": 24400,
+    "kuerzel": "M_AppArch",
+    "bezeichnung": "Application Architecture",
+    "url": "allModules/24400_M_AppArch.json"
+  }
+}

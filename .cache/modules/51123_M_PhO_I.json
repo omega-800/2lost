@@ -1,0 +1,211 @@
+{
+  "id": 51123,
+  "kuerzel": "M_PhO_I",
+  "bezeichnung": "Photonik I",
+  "kreditpunkte": 12,
+  "lernziele": "<p>Die Studierenden</p><ul><li>kennen die Grundlagen von Reflexion, Brechung und Dispersion, verstehen das Konzept der optischen Abbildung und kennt wichtige Strahleng&auml;nge.</li><li>kennen die Begriffe zur Beschreibung optischer Grundelemente (Linsen, Spiegel, Filter, usw.) und k&ouml;nnen optische Abbildungen an diesen Grundelementen konstruieren und berechnen.</li><li>k&ouml;nnen optische Grundelemente zu einfachen optischen Instrumenten zusammensetzen, k&ouml;nnen die optische Abbildung durch diese Systeme konstruieren und berechnen und kennen deren Anwendungen.</li><li>k&ouml;nnen in einem einschl&auml;gigen Optik-Simulationsprogramm (sequentiell) einfache optische Systeme und Instrumente aufbauen, bewerten und optimieren.</li><li>kennen die wichtigsten Werkstoffe der Optik und deren optische Eigenschaften.</li><li>k&ouml;nnen optische Werkstoffe anwendungsbezogen ausw&auml;hlen.</li><li>kennen ausgew&auml;hlte Verfahren zur Bestimmung optischer Werkstoffeigenschaften.</li><li>kennen die unterschiedlichen formgebenden Bearbeitungsverfahren um optische Bauelemente herzustellen sowie die unterschiedlichen Schleif- und Polierverfahren f&uuml;r optische Oberfl&auml;chen.</li><li>kennen exemplarisch den Prozessablauf ausgew&auml;hlter Fertigungstechnologien.</li><li>kennen die physikalischen Prinzipien der Halbleitertheorie.</li><li>kennen den Aufbau und die Funktionsweise der wichtigsten analogen Bauelemente.</li><li>kennen die Vorgehensweise bei der Schaltungsentwicklung.</li><li>kennen die wichtigsten analogen Schaltungstopologien.</li><li>k&ouml;nnen Schaltungen mit den analogen Standardbauteilen entwerfen.</li></ul>",
+  "vorausgKenntnisse": "<p>Vorausgesetzt sind die vier Module Mechanik &amp; Werkstoffe&nbsp;/ Chemie I, Mechanik &amp; Werkstoffe&nbsp;/ Chemie II, Elektrotechnik &amp; Lineare Algebra I sowie Elektrotechnik &amp; Lineare Algebra II.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 51124,
+      "kuerzel": "PhO_I_G",
+      "bezeichnung": "Grundlagen optischer Systeme",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>kennen die Grundlagen von Reflexion, Brechung und Dispersion, verstehen das Konzept der optischen Abbildung und kennen wichtige Strahleng&auml;nge.</li><li>kennen die Begriffe zur Beschreibung optischer Grundelemente (Linsen, Spiegel, Filter, usw.) und k&ouml;nnen optische Abbildungen an diesen Grundelementen konstruieren und berechnen.</li><li>k&ouml;nnen optische Grundelemente zu einfachen optischen Instrumenten zusammensetzen, k&ouml;nnen die optische Abbildung durch diese Systeme konstruieren und berechnen und kennen deren Anwendungen.</li><li>k&ouml;nnen in einem einschl&auml;gigen Optik-Simulationsprogramm (sequentiell) einfache optische Systeme und Instrumente aufbauen, bewerten und optimieren.</li></ul>",
+      "planinhalt": "<p>Grundlagen der Strahlenoptik</p><ul><li>geradlinige Ausbreitung, Fermat&#39;sches Prinzip, Welle-Teilchen-Dualismus, Reflexion, Brechung, Brechungsindex, Dispersion, Abbe-Zahl</li></ul><p>Optische Abbildung</p><ul><li>Brechung an sph&auml;rischer Fl&auml;che, Brennweite, Abbildungsgleichung d&uuml;nne Linse, Abbildungsgleichung sph&auml;rischer Spiegel</li><li>Bildkonstruktion mit Konstruktionsstrahlen f&uuml;r d&uuml;nne Linse, Spiegel</li><li>Dicke Linsen und Matrixmethode</li><li>Aberrationen</li><li>Blenden und ihre Wirkung (Apertur-/Feldblende), Sch&auml;rfentiefe, Pupillen und Luken, &Ouml;ffnungsverh&auml;ltnis und Blendenzahl, Asph&auml;ren</li><li>Reflexionsprismen und Spiegel (gefaltete Strahleng&auml;nge)</li></ul><p>Optische Systeme</p><ul><li>Optik-Design Beispiel - Vorgabe Spezifikationen --&gt; Vorgehensweise, worauf ist zu achten? (Kamerasensor gegeben, DOF, FOV, etc. vorgeben)</li><li>Beugung (Kreisblende) / Rayleigh / Abbildung / Aufl&ouml;sungsverm&ouml;gen (Mikroskop, &hellip;)</li><li>Performance-Beurteilung optischer Systeme (PSF, Zernike, Seidel)</li></ul>",
+      "bibliographie": "<p>Hecht, E: Optik</p>",
+      "empfLehrmittel": "<p>Vorlesung, &Uuml;bungen, Optiksimulation</p>",
+      "leistungsnachweis": "<p>W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Werkstoffe und Fertigungsverfahren sowie Grundlagen der Elektronik statt.</p>",
+      "kurselemente": [
+        {
+          "id": 51125,
+          "art": "Klassenunterricht",
+          "anzLektionen": 6,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001325,
+          "name": "Rinner",
+          "vorname": "Stefan"
+        }
+      ]
+    },
+    {
+      "id": 51126,
+      "kuerzel": "PhO_I_E",
+      "bezeichnung": "Grundlagen der Elektronik",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>kennen die physikalischen Prinzipien der Halbleitertheorie.</li><li>kennen den Aufbau und die Funktionsweise der wichtigsten analogen Bauelemente.</li><li>kennen die Vorgehensweise bei der Schaltungsentwicklung.</li><li>kennen die wichtigsten analogen Schaltungstopologien.</li><li>k&ouml;nnen Schaltungen mit den analogen Standardbauteilen entwerfen.</li></ul>",
+      "planinhalt": "<p>Einf&uuml;hrung in die Halbleitertheorie<br />Grundlagen der elektrischen Eigenschaften der wichtigsten analogen Bauelemente</p><ul><li>Diode, Halbleiterdioden mit speziellen Eigenschaften</li><li>Bipolartransistor, Sperrschicht und MOS-Feldeffekttransistor</li><li>Operationsverst&auml;rker</li></ul><p>Grundschaltungstopologien</p><ul><li>Dioden, Transistoren und Operationsverst&auml;rkern</li></ul><p>Wichtige analoge Schaltungstopologien</p><ul><li>Oszillatoren, Schmitt-Trigger, Kippschaltungen, Integratoren, etc.</li></ul>",
+      "bibliographie": "<p>Tietze, Schenk: Halbleiterschaltungstechnik<br />Horowitz, Hill: The Art of Electronics</p>",
+      "empfLehrmittel": "<p>Vorlesung, &Uuml;bungen, Labordemonstrationen, Selbststudium, Labor&uuml;bung / Projektarbeit</p>",
+      "leistungsnachweis": "<p>W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben und eine Labor&uuml;bung bewertet. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Werkstoffe und Fertigungsverfahren sowie Grundlagen optischer Systeme statt.</p>",
+      "kurselemente": [
+        {
+          "id": 51127,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001529,
+          "name": "Piai",
+          "vorname": "Guido"
+        }
+      ]
+    },
+    {
+      "id": 51128,
+      "kuerzel": "PhO_I_W",
+      "bezeichnung": "Werkstoffe und Fertigungsverfahren",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>kennen die wichtigsten Werkstoffe der Optik (Gl&auml;ser, optische Kristalle, Polymere) und deren optische Eigenschaften.</li><li>k&ouml;nnen optische Werkstoffe anwendungsbezogen ausw&auml;hlen.</li><li>kennen ausgew&auml;hlte Verfahren zur Bestimmung optischer Werkstoffeigenschaften.</li><li>kennen die unterschiedlichen formgebenden Bearbeitungsverfahren um optische Bauelemente herzustellen (Drehen, Fr&auml;sen, Bohren von Gl&auml;sern; Abformen von Gl&auml;sern &ndash; z.B. Blankpressen-&nbsp; und Kunststoffen) sowie die unterschiedlichen Schleif- und Polierverfahren f&uuml;r optische Oberfl&auml;chen.</li><li>kennen exemplarisch den Prozessablauf ausgew&auml;hlter Fertigungs-technologien, z.B. Linsenfertigung (Sph&auml;ren, Asph&auml;ren, &hellip;).<br />&nbsp;</li></ul>",
+      "planinhalt": "<p>Optische Werkstoffe:</p><ul><li>Aufbau von Gl&auml;sern, Kunststoffen, Kristallen</li><li>Optische, mechanische, elektrische und thermische Eigenschaften</li><li>Optische Kenngr&ouml;ssen und ihre Bestimmung (Brechzahl, Dispersion, Abbe-Zahl, Reflexion / Absorption / Transmission, &hellip;) zur Interpretation von Diagrammen und Datenbl&auml;ttern</li><li>Auswahl optischer Werkstoffe f&uuml;r spezifische Anwendungen</li></ul><p>Urformen:</p><ul><li>Urformende Verfahren f&uuml;r Gl&auml;ser zur Herstellung von Gobs und Presslingen, Glasbl&ouml;cken, Flachglas</li><li>Urformende Verfahren f&uuml;r Kunststoffe: Giessen, Spritzgiessen, Heisspr&auml;gen, Spritzpr&auml;gen</li><li>Urformende Verfahren f&uuml;r Kristallwerkstoffe: Z&uuml;chtung aus Gasphase, L&ouml;sung und Schmelze</li></ul><p>Umformen:</p><ul><li>Pressen, Senken und Ziehen von optischem Glas</li><li>Prozesse und Anwendungsgebiete</li></ul><p>Ausgew&auml;hlte trennende Fertigungsverfahren:</p><ul><li>Zerteilen (Brechen und Spalten, S&auml;gen)</li><li>Spanen (Drehen, Fr&auml;sen &amp; Bohren, Schleifen, L&auml;ppen &amp; Polieren)</li><li>Reinigen</li></ul><p>Ausgew&auml;hlte F&uuml;geverfahren:</p><ul><li>L&ouml;sbare, stoffschl&uuml;ssige Verbindungen im technologischen Prozess (Blocken, Kitten, Kleben, Gipsen, Ansprengen, Spannen)</li><li>Montageprozesse optischer Bauelemente (Zentrieren, Richten &amp; Justieren, Feinkitten, Kleben, L&ouml;ten, Fassen, Diffusionsschweissen)</li></ul><p>Fertigungstechnologien:</p><ul><li>L&ouml;sungswege zur Herstellung von Bauelemente (exemplarisch)</li></ul>",
+      "bibliographie": "<p>Bliedtner, J.; Gr&auml;fe, G.: Optiktechnologie:&nbsp; Grundlagen, Verfahren,&nbsp; Anwendungen, Beispiele (Hardcover / ebook)</p>",
+      "empfLehrmittel": "<p>Vorlesung, &Uuml;bungen</p>",
+      "leistungsnachweis": "<p>Es findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Grundlagen optischer Systeme sowie Grundlagen der Elektronik statt.</p>",
+      "kurselemente": [
+        {
+          "id": 51129,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002699,
+          "name": "Lüthi",
+          "vorname": "Stefan Robert"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10337,
+      "bezeichnung": "Photonik",
+      "kuerzel": "PhO",
+      "url": "allStudies/10337_PhO.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 10338,
+      "bezeichnung": "Photonik",
+      "kuerzel": "PhO",
+      "url": "allStudies/10338_PhO.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 3
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000150,
+      "name": "Michler",
+      "vorname": "Markus"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 51130,
+      "kuerzel": "M_PhO_II",
+      "bezeichnung": "Photonik II",
+      "url": "allModules/51130_M_PhO_II.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 51123,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Am Ende des Semesters findet eine abgesetzte Modulschlusspr&uuml;fung in drei Teilen statt. Die Kurse Grundlagen optischer Systeme, Werkstoffe und Fertigungsverfahren und Grundlagen der Elektronik bilden je einen Teil der abgesetzten Modulschlusspr&uuml;fung.</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Photonics I"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2018,
+    "beginSemester": "HS",
+    "endJahr": 2018,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 49588,
+    "kuerzel": "M_PhO_I",
+    "bezeichnung": "Photonik I",
+    "url": "allModules/49588_M_PhO_I.json"
+  },
+  "nachfolger": {
+    "id": 51123,
+    "kuerzel": "M_PhO_I",
+    "bezeichnung": "Photonik I",
+    "url": "allModules/51123_M_PhO_I.json"
+  }
+}

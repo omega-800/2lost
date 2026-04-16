@@ -1,0 +1,161 @@
+{
+  "id": 29983,
+  "kuerzel": "U_GIS1",
+  "bezeichnung": "GIS 1 (Übergang)",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Vertiefung von Kenntnissen&nbsp;f&uuml;r den Einsatz von GIS in Planung und Gestaltung.</p>",
+  "vorausgKenntnisse": "<p>Im Kurs GIS 1 werden Kenntnisse in der Nutzung der Geodaten Infrastruktur (GDI) an der HSR vorausgesetzt. Diese Kompetenz kann im Modul Landschaftsplanung 1 erworben werden.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 29984,
+      "kuerzel": "Gis1u",
+      "bezeichnung": "Geografische Informationssysteme ",
+      "lernziele": "<p>Grundkenntnisse geografische Informationssysteme<br />GIS als praxis-orientiertes Arbeitswerkzeug in raum- und landschaftsplanerischen Projekten</p>",
+      "planinhalt": "<p>Praxisorientiertes Arbeiten am GIS-System (ArcGIS);<br />Geodaten;<br />Geodaten-Organisation;<br />Geodaten-Erfassung;<br />Geodaten-Darstellung;<br />GIS-Methoden- und Analysen;<br />GIS-Projekte und Projektorganisation;<br />Rechtliche Aspekte betreffend GIS und Geodaten;<br />GIS und Geodaten im Internet</p>",
+      "kurselemente": [
+        {
+          "id": 29985,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Geografische Informationssysteme "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Geographical Information Systems"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10002,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10002_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10061,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10061_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10112,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10112_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10152,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10152_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 6,
+      "name": "Schmitt",
+      "vorname": "Hans-Michael"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11077,
+      "kuerzel": "M_VisKom1",
+      "bezeichnung": "Visuelle Kommunikation 1",
+      "url": "allModules/11077_M_VisKom1.json"
+    },
+    {
+      "id": 11088,
+      "kuerzel": "M_VisKom2",
+      "bezeichnung": "Visuelle Kommunikation 2",
+      "url": "allModules/11088_M_VisKom2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Geografische Informationssysteme "
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Geographical Information Systems"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2017,
+    "beginSemester": "HS",
+    "endJahr": 2017,
+    "endSemester": "HS"
+  }
+}

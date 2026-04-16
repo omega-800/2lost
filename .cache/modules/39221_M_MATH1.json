@@ -1,0 +1,158 @@
+{
+  "id": 39221,
+  "kuerzel": "M_MATH1",
+  "bezeichnung": "Mathematik 1",
+  "kreditpunkte": 4,
+  "lernziele": "<p><strong>Methodenkompetenzen:</strong></p>\n<p>Die Teilnehmenden k&ouml;nnen:</p>\n<ul>\n<li>Einfache naturwissenschaftliche Sachverhalte in mathematische Modelle &uuml;berf&uuml;hren und l&ouml;sen</li>\n<li>Optimierungsaufgaben erkennen und im Falle einer Dimension formulieren und mit Hilfe der Ableitung l&ouml;sen</li>\n<li>Funktionen mit Hilfe von Graphen veranschaulichen und interpretieren</li>\n</ul>\n<p><strong>Selbstkompetenzen:</strong></p>\n<p>Die Teilnehmenden k&ouml;nnen:</p>\n<ul>\n<li>Umgangssprachlich, vage formulierte Probleme in eine mathematisch pr&auml;zise Formulierung &uuml;berf&uuml;hren</li>\n</ul>\n<p><strong>Sozialkompetenzen:</strong></p>\n<p>Die Teilnehmenden k&ouml;nnen:</p>\n<ul>\n<li>Eine exakte Sprache verwenden, um mit Kollegen &uuml;ber den L&ouml;sungsweg eines mathematisch, naturwissenschaftlichen Sachverhalts zu diskutieren</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 39222,
+      "kuerzel": "MATH1",
+      "bezeichnung": "Mathematische Grundlagen 1",
+      "lernziele": "<p>Die Teilnehmenden k&ouml;nnen:</p><ul><li>Einfache Gleichungen, die aus elementaren Funktionen aufgebaut sind l&ouml;sen</li><li>Aus elementaren Funktionen aufgebaute Terme von Hand ableiten und in einfachen F&auml;llen integrieren</li><li>Graphen von Funktionen darstellen und interpretieren</li><li>Funktionen mit Hilfe von Kurvendiskussionen analysieren</li><li>Die Bedeutung von Ableitung und Integral in mathematisch naturwissenschaftlichen Aufgaben erkl&auml;ren</li></ul>",
+      "planinhalt": "<ul><li>Definition einer Funktion und ihrer Umkehrfunktion</li><li>Eigenschaften von Funktionen</li><li>Grad- und Bogenmass</li><li>Rechengesetze, Funktionsgraphen und Einsatzgebiete von Polynomen und elementaren Funktionen</li><li>Umformen von Termen und L&ouml;sen von Gleichungen, die aus elementaren Funktionen bestehen</li><li>Differential- und Integralrechnung reellwertiger Funktionen in einer Variable</li><li>Hauptsatz der Differential- und Integralrechnung</li><li>Anwendungen der Differential- und Integralrechnung</li></ul>",
+      "kurselemente": [
+        {
+          "id": 39223,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 39224,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Mathematische Grundlagen 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Mathematics 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10151,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10151_WING.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10202,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10202_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10272,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10272_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 538489,
+      "name": "Augenstein",
+      "vorname": "Oliver"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    },
+    {
+      "id": 14,
+      "kuerzel": "LSG_SG",
+      "bezeichnung": "Lerchenfeld WING",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 39221,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Mathematik 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Mathematics 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2021,
+    "beginSemester": "HS",
+    "endJahr": 2025,
+    "endSemester": "HS"
+  }
+}

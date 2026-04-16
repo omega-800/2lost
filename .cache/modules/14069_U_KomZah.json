@@ -1,0 +1,108 @@
+{
+  "id": 14069,
+  "kuerzel": "U_KomZah",
+  "bezeichnung": "Komplexe Zahlen - Übergangsmodul (M)",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Beherrschen des Rechnens mit komplexen Zahlen </p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 14067,
+      "kuerzel": "uKomZah",
+      "bezeichnung": "Komplexe Zahlen - Übergang (M)",
+      "planinhalt": "<p>Der Begriff der komplexen Zahl, die verschiedenen Darstellungsarten <br />Die vier Grundoperationen, Potenzen und Wurzeln <br />Komplexe Funktionen: die allgemeine lineare Abbildung (M&#246;biustransformation), speziell die Inversion, die Exponential- und die Logarithmusfunktion</p>",
+      "kurselemente": [
+        {
+          "id": 14068,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Komplexe Zahlen - Übergang (M)"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Complex Numbers - Transition (M)"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 106,
+      "name": "Böhi",
+      "vorname": "Hannes"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 14069,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Komplexe Zahlen - Übergangsmodul (M)"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Complex Numbers - Bridging Module (M)"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2005,
+    "endSemester": "WS"
+  }
+}

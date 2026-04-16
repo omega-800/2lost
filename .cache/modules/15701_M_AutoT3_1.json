@@ -1,0 +1,230 @@
+{
+  "id": 15701,
+  "kuerzel": "M_AutoT3_1",
+  "bezeichnung": "Automatisierungstechnik 3",
+  "kreditpunkte": 6,
+  "lernziele": "<p>Grundlegendes Verst&auml;ndnis der elektrischen Maschinen und elektromechanischen Energiewandlung, Kenntnisse &uuml;ber Zuordnung zwischen Maschine und Anwendung, grundlegendes Verst&auml;ndnis der elektrischen Antriebe, F&auml;higkeit Antriebsstr&auml;nge auszulegen.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 15702,
+      "kuerzel": "RegT2M_1",
+      "bezeichnung": "Regelungstechnik 2 (M)",
+      "lernziele": "<ul> <li>Beherrschen der Beschreibungsm&#246;glichkeiten f&#252;r dynamische und r&#252;ckgekoppelte Systeme</li><li>Kenntnis der Beschreibungsm&#246;glichkeiten dynamischer Systeme im Bildbereich</li><li>Auslegung von Regelkreisen im Frequenzbereich</li></ul>",
+      "planinhalt": "<ul>\n<li>Uebertragungsfunktionen, Laplacetransformation</li><li>Mehrschleifige Regelkreise</li><li>Verfahren f&#252;r den Reglerentwurf</li><li>Analyse praktischer Regelstrecken</li><li>Simulation</li></ul>",
+      "kurselemente": [
+        {
+          "id": 15703,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        },
+        {
+          "id": 15704,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Regelungstechnik 2 (M)"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Control Systems 2 (M)"
+        }
+      ]
+    },
+    {
+      "id": 15706,
+      "kuerzel": "ElektrT2_1",
+      "bezeichnung": "Elektrotechnik 2",
+      "planinhalt": "<p><strong>Elektrische Maschinen und Antriebe<br /></strong>1.&nbsp;Einleitung<br />a.&nbsp;Elektrodynamische Grundgesetze (Kr&auml;fte, Felder, Energieumwandlung)<br />b.&nbsp;Magnetkreis-Begriffe, Permanentmagnet, Reluktanzkraft<br /><br />2.&nbsp;Elektrische Maschinen<br />a.&nbsp;Gleichstrommaschine <br />b.&nbsp;Schrittmotor <br />c.&nbsp;Dreiphasenwechselstrom, Drehfelderzeugung<br />d.&nbsp;Synchronmaschine<br />e.&nbsp;Asynchronmaschine<br />f.&nbsp;Vergleich der elektrischen Maschinen, Zuordnung von Maschine und Anwendung<br /><br />3.&nbsp;Elektrische Antriebe<br />a.&nbsp;Aufbau, Systematik, Grundlagen<br />b.&nbsp;Statisches und dynamisches Verhalten<br />c.&nbsp;Dimensionierung, Modellierung, Simulationen<br />d.&nbsp;Verluste und Erw&auml;rmung<br />e.&nbsp;Antriebsauslegung (Antriebsart, Motorauslegung, Netzeinspeisung)<br /><br />4.&nbsp;Praktisches Beispiel der Antriebsauslegung <br /></p>",
+      "kurselemente": [
+        {
+          "id": 15767,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 15765,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 90,
+          "harteGrenze": true
+        },
+        {
+          "id": 15766,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrotechnik 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electrical Engineering 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 6
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 540047,
+      "name": "Smajic",
+      "vorname": "Jasmin"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11037,
+      "kuerzel": "M_Math2M",
+      "bezeichnung": "Mathematik für Maschinentechnik 2",
+      "url": "allModules/11037_M_Math2M.json"
+    },
+    {
+      "id": 11114,
+      "kuerzel": "M_ElektrGL",
+      "bezeichnung": "Elektrotechnik: Grundlagen",
+      "url": "allModules/11114_M_ElektrGL.json"
+    },
+    {
+      "id": 11155,
+      "kuerzel": "M_AutoT2",
+      "bezeichnung": "Automatisierungstechnik 2",
+      "url": "allModules/11155_M_AutoT2.json"
+    },
+    {
+      "id": 15792,
+      "kuerzel": "M_An1M",
+      "bezeichnung": "Analysis 1 für Maschinentechnik",
+      "url": "allModules/15792_M_An1M.json"
+    },
+    {
+      "id": 16606,
+      "kuerzel": "M_Math3M",
+      "bezeichnung": "Mathematik für Maschinentechnik 3",
+      "url": "allModules/16606_M_Math3M.json"
+    },
+    {
+      "id": 16617,
+      "kuerzel": "M_Math4M",
+      "bezeichnung": "Mathematik für Maschinentechnik 4",
+      "url": "allModules/16617_M_Math4M.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 15701,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 150,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Kurs Elektrotechnik 2: Abgabe von 2 Laborberichten mit Bewertung &gt;= 4.0<br />Kurs Regelungstechnik 2 (M): Erfolgreiche Teilnahme an 75 % der Praktikas und Abgabe von 2 Laborberichten mit Bewertung &gt;= 4.0</p> <p>&nbsp;</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Automatisierungstechnik 3"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Automation 3"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "WS",
+    "endJahr": 2011,
+    "endSemester": "HS"
+  }
+}

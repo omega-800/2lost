@@ -1,0 +1,195 @@
+{
+  "id": 26087,
+  "kuerzel": "M_PhAI",
+  "bezeichnung": "Physik Anwendungen für Informatik",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Grundlegendes physikalisches Verst&auml;ndnis f&uuml;r Natur und Technik. Aufstellen und L&ouml;sen von Differentialgleichungen. Numerisches Programmieren in Python. Anwendung physikalischer Grundgesetze in der Informatik.</p>",
+  "vorausgKenntnisse": "<p>&nbsp;</p>\n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 26088,
+      "kuerzel": "PhAI",
+      "bezeichnung": "Physik Anwendungen für Informatik",
+      "lernziele": "<p>Grundlegendes physikalisches Verst&auml;ndnis f&uuml;r Natur und Technik. Aufstellen und L&ouml;sen von Differentialgleichungen. Numerisches Programmieren in Python. Anwendung physikalischer Grundgesetze in der Informatik.</p>",
+      "planinhalt": "<ul>\n<li>Physikalische Einheiten und Gr&ouml;ssen</li>\n<li>Newtonsche Mechanik</li>\n<li>Differentialgleichungen</li>\n<li>Energie, Arbeit, Leistung</li>\n<li>Elektrizit&auml;t</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 26089,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 26091,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Physik Anwendungen für Informatik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Physics for Software Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10106,
+      "bezeichnung": "Application Design - Cloud Solutions",
+      "kuerzel": "ADCS",
+      "url": "allStudies/10106_ADCS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 538896,
+      "name": "Nordborg",
+      "vorname": "Henrik"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 28151,
+      "kuerzel": "M_An1I",
+      "bezeichnung": "Analysis 1 für Informatik",
+      "url": "allModules/28151_M_An1I.json"
+    },
+    {
+      "id": 28156,
+      "kuerzel": "M_An2I",
+      "bezeichnung": "Analysis 2 für Informatik",
+      "url": "allModules/28156_M_An2I.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 26087,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Physik Anwendungen für Informatik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Physics for Software Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2016,
+    "beginSemester": "FS",
+    "endJahr": 2019,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 26087,
+    "kuerzel": "M_PhAI",
+    "bezeichnung": "Physik Anwendungen für Informatik",
+    "url": "allModules/26087_M_PhAI.json"
+  }
+}

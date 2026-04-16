@@ -1,0 +1,237 @@
+{
+  "id": 29749,
+  "kuerzel": "M_DL",
+  "bezeichnung": "Deep Learning",
+  "kreditpunkte": 4,
+  "lernziele": "<p>The goal is to enable the students to understand the fundamental Deep Learning algorithms for large datasets. To this end, the theory of these algorithms is developed in the lectures and during the practice sessions, many such data sets are analyzed.</p>",
+  "vorausgKenntnisse": "<ul><li>Since this module is taught in English, a reasonable command of the English language is required</li><li>Knowledge of linear algebra, calculus and probability theory is required to be able to follow the lectures</li><li>The book has a website http://www.deeplearningbook.org/ where the complete book can be read. Note we will cover most of Part I and Part II in this module</li><li>Please go to the website and browse through the book to get an understanding of the complexity of the material covered in this module</li></ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 29750,
+      "kuerzel": "DL",
+      "bezeichnung": "Deep Learning",
+      "lernziele": "<p>Knowledge of the Deep Learning approaches for large data sets and the ability to apply the appropriate algorithm for successfully solving a given machine learning problem.</p>",
+      "planinhalt": "<p>&bull; Review Linear Algebra, Probability and Numerical Computation<br />&bull; Machine Learning Basics<br />&bull; Deep Feedforward Networks<br />&bull; Regularization for Deep Learning<br />&bull; Optimization for Training Deep Models<br />&bull; Convolutional Networks<br />&bull; Sequence Modeling<br />&bull; Practical Methodology<br />The module is based on the excellent book: &quot;Deep Learning&quot; from Ian<br />Goodfellow, Yoshua Bengio and Aaron Courville.</p>",
+      "kurselemente": [
+        {
+          "id": 29751,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        },
+        {
+          "id": 29752,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Deep Learning"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Deep Learning"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10233,
+      "bezeichnung": "Data Science",
+      "kuerzel": "DaEnMaIn",
+      "url": "allStudies/10233_DaEnMaIn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 670,
+      "name": "Schuster",
+      "vorname": "Guido"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 25882,
+      "kuerzel": "M_ML",
+      "bezeichnung": "Statistical Machine Learning",
+      "url": "allModules/25882_M_ML.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 29749,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Deep Learning"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Deep Learning"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2018,
+    "beginSemester": "FS",
+    "endJahr": 2018,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 29749,
+    "kuerzel": "M_DL",
+    "bezeichnung": "Deep Learning",
+    "url": "allModules/29749_M_DL.json"
+  }
+}

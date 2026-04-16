@@ -1,0 +1,133 @@
+{
+  "id": 12333,
+  "kuerzel": "U_RegT3_M",
+  "bezeichnung": "Regelungstechnik 3 (M) - Übergangsmodul",
+  "kreditpunkte": 6,
+  "lernziele": "<ul>\n<li>F&#228;higkeit anspruchsvolle Regelungsaufgaben zu l&#246;sen - von Modellierung, Parameter-Identifikation, Modell-Validierung, Reglerentwurf, bis zum Test mit dem realen System</li>\n<li>Auslegung und Implementierung digitaler Regelungen</li></ul>",
+  "vorausgKenntnisse": "<p>Regelungstechnik 2 Ue</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 12258,
+      "kuerzel": "uRegT3_M",
+      "bezeichnung": "Regelungstechnik 3 (M) - Übergang",
+      "planinhalt": "<ul>\n<li>Beschreibung und Auslegung von digitalen Regelsystemen</li><li>modellbasierte Regelung</li><li>optimale Regelung</li><li>nichtlineare Regelsysteme</li>\n<li>Aktuelle Entwicklungen</li></ul>",
+      "kurselemente": [
+        {
+          "id": 12295,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 12296,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        },
+        {
+          "id": 15081,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Regelungstechnik 3 (M) - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Control Systems 3 (M) - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 136,
+      "name": "Domeisen",
+      "vorname": "Heinz"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 12333,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 150,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Regelungstechnik 3 (M) - Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Control Systems 3 (M) - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2007,
+    "endSemester": "SS"
+  }
+}

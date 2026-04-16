@@ -1,0 +1,118 @@
+{
+  "id": 36379,
+  "kuerzel": "M_MAS-SE_SWReqTest",
+  "bezeichnung": "Software Requirements & Testing & IoT",
+  "kreditpunkte": 3,
+  "vorausgKenntnisse": "<ul>\n<li>Grundkenntnisse der agilen Projektmethoden</li>\n<li>Praktische Programmierkenntnisse mit Java 8</li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 36376,
+      "kuerzel": "MAS-SE_SWTest",
+      "bezeichnung": "Software Testing",
+      "lernziele": "<ul>\n<li>Die Teilnehmenden haben eine Vorstellung davon, was Testing im Rahmen eines Software Projekts alles umfassen kann.</li>\n<li>Die Teilnehmenden kennen verschiedene Methodiken des Software Testings und ihren Nutzen, ihre heiklen Punkte, ihre Kosten und ihre Grenzen.</li>\n<li>Sie setzen diese Methodiken an einem konkreten Beispielprojekt hands-on ein und sammeln erste Erfahrungen mit dem praktischen Einsatz.</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Testing vs. Checking, Exploratory Testing</li>\n<li>Unit Testing, Grundkonzept, Aufbau von Testcases, JUnit 5, Assertions, Testcode-Qualit&auml;t, Code Coverage, Einsatz von Test Doubles.</li>\n<li>Testautomatisierung, Einsatz und Kosten, Ansatzpunkte, Werkzeuge, Good Practices</li>\n</ul>",
+      "bibliographie": "<ul>\n<li>Software:\n<ul>\n<li>&Uuml;bungsumgebung unter https://github.com/thomasbriner/HSR-SW-Testing-Code</li>\n</ul>\n</li>\n<li>Weiterf&uuml;hrende Literatur:\n<ul>\n<li>Pragmatic Unit Testing in Java 8 with Junit; Jeff Langr with Andy Hunt and Dave Thomas</li>\n<li>Lessons Learned in Software Testing: A Context-Driven Approach; Cem Kaner, James Bach</li>\n<li>Explore It!: Reduce Risk and Increase Confidence with Exploratory Testing; Elisabeth Hendrickson</li>\n<li>Test Driven Development By Example; Kent Beck</li>\n</ul>\n</li>\n<li>Tools:\n<ul>\n<li>Rapid Reporter: http://testing.gershon.info/reporter/</li>\n<li>JUnit 5: https://junit.org/junit5/</li>\n<li>Mockito: https://site.mockito.org/</li>\n<li>Selenium: https://www.seleniumhq.org/</li>\n</ul>\n</li>\n</ul>",
+      "empfLehrmittel": "<ul>\n<li>4 Abende, jeweils zu einem spezifischen Thema, theoretische und praktische Unterrichtsteile</li>\n<li>Konzepte und Hintergr&uuml;nde im Plenum vermittelt, an Fallbeispielen illustriert und diskutiert, hands-on umgesetzt in praktischen Codier&uuml;bungen an durchg&auml;ngigem Beispiel.</li>\n</ul>",
+      "leistungsnachweis": "<p>bewertete &Uuml;bungen, Schriftliche Pr&uuml;fung am Kursblockende</p>",
+      "kurselemente": [
+        {
+          "id": 36375,
+          "art": "Blockkurs",
+          "anzLektionen": 5,
+          "maxTeilnehmer": 45,
+          "harteGrenze": true
+        }
+      ]
+    },
+    {
+      "id": 36378,
+      "kuerzel": "MAS-SE_REA",
+      "bezeichnung": "Requirements Engineering Advanced",
+      "lernziele": "<ul>\n<li>Wissen, was unter Requirements Engineering bei software-intensiven Systemen zu verstehen ist.</li>\n<li>Eine Methode erkl&auml;ren k&ouml;nnen, welche die Analyse und Modellierung von Anforderungen an ein software-intensives System sowie dessen grobe Architektur abdeckt.</li>\n<li>Anhand eines einfachen, konkreten Beispiels die Methode anwenden k&ouml;nnen. Die Bedeutung des essenziellen Modells im Entwicklungsprozess erkl&auml;ren k&ouml;nnen.</li>\n<li>Qualit&auml;tsmodelle erarbeiten und messbare Ziele spezifizieren k&ouml;nnen.</li>\n<li>UML-Notation und weitere Notationen f&uuml;r konzeptionelle objektorientierte Modellierung anwenden k&ouml;nnen.</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Der Requirements Engineering Prozess: -&nbsp;&nbsp;\n<ul>\n<li>Definitionen und geschichtlicher Hintergrund.</li>\n<li>Besonderheiten des gew&auml;hlten Ansatzes.</li>\n<li>Einordnung in verschiedene Entwicklungsprozesse.</li>\n<li>Rollen, Interaktionen und Arbeitsstruktur.</li>\n<li>Vorgehen und Dokumentation.</li>\n</ul>\n</li>\n<li>&nbsp;Qualit&auml;tsmodell f&uuml;r Anwendungssysteme:\n<ul>\n<li>Essenzielles Qualit&auml;tsmodell f&uuml;r Anwendungssysteme.</li>\n<li>Erarbeitung der nicht-funktionalen Anforderungen.</li>\n</ul>\n</li>\n<li>Essenzielle objektorientierte Analyse der funktionalen Anforderungen:\n<ul>\n<li>Abbildung des Fachwissens als wichtigste funktionale Anforderung.</li>\n<li>Konzeptionelle Basis, Vorgehensweise, Modelle und Aktivit&auml;ten.</li>\n</ul>\n</li>\n<li>Systemdesign unter Ber&uuml;cksichtigung der funktionalen und nicht-funktionalen Anforderungen:\n<ul>\n<li>Die Suche der geeigneten Automatisierungsgrenzen.</li>\n<li>Technische und organisatorische Grobentw&uuml;rfe.</li>\n</ul>\n</li>\n</ul>\n<p>Alle Konzepte werden zusammen mit Beispielen und einer vollst&auml;ndigen Fallstudie eingef&uuml;hrt und angewendet.</p>",
+      "bibliographie": "<p>Lehrmittel ist ein Script der Bianchi &amp; Partner GmbH.</p>\n<p>&nbsp;</p>\n<p>Empfohlene Lekt&uuml;ren:</p>\n<p>Balzert, Heide: Lehrbuch der Objektmodellierung: Analyse und Entwurf mit der UML 2. Spektrum Akademischer Verlag, 2005 (2. Auflage), Nachdruck 2011. Rupp, Chris, et. al.: UML2 glasklar. Hanser, 2012 (4. Auflage).</p>",
+      "empfLehrmittel": "<p>Vorlesung mit Fallstudie</p>",
+      "leistungsnachweis": "<p>Schriftliche Pr&uuml;fung am Kursblockende</p>",
+      "kurselemente": [
+        {
+          "id": 36377,
+          "art": "Blockkurs",
+          "anzLektionen": 5,
+          "maxTeilnehmer": 45,
+          "harteGrenze": true
+        }
+      ]
+    },
+    {
+      "id": 36429,
+      "kuerzel": "MAS-SE_IoT",
+      "bezeichnung": "IoT Grundlagen",
+      "lernziele": "<p>Die Studierenden sind vertraut mit den grundlegenden Begebenheiten von IoT und Embedded Systemen und k&ouml;nnen einsch&auml;tzen, was dies f&uuml;rs Software Engineering heisst.</p>",
+      "planinhalt": "<ul>\n<li>Einleitung und Grundlagen Embedded- und IoT Systeme</li>\n<li>Hardwarenahe Programmierung, was heisst das?</li>\n<li>Software Engineering im Embedded Bereich, was ist gleich, was ist anders gegen&uuml;ber Standard Computersystemen, wie PC, Mac oder Android</li>\n<li>IoT Herausforderungen</li>\n</ul>",
+      "bibliographie": "<ul>\n<li>Lehrmittel: Unterrichtsunterlagen online auf moodle, Development Board, Aufgabenstellungen und Beispielll&ouml;sungen der praktischen &Uuml;bungen</li>\n<li>Literaturhinweise im Skript (online)</li>\n<li>Tools: Arduino, Eclipse, Java</li>\n</ul>",
+      "empfLehrmittel": "<p>Frontalunterricht mit individuell in &Uuml;bungen</p>",
+      "leistungsnachweis": "<p>online moodle Pr&uuml;fung</p>",
+      "kurselemente": [
+        {
+          "id": 36431,
+          "art": "Blockkurs",
+          "anzLektionen": 5,
+          "maxTeilnehmer": 45,
+          "harteGrenze": true
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10068,
+      "bezeichnung": "MAS SW Engineering",
+      "kuerzel": "MAS-SE",
+      "url": "allStudies/10068_MAS-SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 10164,
+      "bezeichnung": "CAS Advanced",
+      "kuerzel": "MAS-SE_Adv",
+      "url": "allStudies/10164_MAS-SE_Adv.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 541091,
+      "name": "Bläser",
+      "vorname": "Luc"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "-- Übersetzung --"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "-- Übersetzung --"
+    }
+  ]
+}

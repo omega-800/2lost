@@ -1,0 +1,118 @@
+{
+  "id": 64590,
+  "kuerzel": "M_arch.PR3",
+  "bezeichnung": "Prozess und Ressource 3",
+  "kreditpunkte": 2,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 64591,
+      "kuerzel": "arch.PR3.K1",
+      "bezeichnung": "Kurs 1 Tragwerk",
+      "kreditpunkte": 0,
+      "kurselemente": [
+        {
+          "id": 64592,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Kurs 1 Tragwerk"
+        }
+      ]
+    },
+    {
+      "id": 64593,
+      "kuerzel": "arch.PR3.K2",
+      "bezeichnung": "Kurs 2 Bauphysik inkl. Akustik",
+      "kreditpunkte": 0,
+      "kurselemente": [
+        {
+          "id": 64594,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Kurs 2 Bauphysik inkl. Akustik"
+        }
+      ]
+    },
+    {
+      "id": 64595,
+      "kuerzel": "arch.PR3.K3",
+      "bezeichnung": "Kurs 3 Haustechnik",
+      "kreditpunkte": 0,
+      "kurselemente": [
+        {
+          "id": 64596,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Kurs 3 Haustechnik"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10485,
+      "bezeichnung": "Architektur",
+      "kuerzel": "ARCH",
+      "url": "allStudies/10485_ARCH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10213,
+          "kuerzel": "A_Tech",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 64708,
+      "kuerzel": "M_arch.E2",
+      "bezeichnung": "Entwurf 2",
+      "url": "allModules/64708_M_arch.E2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Prozess und Ressource 3"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

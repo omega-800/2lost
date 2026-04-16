@@ -1,0 +1,229 @@
+{
+  "id": 48970,
+  "kuerzel": "M_VP_14715",
+  "bezeichnung": "Automation und Mechatronik Ia",
+  "kreditpunkte": 15,
+  "lernziele": "<p>Fachkompetenzen:</p>\n<ul>\n    <li>Kinematik, Dynamik, Modellbildung und Regelung von mechatronischen Systemen.</li>\n    <li>Die Studierenden verstehen die Kinematik, Dynamik und Regelung von Robotern und mechatronischen Systemen und k&ouml;nnen sie berechnen und auslegen.<br /></li>\n</ul>\n<p>Methodenkompetenzen:</p>\n<ul>\n    <li>Analyse, Kreativit&auml;t, vernetztes Denken.</li>\n    <li>Die Studierenden k&ouml;nnen eine offene Aufgabenstellung bearbeiten, die Anforderungen ermitteln und das Projekt selbst&auml;ndig zu einem erfolgreichen Ende f&uuml;hren. <br /></li>\n</ul>\n<p>Sozialkompetenzen:</p>\n<ul>\n    <li>Kommunikations- und Kooperationsf&auml;higkeit</li>\n</ul>\n<p>Selbstkompetenzen:</p>\n<ul>\n    <li>Selbst&auml;ndigkeit, Verantwortlichkeit</li>\n</ul>",
+  "vorausgKenntnisse": "<p>Dynamik von Mehrk&ouml;rpersystemen</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 48971,
+      "kuerzel": "VP_1471501",
+      "bezeichnung": "Universelle Bahnplanung",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Fachkompetenzen:</p>\n<ul>\n    <li>Die Studierenden verstehen die Grundprinzipien der Bahnplanung und der r&auml;umlichen Beschreibung von translativen und rotativen Bewegungen. Sie k&ouml;nnen daraus neuartige Konzepte erarbeiten und mit den existierenden vergleichen.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Darstellung von Trajektorien</li>\n    <li>Methoden der Bahnplanung</li>\n    <li>Algorithmik</li>\n    <li>Software-Engineering</li>\n    <li>Anwendung von C++ in der Robotik</li>\n    <li>Entwicklung von Echtzeitsystemen</li>\n</ul>",
+      "bibliographie": "<p>Diverse Unterlagen von E. Nielsen<br />Springer Handbook of Robotics<br />Erg&auml;nzende Fachliteratur</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "Das zu bearbeitende Projekt wird mittels Bericht und Schlusspr&auml;sentation nach Projektabschluss bewertet.",
+      "kurselemente": [
+        {
+          "id": 48972,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000922,
+          "name": "Nielsen",
+          "vorname": "Einar"
+        }
+      ]
+    },
+    {
+      "id": 48973,
+      "kuerzel": "VP_1471502",
+      "bezeichnung": "Roboterkinematik und Dynamik",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Fachkompetenzen:</p>\n<ul>\n    <li>Kinematik, Dynamik, Modellbildung und Regelung von Robotern und autonomen Systemen.</li>\n    <li>Die Studierenden verstehen die Kinematik, Dynamik und Regelung von Roboter und autonomen Systemen und k&ouml;nnen sie berechnen und auslegen<br /></li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Vektorrechnung in der Robotik</li>\n    <li>Roboterkinematik</li>\n    <li>Denavit-Hartenberg</li>\n    <li>Verschiedene Methoden der Orientierungsbeschreibung</li>\n    <li>Rechnen mit Quaternionen</li>\n    <li>Roboterdynamik und Modellbildung</li>\n    <li>Robotersimulation</li>\n    <li>Roboterregelungskonzepte</li>\n    <li>Regelung klassischer Robotern </li>\n    <li>Regelung von erdgebundenen oder fliegenden Robotern und autonomen Systemen </li>\n    <li>Trajektorien- und Kraftregelung</li>\n</ul>",
+      "bibliographie": "<p>Diverse Unterlagen von E. Nielsen<br />Springer Handbook of Robotics<br />Erg&auml;nzende Fachliteratur</p>",
+      "empfLehrmittel": "<p>Vorlesung, Selbststudium und kleine Projektarbeit </p>",
+      "leistungsnachweis": "Der Kurs wird mittels einer Pr&uuml;fung, einem Kurzbericht und einer Schusspr&auml;sentation bewertet.",
+      "kurselemente": [
+        {
+          "id": 48974,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000922,
+          "name": "Nielsen",
+          "vorname": "Einar"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000825,
+      "name": "Nagel",
+      "vorname": "Günter"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 37578,
+      "kuerzel": "M_TSM_AdvContr",
+      "bezeichnung": "Advanced Control",
+      "url": "allModules/37578_M_TSM_AdvContr.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Automation and Mechatronics Ia"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2014,
+    "beginSemester": "HS",
+    "endJahr": 2014,
+    "endSemester": "HS"
+  }
+}

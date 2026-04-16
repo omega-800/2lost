@@ -1,0 +1,152 @@
+{
+  "id": 22405,
+  "kuerzel": "M_DT2",
+  "bezeichnung": "Digitaltechnik 2",
+  "kreditpunkte": 3,
+  "lernziele": "Die Studierenden lernen auf systematische&nbsp; Art und Weise digitale Schaltungen auf der Basis von VHDL zu entwerfen, zu simulieren&nbsp;und zu realisieren.",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 22406,
+      "kuerzel": "DT2",
+      "bezeichnung": "Digitaltechnik 2",
+      "planinhalt": "<p>Designbeschreibung f&uuml;r digitale Systeme mit VHDL<br />Simulation und Test digitaler Schaltungen mit VHDL (Simulationsaufbau, Zeitliches Verhalten, Ablaufstrukturen, Simulationsablauf)</p>\n<p>Schaltungsbeschreibung und Schaltungssynthese sequentieller Systeme mit VHDL&nbsp;<br />Spezielle sequentielle Baubl&ouml;cke (Register/Speicher, Z&auml;hler, Flankendetektor, Pulsdetektor,&nbsp; etc.)<br />Realisierung digitaler Schaltungen auf FPGA</p>\n<p>&nbsp;</p>\n<p>&Agrave;nderungen vorbehalten</p>",
+      "kurselemente": [
+        {
+          "id": 22407,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        },
+        {
+          "id": 22408,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Digitaltechnik 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Digital Technology 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 537055,
+      "name": "Zbinden",
+      "vorname": "Paul"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 22405,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat (Praktikum)</p>\n<p>&nbsp;</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Digitaltechnik 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Digital Technology 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "FS",
+    "endJahr": 2015,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 20007,
+    "kuerzel": "M_DT2",
+    "bezeichnung": "Digitaltechnik 2",
+    "url": "allModules/20007_M_DT2.json"
+  },
+  "nachfolger": {
+    "id": 22405,
+    "kuerzel": "M_DT2",
+    "bezeichnung": "Digitaltechnik 2",
+    "url": "allModules/22405_M_DT2.json"
+  }
+}

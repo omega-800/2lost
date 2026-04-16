@@ -1,0 +1,364 @@
+{
+  "id": 44331,
+  "kuerzel": "M_EmbMec",
+  "bezeichnung": "Embedded Mechatronics",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Moderne Maschinen bestehen aus mechanischen, elektrischen, elektronischen und ICT-Komponenten, die nahtlos zusammenarbeiten m&uuml;ssen. Die wesentlichen Teile dieser Disziplinen m&uuml;ssen f&uuml;r die Aus&uuml;bung des Berufs beherrscht werden. Deshalb konzentriert sich die ICT- und elektronischen Komponenten der Maschinen und baut auf den in der Produktentwicklung und im Konstruktion erworbenen Kompetenzen auf.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 44332,
+      "kuerzel": "EmbMec",
+      "bezeichnung": "Embedded Mechatronics",
+      "lernziele": "<p>Die Teilnehmer erwerben die folgenden Kompetenzen in den genannten Bereichen und k&ouml;nnen:</p>\n<ul>\n<li>elektronische Steuerungskomponenten, wie Mikrocontroller und Logikschaltungen, ausw&auml;hlen und in ein mechatronisches System integrieren</li>\n<li>Antriebskomponenten, wie Schritt-, Servo- und Gleichstrommotoren, ausw&auml;hlen und in ein mechatronisches System integrieren.</li>\n<li>Auswahl und Integration von Benutzerinteraktionskomponenten in ein mechatronisches System, wie z. B. Tasten, Bildschirme, Fernbedienungen und Mobiltelefone.</li>\n<li>Softwarekomponenten zu entwerfen und zu implementieren, die den reibungslosen Betrieb aller Elemente eines mechatronischen Systems gew&auml;hrleisten.</li>\n<li>entwerfen und implementieren Test- und Bewertungsverfahren f&uuml;r mechatronische Systeme.</li>\n<li>L&ouml;sungen f&uuml;r fortgeschrittene Probleme wie Pick-and-Place, Navigation und Montage zu entwickeln.</li>\n</ul>\n<p>&nbsp;</p>\n<p>Die Teilnehmer kennen und verstehen:</p>\n<ul>\n<li>die Interaktion von Sensoren und Aktoren</li>\n<li>Echtzeitsteuerung eines mechatronischen Systems</li>\n<li>das Potenzial und die Anwendung von Sch&auml;tzern wie dem Kalman-Filter</li>\n</ul>",
+      "planinhalt": "<p>Moderne Maschinen bestehen aus mechanischen, elektrischen, elektronischen und ICT-Komponenten, die nahtlos zusammenarbeiten m&uuml;ssen. Die wesentlichen Teile dieser Disziplinen m&uuml;ssen f&uuml;r die Aus&uuml;bung des Berufs beherrscht werden. Deshalb konzentriert sich die Embedded Mechatronics auf die ICT- und elektronischen Komponenten der Maschinen und baut auf den in der Produktentwicklung und im Konstruktion erworbenen Kompetenzen auf.&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 44333,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 44334,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Embedded Mechatronics"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Embedded Mechatronics"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10117,
+      "bezeichnung": "Automation und Robotik",
+      "kuerzel": "M-I-AR",
+      "url": "allStudies/10117_M-I-AR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10206,
+      "bezeichnung": "Automation und Robotik",
+      "kuerzel": "M-I-AR",
+      "url": "allStudies/10206_M-I-AR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10210,
+      "bezeichnung": "Produktentwicklung",
+      "kuerzel": "M-I-PE",
+      "url": "allStudies/10210_M-I-PE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10084,
+      "bezeichnung": "Produktentwicklung",
+      "kuerzel": "M-I-PE",
+      "url": "allStudies/10084_M-I-PE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10121,
+      "bezeichnung": "Produktentwicklung",
+      "kuerzel": "M-I-PE",
+      "url": "allStudies/10121_M-I-PE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10079,
+      "bezeichnung": "Automation und Robotik",
+      "kuerzel": "M-I-AR",
+      "url": "allStudies/10079_M-I-AR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10240,
+      "bezeichnung": "Automation und Robotik",
+      "kuerzel": "M-I-AR",
+      "url": "allStudies/10240_M-I-AR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5029441,
+      "name": "Zimmermann",
+      "vorname": "Yves"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 24046,
+      "kuerzel": "M_Rob",
+      "bezeichnung": "Robotik",
+      "url": "allModules/24046_M_Rob.json"
+    },
+    {
+      "id": 28366,
+      "kuerzel": "M_ProgC",
+      "bezeichnung": "Programmieren in C",
+      "url": "allModules/28366_M_ProgC.json"
+    },
+    {
+      "id": 28375,
+      "kuerzel": "M_ProgCPP",
+      "bezeichnung": "Programmieren in C++",
+      "url": "allModules/28375_M_ProgCPP.json"
+    },
+    {
+      "id": 43675,
+      "kuerzel": "M_FouLap2EC",
+      "bezeichnung": "Fourier- und Laplacetransformation (2 ECTS-Punkte)",
+      "url": "allModules/43675_M_FouLap2EC.json"
+    },
+    {
+      "id": 43750,
+      "kuerzel": "M_ElektrGL",
+      "bezeichnung": "Grundlagen der Elektrotechnik und elektrischen Messtechnik",
+      "url": "allModules/43750_M_ElektrGL.json"
+    },
+    {
+      "id": 44314,
+      "kuerzel": "M_AutoMI",
+      "bezeichnung": "Automation",
+      "url": "allModules/44314_M_AutoMI.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 44331,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Praktikumsanwesenheit</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Embedded Mechatronics"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Embedded Mechatronics"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2025,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  }
+}

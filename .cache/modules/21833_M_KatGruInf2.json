@@ -1,0 +1,133 @@
+{
+  "id": 21833,
+  "kuerzel": "M_KatGruInf2",
+  "bezeichnung": "Grundlage Informatik ",
+  "kreditpunkte": 8,
+  "vorausgKenntnisse": "Anrechnung von ECTS aus anderen FachHochschulen",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 21834,
+      "kuerzel": "k_katgrulai2",
+      "bezeichnung": "Grundlage Informatik",
+      "kurselemente": [
+        {
+          "id": 30470,
+          "art": "Blockkurs",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Grundlage Informatik"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9989,
+      "name": "ZZZ Dozent HL",
+      "vorname": "Planung"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Grundlage Informatik "
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "vorgaenger": {
+    "id": 17436,
+    "kuerzel": "M_KatGruInf2",
+    "bezeichnung": "Grundlage Informatik ",
+    "url": "allModules/17436_M_KatGruInf2.json"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "id": 11094,
+  "kuerzel": "M_Math2I",
+  "bezeichnung": "Mathematische Grundlagen der Informatik 2",
+  "kreditpunkte": 4,
+  "lernziele": "<ul> <li> Grundlagen zur Verarbeitung formaler Sprachen. </li> <li> F&auml;higkeit, formale Spezifikationen (z.B. in BNF)  zu erstellen und zu verstehen. </li> <li> Beherrschung verschiedener Berechenbarkeitsbegriffe. </li> <li> Grundlagen der Komplexit&auml;tstheorie. </li> </ul>",
+  "vorausgKenntnisse": "keine, kann unabh&auml;ngig vom Modul Mathematische Grundlagen der Informatik 1 belegt werden",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10226,
+      "kuerzel": "Math2I",
+      "bezeichnung": "Mathematische Grundlagen der Informatik 2",
+      "planinhalt": "<ol>\n<li><b>Regul&#228;re Sprachen</b><br />(Regul&#228;re Ausdr&#252;cke, deterministische und nicht-deterministische endliche Automaten, &#196;quivalenz von regul&#228;ren Sprachen und endlichen Automaten, Pumping-Lemma f&#252;r regul&#228;re Sprachen)</li><li><b>Kontextfreie Sprachen</b><br />(Kontextfreie Grammatiken, deterministische und nicht-deterministische Keller-Automaten, &#196;quivalenz von regul&#228;ren Sprachen und Keller-Automaten, Pumping-Lemma f&#252;r kontextfreie Sprachen)</li><li><b>Berechnungstheorie</b><br />(Turing-Maschinen, Halteproblem, Satz von Rice)</li><li><b>Komplexit&#228;tstheorie</b><br />(Die Klassen P und NP, NP-vollst&#228;ndige Probleme) </li></ol>",
+      "kurselemente": [
+        {
+          "id": 11257,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 11258,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Mathematische Grundlagen der Informatik 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Mathematical Basics of Computer Science 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 263,
+      "name": "Müller",
+      "vorname": "Andreas"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11094,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Mathematische Grundlagen der Informatik 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Mathematical Basics of Computer Science 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2014,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 11094,
+    "kuerzel": "M_Math2I",
+    "bezeichnung": "Mathematische Grundlagen der Informatik 2",
+    "url": "allModules/11094_M_Math2I.json"
+  }
+}

@@ -1,0 +1,417 @@
+{
+  "id": 10997,
+  "kuerzel": "M_BuRe1",
+  "bezeichnung": "Business und Recht 1",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Recht f&uuml;r Ingenieure: </p>\n<ul>\n    <li>Sie sind nach dem Besuch des Moduls f&auml;hig, grundlegende Rechtsprobleme des beruflichen Alltags als Ingenieur zu l&ouml;sen und die massgebenden Rechtsquellen und Informationen zu finden. </li>\n    <li>Sie lernen abzusch&auml;tzen, wann professionelle juristische Beratung geboten und gegebenenfalls bei wem sie einzuholen ist.</li>\n</ul>\n<p>Businessplanning:</p>\n<ul>\n    <li>Sie sind nach dem Besuch des Moduls bef&auml;higt, einen Businessplan formell und materiell zu beurteilen. </li>\n    <li>Sie k&ouml;nnen einen Businessplan formell und materiell richtig erstellen.</li>\n</ul>",
+  "vorausgKenntnisse": "keine",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10090,
+      "kuerzel": "ReIng",
+      "bezeichnung": "Recht für Ingenieure",
+      "lernziele": "<p>Sie lernen die grundlegenden rechtlichen Problemstellungen, welche sie als Ingenieur in Ihrem Berufsalltag gegen&#252;berstehen, kennen und einzuordnen. Sie eignen sich eine Systematik f&#252;r deren L&#246;sung an. Falll&#246;sungen und Gerichtsentscheide unterst&#252;tzen Sie dabei, Ihre Lernziele zu erreichen. Sie schaffen sich zudem die optimale Grundlage f&#252;r weitere im Bereich Recht angebotene Aufbau- und Spezialmodule resp. &#8211;kurse.</p>",
+      "planinhalt": "<ul>\n<li>Begriff, Erscheinungsformen, Zweck, Entstehung und Entwicklung von Recht&nbsp;</li>\n<li>&#220;berblick &#252;ber die verfassungsm&#228;ssigen Grundlagen und ihre Auswirkungen auf den Berufsalltag des Ingenieurs unter besonderer Ber&#252;cksichtigung des&nbsp;Datenrechts.</li>\n<li>Grundz&#252;ge des Eigentumsrechts&nbsp;</li>\n<li>Rechtsgesch&#228;fte und Haftung anhand des E-Commerce&nbsp;</li>\n<li>Die Leistung des Ingenieurs (z.B. Erfindung, Computerprogramm) als Rechtsgut&nbsp;</li>\n<li>Die optimale Organisationsform zur Erbringung von Ingenieurleistungen aus rechtlicher Sicht&nbsp;</li>\n<li>Ausgew&#228;hlte strafrechtliche Fragen im Berufsalltag des Ingenieurs <br /></li></ul>",
+      "kurselemente": [
+        {
+          "id": 10474,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 300,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Recht für Ingenieure"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Law for Engineers "
+        }
+      ]
+    },
+    {
+      "id": 10091,
+      "kuerzel": "BuPl",
+      "bezeichnung": "Business Plan  ",
+      "lernziele": "<ol> <li>kennt die Verwendungsm&#246;glichkeiten eines Businessplanes</li><li>kann Struktur und Inhalt eines Businessplanes erkl&#228;ren</li><li>hat selbst einen (Kapitalgeber konformen) Businessplan erarbeitet</li></ol>",
+      "planinhalt": "<p>1. Sinn und Zweck eines Businessplanes </p>\n<p>2. M&#246;gliche Adressaten (Stakeholders) </p>\n<p>3. Schl&#252;sselkriterien f&#252;r Eigen- oder Fremdkapitalgeber </p>\n<p>4. Die ersten Schritte beim Erstellen eines Businessplanes </p>\n<p>5. Standardstruktur (Fokus Kapitalgeber): </p>\n<ul>\n<li>Zusammenfassung</li><li>Unternehmen</li><li>Mission, Vision und Strategie</li><li>Produkte und Dienstleistungen</li><li>Markt und Kunden</li><li>Konkurrenz</li><li>Marketing</li><li>Beschaffung und Produktion</li><li>Management und Organisation</li><li>Chancen und Risiken</li><li>Finanzieller Teil</li><li>Umsetzungsplan</li><li>Anhang</li></ul>",
+      "kurselemente": [
+        {
+          "id": 10475,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 10515,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Business Plan  "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Business Plan"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10017,
+          "kuerzel": "M-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10006,
+          "kuerzel": "E-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10005,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10005_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10017,
+          "kuerzel": "M-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10006,
+          "kuerzel": "E-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10011,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10011_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10102,
+          "kuerzel": "EEU-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft, Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10109,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10109_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10006,
+          "kuerzel": "E-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10102,
+          "kuerzel": "EEU-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft, Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10131,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10131_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 10017,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10017_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 32,
+      "name": "Stadelwieser",
+      "vorname": "Jürg"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 10997,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Business und Recht 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Business and Law 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2010,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 10997,
+    "kuerzel": "M_BuRe1",
+    "bezeichnung": "Business und Recht 1",
+    "url": "allModules/10997_M_BuRe1.json"
+  }
+}

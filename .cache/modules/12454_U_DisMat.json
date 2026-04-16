@@ -1,0 +1,119 @@
+{
+  "id": 12454,
+  "kuerzel": "U_DisMat",
+  "bezeichnung": "Diskrete Mathematik - Übergangsmodul",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Kenntnis einiger f&#252;r die Informatik wichtiger mathematischer Grundlagen. <br />F&#228;higkeit, diese Kenntnisse f&#252;r die Programmierarbeit zu nutzen. <br />Verst&#228;ndnis der Komplexit&#228;t von Algorithmen <br /><br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 12439,
+      "kuerzel": "uDisMat",
+      "bezeichnung": "Diskrete Mathematik - Übergang",
+      "planinhalt": "<p>- Rekursion <br />- Graphentheorie <br />- Elementare Zahlentheorie <br />- Algebraische Strukturen <br />- Modulare Arithmetik <br />- Berechenbarkeit </p>",
+      "kurselemente": [
+        {
+          "id": 12443,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 12444,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Diskrete Mathematik - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Discrete Mathematics - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 528324,
+      "name": "Wirth",
+      "vorname": "Joachim"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 12454,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Diskrete Mathematik - Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Discrete Mathematics - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2006,
+    "endSemester": "SS"
+  }
+}

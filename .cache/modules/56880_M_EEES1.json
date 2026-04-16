@@ -1,0 +1,216 @@
+{
+  "id": 56880,
+  "kuerzel": "M_EEES1",
+  "bezeichnung": "Electronic Engineering & Embedded Systems 1",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>\n<p>verstehen die grundlegenden Konzepte der Digitaltechnik, einschliesslich bin&auml;rer Zahlensysteme, Boolescher Algebra und logischer Schaltungen.</p>\n</li>\n<li>\n<p>k&ouml;nnen einfache kombinatorische und sequenzielle Schaltungen entwerfen und analysieren.</p>\n</li>\n<li>\n<p>kennen die Architektur und Funktionsweise eines FPGAs.</p>\n</li>\n<li>\n<p>kennen die Syntax und Semantik von VHDL und k&ouml;nnen einfache digitale Systeme in VHDL modellieren und simulieren.</p>\n</li>\n<li>\n<p>kennen die theoretischen Grundlagen des Internets der Dinge.</p>\n</li>\n<li>\n<p>kennen wichtige IoT-Kommunikationsprotokolle, IoT-Plattformen und Interaktionsmuster.</p>\n</li>\n<li>\n<p>wissen, wie die intelligenten Dinge des IoT aufgebaut sind.</p>\n</li>\n<li>\n<p>kennen best practices im Bereich IoT-Sicherheit.</p>\n</li>\n<li>\n<p>k&ouml;nnen einfache intelligente Gegenst&auml;nde f&uuml;r das Internet der Dinge entwerfen und entwickeln.</p>\n</li>\n<li>\n<p>k&ouml;nnen Monitoring (Sensorik) und Controlling (Aktorik) IoT Applikationen realisieren.</p>\n</li>\n</ul>",
+  "vorausgKenntnisse": "<p>Ebenfalls sollten die beiden Module ELA1&nbsp; und ELA 2 besucht worden sein.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 56881,
+      "kuerzel": "EEES1_D",
+      "bezeichnung": "Digitalelektronik, FPGA und VHDL",
+      "kreditpunkte": 0,
+      "lernziele": "<p>&nbsp;Die Studierenden</p>\n<ul>\n<li>verstehen die grundlegenden Konzepte der Digitaltechnik, einschliesslich bin&auml;rer Zahlensysteme, Boolescher Algebra und logischer Schaltungen.</li>\n<li>k&ouml;nnen einfache kombinatorische und sequenzielle Schaltungen entwerfen und analysieren.</li>\n<li>kennen die Architektur und Funktionsweise eines FPGAs.</li>\n<li>kennen die Syntax und Semantik von VHDL und k&ouml;nnen einfache digitale Systeme in VHDL modellieren und simulieren.</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Bin&auml;re Zahlensysteme und Boolesche Algebra&nbsp;</li>\n<li>Flip-Flops, Register, Z&auml;hler, Schieberegister</li>\n<li>VHDL-Syntax und Struktur, Datentypen und Operatoren, Signale und Variablen, Prozesse</li>\n<li>Beschreibung von Kombinatorischen Schaltungen in VHDL</li>\n<li>Beschreibung von Sequenziellen Schaltungen in VHDL</li>\n<li>Testbenches und Simulation</li>\n<li>Praktische Erfahrungen im Umgang mit FPGA-Entwicklungstools (z.B. Xilinx Vivado), einschliesslich Synthese, Platzierung und Verdrahtung sowie Timing-Analyse.</li>\n</ul>",
+      "bibliographie": "<p>Skript &laquo;Eine Einf&uuml;hrung in die Schaltungsentwicklung mit VHDL&raquo;</p>",
+      "empfLehrmittel": "<p>&nbsp;Vorlesung, Selbststudium, &Uuml;bungen&nbsp;</p>",
+      "leistungsnachweis": "<p>Modulschlusspr&uuml;fung</p>",
+      "kurselemente": [
+        {
+          "id": 56882,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000080,
+          "name": "Graf",
+          "vorname": "Urs"
+        }
+      ]
+    },
+    {
+      "id": 56885,
+      "kuerzel": "EEES1_I",
+      "bezeichnung": "Internet of Things (IoT)",
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>kennen die theoretischen Grundlagen des Internets der Dinge.</li>\n<li>kennen wichtige IoT-Kommunikationsprotokolle, IoT-Plattformen und Interaktionsmuster.</li>\n<li>wissen, wie die intelligenten Dinge des IoT aufgebaut sind.</li>\n<li>kennen best practices im Bereich IoT-Sicherheit.</li>\n<li>k&ouml;nnen einfache intelligente Gegenst&auml;nde f&uuml;r das Internet der Dinge entwerfen und entwickeln.</li>\n<li>k&ouml;nnen Monitoring (Sensorik) und Controlling (Aktorik) IoT Applikationen realisieren.</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Einf&uuml;hrung in das Internet der Dinge (IoT) und seine Rolle im Alltag, sowohl im privaten als auch im industriellen Bereich.</li>\n<li>Erl&auml;uterung der zentralen Komponenten des IoT und seiner Integration in verschiedene Lebensbereiche.</li>\n<li>Grundlegende Konzepte der Computerkommunikation und deren Bedeutung f&uuml;r IoT-Kommunikationsprotokolle.</li>\n<li>Vorstellung g&auml;ngiger Interaktionsmuster und relevanter IoT-Plattformen.</li>\n<li>Diskussion der Sicherheitsaspekte von IoT-Systemen und Best Practices zur Sicherstellung von Datensicherheit.</li>\n<li>Praxisorientierte &Uuml;bungen mit einem Mikrocontroller-Board zur Anwendung des theoretischen Wissens.</li>\n</ul>",
+      "bibliographie": "<p>Vorlesungsskript</p>",
+      "empfLehrmittel": "<p>Vorlesung, Selbststudium, &Uuml;bungen</p>",
+      "bemerkungKurs": "<p>Unterrichtsprache ist Deutsch und die Literatur teilweise auf Englisch</p>\n<p>&nbsp;</p>",
+      "leistungsnachweis": "<p>Modulschlusspr&uuml;fung</p>",
+      "kurselemente": [
+        {
+          "id": 56886,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002823,
+          "name": "Pawlitzek",
+          "vorname": "René"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10284,
+      "bezeichnung": "Mechatronik BB",
+      "kuerzel": "MT_BB",
+      "url": "allStudies/10284_MT_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10188,
+          "kuerzel": "Kat_VT_MT",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10285,
+      "bezeichnung": "Mechatronik VZ",
+      "kuerzel": "MT_VZ",
+      "url": "allStudies/10285_MT_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10188,
+          "kuerzel": "Kat_VT_MT",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2001529,
+      "name": "Piai",
+      "vorname": "Guido"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 54530,
+      "kuerzel": "M_Ana1",
+      "bezeichnung": "Analysis 1: Differentialrechnung",
+      "url": "allModules/54530_M_Ana1.json"
+    },
+    {
+      "id": 54533,
+      "kuerzel": "M_Ana2",
+      "bezeichnung": "Analysis 2: Integralrechnung & ODE",
+      "url": "allModules/54533_M_Ana2.json"
+    },
+    {
+      "id": 54536,
+      "kuerzel": "M_Phy1",
+      "bezeichnung": "Physik 1: Mechanik und Wärme",
+      "url": "allModules/54536_M_Phy1.json"
+    },
+    {
+      "id": 54539,
+      "kuerzel": "M_Phy2",
+      "bezeichnung": "Physik 2: Elektromagnetismus und Schwingungen",
+      "url": "allModules/54539_M_Phy2.json"
+    },
+    {
+      "id": 54561,
+      "kuerzel": "M_Inf2",
+      "bezeichnung": "Informatik 2: Softwareengineering",
+      "url": "allModules/54561_M_Inf2.json"
+    },
+    {
+      "id": 56317,
+      "kuerzel": "M_Inf1",
+      "bezeichnung": "Informatik 1: Einführung in die Programmierung",
+      "url": "allModules/56317_M_Inf1.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 56888,
+      "kuerzel": "M_EEES2",
+      "bezeichnung": "Electronic Engineering & Embedded Systems 2",
+      "url": "allModules/56888_M_EEES2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 11,
+      "kuerzel": "LSG",
+      "bezeichnung": "Lerchenfeld St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 56880,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Die Modulschlusspr&uuml;fung findet in zwei Teilen statt. Der erste Teil umfasst den Kurs Digitaltechnik, FPGA und VHDL und der zweite Teil umfasst den Kurs IoT. Beide Teile dauern je 60 Minuten.&nbsp;&nbsp;</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electronic Engineering & Embedded Systems 1"
+    }
+  ],
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2025,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  }
+}

@@ -1,0 +1,2373 @@
+{
+  "id": 10016,
+  "kuerzel": "E",
+  "bezeichnung": "Elektrotechnik",
+  "versionKuerzel": "U1_01",
+  "typ": "FH",
+  "art": "Studiengang",
+  "form": "Vollzeit",
+  "kredits": [
+    {
+      "id": 10195,
+      "minKredits": 50,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)"
+        }
+      ]
+    },
+    {
+      "id": 10201,
+      "minKredits": 50,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)"
+        }
+      ]
+    },
+    {
+      "id": 10251,
+      "minKredits": 20,
+      "kategorien": [
+        {
+          "id": 10071,
+          "kuerzel": "K_DAE_U01",
+          "bezeichnung": "Diplomarbeit Elektrotechnik  (Übergang)"
+        }
+      ]
+    }
+  ],
+  "studienberater": {
+    "id": 670,
+    "name": "Schuster",
+    "vorname": "Guido"
+  },
+  "zuordnungen": [
+    {
+      "id": 10934,
+      "kuerzel": "M_An1E",
+      "bezeichnung": "Analysis 1 für Elektrotechnik",
+      "url": "allModules/10934_M_An1E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 10935,
+      "kuerzel": "M_An2E",
+      "bezeichnung": "Analysis 2 für Elektrotechnik",
+      "url": "allModules/10935_M_An2E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 12468,
+      "kuerzel": "mUk_AntrT2",
+      "bezeichnung": "Antriebstechnik 2",
+      "url": "allModules/12468_mUk_AntrT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15466,
+      "kuerzel": "M_AntrT2",
+      "bezeichnung": "Antriebstechnik 2",
+      "url": "allModules/15466_M_AntrT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12458,
+      "kuerzel": "mUk_AKapInfo1",
+      "bezeichnung": "Ausgewählte Kapitel der Informatik 1",
+      "url": "allModules/12458_mUk_AKapInfo1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10932,
+      "kuerzel": "M_AKapInf1",
+      "bezeichnung": "Ausgewählte Kapitel der Informatik 1",
+      "url": "allModules/10932_M_AKapInf1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 10933,
+      "kuerzel": "M_AKapInf2",
+      "bezeichnung": "Ausgewählte Kapitel der Informatik 2",
+      "url": "allModules/10933_M_AKapInf2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 12460,
+      "kuerzel": "mUk_AKapInfo2",
+      "bezeichnung": "Ausgewählte Kapitel der Informatik 2",
+      "url": "allModules/12460_mUk_AKapInfo2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 12482,
+      "kuerzel": "mUk_AutomT",
+      "bezeichnung": "Automatisierungstechnik",
+      "url": "allModules/12482_mUk_AutomT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12796,
+      "kuerzel": "mUk_KoSpezA",
+      "bezeichnung": "Berufsbezogenes Schreiben (Spez.mod.A)",
+      "url": "allModules/12796_mUk_KoSpezA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10997,
+      "kuerzel": "M_BuRe1",
+      "bezeichnung": "Business und Recht 1",
+      "url": "allModules/10997_M_BuRe1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 16666,
+      "kuerzel": "M_BuRe2",
+      "bezeichnung": "Business und Recht 2",
+      "url": "allModules/16666_M_BuRe2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 12542,
+      "kuerzel": "mUk_Ch2Anw",
+      "bezeichnung": "Chemie 2 (Anwendung chemischer Reaktionen in der Praxis)",
+      "url": "allModules/12542_mUk_Ch2Anw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15067,
+      "kuerzel": "mUk_Cn1PE",
+      "bezeichnung": "Computernetze - Praktikum 1 (E)",
+      "url": "allModules/15067_mUk_Cn1PE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 1
+        }
+      ]
+    },
+    {
+      "id": 15339,
+      "kuerzel": "M_CN1",
+      "bezeichnung": "Computernetze 1",
+      "url": "allModules/15339_M_CN1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12548,
+      "kuerzel": "mUk_Cn1GlUe",
+      "bezeichnung": "Computernetze 1 - Grundlagen (Übergang)",
+      "url": "allModules/12548_mUk_Cn1GlUe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11147,
+      "kuerzel": "M_CN2",
+      "bezeichnung": "Computernetze 2",
+      "url": "allModules/11147_M_CN2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12552,
+      "kuerzel": "mUk_Cn2IpUe",
+      "bezeichnung": "Computernetze 2: Internet Protokolle (Übergang)",
+      "url": "allModules/12552_mUk_Cn2IpUe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12568,
+      "kuerzel": "mUk_CompT1",
+      "bezeichnung": "Computertechnik 1",
+      "url": "allModules/12568_mUk_CompT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 11123,
+      "kuerzel": "M_CompT1",
+      "bezeichnung": "Computertechnik 1",
+      "url": "allModules/11123_M_CompT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 11126,
+      "kuerzel": "M_CompT2",
+      "bezeichnung": "Computertechnik 2",
+      "url": "allModules/11126_M_CompT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 12570,
+      "kuerzel": "mUk_CompT2",
+      "bezeichnung": "Computertechnik 2",
+      "url": "allModules/12570_mUk_CompT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 12578,
+      "kuerzel": "mUk_DiffGl",
+      "bezeichnung": "Differentialgleichungen",
+      "url": "allModules/12578_mUk_DiffGl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12580,
+      "kuerzel": "mUk_DigMed1",
+      "bezeichnung": "Digitale Medien 1",
+      "url": "allModules/12580_mUk_DigMed1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 12582,
+      "kuerzel": "mUk_DigMed1_4",
+      "bezeichnung": "Digitale Medien 1",
+      "url": "allModules/12582_mUk_DigMed1_4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11018,
+      "kuerzel": "M_DigMed1",
+      "bezeichnung": "Digitale Medien 1",
+      "url": "allModules/11018_M_DigMed1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 12584,
+      "kuerzel": "mUk_DigMed1P",
+      "bezeichnung": "Digitale Medien 1 (Protokolle) Praktikum",
+      "url": "allModules/12584_mUk_DigMed1P.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 1
+        }
+      ]
+    },
+    {
+      "id": 11022,
+      "kuerzel": "M_DigMed2",
+      "bezeichnung": "Digitale Medien 2",
+      "url": "allModules/11022_M_DigMed2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 13216,
+      "kuerzel": "mUk_DigMed2",
+      "bezeichnung": "Digitale Medien 2",
+      "url": "allModules/13216_mUk_DigMed2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 12586,
+      "kuerzel": "mUk_DigMed2P",
+      "bezeichnung": "Digitale Medien 2 (Technologien) Praktikum",
+      "url": "allModules/12586_mUk_DigMed2P.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 1
+        }
+      ]
+    },
+    {
+      "id": 11016,
+      "kuerzel": "M_DigSig1",
+      "bezeichnung": "Digitale Signalverarbeitung 1",
+      "url": "allModules/11016_M_DigSig1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 12588,
+      "kuerzel": "mUk_DigSig1",
+      "bezeichnung": "Digitale Signalverarbeitung 1",
+      "url": "allModules/12588_mUk_DigSig1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 12590,
+      "kuerzel": "mUk_DigSig1_4",
+      "bezeichnung": "Digitale Signalverarbeitung 1",
+      "url": "allModules/12590_mUk_DigSig1_4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12592,
+      "kuerzel": "mUk_DigSig1P",
+      "bezeichnung": "Digitale Signalverarbeitung 1 Praktikum",
+      "url": "allModules/12592_mUk_DigSig1P.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 1
+        }
+      ]
+    },
+    {
+      "id": 12594,
+      "kuerzel": "mUk_DigSig2",
+      "bezeichnung": "Digitale Signalverarbeitung 2",
+      "url": "allModules/12594_mUk_DigSig2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 11017,
+      "kuerzel": "M_DigSig2",
+      "bezeichnung": "Digitale Signalverarbeitung 2",
+      "url": "allModules/11017_M_DigSig2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 12596,
+      "kuerzel": "mUk_DigSig2P",
+      "bezeichnung": "Digitale Signalverarbeitung 2 Praktikum",
+      "url": "allModules/12596_mUk_DigSig2P.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 1
+        }
+      ]
+    },
+    {
+      "id": 11010,
+      "kuerzel": "M_DigT1",
+      "bezeichnung": "Digitaltechnik 1",
+      "url": "allModules/11010_M_DigT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 11161,
+      "kuerzel": "M_DigT2",
+      "bezeichnung": "Digitaltechnik 2",
+      "url": "allModules/11161_M_DigT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 11345,
+      "kuerzel": "M_DAE",
+      "bezeichnung": "Diplomarbeit Elektrotechnik",
+      "url": "allModules/11345_M_DAE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10071,
+          "kuerzel": "K_DAE_U01",
+          "bezeichnung": "Diplomarbeit Elektrotechnik  (Übergang)",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 12960,
+      "kuerzel": "mUk_ReEinf",
+      "bezeichnung": "Einführung in die Rechtsordnung",
+      "url": "allModules/12960_mUk_ReEinf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11125,
+      "kuerzel": "M_ElMasch",
+      "bezeichnung": "Elektrische Maschinen (E)",
+      "url": "allModules/11125_M_ElMasch.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 11113,
+      "kuerzel": "M_EL1",
+      "bezeichnung": "Elektrizitätslehre 1",
+      "url": "allModules/11113_M_EL1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 11115,
+      "kuerzel": "M_EL2",
+      "bezeichnung": "Elektrizitätslehre 2",
+      "url": "allModules/11115_M_EL2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 11116,
+      "kuerzel": "M_EL3",
+      "bezeichnung": "Elektrizitätslehre 3",
+      "url": "allModules/11116_M_EL3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 12610,
+      "kuerzel": "mUk_EL3",
+      "bezeichnung": "Elektrizitätslehre 3",
+      "url": "allModules/12610_mUk_EL3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12612,
+      "kuerzel": "mUk_EL4",
+      "bezeichnung": "Elektrizitätslehre 4",
+      "url": "allModules/12612_mUk_EL4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11132,
+      "kuerzel": "M_EL4",
+      "bezeichnung": "Elektrizitätslehre 4",
+      "url": "allModules/11132_M_EL4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 11180,
+      "kuerzel": "M_EP1",
+      "bezeichnung": "Elektro-Praktikum 1",
+      "url": "allModules/11180_M_EP1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11183,
+      "kuerzel": "M_EP2",
+      "bezeichnung": "Elektro-Praktikum 2",
+      "url": "allModules/11183_M_EP2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11201,
+      "kuerzel": "M_Elo1",
+      "bezeichnung": "Elektronik 1",
+      "url": "allModules/11201_M_Elo1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 12618,
+      "kuerzel": "mUk_Elo1",
+      "bezeichnung": "Elektronik 1",
+      "url": "allModules/12618_mUk_Elo1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12620,
+      "kuerzel": "mUk_Elo2",
+      "bezeichnung": "Elektronik 2",
+      "url": "allModules/12620_mUk_Elo2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11202,
+      "kuerzel": "M_Elo2",
+      "bezeichnung": "Elektronik 2",
+      "url": "allModules/11202_M_Elo2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 12614,
+      "kuerzel": "mUk_ElektrT1",
+      "bezeichnung": "Elektrotechnik 1 (Wechsel- und Drehstromtechnik)",
+      "url": "allModules/12614_mUk_ElektrT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12616,
+      "kuerzel": "mUk_ElektrT2",
+      "bezeichnung": "Elektrotechnik 2  (Elektrische Maschinen)",
+      "url": "allModules/12616_mUk_ElektrT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12624,
+      "kuerzel": "mUk_EmbSys1_4",
+      "bezeichnung": "Embedded Systems 1",
+      "url": "allModules/12624_mUk_EmbSys1_4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12622,
+      "kuerzel": "mUk_EmbSys1",
+      "bezeichnung": "Embedded Systems 1",
+      "url": "allModules/12622_mUk_EmbSys1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 11187,
+      "kuerzel": "M_EmbSys1",
+      "bezeichnung": "Embedded Systems 1",
+      "url": "allModules/11187_M_EmbSys1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 12626,
+      "kuerzel": "mUk_EmbSys1P",
+      "bezeichnung": "Embedded Systems 1 Praktikum",
+      "url": "allModules/12626_mUk_EmbSys1P.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 1
+        }
+      ]
+    },
+    {
+      "id": 12628,
+      "kuerzel": "mUk_EmbSys2",
+      "bezeichnung": "Embedded Systems 2",
+      "url": "allModules/12628_mUk_EmbSys2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 11188,
+      "kuerzel": "M_EmbSys2",
+      "bezeichnung": "Embedded Systems 2",
+      "url": "allModules/11188_M_EmbSys2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 11129,
+      "kuerzel": "M_EnSys",
+      "bezeichnung": "Energiesysteme",
+      "url": "allModules/11129_M_EnSys.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12648,
+      "kuerzel": "mUk_EnSys1",
+      "bezeichnung": "Energiesysteme 1",
+      "url": "allModules/12648_mUk_EnSys1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 13220,
+      "kuerzel": "mUk_EnSys2",
+      "bezeichnung": "Energiesysteme 2",
+      "url": "allModules/13220_mUk_EnSys2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 18102,
+      "kuerzel": "M_Ent2",
+      "bezeichnung": "Energietechnik 2 (Erneuerbare Energien)",
+      "url": "allModules/18102_M_Ent2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12632,
+      "kuerzel": "mUk_EnAdv1",
+      "bezeichnung": "English for Advanced Certificate 1",
+      "url": "allModules/12632_mUk_EnAdv1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12634,
+      "kuerzel": "mUk_EnAdv2",
+      "bezeichnung": "English for Advanced Certificate 2",
+      "url": "allModules/12634_mUk_EnAdv2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11005,
+      "kuerzel": "M_English1",
+      "bezeichnung": "English Level 1",
+      "url": "allModules/11005_M_English1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 11007,
+      "kuerzel": "M_English2",
+      "bezeichnung": "English Level 2",
+      "url": "allModules/11007_M_English2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 11008,
+      "kuerzel": "M_English3",
+      "bezeichnung": "English Level 3",
+      "url": "allModules/11008_M_English3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11009,
+      "kuerzel": "M_English4",
+      "bezeichnung": "English Level 4",
+      "url": "allModules/11009_M_English4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10981,
+      "kuerzel": "M_Franz1",
+      "bezeichnung": "Französisch 1",
+      "url": "allModules/10981_M_Franz1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10982,
+      "kuerzel": "M_Franz2",
+      "bezeichnung": "Französisch 2",
+      "url": "allModules/10982_M_Franz2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12700,
+      "kuerzel": "mUk_Fue",
+      "bezeichnung": "Führung",
+      "url": "allModules/12700_mUk_Fue.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12704,
+      "kuerzel": "mUk_FuVar",
+      "bezeichnung": "Funktionen mehrerer Variablen",
+      "url": "allModules/12704_mUk_FuVar.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10942,
+      "kuerzel": "M_FuVar",
+      "bezeichnung": "Funktionen mehrerer Variablen",
+      "url": "allModules/10942_M_FuVar.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 12528,
+      "kuerzel": "mUk_BwlBus",
+      "bezeichnung": "Grundlagen der Betriebswirtschaft: Erklärt am Beispiel eines Businessplanes",
+      "url": "allModules/12528_mUk_BwlBus.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10927,
+      "kuerzel": "M_Info1",
+      "bezeichnung": "Informatik 1: Grundlagen C++",
+      "url": "allModules/10927_M_Info1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 10929,
+      "kuerzel": "M_Info2",
+      "bezeichnung": "Informatik 2: C++ Aufbau",
+      "url": "allModules/10929_M_Info2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 16135,
+      "kuerzel": "M_Info3Java",
+      "bezeichnung": "Informatik 3: Java",
+      "url": "allModules/16135_M_Info3Java.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 10930,
+      "kuerzel": "M_Info3OOA",
+      "bezeichnung": "Informatik 3: OOA/OOD",
+      "url": "allModules/10930_M_Info3OOA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 12742,
+      "kuerzel": "mUk_Info3",
+      "bezeichnung": "Informatik 3: OOA/OOD",
+      "url": "allModules/12742_mUk_Info3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10931,
+      "kuerzel": "M_Info4Java",
+      "bezeichnung": "Informatik 4: Java",
+      "url": "allModules/10931_M_Info4Java.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 12744,
+      "kuerzel": "mUk_Info4",
+      "bezeichnung": "Informatik 4: JAVA für C++ Programmierer",
+      "url": "allModules/12744_mUk_Info4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 16130,
+      "kuerzel": "M_Info4OOA",
+      "bezeichnung": "Informatik 4: OOA/OOD",
+      "url": "allModules/16130_M_Info4OOA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 12760,
+      "kuerzel": "mUk_IntTra",
+      "bezeichnung": "Integraltransformationen",
+      "url": "allModules/12760_mUk_IntTra.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 61226,
+      "kuerzel": "M_IntTra",
+      "bezeichnung": "Integraltransformationen",
+      "url": "allModules/61226_M_IntTra.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 11085,
+      "kuerzel": "M_IntSi1",
+      "bezeichnung": "Internet Sicherheit 1",
+      "url": "allModules/11085_M_IntSi1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11087,
+      "kuerzel": "M_IntSi2",
+      "bezeichnung": "Internet Sicherheit 2",
+      "url": "allModules/11087_M_IntSi2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10977,
+      "kuerzel": "M_Ital1",
+      "bezeichnung": "Italienisch 1",
+      "url": "allModules/10977_M_Ital1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 15667,
+      "kuerzel": "M_Ital2",
+      "bezeichnung": "Italienisch 2",
+      "url": "allModules/15667_M_Ital2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10959,
+      "kuerzel": "M_Jap1",
+      "bezeichnung": "Japanisch 1",
+      "url": "allModules/10959_M_Jap1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10960,
+      "kuerzel": "M_Jap2",
+      "bezeichnung": "Japanisch 2",
+      "url": "allModules/10960_M_Jap2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11144,
+      "kuerzel": "M_KomIng1",
+      "bezeichnung": "Kommunikation 1 für IngenieurInnen",
+      "url": "allModules/11144_M_KomIng1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 11148,
+      "kuerzel": "M_KomIng2",
+      "bezeichnung": "Kommunikation 2 für IngenieurInnen",
+      "url": "allModules/11148_M_KomIng2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 15475,
+      "kuerzel": "M_KomFou",
+      "bezeichnung": "Komplexe Zahlen und Fourierreihen",
+      "url": "allModules/15475_M_KomFou.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 15546,
+      "kuerzel": "M_KomFou1",
+      "bezeichnung": "Komplexe Zahlen und Fourierreihen",
+      "url": "allModules/15546_M_KomFou1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 11131,
+      "kuerzel": "M_LeistEl",
+      "bezeichnung": "Leistungselektronik",
+      "url": "allModules/11131_M_LeistEl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 10937,
+      "kuerzel": "M_LinAlg",
+      "bezeichnung": "Lineare Algebra: Einführung",
+      "url": "allModules/10937_M_LinAlg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 11092,
+      "kuerzel": "M_MatWiss",
+      "bezeichnung": "Materialwissenschaften",
+      "url": "allModules/11092_M_MatWiss.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 11150,
+      "kuerzel": "M_Mtronik1",
+      "bezeichnung": "Mechatronik 1",
+      "url": "allModules/11150_M_Mtronik1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10958,
+      "kuerzel": "M_Mtronik2",
+      "bezeichnung": "Mechatronik 2",
+      "url": "allModules/10958_M_Mtronik2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12858,
+      "kuerzel": "mUk_Mikroel1_4",
+      "bezeichnung": "Mikroelektronik 1",
+      "url": "allModules/12858_mUk_Mikroel1_4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12856,
+      "kuerzel": "mUk_Mikroel1",
+      "bezeichnung": "Mikroelektronik 1",
+      "url": "allModules/12856_mUk_Mikroel1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 12860,
+      "kuerzel": "mUk_Mikroel1P",
+      "bezeichnung": "Mikroelektronik 1 Praktikum",
+      "url": "allModules/12860_mUk_Mikroel1P.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 1
+        }
+      ]
+    },
+    {
+      "id": 13238,
+      "kuerzel": "mUk_Mikroel2",
+      "bezeichnung": "Mikroelektronik 2",
+      "url": "allModules/13238_mUk_Mikroel2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 17316,
+      "kuerzel": "M_Mikroel3",
+      "bezeichnung": "Mikroelektronik 3",
+      "url": "allModules/17316_M_Mikroel3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 17321,
+      "kuerzel": "M_Mikroel4",
+      "bezeichnung": "Mikroelektronik 4",
+      "url": "allModules/17321_M_Mikroel4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12862,
+      "kuerzel": "mUk_MobKom1",
+      "bezeichnung": "Mobilkommunikation 1",
+      "url": "allModules/12862_mUk_MobKom1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 12864,
+      "kuerzel": "mUk_MobKom1_4",
+      "bezeichnung": "Mobilkommunikation 1",
+      "url": "allModules/12864_mUk_MobKom1_4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11178,
+      "kuerzel": "M_MobKom1",
+      "bezeichnung": "Mobilkommunikation 1",
+      "url": "allModules/11178_M_MobKom1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 12866,
+      "kuerzel": "mUk_MobKom1P",
+      "bezeichnung": "Mobilkommunikation 1 Praktikum",
+      "url": "allModules/12866_mUk_MobKom1P.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 1
+        }
+      ]
+    },
+    {
+      "id": 13240,
+      "kuerzel": "mUk_MobKom2",
+      "bezeichnung": "Mobilkommunikation 2",
+      "url": "allModules/13240_mUk_MobKom2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 15733,
+      "kuerzel": "M_MobKom2",
+      "bezeichnung": "Mobilkommunikation 2",
+      "url": "allModules/15733_M_MobKom2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 12868,
+      "kuerzel": "mUk_MobKom2P",
+      "bezeichnung": "Mobilkommunikation 2 Praktikum",
+      "url": "allModules/12868_mUk_MobKom2P.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 1
+        }
+      ]
+    },
+    {
+      "id": 12884,
+      "kuerzel": "mUk_NaT1",
+      "bezeichnung": "Nachrichtentechnik 1",
+      "url": "allModules/12884_mUk_NaT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 11174,
+      "kuerzel": "M_NaT1",
+      "bezeichnung": "Nachrichtentechnik 1",
+      "url": "allModules/11174_M_NaT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 12886,
+      "kuerzel": "mUk_NaT2",
+      "bezeichnung": "Nachrichtentechnik 2",
+      "url": "allModules/12886_mUk_NaT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 15738,
+      "kuerzel": "M_NaT2",
+      "bezeichnung": "Nachrichtentechnik 2",
+      "url": "allModules/15738_M_NaT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 12882,
+      "kuerzel": "mUk_Nap",
+      "bezeichnung": "NAP: Naturwissenschaftliches Praktikum",
+      "url": "allModules/12882_mUk_Nap.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11071,
+      "kuerzel": "M_NAP",
+      "bezeichnung": "Naturwissenschaftliches Praktikum",
+      "url": "allModules/11071_M_NAP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 11031,
+      "kuerzel": "M_PnProg",
+      "bezeichnung": "Parallel- und Netzwerkprogrammierung",
+      "url": "allModules/11031_M_PnProg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 45143,
+      "kuerzel": "M_Ph1Mech",
+      "bezeichnung": "Physik 1 - Mechanik",
+      "url": "allModules/45143_M_Ph1Mech.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 11020,
+      "kuerzel": "M_Ph2HAT",
+      "bezeichnung": "Physik 2",
+      "url": "allModules/11020_M_Ph2HAT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 11052,
+      "kuerzel": "M_Ph3SWO",
+      "bezeichnung": "Physik 3",
+      "url": "allModules/11052_M_Ph3SWO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 12912,
+      "kuerzel": "mUk_Ph3SwoA",
+      "bezeichnung": "Physik 3 A: Schwingung, Wellen, Optik A",
+      "url": "allModules/12912_mUk_Ph3SwoA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12918,
+      "kuerzel": "mUk_Ph5Tec",
+      "bezeichnung": "Physik 5: Technische Physik",
+      "url": "allModules/12918_mUk_Ph5Tec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 16119,
+      "kuerzel": "M_PraInf1",
+      "bezeichnung": "Praktische Informatik 1",
+      "url": "allModules/16119_M_PraInf1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 16125,
+      "kuerzel": "M_PraInf2",
+      "bezeichnung": "Praktische Informatik 2",
+      "url": "allModules/16125_M_PraInf2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 11192,
+      "kuerzel": "M_RegT1",
+      "bezeichnung": "Regelungstechnik 1",
+      "url": "allModules/11192_M_RegT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 12966,
+      "kuerzel": "mUk_RegT1",
+      "bezeichnung": "Regelungstechnik 1 (Abt. E)",
+      "url": "allModules/12966_mUk_RegT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 11194,
+      "kuerzel": "M_RegT2",
+      "bezeichnung": "Regelungstechnik 2",
+      "url": "allModules/11194_M_RegT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 12968,
+      "kuerzel": "mUk_RegT2",
+      "bezeichnung": "Regelungstechnik 2 (Abt. E)",
+      "url": "allModules/12968_mUk_RegT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 11195,
+      "kuerzel": "M_RegT3",
+      "bezeichnung": "Regelungstechnik 3",
+      "url": "allModules/11195_M_RegT3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12970,
+      "kuerzel": "mUk_RegT3",
+      "bezeichnung": "Regelungstechnik 3 (Abt. E)",
+      "url": "allModules/12970_mUk_RegT3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 12972,
+      "kuerzel": "mUk_RegT3_4",
+      "bezeichnung": "Regelungstechnik 3 (Abt. E)",
+      "url": "allModules/12972_mUk_RegT3_4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12974,
+      "kuerzel": "mUk_RegT3P",
+      "bezeichnung": "Regelungstechnik 3 (Abt. E) Praktikum",
+      "url": "allModules/12974_mUk_RegT3P.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 1
+        }
+      ]
+    },
+    {
+      "id": 11193,
+      "kuerzel": "M_RegT4",
+      "bezeichnung": "Regelungstechnik 4",
+      "url": "allModules/11193_M_RegT4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12976,
+      "kuerzel": "mUk_RegT4",
+      "bezeichnung": "Regelungstechnik 4 (Abt. E)",
+      "url": "allModules/12976_mUk_RegT4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 12978,
+      "kuerzel": "mUk_RegT4P",
+      "bezeichnung": "Regelungstechnik 4 (Abt. E) Praktikum",
+      "url": "allModules/12978_mUk_RegT4P.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 1
+        }
+      ]
+    },
+    {
+      "id": 11109,
+      "kuerzel": "M_Rob",
+      "bezeichnung": "Robotik",
+      "url": "allModules/11109_M_Rob.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11176,
+      "kuerzel": "M_SigSys1",
+      "bezeichnung": "Signale und Systeme 1",
+      "url": "allModules/11176_M_SigSys1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 15753,
+      "kuerzel": "M_SigSys2",
+      "bezeichnung": "Signale und Systeme 2",
+      "url": "allModules/15753_M_SigSys2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10975,
+      "kuerzel": "M_Span1",
+      "bezeichnung": "Spanisch 1",
+      "url": "allModules/10975_M_Span1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10980,
+      "kuerzel": "M_Span2",
+      "bezeichnung": "Spanisch 2",
+      "url": "allModules/10980_M_Span2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 13012,
+      "kuerzel": "mUk_SA1E",
+      "bezeichnung": "Studienarbeit 1 Elektrotechnik",
+      "url": "allModules/13012_mUk_SA1E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 13018,
+      "kuerzel": "mUk_SA2E",
+      "bezeichnung": "Studienarbeit 2 Elektrotechnik",
+      "url": "allModules/13018_mUk_SA2E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 11340,
+      "kuerzel": "U_SA2_E",
+      "bezeichnung": "Studienarbeit 2 Elektrotechnik - Übergangsmodul",
+      "url": "allModules/11340_U_SA2_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 19475,
+      "kuerzel": "M_SAE",
+      "bezeichnung": "Studienarbeit Elektrotechnik",
+      "url": "allModules/19475_M_SAE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 15284,
+      "kuerzel": "U_ThSolar_SS06",
+      "bezeichnung": "Thermische Solartechnik - Übergangsmodul SS 06",
+      "url": "allModules/15284_U_ThSolar_SS06.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12470,
+      "kuerzel": "mUk_AnUebE",
+      "bezeichnung": "Übergangsmodul Analysis (Abt. E)",
+      "url": "allModules/12470_mUk_AnUebE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 16925,
+      "kuerzel": "M_UmwRes",
+      "bezeichnung": "Umwelt und Ressourcen",
+      "url": "allModules/16925_M_UmwRes.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 16929,
+      "kuerzel": "M_UT1",
+      "bezeichnung": "Umwelttechnik 1",
+      "url": "allModules/16929_M_UT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 16933,
+      "kuerzel": "M_UT2",
+      "bezeichnung": "Umwelttechnik 2",
+      "url": "allModules/16933_M_UT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12982,
+      "kuerzel": "mUk_ReUnt",
+      "bezeichnung": "Unternehmensrecht",
+      "url": "allModules/12982_mUk_ReUnt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10979,
+      "kuerzel": "M_UInt1",
+      "bezeichnung": "User Interfaces 1",
+      "url": "allModules/10979_M_UInt1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10984,
+      "kuerzel": "M_UInt2",
+      "bezeichnung": "User Interfaces 2",
+      "url": "allModules/10984_M_UInt2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11054,
+      "kuerzel": "M_Vss",
+      "bezeichnung": "Verteilte SW-Systeme",
+      "url": "allModules/11054_M_Vss.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 13168,
+      "kuerzel": "mUk_VwlVw",
+      "bezeichnung": "Volkswirtschaft",
+      "url": "allModules/13168_mUk_VwlVw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15997,
+      "kuerzel": "M_VwlTg",
+      "bezeichnung": "Volkswirtschaft und Technikgeschichte",
+      "url": "allModules/15997_M_VwlTg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 13198,
+      "kuerzel": "mUk_WrStat",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung und Statistik",
+      "url": "allModules/13198_mUk_WrStat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15386,
+      "kuerzel": "M_WrStat",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung und Statistik",
+      "url": "allModules/15386_M_WrStat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 13182,
+      "kuerzel": "mUk_Wavelets",
+      "bezeichnung": "Wavelets",
+      "url": "allModules/13182_mUk_Wavelets.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11122,
+      "kuerzel": "M_WS_DST",
+      "bezeichnung": "Wechsel- und Drehstromtechnik",
+      "url": "allModules/11122_M_WS_DST.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10057,
+          "kuerzel": "K_U1E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ]
+}

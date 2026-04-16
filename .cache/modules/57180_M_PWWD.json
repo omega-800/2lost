@@ -1,0 +1,160 @@
+{
+  "id": 57180,
+  "kuerzel": "M_PWWD",
+  "bezeichnung": "Praxiswoche Webdesign",
+  "kreditpunkte": 2,
+  "lernziele": "<p>- Die Studierenden k&ouml;nnen die Grundlagen der visuellen Gestaltung (z.B. Typographie, visuelle Hierarchie, Farbschemata, Gestaltgesetze, Layoutsysteme) ber&uuml;cksichtigen, um einen Web-Site zu gestalten.<br />- Die Studierenden k&ouml;nnen eine Informationsarchitektur entwickeln und k&ouml;nnen Plattformen (CMS) f&uuml;r deren Bereitstellung analysieren und anwenden.&nbsp;</p>",
+  "vorausgKenntnisse": "<p>Grundlagen des User-Centered Design aus dem DD Modul UCD1 oder dem Informatik Modul UX Design sollten bekannt sein</p>",
+  "semesterBewertung": "bestanden / nicht bestanden",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 57181,
+      "kuerzel": "PWWD",
+      "bezeichnung": "Praxiswoche Webdesign",
+      "planinhalt": "<p>In dieser Praxiswoche wird innerhalb einer Woche ein Web-Site neu designed. Ein typischer Anwendungsbereich ist der Redesign einer Web-Seite einer non-profit Organisation.</p>",
+      "empfLehrmittel": "<p>Projektarbeit</p>",
+      "kurselemente": [
+        {
+          "id": 57182,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 120,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 533889,
+          "name": "Stolze",
+          "vorname": "Markus"
+        },
+        {
+          "id": 5000734,
+          "name": "Stein",
+          "vorname": "Alexandra"
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Praxiswoche Webdesign"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Web design practice week"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10191,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10191_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10246,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10246_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10260,
+      "bezeichnung": "Digital Design",
+      "kuerzel": "DD",
+      "url": "allStudies/10260_DD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10163,
+          "kuerzel": "DD-W",
+          "bezeichnung": "Wahlpflichtbereich",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533889,
+      "name": "Stolze",
+      "vorname": "Markus"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Praxiswoche Webdesign"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Web design practice week"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2025,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 56493,
+    "kuerzel": "M_PWWD",
+    "bezeichnung": "Praxiswoche Webdesign",
+    "url": "allModules/56493_M_PWWD.json"
+  }
+}

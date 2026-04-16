@@ -1,0 +1,75 @@
+{
+  "id": 10183,
+  "kuerzel": "CE_Profil",
+  "bezeichnung": "Civil Engineering",
+  "versionKuerzel": "MSE_20",
+  "art": "Profil",
+  "parent": {
+    "id": 10182,
+    "kuerzel": "BuP",
+    "bezeichnung": "Bau und Planung",
+    "url": "allStudies/10182_BuP.json"
+  },
+  "zuordnungen": [
+    {
+      "id": 37771,
+      "kuerzel": "M_TSM_StrucEng",
+      "bezeichnung": "Baudynamik und Erdbebeningenieurwesen",
+      "url": "allModules/37771_M_TSM_StrucEng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 24253,
+      "kuerzel": "M_TSM_BauStat",
+      "bezeichnung": "Baustatik",
+      "url": "allModules/24253_M_TSM_BauStat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 37886,
+      "kuerzel": "M_BuBP_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37886_M_BuBP_MT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 37888,
+      "kuerzel": "M_BuBP_MT_JM",
+      "bezeichnung": "Master Thesis (JM)",
+      "url": "allModules/37888_M_BuBP_MT_JM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 37778,
+      "kuerzel": "M_TSM_MatPla",
+      "bezeichnung": "Werkstoffmechanik und Plastizität",
+      "url": "allModules/37778_M_TSM_MatPla.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 19090,
+      "kuerzel": "M_TSM_Build",
+      "bezeichnung": "Zustandserfassung von Bauwerken",
+      "url": "allModules/19090_M_TSM_Build.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ]
+}

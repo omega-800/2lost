@@ -1,0 +1,209 @@
+{
+  "id": 56474,
+  "kuerzel": "M_AnME",
+  "bezeichnung": "Analog Microelectronics",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden k&ouml;nnen wichtige Grundschaltungen und Subsysteme in CMOS-Technologie entwerfen und analysieren. Sie k&ouml;nnen auf systematische Art und Weise integrierte CMOS-Schaltungen berechnen und mittels Simulationen &uuml;berpr&uuml;fen und optimieren. </p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 56475,
+      "kuerzel": "AnME",
+      "bezeichnung": "Analog Microelectronics",
+      "planinhalt": "<p>MOS-Transistor (Struktur, Kennlinien, Ersatzschaltungen) <br />Grundschaltungen des MOS-Transistors <br />MOS-Diode <br />MOS-Transistor als Stromquelle <br />MOS-Stromspiegel <br />Einstufige MOS-Verst&auml;rker <br />MOS-Operationsverst&auml;rker <br />Spannungsreferenzen&nbsp;<br /><br />&Auml;nderungen vorbehalten.</p>",
+      "kurselemente": [
+        {
+          "id": 56476,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        },
+        {
+          "id": 56477,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Analog Microelectronics"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Analog Microelectronics"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 537055,
+      "name": "Zbinden",
+      "vorname": "Paul"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11201,
+      "kuerzel": "M_Elo1",
+      "bezeichnung": "Elektronik 1",
+      "url": "allModules/11201_M_Elo1.json"
+    },
+    {
+      "id": 11202,
+      "kuerzel": "M_Elo2",
+      "bezeichnung": "Elektronik 2",
+      "url": "allModules/11202_M_Elo2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 56474,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>75% der Praktika besucht</p>\n<p>&nbsp;</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Analog Microelectronics"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Analog Microelectronics"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2025,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 40693,
+    "kuerzel": "M_AnME",
+    "bezeichnung": "Analog Microelectronics",
+    "url": "allModules/40693_M_AnME.json"
+  }
+}

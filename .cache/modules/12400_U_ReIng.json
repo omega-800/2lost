@@ -1,0 +1,113 @@
+{
+  "id": 12400,
+  "kuerzel": "U_ReIng",
+  "bezeichnung": "Recht für Ingenieure - Übergangsmodul (M)",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Sie lernen die grundlegenden rechtlichen Problemstellungen, welche sie als Ingenieur in Ihrem Berufsalltag gegen&#252;berstehen, kennen und einzuordnen. Sie eignen sich eine Systematik f&#252;r deren L&#246;sung an. Falll&#246;sungen und Gerichtsentscheide unterst&#252;tzen Sie dabei, Ihre Lernziele zu erreichen. Sie schaffen sich zudem die optimale Grundlage f&#252;r weitere im Bereich Recht angebotene Aufbau- und Spezialmodule resp. &#8211;kurse. <br /></p>",
+  "vorausgKenntnisse": "<p>keine</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 12365,
+      "kuerzel": "uReIng",
+      "bezeichnung": "Recht für Ingenieure - Übergang (M)",
+      "planinhalt": "<ul>\n<li>Begriff, Erscheinungsformen, Zweck, Entstehung und Entwicklung von Recht </li>\n<li>&#220;berblick &#252;ber die verfassungsm&#228;ssigen Grundlagen und ihre Auswirkungen auf den Berufsalltag des Ingenieurs unter besonderer Ber&#252;cksichtigung des Datenrechts.</li>\n<li>Grundz&#252;ge des Eigentumsrechts</li>\n<li>Rechtsgesch&#228;fte und Haftung anhand des E-Commerce </li>\n<li>Die Leistung des Ingenieurs (z.B. Erfindung, Computerprogramm) als Rechtsgut </li>\n<li>Die optimale Organisationsform zur Erbringung von Ingenieurleistungen aus rechtlicher Sicht </li>\n<li>Ausgew&#228;hlte strafrechtliche Fragen im Berufsalltag des Ingenieurs <br /></li></ul>",
+      "kurselemente": [
+        {
+          "id": 12382,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Recht für Ingenieure - Übergang (M)"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Law for Engineers - Transition (M)"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10017,
+          "kuerzel": "M-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 541,
+      "name": "Ruggli",
+      "vorname": "Sandro A."
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 12400,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Recht für Ingenieure - Übergangsmodul (M)"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Law for Engineers - Bridging Module (M)"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2006,
+    "endSemester": "WS"
+  }
+}

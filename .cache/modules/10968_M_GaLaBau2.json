@@ -1,0 +1,204 @@
+{
+  "id": 10968,
+  "kuerzel": "M_GaLaBau2",
+  "bezeichnung": "Garten- und Landschaftsbau 2",
+  "kreditpunkte": 6,
+  "lernziele": "<p>Vermittlung von Kenntnissen in Ausf&#252;hrung, CAD und Pflanzen, die f&#252;r die T&#228;tigkeit in der Landschaftsarchitektur notwendig sind.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10050,
+      "kuerzel": "Ausf2",
+      "bezeichnung": "Ausführung 2 ",
+      "lernziele": "<p>Vermittlung von Kenntnissen in der Ausf&#252;hrungsplanung, die f&#252;r die Realisierung eines Projektes in der Landschaftsarchitektur notwendig sind.</p>",
+      "planinhalt": "<p>Projektarbeit bestehend aus einem H&#246;hen- und Absteckplan, Entw&#228;sserungsplan und einem Detailplan (Mauer, Treppen und Wege)</p>",
+      "kurselemente": [
+        {
+          "id": 13270,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Ausführung 2 "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Realisation 2"
+        }
+      ]
+    },
+    {
+      "id": 10051,
+      "kuerzel": "CAD_2",
+      "bezeichnung": "CAD-2 ",
+      "lernziele": "<p>Einf&#252;hrung in Digitale Gel&#228;ndemodelle (DGM) als Grundlage f&#252;r die digitale Projektbearbeitung in der Landschaftsarchitektur.</p>",
+      "planinhalt": "<p>- DGM in Autocad und Vectorworks <br />- Einf&uuml;hrung in den Einsatz von Tachymeter/GPS in der Landschaftsarchitektur <br /></p>",
+      "kurselemente": [
+        {
+          "id": 12357,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 15,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "CAD-2 "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "CAD-2"
+        }
+      ]
+    },
+    {
+      "id": 10052,
+      "kuerzel": "PflKenn2",
+      "bezeichnung": "Pflanzenkenntnisse 2 ",
+      "lernziele": "<p>Erweiterung der Arten- und Sortenkenntnisse. <br />Fachkenntnisse zum Einsatz von Pflanzen im landschaftsarchitektonischen Entwurf. <br />Erlernen des fachgerechten Umgangs mit Pflanzen in Ausf&#252;hrungsprojekten. <br /></p>",
+      "planinhalt": "<p>Laubgeh&#246;lze, Obstgeh&#246;lze, Kletterpflanzen, Bodendecker, Zwiebelpflanzen, regionaltypische Geh&#246;lzverwendung, Bepflanzungsstrategien von Geh&#246;lzen.</p>",
+      "kurselemente": [
+        {
+          "id": 10432,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 11238,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Pflanzenkenntnisse 2 "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Plant Knowledge 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10002,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10002_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10008,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10008_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10014,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10014_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 128,
+      "name": "Petschek",
+      "vorname": "Peter"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 10967,
+      "kuerzel": "M_GaLaBau1",
+      "bezeichnung": "Garten- und Landschaftsbau 1",
+      "url": "allModules/10967_M_GaLaBau1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 10968,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Garten- und Landschaftsbau 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Construction 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2006,
+    "endSemester": "SS"
+  },
+  "nachfolger": {
+    "id": 10968,
+    "kuerzel": "M_GaLaBau2",
+    "bezeichnung": "Garten- und Landschaftsbau 2",
+    "url": "allModules/10968_M_GaLaBau2.json"
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "id": 24101,
+  "kuerzel": "M_MathSem1",
+  "bezeichnung": "Mathematisches Seminar 1",
+  "kreditpunkte": 2,
+  "lernziele": "<span style=\"FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;\">Erarbeiten der Grundlagen eines mathematischen Gebietes in der </span><span style=\"FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;\">Seminargruppe. Selbst&auml;ndige Bearbeitung und Vertiefung eines mathematischen Themas. Erstellen einer Seminararbeit. Vorbereiten eines Vortrags zu einem mathematischen oder technischen Thema</span><span style=\"FONT-SIZE: 10pt; FONT-FAMILY: NimbusRomNo9L-Regu; mso-bidi-font-family: NimbusRomNo9L-Regu\"><font face=\"Times New Roman\">.\n<p>&nbsp;</p>\n</font></span>",
+  "vorausgKenntnisse": "<p>Die mathematischen Vorlesungen des ersten Studienjahres.<br /><br />Studiengang Bauingenieurwesen: <strong>Die Teilnahme setzt voraus, dass die nachfolgenden Module vorg&auml;ngig besucht wurden</strong>:</p><ul><li>Analysis 1</li><li>Analysis 2</li><li>Vektorgeometrie</li></ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 24102,
+      "kuerzel": "MathSem1",
+      "bezeichnung": "Mathematisches Seminar 1",
+      "planinhalt": "<font size=\"2\">\n<p>Das Seminar wird zu wechselnden mathematischen Themen angeboten; wie.: </p>\n<ul>\n    <li><strong>Numerische Methoden der Ingenieurmathematik</strong>: L&ouml;sen von Gleichungen, Nullstellenbestimmung, Berechnen von speziellen Funktionswerten, Berechnung von Integralen, L&ouml;sen von Differentialgleichungen </li>\n    <li><strong>Mathematische Grundlagen der Kryptographie</strong>: modulare Arithmetik, Euklidscher Algorithmus, Satz von Euler, Montgomery-Multiplikation, Schl&uuml;sseltausch nach Diffie-Hellmann, RSA-Verfahren, weitere Algorithmen </li>\n    <li><strong>Markov-Prozesse und Queuing-Theorie</strong>: Prozesse, &Uuml;bergangswahrscheinlichkeiten, Exponentialverteilung, Poisson-Prozesse, verschiedene Modelle von Warteschlangen </li>\n    <li><strong>Diskrete Mathematik</strong>: Graphentheorie, Komplexit&auml;tstheorie, Informationstheorie, Codierungstheorie </li>\n</ul>\n<p>&nbsp;</p>\n<p>Durchf&uuml;hrung:</p>\n<ul>\n    <li>Einf&uuml;hrung durch den leitenden Dozenten in das Themengebiet </li>\n    <li>Vertiefung einzelner Themen durch Vortr&auml;ge der Teilnehmer und die von den Teilnehmern verfassten Seminararbeiten </li>\n    <li>Erg&auml;nzungen falls notwendig durch den leitenden Dozenten </li>\n    <li>&Uuml;berpr&uuml;fung der vermittelten Kenntnisse durch Lernkontroll&uuml;bungen </li>\n</ul>\n</font>",
+      "kurselemente": [
+        {
+          "id": 24103,
+          "art": "Seminar",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Mathematisches Seminar 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Mathematical Seminar 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10005,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10005_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10109,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10109_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10131,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10131_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 263,
+      "name": "Müller",
+      "vorname": "Andreas"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Mathematisches Seminar 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Mathematical Seminar 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2014,
+    "beginSemester": "FS",
+    "endJahr": 2018,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 18968,
+    "kuerzel": "M_MathSem",
+    "bezeichnung": "Mathematisches Seminar",
+    "url": "allModules/18968_M_MathSem.json"
+  },
+  "nachfolger": {
+    "id": 24101,
+    "kuerzel": "M_MathSem1",
+    "bezeichnung": "Mathematisches Seminar 1",
+    "url": "allModules/24101_M_MathSem1.json"
+  }
+}

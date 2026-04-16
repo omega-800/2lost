@@ -1,0 +1,233 @@
+{
+  "id": 11150,
+  "kuerzel": "M_Mtronik1",
+  "bezeichnung": "Mechatronik 1",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Kenntnis der Zusammenh&auml;nge und Schnittstellen zwischen Maschinenbau, Elektrotechnik und technischer Informatik </li>\n    <li>Ben&uuml;tzen von rechnergest&uuml;tzten Werkzeugen f&uuml;r Entwicklung, Simulation und Automation von Systemen </li>\n    <li>Vorgehen beim Entwurf und Aufbau mechatronischer Systeme</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10306,
+      "kuerzel": "Mtronik1",
+      "bezeichnung": "Mechatronik 1",
+      "planinhalt": "<ul>\n    <li>Analoge und digitale Signal&uuml;bertragung </li>\n    <li>Schnittstellen zwischen Maschinenbau, Elektrotechnik und technischer Informatik</li>\n    <li>Einf&uuml;hrung in das Programmpaket LabVIEW (Messdatenerfassung, Signalverarbeitung, User-Interface usw.) </li>\n    <li>Signalverarbeitung und Algorithmen (Korrelation, FFT, BV, usw.) </li>\n    <li>Simulation und Animation mechatronischer Systeme </li>\n    <li>Beispiele aus der Praxis</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 10763,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 10861,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Mechatronik 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Mechatronics 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 136,
+      "name": "Domeisen",
+      "vorname": "Heinz"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11152,
+      "kuerzel": "M_AutoT1",
+      "bezeichnung": "Automatisierungstechnik 1",
+      "url": "allModules/11152_M_AutoT1.json"
+    },
+    {
+      "id": 11155,
+      "kuerzel": "M_AutoT2",
+      "bezeichnung": "Automatisierungstechnik 2",
+      "url": "allModules/11155_M_AutoT2.json"
+    },
+    {
+      "id": 15701,
+      "kuerzel": "M_AutoT3_1",
+      "bezeichnung": "Automatisierungstechnik 3",
+      "url": "allModules/15701_M_AutoT3_1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11150,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Mechatronik 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Mechatronics 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2010,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 11150,
+    "kuerzel": "M_Mtronik1",
+    "bezeichnung": "Mechatronik 1",
+    "url": "allModules/11150_M_Mtronik1.json"
+  }
+}

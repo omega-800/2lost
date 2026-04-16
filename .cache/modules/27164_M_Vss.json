@@ -1,0 +1,335 @@
+{
+  "id": 27164,
+  "kuerzel": "M_Vss",
+  "bezeichnung": "Verteilte SW-Systeme",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Verteilte Software-Systeme (VSS) sind allgegenw&auml;rtig in beruflichem und privatem Alltag; sie f&uuml;hren Konzepte und Technologien aus unterschiedlichen Bereichen der Informatik zusammen. Nach dem Besuch dieses Moduls sind Sie in der Lage, VSS zu analysieren, zu entwerfen und mit Hilfe von Middleware und Frameworks zu realisieren:</p><ul><li><p>Sie k&ouml;nnen die charakteristischen Eigenschaften von VSS und die grundlegenden Fragestellungen beim Entwurf von VSS nennen.</p></li><li><p>Sie k&ouml;nnen synchrone Remote Procedure Calls (RPC) und asynchrone Messaging-Kommunikationskan&auml;le konzipieren und implementieren.</p></li><li><p>Sie k&ouml;nnen die Konzepte und Funktionsweisen der wichtigsten Middleware-Dienste zum Bau von VSS erkl&auml;ren und beispielhafte Middleware-Implementierungen vergleichen und bewerten.</p></li><li><p>Sie k&ouml;nnen operationale Infrastrukturen f&uuml;r verteilte Systeme unter Verwendung von Deployment Patterns entwerfen.</p></li></ul>",
+  "vorausgKenntnisse": "<p>Englische Sprachkenntnisse</p><p>(Dieses Modul wird teilweise auf Englisch durchgef&uuml;hrt.)</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 27165,
+      "kuerzel": "Vss",
+      "bezeichnung": "Verteilte Systeme I ",
+      "lernziele": "Siehe Modul-Lernziele",
+      "planinhalt": "<p>Charakteristische Eigenschaften verteilter Software-Systeme:</p><ul><li><p>Vom Programm zum System: Verteilungsdimensionen, Kopplungsarten, Designherausforderungen</p></li><li><p>VSS-Anwendungsgebiete in der Praxis, z.B. Unternehmensanwendungen, Distributed Control Systems, World-Wide Web (WWW)</p></li><li><p>Wichtige Architekturstile und Anwendungstopologien: Client-Server, Hub-and-Spoke, Peer-to-Peer</p></li></ul><p>Remoting (Netzwerkprogrammierung):</p><ul><li><p>Synchrone Kommunikation: TCP/IP Sockets, Remote Procedure Calls, HTTP Web Services</p></li><li><p>Asynchrone Kommunikation mit Message-Oriented Middleware (MOM), Enterprise Integration Patterns</p></li><li><p>weitere Message Exchange Patterns und Kommunikationsprotokolle im &Uuml;berblick</p></li></ul><p>Zentrale Konzepte f&uuml;r den Entwurf verteilter Systeme:</p><ul><li><p>Naming</p></li><li><p>Synchronization</p></li></ul><p>Verteilte Algorithmen und Datenstrukturen:</p><ul><li><p>Namensaufl&ouml;sung</p></li><li><p>Verteilte Hash-Tabellen</p></li><li><p>Lamport-Uhr</p></li><li>Vektor-Uhr</li></ul><p>Anwendung verteilter Systeme. Zum Beispiel:</p><ul><li>BitTorrent</li><li>Bitcoin</li><li>Distributed batch processing</li></ul><p>Operationale Modelle und Deployment Patterns f&uuml;r das qualit&auml;tsgetriebene Infrastrukturdesign:</p><ul><li>Performance und Skalierbarkeit</li><li><p>Robustheit und Verf&uuml;gbarkeit</p></li><li><p>Systemmanagement und Auditierbarkeit</p></li><li><p>Middleware-Produkte und Frameworks zum Bau von VSS</p></li><li><p>Plattform-Auswahlkriterien und Designentscheidungen im VSS-Entwurf</p></li></ul><p>Ausblick auf spezielle VSS &ndash; Event-Driven Architectures,&nbsp;Cloud Computing, Service-Oriented Architectures</p><p>Fallstudien aus der Industriepraxis</p><p>&nbsp;</p><p>Dieser Kurs wird teilweise auf Englisch durchgef&uuml;hrt.</p>",
+      "kurselemente": [
+        {
+          "id": 27166,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 126,
+          "harteGrenze": true
+        },
+        {
+          "id": 27167,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Verteilte Systeme I "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Distributed Systems I"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10127,
+      "bezeichnung": "Generalist",
+      "kuerzel": "GEN",
+      "url": "allStudies/10127_GEN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10161,
+      "bezeichnung": "Data Engineering & Machine Intelligence",
+      "kuerzel": "DaEngMaInt",
+      "url": "allStudies/10161_DaEngMaInt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10229,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10229_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10106,
+      "bezeichnung": "Application Design - Cloud Solutions",
+      "kuerzel": "ADCS",
+      "url": "allStudies/10106_ADCS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10232,
+      "bezeichnung": "Network and Cloud Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10232_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10108,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10108_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10173,
+      "bezeichnung": "Cyber Security ",
+      "kuerzel": "CySec",
+      "url": "allStudies/10173_CySec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10107,
+      "bezeichnung": "Network & Cloud-Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10107_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5001386,
+      "name": "Mehta",
+      "vorname": "Farhad D."
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 30040,
+      "kuerzel": "M_SE1",
+      "bezeichnung": "Software-Engineering 1",
+      "url": "allModules/30040_M_SE1.json"
+    },
+    {
+      "id": 32613,
+      "kuerzel": "M_Bsys1",
+      "bezeichnung": "Betriebssysteme 1",
+      "url": "allModules/32613_M_Bsys1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 27164,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Verteilte SW-Systeme"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Distributed Software Systems"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2016,
+    "beginSemester": "FS",
+    "endJahr": 2020,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 24019,
+    "kuerzel": "M_Vss",
+    "bezeichnung": "Verteilte SW-Systeme",
+    "url": "allModules/24019_M_Vss.json"
+  },
+  "nachfolger": {
+    "id": 27164,
+    "kuerzel": "M_Vss",
+    "bezeichnung": "Verteilte SW-Systeme",
+    "url": "allModules/27164_M_Vss.json"
+  }
+}

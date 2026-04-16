@@ -1,0 +1,257 @@
+{
+  "id": 48641,
+  "kuerzel": "M_SYS_A_(Ma)",
+  "bezeichnung": "Systemtechnik A (Maschinenbau)",
+  "kreditpunkte": 8,
+  "lernziele": "<p>Die Studierenden beherrschen die Grundlagen der Fachgebiete Messtechnik und Antriebstechnik sowie Elektronik.</p>",
+  "vorausgKenntnisse": "<p>Ebenfalls vorausgesetzt sind die&nbsp;f&uuml;nf Module Informatik, Mechanik &amp; Werkstoffe&nbsp;/ Chemie I, Mechanik &amp; Werkstoffe&nbsp;/ Chemie II, Elektrotechnik &amp; Lineare Algebra I sowie Elektrotechnik &amp; Lineare Algebra II.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 48642,
+      "kuerzel": "SYS_A_(Ma)_M",
+      "bezeichnung": "Mess- und Antriebstechnik",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen grundlegende Sensorprinzipien anwenden. </li>\n    <li>k&ouml;nnen eine Messstrecke aufbauen. </li>\n    <li>k&ouml;nnen die Wheatstonesche Br&uuml;cke einsetzen. </li>\n    <li>k&ouml;nnen Sensorsignale aufbereiten. </li>\n    <li>k&ouml;nnen elektrische Standardmessger&auml;te einsetzen. </li>\n    <li>kennen Grundlagen der Statistik im Hinblick auf Messunsicherheit. </li>\n    <li>k&ouml;nnen Messunsicherheit auf der Basis&nbsp;des GUM bestimmen. </li>\n    <li>k&ouml;nnen aufgrund der mechanischen Anforderungen einen geeigneten Motor ausw&auml;hlen. </li>\n    <li>k&ouml;nnen den DC-Motor modellieren und einsetzen. </li>\n    <li>kennen die Funktionsweise des Asynchronmotors und des Frequenzumrichters. </li>\n    <li>k&ouml;nnen die Stabilit&auml;t eines station&auml;ren Arbeitspunktes aufgrund der Antriebs- und Lastkennlinie beurteilen. </li>\n    <li>k&ouml;nnen ein Messdatenerfassungs- und -verarbeitungsprogramm erstellen.</li>\n    <li>k&ouml;nnen mittels Software eine grundlegende Signalanalyse realisieren.</li>\n</ul>",
+      "planinhalt": "<p>Messtechnik</p>\n<ul>\n    <li>Messkette </li>\n    <li>Sensorprinzipien </li>\n    <li>Wheatstonesche Br&uuml;cke </li>\n    <li>Signalaufbereitung </li>\n    <li>Einf&uuml;hrung Statistik </li>\n    <li>Messunsicherheit </li>\n</ul>\n<p>&nbsp;</p>\n<p>Antriebstechnik</p>\n<ul>\n    <li>Anforderungen an Motoren </li>\n    <li>DC-Motor </li>\n    <li>Ansteuerelektronik, PWM </li>\n    <li>Asynchronmotor </li>\n</ul>\n<p>&nbsp;</p>\n<p>LabVIEW Grundkurs zur Messdatenerfassung und -analyse</p>",
+      "bibliographie": "Skript, Manuels",
+      "empfLehrmittel": "Vorlesung, &Uuml;bungen und Praktikumsversuche&nbsp;im Klassenverband,&nbsp;Selbststudium",
+      "leistungsnachweis": "W&auml;hrend des Semesters werden Praktikumsarbeiten bewertet (Gewicht 10%) sowie 6 Kurztests und eine abgesetzte Modulschlusspr&uuml;fung (Teile 1 und 2) zusammen mit dem Kurs Elektronik geschrieben. Bei den 6 Kurztests werden einzelne Noten vergeben und am Schluss zu einer Note verrechnet. Wenn ein Kurztest unbegr&uuml;ndet vers&auml;umt wird, ergibt es f&uuml;r diesen Kurztest die Note 1.0. Falls ein Kurztest begr&uuml;ndet vers&auml;umt wird (siehe SPO Art. 27 Abs. 2), wird er nicht bewertet und die Note wird nur aus den anderen Kurztests gerechnet.<br />Teil 1 der abgesetzten Modulschlusspr&uuml;fung beinhaltet den Grundkurs in LabVIEW und hat ein Gewicht von 20%.<br />Teil 2 der abgesetzten Modulschlusspr&uuml;fung beinhaltet die Mess- und Antriebstechnik. Falls die Note der 6 Kurztests besser ist als die Note des Teils 2 der Modulschlusspr&uuml;fung in diesem Kurs, werden die Kurztests wie folgt zur Modulnote gerechnet: Die Kurztests haben ein Gewicht von 15 % und Teil 2 der Modulschlusspr&uuml;fung in diesem Kurs hat ein Gewicht von 30%. Falls die Note des Teils 2 der Modulschlusspr&uuml;fung besser als die Note der 6 Kurztests ausf&auml;llt, wird nur die Modulschlusspr&uuml;fung mit Gewicht 45% gerechnet.",
+      "kurselemente": [
+        {
+          "id": 48643,
+          "art": "Klassenunterricht",
+          "anzLektionen": 6,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000919,
+          "name": "Pickhardt",
+          "vorname": "Rainer"
+        }
+      ]
+    },
+    {
+      "id": 48644,
+      "kuerzel": "SYS_A_(Ma)_E",
+      "bezeichnung": "Elektronik",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen Spezialdioden in Schaltungen einsetzen. </li>\n    <li>k&ouml;nnen die Funktionsweise von Transistoren angeben. </li>\n    <li>k&ouml;nnen einfache Grundschaltungen mit Transistoren nach den Grenzdaten und Kenndaten auslegen. </li>\n    <li>k&ouml;nnen die Funktion von lichtempfindlichen Sensoren und Optokopplern angeben. </li>\n    <li>k&ouml;nnen bei realen Operationsverst&auml;rkern die Kenndaten und ihre Bedeutung aus dem Datenblatt angeben. </li>\n    <li>k&ouml;nnen vorgegebene Filterschaltungen mit Operationsverst&auml;rkern realisieren. </li>\n    <li>k&ouml;nnen Summierverst&auml;rker, Differenzverst&auml;rker, Integrierer, Differenzierer und Kippstufen mit Operationsverst&auml;rkern realisieren.&nbsp; </li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Spezialdiode (Leistungsdioden, Gleichrichterschaltungen, LED, Fotodiode, Kenndaten, Grenzdaten, Schottkydioden) </li>\n    <li>Bipolarer Transistor (Funktionsweise, Kenndaten, Grenzdaten) </li>\n    <li>Unipolarer Transistor (JFET, MOSFET, H-Br&uuml;cke, Auslegung, Datenblatt) </li>\n    <li>H-Br&uuml;cke und Leistungsschalter </li>\n    <li>Lichtempfindliche Sensoren, Optokoppler </li>\n    <li>Realer Operationsverst&auml;rker und Kenndaten </li>\n    <li>OP-Schaltungen (Filterschaltungen, Schmitt-Trigger, Summierverst&auml;rker, Differenzverst&auml;rker, Integrierer, Differenzierer, Kippstufen) </li>\n</ul>",
+      "bibliographie": "Skript",
+      "empfLehrmittel": "Lehrgespräch, Übungen, Laborübungen, Selbststudium",
+      "bemerkungKurs": "Die Unterrichtssprache ist Deutsch, die Unterrichtsunterlagen sind jedoch zum Teil auf Englisch.",
+      "leistungsnachweis": "Es findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit dem Kurs&nbsp;Mess-&nbsp;und&nbsp;Antriebstechnik&nbsp;statt.",
+      "kurselemente": [
+        {
+          "id": 48645,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001461,
+          "name": "Arato",
+          "vorname": "Laszlo"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10370,
+      "bezeichnung": "Mechanik und Produktion",
+      "kuerzel": "Mecha",
+      "url": "allStudies/10370_Mecha.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 10371,
+      "bezeichnung": "Mechanik und Produktion",
+      "kuerzel": "Mecha",
+      "url": "allStudies/10371_Mecha.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 10374,
+      "bezeichnung": "Innovationsmanagement und Produktentwicklung mit Mechanik und Produktion",
+      "kuerzel": "IMPmMP",
+      "url": "allStudies/10374_IMPmMP.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10305,
+      "bezeichnung": "Maschinenbau",
+      "kuerzel": "MaB",
+      "url": "allStudies/10305_MaB.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 10303,
+      "bezeichnung": "Maschinenbau",
+      "kuerzel": "MaB",
+      "url": "allStudies/10303_MaB.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 10381,
+      "bezeichnung": "Innovationsmanagement und Produktentwicklung mit Mechanik und Produktion",
+      "kuerzel": "IMPmMP",
+      "url": "allStudies/10381_IMPmMP.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000919,
+      "name": "Pickhardt",
+      "vorname": "Rainer"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 47776,
+      "kuerzel": "M_DKM",
+      "bezeichnung": "Differentialrechnung & Klassische Mechanik",
+      "url": "allModules/47776_M_DKM.json"
+    },
+    {
+      "id": 47850,
+      "kuerzel": "M_IIW",
+      "bezeichnung": "Informatik & IT Wissen",
+      "url": "allModules/47850_M_IIW.json"
+    },
+    {
+      "id": 47939,
+      "kuerzel": "M_IEM",
+      "bezeichnung": "Integralrechnung & Elektrizität / Magnetismus",
+      "url": "allModules/47939_M_IEM.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 48113,
+      "kuerzel": "M_SYS_B_(Ma)",
+      "bezeichnung": "Systemtechnik B (Maschinenbau)",
+      "url": "allModules/48113_M_SYS_B_(Ma).json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 2,
+      "kuerzel": "WSG",
+      "bezeichnung": "Waldau St.Gallen",
+      "ort": "St. Gallen"
+    },
+    {
+      "id": 3,
+      "kuerzel": "CH",
+      "bezeichnung": "Chur",
+      "ort": "Chur"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 48641,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Am Ende des Semesters findet eine abgesetzte Modulschlusspr&uuml;fung in drei Teilen statt. Der Kurs Elektronik bildet einen Teil der abgesetzten Modulschlusspr&uuml;fung und der Kurs&nbsp;Mess- und Antriebstechnik bildet zwei Teile der abgesetzten Modulschlusspr&uuml;fung.</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Systems Engineering A (Mechanical Engineering)"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2014,
+    "beginSemester": "HS",
+    "endJahr": 2014,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 48083,
+    "kuerzel": "M_SYS_A_(Ma)",
+    "bezeichnung": "Systemtechnik A (Maschinenbau)",
+    "url": "allModules/48083_M_SYS_A_(Ma).json"
+  },
+  "nachfolger": {
+    "id": 48641,
+    "kuerzel": "M_SYS_A_(Ma)",
+    "bezeichnung": "Systemtechnik A (Maschinenbau)",
+    "url": "allModules/48641_M_SYS_A_(Ma).json"
+  }
+}

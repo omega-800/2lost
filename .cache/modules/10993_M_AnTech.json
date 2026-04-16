@@ -1,0 +1,175 @@
+{
+  "id": 10993,
+  "kuerzel": "M_AnTech",
+  "bezeichnung": "Anlagentechnik",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Realisierung von Anlagen: <br />Einf&uuml;hrung in die planerischen und kommerziellen Anforderungen des Anlagenbaus <br />Interdisziplin&auml;re Zusammenarbeit, vorallem mit Bau- und Elektroingenieuren, Lieferanten, Bauherren, Beh&ouml;rden<br /><br />Betrieb und Instandhaltung von Anlagen: <br />Vermittlung der grundlegenden Kenntnisse der technischen Betriebsf&uuml;hrung von Maschinen und Anlagen f&uuml;r Konstrukteure und Betriebsingenieure <br /><br />Umsetzung: <br />Anwendung der erworbenen Kenntnisse in Anlagen und Maschinen <br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10084,
+      "kuerzel": "AnTech",
+      "bezeichnung": "Anlagentechnik",
+      "planinhalt": "<p>Realisierung von Anlagen:&nbsp;<br />Projektierung und Auftragsabwicklung von Anlagen<br />Maschinenfundamente <br />Hydraulische Antriebe und Anlagen <br /><br />Betriebsf&#252;hrung von Anlagen:<br />- Aufgaben des Betriebsingenieurs<br />- Prozess- und Anlagendaten<br />- Sch&#228;digung von Anlagen und Komponenten<br />- Zuverl&#228;ssigkeit und Bewertung des Ausfallverhaltens<br />- Wissen basierte Betriebsf&#252;hrung<br />- Wissen basierte Instandhaltung<br />- Sicherheit<br />- Entwicklungen, Trends und M&#246;glichkeiten</p>\n<p>Ausgew&#228;hlte Anwendungsgebiete je nach Aktualit&#228;t oder Interesse wie:&nbsp;<br />- Mobilhydraulik, Pneumatik <br />- Kraftwerkstechnik: Wasserkraftwerke, Stahlwasserbau <br />- Blockheizkraftwerke <br />- Seilbahntechnik <br /><br />Unterrichtsbezogene Vortr&#228;ge und Exkursionen (Seilbahnen, Kraftwerke, Industrie, Wartungsbetriebe, Consulting)</p>",
+      "kurselemente": [
+        {
+          "id": 11247,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 11248,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Anlagentechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Plant and Systems Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533,
+      "name": "Meier",
+      "vorname": "Jürg"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 10962,
+      "kuerzel": "M_PE1",
+      "bezeichnung": "Produktentwicklung 1",
+      "url": "allModules/10962_M_PE1.json"
+    },
+    {
+      "id": 10991,
+      "kuerzel": "M_PE4",
+      "bezeichnung": "Produktentwicklung 4",
+      "url": "allModules/10991_M_PE4.json"
+    },
+    {
+      "id": 15743,
+      "kuerzel": "M_PE2",
+      "bezeichnung": "Produktentwicklung 2",
+      "url": "allModules/15743_M_PE2.json"
+    },
+    {
+      "id": 16648,
+      "kuerzel": "M_PE3",
+      "bezeichnung": "Produktentwicklung 3",
+      "url": "allModules/16648_M_PE3.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 10993,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Anlagentechnik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Plant and Systems Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2008,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 10993,
+    "kuerzel": "M_AnTech",
+    "bezeichnung": "Anlagentechnik",
+    "url": "allModules/10993_M_AnTech.json"
+  }
+}

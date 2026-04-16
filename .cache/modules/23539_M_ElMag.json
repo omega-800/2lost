@@ -1,0 +1,209 @@
+{
+  "id": 23539,
+  "kuerzel": "M_ElMag",
+  "bezeichnung": "Angewandter Elektromagnetismus: Felder und Wellen",
+  "kreditpunkte": 4,
+  "lernziele": "Es werden die Grundlagen der elektromagnetischen Feldtheorie erarbeitet, die f&uuml;r die Auslegung elektrischer Maschinen und Apparate notwendig sind. Der Absolvent lernt die Finite-Element-Methode kennen und kann diese f&uuml;r elektromag-netische Simulationen im Nieder- und Hochfrequenzbereich anwenden. Um die in der Praxis auftretenden Designprobleme zu l&ouml;sen, kommt moderne kommerzielle Simulationssoftware (Infolytica, ANSYS oder COMSOL) zum Einsatz.",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 23540,
+      "kuerzel": "ElMag",
+      "bezeichnung": "Angewandter Elektromagnetismus: Felder und Wellen",
+      "planinhalt": "<ol>\n    <li>Simulationsbasiertes Design und virtuelles Prototyping&nbsp;<br />a.&nbsp;Dielektrisches Design (die elektrostatischen Gleichungen und Randbedingungen)<br />b.&nbsp;Elektromechanisches Design (die magnetostatischen Gleichungen und Randbedingungen,&nbsp; magnetische Kr&auml;fte und ihre Kopplung mit der mechanischen Analyse)<br />c.&nbsp;Elektrothermisches Design (Eisen- und Kupferverluste und ihre Kopplung mit der thermischen Analyse)<br />d.&nbsp;Elektrodynamische Analyse und dazu geh&ouml;rende Eigenwertprobleme (Maxwell-Gleichungen, Wellenausbreitung, Wellenleiter, Antennen, Resonatoren und Lichtleitfasern)&nbsp; </li>\n    <li>Finite-Element-Methode f&uuml;r elektromagnetische Simulationen <br />a.&nbsp;Skalar-FEM (Elektrostatik, Magnetostatik, Wirbelstromanalyse usw.) <br />b.&nbsp;Vektor-FEM (3-D-Wirbelstromanalyse, Wellenausbreitung, Eigenwertprobleme)<br /></li>\n    <li>Praktische Anwendungen <br />a.&nbsp;Dielektrische Berechnungen von Hochspannungsger&auml;ten<br />b.&nbsp;Wirbelstromanalyse von Leistungstransformatoren<br />c.&nbsp;Elektromagnetische Analyse elektrischer Maschinen<br />d.&nbsp;Eigenwertanalyse von Wellenleitern und/oder optischen Leitfasern<br />e.&nbsp;Elektromagnetische Analyse von Mikrowellen- und/oder optischen Antennen<br />f.&nbsp;Elektromagnetische Vertr&auml;glichkeit (EMV).<br />&nbsp; </li>\n</ol>",
+      "kurselemente": [
+        {
+          "id": 23541,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 23542,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Angewandter Elektromagnetismus: Felder und Wellen"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Applied Electromagnetic: Fields and Waves"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 540047,
+      "name": "Smajic",
+      "vorname": "Jasmin"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11122,
+      "kuerzel": "M_WS_DST",
+      "bezeichnung": "Wechsel- und Drehstromtechnik",
+      "url": "allModules/11122_M_WS_DST.json"
+    },
+    {
+      "id": 11125,
+      "kuerzel": "M_ElMasch",
+      "bezeichnung": "Elektrische Maschinen (E)",
+      "url": "allModules/11125_M_ElMasch.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 23539,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>75% der &Uuml;bungen besucht</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Angewandter Elektromagnetismus: Felder und Wellen"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Applied Electromagnetics: Fields and Waves"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2013,
+    "beginSemester": "HS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 22450,
+    "kuerzel": "M_ElMag",
+    "bezeichnung": "Angewandter Elektromagnetismus: Felder und Wellen",
+    "url": "allModules/22450_M_ElMag.json"
+  }
+}

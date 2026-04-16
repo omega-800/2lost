@@ -1,0 +1,148 @@
+{
+  "id": 23085,
+  "kuerzel": "M_ELT3EU",
+  "bezeichnung": "Elektrotechnik 3 (EEU)",
+  "kreditpunkte": 3,
+  "lernziele": "Kenntnisse &uuml;ber (a) elektrische Generatoren (Erzeugung), (b) Transformatoren, Hoch- und Mittelspannungsleitungen (&Uuml;bertragung) und (c) elektrische Antriebe und Leistungselektronik (Umwandlung der elektrischen Energie).",
+  "vorausgKenntnisse": "Mess-, Antriebs-, Regeltechnik 283",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 23086,
+      "kuerzel": "ELT3EU",
+      "bezeichnung": "Erzeugung, Übertragung und Umwandlung elektrischer Energie",
+      "planinhalt": "<p>1. Einleitung</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp; a.&nbsp; &nbsp;&Uuml;bersicht elektrische Versorgungssysteme</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp; b.&nbsp; &nbsp;Stand der Technik und k&uuml;nftige Entwicklung</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp; c.&nbsp;&nbsp; Elektrische Energieversorgung in der Schweiz</p>\n<p>&nbsp;</p>\n<p>2. Erzeugung elektrischer Enerige</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp; a.&nbsp; &nbsp;Elektrische Generatoren (Aufbau und Grundlagen)</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp; b.&nbsp;&nbsp; Effizienz und Verluste</p>\n<p>&nbsp;</p>\n<p>3. &Uuml;bertragung der elektrischen Energie</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp; a.&nbsp;&nbsp; Leistungs- und Distributionstransformatoren (Aufbau und Grundlagen)</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp; b.&nbsp;&nbsp; Hochspannungsleitungen</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp; c.&nbsp; &nbsp;Mittelspannungsleitungen</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp; d.&nbsp;&nbsp; Effizienz und Verluste</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp; e.&nbsp;&nbsp; K&uuml;nftige Konzepte (Smart grids)</p>\n<p>&nbsp;</p>\n<p>4. Umwandlung der elektrischen Energie</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp; a.&nbsp; &nbsp;Elektrische Antriebe (Aufbau und Grundlagen)</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp; b.&nbsp;&nbsp; Leistungselektronik</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp; c.&nbsp; &nbsp;Effizienz und Verluste</p>",
+      "kurselemente": [
+        {
+          "id": 23087,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 23088,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 23090,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Erzeugung, Übertragung und Umwandlung elektrischer Energie"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electtrical Engineering 3"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10104,
+          "kuerzel": "EEU-vet",
+          "bezeichnung": "Vertiefungsmodule Energietechnik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10104,
+          "kuerzel": "EEU-vet",
+          "bezeichnung": "Vertiefungsmodule Energietechnik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 540047,
+      "name": "Smajic",
+      "vorname": "Jasmin"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 23085,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": true,
+      "zulassungsBedingung": "Anwesenheit an allen Praktikumversuchen, Abgabe eines Berichts mit Note &gt;= 4.0",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Elektrotechnik 3"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electrical Engineering 3"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "FS",
+    "endJahr": 2016,
+    "endSemester": "FS"
+  }
+}

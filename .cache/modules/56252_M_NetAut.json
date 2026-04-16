@@ -1,0 +1,210 @@
+{
+  "id": 56252,
+  "kuerzel": "M_NetAut",
+  "bezeichnung": "Network Automation",
+  "kreditpunkte": 4,
+  "vorausgKenntnisse": "<ul>\n<li>Computer Networking (Computer Networking 2)\n<ul>\n<li>MPLS</li>\n<li>VRF</li>\n<li>BGP</li>\n</ul>\n</li>\n<li>Basic Python Know-How (Automation with Python)</li>\n<li>Git</li>\n<li>Linux basics</li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 56253,
+      "kuerzel": "NetAut",
+      "bezeichnung": "Network Automation",
+      "kurselemente": [
+        {
+          "id": 57059,
+          "art": "Seminar",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 25,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Network Automation"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Network automation"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10191,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10191_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10246,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10246_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10195,
+      "bezeichnung": "Network and Cloud Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10195_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10250,
+      "bezeichnung": "Network and Cloud Infrastructure",
+      "kuerzel": "NetC",
+      "url": "allStudies/10250_NetC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10232,
+      "bezeichnung": "Network and Cloud Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10232_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 538645,
+      "name": "Baumann",
+      "vorname": "Urs"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 56252,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Network Automation"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Network automation"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2025,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 39128,
+    "kuerzel": "M_NetAut",
+    "bezeichnung": "Network Automation",
+    "url": "allModules/39128_M_NetAut.json"
+  }
+}

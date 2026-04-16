@@ -1,0 +1,290 @@
+{
+  "id": 43324,
+  "kuerzel": "M_OPRE2",
+  "bezeichnung": "Operation Research 2",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Die Studierenden lernen Modellierungsans&auml;tze und mathematische Methoden kennen, die sehr geeignet sind, um anspruchsvolle Aufgabenstellungen aus der Industrie und der Betriebswirtschaft erfolgreich zu bearbeiten. Anwendungen vor allem im Operations-Management &amp; Logistics.<br />Fokus liegt auf der mathematischen Modellierung von Systemen mit stochastischen Einfl&uuml;ssen.</p>",
+  "vorausgKenntnisse": "<p>&bull; Basismathematik (differenzieren, integrieren).<br />&bull; Minimales Grundverst&auml;ndnis folgender Begriffe aus der angewandten Statistik: Wahrscheinlichkeit und Verteilungsfunktion.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 43325,
+      "kuerzel": "OPRE2",
+      "bezeichnung": "Operation Research 2",
+      "lernziele": "<p><strong>Fachkompetenzen</strong></p>\n<p>Die Teilnehmenden:<br />&bull; k&ouml;nnen (Operations-Research) Modelle herleiten, simulieren, analysieren und validieren, insbesondere k&ouml;nnen sie sinnvolle Annahmen und Vereinfachungen ableiten.<br />&bull; k&ouml;nnen die Ressourcenplanung und die Ressourcendisposition in logistischen Netzwerken optimieren.</p>\n<p>&nbsp;</p>\n<p><strong>Methodenkompetenzen</strong></p>\n<p>Die Teilnehmenden:<br />&bull; k&ouml;nnen die Methode der Marginalanalyse sicher anwenden.<br />&bull; k&ouml;nnen f&uuml;r einfache und mittelschwere Aufgabenstellungen ein ad&auml;quates Lagerhaltungsmodell aufstellen und daraus geschickte Bestellpolitiken ableiten.<br />&bull; k&ouml;nnen einfache Nachfrageprognosen erstellen.</p>\n<p>&nbsp;</p>\n<p><strong>Selbstkompetenzen</strong></p>\n<p>Die Teilnehmenden:<br />&bull; gewinnen Selbstverstrauen, Mut und Kreativit&auml;t in der Arbeit mit quantitativen Methoden (insbesondere im Bereich Operations-Management &amp; Logistics).<br />&bull; k&ouml;nnen die Grenzen der erlernten Methoden einsch&auml;tzen.</p>\n<p>&nbsp;</p>\n<p><strong>Sozialkompetenzen</strong></p>\n<p>Die Teilnehmenden:<br />&bull; k&ouml;nnnen allein oder im Team - Problemstellungen analysieren und einer L&ouml;sung zuf&uuml;hren.<br />&bull; k&ouml;nnen durch gezieltes Nachfragen aus unvollst&auml;ndigen Angaben und vagen Zielvorstellungen eine ad&auml;quate Aufgabenstellung herleiten.</p>",
+      "planinhalt": "<p><strong>Themen/Lernblock: Bestandsmanagement</strong><br />&bull; Modellierung von Kosten, Kundenzufriedenheit &amp; Bestellpolitiken<br />&bull; Deterministische Modelle: Erweiterungen der Andler Formel.<br />&bull; Stochastische Modelle: das Zeitungsjungen-Modell; Berechnung Meldebestand und Bestellmenge in mehr-periodischen Modellen.<br />&bull; Nachfrageprognose f&uuml;r Endprodukte.</p>\n<p>&nbsp;</p>\n<p><strong>Themen/Lernblock: Ersatzteil- und Servicelogistik</strong><br />&bull; Echtzeit Ressourcendisposition.<br />&bull; Netzwerkoptimierung (Standorte, Kapazit&auml;ten, Prozesse).<br />&bull; Praxisbeispiel: reparierbare Ersatzteile.</p>",
+      "bibliographie": "<p>Pflichtliteratur wie Skript, B&uuml;cher</p>\n<p>&bull; Folienskript<br />&bull; Zusammengestellte Unterlagen</p>\n<p>&nbsp;</p>\n<p>Weiterf&uuml;hrende Literatur (Empfehlung an Studierende)</p>\n<p>&bull; Winston, Wayne L., Operations Research: Applications and Algorithms., Vol. 4., Duxbury Press, 2004.</p>",
+      "kurselemente": [
+        {
+          "id": 43326,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 108,
+          "harteGrenze": true
+        },
+        {
+          "id": 43327,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Operation Research 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Operation Research 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10104,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10104_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10127,
+          "kuerzel": "W-MKpl",
+          "bezeichnung": "Methodenkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10129,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10129_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10127,
+          "kuerzel": "W-MKpl",
+          "bezeichnung": "Methodenkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10130,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10130_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10127,
+          "kuerzel": "W-MKpl",
+          "bezeichnung": "Methodenkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10151,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10151_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10169,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10169_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10202,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10202_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10272,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10272_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10277,
+      "bezeichnung": "Data Science",
+      "kuerzel": "WING_DaSc",
+      "url": "allStudies/10277_WING_DaSc.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 10224,
+      "bezeichnung": "Data Science",
+      "kuerzel": "WING_DaSc",
+      "url": "allStudies/10224_WING_DaSc.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 69025,
+      "name": "Tiemessen",
+      "vorname": "Harold"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 39221,
+      "kuerzel": "M_MATH1",
+      "bezeichnung": "Mathematik 1",
+      "url": "allModules/39221_M_MATH1.json"
+    },
+    {
+      "id": 41950,
+      "kuerzel": "M_STATI",
+      "bezeichnung": "Statistik",
+      "url": "allModules/41950_M_STATI.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 43324,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Operation Research 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Operation Research 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2024,
+    "beginSemester": "FS",
+    "endJahr": 2024,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 39429,
+    "kuerzel": "M_OPRE2",
+    "bezeichnung": "Operation Research 2",
+    "url": "allModules/39429_M_OPRE2.json"
+  },
+  "nachfolger": {
+    "id": 43324,
+    "kuerzel": "M_OPRE2",
+    "bezeichnung": "Operation Research 2",
+    "url": "allModules/43324_M_OPRE2.json"
+  }
+}

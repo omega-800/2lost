@@ -1,0 +1,66 @@
+{
+  "id": 41997,
+  "kuerzel": "M_KatCM",
+  "bezeichnung": "Kontextmodule",
+  "kreditpunkte": 3,
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 41998,
+      "kuerzel": "K_KatCM",
+      "bezeichnung": "Kategorie zentrale Module",
+      "kurselemente": [
+        {
+          "id": 41999,
+          "art": "Blockkurs",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10092,
+          "kuerzel": "MSE-Kontx",
+          "bezeichnung": "Kontextmodule",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10136,
+          "kuerzel": "MSE-ZentMo",
+          "bezeichnung": "MSE Zentrale Module",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Kontextmodule"
+    }
+  ]
+}

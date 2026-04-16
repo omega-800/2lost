@@ -1,0 +1,234 @@
+{
+  "id": 47327,
+  "kuerzel": "M_IuK_IV",
+  "bezeichnung": "Informations- und Kommunikationssysteme IV",
+  "kreditpunkte": 10,
+  "lernziele": "<p>Der Wunsch, Rechner überall und jederzeit für die verschiedensten Zwecke einzusetzen, wird mit Laptops, Personal Digital Assistants (PDA) und Smartphones zu einem guten Teil bereits erfüllt. Der Bedarf nach Vernetzung der bisher isolierten Geräte, nach Anbindung der mobilen Computer ans Internet und die Möglichkeit zu navigieren bzw. zu orten nimmt aber weiter zu. Die Anbieter bauen deshalb die digitalen Mobilfunknetze mit Technologien zur Datenübertragung aus, realisieren neue drahtlose Kleinstnetzwerke, die mobilen Endgeräten den Zugang zum Internet verschaffen und bieten neue ortsabhängige Dienste an. Handy und Computer „verschmelzen“. SystemingenieurInnen IKS verstehen die Technologien der mobilen Kommunikation und können mobile Anwendungen programmieren.<br />In vielen Unternehmen sind IT-Infrastrukturen in Betrieb. Meist steht den Mitarbeiterinnen und Mitarbeitern auch ein Internetzugang zur Verfügung. Auf jeden Fall sind Applikationen installiert (z.B. Office-Anwendungen, E-Mail, Enterprise Resource Planning ERP, Customer Relationship Management CRM), für die eine Benutzerunterstützung und –schulung nötig sind. Hardware- und Softwarekomponenten müssen laufend überwacht und aktualisiert werden. SystemingenieurInnen IKS verstehen die für den Betrieb und die Wartung von IT-Systemen nötigen Prozesse und sind in der Lage, verantwortungsvolle Aufgaben im Bereich Engineering und Betrieb einer technischen IT-Infrastruktur zu übernehmen.<br />Telefonieren über das Internet, Podcasts der Geschäftsleitung im Unternehmensnetz hören oder Videos auf dem Smartphone betrachten sind Anwendungen, die nur funktionieren, wenn die betreffenden Inhalte komprimiert und in Echtzeit übertragen werden. SystemingenieurInnen IKS kennen die gängigen standardisierten Verfahren zur Datenreduktion von digitalen Medien und verstehen die Techniken zur Echtzeitkommunikation in IP-Netzen.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 47328,
+      "kuerzel": "IuK_IV_V",
+      "bezeichnung": "Voice, Audio, Video & Data over IP",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>kennen die grundlegenden Eigenschaften digitaler Medien und die M&ouml;glichkeiten, diese f&uuml;r neue Anwendungen zu nutzen (z.B. Spracherkennung, Videokonferenzen, Instruktionsvideos, Multimediab&uuml;cher).</li>\n    <li>verstehen die Verfahren zur Digitalisierung von Sprache, Musik, Bilder, Grafiken, Bewegtbildern und Text.</li>\n    <li>verstehen die g&auml;ngigen standardisierten Verfahren zur Datenreduktion digitaler Medien.</li>\n    <li>kennen Techniken zur Echtzeit&uuml;bertragung digitaler Medien &uuml;ber IP-Netze.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Grundlegende Eigenschaften digitaler Medien: Sprache, Musik, Bilder, Grafiken, Bewegtbilder, Text</li>\n    <li>Nutzung digitaler Medien f&uuml;r neuartige Anwendungen (z.B. Spracherkennung&nbsp; Videokonferenzen, Instruktionsvideos, Multimediab&uuml;cher)</li>\n    <li>Verfahren zur Datenreduktion digitaler Medien (z.B. PCM, MP3, JPEG, MPEG-4)</li>\n    <li>Protokolle f&uuml;r die Echtzeit&uuml;bertragung digitaler Medien &uuml;ber IP-Netze (z.B. RTP, Streaming Protokolle)</li>\n    <li>Integration mehrerer digitaler Medien in Multimedia-Anwendungen (z.B. mit Flash)</li>\n</ul>",
+      "empfLehrmittel": "Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen, Fallstudien",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Betrieb und Wartung von IT-Systemen, Mobile Computing, Betrieb und Wartung von IT-Systemen sowie Praktikum Informations- und Kommunikationstechnik IV statt.",
+      "kurselemente": [
+        {
+          "id": 47329,
+          "art": "Klassenunterricht",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001549,
+          "name": "Wenk",
+          "vorname": "Bruno"
+        }
+      ]
+    },
+    {
+      "id": 47330,
+      "kuerzel": "IuK_IV_B",
+      "bezeichnung": "Betrieb und Wartung von IT-Systemen",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>verstehen die Organisation und die Aufgaben im IT-Support</li>\n    <li>kennen die Aufgaben, die in IT-Abteilungen unterschiedlicher Firmen anfallen</li>\n    <li>können die Architektur von IT-Infrastrukturen skizzieren und beschreiben</li>\n    <li>verstehen die Unterschiede und Einsatzgebiete verschiedener Speicher-Systeme</li>\n    <li>verstehen den Nutzen und die Gefahren der Servervirtualisierung</li>\n    <li>kennen Technologien zur Erhöhung der Verfügbarkeit von IT-Systemen</li>\n    <li>können in Projekten zur Evaluation und Beschaffung von IT-Ausrüstungen mitwirken</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Evaluation von Hard- und Software</li>\n    <li>IT-Support, Schulung von Mitarbeitenden</li>\n    <li>Grundlagen von Speichersystemen (DAS, NAS, SAN,RAID, iSCSI, FcoE, FC)</li>\n    <li>Virtualisierung</li>\n    <li>Wartung von IT-Systemen (Linux, Windows, Netzwerk)</li>\n    <li>Backup, Archivierung</li>\n    <li>Informationssicherheit</li>\n</ul>",
+      "empfLehrmittel": "Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen, Fallstudien",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Mobile Computing, Voice, Audio, Video &amp; Data over IP sowie Praktikum Informations- und Kommunikationstechnik IV statt.",
+      "kurselemente": [
+        {
+          "id": 47331,
+          "art": "Klassenunterricht",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001551,
+          "name": "Bigger",
+          "vorname": "Beat"
+        }
+      ]
+    },
+    {
+      "id": 47332,
+      "kuerzel": "IuK_IV_P",
+      "bezeichnung": "Praktikum Informations- und Kommunikationstechnik IV",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen sich anhand geeigneter Unterlagen selbst&auml;ndig in ein neues Thema einarbeiten.</li>\n    <li>sind in der Lage, komplexe Ger&auml;te und Systeme der Informations- und Kommunikations-technik fachgerecht zu konfigurieren und mit entsprechenden (Protokoll-) Analysatoren zu testen.</li>\n    <li>verstehen es, bei auftretenden Schwierigkeiten mit den komplexen Ausr&uuml;stungen Fehler zu erkennen, deren Ursachen zu finden oder n&ouml;tigenfalls alternative L&ouml;sungswege einzuschlagen.</li>\n    <li>sind mit dem praktischen Einsatz mobiler Datenkommunikationsdienste und dem Global Positioning System vertraut.</li>\n    <li>sind in der Lage, Applikationen f&uuml;r mobile Endger&auml;te (z.B. iPhone, Android Handy) zu programmieren.</li>\n    <li>verstehen die speziellen Anforderungen an die &Uuml;bertragung von Echtzeitdaten (z.B. voice, audio, video) &uuml;ber IP-basierte Netze.</li>\n    <li>k&ouml;nnen die Vorbereitungsarbeiten und Ausf&uuml;hrung sachlich, knapp und verst&auml;ndlich&nbsp; dokumentieren und reflektieren.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>MS Active Directory</li>\n    <li>Web Services mit Java</li>\n    <li>Verteilte Algorithmen</li>\n    <li>Voice over IP und Quality of Service</li>\n    <li>Netzwerkmanagement</li>\n    <li>Voice and Multimedia over IP</li>\n    <li>Mobile Application Development</li>\n    <li>Wireless LAN</li>\n</ul>",
+      "bibliographie": "Zu jeder Praktikumsaufgabe steht auf der Lehr-/Lernplattform moodle eine Anleitung zur Verf&uuml;gung.",
+      "empfLehrmittel": "<p>Die Studierenden absolvieren das Praktikum in Gruppen. Die Vorbereitung auf die jeweiligen Praktikumsaufgaben erfolgt im Selbststudium. Die Durchf&uuml;hrung im Telecomlabor wird von Assistenten betreut. Die Nachbearbeitung und Ausarbeitung der Praktikumsberichte erfolgt wieder selbst&auml;ndig in der Gruppe.</p>",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase werden 7 Praktikas bewertet. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Betrieb und Wartung von IT Systemen, Mobile Computing sowie Voice Audio, Video &amp;Data over IP.",
+      "kurselemente": [
+        {
+          "id": 47333,
+          "art": "Klassenunterricht",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001551,
+          "name": "Bigger",
+          "vorname": "Beat"
+        }
+      ]
+    },
+    {
+      "id": 47334,
+      "kuerzel": "IuK_IV_M",
+      "bezeichnung": "Mobile Computing",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>verstehen die besonderen Anforderungen an Netze und Anwendungen für die mobile, IP-basierte Datenkommunikation</li>\n    <li>können die Architektur von mobilen Endgeräten und Applikationen beschreiben.</li>\n    <li>verstehen die Funktionsweise von Systemen zur Lokalisierung mobiler Geräte und darauf basierender Dienste (z.B. GPS, Location-based Services).</li>\n    <li>können einfache Applikationen für mobile Endgeräte entwickeln.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Mobile Endgeräte (Aufbau und Anwendungen)</li>\n    <li>Mobile IP</li>\n    <li>Systeme zur Positionsbestimmung (Satelliten und Netze)</li>\n    <li>Programmieren mobiler Applikationen für iPhone OS, Android und andere Smartphones oder Tablets</li>\n</ul>",
+      "bibliographie": "<p>Skript</p>",
+      "empfLehrmittel": "Lehrgespr&auml;ch,&nbsp;&Uuml;bungen, Rechner&uuml;bungen",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Betrieb und Wartung von IT-Systemen, Voice, Audio, Video &amp; Data over IP sowie Praktikum Informations- und Kommunikationstechnik IV statt.",
+      "kurselemente": [
+        {
+          "id": 47335,
+          "art": "Klassenunterricht",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001466,
+          "name": "Studer",
+          "vorname": "Martin"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 10380,
+      "bezeichnung": "Informations- und Kommunikationssysteme",
+      "kuerzel": "IKS",
+      "url": "allStudies/10380_IKS.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 10378,
+      "bezeichnung": "Informations- und Kommunikationssysteme",
+      "kuerzel": "IKS",
+      "url": "allStudies/10378_IKS.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 8
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2001466,
+      "name": "Studer",
+      "vorname": "Martin"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 46479,
+      "kuerzel": "M_IuK_III",
+      "bezeichnung": "Informations- und Kommunikationssysteme III",
+      "url": "allModules/46479_M_IuK_III.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 3,
+      "kuerzel": "CH",
+      "bezeichnung": "Chur",
+      "ort": "Chur"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 47327,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Information and Communication Systems IV"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "FS",
+    "endJahr": 2013,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 46488,
+    "kuerzel": "M_IuK_IV",
+    "bezeichnung": "Informations- und Kommunikationssysteme IV",
+    "url": "allModules/46488_M_IuK_IV.json"
+  },
+  "nachfolger": {
+    "id": 47327,
+    "kuerzel": "M_IuK_IV",
+    "bezeichnung": "Informations- und Kommunikationssysteme IV",
+    "url": "allModules/47327_M_IuK_IV.json"
+  }
+}

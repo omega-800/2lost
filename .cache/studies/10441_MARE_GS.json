@@ -1,0 +1,65 @@
+{
+  "id": 10441,
+  "kuerzel": "MARE_GS",
+  "bezeichnung": "IT-Governance & Security",
+  "versionKuerzel": "STD_23",
+  "art": "Vertiefung",
+  "parent": {
+    "id": 10438,
+    "kuerzel": "MARE_VZ",
+    "bezeichnung": "Management & Recht VZ",
+    "url": "allStudies/10438_MARE_VZ.json"
+  },
+  "zuordnungen": [
+    {
+      "id": 55629,
+      "kuerzel": "M_mare.DAPR",
+      "bezeichnung": "Data Privacy",
+      "url": "allModules/55629_M_mare.DAPR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 55632,
+      "kuerzel": "M_mare.DATE",
+      "bezeichnung": "Datenschutz",
+      "url": "allModules/55632_M_mare.DATE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 55653,
+      "kuerzel": "M_mare.ITME",
+      "bezeichnung": "IT-Management, Governance and Information Security",
+      "url": "allModules/55653_M_mare.ITME.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 55755,
+      "kuerzel": "M_winf.ITMG",
+      "bezeichnung": "IT-Management, Governance und Information Security",
+      "url": "allModules/55755_M_winf.ITMG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 55698,
+      "kuerzel": "M_boek.PMGE",
+      "bezeichnung": "Project Management",
+      "url": "allModules/55698_M_boek.PMGE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0
+    }
+  ]
+}

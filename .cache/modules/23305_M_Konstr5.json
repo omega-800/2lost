@@ -1,0 +1,179 @@
+{
+  "id": 23305,
+  "kuerzel": "M_Konstr5",
+  "bezeichnung": "Konstruktion 5",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>F&auml;higkeit&nbsp;zur Tragwerksanalyse, Zustandserfassung und -beurteilung von bestehenden Stahlbetonbauwerken</li>\n    <li>&Uuml;berblick der verschiedenen Instandsetzungs- und Verst&auml;rkungsmassnahmen</li>\n    <li>F&auml;higkeite zum Entwerfen und Bemessen von Tragwerken des Massivbaus</li>\n    <li>Kompetenz in der Anwendung der zutreffenden Berechnungsannahmen und statischen Modelle</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 23306,
+      "kuerzel": "StBeton5",
+      "bezeichnung": "Stahlbeton 5",
+      "lernziele": "<ul>\n    <li>F&auml;higkeit zum Entwerfen, Bemessen und Gestalten von Bauteilen aus Spannbeton</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Statische Berechnung, Bemessung, Nachweise und konstruktive Durchbildung von Tragwerken aus Spannbeton</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 23307,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Stahlbeton 5"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Reinforced Concrete 5"
+        }
+      ]
+    },
+    {
+      "id": 23308,
+      "kuerzel": "BauErhalt",
+      "bezeichnung": "Bauwerkserhaltung",
+      "lernziele": "<ul>\n    <li>Kenntnis der wichtigsten Schadenbilder und -ursachen bei Stahlbetonbauwerken, inkl. der bekanntesten Untersuchungsmethoden</li>\n    <li>Untersuchungsmethoden</li>\n    <li>Kenntnis der wichtigsten Instandsetzungs- und Verst&auml;rkungsmassnahmen</li>\n    <li>Kenntnis der Erhaltungsnormen SIA 269, 269/1 und 269/2</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Schadenbilder und -ursachen</li>\n    <li>Organisation einer Zustandsanalyse</li>\n    <li>Zerst&ouml;rungsfreie Untersuchungsmethoden</li>\n    <li>Zerst&ouml;rende Untersuchungsmethoden</li>\n    <li>Beurteilung des Ist-Zustands</li>\n    <li>Erhaltungsmassnahmen und deren Planung</li>\n    <li>Erhaltungsnormen SIA 269, 269/1 und 269/2</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 23309,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Bauwerkserhaltung"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Construction Preservation"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10005,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10005_B.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10109,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10109_B.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10131,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10131_B.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533883,
+      "name": "Wenk",
+      "vorname": "Felix"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 22375,
+      "kuerzel": "M_Konstr4",
+      "bezeichnung": "Konstruktion 4",
+      "url": "allModules/22375_M_Konstr4.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 23305,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Konstruktion 5"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Structural Engineering 5"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "FS",
+    "endJahr": 2017,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 11062,
+    "kuerzel": "M_Konstr5",
+    "bezeichnung": "Konstruktion 5",
+    "url": "allModules/11062_M_Konstr5.json"
+  }
+}

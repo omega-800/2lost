@@ -1,0 +1,183 @@
+{
+  "id": 40388,
+  "kuerzel": "M_BIMKonst",
+  "bezeichnung": "BIM-Konstruktion Vertiefung",
+  "kreditpunkte": 5,
+  "lernziele": "<ul>\n<li>Vertiefte Kenntnisse der Modellierung mit der BIM-Methode in Bezug zu den Studien-Profilen</li>\n<li>Phasengerechtes Anreichern der Modelle mit Informationen</li>\n<li>Vertiefte Anwendung von fachspezifischer BIM-Software</li>\n<li>Praxisnahe Umsetzung anhand von Beispielen</li>\n<li>F&auml;higkeit zur Ausf&uuml;hrung von geod&auml;tischen Messungen und Gel&auml;ndeaufnahmen im Baubereich</li>\n</ul>",
+  "vorausgKenntnisse": "<p>Keine</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 40389,
+      "kuerzel": "BIMK",
+      "bezeichnung": "BIM-Konstruktion",
+      "lernziele": "<p>Erlangen von vertieften Kenntnissen der Modellierung mit der BIM-Methode in Bezug zu den Profilen Konstruktion, Geotechnik, Verkehr und Wasser. Phasengerechtes Anreichern der spezifischen Modelle mit Informationen und praxisnahe Umsetzung anhand von Beispielen. Anwenden der Schnittstelle zu Geod&auml;tischer Messtechnik.&nbsp;</p>",
+      "planinhalt": "<ul>\n<li>Modellieren mit verschiedener BIM-Autorensoftware</li>\n<li>Richtige Verwendung der geometrischen Elemente</li>\n<li>Parametrisiertes und assoziatives Modellieren</li>\n<li>Erstellen von fachspezifischen Modellen</li>\n<li>Phasengerechtes Anreichern von Modellen mit Daten und Informationen</li>\n<li>Arbeiten mit Modellierrichtlinien</li>\n<li>Austausch von Modellen und Informationen f&uuml;r eine fachspezifische Weiterverwendung im BIM-Prozess&nbsp;</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 40390,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 15,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "BIM-Konstruktion"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "BIM construction"
+        }
+      ]
+    },
+    {
+      "id": 40399,
+      "kuerzel": "GeMess",
+      "bezeichnung": "Geodätische Messtechnik",
+      "lernziele": "<p>&nbsp;Die Teilnehmenden</p>\n<ul>\n<li>k&ouml;nnen mit modernen Messsystemen arbeiten: Nivellierger&auml;t, Totalstation, Laser-Scanner, photogrammetrische Aufnahmen mit Drohnen und Kameras</li>\n<li>k&ouml;nnen die erfassten Daten in das CAD/BIM und GIS Systeme importieren und Bearbeiten</li>\n<li>k&ouml;nnen die Messdaten manuell und mit Hilfe von Software/Skripten semi-automatisch auswerten</li>\n<li>k&ouml;nnen die Anforderungen an einen GeomatikerIn qualifiziert stellen und die Qualit&auml;t der gelieferten Arbeiten beurteilen</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Nivellierger&auml;t</li>\n<li>Totalstation</li>\n<li>Laser-Scanner</li>\n<li>Photogrammmetrie&nbsp;</li>\n</ul>",
+      "bibliographie": "<p>Kahmen, H. (2005). Angewandte Geodasie: Vermessungskunde (de Gruyter Lehrbuch) (German Edition). Walter de Gruyter.</p>\n<p>&nbsp;</p>\n<p>Luhmann, T., Robson, S., Kyle, S., &amp; Boehm, J. (2019). Close-Range Photogrammetry and 3D Imaging. Walter de Gruyter GmbH &amp; Co KG.&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 40400,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 40402,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Geodätische Messtechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Geodetic Metrology Fundamentals"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10197,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10197_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10234,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10234_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 5
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5024145,
+      "name": "Beth",
+      "vorname": "Martin"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 37930,
+      "kuerzel": "M_BIMKOLL",
+      "bezeichnung": "BIM-Kollaboration",
+      "url": "allModules/37930_M_BIMKOLL.json"
+    },
+    {
+      "id": 38979,
+      "kuerzel": "M_BIMEinf",
+      "bezeichnung": "BIM-Einführung",
+      "url": "allModules/38979_M_BIMEinf.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "BIM-Konstruktion Vertiefung"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "BIM construction deepening "
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2022,
+    "beginSemester": "FS",
+    "endJahr": 2023,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 40388,
+    "kuerzel": "M_BIMKonst",
+    "bezeichnung": "BIM-Konstruktion Vertiefung",
+    "url": "allModules/40388_M_BIMKonst.json"
+  }
+}

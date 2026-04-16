@@ -1,0 +1,215 @@
+{
+  "id": 24233,
+  "kuerzel": "M_DigPro1",
+  "bezeichnung": "Digital Image Processing 1",
+  "kreditpunkte": 4,
+  "lernziele": "Digital Image Processing 1 und Digital Image Processing 2 bilden zusammen einen einj&auml;hrigen Grundkurs in der digitalen Bildverarbeitung",
+  "vorausgKenntnisse": "<ul>\n    <li>Grundlegende Kenntnisse in Analysis und Fourieranalyse </li>\n    <li>Grundlegende Kenntnisse in Wahrscheinlichkeitsrechnung</li>\n    <li>Grundlegende Kenntnisse in Vektor/Matrizenrechnung</li>\n    <li>Grundlegende Kenntnisse in Matlab<br /></li>\n    <li>Grundlegende Kenntnisse in C/C++</li>\n    <li>Das Buch ist in Englisch</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 24234,
+      "kuerzel": "DigPro1",
+      "bezeichnung": "Digital Image Processing 1",
+      "lernziele": "<p>&nbsp;Am Ende dieses Kurses sollte der Student/Studentin die folgenden Konzepte verstehen und anwenden k&ouml;nnen:</p>\n<ul>\n    <li>Digital Image Fundamentals</li>\n    <li>Image Enhancement in the Spatial Domain</li>\n    <li>Image Enhancement in the Frequency Domain</li>\n    <li>Image Restoration</li>\n    <li>Color Image Processing</li>\n</ul>",
+      "planinhalt": "<p>Der Aufbau ist in etwa wie folgt: </p>\n<ul>\n    <li>Digital Image Fundamentals</li>\n    <li>Image Enhancement in the Spatial Domain</li>\n    <li>Image Enhancement in the Frequency Domain</li>\n    <li>Image Restoration</li>\n    <li>Color Image Processing</li>\n</ul>\n<p>&nbsp;&Auml;nderungen sind aber jederzeit m&ouml;glich<br /></p>",
+      "kurselemente": [
+        {
+          "id": 24235,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        },
+        {
+          "id": 24236,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Digital Image Processing 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Digital Image Processing 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 670,
+      "name": "Schuster",
+      "vorname": "Guido"
+    }
+  ],
+  "mengen": [
+    {
+      "id": 16,
+      "name": "Aequivalenz",
+      "dModMengeArt": 5701,
+      "module": [
+        {
+          "id": 24233,
+          "kuerzel": "M_DigPro1",
+          "bezeichnung": "Digital Image Processing 1",
+          "url": "allModules/24233_M_DigPro1.json"
+        },
+        {
+          "id": 28161,
+          "kuerzel": "M_DigPro1Engl",
+          "bezeichnung": "Digital Image Processing 1 - in Englisch",
+          "url": "allModules/28161_M_DigPro1Engl.json"
+        },
+        {
+          "id": 36264,
+          "kuerzel": "M_IPCV1",
+          "bezeichnung": "Image Processing and Computer Vision 1",
+          "url": "allModules/36264_M_IPCV1.json"
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 24233,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Digital Image Processing 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Digital Image Processing 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2014,
+    "beginSemester": "HS",
+    "endJahr": 2016,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 21880,
+    "kuerzel": "M_DigPro1",
+    "bezeichnung": "Digital Image Processing 1",
+    "url": "allModules/21880_M_DigPro1.json"
+  }
+}

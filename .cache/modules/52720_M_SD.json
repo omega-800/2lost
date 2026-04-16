@@ -1,0 +1,131 @@
+{
+  "id": 52720,
+  "kuerzel": "M_SD",
+  "bezeichnung": "Statistisches Denken",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Die Studierenden</p><ul><li>kennen die Grundprinzipien der beschreibenden Statistik (Datentypen, Datendimension, Lage- und Streumasse, graphische Darstellungsmethoden, Datentransformationen).</li><li>verstehen die grundlegende Aspekte der Wahrscheinlichkeitstheorie als Werkzeug zur statistischen Modellierung realer Vorg&auml;nge.</li><li>k&ouml;nnen Punkt- und Intervallsch&auml;tzer berechnen und interpretieren.</li><li>k&ouml;nnen grundlegende statistische Hypothesen formulieren und testen.</li><li>verstehen die Grundlagen der Regressions- und Varianzanalyse.</li><li>k&ouml;nnen L&ouml;sungsstrategien f&uuml;r reale statistische Probleme zu konkreten Datens&auml;tzen entwickeln und mithilfe statistischer Software umsetzen.</li></ul>",
+  "vorausgKenntnisse": "<p>Ebenfalls vorausgesetzt sind die beiden Module Systemtechnik A sowie Elektrotechnik &amp; Lineare Algebra I.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 52721,
+      "kuerzel": "SD",
+      "bezeichnung": "Statistisches Denken",
+      "kreditpunkte": 0,
+      "lernziele": "<p>&nbsp;Die Studierenden</p><ul><li>kennen die Grundprinzipien der beschreibenden Statistik (Datentypen, Datendimension, Lage- und Streumasse, graphische Darstellungsmethoden, Datentransformationen).</li><li>verstehen die grundlegende Aspekte der Wahrscheinlichkeitstheorie als Werkzeug zur statistischen Modellierung realer Vorg&auml;nge.</li><li>k&ouml;nnen Punkt- und Intervallsch&auml;tzer berechnen und interpretieren.</li><li>k&ouml;nnen grundlegende statistische Hypothesen formulieren und testen.</li><li>verstehen die Grundlagen der Regressions- und Varianzanalyse.</li><li>k&ouml;nnen L&ouml;sungsstrategien f&uuml;r reale statistische Probleme zu konkreten Datens&auml;tzen entwickeln und mithilfe statistischer Software umsetzen.</li></ul><p>&nbsp;</p>",
+      "planinhalt": "<ul><li><p>Beschreibende Statistik</p></li><li><p>Einf&uuml;hrung in die Wahrscheinlichkeitstheorie</p></li><li><p>Grundlagen des Sch&auml;tzens und Testens</p></li><li><p>Grundlagen der Regression und der ANOVA</p></li><li><p>Einf&uuml;hrung in geeignete statistische Software</p></li></ul>",
+      "bibliographie": "Mitschrift der Studenten<br />R. Leonhart: Lehrbuch Statistik: Einstieg und Vertiefung (erg&auml;nzend)",
+      "empfLehrmittel": "Unterrichtsgespr&auml;ch im Klassenverband<br />Selbststudium (&Uuml;bungen, Vor- und Nachbereitung der Lerninhalte)<br />Projektarbeit",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase wird ein Projekt mittels Bericht und Fachgespr&auml;ch bewertet.",
+      "kurselemente": [
+        {
+          "id": 52722,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 25,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002957,
+          "name": "Frick",
+          "vorname": "Klaus"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002957,
+      "name": "Frick",
+      "vorname": "Klaus"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 47776,
+      "kuerzel": "M_DKM",
+      "bezeichnung": "Differentialrechnung & Klassische Mechanik",
+      "url": "allModules/47776_M_DKM.json"
+    },
+    {
+      "id": 50327,
+      "kuerzel": "M_IEM",
+      "bezeichnung": "Integralrechnung & Elektrizität / Magnetismus",
+      "url": "allModules/50327_M_IEM.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 2,
+      "kuerzel": "WSG",
+      "bezeichnung": "Waldau St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2021,
+    "beginSemester": "HS",
+    "endJahr": 2021,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 51571,
+    "kuerzel": "M_SD",
+    "bezeichnung": "Statistisches Denken",
+    "url": "allModules/51571_M_SD.json"
+  },
+  "nachfolger": {
+    "id": 52720,
+    "kuerzel": "M_SD",
+    "bezeichnung": "Statistisches Denken",
+    "url": "allModules/52720_M_SD.json"
+  }
+}

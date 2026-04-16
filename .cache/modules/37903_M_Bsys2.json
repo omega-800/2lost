@@ -1,0 +1,306 @@
+{
+  "id": 37903,
+  "kuerzel": "M_Bsys2",
+  "bezeichnung": "Betriebssysteme 2",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden k&ouml;nnen:</p>\n<ul>\n<li>die Konzepte \"Prozess\" und \"Thread\" erkl&auml;ren sowie grundlegende Scheduling-Verfahren anwenden</li>\n<li>die Funktionsweise einfacher Mechanismen zur Synchronisation und Interprozesskommunikation anwenden und erl&auml;utern</li>\n<li>den Aufbau von Dateisystemen wiedergeben</li>\n<li>das Zusammenspiel von Programmen und dynamischen Bibliotheken beschreiben</li>\n<li>die Grundstruktur grafischer Benutzerschnittstellen darstellen</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 37904,
+      "kuerzel": "Bsys2",
+      "bezeichnung": "Betriebssysteme 2 ",
+      "planinhalt": "<ul><li>Prozesse, Threads und Scheduling</li><li>Synchronisation und Interprozess-Kommunikation</li><li>Dateisysteme</li><li>Programme und Bibliotheken</li><li>Grafische Benutzerschnittstellen</li></ul>",
+      "kurselemente": [
+        {
+          "id": 37905,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        },
+        {
+          "id": 37906,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Betriebssysteme 2 "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Operating Systems 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10127,
+      "bezeichnung": "Generalist",
+      "kuerzel": "GEN",
+      "url": "allStudies/10127_GEN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10191,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10191_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10246,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10246_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10108,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10108_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10106,
+      "bezeichnung": "Application Design - Cloud Solutions",
+      "kuerzel": "ADCS",
+      "url": "allStudies/10106_ADCS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10192,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10192_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10229,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10229_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10247,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10247_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10161,
+      "bezeichnung": "Data Engineering & Machine Intelligence",
+      "kuerzel": "DaEngMaInt",
+      "url": "allStudies/10161_DaEngMaInt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10173,
+      "bezeichnung": "Cyber Security ",
+      "kuerzel": "CySec",
+      "url": "allStudies/10173_CySec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10107,
+      "bezeichnung": "Network & Cloud-Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10107_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5000741,
+      "name": "Morgner",
+      "vorname": "Felix"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 32613,
+      "kuerzel": "M_Bsys1",
+      "bezeichnung": "Betriebssysteme 1",
+      "url": "allModules/32613_M_Bsys1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 10,
+      "kuerzel": "SG",
+      "bezeichnung": "St.Gallen (Informatik Raster)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 37903,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Betriebssysteme 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Operating Systems 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 8,
+    "beginJahr": 2021,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 32609,
+    "kuerzel": "M_Bsys2",
+    "bezeichnung": "Betriebssysteme 2",
+    "url": "allModules/32609_M_Bsys2.json"
+  }
+}

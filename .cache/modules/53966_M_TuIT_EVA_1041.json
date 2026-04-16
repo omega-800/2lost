@@ -1,0 +1,195 @@
+{
+  "id": 53966,
+  "kuerzel": "M_TuIT_EVA_1041",
+  "bezeichnung": "Thermo Fluid Dynamic Model Development using OpenFoam",
+  "kreditpunkte": 3,
+  "lernziele": "<p>The objective of this module is to develop first, self written thermo-, fluid dynamic models under the open source C++ based, numerical simulation tool box OpenFoam&reg;. The module does contain an introduction to the main features of OpenFoam&reg;, but goes clearly beyond an introductory course such that not only the application of this extensive, community based, software package is taught, but also the basics for its extension and/or adaption to specific problems. In addition to this, useful theoretical background on numerics, meshing, thermo-, fluid dynamic modelling and the C++ programming language will be taught. This semester&rsquo;s goal is to create your first, self-written OpenFoam&reg; application (e.g.: solver, utility or boundary condition).</p>\n<p>&nbsp;</p>\n<p>At the end of the course the student knows:</p>\n<ul>\n<li>About the actual character of OpenFoam&reg; in contrast to commercial CFD tools</li>\n<li>How to apply OpenFoam&reg; from meshing over pre-processing to post-processing (including the use of blockMesh, snappy hex Mesh, paraview, Matlab in combination)</li>\n<li>The main features of OpenFoam&reg; (e.g.: tutorial cases, solvers, utilities)</li>\n<li>How to understand and/or find his/her way through the basic software structure (e.g.: Finding, using)</li>\n<li>How to choose, modify, recompile and apply his/her first, self written OpenFoam&reg; application (e.g.: solver, utility, boundary condition...)</li>\n<li>Numerical background about the main solution algorithms within OpenFoam (e.g.: PISO, SIMPLE loop).</li>\n</ul>",
+  "vorausgKenntnisse": "<p>Basic knowledge of CFD<br />Installed and working version of OpenFoam&reg;<br />Interest in thermo- fluid dynamic modelling</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 53967,
+      "kuerzel": "TuIT_EVA_1041",
+      "bezeichnung": "Thermo Fluid Dynamic Model Development using OpenFoam",
+      "kreditpunkte": 0,
+      "lernziele": "<p>At the end of the course the student knows:</p>\n<ul>\n<li>About the actual character of OpenFoam&reg; in contrast to commercial CFD tools</li>\n<li>How to apply OpenFoam&reg; from meshing over pre-processing to post-processing (including the use of blockMesh, snappy hex Mesh, paraview, Matlab in combination)</li>\n<li>The main features of OpenFoam&reg; (e.g.: tutorial cases, solvers, utilities)</li>\n<li>How to understand and/or find his/her way through the basic software structure (e.g.: Finding, using)</li>\n<li>How to choose, modify, recompile and apply his/her first, self written OpenFoam&reg; application (e.g.: solver, utility, boundary condition...)</li>\n<li>Numerical background about the main solution algorithms within OpenFoam (e.g.: PISO, SIMPLE loop).</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Basic structure of OpenFoam&reg; simulation cases</li>\n<li>Introduction to some OpenFoam&reg; Standard solvers</li>\n<li>Basic Meshing with blockMesh</li>\n<li>Input-/Output files</li>\n<li>Simulation control before/at runtime</li>\n<li>Visualization &amp; post processing using ParaView and Matlab;</li>\n<li>Utility: &bdquo;sample&ldquo; to determine quantitative values and field data profiles</li>\n<li>Implementation of pre- and post- processing utilities</li>\n<li>Basics of turbulence modelling</li>\n<li>Applications: a.) icoFoam/cavity b.) Channel Flow c.) Karman &ndash; Eddies d) Heat Transfer &amp; Radiation modelling e) Multi- Reference Frame (MRF) modelling (e.g.: Mixing, pump) g) Buoyant flow (Boussinesq-Approx.)</li>\n<li>Introduction to &ldquo;non-standard&rdquo; OpenFoam&reg; tools such as a) SWAK (=Swiss Army Knife) for FOAM to implement function based, flexible boundary conditions; b) Snappy Hex Mesh (Meshing Tool)&nbsp;</li>\n<li>&ldquo;A walk through icoFoam&rdquo;: Stepwise Analysis of the basic source code of one of the simplest OpenFoam&reg; solvers (= laminar, transient, incompressible)</li>\n<li>First, simple modification and re-compilation of icoFoam (tutorial case: Driven cavity) to extend it to your own &bdquo;passiveScalarTransportFoam&ldquo; (=Implementation of Transport Equation);</li>\n<li>Chose, plan, modify/program, recompile, apply and verify your first own &ldquo;boundary condition&rdquo;</li>\n<li>&bdquo;Update an older solver&ldquo;: We will try to update the ancient &ldquo;icoLagrangianFoam&rdquo; (OF version 1.6) to the latest OF version; The solver is about particle tracking of simple, spherical hard ball particles within a transient, laminar, incompressible flow. A simple feature like that does not exist anymore as a stand alone piece of code in OF&hellip; but can be very useful.&nbsp;</li>\n</ul>",
+      "bibliographie": "<p>OpenFoam&reg; User guide: http://www.openfoam.org/docs/user/</p>\n<p>OpenFoam&reg; programmer&rsquo;s guide: http://www.foamcfd.org/Nabla/guides/ProgrammersGuide.html</p>",
+      "empfLehrmittel": "<p>The module will be held in Winterthur (ZHAW, SoE) but otherwise like a &ldquo;central module&rdquo; during 14 weeks, 3 lessons per session in presence mode. MS Teams sessions can be appointed if required.</p>\n<p>Exact dates will be appointed together with applying students. They could also (upon common decision) be compressed into blocks.</p>",
+      "leistungsnachweis": "<p>Some exercises could be mandatory. Semester development project: self developed solver. Conclude by presentation of semester projects.</p>",
+      "kurselemente": [
+        {
+          "id": 53968,
+          "art": "Ergänzende Veranstaltung",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2115338,
+          "name": "Wiedemair",
+          "vorname": "Wolfgang"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2115338,
+      "name": "Wiedemair",
+      "vorname": "Wolfgang"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Entwicklung eines thermofluiddynamischen Modells mit OpenFoam"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2022,
+    "beginSemester": "HS",
+    "endJahr": 2023,
+    "endSemester": "FS"
+  }
+}

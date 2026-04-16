@@ -1,0 +1,220 @@
+{
+  "id": 17213,
+  "kuerzel": "M_PE1",
+  "bezeichnung": "Produktentwicklung 1",
+  "kreditpunkte": 6,
+  "lernziele": "<p>Kennt Methoden der Teilprozesse Kl&#228;ren und Konzipieren<br />Kann sich zeichnerisch ausdr&#252;cken<br />Kennt die Grundlagen des Projektmanagements (Probleml&#246;sung, Planung)<br />Praktische Anwendung der Konstruktionsprozesse Kl&#228;ren und Konzipieren<br />Praktische Anwendung von relevanter Software</p> <p>Professionelle Nutzung einer 3D-CAD Software<br />Vertiefte Kenntnisse zum Modellieren von Bauteilen und zum Zusammenbau von Baugruppen.<br />Erstellen von Zeichnungsableitungen, Explosionszeichnungen und St&#252;cklisten.</p> <p>&nbsp;</p>",
+  "vorausgKenntnisse": "keine\n<p>&nbsp;</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 17214,
+      "kuerzel": "KonstrM1",
+      "bezeichnung": "Konstruktion 1",
+      "lernziele": "<p>Kennt Methoden der Teilprozesse Kl&#228;ren und Konzipieren <br />Kann sich zeichnerisch ausdr&#252;cken <br />Kennt die Grundlagen des Projektmanagements (Probleml&#246;sung, Planung) <br />Praktische Anwendung der Konstruktionsprozesse Kl&#228;ren und Konzipieren <br />Praktische Anwendung von relevanter Software <br /></p>",
+      "planinhalt": "<p>Einf&uuml;hrung in den Konstruktionsprozess<br />Einf&uuml;hrung und methodische Grundlagen des Kl&auml;rens und Konzipieren</p>\n<p>Zeichen- und Skizzier&uuml;bungen, Darstellung von technischen Unterlagen und Zeichnungen</p>\n<p>Projektmanagement: Einf&uuml;hrung, Probleml&ouml;sungszyklus, Analysenmethoden, Zielsetzung, Kreativit&auml;tsmethoden, Auswahl und Bewertung von L&ouml;sungen, Projektorganisation, Projekt&uuml;berwachung, Dokumentation</p>\n<p>Anwendung von Software: Word, Excel, MS-Project, Solution-Tool</p>\n<p>Angewandte &Uuml;bungen zur Vertiefung des Stoffes</p>",
+      "kurselemente": [
+        {
+          "id": 17215,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 17216,
+          "art": "Projekt",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Konstruktion 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Design 1"
+        }
+      ]
+    },
+    {
+      "id": 17218,
+      "kuerzel": "CAD_M1",
+      "bezeichnung": "CAD M1",
+      "lernziele": "<p>Professionelle Nutzung einer 3D-CAD Software <br />Vertiefte Kenntnisse zum Modellieren von Bauteilen und zum Zusammenbau von Baugruppen. <br />Erstellen von Zeichnungsableitungen, Explosionszeichnungen und St&#252;cklisten. <br /><br /></p>",
+      "planinhalt": "<p>Einf&uuml;hrung, Grundk&ouml;rper, Features<br />Feature Operations<br />Sketch 1: Grundlagen, Constraints<br />Sketch 2: auf&nbsp; K&ouml;rper, Curves<br />Sketch 3: Curve in Sketch konvertieren, komplexe Teile mit Sketch</p>\n<p>Arbeiten in Gruppen: Angewandte &Uuml;bung</p>\n<p>Assembly 1: Maten, Namenskonvention (Bottom-up - Ansatz)<br />Assembly 2: AssemblyNavigator, Top-Down Ansatz, Reference Set, Versioning, Load Options<br />Zeichnungsableitung 1: Master Model Ansatz, Zeichnungsableitung von Part und Assembly<br />Zeichnungsableitung 2: Explosionsdarstellung, St&uuml;cklisten<br />Zeichnungsableitung 3:Schnitt, Details, Vermassung, Symbole</p>\n<p>Modellieren von Blechteilen<br /></p>",
+      "kurselemente": [
+        {
+          "id": 17219,
+          "art": "Uebung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "CAD M1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "CAD M1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533,
+      "name": "Meier",
+      "vorname": "Jürg"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 17213,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Abgabe von 75 % der Uebungsaufgaben des Kurses CAD M1</p>\r\n<p>&nbsp;</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Produktentwicklung 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Product Development 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2008,
+    "beginSemester": "HS",
+    "endJahr": 2009,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 10962,
+    "kuerzel": "M_PE1",
+    "bezeichnung": "Produktentwicklung 1",
+    "url": "allModules/10962_M_PE1.json"
+  },
+  "nachfolger": {
+    "id": 17213,
+    "kuerzel": "M_PE1",
+    "bezeichnung": "Produktentwicklung 1",
+    "url": "allModules/17213_M_PE1.json"
+  }
+}

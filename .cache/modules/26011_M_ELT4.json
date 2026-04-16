@@ -1,0 +1,203 @@
+{
+  "id": 26011,
+  "kuerzel": "M_ELT4",
+  "bezeichnung": "Elektrotechnik 4",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Der Studierende kennt die Grundlagen der Elektrotechnik, kann sie anwenden und versteht Zusammenh&auml;nge. Der Fokus dieses Moduls liegt dabei auf den frequenzabh&auml;ngigen Vorg&auml;ngen, Komponenten und Anwendungen. Der Studierende kennt grunds&auml;tzliche Frequenzabh&auml;ngigkeiten von Netzwerken, Reaktanzen und Impedanzen sowie darauf aufbauend Schwingkreise, reale Bauteile, Zweitortheorie und Leitungen. Zudem versteht er die Grunds&auml;tze von EMV und kennt einige Guidelines f&uuml;r EMV-gerechte PCB-Designs.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 26012,
+      "kuerzel": "ELT4",
+      "bezeichnung": "Elektrotechnik 4",
+      "planinhalt": "<ul>\n<li><strong>Netzwerkfunktionen und Ortskurven:</strong> Komplexe Frequenz. Zusammenhang Diffentialgleichung &ndash; &Uuml;bertragungsfunktion.</li>\n<li><strong>Schwingkreise: </strong>Serie- und Parallelschwingkreise, freie und erzwungene Schwingung. Resonanz- und Eigenfrequenzen. Kreisg&uuml;ten, Bandbreite, Verstimmung. Schwingkreise mit/aus realen Bauelementen.</li>\n<li><strong>Frequenzverhalten:</strong> Reaktanzfunktionen und Impedanzverl&auml;ufe ganzer Netzwerke approximieren.</li>\n<li><strong>Zweitore:</strong> Z-, Y-, H- und A-Matrizen, Bestimmung der Zweitorparameter, Umrechnungen. Reziproke und symmetrische Zweitore. Zusammenschaltung von Zweitoren. Berechnung von Eingangs-, Ausgangs- und &Uuml;bertragungsgr&ouml;ssen.</li>\n<li><strong>Leitungstheorie:</strong> Leitungsmodell, Kenngr&ouml;ssen, Leitungsgleichungen. Wellenwiderstand, hin- und r&uuml;cklaufende Wellen, Ausbreitungsgeschwindigkeit, Reflexionsfaktor, Stehwellen. Smith-Diagramm, Leitungstransformationen, Anpassung mit Reaktanzen oder Leitungen (Stubs).</li>\n<li><strong>EMV:</strong> Sinn und Zweck. Arten von St&ouml;rungen, Kopplungsmechanismen. Gegenmassnahmen, EMV-gerechter Entwurf von Leiterplatten und Ger&auml;ten</li>\n</ul>\n<p>&Auml;nderungen vorbehalten</p>",
+      "kurselemente": [
+        {
+          "id": 26013,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 26014,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrotechnik 4"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electrical Engineering 4"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 527044,
+      "name": "Lang",
+      "vorname": "Hans-Dieter"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 26006,
+      "kuerzel": "M_ELT3",
+      "bezeichnung": "Elektrotechnik 3",
+      "url": "allModules/26006_M_ELT3.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 26011,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>50% der Punkte bei allen Moodle-Tests erreicht</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Elektrotechnik 4"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electrical Engineering 4"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2016,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 20027,
+    "kuerzel": "M_ELT4",
+    "bezeichnung": "Elektrotechnik 4",
+    "url": "allModules/20027_M_ELT4.json"
+  }
+}

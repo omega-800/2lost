@@ -1,0 +1,117 @@
+{
+  "id": 29694,
+  "kuerzel": "U_GIS",
+  "bezeichnung": "GIS (Übergang)",
+  "kreditpunkte": 4,
+  "lernziele": "<p>F&auml;higkeit: einfache GIS-Anwendungen</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 29695,
+      "kuerzel": "Gis",
+      "bezeichnung": "Geografische Informationssysteme",
+      "lernziele": "<p>Spezielle GIS-Anwendungen <br />Kenntnisse von typischen Problemen der Schnittstellen bei r&#228;umlichen Datenmodellen <br /></p>",
+      "planinhalt": "<p>GIS-gest&#252;tzte Standortanalysen <br />GIS-gest&#252;tzte Ausbreitungsmodelle <br />GIS-gest&#252;tztes Variantenstudium <br />Problematik des Datenschutzes bei r&#228;umlichen Datenanalysen <br /></p>",
+      "kurselemente": [
+        {
+          "id": 29696,
+          "art": "Uebung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 15,
+          "harteGrenze": true
+        },
+        {
+          "id": 29697,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 30,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Geografische Informationssysteme"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Geographical Information Systems"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10041,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10041_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10027,
+          "kuerzel": "R-vk",
+          "bezeichnung": "Visuelle Kommunikation",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10123,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10123_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10027,
+          "kuerzel": "R-vk",
+          "bezeichnung": "Visuelle Kommunikation",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 541726,
+      "name": "Engelke",
+      "vorname": "Dirk"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Geografische Informationssysteme"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Geographical Information Systems"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2017,
+    "beginSemester": "HS",
+    "endJahr": 2017,
+    "endSemester": "HS"
+  }
+}

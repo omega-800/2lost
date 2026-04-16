@@ -1,0 +1,163 @@
+{
+  "id": 32057,
+  "kuerzel": "M_MAS-SE_Prog2",
+  "bezeichnung": "Programmieren 2",
+  "kreditpunkte": 5,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 32058,
+      "kuerzel": "MAS-SE_FuProg",
+      "bezeichnung": "Funktionale Programmierung",
+      "lernziele": "<ul><li>Sie kennen die grundlegenden Konzepte des funktionalen Programmier-Paradigmas.</li></ul><p>Vermittelte Kompetenz</p><ul><li>Sie lernen eine andere Sichtweise auf die Programmierung (funktional anstelle von OO)</li><li>Sie k&ouml;nnen einfache Probleme mithilfe der Datentypanalyse-Funktionsanalyse Methode l&ouml;sen.</li></ul>",
+      "planinhalt": "<ul><li>Programmier-Paradigmen</li><li>Kennzeichen der funktionalen Programmierung und funktionaler Programmiersprachen</li><li>Funktionen und Daten als gleichberechtigte Konstrukte; Immutability</li><li>Funktionen h&ouml;herer Ordnung (Funktionen als Parameter, Funktionen als R&uuml;ckgabewerte, partielle Funktionen)</li><li>Unendliche Datenstrukturen und Lazy Evaluation</li><li>Kontrollstrukturen in funktionalen Programmiersprachen (Rekursion, Pattern Matching, u. &auml;.)</li><li>Methodische Unterschiede zur OO und imperativem Projektabwicklung: EVA und Datentyp-basierte Spezifikation.</li></ul>",
+      "bibliographie": "<ul><li>Folien, Skripts und Beispiell&ouml;sungen, Kurzanleitungen, Arbeitsbl&auml;tter und L&ouml;sungshinweise</li></ul><p>Internetlinks:</p><ul><li>Haskell: https://www.haskell.org/</li><li>Haskell Platform: https://www.haskell.org/platform/</li><li>Einf&uuml;hrung: https://wiki.haskell.org/Haskell_in_5_Schritte</li></ul><p>Tools</p><ul><li>Java Interpreter (Java 8 und h&ouml;her)</li><li>Haskell Interpreter (GHC Haskell Platform; MacHaskell)</li><li>Text-Editor: EMACS, VIM, Notepad++ oder Sublime Text mit Syntax highlighting</li></ul>",
+      "empfLehrmittel": "<ul><li>Interaktives Arbeiten in kleinen Gruppen (2-er Team) und Besprechungen im Plenum</li><li>Gemischter Unterricht: aktives Arbeiten am eigenen Laptop (&Uuml;bungen und Vorlesung werden gemischt).</li></ul>",
+      "leistungsnachweis": "<p>Schriftliche Pr&uuml;fung am Kursblockende</p>",
+      "kurselemente": [
+        {
+          "id": 32059,
+          "art": "Blockkurs",
+          "anzLektionen": 5,
+          "maxTeilnehmer": 45,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 860,
+          "name": "Joller",
+          "vorname": "Josef M."
+        }
+      ]
+    },
+    {
+      "id": 32060,
+      "kuerzel": "MAS-SE_CuNet",
+      "bezeichnung": "C# und .NET",
+      "lernziele": "<p>Die Studierenden erhalten einen groben Einblick in die wichtigsten Konzepte von C# und dem .NET Framework sowie die wesentlichsten Unterschiede zu Java.</p><p>Lernziele:</p><ul><li>Sie kennen die Grundkonzepte und die wichtigsten Funktionalit&auml;ten der .NET Plattform</li><li>Sie verstehen Sprachkonzepte, Syntax und Vererbung in C# und k&ouml;nnen diese anwenden</li><li>Sie verstehen die Unterschiede in der Syntax zu Java und k&ouml;nnen diese nachvollziehen</li><li>Sie k&ouml;nnen einfache User Interfaces mit WPF erstellen</li></ul>",
+      "planinhalt": "<p>Grundlagen</p><ul><li>.NET Grunlagen<br />Framework Architektur, CLR, MSIL, Assemblies, Typensystem CTS</li><li>C# Grundlagen<br />Namespaces, zentrale Klassen (Object, Array, String), Enums</li></ul><p>Klassen, Structs und Vererbung</p><ul><li>Klassen und Structs<br />Einf&uuml;hrung, Methoden, Properties, Indexer, Konstruktoren, Operatoren</li><li>Vererbung<br />Einf&uuml;hrung, Methoden und Vererbung, Abstrakte Klassen, Interfaces</li></ul><p>Weiterf&uuml;hrende Sprachkonzepte</p><ul><li>Delegates &amp; Events<br />Einf&uuml;hrung, Multicast-Delegates, Hands-on Beispiele, Events, Anonyme Methoden&nbsp;</li><li>Generics<br />Einf&uuml;hrung, Type Constraints, Vererbung, Nullable Types, Generische Delegates</li><li>Language Integrated Queries LINQ<br />Lambda Expressions, Extension Methods, Initializers, Anonymous Types, Query Expressions</li></ul><p>Vertiefung: GUI Programmierung</p><ul><li>WPF</li><li>Einf&uuml;hrung, XAML, Controls, Grund-Konzepte, Data Binding<br />&nbsp;</li></ul>",
+      "bibliographie": "<p>Zur Verf&uuml;gung gestelltes Folienskript inklusive ausf&uuml;hrbarer Codebeispiele plus &Uuml;bungen mit Musterl&ouml;sung.</p><p>Literaturhinweise:</p><ul><li>C# in a Nutshell von Joseph &amp; Ben Albahari / English</li><li>C# kurz &amp; gut von Joseph &amp; Ben Albahari / Deutsche &Uuml;bersetzung&nbsp; = aktuellste C# Version</li></ul><p>Links:</p><ul><li>Microsoft Developer Network / .NET Development (Offizielle Dokumentation) https://msdn.microsoft.com/library/ff361664(v=vs.110).aspx</li><li>Microsoft Developer Network / C# programming guide (Offizielle Dokumentation) https://docs.microsoft.com/dotnet/csharp/programming-guide</li></ul><p>Aktuellste Versionen dieser Tools:</p><ul><li>Visual Studio Community Edition</li><li>Visual Studio Code</li><li>SQL Server Express LocalDB</li></ul><p>Es wird ein VMWare-Image mit diesen Tools zur Verf&uuml;gung gestellt. Die Zip-Datei ist ca. 15GB gross, entpackt und ausgef&uuml;hrt muss mit 40GB &ndash; 45GB gerechnet werden.</p>",
+      "empfLehrmittel": "<p>Vorlesung mit &Uuml;bungsteil</p>",
+      "leistungsnachweis": "<p>Schriftliche Pr&uuml;fung am Kursblockende</p>",
+      "kurselemente": [
+        {
+          "id": 32061,
+          "art": "Blockkurs",
+          "anzLektionen": 5,
+          "maxTeilnehmer": 45,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 524591,
+          "name": "Bauer",
+          "vorname": "Manuel"
+        }
+      ]
+    },
+    {
+      "id": 32062,
+      "kuerzel": "MAS-SE_ParProg",
+      "bezeichnung": "Parallele Programmierung",
+      "lernziele": "<ul><li>Die Konzepte der&nbsp;<strong>Nebenl&auml;ufigkeit</strong>&nbsp;verstehen und in Java Programmen f&uuml;r&nbsp;<strong>Parallelisierung</strong>&nbsp;anwenden k&ouml;nnen.</li><li>Die&nbsp;<strong>Korrektheitskriterien</strong>&nbsp;der Nebenl&auml;ufigkeit kennen und typische Gefahren bei Multi-Threading vermeiden k&ouml;nnen.</li><li>Verschiedene&nbsp;<strong>Implementierungstechniken</strong>&nbsp;f&uuml;r Nebenl&auml;ufigkeit in Java kennen und anwenden k&ouml;nnen.</li></ul><p>Vermittelte Kompetenzen:</p><ul><li>Multi-Thread Programmierung</li><li>Monitor-Synchronisation und anderen Synchronisationsprimitiven</li><li>Race Conditions, Data Races, Deadlocks und andere Nebenl&auml;ufigkeitsfehler erkennen und vermeiden</li><li>Effiziente Parallelisierung mit Thread Pools</li><li>Asynchrone Programmierung im Allgemeinen und im GUI</li><li>Java Memory Model und atomaren Instruktionen</li></ul>",
+      "planinhalt": "<ul><li>Grundlagen des Multi-Threading</li><li>Monitor-Synchronisation</li><li>Semaphore, Lock &amp; Condition, Reader-Writer Locks und andere Synchronisationsprimitiven</li><li>Korrektheitsbedingungen: Problematik von Race Conditions, Data Races, Deadlocks, Livelocks und Starvation</li><li>Thread Pools, flache und rekursive Parallelisierung</li><li>Asynchronit&auml;t u.a. mit CompletableFutures</li><li>Paralleles Stream API in Java</li><li>GUI und Threading</li><li>Java Memory Model: Atomare Instruktionen, volatile, lock-freie Datenstrukturen</li></ul>",
+      "empfLehrmittel": "<ul><li>Vorlesung begleitet mit praktischen &Uuml;bungen</li><li>Unterrichtsunterlagen</li><li>Praktische Programmier&uuml;bungen zur Anwendung und Vertiefung</li></ul>",
+      "leistungsnachweis": "<p>Schriftliche Pr&uuml;fung am Kursblockende</p>",
+      "kurselemente": [
+        {
+          "id": 32063,
+          "art": "Blockkurs",
+          "anzLektionen": 5,
+          "maxTeilnehmer": 45,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 541091,
+          "name": "Bläser",
+          "vorname": "Luc"
+        }
+      ]
+    },
+    {
+      "id": 32064,
+      "kuerzel": "MAS-SE_ProJaAd",
+      "bezeichnung": "Programmieren Java advanced",
+      "lernziele": "<ul><li>Erweiterte Kenntnisse der Programmiertechnologie Java.</li><li>Grundkenntnisse der aspektorientierten Programmierung mit AspectJ.</li></ul><p>Vermittelte Kompetenzen</p><ul><li>Die Teilnehmer sind in der Lage eigene Enumerationen, generische Klassen mit Bounds und Annotationen zu erstellen.</li><li>Sie k&ouml;nnen Reflection, Schwache Referenzen, Streams und Lambdas anwenden.</li><li>Sie verstehen das Konzept der aspektorientierten Programmierung.</li><li>Sie k&ouml;nnen AspectJ f&uuml;r einfache Problemstellungen anwenden.</li><li>Sie verstehen das Konzept von Design by Contract.</li><li>Sie kennen das Java-Native-Interface JNI.</li></ul>",
+      "planinhalt": "<ul><li>Enumerationen</li><li>Generics (Vererbung, Wildcards, Upper- und Lower-Bounds, Raw-Type, Erasure, Bridge-Methoden, Class-Sharing)</li><li>Annotation (Default-Werte, Marker-Annotation, Arrays, Meta-Annotation, Targets, Self-Annotation, Retention, Package-Annotation, Annotation Processing Tool (apt) )</li><li>Reflection (Class-Object, Type-Tokens, Instanzierung mittels Reflection, Class Inspection, Class Member Inspection, Attribute, Methoden)</li><li>Erweiterungen Java8</li><li>Soft-, Weak und Phantom-Referenzen (Resurrection, Schwache Referenzen, SoftReference, WeakReference, ReferenceQueue, PhantomReference, java.lang.Runtime)</li><li>Single-Abstract-Method, Functional Interface, Method-Reference, Lambdas, Streams</li><li>Aspekt-Orientierte Programmierung mit AspectJ (Cross-Cutting-Concerns, Seperation-Of-Concerns, AspectJ, Pointcut, Subtype Pattern, Advice, thisJoinPoint)</li><li>Design by Contract</li><li>Assertions</li><li>Contracts for Java (C4J)</li><li>Java Plattform Module System JPMS</li><li>Java Native Interface JNI (Aufruf von Native-Code aus Java, Aufruf von Java aus Native-Code)</li><li>Internationalization</li><li>Logging (u. a. Log4J, Commons Logging)</li></ul>",
+      "bibliographie": "<ul><li>Eigenes Script</li></ul><p>Weitere Literaturhinweise:</p><ul><li>Joshua Bloch,&nbsp;Effective Java,&nbsp;Verlag: &nbsp;Addison-Wesley</li><li>Ken Arnold, James Gosling, David Holmes,&nbsp;The Java Programming Language,&nbsp;Verlag: Addison-Wesley</li><li>Johannes Nowak,&nbsp;Fortgeschrittene Programmierung mit Java 5,&nbsp;Verlag: Dpunkt</li><li>Raoul-GabrielUrma, Mario Fusco, Alan Mycroft, Java 8 in Action, Verlag: Manning</li><li>Richard Jones, Rafael Lins,&nbsp;Garbage Collection. Algorithms for Automatic Dynamic Memory Management,&nbsp;Verlag: Wiley &amp; Sons</li><li>Russ Miles,&nbsp;AspectJ Cookbook ,&nbsp;Verlag: O&#39;Reilly</li><li>Adrian Colyer, Andy Clement, George Harley, Matthew Webster,&nbsp;eclipse AspectJ,&nbsp;Aspect-Oriented Programming with AspectJ and the Eclipse AspectJ Development Tools,&nbsp;Verlag: Addison Wesley</li><li>Bertrand Meyer,&nbsp;Design by Contract: The Component Revolution,&nbsp;Object &amp; component technology series,&nbsp;Verlag: Prentice Hall</li><li>Richard Mitchell, Jim McKim,&nbsp;Design by Contract, by Example,&nbsp;Verlag: Addison-Wesley</li></ul><p>Internetlinks:</p><ul><li>http://www.java.com</li><li>http://www.eclipse.org/aspectj</li></ul><p>Tools:</p><ul><li>Eclipse und Java-JDK</li><li>Eclipse-PlugIn f&uuml;r AspectJ:</li><li>http://www.eclipse.org/aspectj</li></ul>",
+      "empfLehrmittel": "<p>An den Unterrichtsabenden jeweils zuerst ein Block Frontalunterricht und daraufhin ein begleiteter &Uuml;bungsblock im Vorlesungsraum.</p>",
+      "leistungsnachweis": "<p>Schriftliche Pr&uuml;fung (open book),&nbsp;Dauer: 45 Minuten</p>",
+      "kurselemente": [
+        {
+          "id": 32069,
+          "art": "Blockkurs",
+          "anzLektionen": 5,
+          "maxTeilnehmer": 45,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 221,
+          "name": "Letsch",
+          "vorname": "Thomas"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10163,
+      "bezeichnung": "CAS Intermediate",
+      "kuerzel": "MAS-SE_Int",
+      "url": "allStudies/10163_MAS-SE_Int.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10068,
+      "bezeichnung": "MAS SW Engineering",
+      "kuerzel": "MAS-SE",
+      "url": "allStudies/10068_MAS-SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 541091,
+      "name": "Bläser",
+      "vorname": "Luc"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "-- Übersetzung --"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "-- Übersetzung --"
+    }
+  ]
+}

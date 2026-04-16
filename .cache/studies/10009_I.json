@@ -1,0 +1,4213 @@
+{
+  "id": 10009,
+  "kuerzel": "I",
+  "bezeichnung": "Informatik",
+  "versionKuerzel": "STD_02",
+  "typ": "FH",
+  "art": "Studiengang",
+  "form": "Vollzeit",
+  "kredits": [
+    {
+      "id": 10121,
+      "minKredits": 60,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik"
+        }
+      ]
+    },
+    {
+      "id": 10122,
+      "minKredits": 48,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik"
+        }
+      ]
+    },
+    {
+      "id": 10123,
+      "minKredits": 16,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik"
+        }
+      ]
+    },
+    {
+      "id": 10124,
+      "minKredits": 8,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften"
+        }
+      ]
+    },
+    {
+      "id": 10125,
+      "minKredits": 16,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache"
+        }
+      ]
+    },
+    {
+      "id": 10126,
+      "minKredits": 10,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht"
+        }
+      ]
+    },
+    {
+      "id": 10240,
+      "minKredits": 20,
+      "kategorien": [
+        {
+          "id": 10078,
+          "kuerzel": "I-DA",
+          "bezeichnung": "Diplomarbeit Informatik"
+        }
+      ]
+    }
+  ],
+  "studienberater": {
+    "id": 353,
+    "name": "Keller",
+    "vorname": "Stefan F."
+  },
+  "zuordnungen": [
+    {
+      "id": 13206,
+      "kuerzel": "mUk_APF",
+      "bezeichnung": "Advanced Patterns and Frameworks",
+      "url": "allModules/13206_mUk_APF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 16214,
+      "kuerzel": "M_AdpaFw",
+      "bezeichnung": "Advanced Patterns und Frameworks",
+      "url": "allModules/16214_M_AdpaFw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 18172,
+      "kuerzel": "M_APF",
+      "bezeichnung": "Advanced Patterns und Frameworks",
+      "url": "allModules/18172_M_APF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12524,
+      "kuerzel": "mUk_BWlA",
+      "bezeichnung": "Allgemeine Betriebswirtschaftslehre (BWL)",
+      "url": "allModules/12524_mUk_BWlA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12526,
+      "kuerzel": "mUk_BWlB",
+      "bezeichnung": "Allgemeine Betriebswirtschaftslehre (BWL) reduzierte Variante",
+      "url": "allModules/12526_mUk_BWlB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10951,
+      "kuerzel": "M_An1I",
+      "bezeichnung": "Analysis 1 für Informatiker",
+      "url": "allModules/10951_M_An1I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10952,
+      "kuerzel": "M_An2I",
+      "bezeichnung": "Analysis 2 für Informatiker",
+      "url": "allModules/10952_M_An2I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12920,
+      "kuerzel": "mUk_PhAstro",
+      "bezeichnung": "Astrophysik",
+      "url": "allModules/12920_mUk_PhAstro.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 17014,
+      "kuerzel": "M_KatAufbauInf",
+      "bezeichnung": "Aufbau Informatik",
+      "url": "allModules/17014_M_KatAufbauInf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 20356,
+      "kuerzel": "M_KatAufbauInf3",
+      "bezeichnung": "Aufbau Informatik",
+      "url": "allModules/20356_M_KatAufbauInf3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 20354,
+      "kuerzel": "M_KatAufbauInf2",
+      "bezeichnung": "Aufbau Informatik",
+      "url": "allModules/20354_M_KatAufbauInf2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 12504,
+      "kuerzel": "mUk_BLMan1",
+      "bezeichnung": "Bau- und Liegenschaftsmanagement 1",
+      "url": "allModules/12504_mUk_BLMan1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12506,
+      "kuerzel": "mUk_BLMan2",
+      "bezeichnung": "Bau- und Liegenschaftsmanagement 2",
+      "url": "allModules/12506_mUk_BLMan2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12512,
+      "kuerzel": "mUk_BPMan1",
+      "bezeichnung": "Bau- und Planungsmanagement 1",
+      "url": "allModules/12512_mUk_BPMan1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12514,
+      "kuerzel": "mUk_BPMan2",
+      "bezeichnung": "Bau- und Planungsmanagement 2",
+      "url": "allModules/12514_mUk_BPMan2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12796,
+      "kuerzel": "mUk_KoSpezA",
+      "bezeichnung": "Berufsbezogenes Schreiben (Spez.mod.A)",
+      "url": "allModules/12796_mUk_KoSpezA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12502,
+      "kuerzel": "mUk_BeStat",
+      "bezeichnung": "Beschreibende Statistik",
+      "url": "allModules/12502_mUk_BeStat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12518,
+      "kuerzel": "mUk_Bsys1",
+      "bezeichnung": "Betriebssysteme 1",
+      "url": "allModules/12518_mUk_Bsys1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 16763,
+      "kuerzel": "M_Bsys1",
+      "bezeichnung": "Betriebssysteme 1",
+      "url": "allModules/16763_M_Bsys1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 16753,
+      "kuerzel": "M_Bsys2",
+      "bezeichnung": "Betriebssysteme 2",
+      "url": "allModules/16753_M_Bsys2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12520,
+      "kuerzel": "mUk_Bsys2",
+      "bezeichnung": "Betriebssysteme 2",
+      "url": "allModules/12520_mUk_Bsys2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12516,
+      "kuerzel": "mUk_BsKon",
+      "bezeichnung": "Betriebssystemkonzepte",
+      "url": "allModules/12516_mUk_BsKon.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 16758,
+      "kuerzel": "M_BsKon",
+      "bezeichnung": "Betriebssystemkonzepte",
+      "url": "allModules/16758_M_BsKon.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10997,
+      "kuerzel": "M_BuRe1",
+      "bezeichnung": "Business und Recht 1",
+      "url": "allModules/10997_M_BuRe1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15140,
+      "kuerzel": "mUk_BuRe1",
+      "bezeichnung": "Business und Recht 1",
+      "url": "allModules/15140_mUk_BuRe1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 16666,
+      "kuerzel": "M_BuRe2",
+      "bezeichnung": "Business und Recht 2",
+      "url": "allModules/16666_M_BuRe2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12540,
+      "kuerzel": "mUk_Ch1Bas",
+      "bezeichnung": "Chemie 1 (Basischemie)",
+      "url": "allModules/12540_mUk_Ch1Bas.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12542,
+      "kuerzel": "mUk_Ch2Anw",
+      "bezeichnung": "Chemie 2 (Anwendung chemischer Reaktionen in der Praxis)",
+      "url": "allModules/12542_mUk_Ch2Anw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12544,
+      "kuerzel": "mUk_Ch3Kor",
+      "bezeichnung": "Chemie 3 (Korrosion und Korrosionschutz der Metalle)",
+      "url": "allModules/12544_mUk_Ch3Kor.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 19374,
+      "kuerzel": "M_Chin1",
+      "bezeichnung": "Chinesisch 1",
+      "url": "allModules/19374_M_Chin1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 18608,
+      "kuerzel": "M_Chin2",
+      "bezeichnung": "Chinesisch 2",
+      "url": "allModules/18608_M_Chin2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12566,
+      "kuerzel": "mUk_CompB",
+      "bezeichnung": "Compilerbau",
+      "url": "allModules/12566_mUk_CompB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11061,
+      "kuerzel": "M_CompB",
+      "bezeichnung": "Compilerbau",
+      "url": "allModules/11061_M_CompB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12562,
+      "kuerzel": "mUk_CoMath_4",
+      "bezeichnung": "Computergestützte Mathematik",
+      "url": "allModules/12562_mUk_CoMath_4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12560,
+      "kuerzel": "mUk_CoMath",
+      "bezeichnung": "Computergestützte Mathematik",
+      "url": "allModules/12560_mUk_CoMath.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12556,
+      "kuerzel": "mUk_CnP1",
+      "bezeichnung": "Computernetze - Praktikum 1 (Informatik)",
+      "url": "allModules/12556_mUk_CnP1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12558,
+      "kuerzel": "mUk_CnP2",
+      "bezeichnung": "Computernetze - Praktikum 2 (Informatik)",
+      "url": "allModules/12558_mUk_CnP2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15339,
+      "kuerzel": "M_CN1",
+      "bezeichnung": "Computernetze 1",
+      "url": "allModules/15339_M_CN1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 12546,
+      "kuerzel": "mUk_Cn1Gl",
+      "bezeichnung": "Computernetze 1 - Grundlagen",
+      "url": "allModules/12546_mUk_Cn1Gl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12548,
+      "kuerzel": "mUk_Cn1GlUe",
+      "bezeichnung": "Computernetze 1 - Grundlagen (Übergang)",
+      "url": "allModules/12548_mUk_Cn1GlUe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11147,
+      "kuerzel": "M_CN2",
+      "bezeichnung": "Computernetze 2",
+      "url": "allModules/11147_M_CN2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 12550,
+      "kuerzel": "mUk_Cn2Ip",
+      "bezeichnung": "Computernetze 2: Internet Protokolle",
+      "url": "allModules/12550_mUk_Cn2Ip.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12552,
+      "kuerzel": "mUk_Cn2IpUe",
+      "bezeichnung": "Computernetze 2: Internet Protokolle (Übergang)",
+      "url": "allModules/12552_mUk_Cn2IpUe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12568,
+      "kuerzel": "mUk_CompT1",
+      "bezeichnung": "Computertechnik 1",
+      "url": "allModules/12568_mUk_CompT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 11123,
+      "kuerzel": "M_CompT1",
+      "bezeichnung": "Computertechnik 1",
+      "url": "allModules/11123_M_CompT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 12570,
+      "kuerzel": "mUk_CompT2",
+      "bezeichnung": "Computertechnik 2",
+      "url": "allModules/12570_mUk_CompT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 15068,
+      "kuerzel": "mUk_DG",
+      "bezeichnung": "Darstellende Geometrie",
+      "url": "allModules/15068_mUk_DG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 12574,
+      "kuerzel": "mUk_Dbs1",
+      "bezeichnung": "Datenbanksysteme 1",
+      "url": "allModules/12574_mUk_Dbs1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 19020,
+      "kuerzel": "M_Dbs1",
+      "bezeichnung": "Datenbanksysteme 1",
+      "url": "allModules/19020_M_Dbs1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11184,
+      "kuerzel": "M_Dbs2",
+      "bezeichnung": "Datenbanksysteme 2",
+      "url": "allModules/11184_M_Dbs2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12576,
+      "kuerzel": "mUk_Dbs2",
+      "bezeichnung": "Datenbanksysteme 2",
+      "url": "allModules/12576_mUk_Dbs2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12578,
+      "kuerzel": "mUk_DiffGl",
+      "bezeichnung": "Differentialgleichungen",
+      "url": "allModules/12578_mUk_DiffGl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12580,
+      "kuerzel": "mUk_DigMed1",
+      "bezeichnung": "Digitale Medien 1",
+      "url": "allModules/12580_mUk_DigMed1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 12582,
+      "kuerzel": "mUk_DigMed1_4",
+      "bezeichnung": "Digitale Medien 1",
+      "url": "allModules/12582_mUk_DigMed1_4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11018,
+      "kuerzel": "M_DigMed1",
+      "bezeichnung": "Digitale Medien 1",
+      "url": "allModules/11018_M_DigMed1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12584,
+      "kuerzel": "mUk_DigMed1P",
+      "bezeichnung": "Digitale Medien 1 (Protokolle) Praktikum",
+      "url": "allModules/12584_mUk_DigMed1P.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 1
+        }
+      ]
+    },
+    {
+      "id": 11022,
+      "kuerzel": "M_DigMed2",
+      "bezeichnung": "Digitale Medien 2",
+      "url": "allModules/11022_M_DigMed2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 13216,
+      "kuerzel": "mUk_DigMed2",
+      "bezeichnung": "Digitale Medien 2",
+      "url": "allModules/13216_mUk_DigMed2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 12586,
+      "kuerzel": "mUk_DigMed2P",
+      "bezeichnung": "Digitale Medien 2 (Technologien) Praktikum",
+      "url": "allModules/12586_mUk_DigMed2P.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 1
+        }
+      ]
+    },
+    {
+      "id": 12590,
+      "kuerzel": "mUk_DigSig1_4",
+      "bezeichnung": "Digitale Signalverarbeitung 1",
+      "url": "allModules/12590_mUk_DigSig1_4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12588,
+      "kuerzel": "mUk_DigSig1",
+      "bezeichnung": "Digitale Signalverarbeitung 1",
+      "url": "allModules/12588_mUk_DigSig1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 12592,
+      "kuerzel": "mUk_DigSig1P",
+      "bezeichnung": "Digitale Signalverarbeitung 1 Praktikum",
+      "url": "allModules/12592_mUk_DigSig1P.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 1
+        }
+      ]
+    },
+    {
+      "id": 12594,
+      "kuerzel": "mUk_DigSig2",
+      "bezeichnung": "Digitale Signalverarbeitung 2",
+      "url": "allModules/12594_mUk_DigSig2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 12596,
+      "kuerzel": "mUk_DigSig2P",
+      "bezeichnung": "Digitale Signalverarbeitung 2 Praktikum",
+      "url": "allModules/12596_mUk_DigSig2P.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 1
+        }
+      ]
+    },
+    {
+      "id": 11339,
+      "kuerzel": "M_DAI",
+      "bezeichnung": "Diplomarbeit Informatik",
+      "url": "allModules/11339_M_DAI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10078,
+          "kuerzel": "I-DA",
+          "bezeichnung": "Diplomarbeit Informatik",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 12602,
+      "kuerzel": "mUk_DisMat",
+      "bezeichnung": "Diskrete Mathematik",
+      "url": "allModules/12602_mUk_DisMat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12454,
+      "kuerzel": "U_DisMat",
+      "bezeichnung": "Diskrete Mathematik - Übergangsmodul",
+      "url": "allModules/12454_U_DisMat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12960,
+      "kuerzel": "mUk_ReEinf",
+      "bezeichnung": "Einführung in die Rechtsordnung",
+      "url": "allModules/12960_mUk_ReEinf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12630,
+      "kuerzel": "mUk_EmBus",
+      "bezeichnung": "Electronic & Mobile Business",
+      "url": "allModules/12630_mUk_EmBus.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12632,
+      "kuerzel": "mUk_EnAdv1",
+      "bezeichnung": "English for Advanced Certificate 1",
+      "url": "allModules/12632_mUk_EnAdv1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12634,
+      "kuerzel": "mUk_EnAdv2",
+      "bezeichnung": "English for Advanced Certificate 2",
+      "url": "allModules/12634_mUk_EnAdv2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12642,
+      "kuerzel": "mUk_EngEng",
+      "bezeichnung": "English for Engineers",
+      "url": "allModules/12642_mUk_EngEng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12638,
+      "kuerzel": "mUk_EnFirst1",
+      "bezeichnung": "English for First Certificate 1",
+      "url": "allModules/12638_mUk_EnFirst1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12640,
+      "kuerzel": "mUk_EnFirst2",
+      "bezeichnung": "English for First Certificate 2",
+      "url": "allModules/12640_mUk_EnFirst2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12644,
+      "kuerzel": "mUk_EnInt1",
+      "bezeichnung": "English Intermediate 1",
+      "url": "allModules/12644_mUk_EnInt1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12646,
+      "kuerzel": "mUk_EnInt2",
+      "bezeichnung": "English Intermediate 2",
+      "url": "allModules/12646_mUk_EnInt2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11005,
+      "kuerzel": "M_English1",
+      "bezeichnung": "English Level 1",
+      "url": "allModules/11005_M_English1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11007,
+      "kuerzel": "M_English2",
+      "bezeichnung": "English Level 2",
+      "url": "allModules/11007_M_English2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11008,
+      "kuerzel": "M_English3",
+      "bezeichnung": "English Level 3",
+      "url": "allModules/11008_M_English3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11009,
+      "kuerzel": "M_English4",
+      "bezeichnung": "English Level 4",
+      "url": "allModules/11009_M_English4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12658,
+      "kuerzel": "mUk_EnUint1",
+      "bezeichnung": "English Upper Intermediate 1",
+      "url": "allModules/12658_mUk_EnUint1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12660,
+      "kuerzel": "mUk_EnUint2",
+      "bezeichnung": "English Upper Intermediate 2",
+      "url": "allModules/12660_mUk_EnUint2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12636,
+      "kuerzel": "mUk_EnCom",
+      "bezeichnung": "Enterprise Computing",
+      "url": "allModules/12636_mUk_EnCom.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11068,
+      "kuerzel": "M_EnCom",
+      "bezeichnung": "Enterprise Computing",
+      "url": "allModules/11068_M_EnCom.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10981,
+      "kuerzel": "M_Franz1",
+      "bezeichnung": "Französisch 1",
+      "url": "allModules/10981_M_Franz1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10982,
+      "kuerzel": "M_Franz2",
+      "bezeichnung": "Französisch 2",
+      "url": "allModules/10982_M_Franz2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12696,
+      "kuerzel": "mUk_Franz",
+      "bezeichnung": "Französische Konversation",
+      "url": "allModules/12696_mUk_Franz.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12700,
+      "kuerzel": "mUk_Fue",
+      "bezeichnung": "Führung",
+      "url": "allModules/12700_mUk_Fue.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12704,
+      "kuerzel": "mUk_FuVar",
+      "bezeichnung": "Funktionen mehrerer Variablen",
+      "url": "allModules/12704_mUk_FuVar.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10942,
+      "kuerzel": "M_FuVar",
+      "bezeichnung": "Funktionen mehrerer Variablen",
+      "url": "allModules/10942_M_FuVar.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15602,
+      "kuerzel": "M_KatGWR1",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+      "url": "allModules/15602_M_KatGWR1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 38418,
+      "kuerzel": "M_KatGWR",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+      "url": "allModules/38418_M_KatGWR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 17152,
+      "kuerzel": "M_KatGWR2",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht 2",
+      "url": "allModules/17152_M_KatGWR2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 17161,
+      "kuerzel": "M_KatGWR3",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht 3",
+      "url": "allModules/17161_M_KatGWR3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 25171,
+      "kuerzel": "M_KatGWR4",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht 4",
+      "url": "allModules/25171_M_KatGWR4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 25173,
+      "kuerzel": "M_KatGWR5",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht 5",
+      "url": "allModules/25173_M_KatGWR5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 14104,
+      "kuerzel": "mUk_K_GWR",
+      "bezeichnung": "Gesellschaft, Wirtschaft, Recht ",
+      "url": "allModules/14104_mUk_K_GWR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 15599,
+      "kuerzel": "M_KatGruInf",
+      "bezeichnung": "Grundlage Informatik",
+      "url": "allModules/15599_M_KatGruInf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 12528,
+      "kuerzel": "mUk_BwlBus",
+      "bezeichnung": "Grundlagen der Betriebswirtschaft: Erklärt am Beispiel eines Businessplanes",
+      "url": "allModules/12528_mUk_BwlBus.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 14108,
+      "kuerzel": "mUk_K_GI",
+      "bezeichnung": "Grundlagen Informatik",
+      "url": "allModules/14108_mUk_K_GI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12732,
+      "kuerzel": "mUk_Inf1",
+      "bezeichnung": "Infinitesimalrechnung 1",
+      "url": "allModules/12732_mUk_Inf1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 12734,
+      "kuerzel": "mUk_Inf2",
+      "bezeichnung": "Infinitesimalrechnung 2",
+      "url": "allModules/12734_mUk_Inf2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 12764,
+      "kuerzel": "mUk_ISemB",
+      "bezeichnung": "Informatik-Seminar B",
+      "url": "allModules/12764_mUk_ISemB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12730,
+      "kuerzel": "mUk_ICTh",
+      "bezeichnung": "Informations- und Codierungstheorie",
+      "url": "allModules/12730_mUk_ICTh.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10950,
+      "kuerzel": "M_ICTh",
+      "bezeichnung": "Informations- und Codierungstheorie",
+      "url": "allModules/10950_M_ICTh.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13048,
+      "kuerzel": "mUk_SoWGP",
+      "bezeichnung": "Ingenieur in Wirtschaft, Gesellschaft und Politik",
+      "url": "allModules/13048_mUk_SoWGP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12760,
+      "kuerzel": "mUk_IntTra",
+      "bezeichnung": "Integraltransformationen",
+      "url": "allModules/12760_mUk_IntTra.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 61226,
+      "kuerzel": "M_IntTra",
+      "bezeichnung": "Integraltransformationen",
+      "url": "allModules/61226_M_IntTra.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11085,
+      "kuerzel": "M_IntSi1",
+      "bezeichnung": "Internet Sicherheit 1",
+      "url": "allModules/11085_M_IntSi1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11087,
+      "kuerzel": "M_IntSi2",
+      "bezeichnung": "Internet Sicherheit 2",
+      "url": "allModules/11087_M_IntSi2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12754,
+      "kuerzel": "mUk_IntSi1",
+      "bezeichnung": "Internet-Sicherheit 1 - Netzwerksicherheit",
+      "url": "allModules/12754_mUk_IntSi1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12756,
+      "kuerzel": "mUk_IntSi2",
+      "bezeichnung": "Internet-Sicherheit 2 - Server- und Anwendungssicherheit",
+      "url": "allModules/12756_mUk_IntSi2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12758,
+      "kuerzel": "mUk_IntTe",
+      "bezeichnung": "Internettechnologien",
+      "url": "allModules/12758_mUk_IntTe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11014,
+      "kuerzel": "M_IntTe",
+      "bezeichnung": "Internettechnologien",
+      "url": "allModules/11014_M_IntTe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10977,
+      "kuerzel": "M_Ital1",
+      "bezeichnung": "Italienisch 1",
+      "url": "allModules/10977_M_Ital1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12766,
+      "kuerzel": "mUk_Ital1",
+      "bezeichnung": "Italienisch 1",
+      "url": "allModules/12766_mUk_Ital1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12768,
+      "kuerzel": "mUk_Ital2",
+      "bezeichnung": "Italienisch 2",
+      "url": "allModules/12768_mUk_Ital2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15667,
+      "kuerzel": "M_Ital2",
+      "bezeichnung": "Italienisch 2",
+      "url": "allModules/15667_M_Ital2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10959,
+      "kuerzel": "M_Jap1",
+      "bezeichnung": "Japanisch 1",
+      "url": "allModules/10959_M_Jap1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12770,
+      "kuerzel": "mUk_Jap1",
+      "bezeichnung": "Japanisch 1 (Grundmodul)",
+      "url": "allModules/12770_mUk_Jap1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10960,
+      "kuerzel": "M_Jap2",
+      "bezeichnung": "Japanisch 2",
+      "url": "allModules/10960_M_Jap2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12772,
+      "kuerzel": "mUk_Jap2",
+      "bezeichnung": "Japanisch 2 (Aufbaumodul)",
+      "url": "allModules/12772_mUk_Jap2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11144,
+      "kuerzel": "M_KomIng1",
+      "bezeichnung": "Kommunikation 1 für IngenieurInnen",
+      "url": "allModules/11144_M_KomIng1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11148,
+      "kuerzel": "M_KomIng2",
+      "bezeichnung": "Kommunikation 2 für IngenieurInnen",
+      "url": "allModules/11148_M_KomIng2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12778,
+      "kuerzel": "mUk_Ko2Am",
+      "bezeichnung": "Kommunikation Aufbaumodul",
+      "url": "allModules/12778_mUk_Ko2Am.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12776,
+      "kuerzel": "mUk_Ko1Gm",
+      "bezeichnung": "Kommunikation Grundmodul ",
+      "url": "allModules/12776_mUk_Ko1Gm.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12780,
+      "kuerzel": "mUk_KompZa",
+      "bezeichnung": "Komplexe Zahlen",
+      "url": "allModules/12780_mUk_KompZa.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15546,
+      "kuerzel": "M_KomFou1",
+      "bezeichnung": "Komplexe Zahlen und Fourierreihen",
+      "url": "allModules/15546_M_KomFou1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13234,
+      "kuerzel": "mUk_KoFou",
+      "bezeichnung": "Komplexe Zahlen und Fourierreihen",
+      "url": "allModules/13234_mUk_KoFou.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12798,
+      "kuerzel": "mUk_KultGGl",
+      "bezeichnung": "Kulturgeschichte 1 (Grundlagen)",
+      "url": "allModules/12798_mUk_KultGGl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12804,
+      "kuerzel": "mUk_KultGku",
+      "bezeichnung": "Kulturgeschichte 2 (Gartenkultur)",
+      "url": "allModules/12804_mUk_KultGku.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12800,
+      "kuerzel": "mUk_KultGKg",
+      "bezeichnung": "Kulturgeschichte 3 (Kunstgeschichte)",
+      "url": "allModules/12800_mUk_KultGKg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12802,
+      "kuerzel": "mUk_KultGKl",
+      "bezeichnung": "Kulturgeschichte 4 (Kulturlandschaft)",
+      "url": "allModules/12802_mUk_KultGKl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12806,
+      "kuerzel": "mUk_KultGTg",
+      "bezeichnung": "Kulturgeschichte 5 (Technik- und Architekturgeschichte)",
+      "url": "allModules/12806_mUk_KultGTg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12834,
+      "kuerzel": "mUk_LinAlg",
+      "bezeichnung": "Lineare Algebra",
+      "url": "allModules/12834_mUk_LinAlg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 14112,
+      "kuerzel": "mUk_K_M",
+      "bezeichnung": "Mathematik ",
+      "url": "allModules/14112_mUk_K_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 15604,
+      "kuerzel": "M_KatMathe",
+      "bezeichnung": "Mathematik",
+      "url": "allModules/15604_M_KatMathe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 30
+        }
+      ]
+    },
+    {
+      "id": 17865,
+      "kuerzel": "M_KatMathe2",
+      "bezeichnung": "Mathematik",
+      "url": "allModules/17865_M_KatMathe2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 30
+        }
+      ]
+    },
+    {
+      "id": 11093,
+      "kuerzel": "M_Math1I",
+      "bezeichnung": "Mathematische Grundlagen der Informatik 1",
+      "url": "allModules/11093_M_Math1I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11094,
+      "kuerzel": "M_Math2I",
+      "bezeichnung": "Mathematische Grundlagen der Informatik 2",
+      "url": "allModules/11094_M_Math2I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11032,
+      "kuerzel": "M_MsTe",
+      "bezeichnung": "Microsoft-Technologien",
+      "url": "allModules/11032_M_MsTe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12878,
+      "kuerzel": "mUk_MSTech",
+      "bezeichnung": "Microsoft-Technologien",
+      "url": "allModules/12878_mUk_MSTech.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12876,
+      "kuerzel": "mUk_MsTe",
+      "bezeichnung": "Microsoft-Technologien (Übergang)",
+      "url": "allModules/12876_mUk_MsTe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12874,
+      "kuerzel": "mUk_MoKomAP",
+      "bezeichnung": "Mobilkommunikation - Architektur, Protokolle",
+      "url": "allModules/12874_mUk_MoKomAP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10957,
+      "kuerzel": "M_MoKomAP",
+      "bezeichnung": "Mobilkommunikation Architektur und Protokolle",
+      "url": "allModules/10957_M_MoKomAP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12872,
+      "kuerzel": "mUk_ModMed",
+      "bezeichnung": "Moderation/Partizipation",
+      "url": "allModules/12872_mUk_ModMed.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12884,
+      "kuerzel": "mUk_NaT1",
+      "bezeichnung": "Nachrichtentechnik 1",
+      "url": "allModules/12884_mUk_NaT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 12886,
+      "kuerzel": "mUk_NaT2",
+      "bezeichnung": "Nachrichtentechnik 2",
+      "url": "allModules/12886_mUk_NaT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 12882,
+      "kuerzel": "mUk_Nap",
+      "bezeichnung": "NAP: Naturwissenschaftliches Praktikum",
+      "url": "allModules/12882_mUk_Nap.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15605,
+      "kuerzel": "M_KatNatW",
+      "bezeichnung": "Naturwissenschaften",
+      "url": "allModules/15605_M_KatNatW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 14
+        }
+      ]
+    },
+    {
+      "id": 11071,
+      "kuerzel": "M_NAP",
+      "bezeichnung": "Naturwissenschaftliches Praktikum",
+      "url": "allModules/11071_M_NAP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11146,
+      "kuerzel": "M_NaDM",
+      "bezeichnung": "Netzwerk Architektur, Design und Management",
+      "url": "allModules/11146_M_NaDM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12880,
+      "kuerzel": "mUk_NaDB",
+      "bezeichnung": "Netzwerkarchitekturen - Design und Betrieb",
+      "url": "allModules/12880_mUk_NaDB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12894,
+      "kuerzel": "mUk_Num",
+      "bezeichnung": "Numerik",
+      "url": "allModules/12894_mUk_Num.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12896,
+      "kuerzel": "mUk_OefArb",
+      "bezeichnung": "Öffentlichkeitsarbeit",
+      "url": "allModules/12896_mUk_OefArb.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12938,
+      "kuerzel": "mUk_PnProg",
+      "bezeichnung": "Parallel- und Netzwerkprogrammierung",
+      "url": "allModules/12938_mUk_PnProg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11031,
+      "kuerzel": "M_PnProg",
+      "bezeichnung": "Parallel- und Netzwerkprogrammierung",
+      "url": "allModules/11031_M_PnProg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45143,
+      "kuerzel": "M_Ph1Mech",
+      "bezeichnung": "Physik 1 - Mechanik",
+      "url": "allModules/45143_M_Ph1Mech.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12906,
+      "kuerzel": "mUk_Ph1Mech",
+      "bezeichnung": "Physik 1: Mechanik",
+      "url": "allModules/12906_mUk_Ph1Mech.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11020,
+      "kuerzel": "M_Ph2HAT",
+      "bezeichnung": "Physik 2",
+      "url": "allModules/11020_M_Ph2HAT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12908,
+      "kuerzel": "mUk_Ph2GfwA",
+      "bezeichnung": "Physik 2 A: Gase, Flüssigkeiten, Wärme A",
+      "url": "allModules/12908_mUk_Ph2GfwA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12910,
+      "kuerzel": "mUk_Ph2GfwB",
+      "bezeichnung": "Physik 2 B: Gase, Flüssigkeiten, Wärme B",
+      "url": "allModules/12910_mUk_Ph2GfwB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11052,
+      "kuerzel": "M_Ph3SWO",
+      "bezeichnung": "Physik 3",
+      "url": "allModules/11052_M_Ph3SWO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12912,
+      "kuerzel": "mUk_Ph3SwoA",
+      "bezeichnung": "Physik 3 A: Schwingung, Wellen, Optik A",
+      "url": "allModules/12912_mUk_Ph3SwoA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12914,
+      "kuerzel": "mUk_Ph3SwoB",
+      "bezeichnung": "Physik 3 B: Schwingung, Wellen, Optik B",
+      "url": "allModules/12914_mUk_Ph3SwoB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 19998,
+      "kuerzel": "M_Ph4_I",
+      "bezeichnung": "Physik 4 für Informatiker",
+      "url": "allModules/19998_M_Ph4_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12916,
+      "kuerzel": "mUk_Ph4El",
+      "bezeichnung": "Physik 4: Elektrizität",
+      "url": "allModules/12916_mUk_Ph4El.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12918,
+      "kuerzel": "mUk_Ph5Tec",
+      "bezeichnung": "Physik 5: Technische Physik",
+      "url": "allModules/12918_mUk_Ph5Tec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11049,
+      "kuerzel": "M_Prog0",
+      "bezeichnung": "Programmieren 0",
+      "url": "allModules/11049_M_Prog0.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 15687,
+      "kuerzel": "M_Prog1",
+      "bezeichnung": "Programmieren 1: Programmieren mit Java",
+      "url": "allModules/15687_M_Prog1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 12940,
+      "kuerzel": "mUk_Prog1",
+      "bezeichnung": "Programmieren 1: Programmiersprache JAVA",
+      "url": "allModules/12940_mUk_Prog1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 12944,
+      "kuerzel": "mUk_Prog2",
+      "bezeichnung": "Programmieren 2: Programmierkonzepte",
+      "url": "allModules/12944_mUk_Prog2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 11045,
+      "kuerzel": "M_Prog2",
+      "bezeichnung": "Programmieren 2: Programmierkonzepte",
+      "url": "allModules/11045_M_Prog2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10986,
+      "kuerzel": "M_Prog3",
+      "bezeichnung": "Programmieren 3: C++",
+      "url": "allModules/10986_M_Prog3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 12948,
+      "kuerzel": "mUk_Prog3",
+      "bezeichnung": "Programmieren 3: Programmiersprache C++",
+      "url": "allModules/12948_mUk_Prog3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 12936,
+      "kuerzel": "mUk_PmQm",
+      "bezeichnung": "Projekt- und Qualitätsmanagement",
+      "url": "allModules/12936_mUk_PmQm.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12980,
+      "kuerzel": "mUk_ReInf",
+      "bezeichnung": "Recht im Umfeld von Informatik und Internet",
+      "url": "allModules/12980_mUk_ReInf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13166,
+      "kuerzel": "mUk_VwlRw",
+      "bezeichnung": "Regionalwirtschaft und öffentliche Finanzen",
+      "url": "allModules/13166_mUk_VwlRw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13044,
+      "kuerzel": "mUk_SoSied1",
+      "bezeichnung": "Siedlungssoziologie 1",
+      "url": "allModules/13044_mUk_SoSied1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13046,
+      "kuerzel": "mUk_SoSied2",
+      "bezeichnung": "Siedlungssoziologie 2",
+      "url": "allModules/13046_mUk_SoSied2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 30040,
+      "kuerzel": "M_SE1",
+      "bezeichnung": "Software-Engineering 1",
+      "url": "allModules/30040_M_SE1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13022,
+      "kuerzel": "mUk_SEn1",
+      "bezeichnung": "Software-Engineering 1: Grundlagen OO Softwareentwicklung",
+      "url": "allModules/13022_mUk_SEn1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13024,
+      "kuerzel": "mUk_SEn1Ue",
+      "bezeichnung": "Software-Engineering 1: Grundlagen OO Softwareentwicklung (Übergang)",
+      "url": "allModules/13024_mUk_SEn1Ue.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10976,
+      "kuerzel": "M_SE2",
+      "bezeichnung": "Software-Engineering 2",
+      "url": "allModules/10976_M_SE2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11013,
+      "kuerzel": "M_SE2P",
+      "bezeichnung": "Software-Engineering 2 - Projekt",
+      "url": "allModules/11013_M_SE2P.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13026,
+      "kuerzel": "mUk_SEn2",
+      "bezeichnung": "Software-Engineering 2: Projektübung",
+      "url": "allModules/13026_mUk_SEn2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10985,
+      "kuerzel": "M_SE3",
+      "bezeichnung": "Software-Engineering 3",
+      "url": "allModules/10985_M_SE3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13250,
+      "kuerzel": "mUk_SEn3",
+      "bezeichnung": "Software-Engineering 3: Vertiefung",
+      "url": "allModules/13250_mUk_SEn3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10975,
+      "kuerzel": "M_Span1",
+      "bezeichnung": "Spanisch 1",
+      "url": "allModules/10975_M_Span1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10980,
+      "kuerzel": "M_Span2",
+      "bezeichnung": "Spanisch 2",
+      "url": "allModules/10980_M_Span2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13054,
+      "kuerzel": "mUk_Span3",
+      "bezeichnung": "Spanisch 3 (Vertiefungsmodul)",
+      "url": "allModules/13054_mUk_Span3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13050,
+      "kuerzel": "mUk_Span1",
+      "bezeichnung": "Spanisch Anfänger 1 (Basismodul)",
+      "url": "allModules/13050_mUk_Span1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13052,
+      "kuerzel": "mUk_Span2",
+      "bezeichnung": "Spanisch Anfänger 2 (Aufbaumodul)",
+      "url": "allModules/13052_mUk_Span2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10011,
+          "kuerzel": "I-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15672,
+      "kuerzel": "M_StraProPla_e",
+      "bezeichnung": "Strategische Produktplanung - Blended Learning",
+      "url": "allModules/15672_M_StraProPla_e.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 13014,
+      "kuerzel": "mUk_SA1I",
+      "bezeichnung": "Studienarbeit 1 Informatik",
+      "url": "allModules/13014_mUk_SA1I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 13020,
+      "kuerzel": "mUk_SA2I",
+      "bezeichnung": "Studienarbeit 2 Informatik",
+      "url": "allModules/13020_mUk_SA2I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 11338,
+      "kuerzel": "U_SA2_I",
+      "bezeichnung": "Studienarbeit 2 Informatik - Übergangsmodul",
+      "url": "allModules/11338_U_SA2_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 19456,
+      "kuerzel": "M_SAI",
+      "bezeichnung": "Studienarbeit Informatik",
+      "url": "allModules/19456_M_SAI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 15077,
+      "kuerzel": "mUk_TeAk1",
+      "bezeichnung": "Technische Elektrizitätslehre - Aufbaukurs 1",
+      "url": "allModules/15077_mUk_TeAk1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15078,
+      "kuerzel": "mUk_TeAk2",
+      "bezeichnung": "Technische Elektrizitätslehre - Aufbaukurs 2",
+      "url": "allModules/15078_mUk_TeAk2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 13074,
+      "kuerzel": "mUk_TeGk1",
+      "bezeichnung": "Technische Elektrizitätslehre - Grundkurs 1",
+      "url": "allModules/13074_mUk_TeGk1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13076,
+      "kuerzel": "mUk_TeGk2",
+      "bezeichnung": "Technische Elektrizitätslehre - Grundkurs 2",
+      "url": "allModules/13076_mUk_TeGk2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 13080,
+      "kuerzel": "mUk_ThGlI",
+      "bezeichnung": "Theoretische Grundlagen der Informatik",
+      "url": "allModules/13080_mUk_ThGlI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12470,
+      "kuerzel": "mUk_AnUebE",
+      "bezeichnung": "Übergangsmodul Analysis (Abt. E)",
+      "url": "allModules/12470_mUk_AnUebE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12984,
+      "kuerzel": "mUk_ReUPB1",
+      "bezeichnung": "Umwelt, Planungs- und Baurecht 1",
+      "url": "allModules/12984_mUk_ReUPB1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12986,
+      "kuerzel": "mUk_ReUPB2",
+      "bezeichnung": "Umwelt, Planungs- und Baurecht 2",
+      "url": "allModules/12986_mUk_ReUPB2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12988,
+      "kuerzel": "mUk_ReUPB3",
+      "bezeichnung": "Umwelt-, Planungs- und Baurecht 3",
+      "url": "allModules/12988_mUk_ReUPB3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12702,
+      "kuerzel": "mUk_FueSPM",
+      "bezeichnung": "Unternehmensführung: Strateg. Planung u. Marketing",
+      "url": "allModules/12702_mUk_FueSPM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12982,
+      "kuerzel": "mUk_ReUnt",
+      "bezeichnung": "Unternehmensrecht",
+      "url": "allModules/12982_mUk_ReUnt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13086,
+      "kuerzel": "mUk_UInt1",
+      "bezeichnung": "User Interfaces 1",
+      "url": "allModules/13086_mUk_UInt1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10979,
+      "kuerzel": "M_UInt1",
+      "bezeichnung": "User Interfaces 1",
+      "url": "allModules/10979_M_UInt1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10984,
+      "kuerzel": "M_UInt2",
+      "bezeichnung": "User Interfaces 2",
+      "url": "allModules/10984_M_UInt2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13088,
+      "kuerzel": "mUk_UInt2",
+      "bezeichnung": "User Interfaces 2",
+      "url": "allModules/13088_mUk_UInt2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13118,
+      "kuerzel": "mUk_VecGeo",
+      "bezeichnung": "Vektorgeometrie",
+      "url": "allModules/13118_mUk_VecGeo.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13162,
+      "kuerzel": "mUk_Vss1",
+      "bezeichnung": "Verteilte Software-Systeme 1",
+      "url": "allModules/13162_mUk_Vss1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13164,
+      "kuerzel": "mUk_Vss2",
+      "bezeichnung": "Verteilte Software-Systeme 2",
+      "url": "allModules/13164_mUk_Vss2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11054,
+      "kuerzel": "M_Vss",
+      "bezeichnung": "Verteilte SW-Systeme",
+      "url": "allModules/11054_M_Vss.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10970,
+      "kuerzel": "M_VisKom3",
+      "bezeichnung": "Visuelle Kommunikation 3",
+      "url": "allModules/10970_M_VisKom3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 17448,
+      "kuerzel": "M_VisKom3",
+      "bezeichnung": "Visuelle Kommunikation 3",
+      "url": "allModules/17448_M_VisKom3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 13168,
+      "kuerzel": "mUk_VwlVw",
+      "bezeichnung": "Volkswirtschaft",
+      "url": "allModules/13168_mUk_VwlVw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15997,
+      "kuerzel": "M_VwlTg",
+      "bezeichnung": "Volkswirtschaft und Technikgeschichte",
+      "url": "allModules/15997_M_VwlTg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13170,
+      "kuerzel": "mUk_VwlVwWp",
+      "bezeichnung": "Volkswirtschaft und Wirtschaftspolitik",
+      "url": "allModules/13170_mUk_VwlVwWp.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13198,
+      "kuerzel": "mUk_WrStat",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung und Statistik",
+      "url": "allModules/13198_mUk_WrStat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15386,
+      "kuerzel": "M_WrStat",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung und Statistik",
+      "url": "allModules/15386_M_WrStat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13182,
+      "kuerzel": "mUk_Wavelets",
+      "bezeichnung": "Wavelets",
+      "url": "allModules/13182_mUk_Wavelets.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13194,
+      "kuerzel": "mUk_WiInf1",
+      "bezeichnung": "Wirtschaftsinformatik 1",
+      "url": "allModules/13194_mUk_WiInf1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 21411,
+      "kuerzel": "M_WI1",
+      "bezeichnung": "Wirtschaftsinformatik 1",
+      "url": "allModules/21411_M_WI1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 21395,
+      "kuerzel": "M_WI2",
+      "bezeichnung": "Wirtschaftsinformatik 2",
+      "url": "allModules/21395_M_WI2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13196,
+      "kuerzel": "mUk_WiInf2",
+      "bezeichnung": "Wirtschaftsinformatik 2",
+      "url": "allModules/13196_mUk_WiInf2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13192,
+      "kuerzel": "mUk_WibS",
+      "bezeichnung": "Wissensbasierte Systeme",
+      "url": "allModules/13192_mUk_WibS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15757,
+      "kuerzel": "M_WibS",
+      "bezeichnung": "Wissensbasierte Systeme",
+      "url": "allModules/15757_M_WibS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ]
+}

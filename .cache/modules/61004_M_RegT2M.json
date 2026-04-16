@@ -1,0 +1,325 @@
+{
+  "id": 61004,
+  "kuerzel": "M_RegT2M",
+  "bezeichnung": "Regelungstechnik 2",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Aufbauend auf den Kenntnissen aus dem Modul Regelungstechnik 1, in dem die ersten Regler im Zeitbereich entworfen wurden, widmet sich dieses Modul der Betrachtung von Systemen im Bildbereich sowie der Auslegung von Reglern im Frequenzbereich. Hierbei wird vertiefend auf die Konzepte eingegangen, die es erm&ouml;glichen, komplexe Regelungsprozesse unter Ber&uuml;cksichtigung der Frequenzkomponenten zu analysieren und zu gestalten.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 61005,
+      "kuerzel": "RegT2M",
+      "bezeichnung": "Regelungstechnik 2 (M-I)",
+      "lernziele": "<p>Die Teilnehmenden k&ouml;nnen:</p>\n<ul>\n<li>dynamische und r&uuml;ckgekoppelte Systeme im Bildbereich beschreiben</li>\n<li>Regelkreise im Zeitbereich auslegen</li>\n<li>Stabilit&auml;tskriterien f&uuml;r Systeme im Frequenzbereich anwenden</li>\n<li>Reglerentw&uuml;rfe im Zeit- und Frequenzbereich vergleichen und bewerten</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Uebertragungsfunktionen,</li>\n<li>Laplacetransformation,</li>\n<li>Darstellungsm&ouml;glichkeiten f&uuml;r Systeme im Bildbereich,</li>\n<li>Verfahren f&uuml;r den Reglerentwurf im Zeitbereich,</li>\n<li>Bewertung und Optimierung von Regelkreisen basierend auf vorgegebenen G&uuml;tekriterien</li>\n</ul>",
+      "bibliographie": "<p>Regelungstechnik f&uuml;r Ingenieure, Zacher und Reuter<br />Regelungstechnik 1, Lunze</p>",
+      "kurselemente": [
+        {
+          "id": 61006,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        },
+        {
+          "id": 61007,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 61008,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Regelungstechnik 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Control Systems 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10122,
+      "bezeichnung": "Simulationstechnik",
+      "kuerzel": "M-I-SI",
+      "url": "allStudies/10122_M-I-SI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10085,
+      "bezeichnung": "Simulationstechnik",
+      "kuerzel": "M-I-SI",
+      "url": "allStudies/10085_M-I-SI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10079,
+      "bezeichnung": "Automation und Robotik",
+      "kuerzel": "M-I-AR",
+      "url": "allStudies/10079_M-I-AR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10211,
+      "bezeichnung": "Simulationstechnik",
+      "kuerzel": "M-I-SI",
+      "url": "allStudies/10211_M-I-SI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10240,
+      "bezeichnung": "Automation und Robotik",
+      "kuerzel": "M-I-AR",
+      "url": "allStudies/10240_M-I-AR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10207,
+      "bezeichnung": "Betrieb- und Instandhaltung",
+      "kuerzel": "M-I-BI",
+      "url": "allStudies/10207_M-I-BI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10118,
+      "bezeichnung": "Betrieb- und Instandhaltung",
+      "kuerzel": "M-I-BI",
+      "url": "allStudies/10118_M-I-BI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10081,
+      "bezeichnung": "Betrieb- und Instandhaltung",
+      "kuerzel": "M-I-BI",
+      "url": "allStudies/10081_M-I-BI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10206,
+      "bezeichnung": "Automation und Robotik",
+      "kuerzel": "M-I-AR",
+      "url": "allStudies/10206_M-I-AR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10117,
+      "bezeichnung": "Automation und Robotik",
+      "kuerzel": "M-I-AR",
+      "url": "allStudies/10117_M-I-AR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5026828,
+      "name": "Schafroth",
+      "vorname": "Dario"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 43573,
+      "kuerzel": "M_An1M",
+      "bezeichnung": "Analysis 1 (M-I)",
+      "url": "allModules/43573_M_An1M.json"
+    },
+    {
+      "id": 43657,
+      "kuerzel": "M_WRechMess",
+      "bezeichnung": "Wahrscheinlichkeit und Messdaten",
+      "url": "allModules/43657_M_WRechMess.json"
+    },
+    {
+      "id": 43667,
+      "kuerzel": "M_DiffGlM",
+      "bezeichnung": "Differentialgleichungen (M-I)",
+      "url": "allModules/43667_M_DiffGlM.json"
+    },
+    {
+      "id": 43675,
+      "kuerzel": "M_FouLap2EC",
+      "bezeichnung": "Fourier- und Laplacetransformation (2 ECTS-Punkte)",
+      "url": "allModules/43675_M_FouLap2EC.json"
+    },
+    {
+      "id": 43682,
+      "kuerzel": "M_An2M",
+      "bezeichnung": "Analysis 2 (M-I)",
+      "url": "allModules/43682_M_An2M.json"
+    },
+    {
+      "id": 44314,
+      "kuerzel": "M_AutoMI",
+      "bezeichnung": "Automation",
+      "url": "allModules/44314_M_AutoMI.json"
+    },
+    {
+      "id": 44324,
+      "kuerzel": "M_RegT1M",
+      "bezeichnung": "Regelungstechnik 1 (M)",
+      "url": "allModules/44324_M_RegT1M.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 61004,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat gem&auml;ss Informationen zu Semesterbeginn.</p>",
+      "bemerkungPruefung": "",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Regelungstechnik 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Control systems 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2026,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 44618,
+    "kuerzel": "M_RegT2M",
+    "bezeichnung": "Regelungstechnik 2",
+    "url": "allModules/44618_M_RegT2M.json"
+  }
+}

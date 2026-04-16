@@ -1,0 +1,196 @@
+{
+  "id": 28358,
+  "kuerzel": "M_EmbSW1",
+  "bezeichnung": "Embedded Software Engineering 1",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden kennen die spezifischen Eigenheiten der <em>Modellierung</em> und <em>Programmierung </em>von <em>Embedded Systems</em> und k&ouml;nnen das angemessene Vorgehen w&auml;hlen.</p>\n<p>Sie sind in der Lage, ein dem Problem angepasstes Zielsystem zu w&auml;hlen (Mikrocontroller, DSP, Multicore Systeme, FPGA) und in C und C++ zu programmieren. Sie k&ouml;nnen bei Bedarf ein Echtzeitbetriebssystem (Real-time Operating System, RTOS) einsetzen.</p>",
+  "vorausgKenntnisse": "<p>Gute Programmierkenntnisse in C und C++</p>\n<p>Kenntnisse eines Mikrocontrollers, z.B. ARM Cortex-Mx</p>\n<p>Software Engineering</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 28359,
+      "kuerzel": "EmbSW1",
+      "bezeichnung": "Embedded Software Engineering 1",
+      "planinhalt": "<p><strong>Modellierung und effiziente Realisierung von Embedded (real-time) Systems</strong></p>\n<ul>\n<li>Model Driven Development</li>\n<li>Hardware/Software Codesign</li>\n<li>Finite State Machines (FSM)</li>\n<li>Embedded Design Patterns</li>\n<li>Effiziente Programmierung in C und C++</li>\n</ul>\n<p><strong>Computerarithmetik</strong></p>\n<ul>\n<li>Integerarithmetik inkl. S&auml;ttigungsarithmetik</li>\n<li>Fixed Point Arithmetik</li>\n<li>Floating Point Arithmetik</li>\n</ul>\n<p><strong>Real-time- und Multithreadingaspekte</strong></p>\n<ul>\n<li>Kooperatives vs. preemptives Multitasking</li>\n<li>Rate monotonic scheduling (RMS)</li>\n<li>Concurrency und Synchronisierung mit POSIX</li>\n<li>Real-time Operating System (RTOS)</li>\n</ul>\n<p><strong>Multicore Systeme</strong></p>\n<ul>\n<li>Speicherproblematik\n<ul>\n<li>Speicherhierarchien (Caches)</li>\n<li>Shared Memory, inkl. Zugriff</li>\n<li>Multicore coherence</li>\n</ul>\n</li>\n<li>Hardware Abstraction Layer (HAL) in C und C++</li>\n</ul>\n<p>&Auml;nderungen vorbehalten</p>",
+      "kurselemente": [
+        {
+          "id": 28360,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        },
+        {
+          "id": 28361,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Embedded Software Engineering 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Embedded Software Engineering 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533876,
+      "name": "Bonderer",
+      "vorname": "Reto"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 28358,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>75% der Praktika besucht</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Embedded Software Engineering 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Embedded Software Engineering 1"
+    }
+  ],
+  "skriptAblageLink": "\\\\OST.ch\\root\\alg\\skripte\\BSc_Elektrotechnik\\Fachbereich\\Embedded_Software_Engineering_1",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2016,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 22054,
+    "kuerzel": "M_EmbSW1",
+    "bezeichnung": "Embedded Software Engineering 1",
+    "url": "allModules/22054_M_EmbSW1.json"
+  }
+}

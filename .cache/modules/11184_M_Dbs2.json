@@ -1,0 +1,179 @@
+{
+  "id": 11184,
+  "kuerzel": "M_Dbs2",
+  "bezeichnung": "Datenbanksysteme 2",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Datenbanksysteme (DBMS) programmieren k&ouml;nnen (Stored Procedures, Triggers)</li>\n    <li>Programmierschnittstellen f&uuml;r die Applikationsentwicklung vertiefter anwenden (JDBC)</li>\n    <li>Werkzeuge zur DB-Anbindung an Applikationen einordnen k&ouml;nnen</li>\n    <li>Grundlagen von objekt- relationalen sowie von objekt-orientierten DBMS kennen</li>\n    <li>Semistrukturierte DBMS mit XML kennen</li>\n    <li>Information Retrieval sowie Data Warehouse/OLAP einordnen k&ouml;nnen</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10359,
+      "kuerzel": "Dbs2",
+      "bezeichnung": "Datenbanksysteme 2",
+      "planinhalt": "<p>Datenbank-Konzepte und Programmierung: </p>\n<ul>\n    <li>Konsistenzbedingungen (Vertiefung)</li>\n    <li>JDBC (Vertiefung) und Stored Procedures in Java </li>\n    <li>Datenbank-Sicherheit (Vertiefung) </li>\n</ul>\n<p>Datenbank-Paradigmen und -Modelle:</p>\n<ul>\n    <li>Objektrelationale Datenbanksysteme </li>\n    <li>SQL/MM und Oracle Spatial als Beispiel f&uuml;r UDTs </li>\n    <li>Objektorientierte Datenbanksysteme: Standards, Anwendungen und Programmierung </li>\n    <li>Objektorientiert-zu-relationales Mapping&nbsp; </li>\n    <li>Semistrukturierte DB-Modelle: XML und Datenbanken </li>\n</ul>\n<p>Datenbank-Anwendungen: </p>\n<ul>\n    <li>Informationssysteme, SQL MM/Text </li>\n    <li>OLAP und DataWarehouses, Data Mining </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 10847,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 10848,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Datenbanksysteme 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Database Systems 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 10233,
+      "bezeichnung": "Data Science",
+      "kuerzel": "DaEnMaIn",
+      "url": "allStudies/10233_DaEnMaIn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 353,
+      "name": "Keller",
+      "vorname": "Stefan F."
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 20813,
+      "kuerzel": "M_Dbs1",
+      "bezeichnung": "Datenbanksysteme 1",
+      "url": "allModules/20813_M_Dbs1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11184,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Datenbanksysteme 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Database Systems 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2013,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 11184,
+    "kuerzel": "M_Dbs2",
+    "bezeichnung": "Datenbanksysteme 2",
+    "url": "allModules/11184_M_Dbs2.json"
+  }
+}

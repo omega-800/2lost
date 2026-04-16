@@ -1,0 +1,331 @@
+{
+  "id": 44628,
+  "kuerzel": "M_FEM3n",
+  "bezeichnung": "Finite Elemente Methode 3 - Nichtlinearitäten",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Unsere Vision f&uuml;r den FEM-Unterricht ist es, eine Generation von Ingenieurinnen und Ingenieuren auszubilden, die die Prinzipien der Finite-Elemente-Methode (FEM) nicht nur versteht, sondern auch kreativ und effektiv anwenden kann. Wir wollen unsere Studierenden dazu bef&auml;higen, komplexe technische Herausforderungen in verschiedenen Anwendungsbereichen zu meistern, indem sie innovative L&ouml;sungen entwickeln, pr&auml;zise Simulationen durchf&uuml;hren und dabei stets auch die wichtigen Aspekte der Nachhaltigkeit nicht ausser Acht lassen.&nbsp;</p>\n<p>Die Absolventinnen und Absolventen des Vertiefungskurses werden in der Lage sein:<br />- iterative L&ouml;sungsmethoden zur L&ouml;sung nicht-linearer Problemstellungen in der FEM anwenden zu k&ouml;nnen&nbsp;<br />- nicht-lineare Materialmodelle einsetzen und deren Modellierung anhand von Versuchsdaten ausf&uuml;hren zu k&ouml;nnen<br />- Stabilit&auml;tsprobleme modellieren, berechnen und richtig interpretieren k&ouml;nnen<br />- unterschiedliche Kontaktbedingungen modellieren und validieren k&ouml;nnen<br />- geometrisch nicht-lineare Problemstellungen modellieren und validieren k&ouml;nnen<br />- den Nutzen und die Grenzen der Topologieoptimierung erkennen und interpretieren zu k&ouml;nnen&nbsp;<br />- pr&auml;zise und nachvollziehbare Analyseberichte zu erstellen</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 44629,
+      "kuerzel": "FEM3",
+      "bezeichnung": "Finite Element Methode 3 ",
+      "lernziele": "<p>Fachkompetenzen:&nbsp;<br />- Kenntnis der Methoden zur L&ouml;sung spezieller Problemstellungen (Nichtlinearit&auml;t, Kontakt, Stabilit&auml;t, Optimierung)<br />- einfachere nicht-lineare Modelle l&ouml;sen k&ouml;nnen, insb. Kontaktprobleme<br />- die Plausibilit&auml;t der Analysen beurteilen und die Resultate zielgerichtet interpretieren k&ouml;nnen<br />- die M&ouml;glichkeiten und Fallstricke bei nicht-linearen FE-Anlalysen kennen<br />- Erlangung der Entscheider-Kompetenz&nbsp;</p>\n<p>&nbsp;</p>\n<p>Selbstkompetenzen:<br />Selbstmotivation: Da der FEM-Unterricht oft anspruchsvolle theoretische und praktische Aufgaben beinhaltet, ist es wichtig, die F&auml;higkeit zur Selbstmotivation zu entwickeln. Studierende sollten in der Lage sein, sich selbst zu motivieren, auch wenn die Aufgaben komplex oder herausfordernd sind.&nbsp;<br />Selbstregulation: den eigenen Lernprozess zu planen, zu organisieren und zu &uuml;berwachen. Die Studierenden sollten in der Lage sein, effektive Lernstrategien zu entwickeln, ihre Zeit sinnvoll einzuteilen und ihre Fortschritte zu &uuml;berpr&uuml;fen. Dies erm&ouml;glicht es ihnen, ihre Lernziele effizienter zu erreichen.<br />Probleml&ouml;sungsf&auml;higkeiten: Im FEM-Unterricht werden Studierende mit komplexen technischen Problemen konfrontiert. Die F&auml;higkeit zur Probleml&ouml;sung ist daher von entscheidender Bedeutung. Dies umfasst das kritische Denken, die F&auml;higkeit, Probleme zu analysieren, alternative L&ouml;sungswege zu identifizieren und die besten Ans&auml;tze zur L&ouml;sung von technischen Herausforderungen zu w&auml;hlen.</p>\n<p>&nbsp;</p>\n<p>Sozialkompetenzen:<br />Teamarbeit: Die FEM-Projekte und -&Uuml;bungen erfordern oft die Zusammenarbeit in Teams, um komplexe Problemstellungen zu l&ouml;sen. Studierende sollten lernen, effektiv in interdisziplin&auml;ren Gruppen zu arbeiten, Konflikte konstruktiv zu l&ouml;sen und ihre jeweiligen St&auml;rken und F&auml;higkeiten einzubringen, um gemeinsam erfolgreich zu sein.<br />Kommunikation und Pr&auml;sentation: Die F&auml;higkeit, technische Konzepte und Ergebnisse verst&auml;ndlich zu kommunizieren und zu pr&auml;sentieren, ist im FEM-Unterricht von grosser Bedeutung. Sch&uuml;lerinnen und Sch&uuml;ler sollten lernen, ihre Ideen und L&ouml;sungen klar zu formulieren und sie vor anderen verst&auml;ndlich darzulegen, sei es in schriftlicher Form oder durch Pr&auml;sentationen.</p>",
+      "planinhalt": "<ul>\n<li>Einf&uuml;hrung der m&ouml;glichen Nicht-Linearit&auml;ten bei der L&ouml;sung strukturmechanischer Problemstellungen</li>\n<li>Solvermethoden zur iterativen L&ouml;sung nicht-linearer Problemstellungen</li>\n<li>Geometrische Nicht-Linearit&auml;ten und ihre Formulierungen</li>\n<li>Plastizit&auml;t und deren Modellierung am Bespiel von Zugversuchen</li>\n<li>Instabilit&auml;t und deren L&ouml;sungsmethoden in der FEM</li>\n<li>Kontaktprobleme und deren Modellierungsm&ouml;glichkeiten in der FEM</li>\n<li>Diverse &Uuml;bungen mit Verfassung technischer Berichte zur Vertiefung der nicht-linearen Problemstellungen mit abschliessender Simulation-Challenge</li>\n</ul>",
+      "bibliographie": "<p>Vorlesungsunterlagen (Skriptserver)&nbsp;<br />&Uuml;bungsunterlagen (Skriptserver)<br />Videotutorials (Skriptserver)</p>\n<p>&nbsp;</p>\n<p>Klein, B.: Grundlagen und Anwendungen der Finite-Elemente-Methode im Maschinen- und Fahrzeigbau; &nbsp;Springer Verlag<br />Deger, Y.: Die Methode der Finiten Elemente, Expert Verlag</p>",
+      "kurselemente": [
+        {
+          "id": 44630,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 20,
+          "harteGrenze": true
+        },
+        {
+          "id": 44705,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 40,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Finite Element Methode 3 "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Finite Element Method 3"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10083,
+      "bezeichnung": "Maschinenbau-Informatik",
+      "kuerzel": "M-I-MI",
+      "url": "allStudies/10083_M-I-MI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10084,
+      "bezeichnung": "Produktentwicklung",
+      "kuerzel": "M-I-PE",
+      "url": "allStudies/10084_M-I-PE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10210,
+      "bezeichnung": "Produktentwicklung",
+      "kuerzel": "M-I-PE",
+      "url": "allStudies/10210_M-I-PE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10121,
+      "bezeichnung": "Produktentwicklung",
+      "kuerzel": "M-I-PE",
+      "url": "allStudies/10121_M-I-PE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10082,
+      "bezeichnung": "Kunststofftechnik",
+      "kuerzel": "M-I-KS",
+      "url": "allStudies/10082_M-I-KS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10245,
+      "bezeichnung": "Simulationstechnik",
+      "kuerzel": "M-I-SI",
+      "url": "allStudies/10245_M-I-SI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10122,
+      "bezeichnung": "Simulationstechnik",
+      "kuerzel": "M-I-SI",
+      "url": "allStudies/10122_M-I-SI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10208,
+      "bezeichnung": "Kunststofftechnik",
+      "kuerzel": "M-I-KS",
+      "url": "allStudies/10208_M-I-KS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10085,
+      "bezeichnung": "Simulationstechnik",
+      "kuerzel": "M-I-SI",
+      "url": "allStudies/10085_M-I-SI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10119,
+      "bezeichnung": "Kunststofftechnik",
+      "kuerzel": "M-I-KS",
+      "url": "allStudies/10119_M-I-KS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10120,
+      "bezeichnung": "Maschinenbau-Informatik",
+      "kuerzel": "M-I-MI",
+      "url": "allStudies/10120_M-I-MI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10211,
+      "bezeichnung": "Simulationstechnik",
+      "kuerzel": "M-I-SI",
+      "url": "allStudies/10211_M-I-SI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 101860,
+      "name": "Studer",
+      "vorname": "Mario"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 43505,
+      "kuerzel": "M_LinAlg2EC",
+      "bezeichnung": "Lineare Algebra (2 ECTS-Punkte)",
+      "url": "allModules/43505_M_LinAlg2EC.json"
+    },
+    {
+      "id": 43573,
+      "kuerzel": "M_An1M",
+      "bezeichnung": "Analysis 1 (M-I)",
+      "url": "allModules/43573_M_An1M.json"
+    },
+    {
+      "id": 43662,
+      "kuerzel": "M_VekGM",
+      "bezeichnung": "Vektorgeometrie (M-I)",
+      "url": "allModules/43662_M_VekGM.json"
+    },
+    {
+      "id": 43682,
+      "kuerzel": "M_An2M",
+      "bezeichnung": "Analysis 2 (M-I)",
+      "url": "allModules/43682_M_An2M.json"
+    },
+    {
+      "id": 43923,
+      "kuerzel": "M_TeM1",
+      "bezeichnung": "Technische Mechanik 1",
+      "url": "allModules/43923_M_TeM1.json"
+    },
+    {
+      "id": 43928,
+      "kuerzel": "M_TeM2",
+      "bezeichnung": "Technische Mechanik 2",
+      "url": "allModules/43928_M_TeM2.json"
+    },
+    {
+      "id": 44280,
+      "kuerzel": "M_TecMe3",
+      "bezeichnung": "Technische Mechanik 3",
+      "url": "allModules/44280_M_TecMe3.json"
+    },
+    {
+      "id": 44299,
+      "kuerzel": "M_FEM1",
+      "bezeichnung": "Finite Elemente Methode 1 - Grundkurs",
+      "url": "allModules/44299_M_FEM1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Finite Elemente Methode 3 - Nichtlinearitäten"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Finite element method 3 - Nonlinearities"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2026,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 40498,
+    "kuerzel": "M_VE6",
+    "bezeichnung": "Virtuelles Entwickeln 6",
+    "url": "allModules/40498_M_VE6.json"
+  }
+}

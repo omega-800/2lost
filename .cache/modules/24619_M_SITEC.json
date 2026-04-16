@@ -1,0 +1,173 @@
+{
+  "id": 24619,
+  "kuerzel": "M_SITEC",
+  "bezeichnung": "EQ2 - Sicherheitstechnik",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Modulziele:</p>\n<ul>\n    <li>Kennt die wesentlichen Elemente des Maschinen und Anlagenbaus </li>\n    <li>und kann diese berechnen und </li>\n    <li>kennt die Konsequenzen der Produktehaftung&nbsp;f&uuml;r diese Elemente&nbsp;</li>\n</ul>\n<p>Kursziele: siehe Lernziele der Kurse</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 24620,
+      "kuerzel": "SiTec",
+      "bezeichnung": "Sicherheitstechnik",
+      "lernziele": "<p>Kennt die Konsequenzen der Produktehaftung:<br />- Vermeidung des Konzeptfehlers<br />- Vermeidung des Herstellungsfehlers<br />- Vermeidung des Instruktionsfehlers</p> <p>Anwendung der Grundlagen der&nbsp;Sicherheitstechnik</p>",
+      "planinhalt": "<p>Einf&uuml;hrung in die Produktehaftung</p>\n<p>Grundlagen der Bemessung nach SIA 260/261/263, Eurocode 3: Tragsicherheit und Gebrauchstauglichkeit</p>\n<p>Einf&uuml;hrung in das Qualit&auml;tsmanagement (e-Learning)<br />Auftragsabwicklung (e-Learning)</p>\n<p>Maschinenrichtlinie 2006/42/EG Sicherheitstechnik, Risc Management<br />Gefahrenanalyse und Risikobeurteilung<br />Konformit&auml;tserkl&auml;rung, CE-Kennzeichnung</p>\n<p>&Uuml;bungen zum praxisnahen Verarbeiten des Unterrichtsstoffes</p>",
+      "kurselemente": [
+        {
+          "id": 24621,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 24622,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Sicherheitstechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Safety Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10104,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10104_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10127,
+          "kuerzel": "W-MKpl",
+          "bezeichnung": "Methodenkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10129,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10129_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10127,
+          "kuerzel": "W-MKpl",
+          "bezeichnung": "Methodenkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10130,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10130_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10127,
+          "kuerzel": "W-MKpl",
+          "bezeichnung": "Methodenkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10169,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10169_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10151,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10151_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5010515,
+      "name": "Loichinger",
+      "vorname": "Albert"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 24619,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Sicherheitstechnik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Safety Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2015,
+    "beginSemester": "HS",
+    "endJahr": 2019,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 24619,
+    "kuerzel": "M_SITEC",
+    "bezeichnung": "EQ2 - Sicherheitstechnik",
+    "url": "allModules/24619_M_SITEC.json"
+  }
+}

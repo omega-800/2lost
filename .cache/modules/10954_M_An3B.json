@@ -1,0 +1,217 @@
+{
+  "id": 10954,
+  "kuerzel": "M_An3B",
+  "bezeichnung": "Analysis 3 für Bauingenieurwesen",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Verschiedene mathematische Beschreibungen von ebenen und r&auml;umlichen Kurven verstehen. <br />Fehler von abh&auml;ngigen Gr&ouml;ssen berechnen k&ouml;nnen.<br />Grundverst&auml;ndnis Differentialgleichungen</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10037,
+      "kuerzel": "An3B",
+      "bezeichnung": "Analysis 3 für Bauingenieurwesen",
+      "planinhalt": "<p><strong>Kurven:<br /></strong>Parameterdarstellung,<br />Polarkoordinaten,<br />Kr&uuml;mmung, Bogenl&auml;nge,<br />Kegelschnitte, Klotoiden.<br /><strong>Funktionen mehrerer Variablen:<br /></strong>Schnittstellen,<br />partielle Ableitungen,<br />Linearisierung,<br />Fehlerrechnung.<br /></p>",
+      "kurselemente": [
+        {
+          "id": 10404,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 10405,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Analysis 3 für Bauingenieurwesen"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Analysis 3 for Civil Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10005,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10005_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10011,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10011_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10109,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10109_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10131,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10131_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10017,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10017_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 525326,
+      "name": "Bichsel",
+      "vorname": "Walter"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 10953,
+      "kuerzel": "M_An2B",
+      "bezeichnung": "Analysis 2 für Bauingenieurwesen",
+      "url": "allModules/10953_M_An2B.json"
+    },
+    {
+      "id": 22033,
+      "kuerzel": "M_An1B",
+      "bezeichnung": "Analysis 1 für Bauingenieurwesen",
+      "url": "allModules/22033_M_An1B.json"
+    },
+    {
+      "id": 23360,
+      "kuerzel": "M_VekGB",
+      "bezeichnung": "Vektorgeometrie (Bauingenieurwesen)",
+      "url": "allModules/23360_M_VekGB.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 10954,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Analysis 3 für Bauingenieurwesen"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Analysis 3 for Civil Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "WS",
+    "endJahr": 2014,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 10954,
+    "kuerzel": "M_An3B",
+    "bezeichnung": "Analysis 3 für Bauingenieurwesen",
+    "url": "allModules/10954_M_An3B.json"
+  }
+}

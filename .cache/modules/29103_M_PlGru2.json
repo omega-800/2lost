@@ -1,0 +1,148 @@
+{
+  "id": 29103,
+  "kuerzel": "M_PlGru2",
+  "bezeichnung": "Planungsgrundlagen 2",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Methoden der Datenerhebung und Durchf&uuml;hrung eigener Datenerhebungen</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 29107,
+      "kuerzel": "PlStat2",
+      "bezeichnung": "Planungsstatistik 2",
+      "lernziele": "<p>Kenntnisse der wichtigsten Datenquellen und Erhebungsmethoden.</p><p>Kenntnisse wichtigster raumbezogener Erhebungen, Gliederungen, Statistiken und Indikatorensysteme in der Schweiz.</p><p>F&auml;higkeit zur Vorbereitung, Durchf&uuml;hrung und Auswertung von Datenerhebungen. F&auml;higkeit zur selbstst&auml;ndigen Anwendung von Statistik.</p>",
+      "planinhalt": "<p>Datenquellen und Erhebungsmethoden</p><p>Gr&ouml;ssere selbstst&auml;ndige Semesterarbeit in kleineren Gruppen:</p><p>- Auswertung sekund&auml;rstatischer Daten</p><p>- Vorbereitung und Durchf&uuml;hrung einer eigenen Datenerhebung</p><p>- Auswertung der Daten</p><p>- Interpretation der Ergebnisse und Risikoabsch&auml;tzung</p>",
+      "kurselemente": [
+        {
+          "id": 29116,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Planungsstatistik 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Planning Statistics 2"
+        }
+      ]
+    },
+    {
+      "id": 29110,
+      "kuerzel": "SieSoz2",
+      "bezeichnung": "Siedlungssoziologie 2",
+      "lernziele": "<p>Erkennen und Verstehen der Wirkungen der Architektur und der gebauten Umwelt auf das Verhalten und Wohlbefinden der Bewohnenden.</p><p>Kenntnisse des schweizerischen Wohnungsmarktes in Bezug auf seine Angebote, Tr&auml;ger, Entwicklungen und Zukunftstrends. F&auml;higkeit zum selbstst&auml;ndigen Anwendung siedlungssoziologischen Wissens in raumplanerischen Projekten.</p>",
+      "planinhalt": "<p>Wohnbed&uuml;rfnisse und Soziologie des Wohnens</p><p>Beziehungen zwischen den Generationen, intergenerationelle Projekte und selbstst&auml;ndiges Wohnen im Alter</p><p>Zukunftsweisende Wohn- bzw. Wohnungsangebote</p><p>Gr&ouml;ssere selbstst&auml;ndige Semesterarbeit in kleineren Gruppen</p>",
+      "kurselemente": [
+        {
+          "id": 29111,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Siedlungssoziologie 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Urban Sociology 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10123,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10123_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10025,
+          "kuerzel": "R-s",
+          "bezeichnung": "Städtebau",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10142,
+      "bezeichnung": "Stadt-, Verkehrs- und Raumplanung ",
+      "kuerzel": "SVR",
+      "url": "allStudies/10142_SVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10133,
+          "kuerzel": "R-re",
+          "bezeichnung": "Raumentwicklung",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5011269,
+      "name": "Berger Burger",
+      "vorname": "Heidi"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Planungsgrundlagen 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Town Planning 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2018,
+    "beginSemester": "HS",
+    "endJahr": 2019,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 29103,
+    "kuerzel": "M_PlGru2",
+    "bezeichnung": "Planungsgrundlagen 2",
+    "url": "allModules/29103_M_PlGru2.json"
+  }
+}

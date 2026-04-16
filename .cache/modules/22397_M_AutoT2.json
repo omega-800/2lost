@@ -1,0 +1,224 @@
+{
+  "id": 22397,
+  "kuerzel": "M_AutoT2",
+  "bezeichnung": "Automation 2",
+  "kreditpunkte": 4,
+  "lernziele": "<ul> <li>Verstehen von dynamischen Vorg&#228;ngen in Systemen</li><li>Kenntnis der Beschreibungsm&#246;glichkeiten f&#252;r dynamische und r&#252;ckgekoppelte Systeme</li><li>Beherrschen der Auslegung einfacher Regelkreise im Zeitbereich</li></ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 22398,
+      "kuerzel": "SysDyn",
+      "bezeichnung": "Systemdynamik",
+      "lernziele": "<ul>\n<li>Verstehen von dynamischen Vorg&#228;ngen in Systemen</li></ul>",
+      "planinhalt": "<ul>\n<li>Analyse dynamischer Systeme</li><li>Modellbildung, Identifikation</li><li>Beschreibungsmittel f&#252;r dynamische Systeme (Antwortfunktionen, Differentialgleichungen, Signalflussbild, Frequenzgang)</li>\n<li>Simulation</li></ul>",
+      "kurselemente": [
+        {
+          "id": 22399,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 22400,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Systemdynamik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "System Dynamics"
+        }
+      ]
+    },
+    {
+      "id": 22401,
+      "kuerzel": "RegT1M",
+      "bezeichnung": "Regelungstechnik 1 (M)",
+      "lernziele": "<ul> <li>Verstehen von dynamischen Vorg&#228;ngen in Systemen</li><li>Kenntnis der Beschreibungsm&#246;glichkeiten f&#252;r dynamische und r&#252;ckgekoppelte Systeme</li><li>Beherrschen der Auslegung einfacher Regelkreise im Zeitbereich</li><li>Verstehen von Kreisschaltung und r&#252;ckgekoppelten Systemen<br /></li></ul>",
+      "planinhalt": "<ul>\n<li>Elemente des Regelkreises</li><li>Standardregler</li><li>Auslegung von Regelkreisen</li><li>Simulation r&#252;ckgekoppelter Systeme</li><li>Praktische Beispiele (Labor)</li></ul>",
+      "kurselemente": [
+        {
+          "id": 22402,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 22403,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Regelungstechnik 1 (M)"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Control Systems 1 (M)"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5001539,
+      "name": "Bermes",
+      "vorname": "Christian"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 20106,
+      "kuerzel": "M_An2M",
+      "bezeichnung": "Analysis 2 (M-I)",
+      "url": "allModules/20106_M_An2M.json"
+    },
+    {
+      "id": 20580,
+      "kuerzel": "M_WRechM",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung (M-I)",
+      "url": "allModules/20580_M_WRechM.json"
+    },
+    {
+      "id": 22028,
+      "kuerzel": "M_An1M",
+      "bezeichnung": "Analysis 1 (M-I)",
+      "url": "allModules/22028_M_An1M.json"
+    },
+    {
+      "id": 23353,
+      "kuerzel": "M_DiffGlM",
+      "bezeichnung": "Differentialgleichungen (M-I)",
+      "url": "allModules/23353_M_DiffGlM.json"
+    },
+    {
+      "id": 24025,
+      "kuerzel": "M_AutoT1",
+      "bezeichnung": "Automation 1",
+      "url": "allModules/24025_M_AutoT1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 22397,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "2 &Uuml;bungs-/Laborberichte mit Note &gt;= 4",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Automation 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Automation 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "FS",
+    "endJahr": 2017,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 20761,
+    "kuerzel": "M_AutoT2",
+    "bezeichnung": "Automation 2",
+    "url": "allModules/20761_M_AutoT2.json"
+  },
+  "nachfolger": {
+    "id": 22397,
+    "kuerzel": "M_AutoT2",
+    "bezeichnung": "Automation 2",
+    "url": "allModules/22397_M_AutoT2.json"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": 40257,
+  "kuerzel": "M_KatProfil8",
+  "bezeichnung": "Profilmodule",
+  "kreditpunkte": 4,
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 40258,
+      "kuerzel": "k_katprofil8",
+      "bezeichnung": "Profilmodule",
+      "kurselemente": [
+        {
+          "id": 40259,
+          "art": "Blockkurs",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10142,
+      "bezeichnung": "Stadt-, Verkehrs- und Raumplanung ",
+      "kuerzel": "SVR",
+      "url": "allStudies/10142_SVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10134,
+          "kuerzel": "R-pm",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10201,
+      "bezeichnung": "Stadt-, Verkehrs- und Raumplanung",
+      "kuerzel": "SVR",
+      "url": "allStudies/10201_SVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10134,
+          "kuerzel": "R-pm",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Profilmodule"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

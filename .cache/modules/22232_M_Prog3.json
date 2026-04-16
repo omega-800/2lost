@@ -1,0 +1,208 @@
+{
+  "id": 22232,
+  "kuerzel": "M_Prog3",
+  "bezeichnung": "Programmieren 3: C++11",
+  "kreditpunkte": 6,
+  "lernziele": "<p>Sicheres Beherrschen der Programmiersprache C++11 und ihrer Bibliotheken<br /></p>",
+  "vorausgKenntnisse": "<p>Englisch<br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 22233,
+      "kuerzel": "Prog3",
+      "bezeichnung": "Programmieren 3",
+      "lernziele": "<ul>\n    <li> sicheres Beherrschen der wichtigen Sprachelemente und Bibliothekskomponenten von C++11 </li>\n    <li> Grundlagen der funktionalen und generischen Programmierung </li>\n    <li> Abstraktion von Werten, Algorithmen, Objekten und Verhalten mit den Sprachmitteln von C++11 </li>\n</ul>",
+      "planinhalt": "<ul>\n    <li> Kompilationsmodell, &Uuml;bersetzungseinheiten, Modulkonzept in C++ mittels Pr&auml;prozessor, Hello World </li>\n    <li> Funktionen und Parameter, elementare Datentypen, einfache  Ausgabe und Eingabe mittels Standard-Streams, Initialisierung, const und  auto </li>\n    <li> Unit Testing mit CUTE, Standard-Exceptions anwenden - Funktions-contracts - Wertebereiche und Definitionsbereiche </li>\n    <li> Wichtige Typen und Algorithmen der Standardbibliothek: string, vector, copy, transform, Schleifen-Idiome </li>\n    <li> Anonyme Funktionen: Lambdas, Anwendung mit Standardalgorithmen </li>\n    <li> eigene Typen definieren (struct,class,enum), Typ-Aliase: using und typedef, Sichtbarkeit und Invarianten (ctor/dtor) </li>\n    <li> generische Funktionen definieren (function template),  Operator-Funktionen, decltype, constexpr, Funktions-Lookup und  Namensr&auml;ume </li>\n    <li> Erweiterung/Anwendung der Standardbibliothek mit eigenen Iteratoren, Algorithmen, Pr&auml;dikaten und Funktoren </li>\n    <li> generische Typen definieren (class templates), typename, Compile-Zeit Programmierung, Variadic Templates, Traits, static_assert </li>\n    <li> Resourcenmanagement - Lebensdauer, Referenzen (lvalue,  rvalue), Move versus Copy, Forwarding, Lambdas mit Capture, Exception  Safety und noexcept, Konstruktor-Desktruktor-Regeln (=default, =deleted) </li>\n    <li> Objektorientierte Programmierung mittels Vererbung und virtual  Member Funktionen, Mehrfachvererbung, Mix-in Klassen und virtual  Vererbung </li>\n    <li> Einf&uuml;hrung in weitere Container und Algorithmen der Standardbibliothek (w&auml;hrend des ganzen Semesters) </li>\n    <li> Memory-Model, Pointer, Heap-Management mittels unique_ptr und shared_ptr, C-Schnittstelle </li>\n    <li> einfaches Multi-Threading mittels async und futures, Ausblick auf threads, atomics, locks, condition variables </li>\n    <li> Vergleich und Umgang mit C++98 und C- Altlasten</li>\n</ul>\n<ul> </ul>",
+      "kurselemente": [
+        {
+          "id": 22234,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 120,
+          "harteGrenze": true
+        },
+        {
+          "id": 22235,
+          "art": "Uebung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "C++11"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "C++11"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10108,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10108_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 525323,
+      "name": "Sommerlad",
+      "vorname": "Peter"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 15687,
+      "kuerzel": "M_Prog1",
+      "bezeichnung": "Programmieren 1: Programmieren mit Java",
+      "url": "allModules/15687_M_Prog1.json"
+    },
+    {
+      "id": 16763,
+      "kuerzel": "M_Bsys1",
+      "bezeichnung": "Betriebssysteme 1",
+      "url": "allModules/16763_M_Bsys1.json"
+    },
+    {
+      "id": 22288,
+      "kuerzel": "M_AD",
+      "bezeichnung": "Programmieren 2: Algorithmen und Datenstrukturen",
+      "url": "allModules/22288_M_AD.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 22232,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Erfolgreiche Abgabe gel&ouml;ster Uebungsaufgaben nach Ank&uuml;ndigung</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Programmieren 3: C++11"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Programming 3: C++11"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2012,
+    "beginSemester": "HS",
+    "endJahr": 2014,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 10986,
+    "kuerzel": "M_Prog3",
+    "bezeichnung": "Programmieren 3: C++",
+    "url": "allModules/10986_M_Prog3.json"
+  }
+}

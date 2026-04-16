@@ -1,0 +1,1727 @@
+{
+  "id": 10015,
+  "kuerzel": "I",
+  "bezeichnung": "Informatik",
+  "versionKuerzel": "U1_01",
+  "typ": "FH",
+  "art": "Studiengang",
+  "form": "Vollzeit",
+  "kredits": [
+    {
+      "id": 10196,
+      "minKredits": 50,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)"
+        }
+      ]
+    },
+    {
+      "id": 10202,
+      "minKredits": 50,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)"
+        }
+      ]
+    },
+    {
+      "id": 10252,
+      "minKredits": 20,
+      "kategorien": [
+        {
+          "id": 10072,
+          "kuerzel": "K_DAI_U01",
+          "bezeichnung": "Diplomarbeit Informatik  (Übergang)"
+        }
+      ]
+    }
+  ],
+  "studienberater": {
+    "id": 353,
+    "name": "Keller",
+    "vorname": "Stefan F."
+  },
+  "zuordnungen": [
+    {
+      "id": 16214,
+      "kuerzel": "M_AdpaFw",
+      "bezeichnung": "Advanced Patterns und Frameworks",
+      "url": "allModules/16214_M_AdpaFw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 18172,
+      "kuerzel": "M_APF",
+      "bezeichnung": "Advanced Patterns und Frameworks",
+      "url": "allModules/18172_M_APF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 12524,
+      "kuerzel": "mUk_BWlA",
+      "bezeichnung": "Allgemeine Betriebswirtschaftslehre (BWL)",
+      "url": "allModules/12524_mUk_BWlA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10951,
+      "kuerzel": "M_An1I",
+      "bezeichnung": "Analysis 1 für Informatiker",
+      "url": "allModules/10951_M_An1I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 10952,
+      "kuerzel": "M_An2I",
+      "bezeichnung": "Analysis 2 für Informatiker",
+      "url": "allModules/10952_M_An2I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 16763,
+      "kuerzel": "M_Bsys1",
+      "bezeichnung": "Betriebssysteme 1",
+      "url": "allModules/16763_M_Bsys1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 16753,
+      "kuerzel": "M_Bsys2",
+      "bezeichnung": "Betriebssysteme 2",
+      "url": "allModules/16753_M_Bsys2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 12520,
+      "kuerzel": "mUk_Bsys2",
+      "bezeichnung": "Betriebssysteme 2",
+      "url": "allModules/12520_mUk_Bsys2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12516,
+      "kuerzel": "mUk_BsKon",
+      "bezeichnung": "Betriebssystemkonzepte",
+      "url": "allModules/12516_mUk_BsKon.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 16758,
+      "kuerzel": "M_BsKon",
+      "bezeichnung": "Betriebssystemkonzepte",
+      "url": "allModules/16758_M_BsKon.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 10997,
+      "kuerzel": "M_BuRe1",
+      "bezeichnung": "Business und Recht 1",
+      "url": "allModules/10997_M_BuRe1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 16666,
+      "kuerzel": "M_BuRe2",
+      "bezeichnung": "Business und Recht 2",
+      "url": "allModules/16666_M_BuRe2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11061,
+      "kuerzel": "M_CompB",
+      "bezeichnung": "Compilerbau",
+      "url": "allModules/11061_M_CompB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 12566,
+      "kuerzel": "mUk_CompB",
+      "bezeichnung": "Compilerbau",
+      "url": "allModules/12566_mUk_CompB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12556,
+      "kuerzel": "mUk_CnP1",
+      "bezeichnung": "Computernetze - Praktikum 1 (Informatik)",
+      "url": "allModules/12556_mUk_CnP1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12558,
+      "kuerzel": "mUk_CnP2",
+      "bezeichnung": "Computernetze - Praktikum 2 (Informatik)",
+      "url": "allModules/12558_mUk_CnP2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15339,
+      "kuerzel": "M_CN1",
+      "bezeichnung": "Computernetze 1",
+      "url": "allModules/15339_M_CN1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 12546,
+      "kuerzel": "mUk_Cn1Gl",
+      "bezeichnung": "Computernetze 1 - Grundlagen",
+      "url": "allModules/12546_mUk_Cn1Gl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12548,
+      "kuerzel": "mUk_Cn1GlUe",
+      "bezeichnung": "Computernetze 1 - Grundlagen (Übergang)",
+      "url": "allModules/12548_mUk_Cn1GlUe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11147,
+      "kuerzel": "M_CN2",
+      "bezeichnung": "Computernetze 2",
+      "url": "allModules/11147_M_CN2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 12550,
+      "kuerzel": "mUk_Cn2Ip",
+      "bezeichnung": "Computernetze 2: Internet Protokolle",
+      "url": "allModules/12550_mUk_Cn2Ip.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12552,
+      "kuerzel": "mUk_Cn2IpUe",
+      "bezeichnung": "Computernetze 2: Internet Protokolle (Übergang)",
+      "url": "allModules/12552_mUk_Cn2IpUe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11123,
+      "kuerzel": "M_CompT1",
+      "bezeichnung": "Computertechnik 1",
+      "url": "allModules/11123_M_CompT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 12574,
+      "kuerzel": "mUk_Dbs1",
+      "bezeichnung": "Datenbanksysteme 1",
+      "url": "allModules/12574_mUk_Dbs1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 19020,
+      "kuerzel": "M_Dbs1",
+      "bezeichnung": "Datenbanksysteme 1",
+      "url": "allModules/19020_M_Dbs1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11184,
+      "kuerzel": "M_Dbs2",
+      "bezeichnung": "Datenbanksysteme 2",
+      "url": "allModules/11184_M_Dbs2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 12576,
+      "kuerzel": "mUk_Dbs2",
+      "bezeichnung": "Datenbanksysteme 2",
+      "url": "allModules/12576_mUk_Dbs2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11018,
+      "kuerzel": "M_DigMed1",
+      "bezeichnung": "Digitale Medien 1",
+      "url": "allModules/11018_M_DigMed1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11022,
+      "kuerzel": "M_DigMed2",
+      "bezeichnung": "Digitale Medien 2",
+      "url": "allModules/11022_M_DigMed2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 15069,
+      "kuerzel": "mUk_DigTeIn",
+      "bezeichnung": "Digitaltechnik für Informatiker",
+      "url": "allModules/15069_mUk_DigTeIn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11339,
+      "kuerzel": "M_DAI",
+      "bezeichnung": "Diplomarbeit Informatik",
+      "url": "allModules/11339_M_DAI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10072,
+          "kuerzel": "K_DAI_U01",
+          "bezeichnung": "Diplomarbeit Informatik  (Übergang)",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 12602,
+      "kuerzel": "mUk_DisMat",
+      "bezeichnung": "Diskrete Mathematik",
+      "url": "allModules/12602_mUk_DisMat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12454,
+      "kuerzel": "U_DisMat",
+      "bezeichnung": "Diskrete Mathematik - Übergangsmodul",
+      "url": "allModules/12454_U_DisMat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12960,
+      "kuerzel": "mUk_ReEinf",
+      "bezeichnung": "Einführung in die Rechtsordnung",
+      "url": "allModules/12960_mUk_ReEinf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12630,
+      "kuerzel": "mUk_EmBus",
+      "bezeichnung": "Electronic & Mobile Business",
+      "url": "allModules/12630_mUk_EmBus.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12632,
+      "kuerzel": "mUk_EnAdv1",
+      "bezeichnung": "English for Advanced Certificate 1",
+      "url": "allModules/12632_mUk_EnAdv1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12634,
+      "kuerzel": "mUk_EnAdv2",
+      "bezeichnung": "English for Advanced Certificate 2",
+      "url": "allModules/12634_mUk_EnAdv2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11005,
+      "kuerzel": "M_English1",
+      "bezeichnung": "English Level 1",
+      "url": "allModules/11005_M_English1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 11007,
+      "kuerzel": "M_English2",
+      "bezeichnung": "English Level 2",
+      "url": "allModules/11007_M_English2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 11008,
+      "kuerzel": "M_English3",
+      "bezeichnung": "English Level 3",
+      "url": "allModules/11008_M_English3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11009,
+      "kuerzel": "M_English4",
+      "bezeichnung": "English Level 4",
+      "url": "allModules/11009_M_English4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11068,
+      "kuerzel": "M_EnCom",
+      "bezeichnung": "Enterprise Computing",
+      "url": "allModules/11068_M_EnCom.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 12636,
+      "kuerzel": "mUk_EnCom",
+      "bezeichnung": "Enterprise Computing",
+      "url": "allModules/12636_mUk_EnCom.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10981,
+      "kuerzel": "M_Franz1",
+      "bezeichnung": "Französisch 1",
+      "url": "allModules/10981_M_Franz1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10982,
+      "kuerzel": "M_Franz2",
+      "bezeichnung": "Französisch 2",
+      "url": "allModules/10982_M_Franz2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 15599,
+      "kuerzel": "M_KatGruInf",
+      "bezeichnung": "Grundlage Informatik",
+      "url": "allModules/15599_M_KatGruInf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12762,
+      "kuerzel": "mUk_ISemA",
+      "bezeichnung": "Informatik-Seminar A",
+      "url": "allModules/12762_mUk_ISemA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12764,
+      "kuerzel": "mUk_ISemB",
+      "bezeichnung": "Informatik-Seminar B",
+      "url": "allModules/12764_mUk_ISemB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12730,
+      "kuerzel": "mUk_ICTh",
+      "bezeichnung": "Informations- und Codierungstheorie",
+      "url": "allModules/12730_mUk_ICTh.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10950,
+      "kuerzel": "M_ICTh",
+      "bezeichnung": "Informations- und Codierungstheorie",
+      "url": "allModules/10950_M_ICTh.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 11085,
+      "kuerzel": "M_IntSi1",
+      "bezeichnung": "Internet Sicherheit 1",
+      "url": "allModules/11085_M_IntSi1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 11087,
+      "kuerzel": "M_IntSi2",
+      "bezeichnung": "Internet Sicherheit 2",
+      "url": "allModules/11087_M_IntSi2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 12754,
+      "kuerzel": "mUk_IntSi1",
+      "bezeichnung": "Internet-Sicherheit 1 - Netzwerksicherheit",
+      "url": "allModules/12754_mUk_IntSi1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12756,
+      "kuerzel": "mUk_IntSi2",
+      "bezeichnung": "Internet-Sicherheit 2 - Server- und Anwendungssicherheit",
+      "url": "allModules/12756_mUk_IntSi2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12758,
+      "kuerzel": "mUk_IntTe",
+      "bezeichnung": "Internettechnologien",
+      "url": "allModules/12758_mUk_IntTe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11014,
+      "kuerzel": "M_IntTe",
+      "bezeichnung": "Internettechnologien",
+      "url": "allModules/11014_M_IntTe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 10977,
+      "kuerzel": "M_Ital1",
+      "bezeichnung": "Italienisch 1",
+      "url": "allModules/10977_M_Ital1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 15667,
+      "kuerzel": "M_Ital2",
+      "bezeichnung": "Italienisch 2",
+      "url": "allModules/15667_M_Ital2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10959,
+      "kuerzel": "M_Jap1",
+      "bezeichnung": "Japanisch 1",
+      "url": "allModules/10959_M_Jap1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12770,
+      "kuerzel": "mUk_Jap1",
+      "bezeichnung": "Japanisch 1 (Grundmodul)",
+      "url": "allModules/12770_mUk_Jap1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10960,
+      "kuerzel": "M_Jap2",
+      "bezeichnung": "Japanisch 2",
+      "url": "allModules/10960_M_Jap2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12772,
+      "kuerzel": "mUk_Jap2",
+      "bezeichnung": "Japanisch 2 (Aufbaumodul)",
+      "url": "allModules/12772_mUk_Jap2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12774,
+      "kuerzel": "mUk_JKomp",
+      "bezeichnung": "Java und Komponenten",
+      "url": "allModules/12774_mUk_JKomp.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11144,
+      "kuerzel": "M_KomIng1",
+      "bezeichnung": "Kommunikation 1 für IngenieurInnen",
+      "url": "allModules/11144_M_KomIng1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 11148,
+      "kuerzel": "M_KomIng2",
+      "bezeichnung": "Kommunikation 2 für IngenieurInnen",
+      "url": "allModules/11148_M_KomIng2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 11093,
+      "kuerzel": "M_Math1I",
+      "bezeichnung": "Mathematische Grundlagen der Informatik 1",
+      "url": "allModules/11093_M_Math1I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 11094,
+      "kuerzel": "M_Math2I",
+      "bezeichnung": "Mathematische Grundlagen der Informatik 2",
+      "url": "allModules/11094_M_Math2I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 11032,
+      "kuerzel": "M_MsTe",
+      "bezeichnung": "Microsoft-Technologien",
+      "url": "allModules/11032_M_MsTe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12878,
+      "kuerzel": "mUk_MSTech",
+      "bezeichnung": "Microsoft-Technologien",
+      "url": "allModules/12878_mUk_MSTech.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12874,
+      "kuerzel": "mUk_MoKomAP",
+      "bezeichnung": "Mobilkommunikation - Architektur, Protokolle",
+      "url": "allModules/12874_mUk_MoKomAP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10957,
+      "kuerzel": "M_MoKomAP",
+      "bezeichnung": "Mobilkommunikation Architektur und Protokolle",
+      "url": "allModules/10957_M_MoKomAP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 12882,
+      "kuerzel": "mUk_Nap",
+      "bezeichnung": "NAP: Naturwissenschaftliches Praktikum",
+      "url": "allModules/12882_mUk_Nap.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11071,
+      "kuerzel": "M_NAP",
+      "bezeichnung": "Naturwissenschaftliches Praktikum",
+      "url": "allModules/11071_M_NAP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11146,
+      "kuerzel": "M_NaDM",
+      "bezeichnung": "Netzwerk Architektur, Design und Management",
+      "url": "allModules/11146_M_NaDM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 12880,
+      "kuerzel": "mUk_NaDB",
+      "bezeichnung": "Netzwerkarchitekturen - Design und Betrieb",
+      "url": "allModules/12880_mUk_NaDB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11031,
+      "kuerzel": "M_PnProg",
+      "bezeichnung": "Parallel- und Netzwerkprogrammierung",
+      "url": "allModules/11031_M_PnProg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 45143,
+      "kuerzel": "M_Ph1Mech",
+      "bezeichnung": "Physik 1 - Mechanik",
+      "url": "allModules/45143_M_Ph1Mech.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 11020,
+      "kuerzel": "M_Ph2HAT",
+      "bezeichnung": "Physik 2",
+      "url": "allModules/11020_M_Ph2HAT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11052,
+      "kuerzel": "M_Ph3SWO",
+      "bezeichnung": "Physik 3",
+      "url": "allModules/11052_M_Ph3SWO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12914,
+      "kuerzel": "mUk_Ph3SwoB",
+      "bezeichnung": "Physik 3 B: Schwingung, Wellen, Optik B",
+      "url": "allModules/12914_mUk_Ph3SwoB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11063,
+      "kuerzel": "M_Ph4_I",
+      "bezeichnung": "Physik 4 für Informatiker",
+      "url": "allModules/11063_M_Ph4_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 12918,
+      "kuerzel": "mUk_Ph5Tec",
+      "bezeichnung": "Physik 5: Technische Physik",
+      "url": "allModules/12918_mUk_Ph5Tec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15687,
+      "kuerzel": "M_Prog1",
+      "bezeichnung": "Programmieren 1: Programmieren mit Java",
+      "url": "allModules/15687_M_Prog1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 11045,
+      "kuerzel": "M_Prog2",
+      "bezeichnung": "Programmieren 2: Programmierkonzepte",
+      "url": "allModules/11045_M_Prog2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 10986,
+      "kuerzel": "M_Prog3",
+      "bezeichnung": "Programmieren 3: C++",
+      "url": "allModules/10986_M_Prog3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 12936,
+      "kuerzel": "mUk_PmQm",
+      "bezeichnung": "Projekt- und Qualitätsmanagement",
+      "url": "allModules/12936_mUk_PmQm.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12980,
+      "kuerzel": "mUk_ReInf",
+      "bezeichnung": "Recht im Umfeld von Informatik und Internet",
+      "url": "allModules/12980_mUk_ReInf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 30040,
+      "kuerzel": "M_SE1",
+      "bezeichnung": "Software-Engineering 1",
+      "url": "allModules/30040_M_SE1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13022,
+      "kuerzel": "mUk_SEn1",
+      "bezeichnung": "Software-Engineering 1: Grundlagen OO Softwareentwicklung",
+      "url": "allModules/13022_mUk_SEn1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13024,
+      "kuerzel": "mUk_SEn1Ue",
+      "bezeichnung": "Software-Engineering 1: Grundlagen OO Softwareentwicklung (Übergang)",
+      "url": "allModules/13024_mUk_SEn1Ue.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10976,
+      "kuerzel": "M_SE2",
+      "bezeichnung": "Software-Engineering 2",
+      "url": "allModules/10976_M_SE2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 11013,
+      "kuerzel": "M_SE2P",
+      "bezeichnung": "Software-Engineering 2 - Projekt",
+      "url": "allModules/11013_M_SE2P.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 13026,
+      "kuerzel": "mUk_SEn2",
+      "bezeichnung": "Software-Engineering 2: Projektübung",
+      "url": "allModules/13026_mUk_SEn2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10985,
+      "kuerzel": "M_SE3",
+      "bezeichnung": "Software-Engineering 3",
+      "url": "allModules/10985_M_SE3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 10975,
+      "kuerzel": "M_Span1",
+      "bezeichnung": "Spanisch 1",
+      "url": "allModules/10975_M_Span1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10980,
+      "kuerzel": "M_Span2",
+      "bezeichnung": "Spanisch 2",
+      "url": "allModules/10980_M_Span2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 13014,
+      "kuerzel": "mUk_SA1I",
+      "bezeichnung": "Studienarbeit 1 Informatik",
+      "url": "allModules/13014_mUk_SA1I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 13020,
+      "kuerzel": "mUk_SA2I",
+      "bezeichnung": "Studienarbeit 2 Informatik",
+      "url": "allModules/13020_mUk_SA2I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 11338,
+      "kuerzel": "U_SA2_I",
+      "bezeichnung": "Studienarbeit 2 Informatik - Übergangsmodul",
+      "url": "allModules/11338_U_SA2_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10938,
+      "kuerzel": "M_SAI",
+      "bezeichnung": "Studienarbeit Informatik",
+      "url": "allModules/10938_M_SAI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 13080,
+      "kuerzel": "mUk_ThGlI",
+      "bezeichnung": "Theoretische Grundlagen der Informatik",
+      "url": "allModules/13080_mUk_ThGlI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15191,
+      "kuerzel": "mUk_uebgBach_K_U1I-4",
+      "bezeichnung": "Uebergang Bachelor",
+      "url": "allModules/15191_mUk_uebgBach_K_U1I-4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13086,
+      "kuerzel": "mUk_UInt1",
+      "bezeichnung": "User Interfaces 1",
+      "url": "allModules/13086_mUk_UInt1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10979,
+      "kuerzel": "M_UInt1",
+      "bezeichnung": "User Interfaces 1",
+      "url": "allModules/10979_M_UInt1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 10984,
+      "kuerzel": "M_UInt2",
+      "bezeichnung": "User Interfaces 2",
+      "url": "allModules/10984_M_UInt2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13088,
+      "kuerzel": "mUk_UInt2",
+      "bezeichnung": "User Interfaces 2",
+      "url": "allModules/13088_mUk_UInt2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13162,
+      "kuerzel": "mUk_Vss1",
+      "bezeichnung": "Verteilte Software-Systeme 1",
+      "url": "allModules/13162_mUk_Vss1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13164,
+      "kuerzel": "mUk_Vss2",
+      "bezeichnung": "Verteilte Software-Systeme 2",
+      "url": "allModules/13164_mUk_Vss2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11054,
+      "kuerzel": "M_Vss",
+      "bezeichnung": "Verteilte SW-Systeme",
+      "url": "allModules/11054_M_Vss.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 15997,
+      "kuerzel": "M_VwlTg",
+      "bezeichnung": "Volkswirtschaft und Technikgeschichte",
+      "url": "allModules/15997_M_VwlTg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 13198,
+      "kuerzel": "mUk_WrStat",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung und Statistik",
+      "url": "allModules/13198_mUk_WrStat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15386,
+      "kuerzel": "M_WrStat",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung und Statistik",
+      "url": "allModules/15386_M_WrStat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13194,
+      "kuerzel": "mUk_WiInf1",
+      "bezeichnung": "Wirtschaftsinformatik 1",
+      "url": "allModules/13194_mUk_WiInf1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 19759,
+      "kuerzel": "M_WI1",
+      "bezeichnung": "Wirtschaftsinformatik 1",
+      "url": "allModules/19759_M_WI1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 13196,
+      "kuerzel": "mUk_WiInf2",
+      "bezeichnung": "Wirtschaftsinformatik 2",
+      "url": "allModules/13196_mUk_WiInf2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 18015,
+      "kuerzel": "M_WI2",
+      "bezeichnung": "Wirtschaftsinformatik 2",
+      "url": "allModules/18015_M_WI2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15757,
+      "kuerzel": "M_WibS",
+      "bezeichnung": "Wissensbasierte Systeme",
+      "url": "allModules/15757_M_WibS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 13192,
+      "kuerzel": "mUk_WibS",
+      "bezeichnung": "Wissensbasierte Systeme",
+      "url": "allModules/13192_mUk_WibS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ]
+}

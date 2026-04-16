@@ -1,0 +1,272 @@
+{
+  "id": 47855,
+  "kuerzel": "M_IuK_I",
+  "bezeichnung": "Informations- und Kommunikationssysteme I",
+  "kreditpunkte": 12,
+  "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>verstehen Aufbau und Funktionsweise von Mikroprozessoren sowie Betriebssystemen.&nbsp;</li>\n    <li>k&ouml;nnen Programme in der Programmiersprache C schreiben.</li>\n    <li>verstehen die Grundkonzepte der Daten&uuml;bertragung.</li>\n    <li>verstehen die Grundlagen des World Wide Web und k&ouml;nnen HTML und CSS f&uuml;r die Realisierung von Webseiten einsetzen.</li>\n    <li>kennen die Grundlagen IP-basierter Netzwerke und k&ouml;nnen die Grundkonfiguration eines Netzwerkes einrichten.</li>\n    <li>kennen die Methoden des Software-Engineerings und k&ouml;nnen in Entwicklungsprojekten einsetzen.<br /></li>\n</ul>",
+  "vorausgKenntnisse": "<p>Vorausgesetzt sind die drei Module Infomatik, Elektrotechnik &amp; Lineare Algebra I sowie Elektrotechnik &amp; Lineare Algebra II.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 47856,
+      "kuerzel": "IuK_I_D",
+      "bezeichnung": "Datenübertragungssysteme",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>kennen Modelle zur Beschreibung von Kommunikationssystemen und verstehen die Grundkonzepte geschichteter Kommunikationssysteme.</li>\n    <li>verstehen die Techniken der leitergebundenen und drahtlosen digitalen Nachrichten&uuml;bertragung.</li>\n    <li>verstehen die Konzepte der Kanalcodierung zum Zweck der Fehlererkennung und Korrektur.</li>\n    <li>verstehen die Verfahren zur Steuerung des Zugriffs verschiedener Nachrichtenquellen auf einen gemeinsamen &Uuml;bertragungskanal.</li>\n    <li>k&ouml;nnen f&uuml;r ausgew&auml;hlte Szenarien geeignete &Uuml;bertragungseinrichtungen planen und konfigurieren.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>OSI-Referenzmodell</li>\n    <li>Digitale Modulationsarten (ASK, FSK, PSK, QAM, m-QAM, COFDM) und ihre St&ouml;rfestigkeiten</li>\n    <li>Drahtlose und leitungsgebundene &Uuml;bertragung (Funk, Draht und Glasfaser)</li>\n    <li>Quellen- und Kanalcodierung (Datenreduktion und fehlerkorrigierende Codes)</li>\n</ul>",
+      "bibliographie": "<p>Literaturangaben:<br /></p>\n<ul>\n    <li>Skript basierend auf Ulrich Freyer: <i>Nachrichten-&Uuml;bertragungstechnik - Grundlagen, Komponenten, Verfahren und Systeme der Telekommunikationstechnik</i>. Hanser Verlag, 2009, und erg&auml;nzende Beilagen</li>\n</ul>",
+      "empfLehrmittel": "Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen, Rechner&uuml;bungen",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich&nbsp;findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Computersysteme und C, Grundlagen Web, Network Fundamentals sowie Software Engineering statt.",
+      "kurselemente": [
+        {
+          "id": 47857,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001548,
+          "name": "Hofstetter",
+          "vorname": "Rolf"
+        }
+      ]
+    },
+    {
+      "id": 47858,
+      "kuerzel": "IuK_I_N",
+      "bezeichnung": "Network Fundamentals",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen die Rolle und Wichtigkeit von Netzwerken in der heutigen Wirtschaft und im Alltag beschreiben. </li>\n    <li>k&ouml;nnen die Datenkommunikation im Netzwerk anhand geschichteter Modelle beschreiben. </li>\n    <li>k&ouml;nnen die Aufgaben von Protokollen erkl&auml;ren. </li>\n    <li>k&ouml;nnen die Schichten und Funktionen der beiden&nbsp; Protokollreferenzmodelle ISO-OSI und TCP/IP beschreiben. </li>\n    <li>k&ouml;nnen die Funktionsweise Paketvermittelter Netzwerk beschreiben (Segmentierung, Multiplexierung, Client-Server, P2P,). </li>\n    <li>k&ouml;nnen den Zweck und die Funktion von Adressierung und Namensgebung auf den verschiedenen Protokollschichten beschreiben. </li>\n    <li>k&ouml;nnen die prinzipielle Funktionsweise der Applikationsschicht und bestimmter Applikationsprotokolle beschreiben. </li>\n    <li>k&ouml;nnen die Funktionen der Transportschicht und der Protokolle TCP und UDP beschreiben. </li>\n    <li>k&ouml;nnen die Funktionen der Netzwerkschicht und des Protokolls IPv4 erkl&auml;ren. </li>\n    <li>k&ouml;nnen die Funktionen des Data Link Layer&nbsp; und des Ethernetprotokolls erkl&auml;ren. </li>\n    <li>k&ouml;nnen die Funktionen des Physical Layer erkl&auml;ren. </li>\n    <li>k&ouml;nnen die Planung und Verkabelung eines Netzwerkes durchf&uuml;hren. </li>\n    <li>k&ouml;nnen die Grundkonfiguration eines Routers erstellen.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Applikationsprotokolle (Schnittstelle Mensch-Netzwerk, DNS, Telnet, E-Mail, DHCP, Web, FTP)</li>\n    <li>TCP/UPD (Zuweisung zu Applikationen, End-zu-End &Uuml;bertragung, Verbindungsorientierung, Zuverl&auml;ssigkeit, Flusskontrolle, Headerfelder)</li>\n    <li>IPv4 (Hierarchische Addressierung und Wegfindung, verbindungslos, Best Effort, Medienunabh&auml;ngig, Headerfelder, Grundkonzepte von Routing, Routingtabelle und Eintr&auml;ge, IP-Adressen, Subnetzmasken, Standardgateway, Netz-, Broadcast, Hostadressen, Subnetting, Netzklassen, Unicast, Multicast, Broadcast, Adressassignmentorganisationen)</li>\n    <li>Data Link Layer&nbsp; und des Ethernetprotokolls (Medienabh&auml;ngig, Medienzugriffsverfaren CSMA/CD, Header, Trailer, Adressierung, ARP, HW-SW Schnittstelle, Topologien, Framing, Hub-Bridge-Switch)</li>\n    <li>Physical Layer (Medien: Drahtlos, Kupfer (UTP, COAX), Glas (Multimode, Monomode)</li>\n    <li>Netzwerkplanung (Einsatz Router oder Switch, LAN-WAN Verbindungen, Redundanz, Kabel: Crossover-Straight-through, Serial, Console; Adressplanung)</li>\n    <li>Routergrundkonfiguration (Architektur(IOS, NVRAM, RAM, Flash), CLI (Command Hierarchie, Hilfefunktionen), Interfacekonfiguration, Passworte, Konfigurationsmanagement)</li>\n</ul>",
+      "bibliographie": "<p>Literaturangaben:</p>\n<ul>\n    <li>Cisco Networking Academy: <span style=\"font-style: italic;\">CCNA Exploration 1: Network Fundamentals</span>. Online-Kurs.</li>\n</ul>",
+      "empfLehrmittel": "Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen, Rechner&uuml;bungen",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Computersysteme und C, Daten&uuml;bertragungssysteme, Grundlagen Web sowie Software-Enginering statt.",
+      "kurselemente": [
+        {
+          "id": 47859,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001469,
+          "name": "Kühne",
+          "vorname": "Peter"
+        }
+      ]
+    },
+    {
+      "id": 47860,
+      "kuerzel": "IuK_I_C",
+      "bezeichnung": "Computersysteme und C",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>kennen die Repr&auml;sentation von Daten auf Maschinenebene. </li>\n    <li>kennen die Architektur von Mikroprozessoren. </li>\n    <li>k&ouml;nnen einfache Assembler-Programme f&uuml;r einen Mikroprozessoren schreiben. </li>\n    <li>kennen moderne Memory Management-Verfahren. </li>\n    <li>kennen die Grundmechanismen bei Multitasking-Systemen. </li>\n    <li>kennen die Grundbegriffe der Programmiersprache C.</li>\n    <li>k&ouml;nnen einfache Programme in C schreiben.</li>\n</ul>",
+      "planinhalt": "<p>Mikroprozessor und Betriebssysteme:</p>\n<ul>\n    <li>Datenrepr&auml;sentation (Darstellung von Ganz- und Gleitkommazahlen, Datengr&ouml;ssen, Byte Ordering) </li>\n    <li>Mikroprozessor-Architektur (CPU, ALU, RAM, Adress-Bus, Daten-Bus)</li>\n    <li>Speicherarchitektur (Register, Cache, RAM)</li>\n    <li>Memory Management mittels Paging und virtuelles Memory</li>\n    <li>Prozesse und Prozess-Scheduling</li>\n</ul>\n<p>Programmiersprache C:</p>\n<ul>\n    <li>Grundkonzepte der Programmiersprache C</li>\n    <li>Memory Management in C (Stack versus Heap, malloc und free)</li>\n    <li>Pr&auml;prozessor in C </li>\n    <li>Zeiger (Strings, Arrays, usw.) in C</li>\n</ul>",
+      "bibliographie": "<ul>     </ul>\n    Literaturangaben:\n    <ul>\n        <li>Randal E. Bryant, David R. O'Hallaron: Computer Systems: A Programmer's Perspective. Addison-Wesley, 2010.</li>\n        <li>William Stallings: <span style=\"font-style: italic;\">Operating Systems</span>. Prentice Hall, 2008<br /></li>\n    </ul>\n    <ul> </ul>",
+      "empfLehrmittel": "<p>Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen, Rechner&uuml;bungen</p>",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen&nbsp;Daten&uuml;bertragungssysteme, Grundlagen Web, Network Fundamentals&nbsp;sowie Software-Engineering statt.",
+      "kurselemente": [
+        {
+          "id": 47861,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001547,
+          "name": "Hauser",
+          "vorname": "Ulrich"
+        }
+      ]
+    },
+    {
+      "id": 47862,
+      "kuerzel": "IuK_I_S",
+      "bezeichnung": "Software Engineering",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>kennen die Vorgehensmodelle, Methoden, Werkzeuge und Entwicklungsprozesse, die in den Phasen der Softwareentwicklung Verwendung finden.</li>\n    <li>wissen, wie ein Projekt &ndash;auch unter Zuhilfenahme von Use Cases- spezifiziert wird.</li>\n    <li>k&ouml;nnen die UML-Notation interpretieren und aktiv einsetzen, sowohl in der Analyse als auch im Design.</li>\n    <li>k&ouml;nnen ein komplexes Softwareproblem systematisch mit den passenden Werkzeugen und Methoden l&ouml;sen.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Projektphasen und Vorgehensmodelle im Software Engineering </li>\n    <li>Anforderungsanalyse und Spezifikation<br /></li>\n    <li>Architektur und Entwurf von Software </li>\n    <li>Verifikation und Validation </li>\n    <li>Dokumentation </li>\n    <li>Konfigurationsmanagement </li>\n    <li>Aufwandsch&auml;tzverfahren </li>\n</ul>",
+      "bibliographie": "<p>Literaturangaben:</p>\n<ul>\n    <li>Ian Sommerville: <i>Software Engineering</i>. Pearson Studium, 2007.</li>\n    <li>Helmut Balzert: <i>Lehrbuch der Softwaretechnik - Basiskonzepte und Requirements Engineering</i>. Springer, 2009.</li>\n    <li>Martin Fowler and Kendall Scott: <i>UML Distilled</i>.&nbsp; Addison-Wesley Professional, 1999.</li>\n    <li>Martin Glinz: <span style=\"font-style: italic;\">Skript zur Vorlesung Software Engineering I</span>. 2005.</li>\n</ul>",
+      "empfLehrmittel": "Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen, Rechner&uuml;bungen",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich&nbsp;findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Computersysteme und C,&nbsp;Daten&uuml;bertragungssysteme, Grundlagen Web sowie Network Fundamentals statt.",
+      "kurselemente": [
+        {
+          "id": 47863,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001547,
+          "name": "Hauser",
+          "vorname": "Ulrich"
+        }
+      ]
+    },
+    {
+      "id": 47864,
+      "kuerzel": "IuK_I_W",
+      "bezeichnung": "Grundlagen Web",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden </p>\n<ul>\n    <li>k&ouml;nnen Webseiten mit HTML und CSS entwerfen und realisieren.</li>\n    <li>verstehen die Grundlagen von XML und dem Document Object Model.</li>\n    <li>verstehen die Architektur des World Wide Web und das Hypertextkonzept.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>HTML, CSS</li>\n    <li>HTTP</li>\n    <li>XML und XML Schema</li>\n</ul>",
+      "empfLehrmittel": "Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen, Rechner&uuml;bungen",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase wird eine Selbststudienarbeit bewertet. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Computersysteme und C, Daten&uuml;bertragungssysteme, Network Fundamentals sowie Software Engineering statt.",
+      "kurselemente": [
+        {
+          "id": 47865,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001549,
+          "name": "Wenk",
+          "vorname": "Bruno"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10380,
+      "bezeichnung": "Informations- und Kommunikationssysteme",
+      "kuerzel": "IKS",
+      "url": "allStudies/10380_IKS.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 10378,
+      "bezeichnung": "Informations- und Kommunikationssysteme",
+      "kuerzel": "IKS",
+      "url": "allStudies/10378_IKS.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2001466,
+      "name": "Studer",
+      "vorname": "Martin"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 47850,
+      "kuerzel": "M_IIW",
+      "bezeichnung": "Informatik & IT Wissen",
+      "url": "allModules/47850_M_IIW.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 47866,
+      "kuerzel": "M_IuK_II",
+      "bezeichnung": "Informations- und Kommunikationssysteme II",
+      "url": "allModules/47866_M_IuK_II.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 3,
+      "kuerzel": "CH",
+      "bezeichnung": "Chur",
+      "ort": "Chur"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 47855,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Am Ende des Semesters findet eine abgesetzte Modulschlusspr&uuml;fung in f&uuml;nf Teilen statt. Die Kurse Computersysteme und C, Daten&uuml;bertragungssysteme, Grundlagen Web, Network Fundamentals sowie Software Engineering bilden je einen Teil der abgesetzten Modulschlusspr&uuml;fung.</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Information and Communication Systems I"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "HS",
+    "endJahr": 2013,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 46964,
+    "kuerzel": "M_IuK_I",
+    "bezeichnung": "Informations- und Kommunikationssysteme I",
+    "url": "allModules/46964_M_IuK_I.json"
+  },
+  "nachfolger": {
+    "id": 47855,
+    "kuerzel": "M_IuK_I",
+    "bezeichnung": "Informations- und Kommunikationssysteme I",
+    "url": "allModules/47855_M_IuK_I.json"
+  }
+}

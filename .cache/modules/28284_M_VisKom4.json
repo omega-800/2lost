@@ -1,0 +1,132 @@
+{
+  "id": 28284,
+  "kuerzel": "M_VisKom4",
+  "bezeichnung": "Visuelle Kommunikation 4",
+  "kreditpunkte": 2,
+  "lernziele": "<p>F&auml;higkeit: einfache GIS-Anwendungen</p>",
+  "vorausgKenntnisse": "<p>Im Kurs Gis2 werden theoretische und praktische Kenntnisse Geographischer Informationssystemme (GIS) vorausgesetzt. Diese Kompetenz kann im Modul VisKom3/Kurs Gis1 erworben werden.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 28285,
+      "kuerzel": "Gis2",
+      "bezeichnung": "Geografische Informationssysteme 2 ",
+      "lernziele": "<p>Spezielle GIS-Anwendungen <br />Kenntnisse von typischen Problemen der Schnittstellen bei r&#228;umlichen Datenmodellen <br /></p>",
+      "planinhalt": "<p>GIS-gest&#252;tzte Standortanalysen <br />GIS-gest&#252;tzte Ausbreitungsmodelle <br />GIS-gest&#252;tztes Variantenstudium <br />Problematik des Datenschutzes bei r&#228;umlichen Datenanalysen <br /></p>",
+      "kurselemente": [
+        {
+          "id": 28286,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 15,
+          "harteGrenze": true
+        },
+        {
+          "id": 28287,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 30,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Geografische Informationssysteme 2 "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Geographical Information Systems 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10041,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10041_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10027,
+          "kuerzel": "R-vk",
+          "bezeichnung": "Visuelle Kommunikation",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10123,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10123_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10027,
+          "kuerzel": "R-vk",
+          "bezeichnung": "Visuelle Kommunikation",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 541726,
+      "name": "Engelke",
+      "vorname": "Dirk"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 17448,
+      "kuerzel": "M_VisKom3",
+      "bezeichnung": "Visuelle Kommunikation 3",
+      "url": "allModules/17448_M_VisKom3.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Visuelle Kommunikation 4"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Visual Communication 4"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2016,
+    "beginSemester": "HS",
+    "endJahr": 2016,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 28284,
+    "kuerzel": "M_VisKom4",
+    "bezeichnung": "Visuelle Kommunikation 4",
+    "url": "allModules/28284_M_VisKom4.json"
+  }
+}

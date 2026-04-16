@@ -1,0 +1,196 @@
+{
+  "id": 45076,
+  "kuerzel": "M_EnSp",
+  "bezeichnung": "Energiespeicher",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Dieses Modul behandelt die technischen M&ouml;glichkeiten der Speicherung von Energie (thermisch, elektrisch, chemisch oder mechnisch) und deren Anwendungen. Die Studenten lernen die physikalischen Grundprinzipien, Kennzahlen und Wirtschaftlichkeitsberechnungen anhand von Beispielen der Energiespeicherung.&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 45077,
+      "kuerzel": "EnSp",
+      "bezeichnung": "Energiespeicher",
+      "lernziele": "Siehe Modulbeschreibung",
+      "planinhalt": "<p>1. Geschichte, Bedarf und Kennwerte der Energiespeichertechniken</p>\n<p>2. Thermische Speicher</p>\n<p>3. Elektrochemische und elektrische Speicher</p>\n<p>4. Chemische Speicher</p>\n<p>5. Mechanisch-physikalische Speicher&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 45078,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 120,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Energiespeicher"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Energy storage"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10104,
+          "kuerzel": "EEU-vet",
+          "bezeichnung": "Vertiefungsmodule Energietechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10104,
+          "kuerzel": "EEU-vet",
+          "bezeichnung": "Vertiefungsmodule Energietechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10219,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10219_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10104,
+          "kuerzel": "EEU-vet",
+          "bezeichnung": "Vertiefungsmodule Energietechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10259,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10259_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1171,
+      "name": "Haller",
+      "vorname": "Michel"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 41452,
+      "kuerzel": "M_ThFlD1EU",
+      "bezeichnung": "Thermo- und Fluiddynamik 1 (EEU)",
+      "url": "allModules/41452_M_ThFlD1EU.json"
+    },
+    {
+      "id": 41457,
+      "kuerzel": "M_GZET",
+      "bezeichnung": "Grundzüge Energietechnik",
+      "url": "allModules/41457_M_GZET.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 45076,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Energiespeicher"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Energy storage"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2025,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 44494,
+    "kuerzel": "M_EnSp",
+    "bezeichnung": "Energiespeicher",
+    "url": "allModules/44494_M_EnSp.json"
+  }
+}

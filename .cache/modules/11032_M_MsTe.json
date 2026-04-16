@@ -1,0 +1,212 @@
+{
+  "id": 11032,
+  "kuerzel": "M_MsTe",
+  "bezeichnung": "Microsoft-Technologien",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Grundkonzepte und die wichtigsten Funktionalit&auml;ten der .NET&nbsp;Plattform kennen</li>\n    <li>Sprachkonzepte von C# verstehen und anwenden k&ouml;nnen</li>\n    <li>Ausgew&auml;hlte .NET-Technologien kennen und anwenden k&ouml;nnen</li>\n    <li>verteilte Applikationen entwerfen k&ouml;nnen</li>\n    <li>Praxis-Erfahrung im&nbsp; Umgang mit der .NET-Entwicklungsumgebung<br /><br /></li>\n</ul>\n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10131,
+      "kuerzel": "MsTe",
+      "bezeichnung": "Microsoft-Technologien",
+      "planinhalt": "<h4>Teil 1: Grundlagen .NET und C# </h4>\n<ul>\n    <li>.NET-Architektur und Framework </li>\n    <li>C# f&uuml;r Java-Programmierer: sprachliche und konzeptionelle Unterschiede und Gemeinsamkeiten</li>\n    <li>neue Konzepte von C#: Delegates und Events, Lambda-Expressions, Erweiterungsfunktionen, Language Integrated Query (LINQ)&nbsp;</li>\n</ul>\n<h4>Teil 2: Ausgew&auml;hlte .NET-Technologien </h4>\n<ul>\n    <li>ADO.NET&nbsp;Entityframework f&uuml;r DB-Anbindung&nbsp;</li>\n    <li>Verteilte Systeme mit Windows Communication Foundation (WCF)</li>\n    <li>GUI-Programmierung Windows Presentation Foundation (WPF)&nbsp;</li>\n    <li>Architekturen von verteilten Enterprise Applications</li>\n    <li>Div. Technologien: Reflection, Dependency Injection (DI), Garbage Collection, Threads und Tasks</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 10542,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 10543,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Microsoft-Technologien"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Microsoft Technologies"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10229,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10229_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 869,
+      "name": "Huser",
+      "vorname": "Hansjörg"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11031,
+      "kuerzel": "M_PnProg",
+      "bezeichnung": "Parallel- und Netzwerkprogrammierung",
+      "url": "allModules/11031_M_PnProg.json"
+    },
+    {
+      "id": 15687,
+      "kuerzel": "M_Prog1",
+      "bezeichnung": "Programmieren 1: Programmieren mit Java",
+      "url": "allModules/15687_M_Prog1.json"
+    },
+    {
+      "id": 20813,
+      "kuerzel": "M_Dbs1",
+      "bezeichnung": "Datenbanksysteme 1",
+      "url": "allModules/20813_M_Dbs1.json"
+    },
+    {
+      "id": 22232,
+      "kuerzel": "M_Prog3",
+      "bezeichnung": "Programmieren 3: C++11",
+      "url": "allModules/22232_M_Prog3.json"
+    },
+    {
+      "id": 22288,
+      "kuerzel": "M_AD",
+      "bezeichnung": "Programmieren 2: Algorithmen und Datenstrukturen",
+      "url": "allModules/22288_M_AD.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11032,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Erfolgreiche Teilnahme an den Uebungen (Projektarbeit)</p> <p>&nbsp;</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Microsoft-Technologien"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Microsoft Technologies"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2012,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 11032,
+    "kuerzel": "M_MsTe",
+    "bezeichnung": "Microsoft-Technologien",
+    "url": "allModules/11032_M_MsTe.json"
+  }
+}

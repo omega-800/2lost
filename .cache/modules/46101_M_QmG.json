@@ -1,0 +1,145 @@
+{
+  "id": 46101,
+  "kuerzel": "M_QmG",
+  "bezeichnung": "Quantenmechanik – Grundlagen",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Die Studierenden</p><ul><li>kennen die mit unserer Alltagserfahrung und damit der klassischen Mechanik im Widerspruch stehenden Schlüsselexperimente, die zum Auslöser der Entwicklung der Quantenmechanik wurden.</li><li>wissen, was Quantenobjekte sind und welche typischen Phänomene Quantenobjekte zeigen. </li><li>können das Verhalten von Quantenobjekten in definierten experimentellen Situationen qualitativ beschreiben.</li><li>erkennen bei Vorgängen in der Natur und bei technischen Anwendungen die Grenzen der klassischen Mechanik.</li></ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 46102,
+      "kuerzel": "QmG",
+      "bezeichnung": "Quantenmechanik Grundlagen",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>kennen die mit unserer Alltagserfahrung und damit der klassischen Mechanik im Widerspruch stehenden Schlüsselexperimente, die zum Auslöser der Entwicklung der Quantenmechanik wurden.</li><li>wissen, was Quantenobjekte sind und welche typischen Phänomene Quantenobjekte zeigen. </li><li>können das Verhalten von Quantenobjekten in definierten experimentellen Situationen qualitativ beschreiben.</li><li>erkennen bei Vorgängen in der Natur und bei technischen Anwendungen die Grenzen der klassischen Mechanik.</li></ul>",
+      "planinhalt": "<ul><li>Photonen als Quantenobjekte</li><li>Der Welle – Teilchen – Dualismus</li><li>Elektronen als Quantenobjekte</li><li>Der quantenmechanische Messprozess</li><li>Die Heisenberg’sche Unschärferelation</li><li>Die Schrödingergleichung</li><li>Das Atom in der Quantenmechanik</li></ul>",
+      "bibliographie": "Skript",
+      "empfLehrmittel": "<p>Vorlesung mit Experimenten</p><p>Selbststudium (Übungsaufgaben, Nachbereitung der Fachinhalte, selbstständiges Erarbeiten von Sachverhalten)</p>",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase wir eine Pr&uuml;fung durchgef&uuml;hrt.",
+      "kurselemente": [
+        {
+          "id": 46103,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 25,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000103,
+          "name": "Höfler",
+          "vorname": "Karl"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000103,
+      "name": "Höfler",
+      "vorname": "Karl"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 45736,
+      "kuerzel": "M_DKM",
+      "bezeichnung": "Differentialrechnung & Klassische Mechanik",
+      "url": "allModules/45736_M_DKM.json"
+    },
+    {
+      "id": 45739,
+      "kuerzel": "M_IEM",
+      "bezeichnung": "Integralrechnung & Elektrizität / Magnetismus",
+      "url": "allModules/45739_M_IEM.json"
+    },
+    {
+      "id": 45789,
+      "kuerzel": "M_DWW",
+      "bezeichnung": "Differentialgleichungen & Wärmelehre / Wellenlehre",
+      "url": "allModules/45789_M_DWW.json"
+    },
+    {
+      "id": 45794,
+      "kuerzel": "M_MAS",
+      "bezeichnung": "Mehrdimensionale Analysis & Schwingungslehre / Optik",
+      "url": "allModules/45794_M_MAS.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 46104,
+      "kuerzel": "M_QmA",
+      "bezeichnung": "Quantenmechanik - Anwendungen",
+      "url": "allModules/46104_M_QmA.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 2,
+      "kuerzel": "WSG",
+      "bezeichnung": "Waldau St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Basics of Quantum Mechanics"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2008,
+    "beginSemester": "HS",
+    "endJahr": 2009,
+    "endSemester": "HS"
+  }
+}

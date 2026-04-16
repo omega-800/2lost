@@ -1,0 +1,359 @@
+{
+  "id": 17448,
+  "kuerzel": "M_VisKom3",
+  "bezeichnung": "Visuelle Kommunikation 3",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Vertiefung von Kenntnissen&nbsp;f&uuml;r den Einsatz von GIS und 3D Computervisualisierung in Planung und Gestaltung. </p>",
+  "vorausgKenntnisse": "Im Kurs GIS 1 werden Kenntnisse in der Nutzung der Geodaten Infrastruktur (GDI) an der HSR vorausgesetzt. Diese Kompetenz kann in den Modulen Planungsgrundlagen 2 (Kurs Raumplanung 1a) oder Landschaftsplanung 1 erworben werden.",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 17449,
+      "kuerzel": "Gis1",
+      "bezeichnung": "Geografische Informationssysteme ",
+      "lernziele": "<p>Grundkenntnisse geografische Informationssysteme<br />GIS als praxis-orientiertes Arbeitswerkzeug in raum- und landschaftsplanerischen Projekten</p>",
+      "planinhalt": "<p>Praxisorientiertes Arbeiten am GIS-System (ArcGIS);<br />Geodaten;<br />Geodaten-Organisation;<br />Geodaten-Erfassung;<br />Geodaten-Darstellung;<br />GIS-Methoden- und Analysen;<br />GIS-Projekte und Projektorganisation;<br />Rechtliche Aspekte betreffend GIS und Geodaten;<br />GIS und Geodaten im Internet</p>",
+      "kurselemente": [
+        {
+          "id": 17450,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Geografische Informationssysteme "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Geographical Information Systems"
+        }
+      ]
+    },
+    {
+      "id": 17453,
+      "kuerzel": "3D-Vis",
+      "bezeichnung": "3D-Computervisualisierung (3D VIS)",
+      "lernziele": "<ul>\n    <li>Vermittlung eines &Uuml;berblicks zu den Einsatzm&ouml;glichkeiten der 3D-Computervisualisierung als Kommunikationsmittel in Planung und Gestaltung</li>\n</ul>",
+      "planinhalt": "<p>Low End 3D-Visualisierungswerkzeuge (SketchUp, Photoshop);<br />CAD Visualisierungswerkzeuge (RenderWorks, Civil 3D);<br />High End 3D-Visualisierungswerkzeuge (3ds Max);<br />Digital-Video (Premiere);<br />Theorie</p>",
+      "kurselemente": [
+        {
+          "id": 17454,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "3D-Computervisualisierung (3D VIS)"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "3D-Computer Visualisation (3D VIS)"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10000,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10000_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10027,
+          "kuerzel": "R-vk",
+          "bezeichnung": "Visuelle Kommunikation",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10002,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10002_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10006,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10006_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10027,
+          "kuerzel": "R-vk",
+          "bezeichnung": "Visuelle Kommunikation",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10008,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10008_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10041,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10041_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10027,
+          "kuerzel": "R-vk",
+          "bezeichnung": "Visuelle Kommunikation",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10061,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10061_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10112,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10112_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10123,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10123_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10027,
+          "kuerzel": "R-vk",
+          "bezeichnung": "Visuelle Kommunikation",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10152,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10152_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10014,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10014_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10012,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10012_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 532189,
+      "name": "Bernath",
+      "vorname": "André"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11077,
+      "kuerzel": "M_VisKom1",
+      "bezeichnung": "Visuelle Kommunikation 1",
+      "url": "allModules/11077_M_VisKom1.json"
+    },
+    {
+      "id": 11088,
+      "kuerzel": "M_VisKom2",
+      "bezeichnung": "Visuelle Kommunikation 2",
+      "url": "allModules/11088_M_VisKom2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 17448,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "Kurs 3D-Vis: 2 bestandene Testate<br />Kurs Gis1: 2 bestandene Testate",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Visuelle Kommunikation 3"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Visual Communication 3"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2008,
+    "beginSemester": "HS",
+    "endJahr": 2016,
+    "endSemester": "HS"
+  }
+}

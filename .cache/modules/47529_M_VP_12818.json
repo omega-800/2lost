@@ -1,0 +1,234 @@
+{
+  "id": 47529,
+  "kuerzel": "M_VP_12818",
+  "bezeichnung": "Design eines kostengünstigen Hochspannungsspeisegerätes II",
+  "kreditpunkte": 15,
+  "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>erarbeiten sich vertiefte Kenntnisse in Bereich der Parallelschaltung von DC-DC Konverter.</li>\n    <li>kennen die verschiedenen Methoden des aktiven Load-Sharings und k&ouml;nnen sie bez&uuml;glich ihrer Vor- und Nachteile beurteilen.</li>\n    <li>kennen die Anforderungen an die Regelstrukturen der diversen Parallelschaltungskonzepte und sind in der Lage diese auszulegen.</li>\n    <li>k&ouml;nnen die Konzepte anhand von Simulationen verifizieren.</li>\n    <li>k&ouml;nnen die verschiede Konzepte bez&uuml;glich der Wirtschaftlichkeit beurteilen und entsprechende Empfehlungen abgeben.</li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 47530,
+      "kuerzel": "VP_1281801",
+      "bezeichnung": "Parallelschaltungskonzepte von Hochspannungsquellen",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>erarbeiten sich vertiefte Kenntnisse in Bereich der Parallelschaltung von DC-DC Konverter.</li>\n    <li>kennen die verschiedenen Methoden des aktiven Load-Sharings und k&ouml;nnen sie bez&uuml;glich ihrer Vor- und Nachteile beurteilen.</li>\n    <li>kennen die Anforderungen an die Regelstrukturen der diversen Parallelschaltungskonzepte und sind in der Lage diese auszulegen.</li>\n    <li>k&ouml;nnen die Konzepte anhand von Simulationen verifizieren.</li>\n    <li>k&ouml;nnen die verschiede Konzepte bez&uuml;glich der Wirtschaftlichkeit beurteilen und entsprechende Empfehlungen abgeben.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Hochspannungstechnik</li>\n    <li>Leistungselektronik</li>\n    <li>Simulation</li>\n    <li>Prototypbau</li>\n    <li>Fertigungstechnik</li>\n    <li>Kostenanalyse</li>\n    <li>Literatur-Research </li>\n</ul>",
+      "empfLehrmittel": "<p>Projektarbeit, </p>\n<p>Selbststudium</p>",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird mittels Abschlussbericht&nbsp; und einer m&uuml;ndlichen Pr&uuml;fung bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 47531,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001214,
+          "name": "Schenk",
+          "vorname": "Kurt"
+        }
+      ]
+    },
+    {
+      "id": 47532,
+      "kuerzel": "VP_1281802",
+      "bezeichnung": "Photovoltaic (Zentrales MSE Modul)",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Gem&auml;ss Modulbeschreibung zentrales Modul</p>",
+      "planinhalt": "<ul>\n    <li>Solarzellenphysik</li>\n    <li>Solarzellentechnologie</li>\n    <li>Inselsysteme</li>\n    <li>Maximum Power Tracker</li>\n    <li>Elektrochemische Speicher</li>\n    <li>Wechselrichter</li>\n    <li>Netzverbund</li>\n</ul>",
+      "empfLehrmittel": "<p>Vorlesung, </p>\n<p>&Uuml;bungen</p>",
+      "leistungsnachweis": "<p>Dieser Kurs wird mit einer Pr&uuml;fung bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 47533,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001214,
+          "name": "Schenk",
+          "vorname": "Kurt"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2001214,
+      "name": "Schenk",
+      "vorname": "Kurt"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 47222,
+      "kuerzel": "M_VP_11713",
+      "bezeichnung": "Design eines kostengünstigen Hochspannungsspeisegerätes I",
+      "url": "allModules/47222_M_VP_11713.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Design of Low-Cost High-Voltage Power Supply Unit II"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2012,
+    "beginSemester": "FS",
+    "endJahr": 2012,
+    "endSemester": "FS"
+  }
+}

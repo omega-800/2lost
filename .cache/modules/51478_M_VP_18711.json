@@ -1,0 +1,229 @@
+{
+  "id": 51478,
+  "kuerzel": "M_VP_18711",
+  "bezeichnung": "3D polygonal model",
+  "kreditpunkte": 15,
+  "lernziele": "<p>The students will learn how to design, program and analyze algorithms and systems for interactive 3D shape modeling and digital geometry processing.</p>",
+  "vorausgKenntnisse": "<p>Visual Computing<br />Computer Graphics or an equivalent class. Experience with C++ programming<br />Some background in geometry or computational geometry is helpful, but not necessary.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 51479,
+      "kuerzel": "VP_1871102",
+      "bezeichnung": "Geometry Processing",
+      "kreditpunkte": 0,
+      "lernziele": "<p>The student will learn how to design, program and analyze algorithms and systems for interactive 3D shape modeling and digital geometry processing.</p>",
+      "planinhalt": "<p>Recent advances in 3D digital geometry processing have created a plenitude of novel concepts for the mathematical representation and interactive manipulation of geometric models. This course covers some of the latest developments in geometric modeling and digital geometry processing. Topics include surface modeling based on triangle meshes, mesh generation, surface reconstruction, mesh fairing and simplification, discrete differential geometry, interactive shape editing and digital shape fabrication.</p>",
+      "bibliographie": "<p>Botsch, M., Kobbelt, L., Pauly, M., Alliez, P., &amp; L&eacute;vy, B. (2010). Polygon mesh processing. CRC press.<br />[978-1-568-81426-1]</p><p>De Berg, M., Van Kreveld, M., Overmars, M., &amp; Schwarzkopf, O. C. (2000). Computational geometry. In Computational geometry (pp. 1-17). Springer, Berlin, Heidelberg. [978-3-662-04247-2]</p>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "leistungsnachweis": "<p>Dieser Kurs wird mittels eines Summarys bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 51480,
+          "art": "Seminar",
+          "maxTeilnehmer": 36,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000823,
+          "name": "Frei",
+          "vorname": "Norbert"
+        }
+      ]
+    },
+    {
+      "id": 51481,
+      "kuerzel": "VP_1871101",
+      "bezeichnung": "Simplification of 3D polygonal models",
+      "kreditpunkte": 0,
+      "lernziele": "<p>The student will learn how to design, program and analyze algorithms and systems for interactive 3D shape modeling and digital geometry processing.</p>",
+      "planinhalt": "<p>Geometry processing, or mesh processing, is a fast-growing area of research that uses concepts from applied mathematics, computer science, and engineering to design efficient algorithms for the acquisition, reconstruction, analysis, manipulation, simulation, and transmission of complex 3D models. Applications of geometry processing algorithms already cover a wide range of areas from multimedia, entertainment, and classical computer-aided design, to biomedical computing, reverse engineering, and scientific computing.<br />Over the last several years, triangle meshes have become increasingly popular, as irregular triangle meshes have developed into a valuable alternative to traditional spline surfaces. This module discusses the whole geometry-processing pipeline based on triangle meshes. The pipeline starts with data input, for example, a model acquired by 3D scanning techniques. This data can then go through processes of error removal, mesh creation, smoothing, conversion, morphing, and more</p>",
+      "bibliographie": "<p>Botsch, M., Kobbelt, L., Pauly, M., Alliez, P., &amp; L&eacute;vy, B. (2010). Polygon mesh processing. CRC press.<br />[978-1-568-81426-1]<br />De Berg, M., Van Kreveld, M., Overmars, M., &amp; Schwarzkopf, O. C. (2000). Computational geometry. In Computational geometry (pp. 1-17). Springer, Berlin, Heidelberg. [978-3-662-04247-2]</p>",
+      "empfLehrmittel": "<p>Projektarbeit</p>",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird mittels Bericht und Pr&auml;sentation bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 51482,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000823,
+          "name": "Frei",
+          "vorname": "Norbert"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000823,
+      "name": "Frei",
+      "vorname": "Norbert"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 2,
+      "kuerzel": "WSG",
+      "bezeichnung": "Waldau St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "3D polygonal model"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2018,
+    "beginSemester": "HS",
+    "endJahr": 2018,
+    "endSemester": "HS"
+  }
+}

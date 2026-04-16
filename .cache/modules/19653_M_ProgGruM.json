@@ -1,0 +1,153 @@
+{
+  "id": 19653,
+  "kuerzel": "M_ProgGruM",
+  "bezeichnung": "Programmieren Grundlage",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Algorithmen zur L&ouml;sung von Problemen beschreiben k&ouml;nnen. </li>\n    <li>Grundlagen der Programmiersprache C kennen und eigene Programme schreiben. </li>\n    <li>C-Programme f&uuml;r ein microcontroller-basiertes Zielsystem verstehen und schreiben. </li>\n</ul>",
+  "vorausgKenntnisse": "Stoff des Einf&#252;hrungskurses Informatik 0: Programmier-Einf&#252;hrungskurs&nbsp;\n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 19654,
+      "kuerzel": "ProgGruM",
+      "bezeichnung": "Programmieren Grundlage (M-I)",
+      "planinhalt": "<p>Aufbau eines Rechnersystems<br />Werkzeuge zur Softwareentwicklung<br />Syntax und Semantik<br />C-Grundlagen (Programmaufbau; Konstanten; Variablen; Datentypen; Deklarationen; Ausdr&uuml;cke; Anweisungen; Operatoren; Kontrollstrukturen; Funktionen; Input/Output; Speicherklassen)<br />Pointer<br />Programmierung mit C am Beispiel eines mechatronischen Systems</p>",
+      "kurselemente": [
+        {
+          "id": 19655,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 19656,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Programmieren Grundlage"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Programming Basics"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1184,
+      "name": "Kottmann",
+      "vorname": "Markus"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 19653,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "Testat",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Programmieren Grundlage"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Programming Basics"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2010,
+    "beginSemester": "HS",
+    "endJahr": 2014,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 19653,
+    "kuerzel": "M_ProgGruM",
+    "bezeichnung": "Programmieren Grundlage",
+    "url": "allModules/19653_M_ProgGruM.json"
+  }
+}

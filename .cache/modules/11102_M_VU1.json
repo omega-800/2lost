@@ -1,0 +1,165 @@
+{
+  "id": 11102,
+  "kuerzel": "M_VU1",
+  "bezeichnung": "Verkehr und Umwelt 1",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Vertiefte Grundlagen Verkehrsplanung und Siedlungs&#246;kologie<br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10235,
+      "kuerzel": "Verk2",
+      "bezeichnung": "Verkehrsplanung 2",
+      "lernziele": "<p>Vertiefte Grundlagenvermittlung Verkehrsplanung, Verkehrstechnik und vertiefte Kenntnisse der Verkehrsraumgestaltung.</p>",
+      "planinhalt": "<p>Ortsdurchfahrten<br />Hauptstrassen<br />Velof&#252;hrung<br />Verkehrssicherheit<br />Knotenpunkte<br />Betriebskonzepte &#214;V<br />Verkehrserschliessung <br />Wirtschaftlichkeit von Verkehrsanlagen (Grundlagen)</p>",
+      "kurselemente": [
+        {
+          "id": 10667,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Verkehrsplanung 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Transport Planning 2"
+        }
+      ]
+    },
+    {
+      "id": 10236,
+      "kuerzel": "SOek1",
+      "bezeichnung": "Siedlungsökologie 1",
+      "lernziele": "<p>Grundlagenvermittlung in den Bereichen: Energienutzung und Umweltbelastung; Energie- und umweltpolitische Zielsetzungen der Schweiz, internationale Strategien im Bereich Energie, Klima und Ozonsch&#228;digung der Stratosph&#228;re sowie bauphysikalische Grundlagen, Grundlagen der Thermodynamik, Energie im Hochbau, Schallschutz </p>",
+      "planinhalt": "<p>Geschichte der Energie <br />Energiebedarf und Energieeffizienz <br />Treibhauseffekt und globale Ressourcen <br />Luftschadstoffe und Ozonloch <br />Schweizerische und Internationale Energie- und Umweltpolitik <br />Einf&#252;hrung in die Bauphysik <br />W&#228;rmedurchgang (U-Wert), W&#228;rmebr&#252;cken <br />Dampfdiffusion und Feuchte <br />Schallschutz <br />Heizgradtage und Energiekennzahlen <br />Energiebedarf des Geb&#228;udes (SIA 380/1) </p>",
+      "kurselemente": [
+        {
+          "id": 10668,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Siedlungsökologie 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Urban Ecology 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10000,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10000_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10006,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10006_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10012,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10012_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 81,
+      "name": "Zweibrücken",
+      "vorname": "Klaus"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11098,
+      "kuerzel": "M_Vcad",
+      "bezeichnung": "Verkehr - CAD (R)",
+      "url": "allModules/11098_M_Vcad.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11102,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Verkehr und Umwelt 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Transport and Environment 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2009,
+    "endSemester": "FS"
+  }
+}

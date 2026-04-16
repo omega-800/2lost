@@ -1,0 +1,135 @@
+{
+  "id": 12325,
+  "kuerzel": "U_TFD1",
+  "bezeichnung": "Thermo- und Fluiddynamik 1 - Übergangsmodul",
+  "kreditpunkte": 6,
+  "lernziele": "<p>Kenntnis von thermodynamischen Zustands&auml;nderungen und Prozessen <br /><br />Kenntnis von eindimensionalen Str&ouml;mungen <br /><br />Kenntnis der energetische Vorg&auml;nge in fluiden Systemen <br /><br />Kenntnis von realen Effekten </p>",
+  "vorausgKenntnisse": "<p>Physik 2</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 12249,
+      "kuerzel": "uTFD1",
+      "bezeichnung": "Thermo- und Fluiddynamik 1 - Übergang",
+      "lernziele": "<p>Kenntnis von thermodynamischen Zustands&auml;nderungen und Prozessen <br /><br />Kenntnis von eindimensionalen Str&ouml;mungen <br /><br />Kenntnis der energetische Vorg&auml;nge in fluiden Systemen <br /><br />Kenntnis von realen Effekten <br /><br /></p>",
+      "planinhalt": "<p>System, Zustandsgr&ouml;ssen und Zustands&auml;nderungen, Stoffdaten&nbsp;</p>\n<p>Bilanzierung: Massen- und Energieerhaltung (1. Hauptsatz)<br /><br />Eindimesionale Bernoulli-Gleichung mit Quell- und Verlusttermen&nbsp;</p>\n<p>Reale Effekte, Grenzschicht, Rohrstr&ouml;mung<br /><br />Reversible und irreversible Zustands&auml;nderungen, Zustandsgr&ouml;sse Entropie <br /><br />2. Hauptsatz der Thermodynamik, T-s-Diagramm, Gibbs'sche Hauptgleichung <br /><br />isentrope und polytrope Zustands&auml;nderungen <br /><br />Kreisprozesse <br /><br />Kr&auml;fte auf umstr&ouml;mte K&ouml;rper,&nbsp;Impulssatz <br /></p>",
+      "kurselemente": [
+        {
+          "id": 12279,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 12280,
+          "art": "Uebung",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        },
+        {
+          "id": 12430,
+          "art": "Praktikum",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Thermo- und Fluiddynamik 1 - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Thermo- and Fluiddynamics 1 - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 251,
+      "name": "Kopp",
+      "vorname": "Thomas"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 12325,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 150,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Abgabe von 2 Laborberichten mit Bewertung &gt;= 4.0</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Thermo- und Fluiddynamik 1 - Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Thermo- and Fluiddynamics 1 - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2006,
+    "endSemester": "WS"
+  }
+}

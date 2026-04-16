@@ -1,0 +1,147 @@
+{
+  "id": 20172,
+  "kuerzel": "M_DiffGEU",
+  "bezeichnung": "Differentialgleichungen (EEU)",
+  "kreditpunkte": 2,
+  "lernziele": "<ul>\n    <li>F&auml;higkeit, Probleme mit Hilfe von Differentialgleichungen zu erfassen</li>\n    <li>Kenntnis grundlegender Methoden zur L&ouml;sung bestimmter gew&ouml;hnlicher Differentialgleichungen</li>\n</ul>\n<p>&nbsp;</p>",
+  "vorausgKenntnisse": "Mathematik-Module des ersten Studienjahrs",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 20177,
+      "kuerzel": "DiffEU",
+      "bezeichnung": "Differentialgleichungen EEU",
+      "lernziele": "<p>&nbsp;</p>\n<p>&nbsp;</p>",
+      "planinhalt": "<ul>\n    <li>Differentialgleichungen 1. Ordnung: Isoklinen, Numerische Verfahren </li>\n    <li>Separierbare Differentialgleichungen </li>\n    <li>L&ouml;sung von Differentialgleichungen 1. Ordnung durch Substitution </li>\n    <li>Lineare Differentialgleichungen 1. Ordnung, Variation der Konstanten</li>\n    <li>Autonome Gleichungen 1. Ordnung, Fixpunkte und ihre Stabilit&auml;t</li>\n    <li>Einfache Differentialgleichungen 2. Ordnung</li>\n    <li>Lineare Differentialgleichungen h&ouml;herer Ordnung mit konstanten Koeffizienten </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 20178,
+          "art": "Vorlesung",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 20180,
+          "art": "Uebung",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Differentialgleichungen"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Differential Equations"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10101,
+          "kuerzel": "EEU-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10101,
+          "kuerzel": "EEU-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 538970,
+      "name": "Martignoli",
+      "vorname": "Stefan"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 20172,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Differentialgleichungen"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Differential Equations"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2011,
+    "beginSemester": "HS",
+    "endJahr": 2012,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 20172,
+    "kuerzel": "M_DiffGEU",
+    "bezeichnung": "Differentialgleichungen (EEU)",
+    "url": "allModules/20172_M_DiffGEU.json"
+  }
+}

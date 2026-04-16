@@ -1,0 +1,248 @@
+{
+  "id": 51639,
+  "kuerzel": "M_VP_19817",
+  "bezeichnung": "Analyse von Kurvendaten",
+  "kreditpunkte": 18,
+  "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen Messdaten von Widerstandsschweissprozessen in Form von zeitabh&auml;ngigen Kurvenverl&auml;ufen &uuml;ber eine einheitliche Schnittstelle einlesen und geeignet vorverarbeiten.</li><li>k&ouml;nnen geeignete Methoden der funktionalen Datenanalyse oder verwandter Gebiete ausw&auml;hlen und auf die Daten anwenden.</li><li>k&ouml;nnen mittels der vorverarbeiteten Daten, Modelle f&uuml;r die Lebensdauer (in zyklischen Belastungstests ermittelt) aufstellen.</li></ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 51640,
+      "kuerzel": "VP_1981701",
+      "bezeichnung": "Statistische Modellierung der Lebensdauer von Widerstandsschweissverbindungen",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen Messdaten von Widerstandsschweissprozessen in Form von zeitabh&auml;ngigen Kurvenverl&auml;ufen &uuml;ber eine einheitliche Schnittstelle einlesen und geeignet vorverarbeiten.</li><li>k&ouml;nnen geeignete Methoden der funktionalen Datenanalyse oder verwandter Gebiete ausw&auml;hlen und auf die Daten anwenden.</li><li>k&ouml;nnen mittels der vorverarbeiteten Daten, Modelle f&uuml;r die Lebensdauer (in zyklischen Belastungstests ermittelt) aufstellen.</li></ul>",
+      "planinhalt": "<ul><li>Analyse von Zeitreihen und Kurvendaten in R</li><li>Funktionale Datenanalyse</li><li>Analyse von Prozessdaten beim Widerstandsschweissen</li></ul>",
+      "bibliographie": "<p>Larry F. Jeffus. Welding: Principles and Applications. 8. Auflage 2017<br />Haapalainen et al. Methods for Classifying Spot Welding Processes: Comparative Study of Performance. (2005)<br />Neugebauer et al. Quality control of resistance spot welding of high strength steels (2013)</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird mittels Bericht und Fachgespr&auml;ch bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 51641,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002957,
+          "name": "Frick",
+          "vorname": "Klaus"
+        }
+      ]
+    },
+    {
+      "id": 51642,
+      "kuerzel": "VP_1981702",
+      "bezeichnung": "Grundlagen der funktionalen Datenanalyse",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>kennen die Grundz&uuml;ge der Funktionalen Datenanalyse.</li><li>k&ouml;nnen Regressions- und Klassifikationsprobleme mit Funktionalen Daten als Pr&auml;diktoren formulieren und praktisch umsetzen.</li><li>kennen den aktuellen Stand der Forschung im Bereich der Funktionalen Datenanalyse und die Querbeziehungen zu verwandten Gebieten (Zeitreihen, Rekurrente Neuronale Netze, etc.).</li></ul>",
+      "planinhalt": "<ul><li>Funktionale Datenanalyse</li><li>Erstellen und Bewerten von stat. Modellen mit Funktionalen Daten</li></ul>",
+      "bibliographie": "<p>Wang et al. Review of Functional Data Analysis (2015)<br />Ramsay and Silverman. Functional Data Analysis with R and MATLAB (2009)<br />Ramsay and Silverman. Functional Data Analysis. 2nd edition (2005)</p>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "leistungsnachweis": "<p>Dieser Kurs wird mittels Fachgespr&auml;ch bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 51643,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002957,
+          "name": "Frick",
+          "vorname": "Klaus"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002957,
+      "name": "Frick",
+      "vorname": "Klaus"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 28643,
+      "kuerzel": "M_FTP_PredMod",
+      "bezeichnung": "Predictive Modelling",
+      "url": "allModules/28643_M_FTP_PredMod.json"
+    },
+    {
+      "id": 37849,
+      "kuerzel": "M_TSM_StatDig",
+      "bezeichnung": "Statistical Digital Signal Processing and Modeling",
+      "url": "allModules/37849_M_TSM_StatDig.json"
+    },
+    {
+      "id": 50343,
+      "kuerzel": "M_TSM_MachLe",
+      "bezeichnung": "Machine Learning",
+      "url": "allModules/50343_M_TSM_MachLe.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Analysis of Curve Data"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2019,
+    "beginSemester": "FS",
+    "endJahr": 2019,
+    "endSemester": "FS"
+  }
+}

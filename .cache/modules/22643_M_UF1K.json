@@ -1,0 +1,160 @@
+{
+  "id": 22643,
+  "kuerzel": "M_UF1K",
+  "bezeichnung": "Unternehmensführung 1 (Kern)",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>&nbsp;Vermittlung von Grundwissen zur Betriebswirtschaft</li>\n</ul>",
+  "vorausgKenntnisse": "keine",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 22644,
+      "kuerzel": "BWLK_L",
+      "bezeichnung": "Betriebswirtschaftslehre",
+      "lernziele": "<ul>\n    <li>Vermittlung grundlegender Kenntnisse aus Betrieben des Garten- und Landschaftsbaus</li>\n    <li>Vermittlung von Grundlagenkenntnissen und Zusammenh&auml;ngen der doppelten Buchf&uuml;hrung und der Bilanzierung</li>\n    <li>Theoretische und praktische Methoden sowie Techniken im Bereich der internen Unternehmensrechnung und betrieblichen Finanzierung und Investition kennen lernen</li>\n</ul>",
+      "planinhalt": "BWL-Einf&uuml;hrung: Betriebswirtschaftliche Grundbegriffe; Funktionsweise eines Betriebs; unternehmerische Zielsetzungen; Rechtsformen; &Uuml;berblick &uuml;ber die betrieblichen Hauptfunktionen wie Leistungserfassung, Leistungsauswertung, Beschaffung, Personal, besteuerung etc.<br /><br />Rechnungswesen/Buchf&uuml;hrung: Aufbau von Bilanz und der Gewinn- und Verlustrechnung und der dazugeh&ouml;rigen Konten f&uuml;r Betrtiebe des Garten- und Landschaftsbaus; Verbuchung einfacher Vorg&auml;nge; Bilanzierungsregeln; Jahresabschluss und Jahresabschlussanalysen ausgew&auml;hlter Beispielbetriebe<br /><br />Internes Rechnungswesen: Kostenmanagement; Vollkostenrechnungen; Teilkostenrechnung; Plankostenrechnung; Fixkostenmanagement; Prozesskostenrechnung; Target Costing; Baustellencontrolling: Theorie und Grundlagen; Baustellencontrolling w&auml;hrend der Ausf&uuml;hrung<br /><br />Finanzierung und Investition: Grundlagen der Finanzierung; Finanzplanung; Zahlungsverkehr; Beteiligungsfinanzierung; Fremdfinanzierung; Innenfinanzierung; finanzwirtschaftliche Analyse; Rating; Grundlagen der Investition<br /><br />Betriebserkundung: Erfassen der betriebswirtschaftlichen Komplexit&auml;t eines Galabau-Unternehmens; Sammlung von Informationen anhand einer Checkliste; Auswertung der Informationen; Erarbeiten von Vorschl&auml;gen f&uuml;r den Betrieb; Verfassen eines Abschlussberichts mit Fotos und Anlagen",
+      "kurselemente": [
+        {
+          "id": 22645,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 22646,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Betriebswirtschaftslehre"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Business Management"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10002,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10002_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10073,
+      "bezeichnung": "Landschaftsbau- und Management",
+      "kuerzel": "LaBau",
+      "url": "allStudies/10073_LaBau.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 128,
+      "name": "Petschek",
+      "vorname": "Peter"
+    }
+  ],
+  "mengen": [
+    {
+      "id": 5,
+      "name": "Aequivalenz",
+      "dModMengeArt": 5701,
+      "module": [
+        {
+          "id": 18358,
+          "kuerzel": "M_UF1",
+          "bezeichnung": "Unternehmensführung 1 (Profil)",
+          "url": "allModules/18358_M_UF1.json"
+        },
+        {
+          "id": 22643,
+          "kuerzel": "M_UF1K",
+          "bezeichnung": "Unternehmensführung 1 (Kern)",
+          "url": "allModules/22643_M_UF1K.json"
+        },
+        {
+          "id": 23390,
+          "kuerzel": "M_UF1K",
+          "bezeichnung": "Unternehmensführung 1 (Kern)",
+          "url": "allModules/23390_M_UF1K.json"
+        },
+        {
+          "id": 23394,
+          "kuerzel": "M_UF1",
+          "bezeichnung": "Unternehmensführung 1",
+          "url": "allModules/23394_M_UF1.json"
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 22643,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Unternehmensführung 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Management 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2011,
+    "beginSemester": "FS",
+    "endJahr": 2013,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 22643,
+    "kuerzel": "M_UF1K",
+    "bezeichnung": "Unternehmensführung 1 (Kern)",
+    "url": "allModules/22643_M_UF1K.json"
+  }
+}

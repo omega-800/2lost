@@ -1,0 +1,154 @@
+{
+  "id": 23272,
+  "kuerzel": "M_Cloud",
+  "bezeichnung": "Cloud Computing",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Cloud Computing hat sich in den letzten Jahren vom Trendthema zur attraktiven Architekturalternative f&uuml;r Entwicklung und Betrieb von Web-Anwendungen und anderer Software entwickelt. Neben traditionellen IT-Anbietern sind viele Internetfirmen im Public Cloud Markt aktiv; Open Source Assets erlauben den Aufbau von Private Clouds. Cloud-Anbieter unterscheiden sich stark hinsichtlich ihrer Preismodelle und der zugesicherten Dienstg&uuml;ten. Anwendungsarchitekten und Entwickler sind mit einer Vielzahl neuer Designoptionen konfrontiert, z.B. nichtrelationale Speichertechniken (NoSQL), Message-Oriented Middleware mit At-Least-Once Delivery sowie Server-, Speicher- und Netzwerkvirtualisierung. Cloud-Anwendungen sollten fehlertolerant, skalierbar&nbsp; und resourcenschonend sein; nicht alle etablierten Entwurfsmuster eignen sich per se f&uuml;r Cloud-Anwendungen.&nbsp;&nbsp; </p>\n<p>Dieses Modul f&uuml;hrt in die Konzepte und Technologien des Cloud Computing ein und bef&auml;higt Sie, Cloud-Dienste aus der Sicht des Anwendungsarchitekten zu analysieren:&nbsp; </p>\n<ul>\n    <li>Sie k&ouml;nnen die definierenden Merkmale des Cloud Computing, die Cloud Deployment-Modelle (Sichtbarkeitsarten) und Servicemodelle (Abstraktionsebenen) auflisten und vergleichen. </li>\n    <li>Sie k&ouml;nnen die Cloud-Architekturmuster erkl&auml;ren und auf Cloud-Dienste anwenden. </li>\n    <li>Sie k&ouml;nnen die St&auml;rken, Schw&auml;chen, Chancen und Risiken von Cloud Computing einsch&auml;tzen und erkl&auml;ren. </li>\n    <li>Sie sind in der Lage, Cloud-Anbieter hinsichtlich ihrer Eignung f&uuml;r den Betrieb von Web- und Unternehmensanwendungen zu bewerten. </li>\n    <li>Sie k&ouml;nnen die Auswirkungen von Cloud Deployment auf den Anwendungsentwurf beurteilen und cloudf&auml;hige Anwendungen entwerfen. </li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 23273,
+      "kuerzel": "Cloud",
+      "bezeichnung": "Cloud Computing",
+      "lernziele": "<p>Siehe Modul-Lernziele</p>",
+      "planinhalt": "<ul>\n    <li>Grundlegende Eigenschaften einer Cloud: Self Service, Pay-per-Use, Elastizit&auml;t, Resource Pooling; Consistency, Availability, Partition Tolerance (CAP)-Theorem</li>\n    <li>Cloud Deployment-Modelle (z.B. Private und Public Cloud), Cloud-Servicemodelle (Infrastructure-as-a-Service, Platform-as-a-Service, Software-as-a-Service) und Dienstg&uuml;te (Service Levels)</li>\n    <li>Cloud-Architekturmuster f&uuml;r Processing, Storage, Communication, Application Architecture (z.B. Map-Reduce, Eventual Consistency, At-Least-Once Delivery)</li>\n    <li>Cloud Management (u. a. Deployment-Prozess, Multi Tenancy, Watchdog Pattern) </li>\n    <li>Cloud-Anwendungsszenarien: Web Storage, Web Application Hosting, Big Data (Information Retrieval/Data Analytics) </li>\n    <li>Cloud Integration und Interoperability </li>\n    <li>Praxisherausforderungen (Bsp. Security/Data Privacy) und rechtliche Rahmenbedingungen </li>\n</ul>\n<p>In den &Uuml;bungen werden die technischen Umsetzungen der Cloud-Konzepte und Patterns in ausgew&auml;hlten Cloud Offerings anhand von Fallstudien betrachtet. <br /></p>",
+      "kurselemente": [
+        {
+          "id": 23274,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 23275,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Cloud Computing"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Cloud Computing"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5000585,
+      "name": "Zimmermann",
+      "vorname": "Olaf"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11054,
+      "kuerzel": "M_Vss",
+      "bezeichnung": "Verteilte SW-Systeme",
+      "url": "allModules/11054_M_Vss.json"
+    },
+    {
+      "id": 23322,
+      "kuerzel": "M_EnCom",
+      "bezeichnung": "Enterprise Computing",
+      "url": "allModules/23322_M_EnCom.json"
+    },
+    {
+      "id": 23331,
+      "kuerzel": "M_IntTe",
+      "bezeichnung": "Internettechnologien",
+      "url": "allModules/23331_M_IntTe.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 23272,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Cloud Computing"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Cloud Computing"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2014,
+    "beginSemester": "FS",
+    "endJahr": 2014,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 23272,
+    "kuerzel": "M_Cloud",
+    "bezeichnung": "Cloud Computing",
+    "url": "allModules/23272_M_Cloud.json"
+  }
+}

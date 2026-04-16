@@ -1,0 +1,204 @@
+{
+  "id": 41869,
+  "kuerzel": "M_Beton1",
+  "bezeichnung": "Betonbau 1: Tragsicherheit",
+  "kreditpunkte": 4,
+  "lernziele": "<p>F&auml;higkeit zur Bemessung einfacher Bauteile aus Stahlbeton&nbsp;zur Gew&auml;hrleistung der Tragsicherheit</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 41870,
+      "kuerzel": "Beton1",
+      "bezeichnung": "Tragsicherheit",
+      "lernziele": "<ul>\n<li>Stahlbetonbauteile k&ouml;nnen im Grenzzustand der Tragf&auml;higkeit bemessen werden.</li>\n<li>Stahlbetonbauteile k&ouml;nnen konstruktiv durchbildet werden.</li>\n<li>Vorgaben einschl&auml;giger Normen k&ouml;nnen angewendet werden</li>\n</ul>",
+      "planinhalt": "<ul><li>Tragsicherheit: Berechnungsmodelle, Bemessung und Nachweise f&uuml;r Biegung, Biegung mit Normalkraft, Querkraft, Torsion, kombinierte Beanspruchungen, plastische Berechnung von Stahlbetontragwerken, Schnittkraftumlagerung, Duktilit&auml;tskriterien</li><li>Konstruktive Durchbildung</li></ul>",
+      "kurselemente": [
+        {
+          "id": 41871,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 41872,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Tragsicherheit"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Ultimate Limit State Design (ULS)"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10197,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10197_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10234,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10234_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10261,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10261_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 541724,
+      "name": "Stürwald",
+      "vorname": "Simone"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 26278,
+      "kuerzel": "M_Baustat2",
+      "bezeichnung": "Baustatik 2",
+      "url": "allModules/26278_M_Baustat2.json"
+    },
+    {
+      "id": 28467,
+      "kuerzel": "M_Baustoff1",
+      "bezeichnung": "Baustoffe 1",
+      "url": "allModules/28467_M_Baustoff1.json"
+    },
+    {
+      "id": 41879,
+      "kuerzel": "M_GlProj",
+      "bezeichnung": "Grundlagen der Projektierung von Tragwerken",
+      "url": "allModules/41879_M_GlProj.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 41869,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat gem&auml;ss Semesterplan</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Betonbau 1: Tragsicherheit"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Structural Concrete 1: Ultimate Limit State Design (ULS)"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2023,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 37664,
+    "kuerzel": "M_Beton1",
+    "bezeichnung": "Betonbau 1",
+    "url": "allModules/37664_M_Beton1.json"
+  }
+}

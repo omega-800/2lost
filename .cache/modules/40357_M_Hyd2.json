@@ -1,0 +1,153 @@
+{
+  "id": 40357,
+  "kuerzel": "M_Hyd2",
+  "bezeichnung": "Hydraulik 2",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Bef&auml;higung zur L&ouml;sung von hydrodynamischen Problemen <br /><br /></p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 40358,
+      "kuerzel": "Hyd2",
+      "bezeichnung": "Hydraulik 2",
+      "lernziele": "<p>&#8226; Verstehen der Grundlagen der Hydrodynamik <br />&#8226; F&#228;higkeit Probleme im Bereich der Hydrodynamik zu l&#246;sen.</p>",
+      "planinhalt": "<ul>\n    <li>Rohrhydraulik: Reibungsgesetze, lokale Energieverluste, Rohrleitungssysteme, instation&auml;re Str&ouml;mungen in Rohrleitungen</li>\n    <li>Gerinnehydraulik: station&auml;r gleichf&ouml;rmiger und ungleichf&ouml;rmiger Abfluss, instation&auml;re Str&ouml;mungen in offenen Gerinnen, Ausfluss, &Uuml;berfall und Durchfluss</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 40359,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 40360,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Hydraulik 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Hydraulics 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10197,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10197_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10234,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10234_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5017155,
+      "name": "Farshi",
+      "vorname": "Davood"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 40357,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testatbedingung gem&auml;ss Semesterplan</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Hydraulik 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Hydraulics 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2022,
+    "beginSemester": "FS",
+    "endJahr": 2023,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 40357,
+    "kuerzel": "M_Hyd2",
+    "bezeichnung": "Hydraulik 2",
+    "url": "allModules/40357_M_Hyd2.json"
+  }
+}

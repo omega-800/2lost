@@ -1,0 +1,143 @@
+{
+  "id": 11153,
+  "kuerzel": "M_TechInf1",
+  "bezeichnung": "Technische Informatik 1",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Grundlagen der objektorientierten Programmierung von Rechnern kennen</li>\n    <li>Einfach Konsolenanwendungen in Java selbstst&auml;ndig erstellen k&ouml;nnen</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10310,
+      "kuerzel": "TechInf1",
+      "bezeichnung": "Technische Informatik 1",
+      "planinhalt": "<ul>\n    <li>Standard-Datentypen, Konstanten und Variable </li>\n    <li>Ausdr&uuml;cke und Operatoren </li>\n    <li>Anweisungen (inkl. Kontrollstrukturen) </li>\n    <li>Referenzdatentypen (Klassen, Arrays) und ihre Variablen (Objekte) </li>\n    <li>Einfache Elemente der UML-Notation </li>\n    <li>Wichtige Klassen der Standardbibliothek </li>\n    <li>Methoden </li>\n    <li>Konsolen Ein- und Ausgabe </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 10770,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 10771,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Technische Informatik 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Computer Engineering 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9988,
+      "name": "ZZZ Dozent LB",
+      "vorname": "Planung"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11153,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Technische Informatik 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Computer Engineering 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2007,
+    "endSemester": "HS"
+  }
+}

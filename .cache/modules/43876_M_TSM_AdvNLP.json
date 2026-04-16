@@ -1,0 +1,111 @@
+{
+  "id": 43876,
+  "kuerzel": "M_TSM_AdvNLP",
+  "bezeichnung": "Advanced Natural Language Processing",
+  "kreditpunkte": 3,
+  "lernziele": "<p>siehe: <a href=\"http://www.msengineering.ch/\">http://www.msengineering.ch/</a>&nbsp;</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 43877,
+      "kuerzel": "TSM_AdvNLP",
+      "bezeichnung": "Advanced Natural Language Processing",
+      "kurselemente": [
+        {
+          "id": 43878,
+          "art": "Blockkurs",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 72,
+          "harteGrenze": false
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Advanced Natural Language Processing"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10136,
+          "kuerzel": "MSE-ZentMo",
+          "bezeichnung": "MSE Zentrale Module",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10182,
+      "bezeichnung": "Bau und Planung",
+      "kuerzel": "BuP",
+      "url": "allStudies/10182_BuP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10136,
+          "kuerzel": "MSE-ZentMo",
+          "bezeichnung": "MSE Zentrale Module",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9983,
+      "name": "ZZZ Dozent Zentral",
+      "vorname": "Planung"
+    }
+  ],
+  "orte": [
+    {
+      "id": 5,
+      "kuerzel": "MSE-Z",
+      "bezeichnung": "MSE Zürich",
+      "ort": "Zürich"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Advanced Natural Language Processing"
+    }
+  ],
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2025,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  }
+}

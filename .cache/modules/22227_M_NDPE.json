@@ -1,0 +1,147 @@
+{
+  "id": 22227,
+  "kuerzel": "M_NDPE",
+  "bezeichnung": "Network-Design and Performance Evaluation",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Der/Die Studierende erhalten das Grundwissen, um auf Basis der ermittelten Anforderungen ein mittleres bis gr&ouml;sseres Rechnernetz zu planen, aufzubauen und in den operationellen Betrieb zu &uuml;berf&uuml;hren. Neben dem technischen Grundlagenwissen sollen auch Fragen der Auf- und Ablauforganisation und den damit verbundenen Problemen sowie wirtschaftliche Aspekt aufgezeigt werden. </p>\n<p>Das Computer Netzwerk entwickelt sich in (fast) allen Firmen immer mehr zum haupts&auml;chlichen Kommunikationskanal f&uuml;r Gesch&auml;ftsabl&auml;ufe. Gesch&auml;ftskritische Applikationen laufen &uuml;ber das Netz, sind h&auml;ufig &quot;Web-based&quot;. Der gr&ouml;sste Teil der gesch&auml;ftlichen Kommunikation l&auml;uft &uuml;ber E-mail. Damit steigen die Anforderungen an die Infrastruktur massiv an. Beispile sind Verf&uuml;gbarkeit, Sicherheit, M&ouml;glichkeit, gesch&auml;ftskritische Applikationen zu sch&uuml;tzen/priorisieren (z.B. vor Webverkehr, vor File-sharing traffic, Spam, Attacken, usw.), Flexibilit&auml;t (f&uuml;r Wachstum, Firmen(ver)k&auml;ufe), Fusionen, usw.) und das alles bei stetig kleiner werdenden Budgets. Es w&auml;re deshalb unverantwortlich (und f&uuml;r jeden Netzwerk Designer ziemlich Job-gef&auml;hrdend), ohne strukturierten Design Prozess und saubere Dokumentation zu arbeiten. </p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 22228,
+      "kuerzel": "NDPE",
+      "bezeichnung": "Network-Design and Performance Evaluation",
+      "planinhalt": "<p>&nbsp;</p>\n<p>Teil Leistungsbewertung und Netzmanagement (Rinkel) Inhalte: Grundlagen des Netzmangements, RMON-MIB; erstellen von SNMP Agenten, Verkehrsmodelle und -modellierung, QoS, Queuing Systems, Messverfahren,Simulationsmodelle f&uuml;r Computernetze, Einf&uuml;hrung in OPNET IT Guru, Anwendungsbeispiele&nbsp;</p>\n<p>Teil Design (Stettler) Inhalte: - Analyzing Business Goals and Constraints - Analyzing Technical Goals and Constraints - Characterizing the Existing Network - Characterizing the Network Traffic - Designing a Network Topology - Designing Models for Addressing and Naming - Selecting Bridging, Switching and Routing Protocols - Selecting Technologies and Devices for your Network - Developing Network Security Strategy - Testing your Design - Documenting your Network Design </p>\n<p>&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 22229,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 22230,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Network-Design and Performance Evaluation"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Network-Design and Performance Evaluation"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 946,
+      "name": "Stettler",
+      "vorname": "Beat"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 15339,
+      "kuerzel": "M_CN1",
+      "bezeichnung": "Computernetze 1",
+      "url": "allModules/15339_M_CN1.json"
+    },
+    {
+      "id": 23311,
+      "kuerzel": "M_CN2",
+      "bezeichnung": "Computernetze 2",
+      "url": "allModules/23311_M_CN2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 22227,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Network-Design  and Performance Evaluation"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Network-Design and Performance Evaluation"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2012,
+    "beginSemester": "HS",
+    "endJahr": 2013,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 11146,
+    "kuerzel": "M_NaDM",
+    "bezeichnung": "Netzwerk Architektur, Design und Management",
+    "url": "allModules/11146_M_NaDM.json"
+  }
+}

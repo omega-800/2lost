@@ -1,0 +1,202 @@
+{
+  "id": 64382,
+  "kuerzel": "M_ANN",
+  "bezeichnung": "Applied Neural Networks",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>verstehen Deep Learning als Optimierungsaufgabe, bei der ein parametrisiertes Modell mithilfe von Backpropagation (Gradientenabstiegsverfahren) auf Basis von Daten, Zielfunktion (Loss), Optimierer und Bewertungsmetrik trainiert wird.</li>\n<li>k&ouml;nnen entscheiden, in welchen F&auml;llen und Anwendungen ein tiefes neuronales Netz eine gute Wahl f&uuml;r ein bestimmtes ML-Problem ist.</li>\n<li>kennen die wichtigsten Architekturen (MLP, CNN, LSTM, GRU, AE, VAE) von tiefen Neuronalen Netzen und k&ouml;nnen diese in Python (Pytorch oder Keras/Tensorflow) implementieren, trainieren und deren Performance f&uuml;r einen ML-Task beurteilen.</li>\n<li>k&ouml;nnen den konzeptionellen Unterschied zwischen diskriminativen und generativen Modellen erkl&auml;ren und geeignete Modellklassen f&uuml;r Klassifikation, Regression und Datengenerierung ausw&auml;hlen.</li>\n<li>verstehen den Einsatz rekurrenter neuronaler Netze (LSTM, GRU) als generative Modelle f&uuml;r Sequenzen (z. B. Zeitreihen oder Text) und k&ouml;nnen einfache generative Sequenzmodelle implementieren.</li>\n<li>erhalten einen Einblick in moderne Transformer-Architekturen und k&ouml;nnen das Grundprinzip des Attention-Mechanismus sowie dessen Vorteile gegen&uuml;ber rekurrenten Architekturen erl&auml;utern.</li>\n<li>kennen grundlegende Regularisierungsmethoden f&uuml;r tiefe neuronale Netze und k&ouml;nnen Hyperparameter von Architekturen systematisch (z.B. mittels Gittersuche) anpassen.</li>\n<li>sind in der Lage, ihr Verst&auml;ndnis von tiefen neuronalen Netzen und deren Anwendungen in einem selbst gew&auml;hlten Projekt praktisch zu demonstrieren.</li>\n</ul>",
+  "vorausgKenntnisse": "<p>Elektrotechnik &amp; Lineare Algebra 1 und 2</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 64383,
+      "kuerzel": "ANN",
+      "bezeichnung": "Applied Neural Networks",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>verstehen Deep Learning als Optimierungsaufgabe, bei der ein parametrisiertes Modell mithilfe von Backpropagation (Gradientenabstiegsverfahren) auf Basis von Daten, Zielfunktion (Loss), Optimierer und Bewertungsmetrik trainiert wird.</li>\n<li>k&ouml;nnen entscheiden, in welchen F&auml;llen und Anwendungen ein tiefes neuronales Netz eine gute Wahl f&uuml;r ein bestimmtes ML-Problem ist.</li>\n<li>kennen die wichtigsten Architekturen (MLP, CNN, LSTM, GRU, AE, VAE) von tiefen Neuronalen Netzen und k&ouml;nnen diese in Python (Pytorch oder Keras/Tensorflow) implementieren, trainieren und deren Performance f&uuml;r einen ML-Task beurteilen.</li>\n<li>k&ouml;nnen den konzeptionellen Unterschied zwischen diskriminativen und generativen Modellen erkl&auml;ren und geeignete Modellklassen f&uuml;r Klassifikation, Regression und Datengenerierung ausw&auml;hlen.</li>\n<li>verstehen den Einsatz rekurrenter neuronaler Netze (LSTM, GRU) als generative Modelle f&uuml;r Sequenzen (z. B. Zeitreihen oder Text) und k&ouml;nnen einfache generative Sequenzmodelle implementieren.</li>\n<li>erhalten einen Einblick in moderne Transformer-Architekturen und k&ouml;nnen das Grundprinzip des Attention-Mechanismus sowie dessen Vorteile gegen&uuml;ber rekurrenten Architekturen erl&auml;utern.</li>\n<li>kennen grundlegende Regularisierungsmethoden f&uuml;r tiefe neuronale Netze und k&ouml;nnen Hyperparameter von Architekturen systematisch (z.B. mittels Gittersuche) anpassen.</li>\n<li>sind in der Lage, ihr Verst&auml;ndnis von tiefen neuronalen Netzen und deren Anwendungen in einem selbst gew&auml;hlten Projekt praktisch zu demonstrieren.</li>\n</ul>",
+      "planinhalt": "<p>Deep Learning ist eine Klasse moderner Methoden des maschinellen Lernens, bei denen neuronale Netze als parametrisierte Modelle verstanden werden, die durch die L&ouml;sung eines Optimierungsproblems trainiert werden. Der Lernprozess basiert auf der Anpassung von Modellparametern mittels Backpropagation und iterativer Optimierungsverfahren, wobei Daten, Zielfunktion (Loss), Optimierer und Bewertungsmetriken gemeinsam den Trainingsprozess bestimmen. Durch die Kombination fortgeschrittener Optimierungsalgorithmen mit spezialisierten Architekturbausteinen ist es m&ouml;glich, neuronale Netze zu entwickeln, die komplexe Datenstrukturen wie Tabellendaten, Bilder, Text und Audiosignale sowohl als Eingabe als auch als Ausgabe verarbeiten k&ouml;nnen. Deep Learning erlaubt es, hierarchische Repr&auml;sentationen von Daten zu lernen, die in ihrer Struktur funktionalen Prinzipien des menschlichen Gehirns &auml;hneln.</p>\n<p>Dieser Kurs f&uuml;hrt die Teilnehmer in klassische neuronale Netzwerkarchitekturen ein, darunter Multilayer Perceptrons (MLP), Convolutional Neural Networks (CNN), rekurrente Netzwerke wie Long Short-Term Memory (LSTM) und Gated Recurrent Units (GRU) sowie Autoencoder (AE). Neben diskriminativen Modellen werden auch generative Modellans&auml;tze behandelt, die es erlauben, neue Daten wie Texte, Zeitreihen oder Bilder zu erzeugen. Dar&uuml;ber hinaus erhalten die Studierenden einen Einblick in moderne generative Architekturen wie Transformer-Modelle, wobei insbesondere das Prinzip des Attention-Mechanismus und dessen Bedeutung f&uuml;r die Verarbeitung langer Sequenzen in der nat&uuml;rlichen Sprachverarbeitung und Datengenerierung erl&auml;utert wird.</p>\n<p>Anwendungsbeispiele aus den Bereichen Computer Vision, Zeitreihenanalyse, Sicherheit, Natural Language Processing (NLP) und Datengenerierung verdeutlichen die praktische Relevanz der behandelten Methoden. Aspekte des High Performance Computing (HPC) zeigen, wie Deep Learning effizient auf grafischen Verarbeitungseinheiten (GPUs) sowie auf verteilten Rechensystemen eingesetzt werden kann.<br>Der Schwerpunkt des Kurses liegt auf der praktischen Anwendung von Deep-Learning-Methoden, erg&auml;nzt durch eine Einf&uuml;hrung in die zugrunde liegenden mathematischen Konzepte. Die Studierenden implementieren und trainieren neuronale Netze mit der Programmiersprache Python unter Verwendung von PyTorch und/oder Keras.</p>",
+      "bibliographie": "<ul>\n<li>Sebastian Raschka: Python Machine Learning - Second Edition: Machine Learning and Deep Learning with Python, scikit-learn, and TensorFlow (Englisch) Taschenbuch, Packt Publishing; Auflage: 2nd Revised edition (20. September 2017), ISBN-13: 978-1787125933</li>\n<li>Aur&eacute;lien G&eacute;ron: Hands-On Machine Learning with Scikit-Learn and TensorFlow, Concepts, Tools, and Techniques to Build Intelligent Systems, O'Reilly Media, March 2017</li>\n<li>David Foster: Generative Deep Learning, O'Reilly Media, Inc., ISBN: 9781492041948, 2019</li>\n<li>Francois Chollet , Deep Learning with Python, Manning Publications, ISBN: 9781617294433, 2017</li>\n</ul>",
+      "empfLehrmittel": "<p>Unterrichtsgespr&auml;ch im Klassenverband (Online)<br>Selbststudium (&Uuml;bungen, Vor- und Nachbereitung der Lerninhalte)<br>Projektarbeit</p>",
+      "bemerkungKurs": "<p>Die Unterrichtssprache ist deutsch, teile der Literatur k&ouml;nnen in Englisch sein.</p>",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase wird ein Projekt mittels Bericht und Fachgespr&auml;ch bewertet.",
+      "kurselemente": [
+        {
+          "id": 64384,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 25,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002668,
+          "name": "Würsch",
+          "vorname": "Christoph"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10284,
+      "bezeichnung": "Mechatronik BB",
+      "kuerzel": "MT_BB",
+      "url": "allStudies/10284_MT_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10189,
+          "kuerzel": "Kat_ZTuWM",
+          "bezeichnung": "Zukunftsthema und Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10285,
+      "bezeichnung": "Mechatronik VZ",
+      "kuerzel": "MT_VZ",
+      "url": "allStudies/10285_MT_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10189,
+          "kuerzel": "Kat_ZTuWM",
+          "bezeichnung": "Zukunftsthema und Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002668,
+      "name": "Würsch",
+      "vorname": "Christoph"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 57037,
+      "kuerzel": "M_MeT1",
+      "bezeichnung": "Mechatronik 1",
+      "url": "allModules/57037_M_MeT1.json"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 54530,
+      "kuerzel": "M_Ana1",
+      "bezeichnung": "Analysis 1: Differentialrechnung",
+      "url": "allModules/54530_M_Ana1.json"
+    },
+    {
+      "id": 56984,
+      "kuerzel": "M_Ana2",
+      "bezeichnung": "Analysis 2: Gewöhnliche Differentialgleichungen",
+      "url": "allModules/56984_M_Ana2.json"
+    },
+    {
+      "id": 56990,
+      "kuerzel": "M_SuS",
+      "bezeichnung": "Statistik und Sensoren",
+      "url": "allModules/56990_M_SuS.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 11,
+      "kuerzel": "LSG",
+      "bezeichnung": "Lerchenfeld St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 64382,
+      "art": "Note von 1 - 6",
+      "pruefungMue": true,
+      "dauerPrfMue": 20,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Das Fachgespr&auml;ch zum Projekt findet m&uuml;ndlich statt und dauert 20 Minuten.</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Applied Neural Networks"
+    }
+  ],
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2027,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  }
+}

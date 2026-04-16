@@ -1,0 +1,198 @@
+{
+  "id": 43682,
+  "kuerzel": "M_An2M",
+  "bezeichnung": "Analysis 2 (M-I)",
+  "kreditpunkte": 8,
+  "lernziele": "<p>Die Welt der Ingenieurswissenschaften ist auf sehr viel mathematischem Grundwissen aufgebaut.</p>\n<p>Das Modul stellt den Studierenden einen Werkzeugkasten aus dem mathematischen Gebiet der Analysis zur Verf&uuml;gung, damit die Studierenden bef&auml;higt sind, fortgeschrittene Anwendungen auf den Gebieten der Mathematik, &nbsp;Naturwissenschaften, Technische Mechanik, Automation sowie Mess- und Elektrotechnik bearbeiten zu k&ouml;nnen.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 43683,
+      "kuerzel": "An2M",
+      "bezeichnung": "Analysis 2 (M-I)",
+      "lernziele": "<p>Die Studierenden k&ouml;nnen</p>\n<ul>\n<li>fortgeschrittene eindimensionale Differential- und Integralrechnung auf neue Aufgaben anwenden.</li>\n<li>Funktionen mithilfe der Differentialrechnung analysieren, klassifizieren und darstellen.</li>\n<li>Ein- und zweidimensionale Integrale mit geeigneten Methoden von Hand l&ouml;sen.</li>\n<li>verstehen, wie komplexe Zahlen definiert und dargestellt werden. Sie k&ouml;nnen mit komplexen Zahlen rechnen und damit Schwingungen beschreiben.</li>\n<li>Grenzwert- und Extremwertaufgaben mithilfe der Differentialrechnung komplett durchrechnen.</li>\n<li>Taylor- und Fourier-Reihen grundlegender Funktionen berechnen.</li>\n</ul>",
+      "planinhalt": "<p>Fortsetzung der Integralrechnung aus Analysis 1: Partielle Integration, Substitution, Partialbruchzerlegung</p>\n<p>&nbsp;</p>\n<p>Mehrfache Integrale in kartesischen und Polarkoordinaten mit Anwendung auf Schwerpunkte und Tr&auml;gheitsmomente ebener Fl&auml;chen.</p>\n<p>&nbsp;</p>\n<p>Funktionsanalyse von Polynomfunktionen, gebrochen Rationalen Funktion und spezieller Funktionen. Nullstellen-Analyse inkl. Schema von Horner. Extremwertaufgaben.</p>\n<p>&nbsp;</p>\n<p>Komplexe Zahlen: Kartesische und Exponentialform. Darstellung, Rechenoperationen, Gleichungen. Komplexe Darstellung von Schwingungen.</p>\n<p>&nbsp;</p>\n<p>Satz von Bernoulli- de l&rsquo;Hospital zur Berechnung von Grenwerten.</p>\n<p>&nbsp;</p>\n<p>Taylor-Reihen und Fourier-Reihen.</p>\n<p>&nbsp;</p>\n<p>Matlab-Anwendungen (ohne Testat)</p>",
+      "bibliographie": "<p>Siehe Kursunterlagen: Skript, &Uuml;bungsserien</p>",
+      "kurselemente": [
+        {
+          "id": 43685,
+          "art": "Vorlesung",
+          "anzLektionen": 6,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 43686,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Analysis 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Analysis 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften",
+          "kreditpunkte": 8
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 538489,
+      "name": "Augenstein",
+      "vorname": "Oliver"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 43573,
+      "kuerzel": "M_An1M",
+      "bezeichnung": "Analysis 1 (M-I)",
+      "url": "allModules/43573_M_An1M.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 43682,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Analysis 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Analysis 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2025,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 20106,
+    "kuerzel": "M_An2M",
+    "bezeichnung": "Analysis 2 (M-I)",
+    "url": "allModules/20106_M_An2M.json"
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "id": 50994,
+  "kuerzel": "M_VP_18814",
+  "bezeichnung": "SmartBot",
+  "kreditpunkte": 18,
+  "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen die Grundprinzipien des best&auml;rkenden Lernens (reinforcement learning RL) formulieren.</li><li>k&ouml;nnen reale Steuerprobleme mittels RL modellieren.</li><li>k&ouml;nnen mithilfe einer geeigneten Simulationsumgebung (z.B. Gazebo), einen Roboter inkl. Umgebung (Vorw&auml;rts- und Inverse Kinematik, Hindernisse inkl. Physik, Robotersensorik, etc.) simulieren.</li><li>k&ouml;nnen die Robotersimulation mit einem RL Algorithmus kombinieren und auf einen realen Roboter applizieren.</li></ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 50995,
+      "kuerzel": "VP_1881401",
+      "bezeichnung": "SmartBot -  selbstlernender Roboter",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen mithilfe einer geeigneten Simulationsumgebung (z.B. Gazebo), einen Roboter inkl. Umgebung (Kinematik, Hindernisse inkl. Physik, Robotersensorik, etc.) simulieren.</li><li>k&ouml;nnen die Robotersimulation mit einem RL Algorithmus kombinieren und auf einen realen Roboter applizieren.</li></ul>",
+      "planinhalt": "<ul><li>Robotik, Vorw&auml;rts- und R&uuml;ckw&auml;rtskinematik</li><li>Reinforcement Learning</li><li>Robotersimulation mittels gegebener Umgebung</li></ul>",
+      "bibliographie": "<p>J. Kober et al. Reinforcement Learning in Robotics: A Survey (2013)<br />I. Zamora et al. Extending the OpenAI Gym for robotics (2016)</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird mittels Bericht und Fachgespr&auml;ch bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 50996,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002957,
+          "name": "Frick",
+          "vorname": "Klaus"
+        }
+      ]
+    },
+    {
+      "id": 50997,
+      "kuerzel": "VP_1881402",
+      "bezeichnung": "Grundlagen Reinforcement Learning",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>erlernen die Grundz&uuml;ge tiefer neuronaler Netze sowie deren Anwendung f&uuml;r best&auml;rkendes Lernen.</li><li>erlernen die Grundlagen der Programmiersprache Python.</li></ul>",
+      "planinhalt": "<ul><li>Reinforcement Learning</li><li>Neuronale Netze</li></ul>",
+      "bibliographie": "<p>R. Sutton, A. Barto Reinforcement Learning (1998)<br />A. G&eacute;ron Hands-on Machine Learning with Scikit-Learn &amp; Tensorflow (2017)</p>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "leistungsnachweis": "<p>Dieser Kurs wird mittels Fachgespr&auml;ch bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 50998,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002957,
+          "name": "Frick",
+          "vorname": "Klaus"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002957,
+      "name": "Frick",
+      "vorname": "Klaus"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 50873,
+      "kuerzel": "M_VP_17712",
+      "bezeichnung": "Internet of Things und Analytics Demonstrators",
+      "url": "allModules/50873_M_VP_17712.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "SmartBot"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2018,
+    "beginSemester": "FS",
+    "endJahr": 2018,
+    "endSemester": "FS"
+  }
+}

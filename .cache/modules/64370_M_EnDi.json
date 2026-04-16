@@ -1,0 +1,164 @@
+{
+  "id": 64370,
+  "kuerzel": "M_EnDi",
+  "bezeichnung": "Energie digital",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Das Wahlmodul bietet die M&ouml;glichkeit das Erlernte am Beispiel Energie anzuwenden und durch Praxis zu vertiefen.<br>Mathematik, Physik, Elektrotechnik und Informatik finden sich als System in Energieanwendungen wieder und werden durch unterschiedliche Energie Anwendungen praktisch vertieft.</p>\n<p>&nbsp;</p>\n<p>Die Studierenden</p>\n<ul>\n<li>verstehen die grundlegenden Zusammenh&auml;nge zu Energie und Berechnungen von Energiesystemen.</li>\n<li>erlernen das Modellieren von Energiesystemen.</li>\n<li>erlernen das Messen von Energiegr&ouml;ssen &uuml;ber einen Kommunikationsbus und anschliessende Auswertung</li>\n</ul>",
+  "vorausgKenntnisse": "<p>Im Weiteren sind die beiden Module Elektrotechnik und Lineare Algebra 1 und 2 Voraussetzung.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 64371,
+      "kuerzel": "EnDi",
+      "bezeichnung": "Energie digital",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>verstehen die grundlegenden Zusammenh&auml;nge zu Energie und Berechnungen von Energiesystemen.</li>\n<li>erlernen das Modellieren von Energiesystemen.</li>\n<li>erlernen das Messen von Energiegr&ouml;ssen &uuml;ber einen Kommunikationsbus und anschliessende Auswertung.</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Physikalische Grundlagen zur Berechnung von Energiesystemen.</li>\n<li>Modellieren von Energiesystemen.</li>\n<li>Feldbustheorie</li>\n</ul>",
+      "bibliographie": "<p>Skript</p>",
+      "empfLehrmittel": "<p>Vorlesung, Projektarbeit, Selbststudium</p>",
+      "bemerkungKurs": "",
+      "leistungsnachweis": "<p>W&auml;hrend der Unterrichtsphase wird eine Projektarbeit bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 64372,
+          "art": "Blockkurs",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001326,
+          "name": "Markstaler",
+          "vorname": "Markus"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10284,
+      "bezeichnung": "Mechatronik BB",
+      "kuerzel": "MT_BB",
+      "url": "allStudies/10284_MT_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10189,
+          "kuerzel": "Kat_ZTuWM",
+          "bezeichnung": "Zukunftsthema und Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10285,
+      "bezeichnung": "Mechatronik VZ",
+      "kuerzel": "MT_VZ",
+      "url": "allStudies/10285_MT_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10189,
+          "kuerzel": "Kat_ZTuWM",
+          "bezeichnung": "Zukunftsthema und Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2001326,
+      "name": "Markstaler",
+      "vorname": "Markus"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 54536,
+      "kuerzel": "M_Phy1",
+      "bezeichnung": "Physik 1: Mechanik und Wärme",
+      "url": "allModules/54536_M_Phy1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Energy digital"
+    }
+  ],
+  "durchfuehrungen": {
+    "count": 1,
+    "beginJahr": 2027,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  }
+}

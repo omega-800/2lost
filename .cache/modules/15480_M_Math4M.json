@@ -1,0 +1,169 @@
+{
+  "id": 15480,
+  "kuerzel": "M_Math4M",
+  "bezeichnung": "Mathematik für Maschinentechnik 4",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n<li>Ge&#252;bter Umgang&nbsp;mit Funktionen mehrerer Variablen</li><li>Verstehen&nbsp;der&nbsp;Fouriertransformation und der diskreten Fouriertransformation</li><li>Verstehen der Laplacetransformation und&nbsp;wichtiger Anwendungen</li></ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 15481,
+      "kuerzel": "FouLap_M",
+      "bezeichnung": "Fourier- und Laplacetransformationen (M)",
+      "lernziele": "<ul>\n    <li>Verstehen der Fouriertransformation und der diskreten Fouriertransformation </li>\n    <li>Verstehen der Laplacetransformation und wichtiger Anwendungen </li>\n    <li>Ge&uuml;bter Umgang mit Funktionen mehrerer Variablen <br /></li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Fourierreihe, Fouriertransformation, diskrete Fouriertransformation. Lineare Systeme, Frequenzgang </li>\n    <li>Laplacetransformation. &Uuml;bertragungsfunktion. L&ouml;sen von Differentialgleichungen mit Hilfe der Laplacetransformation </li>\n    <li>Funktionen mehrerer Variablen: Gradient, Extremalaufgaben, Fehlerrechnung, Mehrfachintegrale, Methode der kleinsten Quadratsumme (Fit) </li>\n</ul>\n<p><br /></p>",
+      "kurselemente": [
+        {
+          "id": 15482,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 15483,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Fourier- und Laplacetransformationen (M)"
+        }
+      ]
+    },
+    {
+      "id": 17071,
+      "kuerzel": "FunVar(M)",
+      "bezeichnung": "Funktionen mehrerer Variablen (M)",
+      "planinhalt": "<p>Kurs im nachhinein erstellt, da Vorg&auml;nger-Version 2 Kurse enthalten hatte (MID 11040) - Modul wurde nie durchgef&uuml;hrt, Version war jedoch im SS 06 als Pr&uuml;fung ausgeschrieben - HD-GUE-17.12.07</p>",
+      "kurselemente": [
+        {
+          "id": 19345,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 36,
+          "harteGrenze": false
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Funktionen mehrerer Variablen (M)"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 106,
+      "name": "Böhi",
+      "vorname": "Hannes"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11037,
+      "kuerzel": "M_Math2M",
+      "bezeichnung": "Mathematik für Maschinentechnik 2",
+      "url": "allModules/11037_M_Math2M.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 15480,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Mathematik für Maschinentechnik 4"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Mathematics 4 for Mechanical Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "vorgaenger": {
+    "id": 11040,
+    "kuerzel": "M_Math4M",
+    "bezeichnung": "Mathematik für Maschinentechnik 4",
+    "url": "allModules/11040_M_Math4M.json"
+  }
+}

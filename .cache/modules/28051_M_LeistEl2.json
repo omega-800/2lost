@@ -1,0 +1,118 @@
+{
+  "id": 28051,
+  "kuerzel": "M_LeistEl2",
+  "bezeichnung": "Leistungselektronik 2",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden</p><ul><li>kennen die Eigenschaften der getakteten Spannungsregler im Allgemeinen und die Eigenheiten der einzelnen Topologien im Speziellen.</li><li>k&ouml;nnen die Analysemethoden f&uuml;r getaktete Wandler anwenden.</li><li>k&ouml;nnen f&uuml;r eine gegebene Anwendung die passende Topologie bestimmen und auslegen.</li><li>k&ouml;nnen eine Verlustleistungsanalyse durchf&uuml;hren.</li><li>kennen die f&uuml;r die Leistungselektronik relevanten Eigenschaften der Elektrolytkondensatoren.</li><li>kennen die gebr&auml;uchlichsten galvanisch isolierten Wandler und k&ouml;nnen f&uuml;r ein gegebenes Design-Problem eine geeignete Topologie ausw&auml;hlen und dimensionieren.</li><li>kennen das Power Factor Corrector (PFC) Prinzip und die entsprechenden Vorschriften.</li><li>k&ouml;nnen geeignete Schaltungen auslegen.</li><li>kennen die Funktionsweise der Wechselrichterschaltungen.</li><li>k&ouml;nnen in Schaltungen Massnahmen vorsehen, die das Verhalten bez&uuml;glich der elektromagnetischen Vertr&auml;glichkeit (EMV) verbessern.</li><li>k&ouml;nnen Spulen und Transformatoren dimensionieren.</li></ul>",
+  "vorausgKenntnisse": "<p>Maxwell&#39;sche Gleichungen</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 28058,
+      "kuerzel": "LeistEl2",
+      "bezeichnung": "Leistungselektronik 2",
+      "planinhalt": "<ul><li>Eigenschaften der Elektrolytkondensatoren</li><li>Schaltregler und Schaltnetzteile (Buck-, Boost-, Buck-Boost-, Cuk-, SEPIC- und Buck2-Konverter)</li><li>Leistungsfaktorkorrektur (PFC)</li><li>Galvanisch isolierte Wandler (Forward, Full, Bridge, Half Bridge, Push Pull, Current Fed Push Pull, Flyback)</li><li>Wechselrichter (H-Bridge 1- und 3-phasig)</li><li>Auslegung von Spule und Transformator</li><li>Ferromagnetische Werkstoffe</li><li>Wirbelstromverluste, Skin-Effekt und Proximity-Effekt</li><li>Pulsbreitenmodulation und Ansteuerung</li><li>Funktionen: Spannungsregelung, Strombegrenzung, soft start und soft switching</li></ul><p>&Auml;nderungen vorbehalten</p>",
+      "kurselemente": [
+        {
+          "id": 28387,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        },
+        {
+          "id": 28388,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Leistungselektronik 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Power Electronics 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11202,
+      "kuerzel": "M_Elo2",
+      "bezeichnung": "Elektronik 2",
+      "url": "allModules/11202_M_Elo2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 28051,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Leistungselektronik 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Power Electronics 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2017,
+    "beginSemester": "FS",
+    "endJahr": 2017,
+    "endSemester": "FS"
+  }
+}

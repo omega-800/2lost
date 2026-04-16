@@ -1,0 +1,89 @@
+{
+  "id": 57230,
+  "kuerzel": "M_KatFaVeSi",
+  "bezeichnung": "MI - Fachstudium 1 / Vertiefung Simulation",
+  "kreditpunkte": 30,
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 57231,
+      "kuerzel": "k_katmatef1",
+      "bezeichnung": "MI - Fachstudium 1 / Vertiefung Simulation",
+      "kurselemente": [
+        {
+          "id": 57232,
+          "art": "Blockkurs",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 30
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 30
+        }
+      ]
+    },
+    {
+      "id": 10245,
+      "bezeichnung": "Simulationstechnik",
+      "kuerzel": "M-I-SI",
+      "url": "allStudies/10245_M-I-SI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "MI - Fachstudium 1 / Vertiefung Simulation"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

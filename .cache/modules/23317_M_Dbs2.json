@@ -1,0 +1,230 @@
+{
+  "id": 23317,
+  "kuerzel": "M_Dbs2",
+  "bezeichnung": "Datenbanksysteme 2",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Datenbanksysteme (DBMS) programmieren k&ouml;nnen (Stored Procedures, Triggers)</li>\n    <li>Programmierschnittstellen f&uuml;r die Applikationsentwicklung vertiefter anwenden (JDBC)</li>\n    <li>Werkzeuge zur DB-Anbindung an Applikationen einordnen k&ouml;nnen</li>\n    <li>Grundlagen von objekt- relationalen sowie von objekt-orientierten DBMS kennen</li>\n    <li>Semistrukturierte DBMS mit XML kennen</li>\n    <li>Information Retrieval sowie Data Warehouse/OLAP einordnen k&ouml;nnen</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 23318,
+      "kuerzel": "Dbs2",
+      "bezeichnung": "Datenbanksysteme 2",
+      "lernziele": "Erweiterung und Vertiefung der Kenntnisse relationaler Datenbanksysteme (aus Modul Datenbanksysteme 1)",
+      "planinhalt": "<p>Stored Procedures (PL/SQL)<br />Cursors, Triggers, Udateable Views<br />Backup und Recovery<br />Indexe<br />Objektrelationale Datenbanksysteme<br />Objektorientierte Datenbanksysteme<br />Semistrukturierte Daten (XML) in relationalen Datenbanksystemen<br />Daten-Replikation und Synchronisierung<br />In-Memory-Datenbanksysteme<br />Datenstrukturen in Datenbanksystemen<br />NoSQL-Datenbanksysteme<br />Verteilte und Cloud Datenbanksysteme</p>",
+      "kurselemente": [
+        {
+          "id": 23319,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 23320,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 126,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Datenbanksysteme 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Database Systems 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10108,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10108_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10107,
+      "bezeichnung": "Network & Cloud-Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10107_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10233,
+      "bezeichnung": "Data Science",
+      "kuerzel": "DaEnMaIn",
+      "url": "allStudies/10233_DaEnMaIn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10106,
+      "bezeichnung": "Application Design - Cloud Solutions",
+      "kuerzel": "ADCS",
+      "url": "allStudies/10106_ADCS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 353,
+      "name": "Keller",
+      "vorname": "Stefan F."
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 20813,
+      "kuerzel": "M_Dbs1",
+      "bezeichnung": "Datenbanksysteme 1",
+      "url": "allModules/20813_M_Dbs1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 23317,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Datenbanksysteme 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Database Systems 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2014,
+    "beginSemester": "FS",
+    "endJahr": 2018,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 11184,
+    "kuerzel": "M_Dbs2",
+    "bezeichnung": "Datenbanksysteme 2",
+    "url": "allModules/11184_M_Dbs2.json"
+  },
+  "nachfolger": {
+    "id": 23317,
+    "kuerzel": "M_Dbs2",
+    "bezeichnung": "Datenbanksysteme 2",
+    "url": "allModules/23317_M_Dbs2.json"
+  }
+}

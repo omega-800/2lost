@@ -1,0 +1,271 @@
+{
+  "id": 11147,
+  "kuerzel": "M_CN2",
+  "bezeichnung": "Computernetze 2",
+  "kreditpunkte": 6,
+  "lernziele": "Der/die Studierende hat vertiefte Kenntnisse in der TCP/IP Protokollwelt und in der Funktionsweise des Internets. Ferner <br />kennt er/sie die g&#228;ngigen Applikationen des Netzes, kann diese bzgl. ihrer St&#228;rken und Schw&#228;chen bewerten und ist in der <br />Lage, selbst&#228;ndig komplexe Problemstellungen zu bearbeiten. Er kennt die wichtigsten Technologien und die dazu <br />n&#246;tigen Komponenten und hat bereits erste Konfigurationserfahrungen gemacht.",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10300,
+      "kuerzel": "CN2Prak",
+      "bezeichnung": "Computernetze 2 Praktikum",
+      "lernziele": "<p>Parallel zur theoretischen Vorlesung hat der Student erste praktische Erfahrungen <br />im Umgang mit den Netzkomponenten gewonnen. Er hat typische Netzsituationen <br />untersucht und kann die erlernte Theorie auf konkrete praktische Problem- <br />stellungen anwenden. </p>",
+      "planinhalt": "<p>Laborversuche zum Unterrichtsstoff<br /></p>",
+      "kurselemente": [
+        {
+          "id": 10755,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Computernetze 2 Praktikum"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Computer Networks 2 Lab"
+        }
+      ]
+    },
+    {
+      "id": 10301,
+      "kuerzel": "CN2",
+      "bezeichnung": "Computernetze 2 ",
+      "lernziele": "<p>Siehe Lernziele Modul</p>",
+      "planinhalt": "<p>Internet Architektur und Anwendungen <br />- TC/IP-Stack &Uuml;bersicht <br />- Internet Standards, Info Sources (IBM-Red-Book), Ethereal Recap <br />- telnet (NVT), HTTP (Proxy, Cache) <br />NVT, http; Web-Abfrage snmp im Command-Modus, Put/Post Unterschied, <br />Header-Infos (Referer) <br />- Mail (SMTP, POP, IMAP) <br />NVT; Mail-Client Konfiguration, Analyse Mail Header (Pfad), Mail (SMTP, POP) <br />im Command-Modus, Base64-Codierung, F&auml;lschung vom Absender <br />- FTP, TFTP, ftp debug, tftp Server/Client <br />- DNS , Whols: DNS, nslookup, etc/hosts, nslookup debug, Zonentransfer <br />- UDP, TCP: Etherreal Packet Stream Analysis: RTT, goodput, seq/ack <br />- IP, Network-Addressing: IP-Addressing, DHCP, visual route, IP calculation, <br />administrative domain, ISP peering <br />- ICMP (Ping, Traceroute), ArpNet Layout (ipconfig. ping, ARP), <br />Switch/Hub/Router-Netzlayoutanalyse&nbsp;<br /></p>\n<p>&nbsp;Routing und Routing Protokolle<br />- statisches / dynamisches Routing<br />- Distance Vektor Protokolle (am Beispiel RIP) <br />- Link State Protokolle (am Beispiel OSPF) <br />- Routing auf dem Internet (BGP-4)<br />- Multicast Routing<br />&Uuml;berblick&nbsp; &uuml;ber ausgew&auml;hlte&nbsp;Netzwerk-Technologien<br />- Mietleitungen, SDH<br />- Frame-Relay<br />- MPLS<br />- PSTN<br />- Optische Netzwerke<br />Leistungsbewertung und Quality-of-Service</p>",
+      "kurselemente": [
+        {
+          "id": 10756,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 10757,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Computernetze 2 "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Computer Networks 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10231,
+      "bezeichnung": "Cybersecurity",
+      "kuerzel": "CySec",
+      "url": "allStudies/10231_CySec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10232,
+      "bezeichnung": "Network and Cloud Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10232_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 946,
+      "name": "Stettler",
+      "vorname": "Beat"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 15339,
+      "kuerzel": "M_CN1",
+      "bezeichnung": "Computernetze 1",
+      "url": "allModules/15339_M_CN1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11147,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat des Kurses Computernetze 2 Praktikum</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Computernetze 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Computer Networks 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2013,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 11147,
+    "kuerzel": "M_CN2",
+    "bezeichnung": "Computernetze 2",
+    "url": "allModules/11147_M_CN2.json"
+  }
+}

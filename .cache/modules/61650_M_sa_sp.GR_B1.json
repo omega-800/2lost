@@ -1,0 +1,102 @@
+{
+  "id": 61650,
+  "kuerzel": "M_sa_sp.GR_B1",
+  "bezeichnung": "B1 Individuation und Sozialisation",
+  "kreditpunkte": 6,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 61651,
+      "kuerzel": "sa_sp.GR_B1.K1",
+      "bezeichnung": "B1 Individuation und Sozialisation - Leistungsnachweis",
+      "kreditpunkte": 0,
+      "kurselemente": [
+        {
+          "id": 61652,
+          "art": "Vorlesung",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "B1 Individuation und Sozialisation - Leistungsnachweis"
+        }
+      ]
+    },
+    {
+      "id": 61653,
+      "kuerzel": "sa_sp.GR_B1.K2",
+      "bezeichnung": "B1 Individuation und Sozialisation - Präsenzpflicht",
+      "kreditpunkte": 0,
+      "kurselemente": [
+        {
+          "id": 61654,
+          "art": "Vorlesung",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "B1 Individuation und Sozialisation - Präsenzpflicht"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10480,
+      "bezeichnung": "Soziale Arbeit",
+      "kuerzel": "SA",
+      "url": "allStudies/10480_SA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10203,
+          "kuerzel": "P_SA",
+          "bezeichnung": "Pflichtmodule",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10205,
+          "kuerzel": "P_GS_SA",
+          "bezeichnung": "Pflichtmodule Grundstudium Soziale Arbeit",
+          "kreditpunkte": 6
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 55173,
+      "name": "Maier",
+      "vorname": "Rudi"
+    }
+  ],
+  "orte": [
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "B1 Individuation und Sozialisation"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

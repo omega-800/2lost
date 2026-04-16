@@ -1,0 +1,139 @@
+{
+  "id": 46095,
+  "kuerzel": "M_QEA",
+  "bezeichnung": "Quality Engineering – Analysieren, Schätzen, Testen",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Die Studierenden</p><ul><li>können Daten mit Hilfe von Methoden der deskriptiven Statistik analysieren und bewerten.</li><li>verstehen die Begriffe Verteilung und Wahrscheinlichkeit, und können Wahrscheinlichkeiten und Quantile berechnen</li><li>kennen die wichtigsten Verteilungen.</li><li>können Punkt- und Intervallschätzungen durchführen und sind in der Lage, die Voraussetzungen für die Schätzungen zu überprüfen.</li><li>können Tests für verschiedene Fragestellungen formulieren und durchführen.</li><li>können das Verfahren „Analysis of Variances“ einsetzen.</li><li>verwenden für die statistischen Analysen das Programm Statistica.</li></ul>",
+  "vorausgKenntnisse": "<p>Ebenfalls vorausgesetzt sind die beiden Module Elektrotechnik &amp; Lineare Algebra I sowie Elektrotechnik &amp; Lineare Algebra II.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 46096,
+      "kuerzel": "QEA",
+      "bezeichnung": "Quality Engineering - Analysieren, Schätzen, Testen",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>können Daten mit Hilfe von Methoden der deskriptiven Statistik analysieren und bewerten.</li><li>verstehen die Begriffe Verteilung und Wahrscheinlichkeit, und können Wahrscheinlichkeiten und Quantile berechnen.</li><li>kennen die wichtigsten Verteilungen.</li><li>können Punkt- und Intervallschätzungen durchführen und sind in der Lage, die Voraussetzungen für die Schätzungen zu überprüfen.</li><li>können Tests für verschiedene Fragestellungen formulieren und durchführen.</li><li>können das Verfahren „Analysis of Variances“ einsetzen</li><li>verwenden für die statistischen Analysen das Programm Statistica.</li></ul>",
+      "planinhalt": "<ul><li>Deskriptive Statistik: Analyse von Daten mit Kennzahlen und Grafiken</li><li>Verteilungen, Wahrscheinlichkeiten</li><li>Punkt- und Intervallschätzer</li><li>Testverfahren</li><li>ANOVA</li><li>Verwendung von Statistica</li></ul>",
+      "empfLehrmittel": "<p>Unterrichtsgespräch im Klassenverband</p><p>Selbststudium (Übungsaufgaben, Vor- und Nachbereitung der Fachinhalte, Bearbeitung von kleineren Projektarbeiten)</p>",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase wird ein Projekt bewertet.",
+      "kurselemente": [
+        {
+          "id": 46097,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 25,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000192,
+          "name": "Schreiner",
+          "vorname": "Michael"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000192,
+      "name": "Schreiner",
+      "vorname": "Michael"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 45736,
+      "kuerzel": "M_DKM",
+      "bezeichnung": "Differentialrechnung & Klassische Mechanik",
+      "url": "allModules/45736_M_DKM.json"
+    },
+    {
+      "id": 45739,
+      "kuerzel": "M_IEM",
+      "bezeichnung": "Integralrechnung & Elektrizität / Magnetismus",
+      "url": "allModules/45739_M_IEM.json"
+    },
+    {
+      "id": 45794,
+      "kuerzel": "M_MAS",
+      "bezeichnung": "Mehrdimensionale Analysis & Schwingungslehre / Optik",
+      "url": "allModules/45794_M_MAS.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 46098,
+      "kuerzel": "M_QED",
+      "bezeichnung": "Quality Engineering – Design of Experiments",
+      "url": "allModules/46098_M_QED.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 2,
+      "kuerzel": "WSG",
+      "bezeichnung": "Waldau St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Quality Egineering - Analysis, estimation, testing"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2007,
+    "beginSemester": "HS",
+    "endJahr": 2010,
+    "endSemester": "HS"
+  }
+}

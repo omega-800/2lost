@@ -1,0 +1,301 @@
+{
+  "id": 10976,
+  "kuerzel": "M_SE2",
+  "bezeichnung": "Software-Engineering 2",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Werkzeuge und Techniken professioneller Software Entwicklung kennen</p> <p>Pragmatische Prinzipien der Software Entwicklung anwenden k&#246;nnen</p> <p>Software von professioneller Qualit&#228;t entwickeln k&#246;nnen</p>",
+  "vorausgKenntnisse": "<p>paralleler Besuch von Software-Engineering Projekt wird empfohlen</p>\n<p>Englisch</p>\n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10065,
+      "kuerzel": "SE2",
+      "bezeichnung": "Software Engineering 2",
+      "planinhalt": "<p>1. Werkzeuge und Techniken</p>\n<ul>\n    <li>Versionsmanagement mit SVN </li>\n    <li>Automatisierung&nbsp;im Entwicklungsprozess </li>\n    <li>Debugging vs. Testen </li>\n</ul>\n<p>2. Pragmatische Prinzipien</p>\n<ul>\n    <li>Anwendungen Regul&auml;rer Ausdr&uuml;cke 2Skriptsprachen</li>\n    <li>z.B. DRY, Prototyping, Find bugs once, Sign your work </li>\n</ul>\n<p>3. Softwarequalit&auml;t und Design</p>\n<ul>\n    <li>Automatisierte Tests: Unit Tests, funktionale Tests </li>\n    <li>Programmierstil und Style Guides </li>\n    <li>Patterns: Design Patterns, Architekturpatterns im&nbsp;&Uuml;berblick </li>\n    <li>Schnittstellendesign: Design by Contract, defensives Programmieren </li>\n    <li>Refactoring: Design Smells, elementare Refactorings, Refactoring to Patterns</li>\n    <li>Metriken</li>\n</ul>\n<p>&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 10453,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 10454,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Software Engineering 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Software Engineering 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10138,
+          "kuerzel": "I_EP",
+          "bezeichnung": "Engineering Practice",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10106,
+      "bezeichnung": "Application Design - Cloud Solutions",
+      "kuerzel": "ADCS",
+      "url": "allStudies/10106_ADCS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10108,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10108_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10127,
+      "bezeichnung": "Generalist",
+      "kuerzel": "GEN",
+      "url": "allStudies/10127_GEN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10161,
+      "bezeichnung": "Data Engineering & Machine Intelligence",
+      "kuerzel": "DaEngMaInt",
+      "url": "allStudies/10161_DaEngMaInt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10107,
+      "bezeichnung": "Network & Cloud-Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10107_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 873,
+      "name": "Rudin",
+      "vorname": "Hans"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 18558,
+      "kuerzel": "M_SE1",
+      "bezeichnung": "Software-Engineering 1",
+      "url": "allModules/18558_M_SE1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 10976,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Erfolgreiche Abgabe einzelner gel&ouml;ster Uebungsaufgaben nach Ank&uuml;ndigung</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Software-Engineering 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Software Engineering 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2015,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 10976,
+    "kuerzel": "M_SE2",
+    "bezeichnung": "Software-Engineering 2",
+    "url": "allModules/10976_M_SE2.json"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": 61485,
+  "kuerzel": "M_OPRES",
+  "bezeichnung": "Operations Research",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden lernen Modellierungsans&auml;tze und mathematische Methoden kennen, die helfen, anspruchsvolle Optimierungsaufgaben aus der Industrie und der Betriebswirtschaft erfolgreich zu bearbeiten. Die bearbeiteten Anwendungen liegen vor allem im Operations-Management &amp; Logistics, sind aber genauso in Service und Dienstleistung anwendbar.&nbsp;</p>\n<p>Fokus liegt auf der mathematischen Modellierung von deterministischen Systemen und auf der selbstst&auml;ndigen Entwicklung von einfachen Algorithmen f&uuml;r praktische Optimierungsaufgaben. Erkl&auml;rtes Ziel ist es, ausreichend Anwendungskompetenzen zu vermitteln, dass Sie sich zutrauen, die Ans&auml;tze selbstst&auml;ndig in der Praxis anzuweden.</p>",
+  "vorausgKenntnisse": "<p>Kompetenzen:&nbsp;<br>Mathematische Grundbegriffe und Notation;&nbsp;<br>Darstellung linearer Gleichungssysteme mittels Matrizen und Vektoren:&nbsp;<br>Programmierung einfacher Heuristiken in Python.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 61486,
+      "kuerzel": "OPRES",
+      "bezeichnung": "Operations Research",
+      "lernziele": "<p><strong>Fachkompetenzen:</strong><br>Die Teilnehmenden:&nbsp;<br>-k&ouml;nnen (Operations-Research) Modelle herleiten, simulieren, analysieren, validieren und ggf. verbessern. &nbsp;<br>-k&ouml;nnen gut dokumentierte Heuristiken und Algorithmen korrekt ausf&uuml;hren, richtig anwenden und ggf. f&uuml;r eigene Bed&uuml;rfnisse anpassen.&nbsp;<br>-lernen grosse komplexe Probleme in kleinere, &uuml;berschaubarere Probleme herunterzubrechen und durch Trial-and-Error sich langsam aber sicher an wirksame L&ouml;sungen heranzutasten.&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Methodenkompetenzen:</strong><br>Die Teilnehmenden:&nbsp;<br>-k&ouml;nnen f&uuml;r einfache und mittelschwere Aufgabenstellungen ein ad&auml;quates mathematisches Programmierungsmodel aufstellen und mit einem Solver l&ouml;sen.&nbsp;<br>-k&ouml;nnen f&uuml;r einfache und mittelschwere Aufgabenstellungen ein ad&auml;quates graphentheoretisches Modell aufstellen und mit bekannten Algorithmen l&ouml;sen.&nbsp;<br>-k&ouml;nnen Konstruktionsheuristiken und Verbesserungs-heuristiken entwickeln f&uuml;r Optimierungsaufgaben aus der Praxis, die zu gross sind, um mit einem Standard ILP Solver zu l&ouml;sen.</p>\n<p>&nbsp;</p>\n<p><strong>Selbstkompetenzen:</strong><br>Die Teilnehmenden:&nbsp;<br>-gewinnen Selbstverstrauen, Mut und Kreativit&auml;t in der Arbeit mit quantitativen Methoden (insbesondere im Bereich Operations-Management &amp; Logistics).&nbsp;<br>-k&ouml;nnen die Grenzen der erlernten Methoden einsch&auml;tzen.&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Sozialkompetenzen:</strong><br>Die Teilnehmenden:&nbsp;<br>-k&ouml;nnen bei der Erstellung von Modellen effektiv zusammenarbeiten.&nbsp;<br>-k&ouml;nnen durch gezieltes Nachfragen aus unvollst&auml;ndigen Angaben und vagen Zielvorstellungen eine ad&auml;quate Aufgabenstellung herleiten. &nbsp;</p>",
+      "planinhalt": "<p><strong>Themen/Lernblock: &nbsp;Mathematische Programmierung</strong>&nbsp;<br>-Einf&uuml;hrung: Variablen, Parameter und Indices als Bausteine f&uuml;r die Entwicklung linearer Modelle mit Zielfunktion und Nebenbedingungen.&nbsp;<br>-Modelle mit bin&auml;ren Variablen; Modellierung von logischen Nebenbedingungen (A oder B, A und B, wenn A dann B), Sprungkosten u.v.m. &nbsp;<br>-Standard (Matrix-) Form der mathematischen Programmierungsmodelle; Optimierung mit Hilfe von open-source zug&auml;nglichen Solvern (Python)<br>- Interpretation und Validierung der Ergebnisse</p>\n<p>&nbsp;</p>\n<p><strong>Themen/Lernblock: &nbsp;Kombinatorische Optimierung</strong><br>-Grundlegende Konzepte f&uuml;r kombinatorische Optimierung: globales vs. lokales Optimum, Nachbarschaften.&nbsp;<br>-Konstruktionsheuristiken &amp; Verbesserungsheuristiken (Local Search, Randomized Local Search, &nbsp;.<br>-Neustarts &amp; Randomisierung.<br>-Interpretation und Validierung der Ergebnisse<br>-Umsetzung an individuellen Praxis-Beispielen: Projektarbeit in Kleinruppen. (vgl. Leistungsnachweis)</p>\n<p>&nbsp;</p>\n<p><strong>Themen/Lernblock: &nbsp;Graphentheorie&nbsp;</strong><br>-Einf&uuml;hrung: Knoten und Kanten; Pfade, B&auml;ume und Fl&uuml;sse; Kanten- und Knotenf&auml;rbungen. &nbsp;<br>-Algorithmen zur Bestimmung des k&uuml;rzesten Pfades, des minimalen Spannbaums und des maximalen Flusses. &Uuml;bersicht der breiten Anwendungsm&ouml;glichkeiten dieser Algorithmen.&nbsp;<br>-Umsetzung und Optimierung &nbsp;mit bestehenden Packages in Python.<br>- Interpretation und Validierung der Ergebnisse</p>\n<p>&nbsp;</p>\n<p><strong>Abschluss/ Konsolidierung:</strong><br>- Das Traveling Salesman Problem und die sogenannte &laquo;kombinatorische Explosion&raquo;.&nbsp;<br>- L&ouml;sungsm&ouml;glichkeiten mit verschiedenen bis dahin gelernten L&ouml;sungsans&auml;tzen</p>",
+      "kurselemente": [
+        {
+          "id": 61487,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 108,
+          "harteGrenze": true
+        },
+        {
+          "id": 61488,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Operations Research"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Operations Research"
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 28034,
+      "name": "Hügel",
+      "vorname": "Katrin"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 61485,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>schriftliche Pr&uuml;fung f&uuml;r Lernbl&ouml;cke \"Mathematische Programmierung\" und \"Grafentheorie\"&nbsp;</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Operations Research"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Operations Research"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

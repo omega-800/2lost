@@ -1,0 +1,176 @@
+{
+  "id": 52669,
+  "kuerzel": "M_IoT",
+  "bezeichnung": "Internet of Things",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Die Studierenden</p><ul><li>kennen die theoretischen Grundlagen des Internets der Dinge.</li><li>kennen wichtige IoT-Kommunikationsprotokolle, IoT-Plattformen und Interaktionsmuster.</li><li>kennen den Unterschied zwischen IoT und WoT.</li><li>wissen, wie die intelligenten Dinge des IoT aufgebaut sind und wie sie sicher via Internet kommunizieren.</li><li>k&ouml;nnen einfache intelligente Gegenst&auml;nde f&uuml;r das Internet der Dinge entwerfen und entwickeln.</li></ul>",
+  "vorausgKenntnisse": "<p>Vorausgesetzt sind die beiden Grundlagenmodule Informatik 1 und 2.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 52670,
+      "kuerzel": "IoT",
+      "bezeichnung": "Internet of Things",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>kennen die theoretischen Grundlagen des Internets der Dinge.</li><li>kennen wichtige IoT-Kommunikationsprotokolle, IoT-Plattformen und Interaktionsmuster.</li><li>kennen den Unterschied zwischen IoT und WoT.</li><li>wissen, wie die intelligenten Dinge des IoT aufgebaut sind und wie sie sicher via Internet kommunizieren.</li><li>k&ouml;nnen einfache intelligente Gegenst&auml;nde f&uuml;r das Internet der Dinge entwerfen und entwickeln.</li></ul>",
+      "planinhalt": "<p>Das Internet der Dinge (engl. Internet of Things, IoT) besteht aus &bdquo;intelligenten&ldquo; Gegenst&auml;nden, die den Menschen bei seinen T&auml;tigkeiten unterst&uuml;tzen, ohne abzulenken oder aufzufallen. Zu diesen &bdquo;intelligenten&ldquo; Objekten geh&ouml;ren K&uuml;hlschr&auml;nke, Back&ouml;fen, Kaffeemaschinen, Briefk&auml;sten, Abfalleimer, Strassenlaternen, Regenschirme, Produktionsanlagen, etc. Das Internet der Dinge ist nicht nur Teil der Digitalisierung, bei der Informations- und Kommunikationstechnik auf alle Lebensbereiche Einfluss nimmt, sondern auch Teil von Industrie 4.0. Denn im Kern besteht Industrie aus der Integration unterschiedlichster Informationssysteme in Produktion und Logistik sowie der Anwendung des Internets der Dinge und Dienste in industriellen Prozessen.</p><p>Dieses Wahlmodul vermittelt die theoretischen Grundlagen des Internets der Dinge. Das Internet der Dinge wird definiert und seine Bestandteile werden erl&auml;utert. Dann erfolgt eine Einf&uuml;hrung in die Welt der Computerkommunikation, wobei der Fokus auf die entscheidenden IoT- Kommunikationsprotokolle gelegt wird. Anschliessend werden h&auml;ufig verwendete Interaktionsmuster und IoT-Plattformen vorgestellt. Es folgt die &Uuml;berleitung zum Web der Dinge (WoT), einem Teilbereich des Internets der Dinge, bei welchem Web Technologien f&uuml;r den Zugriff, das Auffinden, die Beschreibung, die Sicherheit und die Entwicklung von Anwendungen f&uuml;r &bdquo;intelligente&ldquo; Dinge verwendet werden. Praxisnahe &Uuml;bungen erg&auml;nzen die theoretischen Grundlagen zwischendurch.</p>",
+      "bibliographie": "<p>B&uuml;cher</p>",
+      "empfLehrmittel": "<p>Unterrichtsgespr&auml;ch,<br />&Uuml;bungen mit einer g&auml;ngigen Hardware</p>",
+      "bemerkungKurs": "<p>Unterrichtssprache Deutsch und/oder Englisch (je nach Anwesenheit internationaler Studierender).</p>",
+      "leistungsnachweis": "<p>W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben.</p>",
+      "kurselemente": [
+        {
+          "id": 52671,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 25,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002823,
+          "name": "Pawlitzek",
+          "vorname": "René"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10284,
+      "bezeichnung": "Mechatronik BB",
+      "kuerzel": "MT_BB",
+      "url": "allStudies/10284_MT_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10189,
+          "kuerzel": "Kat_ZTuWM",
+          "bezeichnung": "Zukunftsthema und Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10285,
+      "bezeichnung": "Mechatronik VZ",
+      "kuerzel": "MT_VZ",
+      "url": "allStudies/10285_MT_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10189,
+          "kuerzel": "Kat_ZTuWM",
+          "bezeichnung": "Zukunftsthema und Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002823,
+      "name": "Pawlitzek",
+      "vorname": "René"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 52943,
+      "kuerzel": "M_IAR",
+      "bezeichnung": "Informatik & Autonome Roboter",
+      "url": "allModules/52943_M_IAR.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 11,
+      "kuerzel": "LSG",
+      "bezeichnung": "Lerchenfeld St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Internet der Dinge"
+    }
+  ],
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2022,
+    "beginSemester": "FS",
+    "endJahr": 2026,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 50453,
+    "kuerzel": "M_IoT",
+    "bezeichnung": "Internet of Things",
+    "url": "allModules/50453_M_IoT.json"
+  }
+}

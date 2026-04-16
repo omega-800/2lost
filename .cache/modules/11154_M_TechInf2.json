@@ -1,0 +1,151 @@
+{
+  "id": 11154,
+  "kuerzel": "M_TechInf2",
+  "bezeichnung": "Technische Informatik 2",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Vorgehensweise beim Entwurf und der Implementierung von Programmen kennen und andwenden</li>\n    <li>Java-Anwendungen selbstst&auml;ndig erstellen</li>\n    <li>Einige wichtige Algortihem kennen und verstehen</li>\n    <li>Design und Dokumentation von Programmen mit UML-Diagrammen</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10311,
+      "kuerzel": "TechInf2",
+      "bezeichnung": "Technische Informatik 2",
+      "planinhalt": "<ul>\n    <li>UML-Notation (Klassendiagramme, usw.)</li>\n    <li>Vererbung</li>\n    <li>Packages</li>\n    <li>Interfaces</li>\n    <li>Exception Handling</li>\n    <li>Streams (File I/O)</li>\n    <li>Aggregationsklassen (Collections)</li>\n    <li>Ausgew&auml;hlte Algorithem</li>\n    <li>Oberfl&auml;chenprogrammierung</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 10772,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 10773,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Technische Informatik 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Computer Engineering 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9988,
+      "name": "ZZZ Dozent LB",
+      "vorname": "Planung"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11153,
+      "kuerzel": "M_TechInf1",
+      "bezeichnung": "Technische Informatik 1",
+      "url": "allModules/11153_M_TechInf1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11154,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Technische Informatik 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Computer Engineering 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2008,
+    "endSemester": "FS"
+  }
+}

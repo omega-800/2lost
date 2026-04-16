@@ -1,0 +1,328 @@
+{
+  "id": 18558,
+  "kuerzel": "M_SE1",
+  "bezeichnung": "Software-Engineering 1",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Alle Schritte der methodischen objektorientierten Softwareentwicklung von der Anforderungsanalyse &#252;ber Domainanalyse, <br />Objektorienter Entwurf bis Umsetzung in Code verstehen und durchf&#252;hren k&#246;nnen. <br />Verst&#228;ndnis des objektorientierten Software-Entwicklungsprozesses mit Projektmanagement und unterst&#252;tzendenden T&#228;tigkeiten <br />wie Software-Pr&#252;fung und Konfigurationsmanagement <br /><br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 18559,
+      "kuerzel": "SE1",
+      "bezeichnung": "Software-Engineering 1",
+      "planinhalt": "<p>&Uuml;bersicht des iterativen und inkrementellen objektorientierten Software-Entwicklungsprozesses anhand des Ratinal Process (RP) <br /><br />Einzelne Schritte der objektorientierten Softwareentwicklung mit entsprechenden Modellen in UML unter Verwendung eines UML-Modellierungswerkzeuges: <br />- Anforderungsanalyse mit Use Cases <br />- Objektorientierte Domainanalyse <br />- Architekturentwurf und objektorientierter Entwurf<br />- Umsetzung des Entwurfs in Code <br />- Entwurfsprinzipien und grundlegende Design Pattern<br /><br />Projektmanagement (Projektplanung, -steuerung und -kontrolle) <br />Pr&uuml;fen von Software (Reviews und Tests) <br />Konfigurationsmanagement <br /><br /></p>",
+      "kurselemente": [
+        {
+          "id": 18560,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 126,
+          "harteGrenze": true
+        },
+        {
+          "id": 18561,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Software-Engineering 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Software Engineering 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10138,
+          "kuerzel": "I_EP",
+          "bezeichnung": "Engineering Practice",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10106,
+      "bezeichnung": "Application Design - Cloud Solutions",
+      "kuerzel": "ADCS",
+      "url": "allStudies/10106_ADCS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10107,
+      "bezeichnung": "Network & Cloud-Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10107_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10108,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10108_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10127,
+      "bezeichnung": "Generalist",
+      "kuerzel": "GEN",
+      "url": "allStudies/10127_GEN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10161,
+      "bezeichnung": "Data Engineering & Machine Intelligence",
+      "kuerzel": "DaEngMaInt",
+      "url": "allStudies/10161_DaEngMaInt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5001386,
+      "name": "Mehta",
+      "vorname": "Farhad D."
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 24499,
+      "kuerzel": "M_OO",
+      "bezeichnung": "Objektorientierte Programmierung",
+      "url": "allModules/24499_M_OO.json"
+    },
+    {
+      "id": 28259,
+      "kuerzel": "M_AD1",
+      "bezeichnung": "Algorithmen und Datenstrukturen 1",
+      "url": "allModules/28259_M_AD1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 18558,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat erfordert Teilnahme an&nbsp;mindestens 75%&nbsp;der &#220;bungen und erfolgreiche Abgabe einzelner &#220;bungsl&#246;sungen</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Software-Engineering 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Software Engineering 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2009,
+    "beginSemester": "HS",
+    "endJahr": 2016,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 11012,
+    "kuerzel": "M_SE1",
+    "bezeichnung": "Software-Engineering 1",
+    "url": "allModules/11012_M_SE1.json"
+  },
+  "nachfolger": {
+    "id": 18558,
+    "kuerzel": "M_SE1",
+    "bezeichnung": "Software-Engineering 1",
+    "url": "allModules/18558_M_SE1.json"
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "id": 20106,
+  "kuerzel": "M_An2M",
+  "bezeichnung": "Analysis 2 (M-I)",
+  "kreditpunkte": 8,
+  "lernziele": "<ul>\n    <li>Beherrschung der grundlegenden Integrationsregeln</li>\n    <li>Ge&uuml;bter Umgang mit komplexen Zahlen</li>\n    <li>F&auml;higkeit, die Differential- und Integralrechnung bei der L&ouml;sung technischer Fragestellungen einzusetzen</li>\n    <li>Ge&uuml;bter Umgang&nbsp;mit einem Computeralgebrasystem<br /></li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 20107,
+      "kuerzel": "An2M",
+      "bezeichnung": "Analysis 2 (M-I)",
+      "planinhalt": "<ul>\n    <li>Fortsetzung der Integralrechnung: Integrationsregeln, Partialbruchzerlegung, Anwendungen</li>\n    <li>Rationale Funktionen</li>\n    <li>Fortsetzung der Differentialrechnung: Funktionsanalyse, Extremwertprobleme, Nullstellenbestimmung nach Newton, Taylorreihe</li>\n    <li>Komplexe Zahlen</li>\n    <li>Zweifache Integrale. Fl&auml;chenschwerpunkt und Fl&auml;chenmomente</li>\n    <li>Einsatz eines Computeralgebrasystems</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 20108,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 20109,
+          "art": "Vorlesung",
+          "anzLektionen": 6,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Analysis 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Analysis 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften",
+          "kreditpunkte": 8
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 538970,
+      "name": "Martignoli",
+      "vorname": "Stefan"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 22028,
+      "kuerzel": "M_An1M",
+      "bezeichnung": "Analysis 1 (M-I)",
+      "url": "allModules/22028_M_An1M.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 20106,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Analysis 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Analysis 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2011,
+    "beginSemester": "FS",
+    "endJahr": 2024,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 11037,
+    "kuerzel": "M_Math2M",
+    "bezeichnung": "Mathematik für Maschinentechnik 2",
+    "url": "allModules/11037_M_Math2M.json"
+  },
+  "nachfolger": {
+    "id": 20106,
+    "kuerzel": "M_An2M",
+    "bezeichnung": "Analysis 2 (M-I)",
+    "url": "allModules/20106_M_An2M.json"
+  }
+}

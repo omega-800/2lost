@@ -1,0 +1,91 @@
+{
+  "id": 61572,
+  "kuerzel": "M_sa.HS_D3",
+  "bezeichnung": "D3 SA Sozialraumarbeit",
+  "kreditpunkte": 6,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 61573,
+      "kuerzel": "sa.HS_D3",
+      "bezeichnung": "D3 SA Sozialraumarbeit",
+      "kreditpunkte": 0,
+      "kurselemente": [
+        {
+          "id": 61574,
+          "art": "Vorlesung",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "D3 SA Sozialraumarbeit"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10480,
+      "bezeichnung": "Soziale Arbeit",
+      "kuerzel": "SA",
+      "url": "allStudies/10480_SA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10203,
+          "kuerzel": "P_SA",
+          "bezeichnung": "Pflichtmodule",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10206,
+          "kuerzel": "P_HS_SA",
+          "bezeichnung": "Pflichtmodule Hauptstudium Soziale Arbeit",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10481,
+      "bezeichnung": "Sozialarbeit",
+      "kuerzel": "SoAr",
+      "url": "allStudies/10481_SoAr.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9820,
+      "name": "Fels",
+      "vorname": "Dani"
+    }
+  ],
+  "orte": [
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "D3 SA Sozialraumarbeit"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

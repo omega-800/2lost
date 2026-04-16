@@ -1,0 +1,236 @@
+{
+  "id": 49661,
+  "kuerzel": "M_VP_16815",
+  "bezeichnung": "Eingebettete Systeme II c",
+  "kreditpunkte": 15,
+  "lernziele": "<p>Fachkompetenz:<br />Die Studierenden</p>\n<ul>\n    <li>kennen die Grundlagen der Linux-Treiberentwicklung.</li>\n    <li>k&ouml;nnen Programme schreiben und &uuml;bersetzen in einer Crossentwicklungsumgebung und kennen die dazu notwendigen Werkzeuge.</li>\n    <li>kennen die Problematik von Hardwareanbindung unter Linux.</li>\n    <li>kennen den Aufbau der bestehenden flink-Bibliothek und deren Funktionsweise.</li>\n    <li>k&ouml;nnen eigene Teile beisteuern und in die bestehende Bibliothek einbinden.</li>\n</ul>\n<p>Methodenkompetenz<br />Die Studierenden</p>\n<ul>\n    <li>demonstrieren F&auml;higkeit zu Analyse, Kreativit&auml;t, vernetztes Denken.</li>\n    <li>k&ouml;nnen ein bestehendes Konzepte analysieren und auf erweiterte Anforderungen anpassen.</li>\n</ul>\n<p>Sozialkompetenz</p>\n<ul>\n    <li>Kommunikations- und Kooperationsf&auml;higkeit</li>\n</ul>\n<p>Selbstkompetenz</p>\n<ul>\n    <li>Selbst&auml;ndigkeit, Verantwortlichkeit</li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 49662,
+      "kuerzel": "VP_1681501",
+      "bezeichnung": "Clappers - An Interactive Artwork",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Fachkompetenz:<br />Die Studierenden</p><ul><li>analysieren bestehende elektromechanische Komponenten und beurteilen ihre Eignung f&uuml;r das Projekt.</li><li>entwickeln Ideen zur parallelen und individuellen Ansteuerung von ca. 1000 Komponenten.</li><li>ber&uuml;cksichtigen bestehende Konzepte im Bereich von verteilten Systemen.</li></ul><p>Methodenkompetenz<br />Die Studierenden</p><ul><li>demonstrieren F&auml;higkeit zu Analyse, Kreativit&auml;t, vernetztes Denken.</li><li>k&ouml;nnen ein bestehendes Konzepte analysieren und auf erweiterte Anforderungen anpassen.</li></ul><p>Sozialkompetenz</p><ul><li>Kommunikations- und Kooperationsf&auml;higkeit</li></ul><p>Selbstkompetenz</p><ul><li>Selbst&auml;ndigkeit, Verantwortlichkeit</li></ul>",
+      "planinhalt": "<p>Innerhalb des Projektes &bdquo;Pathos&ldquo;, das verschiedene interaktive Artworks in Zusammenarbeit mit den indischen K&uuml;nstlern Pors&amp;Rao realisiert, soll das Artwork &bdquo;Clappers&ldquo; umgesetzt werden.<br />Dazu geh&ouml;rt eine sorgf&auml;ltige Evaluation, Planung mit Meilensteinen, regelm&auml;ssige Information bez&uuml;glich Projektstand, Selbstverantwortung.</p><p>Lieferobjekte: Projekt, Bericht, Schlusspr&auml;sentation</p>",
+      "bibliographie": "<p>http://wiki.ntb.ch/projects/pathos/start</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "Das zu bearbeitende Projekt wird mittels Projektarbeit, Bericht und einer Schlusspr&auml;sentation mit Pr&uuml;fungsgespr&auml;ch bewertet.",
+      "kurselemente": [
+        {
+          "id": 49663,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000080,
+          "name": "Graf",
+          "vorname": "Urs"
+        }
+      ]
+    },
+    {
+      "id": 49664,
+      "kuerzel": "VP_1681502",
+      "bezeichnung": "Bussystem unter Linux",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>kennen die Grundlagen unterschiedlicher Bussysteme.</li><li>k&ouml;nnen Programme schreiben, die diese Busse benutzen und deren Eigenschaften messen.</li><li>erwirbt Fachkompetenz (Faktenwissen, Methodenwissen und Systemdenken) und Methodenkompetenz.</li></ul>",
+      "planinhalt": "<p>Linux bietet unterschiedliche Subsysteme f&uuml;r Busse an, so z.B. f&uuml;r USB, SPI, CAN, I2C oder PCI. Einige dieser Bussysteme sollen analysiert und bez&uuml;glich Geschwindigkeit und Echtzeitf&auml;higkeit ausgetestet werden. Sinnvolle Demoapplikationen sollen die Eigenschaften und Einsatzm&ouml;glichkeiten aufzeigen.</p>",
+      "bibliographie": "Diverse B&uuml;cher nach Bedarf und Absprache <br />Fachliteratur<br />",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "leistungsnachweis": "Der Kurs wird mittels Bericht mit Demonstration und Fachgespr&auml;ch bewertet.",
+      "kurselemente": [
+        {
+          "id": 49665,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000080,
+          "name": "Graf",
+          "vorname": "Urs"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000080,
+      "name": "Graf",
+      "vorname": "Urs"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 49505,
+      "kuerzel": "M_VP_15718",
+      "bezeichnung": "Eingebettete Systeme I b",
+      "url": "allModules/49505_M_VP_15718.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Embedded Systems II c"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2016,
+    "beginSemester": "FS",
+    "endJahr": 2016,
+    "endSemester": "FS"
+  }
+}

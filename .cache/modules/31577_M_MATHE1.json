@@ -1,0 +1,143 @@
+{
+  "id": 31577,
+  "kuerzel": "M_MATHE1",
+  "bezeichnung": "Mathematik 1",
+  "kreditpunkte": 6,
+  "lernziele": "<p><strong>Methodenkompetenzen:</strong></p><p>Die Teilnehmenden k&ouml;nnen:</p><ul><li>Einfache naturwissenschaftliche Sachverhalte in mathematische Modelle &uuml;berf&uuml;hren und l&ouml;sen</li><li>Optimierungsaufgaben erkennen und im Falle einer Dimension formulieren und mit Hilfe der Ableitung l&ouml;sen</li><li>Funktionen mit Hilfe von Graphen veranschaulichen und interpretieren</li><li>Gebr&auml;uchliche statistische Darstellungen kritisch zu beurteilen, sowie potentielle Fehler und Missbr&auml;uche leichter zu durchschauen</li></ul><p><strong>Selbstkompetenzen:</strong></p><p>Die Teilnehmenden k&ouml;nnen:</p><ul><li>Umgangssprachlich, vage formulierte Probleme in eine mathematisch pr&auml;zise Formulierung &uuml;berf&uuml;hren</li><li>Kleinere statistische Anwendungsprobleme mit eigenen Daten selbst zu l&ouml;sen</li></ul><p><strong>Sozialkompetenzen:</strong></p><p>Die Teilnehmenden k&ouml;nnen:</p><ul><li>Eine exakte Sprache verwenden, um mit Kollegen &uuml;ber den L&ouml;sungsweg eines mathematisch, naturwissenschaftlichen Sachverhalts zu diskutieren</li><li>Bei gr&ouml;&szlig;eren statistischen Anwendungsprobleme sinnvoll mit Statistiker/innen zusammen zu arbeiten</li></ul><p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 31578,
+      "kuerzel": "Mathe1",
+      "bezeichnung": "Mathematische Grundlagen 1",
+      "lernziele": "<p>Die Teilnehmenden k&ouml;nnen:</p><ul><li>Einfache Gleichungen, die aus elementaren Funktionen aufgebaut sind l&ouml;sen</li><li>Aus elementaren Funktionen aufgebaute Terme von Hand ableiten und in einfachen F&auml;llen integrieren</li><li>Graphen von Funktionen darstellen und interpretieren</li><li>Funktionen mit Hilfe von Kurvendiskussionen analysieren</li><li>Die Bedeutung von Ableitung und Integral in mathematisch naturwissenschaftlichen Aufgaben erkl&auml;ren</li></ul>",
+      "planinhalt": "<ul><li>Definition einer Funktion und ihrer Umkehrfunktion</li><li>Eigenschaften von Funktionen</li><li>Grad- und Bogenmass</li><li>Rechengesetze, Funktionsgraphen und Einsatzgebiete von Polynomen und elementaren Funktionen</li><li>Umformen von Termen und L&ouml;sen von Gleichungen, die aus elementaren Funktionen bestehen</li><li>Differential- und Integralrechnung reellwertiger Funktionen in einer Variable</li><li>Hauptsatz der Differential- und Integralrechnung</li><li>Anwendungen der Differential- und Integralrechnung</li></ul>",
+      "kurselemente": [
+        {
+          "id": 31579,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 31580,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Mathematische Grundlagen 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Mathematics 1"
+        }
+      ]
+    },
+    {
+      "id": 31581,
+      "kuerzel": "Stati",
+      "bezeichnung": "Statistik",
+      "lernziele": "<p>Die Teilnehmenden k&ouml;nnen:</p><ul><li>Kleinere statistische Anwendungsprobleme mit eigenen Daten selbst&auml;ndig l&ouml;sen</li><li>Bei gr&ouml;&szlig;eren statistischen Anwendungsproblemen sinnvoll mit Statistiker/innen zusammenarbeiten</li><li>Statistische Auswertungen in anderen wissenschaftlichen Arbeiten in den Grundz&uuml;gen verstehen</li><li>Gebr&auml;uchliche statistische Darstellungen kritisch beurteilen, sowie potentielle Fehler und Missbr&auml;uche leichter durchschauen</li></ul>",
+      "planinhalt": "<ul><li>Deskriptive Statistik:<br />H&auml;ufigkeiten, empirische Verteilungsfunktion, Darstellung, Kennziffern f&uuml;r Lage- und Streuungsparameter, Korrelation, Regression</li><li>Kombinatorik/Wahrscheinlichkeitsrechnung:<br />Wahrscheinlichkeiten, Dichte- und Wahrscheinlichkeitsverteilungen, Erwartungswert, Varianz, Zentraler Grenzwertsatz</li><li>Induktive Statistik:<br />Zufallsstichprobe, Sch&auml;tz- und Testverfahren, Signifikanzniveau, Konfidenzintervall, Hypothesentest</li></ul>",
+      "kurselemente": [
+        {
+          "id": 31584,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 31585,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Statistik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Statistic"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10151,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10151_WING.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 6
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 538489,
+      "name": "Augenstein",
+      "vorname": "Oliver"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 31577,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Mathematik 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Mathematics 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2018,
+    "beginSemester": "HS",
+    "endJahr": 2020,
+    "endSemester": "HS"
+  }
+}

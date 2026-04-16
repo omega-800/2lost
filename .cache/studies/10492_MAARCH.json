@@ -1,0 +1,287 @@
+{
+  "id": 10492,
+  "kuerzel": "MAARCH",
+  "bezeichnung": "MA Architektur",
+  "versionKuerzel": "STD_23",
+  "typ": "Master",
+  "art": "Studiengang",
+  "form": "Teilzeit",
+  "kredits": [
+    {
+      "id": 11075,
+      "minKredits": 100,
+      "kategorien": [
+        {
+          "id": 10220,
+          "kuerzel": "MA_A_AW",
+          "bezeichnung": "ArchitekturWerkstatt"
+        }
+      ]
+    },
+    {
+      "id": 11074,
+      "minKredits": 20,
+      "kategorien": [
+        {
+          "id": 10219,
+          "kuerzel": "MA_A_ABLR",
+          "bezeichnung": "ABLR"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 65197,
+      "kuerzel": "M_march.MAS1",
+      "bezeichnung": "Auslandssemester I",
+      "url": "allModules/65197_M_march.MAS1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10220,
+          "kuerzel": "MA_A_AW",
+          "bezeichnung": "ArchitekturWerkstatt",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 65200,
+      "kuerzel": "M_march.MAS2",
+      "bezeichnung": "Auslandssemester II",
+      "url": "allModules/65200_M_march.MAS2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10220,
+          "kuerzel": "MA_A_AW",
+          "bezeichnung": "ArchitekturWerkstatt",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 65185,
+      "kuerzel": "M_march.ME1",
+      "bezeichnung": "Master-Entwurf I",
+      "url": "allModules/65185_M_march.ME1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10220,
+          "kuerzel": "MA_A_AW",
+          "bezeichnung": "ArchitekturWerkstatt",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 65191,
+      "kuerzel": "M_march.ME2",
+      "bezeichnung": "Master-Entwurf II",
+      "url": "allModules/65191_M_march.ME2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10220,
+          "kuerzel": "MA_A_AW",
+          "bezeichnung": "ArchitekturWerkstatt",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 65221,
+      "kuerzel": "M_march.ME3",
+      "bezeichnung": "Master-Entwurf III",
+      "url": "allModules/65221_M_march.ME3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10220,
+          "kuerzel": "MA_A_AW",
+          "bezeichnung": "ArchitekturWerkstatt",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 65224,
+      "kuerzel": "M_march.ME4",
+      "bezeichnung": "Master-Entwurf IV",
+      "url": "allModules/65224_M_march.ME4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10220,
+          "kuerzel": "MA_A_AW",
+          "bezeichnung": "ArchitekturWerkstatt",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 65212,
+      "kuerzel": "M_march.MTV1",
+      "bezeichnung": "Master-Vertiefung I",
+      "url": "allModules/65212_M_march.MTV1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10219,
+          "kuerzel": "MA_A_ABLR",
+          "bezeichnung": "ABLR",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 65215,
+      "kuerzel": "M_march.MTV2",
+      "bezeichnung": "Master-Vertiefung II",
+      "url": "allModules/65215_M_march.MTV2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10219,
+          "kuerzel": "MA_A_ABLR",
+          "bezeichnung": "ABLR",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 65206,
+      "kuerzel": "M_march.MT1",
+      "bezeichnung": "Masterthesis I",
+      "url": "allModules/65206_M_march.MT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10220,
+          "kuerzel": "MA_A_AW",
+          "bezeichnung": "ArchitekturWerkstatt",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 65209,
+      "kuerzel": "M_march.MT2",
+      "bezeichnung": "Masterthesis II",
+      "url": "allModules/65209_M_march.MT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10220,
+          "kuerzel": "MA_A_AW",
+          "bezeichnung": "ArchitekturWerkstatt",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 65188,
+      "kuerzel": "M_march.MRK1",
+      "bezeichnung": "Raumkultur I",
+      "url": "allModules/65188_M_march.MRK1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10219,
+          "kuerzel": "MA_A_ABLR",
+          "bezeichnung": "ABLR",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 65194,
+      "kuerzel": "M_march.MRK2",
+      "bezeichnung": "Raumkultur II",
+      "url": "allModules/65194_M_march.MRK2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10219,
+          "kuerzel": "MA_A_ABLR",
+          "bezeichnung": "ABLR",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 65218,
+      "kuerzel": "M_march.MSP1",
+      "bezeichnung": "Strukturiertes Praxissemester I",
+      "url": "allModules/65218_M_march.MSP1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10220,
+          "kuerzel": "MA_A_AW",
+          "bezeichnung": "ArchitekturWerkstatt",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 65203,
+      "kuerzel": "M_march.MSP2",
+      "bezeichnung": "Strukturiertes Praxissemester II",
+      "url": "allModules/65203_M_march.MSP2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10220,
+          "kuerzel": "MA_A_AW",
+          "bezeichnung": "ArchitekturWerkstatt",
+          "kreditpunkte": 20
+        }
+      ]
+    }
+  ]
+}

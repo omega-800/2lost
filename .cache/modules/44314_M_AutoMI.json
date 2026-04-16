@@ -1,0 +1,468 @@
+{
+  "id": 44314,
+  "kuerzel": "M_AutoMI",
+  "bezeichnung": "Automation",
+  "kreditpunkte": 5,
+  "lernziele": "<p>Das Modul Automation zielt darauf ab, die Teilnehmer in die Grundlagen der Mess- und Steuerungstechnik einzuf&uuml;hren. Das Modul bietet Praktika und &Uuml;bungen auf industriellem Niveau in beiden Kursen, die es den Teilnehmern erm&ouml;glichen, Kenntnisse in beiden Bereichen zu erwerben und zu festigen.&nbsp;</p>\n<p>Die Teilnehmer k&ouml;nnen:<br />- Entwerfen und Implementieren der Steuerung automatisierter Systeme, wie z. B. SPS<br />- Systeme f&uuml;r Messungen und Prozesszustandssch&auml;tzungen entwerfen und implementieren<br />- Quantifizierung der Interaktion zwischen Steuerungs- und Messsystemen<br />- ein probleml&ouml;sendes Messsystem entwerfen und realisieren&nbsp;</p>",
+  "vorausgKenntnisse": "",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 44315,
+      "kuerzel": "MessT",
+      "bezeichnung": "Messtechnik",
+      "lernziele": "<p>Die Teilnehmer k&ouml;nnen:<br />- den optimalen Sensor f&uuml;r ein klar definiertes Messproblem ausw&auml;hlen<br />- Messdaten, die von verschiedenen Sensoren erfasst wurden, analysieren und verarbeiten<br />- zwischen digitalen und analogen Messsystemen zu unterscheiden<br />- die Wechselwirkung zwischen Steuerungs- und Messsystemen quantifizieren<br />- ein probleml&ouml;sendes Messsystem entwerfen und realisieren<br />- Experimente zur Bewertung von Sensoren und Messsystemen planen und durchf&uuml;hren&nbsp;</p>",
+      "planinhalt": "<p>In diesem Kurs lernen die Teilnehmer die Grundlagen der Messtechnik und Datenverarbeitung kennen. Der Kurs behandelt grundlegende elektrische, optische und mechanische Messtechniken und -methoden. Grundlegende statistische Datenanalysemethoden und Konzepte, wie Fehlerfortpflanzung und statistische Tests, werden in der Praktika an realen Beispielen angewendet.</p>",
+      "kurselemente": [
+        {
+          "id": 44316,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 44317,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Messtechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Measurement Engineering"
+        }
+      ]
+    },
+    {
+      "id": 44319,
+      "kuerzel": "SteuerT",
+      "bezeichnung": "Steuerungstechnik",
+      "lernziele": "<p>Die Teilnehmer k&ouml;nnen:<br />- die Steuerung von automatisierten Systemen, wie z.B. PLC, entwerfen und umsetzen<br />- die Funktion eines Steuerungssystems zu verstehen<br />- Systeme als Blockdiagramm und Zustandsdiagramm entwerfen und darstellen<br />- Logik- und Prozesssteuerungen entwerfen und umsetzen<br />- Strukturierten Text als Programmiersprache f&uuml;r SPS-Systeme aktiv nutzen<br />- Sichere Steuerungssysteme entwerfen und realisieren</p>",
+      "planinhalt": "<p>In diesem Kurs lernen die Teilnehmer die Grundlagen des Entwurfs und der Implementierung eines Steuerungssystems auf der Basis von SPS und strukturiertem Text. Dar&uuml;ber hinaus werden die Grundlagen des Entwurfs und der Implementierung mit Hilfe von Programmiertechniken ausf&uuml;hrlich vermittelt und in einer Laborumgebung umgesetzt.</p>",
+      "kurselemente": [
+        {
+          "id": 44321,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        },
+        {
+          "id": 44322,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Steuerungstechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Control Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10104,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10104_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10128,
+          "kuerzel": "W-STpl",
+          "bezeichnung": "Systemtechnik und ergänzende Fachmodule",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10129,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10129_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10128,
+          "kuerzel": "W-STpl",
+          "bezeichnung": "Systemtechnik und ergänzende Fachmodule",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10130,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10130_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10128,
+          "kuerzel": "W-STpl",
+          "bezeichnung": "Systemtechnik und ergänzende Fachmodule",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10202,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10202_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10272,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10272_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10240,
+      "bezeichnung": "Automation und Robotik",
+      "kuerzel": "M-I-AR",
+      "url": "allStudies/10240_M-I-AR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 10151,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10151_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 10169,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10169_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 10167,
+      "bezeichnung": "Smart Factories and Robotics",
+      "kuerzel": "WING_Fact",
+      "url": "allStudies/10167_WING_Fact.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10170,
+      "bezeichnung": "Smart Factories and Robotics",
+      "kuerzel": "WING_Fact",
+      "url": "allStudies/10170_WING_Fact.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5029443,
+      "name": "Aggeler",
+      "vorname": "Daniel"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 41950,
+      "kuerzel": "M_STATI",
+      "bezeichnung": "Statistik",
+      "url": "allModules/41950_M_STATI.json"
+    },
+    {
+      "id": 43573,
+      "kuerzel": "M_An1M",
+      "bezeichnung": "Analysis 1 (M-I)",
+      "url": "allModules/43573_M_An1M.json"
+    },
+    {
+      "id": 43675,
+      "kuerzel": "M_FouLap2EC",
+      "bezeichnung": "Fourier- und Laplacetransformation (2 ECTS-Punkte)",
+      "url": "allModules/43675_M_FouLap2EC.json"
+    },
+    {
+      "id": 43682,
+      "kuerzel": "M_An2M",
+      "bezeichnung": "Analysis 2 (M-I)",
+      "url": "allModules/43682_M_An2M.json"
+    },
+    {
+      "id": 43750,
+      "kuerzel": "M_ElektrGL",
+      "bezeichnung": "Grundlagen der Elektrotechnik und elektrischen Messtechnik",
+      "url": "allModules/43750_M_ElektrGL.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 44314,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Praktikumsanwesenheit</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Automation"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Automation"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2025,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 24025,
+    "kuerzel": "M_AutoT1",
+    "bezeichnung": "Automation 1",
+    "url": "allModules/24025_M_AutoT1.json"
+  }
+}

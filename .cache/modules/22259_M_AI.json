@@ -1,0 +1,213 @@
+{
+  "id": 22259,
+  "kuerzel": "M_AI",
+  "bezeichnung": "Artificial Intelligence (AI)",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Der Teilnehmer besitzt eine &Uuml;bersicht &uuml;ber die Konzepte und Eigenschaften unten aufgef&uuml;hrter, ausgew&auml;hlter Technologien und Algorithmen. </li>\n    <li>Mit ausgew&auml;hlten &Uuml;bungen lernt er deren M&ouml;glichkeiten kennen und ist in der Lage abzusch&auml;tzen, wo diese sinnvoll eingesetzt werden k&ouml;nnen. </li>\n    <li>Der Teilnehmer verf&uuml;gt &uuml;ber Grundkenntnisse in der Entwicklung von diesen Technologien und Algorithmen und kann sie in eigenen Projekten einsetzen. </li>\n</ul>",
+  "vorausgKenntnisse": "Englisch",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 22260,
+      "kuerzel": "AI",
+      "bezeichnung": "Artificial Intelligence (AI)",
+      "planinhalt": "<ol>\n    <li>Einf&uuml;hrung in die K&uuml;nstliche Intelligenz </li>\n    <li>Analytisch l&ouml;sbare Optimierungsaufgaben </li>\n    <li>Neuronale Netze </li>\n    <li>Genetische Algorithmen </li>\n    <li>Clusering-Gruppierverfahren </li>\n</ol>\n<p>Die Schwergewichte liegen auf</p>\n<ul>\n    <li>Garphische Methoden und Spieltheorie (Backtracking, Constraint Propagation)</li>\n    <li>Analytische Optimierung (Multidimensionale Extremalprobleme, Lagrange Multiplikatoren, Gleichgewichte, Gradientenabstieg)</li>\n    <li>Expertensysteme (Clustering, Classifers)</li>\n    <li>Neuronale Netze (biologische und biologienahe Modellierung, Spinsystem-Analogie)</li>\n    <li>Evolution&auml;re Optimierung (genetische Algorithmen)<br /><br /></li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 22261,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 22262,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Artificial Intelligence (AI)"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Artificial Intelligence (AI)"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533889,
+      "name": "Stolze",
+      "vorname": "Markus"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 24345,
+      "kuerzel": "M_AD1",
+      "bezeichnung": "Algorithmen und Datenstrukturen 1",
+      "url": "allModules/24345_M_AD1.json"
+    },
+    {
+      "id": 24489,
+      "kuerzel": "M_WrStat",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung und Statistik",
+      "url": "allModules/24489_M_WrStat.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 22259,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "Testat",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Artificial Intelligence (AI)"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Artificial Intelligence (AI)"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "FS",
+    "endJahr": 2015,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 15757,
+    "kuerzel": "M_WibS",
+    "bezeichnung": "Wissensbasierte Systeme",
+    "url": "allModules/15757_M_WibS.json"
+  }
+}

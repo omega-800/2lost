@@ -1,0 +1,143 @@
+{
+  "id": 40369,
+  "kuerzel": "M_VkBa1",
+  "bezeichnung": "Verkehrswegebau 1",
+  "kreditpunkte": 4,
+  "lernziele": "<ul><li>Kenntnis der Grundlagen und Grunds&auml;tze der verkehrstechnischen Planung und Dimensionierung von Strassenverkehrsanlagen.</li><li>Kenntnisse der Grundlagen und Grunds&auml;tze der Dimensionierung von starren und flexiblen Oberbaukonstruktionen.</li></ul><p><br />&nbsp;</p>",
+  "vorausgKenntnisse": "<p>keine</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 40370,
+      "kuerzel": "StrProj",
+      "bezeichnung": "Projektierung von Strassen",
+      "lernziele": "<p>&#8226; Grundlagenkenntnisse der Strassenprojektierung</p>",
+      "planinhalt": "<ul>\n<li>Einf&uuml;hrung Verkehrswegebau<br />Historische Entwicklung Strassenbau<br />Normen und Grundlagen<br />Planungsphasen</li>\n<li>Strassenquerschnitt<br />Verkehr und Strassensystem<br />Strassenquerschnitt<br />Geometrisches Normalprofil</li>\n<li>Linienf&uuml;hrung<br />Horizontale Linienf&uuml;hrung<br />Vertikale Linienf&uuml;hrung<br />R&auml;umliche Linienf&uuml;hrung</li>\n<li>Dimensionierung und Konstruktion<br />Kanalisations- und Werkleitungsbau<br />Oberbau und Bel&auml;ge (Grundlage)<br />Abschl&uuml;sse und Pfl&auml;sterungen von<br />Verkehrsfl&auml;chen</li>\n<li>Projektierung<br />Strassenprojektierung<br />Normposition-Katalog, Pauschale<br />Oberbau- und Bauleitung</li>\n<li>Technologie, Innovation<br />BIM / Digitalisierung - Planen und Ausf&uuml;hren<br />Grabenloses Bauen<br />Fl&uuml;ssigboden</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 40371,
+          "art": "Vorlesung",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Projektierung von Strassen"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Transport"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10197,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10197_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10234,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10234_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5010599,
+      "name": "Steiner",
+      "vorname": "Rolf"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 36132,
+      "kuerzel": "M_VPBau",
+      "bezeichnung": "Verkehrsplanung",
+      "url": "allModules/36132_M_VPBau.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Verkehrswegebau 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Transport 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2022,
+    "beginSemester": "FS",
+    "endJahr": 2023,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 40369,
+    "kuerzel": "M_VkBa1",
+    "bezeichnung": "Verkehrswegebau 1",
+    "url": "allModules/40369_M_VkBa1.json"
+  }
+}

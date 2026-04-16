@@ -1,0 +1,452 @@
+{
+  "id": 23311,
+  "kuerzel": "M_CN2",
+  "bezeichnung": "Computernetze 2",
+  "kreditpunkte": 6,
+  "lernziele": "<p>Der/die Studierende hat vertiefte Kenntnisse im Bereich Netzwerk Infrastrukturen f&uuml;r Firmen, Service-Provider und Internet Service Provider. Die Inhalte umfassen verschiedene Routing und Virtualisierungsans&auml;tze sowie die dazugeh&ouml;rigen Protokolle. Der/die Studierende ist in der Lage, einfache Designs zu erstellen und hat erste Konfigurationserfahrung zu den vermittelten Technologien gemacht.&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 23312,
+      "kuerzel": "CN2Prak",
+      "bezeichnung": "Computernetze 2 Praktikum",
+      "lernziele": "<p>Parallel zur theoretischen Vorlesung hat der Student erste praktische Erfahrungen <br />im Umgang mit den Netzkomponenten gewonnen. Er hat typische Netzsituationen <br />untersucht und kann die erlernte Theorie auf konkrete praktische Problem- <br />stellungen anwenden. </p>",
+      "planinhalt": "<p>Laborversuche zum Unterrichtsstoff (teilweise aus CN1)</p><p>Routing (OSPF)</p><p>Routing (IS-IS)</p><p>IPv6</p><p>Internet BGP</p><p>MPLS VPN</p><p>IP Multicast</p><p>SDN</p>",
+      "kurselemente": [
+        {
+          "id": 23313,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Computernetze 2 Praktikum"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Computer Networks 2 Lab"
+        }
+      ]
+    },
+    {
+      "id": 23314,
+      "kuerzel": "CN2",
+      "bezeichnung": "Computernetze 2 ",
+      "lernziele": "<p>Siehe Lernziele Modul</p>",
+      "planinhalt": "<p>Routing Vertiefung (OSPF multi-area)</p><p>Routing Vertiefung (IS-IS)</p><p>IPv6 Vertiefung</p><p>Routing (BGP)</p><p>Campus Design</p><p>Datacenter (classic) Design</p><p>MPLS-VPN</p><p>CDN QoS</p><p>IP Multicast</p><p>Overlay Networks</p><p>Software Defined Networks</p><p>Storage</p><p>Einf&uuml;hrung in IoT</p>",
+      "kurselemente": [
+        {
+          "id": 23315,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        },
+        {
+          "id": 23316,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 25,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Computernetze 2 "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Computer Networks 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10107,
+      "bezeichnung": "Network & Cloud-Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10107_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10127,
+      "bezeichnung": "Generalist",
+      "kuerzel": "GEN",
+      "url": "allStudies/10127_GEN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10173,
+      "bezeichnung": "Cyber Security ",
+      "kuerzel": "CySec",
+      "url": "allStudies/10173_CySec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10191,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10191_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10246,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10246_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10195,
+      "bezeichnung": "Network and Cloud Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10195_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10249,
+      "bezeichnung": "Cyber Security",
+      "kuerzel": "CySe",
+      "url": "allStudies/10249_CySe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10232,
+      "bezeichnung": "Network and Cloud Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10232_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10194,
+      "bezeichnung": "Cybersecurity",
+      "kuerzel": "CySec",
+      "url": "allStudies/10194_CySec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10231,
+      "bezeichnung": "Cybersecurity",
+      "kuerzel": "CySec",
+      "url": "allStudies/10231_CySec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10250,
+      "bezeichnung": "Network and Cloud Infrastructure",
+      "kuerzel": "NetC",
+      "url": "allStudies/10250_NetC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5015216,
+      "name": "Dellsperger",
+      "vorname": "Severin"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 28240,
+      "kuerzel": "M_CN1",
+      "bezeichnung": "Computernetze 1",
+      "url": "allModules/28240_M_CN1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 23311,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat des Kurses Computernetze 2 Praktikum</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Computernetze 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Computer Networks 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2014,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 11147,
+    "kuerzel": "M_CN2",
+    "bezeichnung": "Computernetze 2",
+    "url": "allModules/11147_M_CN2.json"
+  }
+}

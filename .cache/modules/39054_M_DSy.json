@@ -1,0 +1,443 @@
+{
+  "id": 39054,
+  "kuerzel": "M_DSy",
+  "bezeichnung": "Distributed Systems",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden sollen die grundlegenden Konzepte und Kategorien verteilter Systeme verstehen und erkl&auml;ren k&ouml;nnen. Sie werden in der Lage sein, Load-Balancing-Strategien, Container-Technologien und virtuelle Maschinen effektiv einzusetzen, die f&uuml;r die Skalierbarkeit und Effizienz moderner verteilter Systeme entscheidend sind. Zudem lernen sie, verschiedene Protokolle wie HTTP, WebSockets oder RPC in verteilten Systemen angemessen zu nutzen und sichere Authentifizierungsmechanismen zu integrieren. Ein grundlegendes Verst&auml;ndnis f&uuml;r Blockchain-Technologien, einschliesslich Bitcoin und Ethereum, wird ebenfalls vermittelt.</p>\n<p>&nbsp;</p>\n<p>Ein zentraler Bestandteil der Vorlesung ist die Implementierung eines verteilten Systems von Grund auf, das in einem praktischen Projekt Anwendung findet. Dabei werden typische Herausforderungen identifiziert und durch geeignete L&ouml;sungsstrategien bew&auml;ltigt, w&auml;hrend die Studierenden auch die Vor- und Nachteile verschiedener Architekturentscheidungen abw&auml;gen.</p>\n<p>&nbsp;</p>\n<p>Die genauen Themengebiete k&ouml;nnen variieren und werden in der ersten Vorlesung bekanntgegeben. Die Vorlesung wird im Voraus aufgezeichnet und jeweils vor der Vorlesungsstunde online zur Verf&uuml;gung gestellt. Die Themengebiete vergangener Vorlesungen sind ebenfalls online abrufbar: <a href=\"https://dsl.i.ost.ch/lect/\" target=\"_new\" rel=\"noopener\">https://dsl.i.ost.ch/lect/</a></p>",
+  "vorausgKenntnisse": "<p>Englisch</p>\n<p>(Dieses Modul wird teilweise in Englisch gehalten.)</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 39055,
+      "kuerzel": "DSy",
+      "bezeichnung": "Distributed Systems",
+      "lernziele": "",
+      "planinhalt": "<p>Die groben Lerninhalte umfassen die Einf&uuml;hrung in verteilte Systeme, einschliesslich ihrer grundlegenden Konzepte und Kategorien. Ein zentraler Bestandteil sind die praktischen &Uuml;bungen, in denen die Studierenden eine einfache verteilte Applikation implementieren m&uuml;ssen. Die genauen Lerninhalte k&ouml;nnen variieren und werden in der ersten Vorlesung bekanntgegeben. Lerninhalte vergangener Vorlesungen sind online abrufbar: <a href=\"https://dsl.i.ost.ch/lect/\" target=\"_new\" rel=\"noopener\">https://dsl.i.ost.ch/lect/</a>.</p>\n<p>&nbsp;</p>\n<p>In den &Uuml;bungen arbeiten die Studierenden in Gruppen an einer verteilten Applikation (Challenge Task DSy), die verschiedene Anforderungen erf&uuml;llen muss. Das erfolgreiche Umsetzen dieser Anforderungen ist Voraussetzung f&uuml;r das Bestehen der &Uuml;bungen und die Zulassung zur Pr&uuml;fung. Die Studierenden haben w&auml;hrend der &Uuml;bungszeit entweder vor Ort oder von Zuhause die M&ouml;glichkeit, an der Challenge Task zu arbeiten. Beispiele aus fr&uuml;heren Semestern sind ebenfalls online verf&uuml;gbar: <a href=\"https://dsl.i.ost.ch/lect/\" target=\"_new\" rel=\"noopener\">https://dsl.i.ost.ch/lect/</a>.</p>",
+      "kurselemente": [
+        {
+          "id": 39056,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        },
+        {
+          "id": 39057,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Distributed Systems"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Distributed Systems"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10127,
+      "bezeichnung": "Generalist",
+      "kuerzel": "GEN",
+      "url": "allStudies/10127_GEN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10161,
+      "bezeichnung": "Data Engineering & Machine Intelligence",
+      "kuerzel": "DaEngMaInt",
+      "url": "allStudies/10161_DaEngMaInt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10191,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10191_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10246,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10246_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10260,
+      "bezeichnung": "Digital Design",
+      "kuerzel": "DD",
+      "url": "allStudies/10260_DD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10159,
+          "kuerzel": "DD-WE",
+          "bezeichnung": "Webengineering",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10250,
+      "bezeichnung": "Network and Cloud Infrastructure",
+      "kuerzel": "NetC",
+      "url": "allStudies/10250_NetC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 10247,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10247_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 10173,
+      "bezeichnung": "Cyber Security ",
+      "kuerzel": "CySec",
+      "url": "allStudies/10173_CySec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10107,
+      "bezeichnung": "Network & Cloud-Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10107_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10108,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10108_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10192,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10192_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 10229,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10229_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10195,
+      "bezeichnung": "Network and Cloud Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10195_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 10232,
+      "bezeichnung": "Network and Cloud Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10232_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 10106,
+      "bezeichnung": "Application Design - Cloud Solutions",
+      "kuerzel": "ADCS",
+      "url": "allStudies/10106_ADCS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5015909,
+      "name": "Bocek",
+      "vorname": "Thomas"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 30040,
+      "kuerzel": "M_SE1",
+      "bezeichnung": "Software-Engineering 1",
+      "url": "allModules/30040_M_SE1.json"
+    },
+    {
+      "id": 32613,
+      "kuerzel": "M_Bsys1",
+      "bezeichnung": "Betriebssysteme 1",
+      "url": "allModules/32613_M_Bsys1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 10,
+      "kuerzel": "SG",
+      "bezeichnung": "St.Gallen (Informatik Raster)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 39054,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Nach Ank&uuml;ndigung, Abgabe erfolgreich gel&ouml;ste &Uuml;bungsaufgaben.</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Distributed Systems"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Distributed Systems"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 8,
+    "beginJahr": 2022,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 36700,
+    "kuerzel": "M_DS1",
+    "bezeichnung": "Distributed Systems & Blockchain",
+    "url": "allModules/36700_M_DS1.json"
+  }
+}

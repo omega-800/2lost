@@ -1,0 +1,269 @@
+{
+  "id": 49952,
+  "kuerzel": "M_IuK_III",
+  "bezeichnung": "Informations- und Kommunikationssysteme III",
+  "kreditpunkte": 10,
+  "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen Architektur, Komponenten und Operationen von Routern und Switches in grossen und komplexen Netzwerken beschreiben.</li><li>k&ouml;nnen Probleme in den Bereichen OSPF, EIGRP, STP und VTP sowohl in IPv4- als auch IPv6-Netzwerken beheben.</li><li>k&ouml;nnen DHCP- und DNS-Dienste in Netzwerken implementieren.</li><li>verstehen die Grundlagen der Kryptographie.</li><li>kennen Sicherheitsrisiken f&uuml;r Netzwerke und Webapplikationen und k&ouml;nnen diese absichern.</li><li>k&ouml;nnen native und webbasierte Anwendungen f&uuml;r mobile Ger&auml;te entwickeln.</li><li>k&ouml;nnen eine Webapplikationen basierend auf Webframeworks oder CMS-Systemen konzipieren und implementieren.</li><li>k&ouml;nnen ein Linux-System administrieren.</li><li>k&ouml;nnen mittels bash-Skripten ein Linux-System automatisieren.</li></ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 49953,
+      "kuerzel": "IuK_III_N",
+      "bezeichnung": "Netzwerksicherheit",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>kennen die Funktionsweise der grundlegenden kryptographischen Verfahren.</li>\n    <li>kennen die wichtigsten Bedrohungen und Risiken f&uuml;r die Netzwerksicherheit und k&ouml;nnen mit geeigneten Massnahmen reagieren.</li>\n    <li>k&ouml;nnen Netzwerke mit Hilfe von Firewalls, NAT, usw. absichern.</li>\n    <li>kennen die wichtigsten Bedrohungen von Webapplikationen und k&ouml;nnen mit geeigneten Massnahmen reagieren.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Grundlagen der Kryptographie (symmetrische und asymmetrische Verschl&uuml;sselung, Hashing-Verfahren)</li>\n    <li>Netzwerksicherheit (z.B. Intrusion Prevention, Firewalls, IPSec, NAT, DDOS, IPv6 Security)</li>\n    <li>Websicherheit (z.B. Cross-Site-Scripting, Phishing, SQL-Injection)</li>\n</ul>",
+      "empfLehrmittel": "Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen, Rechner&uuml;bungen",
+      "leistungsnachweis": "<p>Es&nbsp;findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen&nbsp;Computerkomunikation II, Mobile Applikationen (Web und Native) sowie Unix II&nbsp;statt.</p>",
+      "kurselemente": [
+        {
+          "id": 49954,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001551,
+          "name": "Bigger",
+          "vorname": "Beat"
+        }
+      ]
+    },
+    {
+      "id": 49955,
+      "kuerzel": "IuK_III_S",
+      "bezeichnung": "Computernetzwerke II",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>verstehen die Konfiguration und Fehlerbehebung von erweiterten Switching-Technologien wie VLANs, Rapid Spanning Tree Protocol (RSTP), Per-VLAN Spanning Tree Plus-Protocol (PVST +) und EtherChannel.</li>\n    <li>verstehen die Konfiguration und Fehlerbehebung von First-Hop-Redundancy Protokollen (HSRP) in einem Netzwerk.</li>\n    <li>verstehen die Konfiguration und Fehlerbehebung von WLAN-Router und Wireless-Clients.</li>\n    <li>Konfigurieren und Problembehandlung von Routern in einem komplexen gerouteten IPv4-oder IPv6-Netzwerk mit single area OSPF, multiarea OSPF, und Enhanced Interior Gateway Routing Protocol (EIGRP). </li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Grundprinzip des Spanning Tree Protokolls (STP)</li>\n    <li>Implementationen und Erweiterungen des Spanning Tree Protokolls (STP, RSTP, PVST+, VTP)</li>\n    <li>Link Aggregation Protokolle PaGP und LACP</li>\n    <li>First Hop Redundancy Protokolle HSRP, VRRP und GLBP</li>\n    <li>WLAN&nbsp; Grundlagen, Sicherheit und Konfiguration</li>\n    <li>Routingprotokolle OSPF (multiarea) und EIGRP</li>\n</ul>",
+      "bibliographie": "Literaturangaben:<br />\n<ul>\n    <li>Cisco Networking Academy: <span style=\"font-style: italic;\">CCNA Routing and Switching: Scaling Networks</span>. Online-Kurs.</li>\n</ul>",
+      "empfLehrmittel": "Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen, Rechner&uuml;bungen",
+      "leistungsnachweis": "<p>W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich&nbsp;findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen&nbsp;Netzwerksicherheit, Mobile Applikationen (Web und Native) sowie Unix II&nbsp;statt.</p>",
+      "kurselemente": [
+        {
+          "id": 49956,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001551,
+          "name": "Bigger",
+          "vorname": "Beat"
+        }
+      ]
+    },
+    {
+      "id": 49957,
+      "kuerzel": "IuK_III_W",
+      "bezeichnung": "Webapplikationen (Semesterprojekt)",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen Client-seitige Webapplikationen entwickeln.</li><li>k&ouml;nnen vollst&auml;ndige Webapplikation mittels Webframeworks erstellen.</li><li>k&ouml;nnen vollst&auml;ndige CMS-basierte Websites erstellen.</li></ul>",
+      "planinhalt": "<ul><li>Webserver (Apache)</li><li>JavaScript-Frameworks (z.B. jQuery, AngularJS)</li><li>Web-Frameworks (z.B. Zend Framework, TYPO3 Flow)</li><li>Content Management Systeme (z.B. WordPres, TYPO3)</li></ul>",
+      "empfLehrmittel": "Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen, Rechner&uuml;bungen",
+      "leistungsnachweis": "<p>W&auml;hrend der Unterrichtsphase wird ein Projket bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 49958,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001466,
+          "name": "Studer",
+          "vorname": "Martin"
+        }
+      ]
+    },
+    {
+      "id": 49959,
+      "kuerzel": "IuK_III_U",
+      "bezeichnung": "Unix II",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen mit den Herausforderungen der Unterst&uuml;tzung von barrierefreiem Zugang umgehen.</li><li>k&ouml;nnen bash-Skripte lesen, verstehen und anpassen.</li><li>k&ouml;nnen einfache bash-Skripte erstellen.</li><li>k&ouml;nnen allgemeine administrative Aufgaben erledigen und mit Log-Dateien umgehen.</li><li>k&ouml;nnen eine X11-Umgebung installieren und konfigurieren sowie einen Display Manager konfigurieren.</li><li>k&ouml;nnen Nutzer und Gruppen verwalten.</li><li>k&ouml;nnen zeitlich automatisierte Aufgaben erstellen.</li><li>k&ouml;nnen mit l&auml;nder- und standortspezifischen Problemen umgehen (z.B. bez&uuml;glich Zeiteinstellung)</li><li>k&ouml;nnen Email- und Druck-Services administrieren.</li><li>k&ouml;nnen Netzwerkkonfiguration verstehen und durchf&uuml;hren.</li><li>k&ouml;nnen ein System auf seine Sicherheit untersuchen und Sicherheitsvorgaben umsetzen, auch im Bereich Netzwerk und Verschl&uuml;sselung</li></ul>",
+      "planinhalt": "<ul><li><p>Bash-Skripting</p></li><li><p>GUI im Bereich LINUX</p></li><li><p>Barrirefreier Zugang</p></li><li><p>Systemadministration: User und Gruppen, Cron, Lokalisation, Zeit, Logging, Email, Druck, Netzwerkkonfiguration und -Pflege, Sicherheit</p></li></ul>",
+      "empfLehrmittel": "<p>Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen, Rechen&uuml;bungen</p>",
+      "leistungsnachweis": "<p>Es&nbsp;findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen&nbsp;Computerkommunikation II, Netzwerksicherheit sowei Mobile Applikationen (Web und Native)&nbsp;statt.</p>",
+      "kurselemente": [
+        {
+          "id": 49960,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001547,
+          "name": "Hauser",
+          "vorname": "Ulrich"
+        }
+      ]
+    },
+    {
+      "id": 49961,
+      "kuerzel": "IuK_III_M",
+      "bezeichnung": "Mobile Applikationen (Web und Native)",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Native Anwendungen f&uuml;r mobile Ger&auml;te am Beispiel Android</p><p>Die Studierenden</p><ul><li>kennen die Programmierkonzepte von Android, beispielsweise Intents, Activities, Services, Broadcast receivers, content providers.</li><li>k&ouml;nnen eine einfache GUI-basierte Applikation f&uuml;r Android schreiben, inklusive Databinding und Layouting. Die Studierenden k&ouml;nnen Ressourcen einsetzen.</li><li>kennen den Applikations-Lebenszyklus von Activities, Services, &hellip;</li><li>k&ouml;nnen erkl&auml;ren, was mit einer Applikation passiert, wenn a) ein Telefonanruf ansteht, b) der Speicher knapp wird, ...</li><li>kennen den Aufbau von Android. Stichworte: Dalvik Virtual Maschine, Bibilothek SQLite, HAL, &hellip;</li><li>kennen die Prinzipien zur Steuerung des Energieverbrauches f&uuml;r Android.</li><li>k&ouml;nnen die Daten von Sensoren, beispielsweise dem Lagesensor, auslesen.</li><li>k&ouml;nnen Gesten (Touch-Bedienung) in ihrer Applikation verwenden.</li></ul><p>&nbsp;</p><p>Webbasierte Anwendungen f&uuml;r mobile Ger&auml;te</p><p>Die Studierenden</p><ul><li>k&ouml;nnen die Unterschiede/Einschr&auml;nkungen einer webbasierten Anwendung f&uuml;r ein mobiles Ger&auml;t gegen&uuml;ber einer nativen Anwendung und gegen&uuml;ber Desktop-Anwendungen erl&auml;utern.</li><li>kennen verschiedene Varianten, webbasierte Anwendungen f&uuml;r mobile Ger&auml;te zu erstellen.</li><li>k&ouml;nnen einfache Webanwendungen f&uuml;r mobile Ger&auml;te erstellen basierend auf CSS-Frameworks erstellen.</li><li>k&ouml;nnen WebSockets f&uuml;r die Kommunikation zwischen Client und Server nutzen.</li></ul><p>&nbsp;</p><p>Short Range Communication</p><p>Die Studierenden</p><ul><li>kennen Bluetooth und NFC-Technologien. Sie k&ouml;nnen diese vergleichen und ihre Anwendungen aufzeigen.</li><li>haben mit konkreter Hardware drahtlose &Uuml;bertragungen durchgef&uuml;hrt.</li></ul>",
+      "planinhalt": "<p>Native Anwendungen f&uuml;r mobile Ger&auml;te am Beispiel Android:</p><ul><li>Aufbau Betriebssystem, Arbeiten mit Resourcen</li><li>Lebenszyklen, Sensoren, Touch/Gesten</li></ul><p>&nbsp;</p><p>Webbasierte Anwendungen f&uuml;r mobile Ger&auml;te</p><ul><li>Konzepte f&uuml;r webbasierte Anwendungen f&uuml;r mobile Ger&auml;te, z.B. CSS3 Media Queries</li><li>CSS-Frameworks f&uuml;r mobile Applikationen, z.B. Bootstrap</li><li>Nutzung von Apache Cordova f&uuml;r die Konvertierung in eine native App</li><li>Nutzung von WebSockets</li></ul><p><br />Short Range Communication</p><ul><li>ISO 13157 etc (NFC)</li><li>IEEE 802.15.1 (Bluetooth)</li></ul>",
+      "bibliographie": "<p>Script</p>",
+      "empfLehrmittel": "<p>Lehrgespr&auml;ch,&nbsp;&Uuml;bungen, Rechner&uuml;bungen</p>",
+      "leistungsnachweis": "<p>W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich&nbsp;findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen&nbsp;Computerkommunikation II, Netzwerksicherheit sowie Unix II&nbsp;statt.</p>",
+      "kurselemente": [
+        {
+          "id": 49962,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001466,
+          "name": "Studer",
+          "vorname": "Martin"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 10380,
+      "bezeichnung": "Informations- und Kommunikationssysteme",
+      "kuerzel": "IKS",
+      "url": "allStudies/10380_IKS.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 10378,
+      "bezeichnung": "Informations- und Kommunikationssysteme",
+      "kuerzel": "IKS",
+      "url": "allStudies/10378_IKS.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 7
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2001551,
+      "name": "Bigger",
+      "vorname": "Beat"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 49941,
+      "kuerzel": "M_IuK_II",
+      "bezeichnung": "Informations- und Kommunikationssysteme II",
+      "url": "allModules/49941_M_IuK_II.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 49963,
+      "kuerzel": "M_IuK_IV",
+      "bezeichnung": "Informations- und Kommunikationssysteme IV",
+      "url": "allModules/49963_M_IuK_IV.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 3,
+      "kuerzel": "CH",
+      "bezeichnung": "Chur",
+      "ort": "Chur"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 49952,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Am Ende des Semesters findet eine abgesetzte Modulschlusspr&uuml;fung in vier Teilen statt. Die Kurse&nbsp;Computernetzwerke II, Netzwerksicherheit, Mobile Applikationen (Web und Native) sowie Unix II&nbsp;bilden je einen Teil der abgesetzten Modulschlusspr&uuml;fung.</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Information and Communication Systems III"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2016,
+    "beginSemester": "HS",
+    "endJahr": 2016,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 48524,
+    "kuerzel": "M_IuK_III",
+    "bezeichnung": "Informations- und Kommunikationssysteme III",
+    "url": "allModules/48524_M_IuK_III.json"
+  },
+  "nachfolger": {
+    "id": 49952,
+    "kuerzel": "M_IuK_III",
+    "bezeichnung": "Informations- und Kommunikationssysteme III",
+    "url": "allModules/49952_M_IuK_III.json"
+  }
+}

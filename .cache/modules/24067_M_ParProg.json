@@ -1,0 +1,277 @@
+{
+  "id": 24067,
+  "kuerzel": "M_ParProg",
+  "bezeichnung": "Parallele Programmierung",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Programmierung von parallelen und nebenl&auml;ufigen Systemen</p>\n<ul>\n    <li>Grundlagen der nebenl&auml;ufigen und parallelen Programmierung (Threads, Synchronisation, Korrektheits- und Fairnessbedingungen, Thread Pools, asynchrone Programmierung, Speichermodelle) kennen und verstehen. </li>\n    <li>Entwurf und Implementation von nebenl&auml;ufigen und parallelen Programmen in modernen verbreiteten Technologien (z.B. .NET C#, Java) umsetzen k&ouml;nnen. </li>\n    <li>Datenstrukturen, Algorithmen und Design Patterns zur effizienten Parallelisierung (Lock-Free/Wait-Free Data Structures, Recursive Parallel, Producer/Consumer u.a.) kennen und anwenden k&ouml;nnen. </li>\n    <li>Weitergehende Concurrency-Modelle und Technologien (Actors/CSP, Software Transactional Memory, Cluster-Parallelisierung mit MPI, GPU-Parallelisierung) kennen und einsetzen k&ouml;nnen.<br /></li>\n</ul>",
+  "vorausgKenntnisse": "<p>Englisch und sicherer Umgang mit Eclipse und MS Visual Studio von Vorteil</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 24068,
+      "kuerzel": "ParProg",
+      "bezeichnung": "Parallele Programmierung",
+      "planinhalt": "<p>Multi-Threading und Synchronisation</p>\n<ul>\n    <li>Einf&uuml;hrung in die nebenl&auml;ufige/parallele Programmierung und zugrundeliegenden Systemarchitekturen </li>\n    <li>Multi-Threading mit .NET und/oder Java </li>\n    <li>Kritische Abschnitte und Synchronisationsmechanismen </li>\n    <li>Monitor-Konzept und deren Umsetzung in g&auml;ngigen Sprachen </li>\n    <li>Spezifische Synchronisationsprimitiven (Semaphore, Reader-Writer Locks, Latches, Barrieren u.a.) </li>\n    <li>Korrektheits- und Fairnessbedingungen; Problematik von Race Conditions, Deadlocks und Starvations<br /></li>\n</ul>\n<p>Thread Pools und effiziente Parallelisierung</p>\n<ul>\n    <li>Thread Pools: Mechanismus, Eignung und Limitationen </li>\n    <li>Task- und Daten-Parallelit&auml;t </li>\n    <li>Parallele Algorithmen (Sortierung, Suchen etc.) </li>\n    <li>Asynchrone Programmierung </li>\n    <li>GUI und Nebenl&auml;ufigkeit </li>\n    <li>Entwurfsmuster der Nebenl&auml;ufigkeit (Producer/Consumer, Concurrent Pipelines, Reader/Writer, Recursive Parallel) </li>\n    <li>Speichermodelle: Atomarit&auml;t, Sichtbarkeit und Optimierung </li>\n    <li>Lock-Free &amp; Wait-Free Datenstrukturen </li>\n</ul>\n<p>Fortgeschrittene Nebenl&auml;ufigkeitsmodelle </p>\n<ul>\n    <li>Verteilte Parallelisierung mit Actors/CSP </li>\n    <li>Cluster Computing mit MPI </li>\n    <li>Software Transactional Memory </li>\n    <li>Vektorparallelisierung; GPU / Coprozessor-Parallelisierung </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 24069,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 24070,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Parallele Programmierung"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Parallel Programming"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10108,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10108_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10127,
+      "bezeichnung": "Generalist",
+      "kuerzel": "GEN",
+      "url": "allStudies/10127_GEN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10229,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10229_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 541091,
+      "name": "Bläser",
+      "vorname": "Luc"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 15687,
+      "kuerzel": "M_Prog1",
+      "bezeichnung": "Programmieren 1: Programmieren mit Java",
+      "url": "allModules/15687_M_Prog1.json"
+    },
+    {
+      "id": 16763,
+      "kuerzel": "M_Bsys1",
+      "bezeichnung": "Betriebssysteme 1",
+      "url": "allModules/16763_M_Bsys1.json"
+    },
+    {
+      "id": 22288,
+      "kuerzel": "M_AD",
+      "bezeichnung": "Programmieren 2: Algorithmen und Datenstrukturen",
+      "url": "allModules/22288_M_AD.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 24067,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Erfolgreiche Teilnahme an den &Uuml;bungen.</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Parallele Programmierung"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Parallel Programming"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2014,
+    "beginSemester": "FS",
+    "endJahr": 2014,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 11031,
+    "kuerzel": "M_PnProg",
+    "bezeichnung": "Parallel- und Netzwerkprogrammierung",
+    "url": "allModules/11031_M_PnProg.json"
+  },
+  "nachfolger": {
+    "id": 24067,
+    "kuerzel": "M_ParProg",
+    "bezeichnung": "Parallele Programmierung",
+    "url": "allModules/24067_M_ParProg.json"
+  }
+}

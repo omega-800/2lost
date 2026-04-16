@@ -1,0 +1,243 @@
+{
+  "id": 45771,
+  "kuerzel": "M_Inf",
+  "bezeichnung": "Informatik",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden </p><ul><li>können auf systematische Art und Weise Algorithmen und Datenstrukturen entwickeln.</li><li>können prozedural und datenbezogen abstrahieren.</li><li>beherrschen eine moderne höhere Programmiersprache.</li><li>können grundlegende Methoden des Software Engineerings verwenden.</li></ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 45772,
+      "kuerzel": "Inf",
+      "bezeichnung": "Informatik II",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden </p><ul><li>können auf systematische Art und Weise Algorithmen und Datenstrukturen entwickeln.</li><li>können prozedural und datenbezogen abstrahieren.</li><li>beherrschen eine moderne höhere Programmiersprache.</li><li>können grundlegende Methoden des Software Engineerings verwenden..</li></ul>",
+      "planinhalt": "Programmieren mit einer modernen höheren Programmiersprache: Klassen, objektorientiertes Programmieren",
+      "bibliographie": "Hanspeter Mössenböck: Sprechen Sie Java?; dpunkt-Verlag",
+      "empfLehrmittel": "Klassenunterricht mit Lehrvortrag, Übungen, Selbststudium, Gruppenarbeiten, etc.",
+      "bemerkungKurs": "Die Unterrichtssprache ist Deutsch, die Unterrichtsunterlagen sind jedoch zum Teil auf Englisch.",
+      "leistungsnachweis": "Es findet eine abgesetzte Modulschlussprüfung statt.",
+      "kurselemente": [
+        {
+          "id": 45773,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000258,
+          "name": "Grun",
+          "vorname": "Rolf"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10184,
+          "kuerzel": "GLM-G6",
+          "bezeichnung": "Grundlagenmodule Gruppe 6",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10184,
+          "kuerzel": "GLM-G6",
+          "bezeichnung": "Grundlagenmodule Gruppe 6",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000258,
+      "name": "Grun",
+      "vorname": "Rolf"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 45766,
+      "kuerzel": "M_IIW",
+      "bezeichnung": "Informatik & IT Wissen",
+      "url": "allModules/45766_M_IIW.json"
+    }
+  ],
+  "mengen": [
+    {
+      "id": 52,
+      "name": "Inf",
+      "dModMengeArt": 5701,
+      "module": [
+        {
+          "id": 45771,
+          "kuerzel": "M_Inf",
+          "bezeichnung": "Informatik",
+          "url": "allModules/45771_M_Inf.json"
+        },
+        {
+          "id": 46176,
+          "kuerzel": "M_Inf_bb",
+          "bezeichnung": "Informatik (bb)",
+          "url": "allModules/46176_M_Inf_bb.json"
+        },
+        {
+          "id": 46278,
+          "kuerzel": "M_Inf",
+          "bezeichnung": "Informatik",
+          "url": "allModules/46278_M_Inf.json"
+        },
+        {
+          "id": 46281,
+          "kuerzel": "M_Inf_bb",
+          "bezeichnung": "Informatik (bb)",
+          "url": "allModules/46281_M_Inf_bb.json"
+        },
+        {
+          "id": 50590,
+          "kuerzel": "M_Inf",
+          "bezeichnung": "Informatik",
+          "url": "allModules/50590_M_Inf.json"
+        },
+        {
+          "id": 50598,
+          "kuerzel": "M_Inf_bb",
+          "bezeichnung": "Informatik (bb)",
+          "url": "allModules/50598_M_Inf_bb.json"
+        },
+        {
+          "id": 52321,
+          "kuerzel": "M_Inf",
+          "bezeichnung": "Informatik",
+          "url": "allModules/52321_M_Inf.json"
+        },
+        {
+          "id": 52324,
+          "kuerzel": "M_Inf_bb",
+          "bezeichnung": "Informatik (bb)",
+          "url": "allModules/52324_M_Inf_bb.json"
+        },
+        {
+          "id": 52948,
+          "kuerzel": "M_Inf",
+          "bezeichnung": "Informatik",
+          "url": "allModules/52948_M_Inf.json"
+        },
+        {
+          "id": 52951,
+          "kuerzel": "M_Inf_bb",
+          "bezeichnung": "Informatik (bb)",
+          "url": "allModules/52951_M_Inf_bb.json"
+        }
+      ]
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 45819,
+      "kuerzel": "M_EuR_I",
+      "bezeichnung": "Elektronik und Regelungstechnik I",
+      "url": "allModules/45819_M_EuR_I.json"
+    },
+    {
+      "id": 45857,
+      "kuerzel": "M_InI_I",
+      "bezeichnung": "Ingenieurinformatik I",
+      "url": "allModules/45857_M_InI_I.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 2,
+      "kuerzel": "WSG",
+      "bezeichnung": "Waldau St.Gallen",
+      "ort": "St. Gallen"
+    },
+    {
+      "id": 3,
+      "kuerzel": "CH",
+      "bezeichnung": "Chur",
+      "ort": "Chur"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 45771,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Informatics"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2009,
+    "endSemester": "FS"
+  }
+}

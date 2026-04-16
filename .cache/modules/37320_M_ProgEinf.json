@@ -1,0 +1,190 @@
+{
+  "id": 37320,
+  "kuerzel": "M_ProgEinf",
+  "bezeichnung": "Einführung Programmierung",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n<li>Grundlagen der Programmiersprache C kennen und eigene Programme schreiben.</li>\n<li>C-Programme f&uuml;r ein microcontroller-basiertes Zielsystem (<em>Arduino</em>) verstehen und schreiben.</li>\n<li>Algorithmen zur L&ouml;sung von Problemen entwickeln, beschreiben und implementieren k&ouml;nnen.</li>\n</ul>",
+  "vorausgKenntnisse": "",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 37321,
+      "kuerzel": "ProgEinf",
+      "bezeichnung": "Einführung Programmierung",
+      "planinhalt": "<p>Allgemeine Grundlagen</p>\n<ul>\n<li>Aufbau eines Rechnersystems</li>\n<li>Werkzeuge der Softwareentwicklung</li>\n<li>Syntax und Semantik</li>\n</ul>\n<p>Grundlagen zur Programmierung der Physical Computing Plattform <em>Arduino</em></p>\n<ul>\n<li>Einf&uuml;hrung in die Programmiersprache C f&uuml;r Arduino (Programmaufbau, Konstanten, Datentypen, Deklarationen, Ausdr&uuml;cke, Anweisungen, Operatoren, Kontrollstrukturen, Funktionen, arduino-spezifische Funktionen)</li>\n<li>Grundlagen analoger und digitaler Signale, A/D-Wandlung</li>\n<li>Ansteuerung von analogen und digitalen Sensoren und Aktoren (Taster, Temperatur-, Licht-, und Distanzsensoren, LEDs, Motoren).</li>\n</ul>\n<p>Praktikum mit Arduino</p>\n<ul>\n<li>Entwickeln von C-Programmen</li>\n<li>Aufbau von Hardware-Schaltungen mit Sensoren und Aktoren, sowie Schreiben von&nbsp; C-Programmen zur Ansteuerung der Hardware</li>\n<li>Testen, Fehlersuche</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 37322,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 37323,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Einführung Programmierung"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Programming Basics"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10243,
+      "bezeichnung": "Digitalisierung",
+      "kuerzel": "M-I-Dig",
+      "url": "allStudies/10243_M-I-Dig.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1184,
+      "name": "Kottmann",
+      "vorname": "Markus"
+    }
+  ],
+  "mengen": [
+    {
+      "id": 45,
+      "name": "Aequivalenz",
+      "dModMengeArt": 5701,
+      "module": [
+        {
+          "id": 28366,
+          "kuerzel": "M_ProgC",
+          "bezeichnung": "Programmieren in C",
+          "url": "allModules/28366_M_ProgC.json"
+        },
+        {
+          "id": 37320,
+          "kuerzel": "M_ProgEinf",
+          "bezeichnung": "Einführung Programmierung",
+          "url": "allModules/37320_M_ProgEinf.json"
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 37320,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "Testat",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Einführung Programmierung"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Programming Basics"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2020,
+    "beginSemester": "HS",
+    "endJahr": 2023,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 25127,
+    "kuerzel": "M_ProgEinf",
+    "bezeichnung": "Einführung Programmierung",
+    "url": "allModules/25127_M_ProgEinf.json"
+  },
+  "nachfolger": {
+    "id": 37320,
+    "kuerzel": "M_ProgEinf",
+    "bezeichnung": "Einführung Programmierung",
+    "url": "allModules/37320_M_ProgEinf.json"
+  }
+}

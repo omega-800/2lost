@@ -1,0 +1,75 @@
+{
+  "id": 64697,
+  "kuerzel": "M_arch.W4",
+  "bezeichnung": "Werkstatt 4",
+  "kreditpunkte": 2,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 64698,
+      "kuerzel": "arch.W4",
+      "bezeichnung": "Werkstatt 4",
+      "kreditpunkte": 0,
+      "kurselemente": [
+        {
+          "id": 64699,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Werkstatt 4"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10485,
+      "bezeichnung": "Architektur",
+      "kuerzel": "ARCH",
+      "url": "allStudies/10485_ARCH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10215,
+          "kuerzel": "A_Synt",
+          "bezeichnung": "Synthese",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 79939,
+      "name": "Albrecht",
+      "vorname": "Katrin"
+    }
+  ],
+  "orte": [
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Werkstatt 4"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 10439,
+  "kuerzel": "MARE_WR",
+  "bezeichnung": "Wirtschaftsrecht",
+  "versionKuerzel": "STD_23",
+  "art": "Vertiefung",
+  "parent": {
+    "id": 10438,
+    "kuerzel": "MARE_VZ",
+    "bezeichnung": "Management & Recht VZ",
+    "url": "allStudies/10438_MARE_VZ.json"
+  },
+  "zuordnungen": [
+    {
+      "id": 55632,
+      "kuerzel": "M_mare.DATE",
+      "bezeichnung": "Datenschutz",
+      "url": "allModules/55632_M_mare.DATE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 55611,
+      "kuerzel": "M_mare.HARE",
+      "bezeichnung": "Haftungsrecht",
+      "url": "allModules/55611_M_mare.HARE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 55674,
+      "kuerzel": "M_mare.OEWR",
+      "bezeichnung": "Öffentliches Wirtschaftsrecht",
+      "url": "allModules/55674_M_mare.OEWR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 65289,
+      "kuerzel": "M_mare.WSRE_V1",
+      "bezeichnung": "Wirtschaftsstraf- und Strafprozessrecht (VM)",
+      "url": "allModules/65289_M_mare.WSRE_V1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "id": 48980,
+  "kuerzel": "M_VP_14717",
+  "bezeichnung": "Antriebstechnik im Kontext der Mechatronik",
+  "kreditpunkte": 15,
+  "lernziele": "<p>Fachkompetenzen:</p>\n<ul>\n    <li>Antriebstechnik, Modellbildung, Regelung.</li>\n    <li>Zur elektronischen Kommutierung eines Elektromotors k&ouml;nnen drei Gr&ouml;ssen gemessen werden: Winkel, Spannung und Strom.</li>\n    <li>Die Studierenden k&ouml;nnen f&uuml;r verschiedene Anwendungen die geeignetste Kombination an Messungen ausw&auml;hlen und diese Wahl fachlich fundiert begr&uuml;nden.</li>\n</ul>\n<p>Methodenkompetenzen:</p>\n<ul>\n    <li>Analyse, Kreativit&auml;t, vernetztes Denken.</li>\n    <li>Die Studierenden k&ouml;nnen die Simulationswerkzeuge MATLAB/Simulink/Simscape und Plex einsetzen, um den Einfluss der Messungen auf verschiedenen Kommutierungsverfahren experimentell zu untersuchen. </li>\n</ul>\n<p>Sozialkompetenzen:</p>\n<ul>\n    <li>Kommunikations- und Kooperationsf&auml;higkeit</li>\n</ul>\n<p>Selbstkompetenzen:</p>\n<ul>\n    <li>Selbst&auml;ndigkeit, Verantwortlichkeit</li>\n</ul>",
+  "vorausgKenntnisse": "Bachelor-Studium Systemtechnik",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 48981,
+      "kuerzel": "VP_1471701",
+      "bezeichnung": "Elektronische Kommutierung eines Gleichstrommotors",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Fachkompetenzen:</p>\n<ul>\n    <li>Antriebstechnik, Modellbildung, Regelung</li>\n</ul>\n<p>Methodenkompetenzen:</p>\n<ul>\n    <li>Analyse, Kreativit&auml;t, vernetztes Denken </li>\n</ul>\n<p>Sozialkompetenzen:</p>\n<ul>\n    <li>Kommunikations- und Kooperationsf&auml;higkeit</li>\n</ul>\n<p>Selbstkompetenzen:</p>\n<ul>\n    <li>Selbst&auml;ndigkeit, Verantwortlichkeit</li>\n</ul>",
+      "planinhalt": "<p>Unterschiedliche Verfahren zur elektronischen Kommutierung. Nutzen der Messgr&ouml;ssen Winkel, Spannung oder Strom zur Kommutierung. Modellierung und Simulation der Verfahren. Bewerten der Vor- und Nachteile.</p>\n<p>Aufgabe:&nbsp;Selbstst&auml;ndiges Erarbeiten der obigen&nbsp;Lerninhalte <br />Lieferobjekte:&nbsp;Projekt, Bericht, Schlusspr&auml;sentation,&nbsp;Publikation</p>",
+      "bibliographie": "<p>nach Bedarf</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "Das zu bearbeitende Projekt wird mittels Bericht und Schlusspr&auml;sentation bewertet.",
+      "kurselemente": [
+        {
+          "id": 48982,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001510,
+          "name": "Kirchhof",
+          "vorname": "Jürgen"
+        }
+      ]
+    },
+    {
+      "id": 48983,
+      "kuerzel": "VP_1471702",
+      "bezeichnung": "Veröffentlichung",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden k&ouml;nnen ihr Fachwissen in Form einer Ver&ouml;ffentlichung darstellen.</p>",
+      "planinhalt": "<ul>\n    <li>Struktur einer Ver&ouml;ffentlichung</li>\n    <li>Komprimieren der Fachinhalte</li>\n    <li>Eingeben eines Ver&ouml;ffentlichungsvorschlags</li>\n    <li>wenn m&ouml;glich, Pr&auml;sentieren auf einer Konferenz </li>\n</ul>",
+      "bibliographie": "<p>nach Bedarf</p>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "leistungsnachweis": "Der Kurs wird mit einem Bericht bewertet.",
+      "kurselemente": [
+        {
+          "id": 48984,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001510,
+          "name": "Kirchhof",
+          "vorname": "Jürgen"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2001510,
+      "name": "Kirchhof",
+      "vorname": "Jürgen"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Drive Technology in Mechatronics"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2014,
+    "beginSemester": "HS",
+    "endJahr": 2014,
+    "endSemester": "HS"
+  }
+}

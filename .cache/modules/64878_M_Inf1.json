@@ -1,0 +1,219 @@
+{
+  "id": 64878,
+  "kuerzel": "M_Inf1",
+  "bezeichnung": "Informatik 1: Einführung in die Programmierung",
+  "kreditpunkte": 5,
+  "lernziele": "<p>Die Studierenden erlernen das Programmieren und wenden es in verschiedenen Applikationsszenarien an.</p>",
+  "vorausgKenntnisse": "<p>Parallel sollten die Module Physik 1 und Analysis 1 besucht werden.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 64879,
+      "kuerzel": "Inf_P",
+      "bezeichnung": "Einführung in die Programmierung",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>k&ouml;nnen auf systematische Art und Weise Programme entwickeln.</li>\n<li>k&ouml;nnen abstrahieren.</li>\n<li>k&ouml;nnen Algorithmen, Datenstrukturen und Klassen entwerfen.</li>\n<li>kennen wichtige Bibliotheken (numpy, matplotlib)</li>\n<li>beherrschen die Programmiersprache Python.</li>\n<li>k&ouml;nnen ein einfaches eingebettetes System (mit Sensorik und Aktorik) programmieren.</li>\n</ul>",
+      "planinhalt": "<p>In diesem Kurs werden die grundlegenden Konzepte (Funktionen, Bedingte Anweisungen, Schleifen, elementare Datenstrukturen, Klassen) der Programmierung anhand der Programmiersprache Python behandelt.&nbsp;</p>\n<p>Dazu kommt die Einf&uuml;hrung in wichtige Bibliotheken wie numpy und matplotlib f&uuml;r das wissenschaftliche Rechnen.</p>\n<p>Es wird die Programmierung eines einfachen eingebetteten Systems behandelt.</p>",
+      "bibliographie": "<p>Allen Downey: Think Python, online-Ressourcen</p>",
+      "empfLehrmittel": "Klassenunterricht mit Lehrvortrag, Übungen, Selbststudium, Gruppenarbeiten, etc.",
+      "bemerkungKurs": "<p>Die Unterrichtsprache ist Deutsch, die Unterrichtsunterlagen sind zum Teil auf Englisch.</p>",
+      "leistungsnachweis": "<p>Es findet eine Modulschlusspr&uuml;fung statt.</p>",
+      "kurselemente": [
+        {
+          "id": 64880,
+          "art": "Klassenunterricht",
+          "anzLektionen": 6,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002823,
+          "name": "Pawlitzek",
+          "vorname": "René"
+        }
+      ]
+    },
+    {
+      "id": 64883,
+      "kuerzel": "Inf1_A",
+      "bezeichnung": "Autonome Roboter",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>kennen die Grundlagen der Roboterprogrammierung .</li>\n<li>kennen die drei wesentlichen Schritte der Roboterprogrammierung: verbale Beschreibung, Zustandsdiagramm, Steuerprogramm.</li>\n<li>k&ouml;nnen eigenst&auml;ndig Steuerprogramme f&uuml;r Roboteraufgaben entwickeln, die auf einem Simulator und einem realen Roboter laufen.</li>\n</ul>",
+      "planinhalt": "<p>In diesem digital unterst&uuml;tzten Selbststudienkurs geht es um die Programmierung eines Schulroboters. Die Hardware und ein digitaler Zwilling werden vorgestellt und die Begriffe Sensor und Aktor werden eingef&uuml;hrt. Es wird gezeigt, wie die Befehle des Steuerprogramms an den Roboter &uuml;bertragen werden.&nbsp;</p>\n<p>Die Roboterprogrammierung wird anhand eines dreistufigen Prozesses beschrieben: verbale Beschreibung des Problems, Entwicklung eines Zustandsdiagramms in UML und &Uuml;bersetzung des Zustandsdiagramms in ein Steuerprogramm.&nbsp;</p>\n<p>Die Steuerprogramme werden in einem Simulator getestet bevor sie den realen Roboter steuern.&nbsp;</p>\n<p>Es wird eine Reihe von Aufgaben von den autonomen Robotern gel&ouml;st.</p>",
+      "bibliographie": "<p>Anleitung, Video Tutoriels</p>",
+      "empfLehrmittel": "<p>Begleitetes Selbststudium</p>",
+      "leistungsnachweis": "<p>Es findet ein Projekt und eine Modulschlusspr&uuml;fung statt.</p>",
+      "kurselemente": [
+        {
+          "id": 64884,
+          "art": "Selbststudium",
+          "anzLektionen": 0,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002823,
+          "name": "Pawlitzek",
+          "vorname": "René"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 5
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 5
+        },
+        {
+          "id": 10184,
+          "kuerzel": "GLM-G6",
+          "bezeichnung": "Grundlagenmodule Gruppe 6",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 5
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 5
+        },
+        {
+          "id": 10184,
+          "kuerzel": "GLM-G6",
+          "bezeichnung": "Grundlagenmodule Gruppe 6",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10284,
+      "bezeichnung": "Mechatronik BB",
+      "kuerzel": "MT_BB",
+      "url": "allStudies/10284_MT_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10285,
+      "bezeichnung": "Mechatronik VZ",
+      "kuerzel": "MT_VZ",
+      "url": "allStudies/10285_MT_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 5
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002823,
+      "name": "Pawlitzek",
+      "vorname": "René"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 11,
+      "kuerzel": "LSG",
+      "bezeichnung": "Lerchenfeld St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 64878,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Am Ende des Semesters findet eine schriftliche Modulschlusspr&uuml;fung (Dauer 90 Minuten) &uuml;ber beide Kurse statt.</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Computer Science 1: Introduction into Programming "
+    }
+  ],
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2026,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 56317,
+    "kuerzel": "M_Inf1",
+    "bezeichnung": "Informatik 1: Einführung in die Programmierung",
+    "url": "allModules/56317_M_Inf1.json"
+  }
+}

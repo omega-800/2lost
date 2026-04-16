@@ -1,0 +1,188 @@
+{
+  "id": 54118,
+  "kuerzel": "M_TuIT_EVA_1060",
+  "bezeichnung": "Packaging von Halbleiterbauelementen: Modellierung und Simulation",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Integrierte Schaltkreise sind aus vielen Gr&uuml;nden mechanischen Belastungen ausgesetzt: Die Belastung kann durch den Herstellungsprozess der Wafer, durch die Verpackungsmaterialien, insbesondere Kunststoffkomponenten, durch das Aufl&ouml;ten des Geh&auml;uses auf eine Leiterplatte, durch Spritzgussprozesse zur Herstellung eines Kunststoff-gekapselten Moduls, durch &auml;ussere Kr&auml;fte wie hydrostatischen Druck und Montagebeschr&auml;nkungen verursacht werden.&nbsp;<br />Um die Wirkung der entstehenden mechanischen Spannungen beim Vergiessen eines Mikrochips auf die integrierten Schaltkreise zu verstehen, sollen folgende Effekte studiert, mathematisch beschrieben, pr&auml;sentiert und zusammengefasst werden:</p>\n<ol>\n<li>Viskoelastizit&auml;t der Polymere: empirische und konstitutive Modelle, Prony series, Maxwell-Modell, viscoelastic simple materials</li>\n<li>Planarer Hall-Effekt</li>\n<li>Piezo-Hall Effekt</li>\n<li>Leitf&auml;higkeit in Halbleiter-Elementen, pn-&Uuml;bergang, MOSFET, Raumladungszone, Junction-Effect</li>\n</ol>",
+  "vorausgKenntnisse": "<p>Grundlagen der Mathematik und Informatik, wie sie im Bachelor-Studiengang Systemtechnik (OST) und in den FTP bzw. TSM-Modulen des MSE vermittelt werden.<br />Programmierkenntnisse in Python und/oder MATLAB.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 54119,
+      "kuerzel": "TuIT_EVA_1060",
+      "bezeichnung": "Semiconductor Packaging: Viskoelastizität und Piezo-Hall-Effekt",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Integrierte Schaltkreise sind aus vielen Gr&uuml;nden mechanischen Belastungen ausgesetzt: Die Belastung kann durch den Herstellungsprozess der Wafer, durch die Verpackungsmaterialien, insbesondere Kunststoffkomponenten, durch das Aufl&ouml;ten des Geh&auml;uses auf eine Leiterplatte, durch Spritzgussprozesse zur Herstellung eines Kunststoff-gekapselten Moduls, durch &auml;ussere Kr&auml;fte wie hydrostatischen Druck und Montagebeschr&auml;nkungen verursacht werden.&nbsp;<br />Um die Wirkung der entstehenden mechanischen Spannungen beim Vergiessen eines Mikrochips auf die integrierten Schaltkreise zu verstehen, sollen folgende Effekte studiert, mathematisch beschrieben, pr&auml;sentiert und zusammengefasst werden:</p>\n<ol>\n<li>Viskoelastizit&auml;t der Polymere: empirische und konstitutive Modelle, Prony series, Maxwell-Modell, viscoelastic simple materials</li>\n<li>Planarer Hall-Effekt</li>\n<li>Piezo-Hall Effekt</li>\n<li>Leitf&auml;higkeit in Halbleiter-Elementen, pn-&Uuml;bergang, MOSFET, Raumladungszone, Junction-Effect</li>\n</ol>",
+      "planinhalt": "<ul>\n<li>Einarbeitung in die Theorie der Viskoelastizit&auml;t</li>\n<li>Einarbeitung in die Theorie von Halbleiterbauelementen (pn-Junction, Junction-Effect, MOSFET)</li>\n<li>Studium des Hall-Effekts und des Piezo-Hall-Effekts in Silizium</li>\n<li>Zusammenfassung in Form eines Jupyter-Notebook</li>\n<li>Diskussion im Seminar</li>\n</ul>",
+      "bibliographie": "<p>[1.] Popovic, R. S.: Hall Effect Devices, IoP, Institute of Physics Publishing (2004)<br />[2.] Cesaretti, J.M.: Mechanical Stress and Stress Compensation in Hall Sensors, Dissertation, Georgia Institute of Technology, 2008<br />[3.] Nhan Phan-Tien, Nam Mai-Duy: Understanding Viscoelasticity, An introduction to Rheologiy, 3rd edition, Graduate Texts in Physics, Springer, 2027<br />[4.] Tschoegl, N.W.: The Phenomenological Theory of Linear Viscoelastic Behaviour, An Introduction, Springer Berlin, 1989<br />[5.] S. L. Simon, et al: Modeling the Evolution of the Dynamic Mechanical Properties of a Commercial Epoxy During Cure after Gelation, John Wiley &amp; Sons, Inc.* J Appl. Polym Sci 76: 495&ndash;508, 2000<br />[6.] Yozo Kanda, A Graphical Represenation of the Piezoresistance Coefficients in Silicon, IEEE Trans. On Electron Devices, Vol. ED-29, No. 1, January 1982<br />[7.] Ausserlechner, Udo: The piezo-Hall effect in n-silicon for arbitrary crystal orientation, https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1426380<br />[8.] B. H&auml;lg, Piezo-Hall coefficients of ntype silicon, Journal of Applied Physics 64, 276 (1988); doi: 10.1063/1.341422, http://dx.doi.org/10.1063/1.341422<br />[9.] Ch Schott, P.-A Besse, R.S Popovic, Planar Hall effect in the vertical Hall sensor, Sensors and Actuators, A: Physical, Volume 85, Issues 1&ndash;3, 2000, Pages 111-115, ISSN 0924-4247, https://doi.org/10.1016/S0924-4247(00)00328-9. and<br />https://www.sciencedirect.com/science/article/pii/S0924424700003289</p>",
+      "empfLehrmittel": "<ul>\n<li>Problem Based Learning</li>\n<li>Selbststudium, Literatur-Studium</li>\n<li>Programmieren</li>\n</ul>",
+      "leistungsnachweis": "<p>Abschlussbericht oder eine Publikation in einem Fachjournal.</p>",
+      "kurselemente": [
+        {
+          "id": 54120,
+          "art": "Ergänzende Veranstaltung",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002668,
+          "name": "Würsch",
+          "vorname": "Christoph"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002668,
+      "name": "Würsch",
+      "vorname": "Christoph"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2023,
+    "beginSemester": "FS",
+    "endJahr": 2023,
+    "endSemester": "FS"
+  }
+}

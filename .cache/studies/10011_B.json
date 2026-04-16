@@ -1,0 +1,4720 @@
+{
+  "id": 10011,
+  "kuerzel": "B",
+  "bezeichnung": "Bauingenieurwesen",
+  "versionKuerzel": "STD_02",
+  "typ": "FH",
+  "art": "Studiengang",
+  "form": "Vollzeit",
+  "kredits": [
+    {
+      "id": 10257,
+      "minKredits": 126,
+      "kategorien": [
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen"
+        }
+      ]
+    },
+    {
+      "id": 10143,
+      "minKredits": 64,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen"
+        }
+      ]
+    },
+    {
+      "id": 10145,
+      "minKredits": 52,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen"
+        }
+      ]
+    },
+    {
+      "id": 10146,
+      "minKredits": 16,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik"
+        }
+      ]
+    },
+    {
+      "id": 10144,
+      "minKredits": 14,
+      "kategorien": [
+        {
+          "id": 10030,
+          "kuerzel": "B-n",
+          "bezeichnung": "Naturwissenschaften "
+        }
+      ]
+    },
+    {
+      "id": 10148,
+      "minKredits": 16,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache"
+        }
+      ]
+    },
+    {
+      "id": 10149,
+      "minKredits": 8,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht"
+        }
+      ]
+    },
+    {
+      "id": 10238,
+      "minKredits": 20,
+      "kategorien": [
+        {
+          "id": 10076,
+          "kuerzel": "B-DA",
+          "bezeichnung": "Diplomarbeit Bauingenieurwesen"
+        }
+      ]
+    }
+  ],
+  "studienberater": {
+    "id": 205,
+    "name": "Schaufelberger",
+    "vorname": "Rainer"
+  },
+  "zuordnungen": [
+    {
+      "id": 12456,
+      "kuerzel": "mUk_3DComVis",
+      "bezeichnung": "3D Computervisualisierung",
+      "url": "allModules/12456_mUk_3DComVis.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12524,
+      "kuerzel": "mUk_BWlA",
+      "bezeichnung": "Allgemeine Betriebswirtschaftslehre (BWL)",
+      "url": "allModules/12524_mUk_BWlA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12526,
+      "kuerzel": "mUk_BWlB",
+      "bezeichnung": "Allgemeine Betriebswirtschaftslehre (BWL) reduzierte Variante",
+      "url": "allModules/12526_mUk_BWlB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15787,
+      "kuerzel": "M_An1B",
+      "bezeichnung": "Analysis 1 für Bauingenieurwesen",
+      "url": "allModules/15787_M_An1B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 11034,
+      "kuerzel": "M_An1BM",
+      "bezeichnung": "Analysis 1 für Bauingenieurwesen und Maschinentechnik",
+      "url": "allModules/11034_M_An1BM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 42742,
+      "kuerzel": "M_An2Bau",
+      "bezeichnung": "Analysis 2 für Bauingenieurwesen",
+      "url": "allModules/42742_M_An2Bau.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10954,
+      "kuerzel": "M_An3B",
+      "bezeichnung": "Analysis 3 für Bauingenieurwesen",
+      "url": "allModules/10954_M_An3B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12920,
+      "kuerzel": "mUk_PhAstro",
+      "bezeichnung": "Astrophysik",
+      "url": "allModules/12920_mUk_PhAstro.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10030,
+          "kuerzel": "B-n",
+          "bezeichnung": "Naturwissenschaften ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12504,
+      "kuerzel": "mUk_BLMan1",
+      "bezeichnung": "Bau- und Liegenschaftsmanagement 1",
+      "url": "allModules/12504_mUk_BLMan1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12506,
+      "kuerzel": "mUk_BLMan2",
+      "bezeichnung": "Bau- und Liegenschaftsmanagement 2",
+      "url": "allModules/12506_mUk_BLMan2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12512,
+      "kuerzel": "mUk_BPMan1",
+      "bezeichnung": "Bau- und Planungsmanagement 1",
+      "url": "allModules/12512_mUk_BPMan1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12514,
+      "kuerzel": "mUk_BPMan2",
+      "bezeichnung": "Bau- und Planungsmanagement 2",
+      "url": "allModules/12514_mUk_BPMan2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12486,
+      "kuerzel": "mUk_BauFue",
+      "bezeichnung": "Bauausführung",
+      "url": "allModules/12486_mUk_BauFue.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10945,
+      "kuerzel": "M_BauFue",
+      "bezeichnung": "Bauausführung",
+      "url": "allModules/10945_M_BauFue.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12484,
+      "kuerzel": "mUk_Bauchem",
+      "bezeichnung": "Bauchemie",
+      "url": "allModules/12484_mUk_Bauchem.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12488,
+      "kuerzel": "mUk_Bauphys",
+      "bezeichnung": "Bauphysik",
+      "url": "allModules/12488_mUk_Bauphys.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11149,
+      "kuerzel": "M_BPMan",
+      "bezeichnung": "Bauplanungs-Management",
+      "url": "allModules/11149_M_BPMan.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12490,
+      "kuerzel": "mUk_BauPrMan",
+      "bezeichnung": "Bauprojekt-Management",
+      "url": "allModules/12490_mUk_BauPrMan.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12492,
+      "kuerzel": "mUk_Baustat1",
+      "bezeichnung": "Baustatik 1",
+      "url": "allModules/12492_mUk_Baustat1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10941,
+      "kuerzel": "M_Baustat1",
+      "bezeichnung": "Baustatik 1",
+      "url": "allModules/10941_M_Baustat1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 15157,
+      "kuerzel": "U_Baustat1",
+      "bezeichnung": "Baustatik 1 - Übergangsmodul",
+      "url": "allModules/15157_U_Baustat1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10943,
+      "kuerzel": "M_Baustat2",
+      "bezeichnung": "Baustatik 2",
+      "url": "allModules/10943_M_Baustat2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12494,
+      "kuerzel": "mUk_Baustat2",
+      "bezeichnung": "Baustatik 2",
+      "url": "allModules/12494_mUk_Baustat2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12496,
+      "kuerzel": "mUk_Baustat3",
+      "bezeichnung": "Baustatik 3",
+      "url": "allModules/12496_mUk_Baustat3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10944,
+      "kuerzel": "M_Baustat3",
+      "bezeichnung": "Baustatik 3",
+      "url": "allModules/10944_M_Baustat3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12498,
+      "kuerzel": "mUk_Baustat4",
+      "bezeichnung": "Baustatik 4",
+      "url": "allModules/12498_mUk_Baustat4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12500,
+      "kuerzel": "mUk_Baustoff",
+      "bezeichnung": "Baustoffe",
+      "url": "allModules/12500_mUk_Baustoff.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11053,
+      "kuerzel": "M_Baustoff",
+      "bezeichnung": "Baustoffe",
+      "url": "allModules/11053_M_Baustoff.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12796,
+      "kuerzel": "mUk_KoSpezA",
+      "bezeichnung": "Berufsbezogenes Schreiben (Spez.mod.A)",
+      "url": "allModules/12796_mUk_KoSpezA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12502,
+      "kuerzel": "mUk_BeStat",
+      "bezeichnung": "Beschreibende Statistik",
+      "url": "allModules/12502_mUk_BeStat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11079,
+      "kuerzel": "U_BuFU",
+      "bezeichnung": "Boden und Fels – Übergangsmodul",
+      "url": "allModules/11079_U_BuFU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 11065,
+      "kuerzel": "M_BuF1",
+      "bezeichnung": "Boden und Fels 1",
+      "url": "allModules/11065_M_BuF1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15136,
+      "kuerzel": "mUk_BuF1",
+      "bezeichnung": "Boden und Fels 1",
+      "url": "allModules/15136_mUk_BuF1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 42117,
+      "kuerzel": "M_BuF1",
+      "bezeichnung": "Boden und Fels 1: Geologie und Geotechnik",
+      "url": "allModules/42117_M_BuF1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11066,
+      "kuerzel": "M_BuF2",
+      "bezeichnung": "Boden und Fels 2",
+      "url": "allModules/11066_M_BuF2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11067,
+      "kuerzel": "M_BuF3",
+      "bezeichnung": "Boden und Fels 3",
+      "url": "allModules/11067_M_BuF3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 11070,
+      "kuerzel": "M_BuF4",
+      "bezeichnung": "Boden und Fels 4",
+      "url": "allModules/11070_M_BuF4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10997,
+      "kuerzel": "M_BuRe1",
+      "bezeichnung": "Business und Recht 1",
+      "url": "allModules/10997_M_BuRe1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12530,
+      "kuerzel": "mUk_CadBLR1",
+      "bezeichnung": "CAD BLR 1",
+      "url": "allModules/12530_mUk_CadBLR1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12532,
+      "kuerzel": "mUk_CadBLR2",
+      "bezeichnung": "CAD BLR 2",
+      "url": "allModules/12532_mUk_CadBLR2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 18902,
+      "kuerzel": "M_Chem1",
+      "bezeichnung": "Chemie 1",
+      "url": "allModules/18902_M_Chem1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10030,
+          "kuerzel": "B-n",
+          "bezeichnung": "Naturwissenschaften ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12540,
+      "kuerzel": "mUk_Ch1Bas",
+      "bezeichnung": "Chemie 1 (Basischemie)",
+      "url": "allModules/12540_mUk_Ch1Bas.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10030,
+          "kuerzel": "B-n",
+          "bezeichnung": "Naturwissenschaften ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12542,
+      "kuerzel": "mUk_Ch2Anw",
+      "bezeichnung": "Chemie 2 (Anwendung chemischer Reaktionen in der Praxis)",
+      "url": "allModules/12542_mUk_Ch2Anw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10030,
+          "kuerzel": "B-n",
+          "bezeichnung": "Naturwissenschaften ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12544,
+      "kuerzel": "mUk_Ch3Kor",
+      "bezeichnung": "Chemie 3 (Korrosion und Korrosionschutz der Metalle)",
+      "url": "allModules/12544_mUk_Ch3Kor.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10030,
+          "kuerzel": "B-n",
+          "bezeichnung": "Naturwissenschaften ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 19374,
+      "kuerzel": "M_Chin1",
+      "bezeichnung": "Chinesisch 1",
+      "url": "allModules/19374_M_Chin1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 18608,
+      "kuerzel": "M_Chin2",
+      "bezeichnung": "Chinesisch 2",
+      "url": "allModules/18608_M_Chin2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12562,
+      "kuerzel": "mUk_CoMath_4",
+      "bezeichnung": "Computergestützte Mathematik",
+      "url": "allModules/12562_mUk_CoMath_4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12560,
+      "kuerzel": "mUk_CoMath",
+      "bezeichnung": "Computergestützte Mathematik",
+      "url": "allModules/12560_mUk_CoMath.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15068,
+      "kuerzel": "mUk_DG",
+      "bezeichnung": "Darstellende Geometrie",
+      "url": "allModules/15068_mUk_DG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 12578,
+      "kuerzel": "mUk_DiffGl",
+      "bezeichnung": "Differentialgleichungen",
+      "url": "allModules/12578_mUk_DiffGl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12343,
+      "kuerzel": "M_DAB",
+      "bezeichnung": "Diplomarbeit Bauingenieurwesen",
+      "url": "allModules/12343_M_DAB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10076,
+          "kuerzel": "B-DA",
+          "bezeichnung": "Diplomarbeit Bauingenieurwesen",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 12602,
+      "kuerzel": "mUk_DisMat",
+      "bezeichnung": "Diskrete Mathematik",
+      "url": "allModules/12602_mUk_DisMat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12960,
+      "kuerzel": "mUk_ReEinf",
+      "bezeichnung": "Einführung in die Rechtsordnung",
+      "url": "allModules/12960_mUk_ReEinf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12632,
+      "kuerzel": "mUk_EnAdv1",
+      "bezeichnung": "English for Advanced Certificate 1",
+      "url": "allModules/12632_mUk_EnAdv1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12634,
+      "kuerzel": "mUk_EnAdv2",
+      "bezeichnung": "English for Advanced Certificate 2",
+      "url": "allModules/12634_mUk_EnAdv2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12642,
+      "kuerzel": "mUk_EngEng",
+      "bezeichnung": "English for Engineers",
+      "url": "allModules/12642_mUk_EngEng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12638,
+      "kuerzel": "mUk_EnFirst1",
+      "bezeichnung": "English for First Certificate 1",
+      "url": "allModules/12638_mUk_EnFirst1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12640,
+      "kuerzel": "mUk_EnFirst2",
+      "bezeichnung": "English for First Certificate 2",
+      "url": "allModules/12640_mUk_EnFirst2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12644,
+      "kuerzel": "mUk_EnInt1",
+      "bezeichnung": "English Intermediate 1",
+      "url": "allModules/12644_mUk_EnInt1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12646,
+      "kuerzel": "mUk_EnInt2",
+      "bezeichnung": "English Intermediate 2",
+      "url": "allModules/12646_mUk_EnInt2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11005,
+      "kuerzel": "M_English1",
+      "bezeichnung": "English Level 1",
+      "url": "allModules/11005_M_English1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11007,
+      "kuerzel": "M_English2",
+      "bezeichnung": "English Level 2",
+      "url": "allModules/11007_M_English2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11008,
+      "kuerzel": "M_English3",
+      "bezeichnung": "English Level 3",
+      "url": "allModules/11008_M_English3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11009,
+      "kuerzel": "M_English4",
+      "bezeichnung": "English Level 4",
+      "url": "allModules/11009_M_English4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12658,
+      "kuerzel": "mUk_EnUint1",
+      "bezeichnung": "English Upper Intermediate 1",
+      "url": "allModules/12658_mUk_EnUint1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12660,
+      "kuerzel": "mUk_EnUint2",
+      "bezeichnung": "English Upper Intermediate 2",
+      "url": "allModules/12660_mUk_EnUint2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11064,
+      "kuerzel": "M_FlTrWe",
+      "bezeichnung": "Flächentragwerke",
+      "url": "allModules/11064_M_FlTrWe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10981,
+      "kuerzel": "M_Franz1",
+      "bezeichnung": "Französisch 1",
+      "url": "allModules/10981_M_Franz1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10982,
+      "kuerzel": "M_Franz2",
+      "bezeichnung": "Französisch 2",
+      "url": "allModules/10982_M_Franz2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12696,
+      "kuerzel": "mUk_Franz",
+      "bezeichnung": "Französische Konversation",
+      "url": "allModules/12696_mUk_Franz.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12700,
+      "kuerzel": "mUk_Fue",
+      "bezeichnung": "Führung",
+      "url": "allModules/12700_mUk_Fue.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12704,
+      "kuerzel": "mUk_FuVar",
+      "bezeichnung": "Funktionen mehrerer Variablen",
+      "url": "allModules/12704_mUk_FuVar.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15137,
+      "kuerzel": "mUk_GeoMess",
+      "bezeichnung": "Geodätische Messtechnik",
+      "url": "allModules/15137_mUk_GeoMess.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 17910,
+      "kuerzel": "M_GeoMess",
+      "bezeichnung": "Geodätische Messtechnik",
+      "url": "allModules/17910_M_GeoMess.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12710,
+      "kuerzel": "mUk_Geologie",
+      "bezeichnung": "Geologie",
+      "url": "allModules/12710_mUk_Geologie.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12712,
+      "kuerzel": "mUk_Geotech1",
+      "bezeichnung": "Geotechnik 1",
+      "url": "allModules/12712_mUk_Geotech1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12714,
+      "kuerzel": "mUk_Geotech2",
+      "bezeichnung": "Geotechnik 2",
+      "url": "allModules/12714_mUk_Geotech2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12716,
+      "kuerzel": "mUk_Geotech3",
+      "bezeichnung": "Geotechnik 3",
+      "url": "allModules/12716_mUk_Geotech3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 43709,
+      "kuerzel": "M_Gfb2EC",
+      "bezeichnung": "German for Beginners (A1+) 2ECTS",
+      "url": "allModules/43709_M_Gfb2EC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 38418,
+      "kuerzel": "M_KatGWR",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+      "url": "allModules/38418_M_KatGWR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 15602,
+      "kuerzel": "M_KatGWR1",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+      "url": "allModules/15602_M_KatGWR1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 17152,
+      "kuerzel": "M_KatGWR2",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht 2",
+      "url": "allModules/17152_M_KatGWR2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 17161,
+      "kuerzel": "M_KatGWR3",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht 3",
+      "url": "allModules/17161_M_KatGWR3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 25171,
+      "kuerzel": "M_KatGWR4",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht 4",
+      "url": "allModules/25171_M_KatGWR4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 25173,
+      "kuerzel": "M_KatGWR5",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht 5",
+      "url": "allModules/25173_M_KatGWR5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 12718,
+      "kuerzel": "mUk_Gis1",
+      "bezeichnung": "GIS 1 (Geografische Informationssysteme - Einführung)",
+      "url": "allModules/12718_mUk_Gis1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12528,
+      "kuerzel": "mUk_BwlBus",
+      "bezeichnung": "Grundlagen der Betriebswirtschaft: Erklärt am Beispiel eines Businessplanes",
+      "url": "allModules/12528_mUk_BwlBus.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 16735,
+      "kuerzel": "M_KatGrAufBauing",
+      "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+      "url": "allModules/16735_M_KatGrAufBauing.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 64
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 64
+        }
+      ]
+    },
+    {
+      "id": 42003,
+      "kuerzel": "M_KatGrAufBauing1",
+      "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+      "url": "allModules/42003_M_KatGrAufBauing1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 64
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 64
+        }
+      ]
+    },
+    {
+      "id": 42006,
+      "kuerzel": "M_KatGrAufBauing2",
+      "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+      "url": "allModules/42006_M_KatGrAufBauing2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 64
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 64
+        }
+      ]
+    },
+    {
+      "id": 12726,
+      "kuerzel": "mUk_Hydrau1",
+      "bezeichnung": "Hydraulik 1",
+      "url": "allModules/12726_mUk_Hydrau1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12728,
+      "kuerzel": "mUk_Hydrau2",
+      "bezeichnung": "Hydraulik 2",
+      "url": "allModules/12728_mUk_Hydrau2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11142,
+      "kuerzel": "U_Hyd2WS05",
+      "bezeichnung": "Hydraulik 2 – Übergangsmodul WS05/06",
+      "url": "allModules/11142_U_Hyd2WS05.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10955,
+      "kuerzel": "M_HydUmw1",
+      "bezeichnung": "Hydraulik und Umwelt 1",
+      "url": "allModules/10955_M_HydUmw1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15138,
+      "kuerzel": "mUk_HydUmw1",
+      "bezeichnung": "Hydraulik und Umwelt 1",
+      "url": "allModules/15138_mUk_HydUmw1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10956,
+      "kuerzel": "M_HydUmw2",
+      "bezeichnung": "Hydraulik und Umwelt 2",
+      "url": "allModules/10956_M_HydUmw2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 12732,
+      "kuerzel": "mUk_Inf1",
+      "bezeichnung": "Infinitesimalrechnung 1",
+      "url": "allModules/12732_mUk_Inf1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 12734,
+      "kuerzel": "mUk_Inf2",
+      "bezeichnung": "Infinitesimalrechnung 2",
+      "url": "allModules/12734_mUk_Inf2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 12736,
+      "kuerzel": "mUk_InfErgB",
+      "bezeichnung": "Infinitesimalrechnung Ergänzung Bau",
+      "url": "allModules/12736_mUk_InfErgB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 12752,
+      "kuerzel": "mUk_Inform",
+      "bezeichnung": "Informatik",
+      "url": "allModules/12752_mUk_Inform.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12746,
+      "kuerzel": "mUk_InfofB",
+      "bezeichnung": "Informatik für Bauingenieure (Übergang)",
+      "url": "allModules/12746_mUk_InfofB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13048,
+      "kuerzel": "mUk_SoWGP",
+      "bezeichnung": "Ingenieur in Wirtschaft, Gesellschaft und Politik",
+      "url": "allModules/13048_mUk_SoWGP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12760,
+      "kuerzel": "mUk_IntTra",
+      "bezeichnung": "Integraltransformationen",
+      "url": "allModules/12760_mUk_IntTra.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12766,
+      "kuerzel": "mUk_Ital1",
+      "bezeichnung": "Italienisch 1",
+      "url": "allModules/12766_mUk_Ital1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10977,
+      "kuerzel": "M_Ital1",
+      "bezeichnung": "Italienisch 1",
+      "url": "allModules/10977_M_Ital1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12768,
+      "kuerzel": "mUk_Ital2",
+      "bezeichnung": "Italienisch 2",
+      "url": "allModules/12768_mUk_Ital2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15667,
+      "kuerzel": "M_Ital2",
+      "bezeichnung": "Italienisch 2",
+      "url": "allModules/15667_M_Ital2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10959,
+      "kuerzel": "M_Jap1",
+      "bezeichnung": "Japanisch 1",
+      "url": "allModules/10959_M_Jap1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12770,
+      "kuerzel": "mUk_Jap1",
+      "bezeichnung": "Japanisch 1 (Grundmodul)",
+      "url": "allModules/12770_mUk_Jap1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10960,
+      "kuerzel": "M_Jap2",
+      "bezeichnung": "Japanisch 2",
+      "url": "allModules/10960_M_Jap2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12772,
+      "kuerzel": "mUk_Jap2",
+      "bezeichnung": "Japanisch 2 (Aufbaumodul)",
+      "url": "allModules/12772_mUk_Jap2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11144,
+      "kuerzel": "M_KomIng1",
+      "bezeichnung": "Kommunikation 1 für IngenieurInnen",
+      "url": "allModules/11144_M_KomIng1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11148,
+      "kuerzel": "M_KomIng2",
+      "bezeichnung": "Kommunikation 2 für IngenieurInnen",
+      "url": "allModules/11148_M_KomIng2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12778,
+      "kuerzel": "mUk_Ko2Am",
+      "bezeichnung": "Kommunikation Aufbaumodul",
+      "url": "allModules/12778_mUk_Ko2Am.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12776,
+      "kuerzel": "mUk_Ko1Gm",
+      "bezeichnung": "Kommunikation Grundmodul ",
+      "url": "allModules/12776_mUk_Ko1Gm.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12780,
+      "kuerzel": "mUk_KompZa",
+      "bezeichnung": "Komplexe Zahlen",
+      "url": "allModules/12780_mUk_KompZa.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13234,
+      "kuerzel": "mUk_KoFou",
+      "bezeichnung": "Komplexe Zahlen und Fourierreihen",
+      "url": "allModules/13234_mUk_KoFou.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12462,
+      "kuerzel": "mUk_AKKonstr",
+      "bezeichnung": "Konstruktion : ausgewählte Kapitel",
+      "url": "allModules/12462_mUk_AKKonstr.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11056,
+      "kuerzel": "M_Konstr1",
+      "bezeichnung": "Konstruktion 1",
+      "url": "allModules/11056_M_Konstr1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11057,
+      "kuerzel": "M_Konstr2",
+      "bezeichnung": "Konstruktion 2",
+      "url": "allModules/11057_M_Konstr2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11059,
+      "kuerzel": "M_Konstr3",
+      "bezeichnung": "Konstruktion 3",
+      "url": "allModules/11059_M_Konstr3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11060,
+      "kuerzel": "M_Konstr4",
+      "bezeichnung": "Konstruktion 4",
+      "url": "allModules/11060_M_Konstr4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11062,
+      "kuerzel": "M_Konstr5",
+      "bezeichnung": "Konstruktion 5",
+      "url": "allModules/11062_M_Konstr5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11078,
+      "kuerzel": "U_Konstr6",
+      "bezeichnung": "Konstruktion 6 – Übergangsmodul",
+      "url": "allModules/11078_U_Konstr6.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12782,
+      "kuerzel": "mUk_KonstrB1",
+      "bezeichnung": "Konstruktion Bau 1",
+      "url": "allModules/12782_mUk_KonstrB1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12784,
+      "kuerzel": "mUk_KonstrB2",
+      "bezeichnung": "Konstruktion Bau 2",
+      "url": "allModules/12784_mUk_KonstrB2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 12786,
+      "kuerzel": "mUk_KonstrB3",
+      "bezeichnung": "Konstruktion Bau 3",
+      "url": "allModules/12786_mUk_KonstrB3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 12788,
+      "kuerzel": "mUk_KonstrB4",
+      "bezeichnung": "Konstruktion Bau 4",
+      "url": "allModules/12788_mUk_KonstrB4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13236,
+      "kuerzel": "mUk_KonstrB5",
+      "bezeichnung": "Konstruktion Bau 5",
+      "url": "allModules/13236_mUk_KonstrB5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11076,
+      "kuerzel": "U_KonstrAK",
+      "bezeichnung": "Konstruktion: Ausgewählte Kapitel - Übergangsmodul",
+      "url": "allModules/11076_U_KonstrAK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12798,
+      "kuerzel": "mUk_KultGGl",
+      "bezeichnung": "Kulturgeschichte 1 (Grundlagen)",
+      "url": "allModules/12798_mUk_KultGGl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12804,
+      "kuerzel": "mUk_KultGku",
+      "bezeichnung": "Kulturgeschichte 2 (Gartenkultur)",
+      "url": "allModules/12804_mUk_KultGku.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12800,
+      "kuerzel": "mUk_KultGKg",
+      "bezeichnung": "Kulturgeschichte 3 (Kunstgeschichte)",
+      "url": "allModules/12800_mUk_KultGKg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12802,
+      "kuerzel": "mUk_KultGKl",
+      "bezeichnung": "Kulturgeschichte 4 (Kulturlandschaft)",
+      "url": "allModules/12802_mUk_KultGKl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12806,
+      "kuerzel": "mUk_KultGTg",
+      "bezeichnung": "Kulturgeschichte 5 (Technik- und Architekturgeschichte)",
+      "url": "allModules/12806_mUk_KultGTg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12834,
+      "kuerzel": "mUk_LinAlg",
+      "bezeichnung": "Lineare Algebra",
+      "url": "allModules/12834_mUk_LinAlg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11055,
+      "kuerzel": "M_MaTechB",
+      "bezeichnung": "Materialtechnologie (B)",
+      "url": "allModules/11055_M_MaTechB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15604,
+      "kuerzel": "M_KatMathe",
+      "bezeichnung": "Mathematik",
+      "url": "allModules/15604_M_KatMathe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 30
+        }
+      ]
+    },
+    {
+      "id": 17865,
+      "kuerzel": "M_KatMathe2",
+      "bezeichnung": "Mathematik",
+      "url": "allModules/17865_M_KatMathe2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 30
+        }
+      ]
+    },
+    {
+      "id": 11038,
+      "kuerzel": "M_Math3M",
+      "bezeichnung": "Mathematik für Maschinentechnik 3",
+      "url": "allModules/11038_M_Math3M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12670,
+      "kuerzel": "mUk_FEM",
+      "bezeichnung": "Methode der Finiten Elemente",
+      "url": "allModules/12670_mUk_FEM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12870,
+      "kuerzel": "mUk_ModBau",
+      "bezeichnung": "Modellierungen im Bauingenieurwesen",
+      "url": "allModules/12870_mUk_ModBau.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11051,
+      "kuerzel": "M_ModBau",
+      "bezeichnung": "Modellierungen im Bauingenieurwesen",
+      "url": "allModules/11051_M_ModBau.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 12872,
+      "kuerzel": "mUk_ModMed",
+      "bezeichnung": "Moderation/Partizipation",
+      "url": "allModules/12872_mUk_ModMed.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 16623,
+      "kuerzel": "M_NaEntw_e",
+      "bezeichnung": "Nachhaltige Entwicklung - Blended Learning",
+      "url": "allModules/16623_M_NaEntw_e.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12882,
+      "kuerzel": "mUk_Nap",
+      "bezeichnung": "NAP: Naturwissenschaftliches Praktikum",
+      "url": "allModules/12882_mUk_Nap.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10030,
+          "kuerzel": "B-n",
+          "bezeichnung": "Naturwissenschaften ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15605,
+      "kuerzel": "M_KatNatW",
+      "bezeichnung": "Naturwissenschaften",
+      "url": "allModules/15605_M_KatNatW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10030,
+          "kuerzel": "B-n",
+          "bezeichnung": "Naturwissenschaften ",
+          "kreditpunkte": 14
+        }
+      ]
+    },
+    {
+      "id": 11071,
+      "kuerzel": "M_NAP",
+      "bezeichnung": "Naturwissenschaftliches Praktikum",
+      "url": "allModules/11071_M_NAP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10030,
+          "kuerzel": "B-n",
+          "bezeichnung": "Naturwissenschaften ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12894,
+      "kuerzel": "mUk_Num",
+      "bezeichnung": "Numerik",
+      "url": "allModules/12894_mUk_Num.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12896,
+      "kuerzel": "mUk_OefArb",
+      "bezeichnung": "Öffentlichkeitsarbeit",
+      "url": "allModules/12896_mUk_OefArb.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45143,
+      "kuerzel": "M_Ph1Mech",
+      "bezeichnung": "Physik 1 - Mechanik",
+      "url": "allModules/45143_M_Ph1Mech.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10030,
+          "kuerzel": "B-n",
+          "bezeichnung": "Naturwissenschaften ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12906,
+      "kuerzel": "mUk_Ph1Mech",
+      "bezeichnung": "Physik 1: Mechanik",
+      "url": "allModules/12906_mUk_Ph1Mech.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10030,
+          "kuerzel": "B-n",
+          "bezeichnung": "Naturwissenschaften ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11020,
+      "kuerzel": "M_Ph2HAT",
+      "bezeichnung": "Physik 2",
+      "url": "allModules/11020_M_Ph2HAT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10030,
+          "kuerzel": "B-n",
+          "bezeichnung": "Naturwissenschaften ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12908,
+      "kuerzel": "mUk_Ph2GfwA",
+      "bezeichnung": "Physik 2 A: Gase, Flüssigkeiten, Wärme A",
+      "url": "allModules/12908_mUk_Ph2GfwA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10030,
+          "kuerzel": "B-n",
+          "bezeichnung": "Naturwissenschaften ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12910,
+      "kuerzel": "mUk_Ph2GfwB",
+      "bezeichnung": "Physik 2 B: Gase, Flüssigkeiten, Wärme B",
+      "url": "allModules/12910_mUk_Ph2GfwB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10030,
+          "kuerzel": "B-n",
+          "bezeichnung": "Naturwissenschaften ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11052,
+      "kuerzel": "M_Ph3SWO",
+      "bezeichnung": "Physik 3",
+      "url": "allModules/11052_M_Ph3SWO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10030,
+          "kuerzel": "B-n",
+          "bezeichnung": "Naturwissenschaften ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12912,
+      "kuerzel": "mUk_Ph3SwoA",
+      "bezeichnung": "Physik 3 A: Schwingung, Wellen, Optik A",
+      "url": "allModules/12912_mUk_Ph3SwoA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10030,
+          "kuerzel": "B-n",
+          "bezeichnung": "Naturwissenschaften ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12914,
+      "kuerzel": "mUk_Ph3SwoB",
+      "bezeichnung": "Physik 3 B: Schwingung, Wellen, Optik B",
+      "url": "allModules/12914_mUk_Ph3SwoB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10030,
+          "kuerzel": "B-n",
+          "bezeichnung": "Naturwissenschaften ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12916,
+      "kuerzel": "mUk_Ph4El",
+      "bezeichnung": "Physik 4: Elektrizität",
+      "url": "allModules/12916_mUk_Ph4El.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10030,
+          "kuerzel": "B-n",
+          "bezeichnung": "Naturwissenschaften ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12918,
+      "kuerzel": "mUk_Ph5Tec",
+      "bezeichnung": "Physik 5: Technische Physik",
+      "url": "allModules/12918_mUk_Ph5Tec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10030,
+          "kuerzel": "B-n",
+          "bezeichnung": "Naturwissenschaften ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11139,
+      "kuerzel": "M_BPManFue",
+      "bezeichnung": "Planung und Ausführung im Bauwesen",
+      "url": "allModules/11139_M_BPManFue.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12950,
+      "kuerzel": "mUk_ProjektB2",
+      "bezeichnung": "Projekt- und Studienarbeiten Bauingenieurwesen 2",
+      "url": "allModules/12950_mUk_ProjektB2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 11074,
+      "kuerzel": "M_ProjB",
+      "bezeichnung": "Projektarbeit im Bauingenieurwesen",
+      "url": "allModules/11074_M_ProjB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 18509,
+      "kuerzel": "M_RE2",
+      "bezeichnung": "Recht 2",
+      "url": "allModules/18509_M_RE2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12980,
+      "kuerzel": "mUk_ReInf",
+      "bezeichnung": "Recht im Umfeld von Informatik und Internet",
+      "url": "allModules/12980_mUk_ReInf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13166,
+      "kuerzel": "mUk_VwlRw",
+      "bezeichnung": "Regionalwirtschaft und öffentliche Finanzen",
+      "url": "allModules/13166_mUk_VwlRw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11072,
+      "kuerzel": "M_SicherKz",
+      "bezeichnung": "Sicherheitskonzepte",
+      "url": "allModules/11072_M_SicherKz.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13044,
+      "kuerzel": "mUk_SoSied1",
+      "bezeichnung": "Siedlungssoziologie 1",
+      "url": "allModules/13044_mUk_SoSied1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13046,
+      "kuerzel": "mUk_SoSied2",
+      "bezeichnung": "Siedlungssoziologie 2",
+      "url": "allModules/13046_mUk_SoSied2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10975,
+      "kuerzel": "M_Span1",
+      "bezeichnung": "Spanisch 1",
+      "url": "allModules/10975_M_Span1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10980,
+      "kuerzel": "M_Span2",
+      "bezeichnung": "Spanisch 2",
+      "url": "allModules/10980_M_Span2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13050,
+      "kuerzel": "mUk_Span1",
+      "bezeichnung": "Spanisch Anfänger 1 (Basismodul)",
+      "url": "allModules/13050_mUk_Span1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13052,
+      "kuerzel": "mUk_Span2",
+      "bezeichnung": "Spanisch Anfänger 2 (Aufbaumodul)",
+      "url": "allModules/13052_mUk_Span2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15672,
+      "kuerzel": "M_StraProPla_e",
+      "bezeichnung": "Strategische Produktplanung - Blended Learning",
+      "url": "allModules/15672_M_StraProPla_e.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 13074,
+      "kuerzel": "mUk_TeGk1",
+      "bezeichnung": "Technische Elektrizitätslehre - Grundkurs 1",
+      "url": "allModules/13074_mUk_TeGk1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10030,
+          "kuerzel": "B-n",
+          "bezeichnung": "Naturwissenschaften ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13076,
+      "kuerzel": "mUk_TeGk2",
+      "bezeichnung": "Technische Elektrizitätslehre - Grundkurs 2",
+      "url": "allModules/13076_mUk_TeGk2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 12470,
+      "kuerzel": "mUk_AnUebE",
+      "bezeichnung": "Übergangsmodul Analysis (Abt. E)",
+      "url": "allModules/12470_mUk_AnUebE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15186,
+      "kuerzel": "mUk_uebgBach_B-ks-4",
+      "bezeichnung": "Uebergang Bachelor",
+      "url": "allModules/15186_mUk_uebgBach_B-ks-4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15187,
+      "kuerzel": "mUk_uebgBach_B-pb-2",
+      "bezeichnung": "Uebergang Bachelor",
+      "url": "allModules/15187_mUk_uebgBach_B-pb-2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13092,
+      "kuerzel": "mUk_Umwelt1",
+      "bezeichnung": "Umwelt 1",
+      "url": "allModules/13092_mUk_Umwelt1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13094,
+      "kuerzel": "mUk_Umwelt2",
+      "bezeichnung": "Umwelt 2",
+      "url": "allModules/13094_mUk_Umwelt2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13096,
+      "kuerzel": "mUk_Umwelt3",
+      "bezeichnung": "Umwelt 3",
+      "url": "allModules/13096_mUk_Umwelt3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15828,
+      "kuerzel": "U_Uw3WS06",
+      "bezeichnung": "Umwelt 3 - Übergangsmodul WS06",
+      "url": "allModules/15828_U_Uw3WS06.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13258,
+      "kuerzel": "mUk_Umwelt4",
+      "bezeichnung": "Umwelt 4",
+      "url": "allModules/13258_mUk_Umwelt4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13102,
+      "kuerzel": "mUk_UmwPlus1",
+      "bezeichnung": "Umwelt plus 1",
+      "url": "allModules/13102_mUk_UmwPlus1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13260,
+      "kuerzel": "mUk_UmwPlus2",
+      "bezeichnung": "Umwelt plus 2 ",
+      "url": "allModules/13260_mUk_UmwPlus2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12984,
+      "kuerzel": "mUk_ReUPB1",
+      "bezeichnung": "Umwelt, Planungs- und Baurecht 1",
+      "url": "allModules/12984_mUk_ReUPB1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12986,
+      "kuerzel": "mUk_ReUPB2",
+      "bezeichnung": "Umwelt, Planungs- und Baurecht 2",
+      "url": "allModules/12986_mUk_ReUPB2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12988,
+      "kuerzel": "mUk_ReUPB3",
+      "bezeichnung": "Umwelt-, Planungs- und Baurecht 3",
+      "url": "allModules/12988_mUk_ReUPB3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12702,
+      "kuerzel": "mUk_FueSPM",
+      "bezeichnung": "Unternehmensführung: Strateg. Planung u. Marketing",
+      "url": "allModules/12702_mUk_FueSPM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12982,
+      "kuerzel": "mUk_ReUnt",
+      "bezeichnung": "Unternehmensrecht",
+      "url": "allModules/12982_mUk_ReUnt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13118,
+      "kuerzel": "mUk_VecGeo",
+      "bezeichnung": "Vektorgeometrie",
+      "url": "allModules/13118_mUk_VecGeo.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15135,
+      "kuerzel": "mUk_VekBM",
+      "bezeichnung": "Vektorgeometrie für Bauingenieurwesen und Maschinentechnik",
+      "url": "allModules/15135_mUk_VekBM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 11036,
+      "kuerzel": "M_VekBM",
+      "bezeichnung": "Vektorgeometrie für Bauingenieurwesen und Maschinentechnik",
+      "url": "allModules/11036_M_VekBM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13122,
+      "kuerzel": "mUk_Verkehr1B",
+      "bezeichnung": "Verkehr 1-B",
+      "url": "allModules/13122_mUk_Verkehr1B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13124,
+      "kuerzel": "mUk_Verkehr2B",
+      "bezeichnung": "Verkehr 2-B (Vertiefungskurs Integrierte Verkehrsplanung 2)",
+      "url": "allModules/13124_mUk_Verkehr2B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13126,
+      "kuerzel": "mUk_Verkehr3B",
+      "bezeichnung": "Verkehr 3-B (Vertiefungskurs Integrierte Verkehrsplanung 1)",
+      "url": "allModules/13126_mUk_Verkehr3B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11084,
+      "kuerzel": "M_VkNB4B",
+      "bezeichnung": "Verkehr 4 und Nachhaltiges Bauen",
+      "url": "allModules/11084_M_VkNB4B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13128,
+      "kuerzel": "mUk_Verkehr4B",
+      "bezeichnung": "Verkehr 4-B",
+      "url": "allModules/13128_mUk_Verkehr4B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15820,
+      "kuerzel": "M_VkR3TB_e",
+      "bezeichnung": "Verkehr und Ressourcen3, TripelBudgetierung – Blended Learning ",
+      "url": "allModules/15820_M_VkR3TB_e.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 11080,
+      "kuerzel": "M_VkRes1B",
+      "bezeichnung": "Verkehr und Ressourcenmanagement 1 (B)",
+      "url": "allModules/11080_M_VkRes1B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11082,
+      "kuerzel": "M_VkRes2B",
+      "bezeichnung": "Verkehr und Ressourcenmanagement 2 (B)",
+      "url": "allModules/11082_M_VkRes2B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11136,
+      "kuerzel": "U_VU3WS05",
+      "bezeichnung": "Verkehr und Umwelt 3 – Übergangsmodul WS05/06",
+      "url": "allModules/11136_U_VU3WS05.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 11133,
+      "kuerzel": "U_VU4SS06",
+      "bezeichnung": "Verkehr und Umwelt 4 – Übergangsmodul SS06",
+      "url": "allModules/11133_U_VU4SS06.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 11134,
+      "kuerzel": "U_VU4SS07",
+      "bezeichnung": "Verkehr, Umwelt 4 und Nachhaltiges Bauen – Übergangsmodul SS07",
+      "url": "allModules/11134_U_VU4SS07.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 11138,
+      "kuerzel": "U_VUR1WS05",
+      "bezeichnung": "Verkehr, Umwelt und Ressourcenmanagement 1 – Übergangsmodul WS05",
+      "url": "allModules/11138_U_VUR1WS05.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 11137,
+      "kuerzel": "U_VUR2SS06",
+      "bezeichnung": "Verkehr, Umwelt und Ressourcenmanagement 2 – Übergangsmodul SS06",
+      "url": "allModules/11137_U_VUR2SS06.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 13144,
+      "kuerzel": "mUk_Vermess",
+      "bezeichnung": "Vermessung",
+      "url": "allModules/13144_mUk_Vermess.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13154,
+      "kuerzel": "mUk_VisKom3",
+      "bezeichnung": "Visuelle Kommunikation 3 - 3D Computervisualisierung",
+      "url": "allModules/13154_mUk_VisKom3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13168,
+      "kuerzel": "mUk_VwlVw",
+      "bezeichnung": "Volkswirtschaft",
+      "url": "allModules/13168_mUk_VwlVw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15997,
+      "kuerzel": "M_VwlTg",
+      "bezeichnung": "Volkswirtschaft und Technikgeschichte",
+      "url": "allModules/15997_M_VwlTg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13170,
+      "kuerzel": "mUk_VwlVwWp",
+      "bezeichnung": "Volkswirtschaft und Wirtschaftspolitik",
+      "url": "allModules/13170_mUk_VwlVwWp.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10035,
+          "kuerzel": "B-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13198,
+      "kuerzel": "mUk_WrStat",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung und Statistik",
+      "url": "allModules/13198_mUk_WrStat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15386,
+      "kuerzel": "M_WrStat",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung und Statistik",
+      "url": "allModules/15386_M_WrStat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13174,
+      "kuerzel": "mUk_Wasser1",
+      "bezeichnung": "Wasser 1",
+      "url": "allModules/13174_mUk_Wasser1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 18552,
+      "kuerzel": "M_Wasser1",
+      "bezeichnung": "Wasser 1",
+      "url": "allModules/18552_M_Wasser1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13176,
+      "kuerzel": "mUk_Wasser2",
+      "bezeichnung": "Wasser 2",
+      "url": "allModules/13176_mUk_Wasser2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11050,
+      "kuerzel": "M_Wasser2",
+      "bezeichnung": "Wasser 2",
+      "url": "allModules/11050_M_Wasser2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11140,
+      "kuerzel": "M_Wasser3",
+      "bezeichnung": "Wasser 3",
+      "url": "allModules/11140_M_Wasser3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13178,
+      "kuerzel": "mUk_Wasser3",
+      "bezeichnung": "Wasser 3",
+      "url": "allModules/13178_mUk_Wasser3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11143,
+      "kuerzel": "U_Wasser3",
+      "bezeichnung": "Wasser 3 – Übergangsmodul WS05/06",
+      "url": "allModules/11143_U_Wasser3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13180,
+      "kuerzel": "mUk_Wasser4",
+      "bezeichnung": "Wasser 4",
+      "url": "allModules/13180_mUk_Wasser4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 16010,
+      "kuerzel": "M_Wasser4",
+      "bezeichnung": "Wasser 4",
+      "url": "allModules/16010_M_Wasser4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13182,
+      "kuerzel": "mUk_Wavelets",
+      "bezeichnung": "Wavelets",
+      "url": "allModules/13182_mUk_Wavelets.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15134,
+      "kuerzel": "mUk_WebT",
+      "bezeichnung": "Web-Technologien",
+      "url": "allModules/15134_mUk_WebT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10946,
+      "kuerzel": "M_WebT",
+      "bezeichnung": "Web-Technologien",
+      "url": "allModules/10946_M_WebT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "id": 11178,
+  "kuerzel": "M_MobKom1",
+  "bezeichnung": "Mobilkommunikation 1",
+  "kreditpunkte": 4,
+  "lernziele": "Komponenten eines Mobilfunksystemes verstehen, z.B. GSM-Handy. Kenntnisse in den Disziplinen, die in modernen Mobilfunksystemen involviert sind: <br />u.a. Informationstheorie, Systemkunde, HF Design.&nbsp;Schaltungstechnik f&#252;r drahtlose Systeme anhand von aktuellen Beispielen: GPS, GSM, UMTS, WLAN, Bluetooth.<br /><br />\n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10348,
+      "kuerzel": "Mobkom1",
+      "bezeichnung": "Mobilkommunikation 1",
+      "lernziele": "<p><br /><br />&nbsp;</p>",
+      "planinhalt": "<p>&#183; Uebersicht aktueller Systeme: GPS, GSM, DECT, UMTS, WLAN, RF-Tagging, Radio, Fernsehen etc. <br />&#183; digitale Modulationsarten (PSK, FSK, QAM, OFDM, Spreizband) <br />&#183; Kanalzugriffsarten (TDMA, FDMA, CDMA, SDMA, Polarisation) <br />&#183; HF-Anpassung (Smith-Chart, Anpassungsnetzwerke, Mikrostreifenfilter) <br />&#183; HF-Komponenten (Antennen, Verst&#228;rker, Mischer, Modulatoren) <br />&#183; Architekturen (Superhet, Direct-Conversion) <br />&#183;&nbsp;weitere Themen&nbsp;<br /></p>",
+      "kurselemente": [
+        {
+          "id": 10827,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        },
+        {
+          "id": 10828,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Mobilkommunikation 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Mobile Communication 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 963,
+      "name": "Mathis",
+      "vorname": "Heinz"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11174,
+      "kuerzel": "M_NaT1",
+      "bezeichnung": "Nachrichtentechnik 1",
+      "url": "allModules/11174_M_NaT1.json"
+    },
+    {
+      "id": 11176,
+      "kuerzel": "M_SigSys1",
+      "bezeichnung": "Signale und Systeme 1",
+      "url": "allModules/11176_M_SigSys1.json"
+    },
+    {
+      "id": 15738,
+      "kuerzel": "M_NaT2",
+      "bezeichnung": "Nachrichtentechnik 2",
+      "url": "allModules/15738_M_NaT2.json"
+    },
+    {
+      "id": 15753,
+      "kuerzel": "M_SigSys2",
+      "bezeichnung": "Signale und Systeme 2",
+      "url": "allModules/15753_M_SigSys2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11178,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": true,
+      "zulassungsBedingung": "Testat",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Mobilkommunikation 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Mobile Communication 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2011,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 11178,
+    "kuerzel": "M_MobKom1",
+    "bezeichnung": "Mobilkommunikation 1",
+    "url": "allModules/11178_M_MobKom1.json"
+  }
+}

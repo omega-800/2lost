@@ -1,0 +1,174 @@
+{
+  "id": 11010,
+  "kuerzel": "M_DigT1",
+  "bezeichnung": "Digitaltechnik 1",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Der Student kann auf systematische Art und Weise kombinatorische Schaltungen auf der Basis verschiedener Beschreibungsmethoden (inkl. VHDL) entwerfen und realisieren.</p> <p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10109,
+      "kuerzel": "DigT1",
+      "bezeichnung": "Digitaltechnik 1",
+      "planinhalt": "<p>Einf&uuml;hrung in die Digitaltechnik (Digitale Signale und Systeme, Digitaler Design-Flow) <br />Kombinatorische Schaltungen <br />Designbeschreibung f&uuml;r kombinatorische Systeme (Hierarchisches Design, Schaltschema, Wahrheitstabelle, Boole'sche Algebra, VHDL) <br />Simulation (Simulationsaufbau, Zeitliches Verhalten, Ablaufstrukturen, Simulationsablauf, Datenverwaltung) <br />Boole'sche Algebra (Rechenregeln, Normalformen) <br />Synthese (Minimierung) <br />Realisierungsformen (Standard-Bauteile, Programmierbare Bauteile, Anwendungsspezifische Bauteile) <br />Layout </p>\n<p>&nbsp;</p>\n<p>Aenderungen vorbehalten.<br /></p>",
+      "kurselemente": [
+        {
+          "id": 10491,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 48,
+          "harteGrenze": true
+        },
+        {
+          "id": 10492,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Digitaltechnik 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Digital Technology 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 218,
+      "name": "Lanz",
+      "vorname": "Markus"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11010,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat (Praktikum)</p>\r\n<p>&nbsp;</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Digitaltechnik 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Digital Technology 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2009,
+    "endSemester": "HS"
+  }
+}

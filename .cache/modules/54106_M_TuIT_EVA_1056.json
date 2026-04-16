@@ -1,0 +1,188 @@
+{
+  "id": 54106,
+  "kuerzel": "M_TuIT_EVA_1056",
+  "bezeichnung": "Dynamics and Control",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Aufbauend auf der EVA &laquo;Data-Driven Science and Engineering&raquo; und dem TSM Modul &laquo;Model Predictive Control&raquo; wird in diesem Modul das Thema Dynamics and Control weiter vertieft. Dabei werden Methoden f&uuml;r lineare und nicht-lineare Systeme betrachtet.<br />Die vier Teile des Moduls gliedern sich gem&auml;ss [3] (Steven L. Brunton und J. Nathan Kutz, Data-Driven Science and Engineering) in Unterabschnitte, welche jeweils in einer oder mehreren Wochen Thema sein sollen.<br />Ziel soll es sein, den Studenten zu bef&auml;higen, lineare und nicht-lineare daten-basierte dynamische Systeme effizient und zielgerichtet zu analysieren und entsprechende Methoden anzuwenden, um daten-basierte dynamische Systeme zu identifizieren, filtern, reduzieren und regeln.<br />Als Referenz dient das Buch Data-Driven Science and Engineering [3], spezifisch dessen Teil III, einzelne Themen werden mit Inhalten aus [1], [2] und [4] erg&auml;nzt.</p>",
+  "vorausgKenntnisse": "<p>Fortgeschrittene Kenntnisse Lineare Algebra und Analysis<br />Fortgeschrittene Kenntnisse Modellbildung und Regelungstechnik<br />EVA Data-Driven Science and Engineering<br />TSM Model Predictive Control&nbsp;</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 54107,
+      "kuerzel": "TuIT_EVA_1056",
+      "bezeichnung": "Dynamics and Control",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Aufbauend auf der EVA &laquo;Data-Driven Science and Engineering&raquo; und dem TSM Modul &laquo;Model Predictive Control&raquo; wird in diesem Modul das Thema Dynamics and Control weiter vertieft. Dabei werden Methoden f&uuml;r lineare und nicht-lineare Systeme betrachtet.<br />Die vier Teile des Moduls gliedern sich gem&auml;ss [3] (Steven L. Brunton und J. Nathan Kutz, Data-Driven Science and Engineering) in Unterabschnitte, welche jeweils in einer oder mehreren Wochen Thema sein sollen.<br />Ziel soll es sein, den Studenten zu bef&auml;higen, lineare und nicht-lineare daten-basierte dynamische Systeme effizient und zielgerichtet zu analysieren und entsprechende Methoden anzuwenden, um daten-basierte dynamische Systeme zu identifizieren, filtern, reduzieren und regeln.<br />Als Referenz dient das Buch Data-Driven Science and Engineering [3], spezifisch dessen Teil III, einzelne Themen werden mit Inhalten aus [1], [2] und [4] erg&auml;nzt.</p>",
+      "planinhalt": "<p>Das Modul ist in vier Teile gegliedert und baut auf [3] Teil III auf.<br />Teil 1: Data-Driven Dynamical Systems (3 Wochen)</p>\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Dynamics Mode Decomposition (DMD)<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Sparse Identification of Nonlinear Dynamics (SINDy)<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Koopman Operator Theory<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Data-Driven Koopman Analysis<br />Teil 2: Linear Control Theory (3 Wochen)<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Optimal Full-State Control: LQR<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Optimal Full-State Estimation: The Kalmann Filter<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Optimal Sensor-Based Control: LQG<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Robust Control and Frequency Domain Techniques<br />Teil 3: Balanced Models for Control (4Wochen)<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Model Reduction and System Identification<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Balanced Model Reduction<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - System Identification<br />Teil 4: Data-Driven Control (4 Wochen)<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Nonlinear System Identification for Control<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Machine Learning Control<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Adaptive Extremum-Seeking Control</p>",
+      "bibliographie": "<p>[1] Michael Verhagen und Vincent Verdult, Filtering and System Identification, Cambridge University Press, 2010<br />[2] Thomas McKelvey, Identification of State-Space Models from Time and Frequency Data, Chalmers University, 1996<br />[3] Steven L. Brunton und J. Nathan Kutz, Data-Driven Science and Engineering, Cambridge University Press, 2019<br />[4] MATLAB&reg; Teck Talks, System Identification und State-Space Models</p>",
+      "empfLehrmittel": "<p>Selbststudium, &Uuml;bungen mit MATLAB</p>",
+      "leistungsnachweis": "<p>Projekt mit Pr&auml;sentation</p>",
+      "kurselemente": [
+        {
+          "id": 54108,
+          "art": "Ergänzende Veranstaltung",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002957,
+          "name": "Frick",
+          "vorname": "Klaus"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002957,
+      "name": "Frick",
+      "vorname": "Klaus"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2023,
+    "beginSemester": "FS",
+    "endJahr": 2023,
+    "endSemester": "FS"
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "id": 47239,
+  "kuerzel": "M_VP_11716",
+  "bezeichnung": "Ausgewählte Themen des Software Engineering II",
+  "kreditpunkte": 18,
+  "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>verstehen Compiler und k&ouml;nnen ihn selbst erstellen k&ouml;nnen.</li>\n    <li>verstehen Virtuelle Maschinen und k&ouml;nnen sie in eigenen Projekten einsetzen.</li>\n    <li>k&ouml;nnen ein Projekt im Themenbereich SWE durchf&uuml;hren.</li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 47240,
+      "kuerzel": "VP_1171601",
+      "bezeichnung": "Machbarkeitsstudie: Integration von ClassCAD ind die Common Language Runtime (MS-CLR)",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>verstehen Compiler und k&ouml;nnen ihn selbst erstellen k&ouml;nnen.</li>\n    <li>verstehen Virtuelle Maschinen und k&ouml;nnen sie in eigenen Projekten einsetzen.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Theorie von Compilern</li>\n    <li>Virtuelle Maschinen in der Praxis</li>\n</ul>",
+      "bibliographie": "<p>Projektbezogene Dokumentation (vor allem MSDN)</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "Das zu bearbeitende Projekt wird mittels Projektarbeit und einer Schlusspr&auml;sentation bewertet.",
+      "kurselemente": [
+        {
+          "id": 47241,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000823,
+          "name": "Frei",
+          "vorname": "Norbert"
+        }
+      ]
+    },
+    {
+      "id": 47242,
+      "kuerzel": "VP_1171602",
+      "bezeichnung": "Virtuelle Maschinen",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden sollen</p>\n<ul>\n    <li>Folgende Aspekte um Virtuelle Maschinen kennen<br />&bull;&nbsp;Anwendungsszenarien.<br />&bull;&nbsp;Auswahl der geeigneten Implementierung (Register- / Stackbasiert) gem&auml;ss&nbsp;<br />&nbsp;&nbsp;Best-Practice Grunds&auml;tzen.<br />&bull;&nbsp;Einfluss der Wahl auf die Ausf&uuml;hrungsgeschwindigkeit. </li>\n    <li>Virtuelle Maschinen nach Spezifikation erstellen k&ouml;nnen. </li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Theoretische Grundlagen Compiler</li>\n    <li>Theoretische Grundlagen Interpreter</li>\n    <li>Arten von virtuellen Maschinen</li>\n    <li>Case Study JRE / JVM</li>\n    <li>Case Study CIL</li>\n</ul>",
+      "bibliographie": "<p>Elektronische Unterlagen aus Bachelor- und MAS SWE-Unterricht<br />Compilerbau, N. Wirth<br />Compilerbau, Alfred V. Aho, Ravi Sethi und Jeffrey D. Ullman<br />Microsoft Online Hilfe</p>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "leistungsnachweis": "W&auml;hrend dem Semester wird eine m&uuml;ndliche Pr&uuml;fung durchgef&uuml;hrt und eine schriftliche Zusammenfassung bewertet.",
+      "kurselemente": [
+        {
+          "id": 47243,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000823,
+          "name": "Frei",
+          "vorname": "Norbert"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000823,
+      "name": "Frei",
+      "vorname": "Norbert"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 46836,
+      "kuerzel": "M_VP_10712",
+      "bezeichnung": "Ausgewählte Themen des Software Engineering I",
+      "url": "allModules/46836_M_VP_10712.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 2,
+      "kuerzel": "WSG",
+      "bezeichnung": "Waldau St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Selected Topics in Software Engineering II"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2011,
+    "beginSemester": "HS",
+    "endJahr": 2011,
+    "endSemester": "HS"
+  }
+}

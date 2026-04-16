@@ -1,0 +1,160 @@
+{
+  "id": 24112,
+  "kuerzel": "M_ST",
+  "bezeichnung": "Steuertechnik",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>&Uuml;berblick &uuml;ber den Aufbau und die Arbeitsweise fluidischer Antriebe</li>\n    <li>F&auml;higkeit zur Projektierung fluidischer Antriebsl&ouml;sungen&nbsp;</li>\n    <li>F&auml;higkeit zum L&ouml;sen von Steuerungsaufgaben bei automatisierten Prozessen </li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 24113,
+      "kuerzel": "ST",
+      "bezeichnung": "Antriebs- und Steuertechnik",
+      "lernziele": "<ul>\n    <li>&Uuml;berblick &uuml;ber den Aufbau und die Arbeitsweise fluidischer Antriebe</li>\n    <li>F&auml;higkeit zur Auslegung geeigneter fluidischen&nbsp; Antriebsl&ouml;sungen</li>\n    <li>Wissen zum Einsatz von Hard- und Software in der industriellen Steuerungstechnik</li>\n    <li>F&auml;higkeit zum L&ouml;sen von Steuerungsaufgaben mit geeigneten Entwurfsmethoden</li>\n    <li>Erstellung und experimentelle Erprobung von SPS Programmen<br /></li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Grundlagen der fluidischen Antriebstechnik </li>\n    <li>Aufbau und Eigenschaften von pneumatischen und hydraulischen Antriebskomponenten </li>\n    <li>Projektierung fluidischer Antriebe </li>\n    <li>Steuerung und Regelung fluidischer Antriebe </li>\n    <li>Einsatzgebiete und Aufbau von Steuerungen </li>\n    <li>Aussagelogik und Verkn&uuml;pfungssteuerung </li>\n    <li>Ablaufplan und Ablaufsteuerung </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 24114,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 120,
+          "harteGrenze": true
+        },
+        {
+          "id": 24115,
+          "art": "Uebung",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 24116,
+          "art": "Praktikum",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Antriebs- und Steuertechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Drive and Control Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1269,
+      "name": "Koller",
+      "vorname": "Agathe"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 24112,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Gem&auml;ss Informationen zu Semesterbeginn</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Steuertechnik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Control Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2014,
+    "beginSemester": "FS",
+    "endJahr": 2015,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 21078,
+    "kuerzel": "M_ST",
+    "bezeichnung": "Steuertechnik",
+    "url": "allModules/21078_M_ST.json"
+  },
+  "nachfolger": {
+    "id": 24112,
+    "kuerzel": "M_ST",
+    "bezeichnung": "Steuertechnik",
+    "url": "allModules/24112_M_ST.json"
+  }
+}

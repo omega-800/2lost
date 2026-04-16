@@ -1,0 +1,194 @@
+{
+  "id": 51263,
+  "kuerzel": "M_SYS_B_(E)",
+  "bezeichnung": "Systemtechnik B (Elektronik und Regelungstechnik)",
+  "kreditpunkte": 9,
+  "lernziele": "<p>Die Studierenden</p><ul><li>verstehen Modellbildung und Simulation als einen Teilprozess der Produktentwicklung.</li><li>k&ouml;nnen Systeme unter verschiedenen Aspekten modellieren und simulieren.</li><li>k&ouml;nnen die wesentlichen technischen Bestandteile eines Systems hinsichtlich ihres zeitlichen Verhaltens beurteilen und entsprechende Regelungen zur Verbesserung der Dynamik entwerfen.</li><li>verstehen das Konzept des Systems Engineerings hinsichtlich Teilung, Vereinigung und Weiterentwicklung von (Teil-)Systemen.</li><li>verstehen ihren fachspezifischen Beitrag in interdisziplin&auml;ren Problemstellungen und k&ouml;nnen diesen gezielt einbringen.</li></ul>",
+  "vorausgKenntnisse": "<p>Systemtechnik A (Elektronik und Regelungstechnik) oder</p>\n<p>Systemtechnik&nbsp;A (Ingenieurinformatik)</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 51264,
+      "kuerzel": "SYS_B_(E)_M",
+      "bezeichnung": "Modellbildung, Simulation und Regelung",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen ein technisches System ggf. in geeignete Teilsysteme zerlegen und deren dynamisches Verhalten durch ein mathematisches Modell beschreiben.</li><li>k&ouml;nnen die Parameter eines realen Systems messtechnisch erfassen und das System simulieren.</li><li>k&ouml;nnen Anforderungen an Regelkreise beschreiben und spezifizieren.</li><li>k&ouml;nnen Regler entwerfen, aufbauen und in Betrieb nehmen.</li><li>k&ouml;nnen die Stabilit&auml;t von dynamischen Systemen beurteilen.</li><li>k&ouml;nnen Regelkreise hinsichtlich ihres Verhaltens im Zeit- oder im Frequenzbereich optimieren.</li></ul>",
+      "planinhalt": "<p>Anwendung der Messtechnik und der Aktorik</p><ul><li>Messen und Modellieren der Charakteristik von Sensoren und Aktoren</li><li>Beurteilen der Auswirkungen bestimmter Sensoren und Aktoren auf eine Regelung</li></ul><p>Aufbau und Elemente eines Regelkreises</p><ul><li>Arbeiten mit Blockschaltbildern</li><li>Kenntnis des&nbsp; Standardregelkreises und seiner wesentlichen Elemente (Regler, Strecke, Mess- und Stellglieder)</li><li>Kenntnis der wesentlichen dynamischen Grundglieder, Systeme mit und ohne Ausgleich</li></ul><p>Anwendung von Simulationsverfahren</p><ul><li>Anwendung von grafischen blockorientierten Simulationsverfahren</li><li>Simulation einzelner Elemente und des gesamten Regelkreises zur Beurteilung des dynamischen Verhaltens des realen (Gesamt-) Systems</li><li>Einsatz von Simulationen im Rahmen des Entwurfs und der Auslegung eines Reglers</li><li>Simulation / Einf&uuml;gen nichtlinearer Elemente in den Regelkreis</li><li>Simulation von Abtastregelungen</li></ul><p>Anwendung mathematischer Methoden zur Regelung linearer zeitinvarianter Systeme</p><ul><li>Anwendung der Laplace-Transformation</li><li>Einf&uuml;hrung des Konzepts der &Uuml;bertragungsfunktion zur Beschreibung des dynamischen Verhaltens von Systemen</li><li>Beschreibung des &Uuml;bertragungsverhaltens dynamischer Systeme im Frequenzbereich, Frequenzgang und Bode-Diagramm</li></ul>",
+      "empfLehrmittel": "<p>Vorlesung, Impulsreferate, Selbststudium, Tutor&uuml;bungen, Laborversuche</p>",
+      "leistungsnachweis": "<p>Es findet&nbsp;eine&nbsp;abgesetzte Modulschlusspr&uuml;fung statt.</p>",
+      "kurselemente": [
+        {
+          "id": 51265,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        },
+        {
+          "id": 51266,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000919,
+          "name": "Pickhardt",
+          "vorname": "Rainer"
+        }
+      ]
+    },
+    {
+      "id": 51267,
+      "kuerzel": "SYS_B_(E)_L",
+      "bezeichnung": "Hybride Lernfabrik B",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>verstehen das Zusammenwirken von technischen Systemen und ihrer Teilkomponenten am Beispiel einer &quot;Smart Factory&quot;.</li><li>verstehen die Anwendung mechanischer, elektronischer und informationstechnischer Aspekte zur Gestaltung von Systemen.</li><li>k&ouml;nnen die einzelnen Bestandteile des Systems benennen, beschreiben und hinsichtlich der systemtechnischen Anforderungen beurteilen.</li><li>k&ouml;nnen Abl&auml;ufe beschreiben, analysieren und neugestalten.</li><li>k&ouml;nnen ihr fachspezifisches Wissen einbringen, erweitern und sich in interdisziplin&auml;ren Problemstellungen sach- und fachgerecht mit einbringen.</li><li>k&ouml;nnen ausgew&auml;hlte Methoden des Systems Engineering in &uuml;berschaubaren Projekten praktisch anwenden.</li><li>k&ouml;nnen ihre eigenen Leistungen und Erkenntnisse &uuml;berzeugend und sicher darstellen und pr&auml;sentieren.</li></ul>",
+      "planinhalt": "<p>Industrie 4.0 / Cyber Physische Systeme am Beispiel &laquo;Smart Factory&raquo;</p><ul><li>beobachten,</li><li>beschreiben,</li><li>verstehen,</li><li>beeinflussen</li></ul><p>Informationstechnische Aspekte</p><ul><li>Steuerungen, Controller, Mikroprozessoren</li><li>Vernetzung und Kommunikation</li><li>Informationssicherheit</li><li>Datenhaltung &ndash; Cloudbasiert</li></ul><p>Elektronische und mechatronische Komponenten</p><ul><li>Sensoren</li><li>Aktoren</li><li>Mechanischer Aufbau</li></ul><p>M&ouml;gliche Fehler &ndash; m&ouml;gliche Ursachen - m&ouml;gliche Gefahren</p><ul><li>Was passiert, wenn?</li><li>Welche technischen Probleme k&ouml;nnen innerhalb des Systems auftreten?</li><li>Welche Probleme k&ouml;nnen an den Schnittstellen auftreten?</li><li>Wie k&ouml;nnen Probleme entdeckt und behoben werden?</li><li>Wie k&ouml;nnen Probleme vermieden werden?</li></ul><p>Monitoring technischer Systeme</p><ul><li>Zust&auml;nde / Betriebsmodi</li><li>Energieverbrauch</li><li>Leistungserbringung</li><li>Datenanalyse</li></ul><p>Modellierung und Simulation technischer Systeme</p><ul><li>Aspekte der virtuellen Produktentwicklung</li><li>geometrische und kinematische Modelle</li><li>V-Modell</li></ul>",
+      "empfLehrmittel": "<p>Projektunterricht, gef&uuml;hrtes Selbststudium</p>",
+      "bemerkungKurs": "<p>Die &laquo;Hybride Lernfabrik&raquo; ist ein Simulator f&uuml;r komplexe technische Systeme, in dem sowohl am realen Modell, als auch am virtuellen Modell theoretische Inhalte praktisch erprobt werden.<br />An wechselnden Beispielen und in &uuml;berschaubaren Projekten werden typische Aufgaben- / Problemstellungen realer Systeme betrachtet.<br />Dazu geh&ouml;ren z.B.:<br />Einsatz von augmented Reality, autonome- / teilautonome Systeme, Merkmalerkennung, Merkmal&uuml;berwachung, Objekterkennung, Objektidentifikation, Objektverfolgung, logistische Abl&auml;ufe, Mensch-Maschine-Kommunikation, Maschine-Maschine-Kommunikation, Monitoring / Beobachten von Systemen, Simulation von Abl&auml;ufen, Steuerungen- und Regelungen, Wartungs- und Instandhaltungsproblematik.</p>",
+      "leistungsnachweis": "<p>W&auml;hrend der Unterrichtsphase wird eine Projektarbeit bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 51268,
+          "art": "Projekt",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000919,
+          "name": "Pickhardt",
+          "vorname": "Rainer"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 9
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 9
+        }
+      ]
+    },
+    {
+      "id": 10366,
+      "bezeichnung": "Elektronik und Regelungstechnik",
+      "kuerzel": "Elekt",
+      "url": "allStudies/10366_Elekt.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10367,
+      "bezeichnung": "Elektronik und Regelungstechnik",
+      "kuerzel": "Elekt",
+      "url": "allStudies/10367_Elekt.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000919,
+      "name": "Pickhardt",
+      "vorname": "Rainer"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 2,
+      "kuerzel": "WSG",
+      "bezeichnung": "Waldau St.Gallen",
+      "ort": "St. Gallen"
+    },
+    {
+      "id": 3,
+      "kuerzel": "CH",
+      "bezeichnung": "Chur",
+      "ort": "Chur"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 51263,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Am Ende des Semesters findet eine abgesetzte Modulschlusspr&uuml;fung in einem Teil statt. Der Kurs Modellbildung, Simulation und Regelung bildet den Teil der abgesetzten Modulschlusspr&uuml;fung.</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Systems Engineering B (Electronics and Control Engineering)"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2019,
+    "beginSemester": "FS",
+    "endJahr": 2019,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 49321,
+    "kuerzel": "M_SYS_B_(E)",
+    "bezeichnung": "Systemtechnik B (Elektronik und Regelungstechnik)",
+    "url": "allModules/49321_M_SYS_B_(E).json"
+  },
+  "nachfolger": {
+    "id": 51263,
+    "kuerzel": "M_SYS_B_(E)",
+    "bezeichnung": "Systemtechnik B (Elektronik und Regelungstechnik)",
+    "url": "allModules/51263_M_SYS_B_(E).json"
+  }
+}

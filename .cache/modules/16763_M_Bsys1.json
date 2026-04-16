@@ -1,0 +1,168 @@
+{
+  "id": 16763,
+  "kuerzel": "M_Bsys1",
+  "bezeichnung": "Betriebssysteme 1",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Der/die Studierende versteht die Parallelverarbeitung unter einem Betriebssystem in den wesentlichen Grundverfahren und kann die zur Verf&uuml;gung stehenden Mechanismen problemgerecht einsetzen. Grundm&ouml;glichkeiten der Interprozesskommunikation sind bekannt und m&ouml;gliche Verklemmungssituationen werden vermieden. Systemnahe einfache Programme k&ouml;nnen unter Nutzung der Programmierschnittstelle verbreiteter Betriebssysteme entwickelt werden. Massenspeicher lassen sich in eigenen Programmen effizient nutzen.</p>",
+  "vorausgKenntnisse": "Grundkenntnisse Programmieren in C (St&uuml;tzkurs &quot;Programmieren in C&quot; empfohlen, sofern keine C-Programmierkenntnisse vorhanden)\n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 16764,
+      "kuerzel": "Bsys1",
+      "bezeichnung": "Betriebssysteme 1 ",
+      "planinhalt": "<ul>\n    <li>Einf&uuml;hrung (Zweck, Definition, Einordnung im Computersystem, Betriebssystemarten) </li>\n    <li>Grundlagen der Programmausf&uuml;hrung (Rechner- und Prozessorgrundlagen, Adressraum, Unterprogrammmechanismen) </li>\n    <li>Grundlagen der Systemprogrammierung (Systemprogrammierschnittstellen, Unterprogrammtechniken) </li>\n    <li>Prozesse und Threads (Parallelverarbeitung, Prozessmodell, Threads, CPU-Scheduling) </li>\n    <li>Synchronisation von Prozessen &amp; Threads (Synchronisationsbedarfe und L&ouml;sungsans&auml;tze, Semaphore und ihre Anwendung, Unix-Signale, Verklemmungsproblematik) </li>\n    <li>Kommunikation von Prozessen &amp; Threads (Ueberblick, allgemeine Aspekte, nachrichtenbasierte Verfahren anhand Unix-Pipes) </li>\n    <li>Massenspeicher (Funktionsweise, Disk-I/O-Scheduling, Disk-Cache) </li>\n    <li>Dateisystemkonzepte, Realisierung von Dateisystemen anhand von Beispielen&nbsp; </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 16765,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 108,
+          "harteGrenze": true
+        },
+        {
+          "id": 16766,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Betriebssysteme 1 "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Operating Systems 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 173,
+      "name": "Glatz",
+      "vorname": "Eduard"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 16763,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Betriebssysteme 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Operating Systems 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2007,
+    "beginSemester": "HS",
+    "endJahr": 2012,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 10998,
+    "kuerzel": "M_Bsys1",
+    "bezeichnung": "Betriebssysteme 1",
+    "url": "allModules/10998_M_Bsys1.json"
+  },
+  "nachfolger": {
+    "id": 16763,
+    "kuerzel": "M_Bsys1",
+    "bezeichnung": "Betriebssysteme 1",
+    "url": "allModules/16763_M_Bsys1.json"
+  }
+}

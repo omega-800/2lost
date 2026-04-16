@@ -1,0 +1,210 @@
+{
+  "id": 40697,
+  "kuerzel": "M_DigME",
+  "bezeichnung": "Digital Microelectronics",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden lernen den heute in der Praxis weit verbreiteten IP basierten Entwurf von digitalen Systemen kennen. Sie lernen arithmetische Funktionen und Kommunikationsinterfaces in digitaler Hardware zu realisieren. Sie lernen anhand praktischer Beispiele, komplexe digitale Systeme (SoC) auf FPGA zu realisieren.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 40698,
+      "kuerzel": "DigME",
+      "bezeichnung": "Digital Microelectronics",
+      "planinhalt": "<ul>\n<li>Implementierung digitaler Systeme auf FPGA und SoC:\n<ul>\n<li>IP basierter Design Flow, High Level Synthesis (HLS)</li>\n<li>Design Tools (anhand der Vivado Tools von XILINX)</li>\n<li>Realisierung von Kommunikationsinterfaces in Hardware</li>\n<li>Realisierung arithmetischer Funktionen in Hardware</li>\n<li>Verifikation digitaler Systeme</li>\n</ul>\n</li>\n<li>Realisierung eigener Designideen in einer Projektaufgabe</li>\n</ul>\n<p>&nbsp;</p>\n<p>&Auml;nderungen vorbehalten.&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 40699,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        },
+        {
+          "id": 40700,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Digital Microelectronics"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Digital Microelectronics"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 537055,
+      "name": "Zbinden",
+      "vorname": "Paul"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 25993,
+      "kuerzel": "M_DigT",
+      "bezeichnung": "Digitaltechnik",
+      "url": "allModules/25993_M_DigT.json"
+    },
+    {
+      "id": 28344,
+      "kuerzel": "M_DigDes",
+      "bezeichnung": "Digital Design",
+      "url": "allModules/28344_M_DigDes.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 40697,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat</p>",
+      "bemerkungPruefung": "<p>2/3 der Praktika besucht und Miniprojekt abgegeben und pr&auml;sentiert</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Digital Microelectronics"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Digital Microelectronics"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2022,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 28481,
+    "kuerzel": "M_DigME",
+    "bezeichnung": "Digital Microelectronics",
+    "url": "allModules/28481_M_DigME.json"
+  }
+}

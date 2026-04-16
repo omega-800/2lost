@@ -1,0 +1,92 @@
+{
+  "id": 60097,
+  "kuerzel": "M_UniA_W12",
+  "bezeichnung": "Uni_Auckland_Wahlmodul_12KP",
+  "kreditpunkte": 12,
+  "lernziele": "<p>siehe Modulbeschreibung der Uni Auckland</p>",
+  "vorausgKenntnisse": "<p>Siehe Modulbeschreibung der Uni Auckland</p>",
+  "semesterBewertung": "bestanden / nicht bestanden",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 60098,
+      "kuerzel": "UniT_W12",
+      "bezeichnung": "Uni Auckland Wahlmodul 12KP",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Siehe Modulbeschreibung der Uni Auckland</p>",
+      "planinhalt": "<p>Siehe Modulbeschreibung der Uni Auckland</p>",
+      "bibliographie": "<p>Siehe Modulbeschreibung der Uni Auckland</p>",
+      "empfLehrmittel": "<p>Siehe Modulbeschreibung der Uni Auckland</p>",
+      "bemerkungKurs": "<p>Die Module werden von der Uni Auckland angeboten.</p>",
+      "leistungsnachweis": "<p>Siehe Modulbeschreibung der Uni Auckland</p>",
+      "kurselemente": [
+        {
+          "id": 60099,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 36,
+          "harteGrenze": false
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000117,
+      "name": "Keller",
+      "vorname": "Daniel"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2025,
+    "beginSemester": "HS",
+    "endJahr": 2025,
+    "endSemester": "HS"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "id": 15461,
+  "kuerzel": "M_AntrT",
+  "bezeichnung": "Antriebstechnik (Hydraulik und Pneumatik)",
+  "kreditpunkte": 2,
+  "lernziele": "<ul>\n    <li>&Uuml;berblick &uuml;ber den Aufbau und die Arbeitsweise fluidischer Antriebe </li>\n    <li>F&auml;higkeit zur Auslegung geeigneter Antriebsl&ouml;sungen <br /></li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 15462,
+      "kuerzel": "AntrT",
+      "bezeichnung": "Fluidische Antriebstechnik",
+      "planinhalt": "<p>&Uuml;berblick &uuml;ber den Aufbau und die Arbeitsweise fluidischer Antriebe.<br />Auslegung der gesamten fluidischen Antriebsl&ouml;sung inkl. Energieversorgung.</p>\n<p>Pneumatik: <br />&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Grundlagen Schaltplanaufbau und Komponenten repetieren<br />&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aufbau und Eigenschaften pneumatischer Antriebskomponenten unterscheiden<br />&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Auslegung, Dimensionierung und Projektierung pneumatischer Anlagen vornehmen<br />&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Praktikum 1 zur Vertiefung und Festigung des Lerninhalts Pneumatik<br />Elektropneumatik<br />&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Grundlagen Schaltplanaufbau und Komponenten repetieren<br />&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Praktikum 2 zur Vertiefung und Festigung des Lerninhalts Elektropneumatik<br />Hydraulik<br />&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Grundlagen Schaltplanaufbau und Komponenten repetieren<br />&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aufbau und Eigenschaften hydraulischer Antriebskomponenten unterscheiden<br />&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Auslegung, Dimensionierung und Projektierung hydraulischer Anlagen vornehmen<br />&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Praktikum 3 zur Vertiefung und Festigung des Lerninhalts Hydraulik<br /></p>",
+      "kurselemente": [
+        {
+          "id": 15463,
+          "art": "Vorlesung",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 15464,
+          "art": "Praktikum",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Fluidische Antriebstechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Fluid Drive Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1269,
+      "name": "Koller",
+      "vorname": "Agathe"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 15461,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Antriebstechnik (Hydraulik und Pneumatik)"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Drive Engineering (Hydraulics and Pneumatics)"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2007,
+    "beginSemester": "SS",
+    "endJahr": 2011,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 11111,
+    "kuerzel": "M_AntrT1",
+    "bezeichnung": "Antriebstechnik 1",
+    "url": "allModules/11111_M_AntrT1.json"
+  }
+}

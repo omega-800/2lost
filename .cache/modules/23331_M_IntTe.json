@@ -1,0 +1,166 @@
+{
+  "id": 23331,
+  "kuerzel": "M_IntTe",
+  "bezeichnung": "Internettechnologien",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Sie kennen die relevanten Architekturen und Technologien zur Erstellung von Internet-Applikationen <br />Sie beherrschen den Design und die Programmierung der Client-Seite von Web-Applikationen <br />Sie beherrschen den Design und die Programmierung der Server-Seite von Web-Applikationen <br />Sie besitzen eine &#220;bersicht &#252;ber relevante Frameworks und Tools f&#252;r die Erstellung von Web-Applikationen <br /><br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 23332,
+      "kuerzel": "IntTe",
+      "bezeichnung": "Internettechnologien",
+      "planinhalt": "<ul>\n    <li>&Uuml;bersicht &uuml;ber relevante Architekturen und Technologien zur Erstellung von Internet-Applikationen </li>\n    <li>Internet-Kommunikationsprotokolle und deren Programmierung (TCP/IP, UDP -&gt;Sockets, http -&gt; URL, URLConnection) </li>\n    <li>Architektur von Web-Servern und entsprechenden Plug-Ins (Apache Web-Server) </li>\n    <li>Programmierung der Client-Seite von Web-Applikationen, (HTML u. CSS, JavaScript, Applets) </li>\n    <li>Java Networking Launch Protocol (Java Web Start) </li>\n    <li>Programmierung der Server-Seite von Web-Applikationen: </li>\n    <li>Motivation: Praxisbeispiele, Architektur-Patterns f&uuml;r Web-Applikationen, &Uuml;bersicht Java Enterprise Edition (JEE) </li>\n    <li>Java Servlet/JSP-Programmierung und -Frameworks, Custom Tag Libraries, Java Server Faces </li>\n    <li>Session und State Management, Session-Tracking mit Cookies und URL-Rewriting </li>\n    <li>REST-Prinzipien: Uniform Resource Interface, Hypertext as the Engine of Application State (HATEOAS); MIME-Types </li>\n    <li>Anwendung von XML im Web-Umfeld; Web Services (WSDL, SOAP) am Beispiel von Apache und Eclipse Web Tools Project </li>\n    <li>Web 2.0 und ausgew&auml;hlte Semantic Web Technologien wie RDF und SPARQL </li>\n    <li>Backendintegration im &Uuml;berblick: JDBC/Hibernate, Enterprise Application Integration/Message-Oriented Middleware </li>\n    <li>Administration von Web Server und Web Application Server am Produktbeispiel (operationale Modelle aus der Praxis) </li>\n</ul>\n<p>&nbsp;</p>\n<p>In den behandelten Technologien konzentriert sich dieses Modul auf Java-Technologien.<br /></p>\n<p><br /></p>",
+      "kurselemente": [
+        {
+          "id": 23333,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 23334,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Internettechnologien"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Internet Technologies"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533889,
+      "name": "Stolze",
+      "vorname": "Markus"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 15687,
+      "kuerzel": "M_Prog1",
+      "bezeichnung": "Programmieren 1: Programmieren mit Java",
+      "url": "allModules/15687_M_Prog1.json"
+    },
+    {
+      "id": 18558,
+      "kuerzel": "M_SE1",
+      "bezeichnung": "Software-Engineering 1",
+      "url": "allModules/18558_M_SE1.json"
+    },
+    {
+      "id": 22288,
+      "kuerzel": "M_AD",
+      "bezeichnung": "Programmieren 2: Algorithmen und Datenstrukturen",
+      "url": "allModules/22288_M_AD.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 23331,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat erfordert&nbsp; aktive Teilnahme an 75% der &Uuml;bungen</p>\n<p>und erfolgreiche Abgabe einzelner &Uuml;bungen</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Internettechnologien"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Internet Technologies"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "HS",
+    "endJahr": 2014,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 11014,
+    "kuerzel": "M_IntTe",
+    "bezeichnung": "Internettechnologien",
+    "url": "allModules/11014_M_IntTe.json"
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "id": 38994,
+  "kuerzel": "M_SEP1",
+  "bezeichnung": "SE Practices 1",
+  "kreditpunkte": 4,
+  "lernziele": "<p>All participants are able to explain and apply selected software engineering practices effectively, using modern state-of-the-art methods and tools.</p>\n<p>&nbsp;</p>\n<p>Selected practices from the following disciplines will be covered:</p>\n<ul>\n<li>Business modelling</li>\n<li>Requirements</li>\n<li>Analysis and design</li>\n<li>Verification</li>\n<li>Deployment</li>\n<li>Configuration and change management</li>\n</ul>\n<p>&nbsp;</p>\n<p>The taxonomy and format of the Unified Process (UP) and the Unified Modelling Language (UML) will be used whenever appropriate.</p>",
+  "vorausgKenntnisse": "<p>Englische Sprachkenntnisse</p>\n<p>(Dieses Modul wird auf Englisch durchgef&uuml;hrt.)</p>",
+  "semesterBewertung": "bestanden / nicht bestanden",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 38995,
+      "kuerzel": "SEP1",
+      "bezeichnung": "SE Practices 1",
+      "lernziele": "<p>Refer to the learning goals for the module.</p>",
+      "planinhalt": "<p>The following software engineering practices will be covered:</p>\n<ul>\n<li>Version control (Git)</li>\n<li>Continuous integration</li>\n<li>Domain analysis and modelling</li>\n<li>Requirements elicitation and specification: functional (use cases) &amp; non-functional</li>\n<li>Modelling system behaviour: state machine diagrams and activity diagrams</li>\n<li>Error handling design</li>\n<li>Design by contract</li>\n<li>Code metrics</li>\n<li>Software testing: &nbsp;test design; unit, integration &amp; system tests</li>\n<li>Static software analysis and verification</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>This course will be taught in English.</strong></p>",
+      "kurselemente": [
+        {
+          "id": 38996,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 126,
+          "harteGrenze": true
+        },
+        {
+          "id": 38997,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "SE Practices 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "SE Practices 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10138,
+          "kuerzel": "I_EP",
+          "bezeichnung": "Engineering Practice",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10191,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10191_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10138,
+          "kuerzel": "I_EP",
+          "bezeichnung": "Engineering Practice",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10106,
+      "bezeichnung": "Application Design - Cloud Solutions",
+      "kuerzel": "ADCS",
+      "url": "allStudies/10106_ADCS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10161,
+      "bezeichnung": "Data Engineering & Machine Intelligence",
+      "kuerzel": "DaEngMaInt",
+      "url": "allStudies/10161_DaEngMaInt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10107,
+      "bezeichnung": "Network & Cloud-Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10107_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10173,
+      "bezeichnung": "Cyber Security ",
+      "kuerzel": "CySec",
+      "url": "allStudies/10173_CySec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10108,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10108_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5001386,
+      "name": "Mehta",
+      "vorname": "Farhad D."
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 28259,
+      "kuerzel": "M_AD1",
+      "bezeichnung": "Algorithmen und Datenstrukturen 1",
+      "url": "allModules/28259_M_AD1.json"
+    },
+    {
+      "id": 38872,
+      "kuerzel": "M_OOP1",
+      "bezeichnung": "Objektorientierte Programmierung 1",
+      "url": "allModules/38872_M_OOP1.json"
+    },
+    {
+      "id": 38910,
+      "kuerzel": "M_OOP2",
+      "bezeichnung": "Objektorientierte Programmierung 2",
+      "url": "allModules/38910_M_OOP2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "SE Practices 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "SE Practices 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2021,
+    "beginSemester": "HS",
+    "endJahr": 2021,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 38994,
+    "kuerzel": "M_SEP1",
+    "bezeichnung": "SE Practices 1",
+    "url": "allModules/38994_M_SEP1.json"
+  }
+}

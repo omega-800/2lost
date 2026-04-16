@@ -1,0 +1,66 @@
+{
+  "id": 41987,
+  "kuerzel": "M_KatFachVer",
+  "bezeichnung": "Fachliche Vertiefung",
+  "kreditpunkte": 3,
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 41988,
+      "kuerzel": "K_KatFachVer",
+      "bezeichnung": "Kategorie Fachliche Vertiefung",
+      "kurselemente": [
+        {
+          "id": 41989,
+          "art": "Blockkurs",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10136,
+          "kuerzel": "MSE-ZentMo",
+          "bezeichnung": "MSE Zentrale Module",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Fachliche Vertiefung"
+    }
+  ]
+}

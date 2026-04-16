@@ -1,0 +1,147 @@
+{
+  "id": 21571,
+  "kuerzel": "M_VT1",
+  "bezeichnung": "Verfahrenstechnik 1",
+  "kreditpunkte": 4,
+  "lernziele": "Grundoperationen der mechanischen Verfahrenstechnik",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 21572,
+      "kuerzel": "VT1",
+      "bezeichnung": "Verfahrenstechnik 1",
+      "lernziele": "<p>Siehe Modulbeschreibung</p>",
+      "planinhalt": "<p>Vorlesung:</p>\n<p>1. Grundlagen</p>\n<p>2. Partikel in Str&ouml;mungen</p>\n<p>3. Management von Stoffstr&ouml;men, Bilanzierung</p>\n<p>4. Zerkleinerung und Agglomeration</p>\n<p>5. Klassierung</p>\n<p>6. Fest/Fluid-Trennung</p>\n<p>&nbsp;</p>\n<p>Praktikum:</p>\n<p>1. Zerkleinerung: Brecher, Shredder, M&uuml;hlen</p>\n<p>2. Siebklassierung: Wurfsiebe, Plansiebe, Bestimmung der Transferfunktion mittels Laserbeugungsspektrometer</p>\n<p>3. Str&ouml;mungsklassierung: Sichter, Zyklone...</p>\n<p>4. Fest/Fl&uuml;ssigtrennung: Sedimentation, Filtration...</p>\n<p>5. Entstaubung: Elektrofilter, Tuchfilter...</p>",
+      "kurselemente": [
+        {
+          "id": 21573,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 120,
+          "harteGrenze": true
+        },
+        {
+          "id": 21574,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Verfahrenstechnik 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Process Engineering 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 929,
+      "name": "Bunge",
+      "vorname": "Rainer"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 21571,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Mindestens&nbsp;4 von&nbsp;5 Praktika bestanden (Jedes Praktikum wird mit einer 15-min&uuml;tigen Pr&uuml;fung abgeschlossen).<br /></p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Verfahrenstechnik 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Process Engineering 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2011,
+    "beginSemester": "HS",
+    "endJahr": 2011,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 21571,
+    "kuerzel": "M_VT1",
+    "bezeichnung": "Verfahrenstechnik 1",
+    "url": "allModules/21571_M_VT1.json"
+  }
+}

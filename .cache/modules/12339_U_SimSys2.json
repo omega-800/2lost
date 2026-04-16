@@ -1,0 +1,127 @@
+{
+  "id": 12339,
+  "kuerzel": "U_SimSys2",
+  "bezeichnung": "Simulation mechanischer Systeme 2 - Übergangsmodul",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Kennt die Bedeutung von Kurvenscheiben und Koppelgetrieben im Sondermaschinenbau <br />Kann entscheiden, wann programmierbare Antriehbe, Kurvenscheiben oder Koppelgetriebe sinnvoll sind <br />Kann Kurvenscheiben f&#252;r alle typischen Bewegungsgesetze berechnen <br />Kann Koppelgetriebe f&#252;r wichtige Bewegungstypen analysieren und auslegen <br />Kennt verschiedene Schrittschaltgetriebe <br />Kann passende Schrittschaltgetriebe ausw&#228;hlen <br />Kennt Grundlagen zur Auslegung von Planetengetrieben <br /><br /></p>",
+  "vorausgKenntnisse": "<ul>\n    <li>Technische Mechanik 1 - 3 </li>\n    <li>FEM 1</li>\n    <li>Simulation mechanischer Systeme 1 </li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 12264,
+      "kuerzel": "uSimSys2",
+      "bezeichnung": "Simulation mechanischer Systeme 2 - Übergang",
+      "planinhalt": "<p>Kurvenscheiben: <br />Typische Applikationen <br />- Abgrenzung der sinnvollen Anwendungen im Vergleich zu programmierbaren Antrieben <br />Die Begriffe Stoss und Ruck <br />Normierte Funktionen <br />Bestimmung des Weg-Winkeldiagramms <br />Auswahl sinnvoller Funktionen f&#252;r gegebene Weg-Winkeldiagramme <br />Berechnung symetrischer und asymetrischer Funktionen <br />Simulation von Kurvenscheibenantrieben mit SAM <br /><br />Koppelgetriebe: <br />Arten von Koppelgetrieben <br />Simulation der typischen Koppelgetriebe <br />Herleitung der Getriebedimensionen f&#252;r gegebene Positionen der Koppelelemente <br />Simulation von Koppelgetrieben mit SAM <br /><br />Schrittschaltgetriebe: <br />Arten von Schrittschaltgetrieben <br />Auswahlkriterien <br />Planetengetriebe <br />Simulation spezieller Modelle mit SAM <br /><br /><br /></p>",
+      "kurselemente": [
+        {
+          "id": 12305,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 12306,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Simulation mechanischer Systeme 2 - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Simulation of mechanical Systems 2 - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 28,
+      "name": "Simeon",
+      "vorname": "Alex"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 12339,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "Abgabe von 2 Uebungen mit Bewertung &gt;= 4.0",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Simulation mechanischer Systeme 2 - Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Simulation of mechanical Systems 2 - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2006,
+    "endSemester": "SS"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "id": 37197,
+  "kuerzel": "M_GeMess",
+  "bezeichnung": "Geodätische Messtechnik",
+  "kreditpunkte": 4,
+  "lernziele": "<p>F&auml;higkeit zur Ausf&uuml;hrung von geod&auml;tischen Messungen und Gel&auml;ndeaufnahmen im Baubereich</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 37196,
+      "kuerzel": "GeMess",
+      "bezeichnung": "Geodätische Messtechnik",
+      "lernziele": "<p>Kenntnis der Grundlagen</p>",
+      "planinhalt": "<ul>\n<li>Instrumentenkunde:Nivellier, Tachymeter, Totalstation, Laserscanner</li>\n<li>L&auml;ngen- und H&ouml;henmessungen</li>\n<li>Lage- und H&ouml;henbestimmungen</li>\n<li>Aufnahmen und Absteckungen</li>\n<li>Photogrammetrische Gel&auml;ndeaufnahme und 3D-Datenerfassung mit Laserscanner</li>\n<li>Auswertung und Darstellung mit verschiedener Softwawre</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 37195,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 37198,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Geodätische Messtechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Geodetic Metrology Fundamentals"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10197,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10197_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5015523,
+      "name": "Šeatović",
+      "vorname": "Dejan"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 22033,
+      "kuerzel": "M_An1B",
+      "bezeichnung": "Analysis 1 für Bauingenieurwesen",
+      "url": "allModules/22033_M_An1B.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 37197,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat gem&auml;ss Semesterplan</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Geodätische Messtechnik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Geodetic Metrology Fundamentals"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2020,
+    "beginSemester": "FS",
+    "endJahr": 2021,
+    "endSemester": "FS"
+  }
+}

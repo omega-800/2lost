@@ -1,0 +1,291 @@
+{
+  "id": 56370,
+  "kuerzel": "M_REAUT",
+  "bezeichnung": "Regelungstechnik und Automation",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Der Studierenden sind in der Lage, den Nutzen der Automatisierung einer Anlage/Produktion technisch und wirtschaftlich beurteilen zu k&ouml;nnen.</p>\n<p>Sie kennen den Aufbau von automatisierten Anlagen mit den wichtigsten Komponenten (Steuerung, Regelung, Sensoren, Aktoren, &hellip;).</p>\n<p>Sie kennen den Unterschied zwischen Regeln und Steuern. Die Studierenden sind in der Lage, zu entscheiden, ob der Einsatz einer Regelung oder Steuerung sinnvoll ist.&nbsp;</p>",
+  "vorausgKenntnisse": "<p>Grundkenntnisse in Physik und Mathematik (Integral, Numerik)</p>\n<p>Angewandte Programmierung, Matlab&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 56371,
+      "kuerzel": "REAUT",
+      "bezeichnung": "Regelungstechnik und Automation",
+      "lernziele": "<p><strong>Fachkompetenzen</strong> &nbsp;</p>\n<p>Die Teilnehmenden sind in der Lage:</p>\n<ul>\n<li>eine automatisierte Anlage konzeptionell auszulegen</li>\n<li>die notwendigen Komponenten und Teilsysteme (Steuerung, Feldbussystem, Handlingsystem, Transfersystem, Sensoren und Aktoren) f&uuml;r eine Anlage festzulegen</li>\n<li>einfache Programme und Algorithmen f&uuml;r SPS-Steuerungen zu entwickeln</li>\n<li>PID-Regelkreise aufzubauen</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Methodenkompetenzen</strong> &nbsp;</p>\n<p>Die Teilnehmenden sind in der Lage:</p>\n<ul>\n<li>die Wirtschaftlichkeit von Produkten aus Sicht der Produktion zu beurteilen</li>\n<li>die Risiken bei der Produktion in Bezug auf Kosten, Termin, Ressourcen und Investitionen zu beurteilen&nbsp;</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Selbstkompetenzen</strong> &nbsp;</p>\n<p>Die Teilnehmenden sind in der Lage:</p>\n<ul>\n<li>Komponenten selbst&auml;ndig auszuw&auml;hlen&nbsp;</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Sozialkompetenzen</strong>&nbsp;</p>\n<p>Die Teilnehmenden k&ouml;nnen:</p>\n<ul>\n<li>in Teams zusammenarbeiten</li>\n<li>Arbeiten aufteilen</li>\n<li>Probleme diskutieren</li>\n<li>Konflikte l&ouml;sen&nbsp;</li>\n</ul>",
+      "planinhalt": "<p><strong>Themen-/Lernblock: Automatisierungstechnik</strong></p>\n<ul>\n<li>Unterschied Steuerung und Regelung</li>\n<li>Aufbau automatisierter Anlagen mit allen Komponenten (Sensoren, Aktoren, Steuerung (SPS), Bussystem, Handling/Montage, Roboter, HMI, Pneumatik)&nbsp;</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Themen-/Lernblock: Steuerungstechnik </strong></p>\n<ul>\n<li>Aufbau einer Steuerung (SPS: Hard- und Software)</li>\n<li>Definition einfacher Abl&auml;ufe</li>\n<li>Programmierung (SPS) einfacher Abl&auml;ufe nach IEC61131&nbsp;</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Themen-/Lernblock: Regelungstechnik </strong></p>\n<ul>\n<li>Entwurf, Aufbau und Analyse eines PID-Regelkreises&nbsp;</li>\n</ul>",
+      "bibliographie": "<p><strong>Pflichtliteratur wie Skript, B&uuml;cher </strong></p>\n<ul>\n<li>Abgegebene Vorlesungsunterlagen</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Weiterf&uuml;hrende Literatur (Empfehlung an Studierende)&nbsp;</strong></p>\n<ul>\n<li>Lutz, H.; Wendt, W.: Taschenbuch der Regelungstechnik mit MATLAB und Simulink, 9. Auflage, Harri Deutsch Verlag, 2012. ISBN 978-3-8171-1895-3&nbsp;</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 56372,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 108,
+          "harteGrenze": true
+        },
+        {
+          "id": 56373,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Regelungstechnik und Automation"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Automatic Control Engineering and Automation"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10104,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10104_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10128,
+          "kuerzel": "W-STpl",
+          "bezeichnung": "Systemtechnik und ergänzende Fachmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10129,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10129_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10128,
+          "kuerzel": "W-STpl",
+          "bezeichnung": "Systemtechnik und ergänzende Fachmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10130,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10130_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10128,
+          "kuerzel": "W-STpl",
+          "bezeichnung": "Systemtechnik und ergänzende Fachmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10151,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10151_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10169,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10169_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10202,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10202_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10272,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10272_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10217,
+      "bezeichnung": "Smart Factories",
+      "kuerzel": "WING_Fact",
+      "url": "allStudies/10217_WING_Fact.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10274,
+      "bezeichnung": "Smart Factories",
+      "kuerzel": "WING_Fact",
+      "url": "allStudies/10274_WING_Fact.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10167,
+      "bezeichnung": "Smart Factories and Robotics",
+      "kuerzel": "WING_Fact",
+      "url": "allStudies/10167_WING_Fact.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10170,
+      "bezeichnung": "Smart Factories and Robotics",
+      "kuerzel": "WING_Fact",
+      "url": "allStudies/10170_WING_Fact.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002897,
+      "name": "Christen",
+      "vorname": "Rouven"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 56370,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Regelungstechnik und Automation"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Automatic Control Engineering and Automation"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2025,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 31197,
+    "kuerzel": "M_AUTOM",
+    "bezeichnung": "Regelungstechnik und Automation",
+    "url": "allModules/31197_M_AUTOM.json"
+  }
+}

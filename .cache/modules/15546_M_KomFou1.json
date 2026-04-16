@@ -1,0 +1,381 @@
+{
+  "id": 15546,
+  "kuerzel": "M_KomFou1",
+  "bezeichnung": "Komplexe Zahlen und Fourierreihen",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Beherrschen des Rechnens mit komplexen Zahlen </li>\n    <li>Periodische Funktionen mit Reihen (formal und nummerisch) darstellen und untersuchen k&ouml;nnen </li>\n    <li>Komplexe Abbildungen auf z.B. geometrische Potenzialprobleme anwenden k&ouml;nnen </li>\n    <li>Spektraldarstellung von periodischen Signalen verstehen </li>\n</ul>",
+  "vorausgKenntnisse": "Interessierten Informatik-Studierenden wird empfohlen, das Modul Lineare Algebra als Vorbereitung zu belegen, obwohl es nicht der Kategroie Mathematik Informatik angerechnet wird. Die vorausgesetzten Kenntnisse werden nur teilweise durch Mathematische Grundlagen der Informatik 1 abgedeckt.",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 15547,
+      "kuerzel": "KomFour",
+      "bezeichnung": "Komplexe Zahlen und Fourierreihen",
+      "planinhalt": "<ul>\n    <li>Konstruktion der komplexen Zahlen und ihre Darstellungen </li>\n    <li>Grundoperationen, Potenzen, Wurzeln, Exponential- und Logarithmusfunktion, trigonometrische Funktionen mit komplexen Zahlen </li>\n    <li>Nullstellen von Polynomen </li>\n    <li>Wichtige komplexe Funktionen als geometrische Abbildungen und ihre Graphen </li>\n    <li>Fourierreihen periodischer Funktionen in reeler und komplexer Darstellung </li>\n    <li>Konvergenzfragen </li>\n    <li>Spektraldarstellungen </li>\n    <li>Diskrete Fouriertransformation und ihre Umkehrung</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 15548,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 15549,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Komplexe Zahlen und Fourierreihen"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Complex Numbers and Fourier Series"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10191,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10191_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10246,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10246_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5019972,
+      "name": "Bichsel",
+      "vorname": "Manuel"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 10937,
+      "kuerzel": "M_LinAlg",
+      "bezeichnung": "Lineare Algebra: Einführung",
+      "url": "allModules/10937_M_LinAlg.json"
+    },
+    {
+      "id": 24442,
+      "kuerzel": "M_DMI",
+      "bezeichnung": "Diskrete Mathematik für Informatik ",
+      "url": "allModules/24442_M_DMI.json"
+    },
+    {
+      "id": 25634,
+      "kuerzel": "M_An1aE",
+      "bezeichnung": "Analysis 1a für Elektrotechnik",
+      "url": "allModules/25634_M_An1aE.json"
+    },
+    {
+      "id": 25648,
+      "kuerzel": "M_An1bE",
+      "bezeichnung": "Analysis 1b für Elektrotechnik",
+      "url": "allModules/25648_M_An1bE.json"
+    },
+    {
+      "id": 28151,
+      "kuerzel": "M_An1I",
+      "bezeichnung": "Analysis 1 für Informatik",
+      "url": "allModules/28151_M_An1I.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 15546,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Komplexe Zahlen und Fourierreihen"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Complex Numbers and Fourier Series"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2007,
+    "beginSemester": "SS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "id": 45727,
+  "kuerzel": "M_DAANA",
+  "bezeichnung": "Data Analytics",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Das Modul \"Data Analytics\" vermittelt den Studierenden eine solide Basis in allen Teilschritten typischer Datenanalysen. Es orientiert sich dabei an folgendem Ablaufdiagramm:</p>\n<p>&nbsp;</p>\n<p>Quelle: Wickham and Grolemund 2017,&nbsp;<br />https://r4ds.had.co.nz/introduction.html#what-you-will-learn&nbsp;</p>\n<p>Die Studierenden lernen jeden Teilschritt exemplarisch kennen und &uuml;ben die Teilschritte mit &Uuml;bungsaufgaben. Als Tool kommt Python zum Einsatz.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 45728,
+      "kuerzel": "DAANA",
+      "bezeichnung": "Data Analytics",
+      "lernziele": "<p><strong>Fachkompetenzen:</strong></p>\n<p>Die Teilnehmenden k&ouml;nnen:&nbsp;</p>\n<ul>\n<li>Datens&auml;tze nach Python importieren.&nbsp;</li>\n<li>Datens&auml;tze in ein konsistentes Datenformat &uuml;berf&uuml;hren.&nbsp;</li>\n<li>Daten mithilfe geeigneter Python-Funktionen in saubere, konsistente und&nbsp;<br />praktische Formate &uuml;berf&uuml;hren.&nbsp;</li>\n<li>Datens&auml;tze explorativ erschliessen mittels Datenvisualisierung und&nbsp;<br />Hypothesengenerierung/-best&auml;tigung.&nbsp;</li>\n<li>Validierungsverfahren (z.B. Residuen-Analyse und Kontrolle auf Overfitting&nbsp;<br />mittel Train- und Test-Set.&nbsp;</li>\n<li>Einfache statistische Modelle (Lineare Regression, Clustering) in der Praxis&nbsp;<br />anwenden.&nbsp;</li>\n<li>&uuml;berwachte (supervised) Modelle zur Hypothesengenerierung einsetzen.&nbsp;</li>\n<li>Datenanalysen mit Python auf einfachste Weise kundengerecht aufbereiten&nbsp;<br />und zug&auml;nglich machen.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Methodenkompetenzen:</strong></p>\n<p>Die Teilnehmenden k&ouml;nnen:</p>\n<ul>\n<li>zentrale Ergebnisse aus Datenanalysen in einer konkreten&nbsp;<br />Fallstudie kommunizieren.</li>\n<li>mit fehlenden Datens&auml;tzen und Ausreissern umgehen.</li>\n<li>Datens&auml;tze transformieren (Variablen zusammenf&uuml;hren, neue&nbsp;<br />Variablen berechnen, filtern).</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Selbstkompetenzen:</strong></p>\n<p>Die Teilnehmenden k&ouml;nnen:</p>\n<ul>\n<li>Eine relativ komplexe Datenanalyse Aufgabe sinnvoll in Teilschritte&nbsp;<br />zerlegen und zielgerichtet umsetzen</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Sozialkompetenzen:</strong></p>\n<p>Die Teilnehmenden k&ouml;nnen:</p>\n<ul>\n<li>Datenanlysen von Kolleg_innen sinnvoll challengen und Feedback&nbsp;<br />gezielt anbringen</li>\n</ul>",
+      "planinhalt": "<p><strong>Import/Data-Cleaning/Data-Preparation</strong><br />Die Studierenden lernen Datens&auml;tze nach Python zu importieren und in ein konsistentes Datenformat zu &uuml;berf&uuml;hren (Aus&nbsp;<br />Files wie Excel und CSV, aus APIs sowie aus Datenbanken). Sie k&ouml;nnen mit fehlenden Datens&auml;tzen und Ausreissern&nbsp;<br />umgehen. Sie k&ouml;nnen Daten mithilfe geeigneter Python-Funktionen in saubere, konsistente und praktische (f&uuml;r die&nbsp;<br />Weiterverarbeitung) Formate &uuml;berf&uuml;hren.</p>\n<p><br /><strong>Transform/Visualise/Model</strong><br />Die Studierenden lernen den iterativen Prozess \"from Data to Meaning\" praktisch kennen. Die Teilschritte \"transform /&nbsp;<br />visualise / model\" werden meist mehrfach durchlaufen. Im Einzelnen lernen die Studierenden:<br />- Datens&auml;tze zu transformieren (Variablen zusammenf&uuml;hren, neue Variablen berechnen, Filtern etc.); Wir werden dabei&nbsp;<br />sowohl \"manuelle\" Verfahren nutzen (gruppieren, summieren, normalisieren), als auch die PCA (Principal Component&nbsp;<br />Analysis) exemplarisch einf&uuml;hren (wir werden dabei nicht mathematisch in die Tiefe gehen).<br />- Datens&auml;tze explorativ zu erschliessen; Hierzu geh&ouml;rt die Datenvisualisierung zum Zweck der \"Erkundung\" und die&nbsp;<br />Hypothesengenerierung (und teilweise auch Best&auml;tigung). Wir nutzen aber auch Validierungsverfahren wie z.B. die&nbsp;<br />Residuen Analyse und Kontrolle auf Overfitting mittels Train- und Test-Set.<br />- Einfache statistische Modelle in der Praxis anwenden (Lineare Regression, Clustering). Sie lernen dabei, dass auch&nbsp;<br />&uuml;berwachte (supervised) Modelle zur Hypothesengenerierung eingesetzt werden k&ouml;nnen.</p>\n<p><br /><strong>Communicate</strong><br />Die Studierenden &uuml;ben die Kommunikation zentraler Ergebnisse aus Datenanalysen in einer konkreten Fallstudie. Die&nbsp;<br />Studierenden lernen dabei Tools kennen, welche es Ihnen erlauben ihre Datenanalysen auf einfachste Weise kundengerecht&nbsp;<br />aufzubereiten und zug&auml;nglich zu machen.</p>",
+      "kurselemente": [
+        {
+          "id": 57611,
+          "art": "Vorlesung",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 100,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Data Analytics"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Data Analytics"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10202,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10202_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10272,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10272_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10220,
+      "bezeichnung": "Digital Business",
+      "kuerzel": "WING_DigBu",
+      "url": "allStudies/10220_WING_DigBu.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10224,
+      "bezeichnung": "Data Science",
+      "kuerzel": "WING_DaSc",
+      "url": "allStudies/10224_WING_DaSc.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10276,
+      "bezeichnung": "Digital Business",
+      "kuerzel": "WING_DigBu",
+      "url": "allStudies/10276_WING_DigBu.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10277,
+      "bezeichnung": "Data Science",
+      "kuerzel": "WING_DaSc",
+      "url": "allStudies/10277_WING_DaSc.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 65015,
+      "name": "Stämpfli",
+      "vorname": "Adrian"
+    }
+  ],
+  "orte": [
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 45727,
+      "art": "Note von 1 - 6",
+      "pruefungMue": true,
+      "dauerPrfMue": 30,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Data Analytics"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Data Analytics"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2025,
+    "beginSemester": "HS",
+    "endJahr": 2025,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 45727,
+    "kuerzel": "M_DAANA",
+    "bezeichnung": "Data Analytics",
+    "url": "allModules/45727_M_DAANA.json"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "id": 19793,
+  "kuerzel": "M_Kons2EU",
+  "bezeichnung": "Konstruktion 2 (EEU)",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Kennt wesentliche Elemente des Anlagen- und Maschinenbaus und kann diese einsetzen und anwenden<br /></p>\n<p>Praktische Anwendung der Konstruktionsprozesse</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 19794,
+      "kuerzel": "Kons2EU",
+      "bezeichnung": "Konstruktion 2 (EEU)",
+      "lernziele": "siehe Lernziele des Moduls",
+      "planinhalt": "<p>Konstruktive und berechnerische Aspekte aus:<br /><br />- Strukturen: Schweisskonstruktionen, Beh&auml;lter, Rohrleitungen<br />- Verbindungen: Schrauben, Schweissen, Nieten, Kleben, Rohrverbindungen<br />- Antriebe und Antriebselemente: Elektrische, hydraulische und pneumatische Antriebe, Getriebe<br />- Wellen, Wellenlagerungen, Wellenkupplungen<br />- Dichtungen: Statische und dynamische Dichtungen<br />- Federn: Zug- und Druckfedern, Spezialfedern<br />- konstruktive Massnahmen f&uuml;r Korrosionsschutz<br /></p>",
+      "kurselemente": [
+        {
+          "id": 19796,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 120,
+          "harteGrenze": true
+        },
+        {
+          "id": 19966,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Konstruktion 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Design 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 538866,
+      "name": "Wüst",
+      "vorname": "Theodor"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11043,
+      "kuerzel": "M_Ph1Mech",
+      "bezeichnung": "Physik 1 - Mechanik",
+      "url": "allModules/11043_M_Ph1Mech.json"
+    },
+    {
+      "id": 23725,
+      "kuerzel": "M_Kons1EU",
+      "bezeichnung": "Konstruktion 1 (EEU)",
+      "url": "allModules/23725_M_Kons1EU.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Konstruktion 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Design 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2011,
+    "beginSemester": "FS",
+    "endJahr": 2014,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 19793,
+    "kuerzel": "M_Kons2EU",
+    "bezeichnung": "Konstruktion 2 (EEU)",
+    "url": "allModules/19793_M_Kons2EU.json"
+  }
+}

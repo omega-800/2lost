@@ -1,0 +1,520 @@
+{
+  "id": 10161,
+  "kuerzel": "DaEngMaInt",
+  "bezeichnung": "Data Engineering & Machine Intelligence",
+  "versionKuerzel": "STD_14",
+  "art": "Profil",
+  "kredits": [
+    {
+      "id": 10611,
+      "minKredits": 36,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile"
+        }
+      ]
+    }
+  ],
+  "parent": {
+    "id": 10226,
+    "kuerzel": "I",
+    "bezeichnung": "Informatik Retro",
+    "url": "allStudies/10226_I.json"
+  },
+  "zuordnungen": [
+    {
+      "id": 37247,
+      "kuerzel": "M_MsTe",
+      "bezeichnung": ".Net Technologien",
+      "url": "allModules/37247_M_MsTe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 38545,
+      "kuerzel": "M_MsTe_UT",
+      "bezeichnung": ".Net Technologien (UT)",
+      "url": "allModules/38545_M_MsTe_UT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 38881,
+      "kuerzel": "M_AlgDat",
+      "bezeichnung": "Algorithmen und Datenstrukturen",
+      "url": "allModules/38881_M_AlgDat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 28236,
+      "kuerzel": "M_AppArch",
+      "bezeichnung": "Application Architecture",
+      "url": "allModules/28236_M_AppArch.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 37903,
+      "kuerzel": "M_Bsys2",
+      "bezeichnung": "Betriebssysteme 2",
+      "url": "allModules/37903_M_Bsys2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 39041,
+      "kuerzel": "M_BlCh",
+      "bezeichnung": "Blockchain",
+      "url": "allModules/39041_M_BlCh.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 37179,
+      "kuerzel": "M_ChallP1",
+      "bezeichnung": "Challenge Projekte 1",
+      "url": "allModules/37179_M_ChallP1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 37182,
+      "kuerzel": "M_ChallP2",
+      "bezeichnung": "Challenge Projekte 2",
+      "url": "allModules/37182_M_ChallP2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 37167,
+      "kuerzel": "M_CldSol",
+      "bezeichnung": "Cloud Solutions",
+      "url": "allModules/37167_M_CldSol.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 36478,
+      "kuerzel": "M_CySec",
+      "bezeichnung": "Cyber Security Foundations",
+      "url": "allModules/36478_M_CySec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 36034,
+      "kuerzel": "M_DatAna",
+      "bezeichnung": "Data Analytics",
+      "url": "allModules/36034_M_DatAna.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 36038,
+      "kuerzel": "M_DatEng",
+      "bezeichnung": "Data Engineering",
+      "url": "allModules/36038_M_DatEng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 31834,
+      "kuerzel": "M_DL",
+      "bezeichnung": "Deep Learning",
+      "url": "allModules/31834_M_DL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 38920,
+      "kuerzel": "M_DigCod",
+      "bezeichnung": "Digitale Codierungen",
+      "url": "allModules/38920_M_DigCod.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 39054,
+      "kuerzel": "M_DSy",
+      "bezeichnung": "Distributed Systems",
+      "url": "allModules/39054_M_DSy.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 39143,
+      "kuerzel": "M_FP",
+      "bezeichnung": "Functional Programming ",
+      "url": "allModules/39143_M_FP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 38928,
+      "kuerzel": "M_FunProg",
+      "bezeichnung": "Funktionale Programmierung",
+      "url": "allModules/38928_M_FunProg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 32105,
+      "kuerzel": "M_ICThVirt",
+      "bezeichnung": "Informations- und Codierungstheorie (V)",
+      "url": "allModules/32105_M_ICThVirt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 40597,
+      "kuerzel": "M_KatAufInf",
+      "bezeichnung": "Kat_AufbauInformatik",
+      "url": "allModules/40597_M_KatAufInf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 41364,
+      "kuerzel": "M_KatAufInf",
+      "bezeichnung": "Kat_AufbauInformatik2",
+      "url": "allModules/41364_M_KatAufInf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 41365,
+      "kuerzel": "M_KatAufInf3",
+      "bezeichnung": "Kat_AufbauInformatik3",
+      "url": "allModules/41365_M_KatAufInf3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 61094,
+      "kuerzel": "M_KatAufInf3",
+      "bezeichnung": "Kat_AufbauInformatik4",
+      "url": "allModules/61094_M_KatAufInf3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 61095,
+      "kuerzel": "M_KatAufInf3",
+      "bezeichnung": "Kat_AufbauInformatik5",
+      "url": "allModules/61095_M_KatAufInf3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 61096,
+      "kuerzel": "M_KatAufInf3",
+      "bezeichnung": "Kat_AufbauInformatik6",
+      "url": "allModules/61096_M_KatAufInf3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 55131,
+      "kuerzel": "M_KatViKom",
+      "bezeichnung": "Kat_Visuelle Kommunikation",
+      "url": "allModules/55131_M_KatViKom.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 31614,
+      "kuerzel": "M_MathFML",
+      "bezeichnung": "Mathematical Foundations for Machine Learning",
+      "url": "allModules/31614_M_MathFML.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 38910,
+      "kuerzel": "M_OOP2",
+      "bezeichnung": "Objektorientierte Programmierung 2",
+      "url": "allModules/38910_M_OOP2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 41462,
+      "kuerzel": "M_ParProg",
+      "bezeichnung": "Parallele Programmierung",
+      "url": "allModules/41462_M_ParProg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 30046,
+      "kuerzel": "M_PrfM",
+      "bezeichnung": "Programmiersprachen und formale Methoden",
+      "url": "allModules/30046_M_PrfM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 38539,
+      "kuerzel": "M_PrfM_UT",
+      "bezeichnung": "Programmiersprachen und formale Methoden (UT)",
+      "url": "allModules/38539_M_PrfM_UT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 28231,
+      "kuerzel": "M_PmQm",
+      "bezeichnung": "Projekt- und Qualitätsmanagement",
+      "url": "allModules/28231_M_PmQm.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 39203,
+      "kuerzel": "M_SEP1",
+      "bezeichnung": "SE Practices 1",
+      "url": "allModules/39203_M_SEP1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 57233,
+      "kuerzel": "M_SEP2",
+      "bezeichnung": "SE Practices 2",
+      "url": "allModules/57233_M_SEP2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 40311,
+      "kuerzel": "M_SecSoW",
+      "bezeichnung": "Secure Software",
+      "url": "allModules/40311_M_SecSoW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 36488,
+      "kuerzel": "M_SecSW",
+      "bezeichnung": "Secure Software",
+      "url": "allModules/36488_M_SecSW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 37893,
+      "kuerzel": "M_SE1",
+      "bezeichnung": "Software-Engineering 1",
+      "url": "allModules/37893_M_SE1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 37191,
+      "kuerzel": "M_SE2",
+      "bezeichnung": "Software-Engineering 2",
+      "url": "allModules/37191_M_SE2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 31838,
+      "kuerzel": "M_ML",
+      "bezeichnung": "Statistical Machine Learning",
+      "url": "allModules/31838_M_ML.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56946,
+      "kuerzel": "M_UIP",
+      "bezeichnung": "UI Patterns and Frameworks",
+      "url": "allModules/56946_M_UIP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 32110,
+      "kuerzel": "M_WED1Virt",
+      "bezeichnung": "Web Engineering + Design 1 (V)",
+      "url": "allModules/32110_M_WED1Virt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 28536,
+      "kuerzel": "M_WED3",
+      "bezeichnung": "Web Engineering + Design 3",
+      "url": "allModules/28536_M_WED3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 38891,
+      "kuerzel": "M_WE1",
+      "bezeichnung": "Web Engineering 1",
+      "url": "allModules/38891_M_WE1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ]
+}

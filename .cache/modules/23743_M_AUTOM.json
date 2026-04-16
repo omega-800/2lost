@@ -1,0 +1,205 @@
+{
+  "id": 23743,
+  "kuerzel": "M_AUTOM",
+  "bezeichnung": "Regelungstechnik und Automation",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Fachkompetenzen:<br />Die Teilnehmenden k&ouml;nnen:</p>\n<ul>\n    <li>Eine automatisierte Anlage konzeptionell auszulegen </li>\n    <li>Die notwendigen Komponenten und Teilsysteme (Steuerung, Feldbussystem, Handlingssysteme, Transfersysteme, Sensoren und Aktoren) f&uuml;r eine Anlage festzulegen. </li>\n    <li>Einfache Programme und Algorithmen f&uuml;r SPS-Steuerungen zu entwickeln. </li>\n    <li>Die Studierenden sind in der Lage PID-Regelkreise aufzubauen. </li>\n</ul>\n<p>&nbsp;</p>\n<p>Methodenkompetenzen:<br />Die Teilnehmenden k&ouml;nnen:</p>\n<ul>\n    <li>die Wirtschaftlichkeit von Produkten aus Sicht der Produktion beurteilen </li>\n    <li>die Risiken bei der Produktion in Bezug auf Kosten, Termin, Ressourcen und Investitionen beurteilen </li>\n</ul>\n<p>&nbsp;</p>\n<p>Selbstkompetenzen:<br />Die Teilnehmenden k&ouml;nnen:</p>\n<ul>\n    <li>Komponenten selbst&auml;ndig ausw&auml;hlen </li>\n</ul>\n<p>&nbsp;</p>\n<p>Sozialkompetenzen:<br />Die Teilnehmenden k&ouml;nnen:</p>\n<ul>\n    <li>in Teams zusammenarbeiten </li>\n    <li>Arbeiten aufteilen </li>\n    <li>Probleme diskutieren </li>\n    <li>Konflikte l&ouml;sen<br /></li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 24668,
+      "kuerzel": "Autom",
+      "bezeichnung": "Regelungstechnik und Automation",
+      "planinhalt": "<p>Der WING-Studierende ist in der Lage, den Nutzen der Automatisierung einer Anlage/Produktion technisch und wirtschaftlich beurteilen zu k&ouml;nnen.<br />Sie kennen den Aufbau von automatisierten Anlagen mit den wichtigsten Komponenten (Steuerung, Regelung, Sensoren, Aktoren, &hellip;).<br />Sie kennen den Unterschied zwischen Regeln und Steuern. Die Studierenden sind in der Lage, zu entscheiden, ob der Einsatz einer Regelung oder Steuerung sinnvoll ist.</p>\n<p><br />Themen-/Lernblock: Automatisierungstechnik</p>\n<ul>\n    <li>Unterschied Steuerung und Regelung </li>\n    <li>Aufbau automatisierter Anlagen mit allen Komponenten (Sensoren, Aktoren, Steuerung (SPS), Bussystem, Handling/Montage, Roboter, HMI, Pneumatik) </li>\n</ul>\n<p>Themen-/Lernblock: Steuerungstechnik</p>\n<ul>\n    <li>Aufbau einer Steuerung (SPS: Hard- und Software) </li>\n    <li>Definition einfacher Abl&auml;ufe </li>\n    <li>Programmierung (SPS) einfacher Abl&auml;ufe nach IEC61131 </li>\n</ul>\n<p>Themen-/Lernblock: Regelungstechnik</p>\n<ul>\n    <li>Aufbau, Analyse und Entwurf eines PID-Regelkreises<br /></li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 24669,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 108,
+          "harteGrenze": true
+        },
+        {
+          "id": 24816,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Regelungstechnik und Automation"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Automatic Control Engineering and Automation"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10104,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10104_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10128,
+          "kuerzel": "W-STpl",
+          "bezeichnung": "Systemtechnik und ergänzende Fachmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10129,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10129_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10128,
+          "kuerzel": "W-STpl",
+          "bezeichnung": "Systemtechnik und ergänzende Fachmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10130,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10130_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10128,
+          "kuerzel": "W-STpl",
+          "bezeichnung": "Systemtechnik und ergänzende Fachmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10151,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10151_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10169,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10169_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5012196,
+      "name": "Zurbrügg",
+      "vorname": "Thomas"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 23743,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Regelungstechnik und Automation"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Automatic Control Engineering and Automation"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2015,
+    "beginSemester": "HS",
+    "endJahr": 2017,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 23743,
+    "kuerzel": "M_AUTOM",
+    "bezeichnung": "Regelungstechnik und Automation",
+    "url": "allModules/23743_M_AUTOM.json"
+  }
+}

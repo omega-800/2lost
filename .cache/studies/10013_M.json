@@ -1,0 +1,2617 @@
+{
+  "id": 10013,
+  "kuerzel": "M",
+  "bezeichnung": "Maschinentechnik",
+  "versionKuerzel": "U1_01",
+  "typ": "FH",
+  "art": "Studiengang",
+  "form": "Vollzeit",
+  "kredits": [
+    {
+      "id": 10198,
+      "minKredits": 50,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)"
+        }
+      ]
+    },
+    {
+      "id": 10204,
+      "minKredits": 50,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)"
+        }
+      ]
+    },
+    {
+      "id": 10254,
+      "minKredits": 20,
+      "kategorien": [
+        {
+          "id": 10074,
+          "kuerzel": "K_DAM_U01",
+          "bezeichnung": "Diplomarbeit Maschinentechnik  (Übergang)"
+        }
+      ]
+    }
+  ],
+  "studienberater": {
+    "id": 1261,
+    "name": "Gysin",
+    "vorname": "Hanspeter"
+  },
+  "zuordnungen": [
+    {
+      "id": 11034,
+      "kuerzel": "M_An1BM",
+      "bezeichnung": "Analysis 1 für Bauingenieurwesen und Maschinentechnik",
+      "url": "allModules/11034_M_An1BM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 15792,
+      "kuerzel": "M_An1M",
+      "bezeichnung": "Analysis 1 für Maschinentechnik",
+      "url": "allModules/15792_M_An1M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 12464,
+      "kuerzel": "mUk_AnlBau1",
+      "bezeichnung": "Anlagenbau 1",
+      "url": "allModules/12464_mUk_AnlBau1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13204,
+      "kuerzel": "mUk_AnlBau2",
+      "bezeichnung": "Anlagenbau 2",
+      "url": "allModules/13204_mUk_AnlBau2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 17290,
+      "kuerzel": "M_AnTech",
+      "bezeichnung": "Anlagentechnik",
+      "url": "allModules/17290_M_AnTech.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 15461,
+      "kuerzel": "M_AntrT",
+      "bezeichnung": "Antriebstechnik (Hydraulik und Pneumatik)",
+      "url": "allModules/15461_M_AntrT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 12466,
+      "kuerzel": "mUk_AntrT1",
+      "bezeichnung": "Antriebstechnik 1",
+      "url": "allModules/12466_mUk_AntrT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12468,
+      "kuerzel": "mUk_AntrT2",
+      "bezeichnung": "Antriebstechnik 2",
+      "url": "allModules/12468_mUk_AntrT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15466,
+      "kuerzel": "M_AntrT2",
+      "bezeichnung": "Antriebstechnik 2",
+      "url": "allModules/15466_M_AntrT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 12482,
+      "kuerzel": "mUk_AutomT",
+      "bezeichnung": "Automatisierungstechnik",
+      "url": "allModules/12482_mUk_AutomT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11152,
+      "kuerzel": "M_AutoT1",
+      "bezeichnung": "Automatisierungstechnik 1",
+      "url": "allModules/11152_M_AutoT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 11155,
+      "kuerzel": "M_AutoT2",
+      "bezeichnung": "Automatisierungstechnik 2",
+      "url": "allModules/11155_M_AutoT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 11151,
+      "kuerzel": "M_AutoT3",
+      "bezeichnung": "Automatisierungstechnik 3",
+      "url": "allModules/11151_M_AutoT3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 15701,
+      "kuerzel": "M_AutoT3_1",
+      "bezeichnung": "Automatisierungstechnik 3",
+      "url": "allModules/15701_M_AutoT3_1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 11110,
+      "kuerzel": "M_AutoT4",
+      "bezeichnung": "Automatisierungstechnik 4",
+      "url": "allModules/11110_M_AutoT4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 12399,
+      "kuerzel": "U_BuPl",
+      "bezeichnung": "Business Plan - Übergangsmodul (M)",
+      "url": "allModules/12399_U_BuPl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 15513,
+      "kuerzel": "U_BuPlSpez",
+      "bezeichnung": "Business Plan - Übergangsmodul WS 05 (Spezial)",
+      "url": "allModules/15513_U_BuPlSpez.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10997,
+      "kuerzel": "M_BuRe1",
+      "bezeichnung": "Business und Recht 1",
+      "url": "allModules/10997_M_BuRe1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 16666,
+      "kuerzel": "M_BuRe2",
+      "bezeichnung": "Business und Recht 2",
+      "url": "allModules/16666_M_BuRe2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 11108,
+      "kuerzel": "M_CAD_M2",
+      "bezeichnung": "CAD M2",
+      "url": "allModules/11108_M_CAD_M2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 16451,
+      "kuerzel": "U_CAM",
+      "bezeichnung": "CAM / Produktionstechnik - Übergangsmodul SS07",
+      "url": "allModules/16451_U_CAM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 18902,
+      "kuerzel": "M_Chem1",
+      "bezeichnung": "Chemie 1",
+      "url": "allModules/18902_M_Chem1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 12544,
+      "kuerzel": "mUk_Ch3Kor",
+      "bezeichnung": "Chemie 3 (Korrosion und Korrosionschutz der Metalle)",
+      "url": "allModules/12544_mUk_Ch3Kor.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 16472,
+      "kuerzel": "M_Chem3_SS07",
+      "bezeichnung": "Chemie 3 - Sommersemester 2007",
+      "url": "allModules/16472_M_Chem3_SS07.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 12337,
+      "kuerzel": "U_Chem3",
+      "bezeichnung": "Chemie 3 - Übergangsmodul",
+      "url": "allModules/12337_U_Chem3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 12536,
+      "kuerzel": "mUk_CadM2",
+      "bezeichnung": "Computer Aided Design CadM2",
+      "url": "allModules/12536_mUk_CadM2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12568,
+      "kuerzel": "mUk_CompT1",
+      "bezeichnung": "Computertechnik 1",
+      "url": "allModules/12568_mUk_CompT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 11123,
+      "kuerzel": "M_CompT1",
+      "bezeichnung": "Computertechnik 1",
+      "url": "allModules/11123_M_CompT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 11126,
+      "kuerzel": "M_CompT2",
+      "bezeichnung": "Computertechnik 2",
+      "url": "allModules/11126_M_CompT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 12570,
+      "kuerzel": "mUk_CompT2",
+      "bezeichnung": "Computertechnik 2",
+      "url": "allModules/12570_mUk_CompT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 12572,
+      "kuerzel": "mUk_DaBaMBI",
+      "bezeichnung": "Datenbanksysteme für MBI",
+      "url": "allModules/12572_mUk_DaBaMBI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12578,
+      "kuerzel": "mUk_DiffGl",
+      "bezeichnung": "Differentialgleichungen",
+      "url": "allModules/12578_mUk_DiffGl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12590,
+      "kuerzel": "mUk_DigSig1_4",
+      "bezeichnung": "Digitale Signalverarbeitung 1",
+      "url": "allModules/12590_mUk_DigSig1_4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12588,
+      "kuerzel": "mUk_DigSig1",
+      "bezeichnung": "Digitale Signalverarbeitung 1",
+      "url": "allModules/12588_mUk_DigSig1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 12592,
+      "kuerzel": "mUk_DigSig1P",
+      "bezeichnung": "Digitale Signalverarbeitung 1 Praktikum",
+      "url": "allModules/12592_mUk_DigSig1P.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 1
+        }
+      ]
+    },
+    {
+      "id": 12594,
+      "kuerzel": "mUk_DigSig2",
+      "bezeichnung": "Digitale Signalverarbeitung 2",
+      "url": "allModules/12594_mUk_DigSig2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 12596,
+      "kuerzel": "mUk_DigSig2P",
+      "bezeichnung": "Digitale Signalverarbeitung 2 Praktikum",
+      "url": "allModules/12596_mUk_DigSig2P.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 1
+        }
+      ]
+    },
+    {
+      "id": 12342,
+      "kuerzel": "M_DAM",
+      "bezeichnung": "Diplomarbeit Maschinentechnik",
+      "url": "allModules/12342_M_DAM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10074,
+          "kuerzel": "K_DAM_U01",
+          "bezeichnung": "Diplomarbeit Maschinentechnik  (Übergang)",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 12960,
+      "kuerzel": "mUk_ReEinf",
+      "bezeichnung": "Einführung in die Rechtsordnung",
+      "url": "allModules/12960_mUk_ReEinf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12614,
+      "kuerzel": "mUk_ElektrT1",
+      "bezeichnung": "Elektrotechnik 1 (Wechsel- und Drehstromtechnik)",
+      "url": "allModules/12614_mUk_ElektrT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12329,
+      "kuerzel": "U_Elekt1",
+      "bezeichnung": "Elektrotechnik 1 - Übergangsmodul",
+      "url": "allModules/12329_U_Elekt1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12616,
+      "kuerzel": "mUk_ElektrT2",
+      "bezeichnung": "Elektrotechnik 2  (Elektrische Maschinen)",
+      "url": "allModules/12616_mUk_ElektrT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12341,
+      "kuerzel": "U_Elekt2",
+      "bezeichnung": "Elektrotechnik 2 - Übergangsmodul",
+      "url": "allModules/12341_U_Elekt2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12650,
+      "kuerzel": "mUk_EnSzCH",
+      "bezeichnung": "Energieszene Schweiz",
+      "url": "allModules/12650_mUk_EnSzCH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12332,
+      "kuerzel": "U_EnUm1",
+      "bezeichnung": "Energietechnik 1 - Übergangsmodul",
+      "url": "allModules/12332_U_EnUm1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 18102,
+      "kuerzel": "M_Ent2",
+      "bezeichnung": "Energietechnik 2 (Erneuerbare Energien)",
+      "url": "allModules/18102_M_Ent2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 12656,
+      "kuerzel": "mUk_EntApp1",
+      "bezeichnung": "Energietechnische Apparate und Anlagen 1",
+      "url": "allModules/12656_mUk_EntApp1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13222,
+      "kuerzel": "mUk_EntApp2",
+      "bezeichnung": "Energietechnische Apparate und Anlagen 2",
+      "url": "allModules/13222_mUk_EntApp2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12335,
+      "kuerzel": "U_EntApp2",
+      "bezeichnung": "Energietechnische Apparate und Anlagen 2 - Übergangsmodul",
+      "url": "allModules/12335_U_EntApp2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 13218,
+      "kuerzel": "mUk_EKHM",
+      "bezeichnung": "Engineering Know How Management",
+      "url": "allModules/13218_mUk_EKHM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 11005,
+      "kuerzel": "M_English1",
+      "bezeichnung": "English Level 1",
+      "url": "allModules/11005_M_English1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11007,
+      "kuerzel": "M_English2",
+      "bezeichnung": "English Level 2",
+      "url": "allModules/11007_M_English2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11008,
+      "kuerzel": "M_English3",
+      "bezeichnung": "English Level 3",
+      "url": "allModules/11008_M_English3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11009,
+      "kuerzel": "M_English4",
+      "bezeichnung": "English Level 4",
+      "url": "allModules/11009_M_English4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12676,
+      "kuerzel": "mUk_FertVerf",
+      "bezeichnung": "Fertigungsverfahren",
+      "url": "allModules/12676_mUk_FertVerf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 12678,
+      "kuerzel": "mUk_Festl1",
+      "bezeichnung": "Festigkeitslehre 1",
+      "url": "allModules/12678_mUk_Festl1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12680,
+      "kuerzel": "mUk_Festl2",
+      "bezeichnung": "Festigkeitslehre 2",
+      "url": "allModules/12680_mUk_Festl2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12672,
+      "kuerzel": "mUk_FEM1",
+      "bezeichnung": "Finite Elemente Methode (FEM) 1 (Grundkurs)",
+      "url": "allModules/12672_mUk_FEM1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12674,
+      "kuerzel": "mUk_FEM2",
+      "bezeichnung": "Finite Elemente Methode (FEM) 2 (Vertiefung)",
+      "url": "allModules/12674_mUk_FEM2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13224,
+      "kuerzel": "mUk_FEM3",
+      "bezeichnung": "Finite Elemente Methode (FEM) 3 (Vertiefung)",
+      "url": "allModules/13224_mUk_FEM3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12363,
+      "kuerzel": "M_FEM1",
+      "bezeichnung": "Finite Elemente Methode 1",
+      "url": "allModules/12363_M_FEM1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 15471,
+      "kuerzel": "M_FEM2",
+      "bezeichnung": "Finite Elemente Methode 2",
+      "url": "allModules/15471_M_FEM2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 11039,
+      "kuerzel": "M_FEM3",
+      "bezeichnung": "Finite Elemente Methode 3",
+      "url": "allModules/11039_M_FEM3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 10981,
+      "kuerzel": "M_Franz1",
+      "bezeichnung": "Französisch 1",
+      "url": "allModules/10981_M_Franz1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10982,
+      "kuerzel": "M_Franz2",
+      "bezeichnung": "Französisch 2",
+      "url": "allModules/10982_M_Franz2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12700,
+      "kuerzel": "mUk_Fue",
+      "bezeichnung": "Führung",
+      "url": "allModules/12700_mUk_Fue.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12704,
+      "kuerzel": "mUk_FuVar",
+      "bezeichnung": "Funktionen mehrerer Variablen",
+      "url": "allModules/12704_mUk_FuVar.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12528,
+      "kuerzel": "mUk_BwlBus",
+      "bezeichnung": "Grundlagen der Betriebswirtschaft: Erklärt am Beispiel eines Businessplanes",
+      "url": "allModules/12528_mUk_BwlBus.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10963,
+      "kuerzel": "M_GOmVT",
+      "bezeichnung": "Grundoperationen der mechanischen Verfahrenstechnik",
+      "url": "allModules/10963_M_GOmVT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 12722,
+      "kuerzel": "mUk_GOmVT",
+      "bezeichnung": "Grundoperationen der mechanischen Verfahrenstechnik",
+      "url": "allModules/12722_mUk_GOmVT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12724,
+      "kuerzel": "mUk_HyAeD1",
+      "bezeichnung": "Hydro-/Aerodynamik 1 mit Labor",
+      "url": "allModules/12724_mUk_HyAeD1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13232,
+      "kuerzel": "mUk_HyAeD2",
+      "bezeichnung": "Hydro-/Aerodynamik 2 mit Labor",
+      "url": "allModules/13232_mUk_HyAeD2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12401,
+      "kuerzel": "U_ReVertr",
+      "bezeichnung": "Informations-, Technologie und Lizenzvertragsrecht - Übergangsmodul (M)",
+      "url": "allModules/12401_U_ReVertr.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 13048,
+      "kuerzel": "mUk_SoWGP",
+      "bezeichnung": "Ingenieur in Wirtschaft, Gesellschaft und Politik",
+      "url": "allModules/13048_mUk_SoWGP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12760,
+      "kuerzel": "mUk_IntTra",
+      "bezeichnung": "Integraltransformationen",
+      "url": "allModules/12760_mUk_IntTra.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10977,
+      "kuerzel": "M_Ital1",
+      "bezeichnung": "Italienisch 1",
+      "url": "allModules/10977_M_Ital1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 15667,
+      "kuerzel": "M_Ital2",
+      "bezeichnung": "Italienisch 2",
+      "url": "allModules/15667_M_Ital2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10959,
+      "kuerzel": "M_Jap1",
+      "bezeichnung": "Japanisch 1",
+      "url": "allModules/10959_M_Jap1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10960,
+      "kuerzel": "M_Jap2",
+      "bezeichnung": "Japanisch 2",
+      "url": "allModules/10960_M_Jap2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11144,
+      "kuerzel": "M_KomIng1",
+      "bezeichnung": "Kommunikation 1 für IngenieurInnen",
+      "url": "allModules/11144_M_KomIng1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 11148,
+      "kuerzel": "M_KomIng2",
+      "bezeichnung": "Kommunikation 2 für IngenieurInnen",
+      "url": "allModules/11148_M_KomIng2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 12322,
+      "kuerzel": "U_Konstr2",
+      "bezeichnung": "Konstruktion 2 - Übergangsmodul",
+      "url": "allModules/12322_U_Konstr2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12327,
+      "kuerzel": "U_Konstr3",
+      "bezeichnung": "Konstruktion 3 - Übergangsmodul",
+      "url": "allModules/12327_U_Konstr3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12792,
+      "kuerzel": "mUk_KonstrM2",
+      "bezeichnung": "Konstruktion Maschinenbau 2",
+      "url": "allModules/12792_mUk_KonstrM2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 12794,
+      "kuerzel": "mUk_KonstrM3",
+      "bezeichnung": "Konstruktion Maschinenbau 3",
+      "url": "allModules/12794_mUk_KonstrM3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 16478,
+      "kuerzel": "M_KoSchu",
+      "bezeichnung": "Korrosion und Korrosionsschutz",
+      "url": "allModules/16478_M_KoSchu.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 16545,
+      "kuerzel": "M_KunstT1",
+      "bezeichnung": "Kunststofftechnik 1",
+      "url": "allModules/16545_M_KunstT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 12808,
+      "kuerzel": "mUk_KunstT1",
+      "bezeichnung": "Kunststofftechnik 1",
+      "url": "allModules/12808_mUk_KunstT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12810,
+      "kuerzel": "mUk_KunstT2",
+      "bezeichnung": "Kunststofftechnik 2",
+      "url": "allModules/12810_mUk_KunstT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 16556,
+      "kuerzel": "M_KunstT2",
+      "bezeichnung": "Kunststofftechnik 2",
+      "url": "allModules/16556_M_KunstT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 18882,
+      "kuerzel": "M_KuTe2",
+      "bezeichnung": "Kunststofftechnik 2",
+      "url": "allModules/18882_M_KuTe2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 12402,
+      "kuerzel": "U_ManSim",
+      "bezeichnung": "Management Simulation - Übergangsmodul (M)",
+      "url": "allModules/12402_U_ManSim.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 16551,
+      "kuerzel": "M_MaTechM1",
+      "bezeichnung": "Materialtechnologie 1 (M)",
+      "url": "allModules/16551_M_MaTechM1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 16561,
+      "kuerzel": "M_MaTechM2",
+      "bezeichnung": "Materialtechnologie 2 (M)",
+      "url": "allModules/16561_M_MaTechM2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 11037,
+      "kuerzel": "M_Math2M",
+      "bezeichnung": "Mathematik für Maschinentechnik 2",
+      "url": "allModules/11037_M_Math2M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 15371,
+      "kuerzel": "M_Math3M",
+      "bezeichnung": "Mathematik für Maschinentechnik 3",
+      "url": "allModules/15371_M_Math3M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 16606,
+      "kuerzel": "M_Math3M",
+      "bezeichnung": "Mathematik für Maschinentechnik 3",
+      "url": "allModules/16606_M_Math3M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 16617,
+      "kuerzel": "M_Math4M",
+      "bezeichnung": "Mathematik für Maschinentechnik 4",
+      "url": "allModules/16617_M_Math4M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 15480,
+      "kuerzel": "M_Math4M",
+      "bezeichnung": "Mathematik für Maschinentechnik 4",
+      "url": "allModules/15480_M_Math4M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12336,
+      "kuerzel": "U_MVT",
+      "bezeichnung": "Mechanische Verfahrenstechnik - Übergangsmodul",
+      "url": "allModules/12336_U_MVT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 13242,
+      "kuerzel": "mUk_mVTUe",
+      "bezeichnung": "Mechanische Verfahrenstechnik Uebergang",
+      "url": "allModules/13242_mUk_mVTUe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12850,
+      "kuerzel": "mUk_MechaVT1",
+      "bezeichnung": "Mechatronik 1",
+      "url": "allModules/12850_mUk_MechaVT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11150,
+      "kuerzel": "M_Mtronik1",
+      "bezeichnung": "Mechatronik 1",
+      "url": "allModules/11150_M_Mtronik1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 10958,
+      "kuerzel": "M_Mtronik2",
+      "bezeichnung": "Mechatronik 2",
+      "url": "allModules/10958_M_Mtronik2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 12852,
+      "kuerzel": "mUk_MechaVT2",
+      "bezeichnung": "Mechatronik 2",
+      "url": "allModules/12852_mUk_MechaVT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12854,
+      "kuerzel": "mUk_MessT",
+      "bezeichnung": "Messtechnik",
+      "url": "allModules/12854_mUk_MessT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 11071,
+      "kuerzel": "M_NAP",
+      "bezeichnung": "Naturwissenschaftliches Praktikum",
+      "url": "allModules/11071_M_NAP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 12894,
+      "kuerzel": "mUk_Num",
+      "bezeichnung": "Numerik",
+      "url": "allModules/12894_mUk_Num.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11020,
+      "kuerzel": "M_Ph2HAT",
+      "bezeichnung": "Physik 2",
+      "url": "allModules/11020_M_Ph2HAT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 11052,
+      "kuerzel": "M_Ph3SWO",
+      "bezeichnung": "Physik 3",
+      "url": "allModules/11052_M_Ph3SWO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12914,
+      "kuerzel": "mUk_Ph3SwoB",
+      "bezeichnung": "Physik 3 B: Schwingung, Wellen, Optik B",
+      "url": "allModules/12914_mUk_Ph3SwoB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12916,
+      "kuerzel": "mUk_Ph4El",
+      "bezeichnung": "Physik 4: Elektrizität",
+      "url": "allModules/12916_mUk_Ph4El.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11001,
+      "kuerzel": "M_PLM1",
+      "bezeichnung": "Product Lifecycle Management 1",
+      "url": "allModules/11001_M_PLM1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 11006,
+      "kuerzel": "M_PLM_Sys",
+      "bezeichnung": "Product Lifecycle Management System",
+      "url": "allModules/11006_M_PLM_Sys.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 17213,
+      "kuerzel": "M_PE1",
+      "bezeichnung": "Produktentwicklung 1",
+      "url": "allModules/17213_M_PE1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 15743,
+      "kuerzel": "M_PE2",
+      "bezeichnung": "Produktentwicklung 2",
+      "url": "allModules/15743_M_PE2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 17294,
+      "kuerzel": "M_PE3",
+      "bezeichnung": "Produktentwicklung 3",
+      "url": "allModules/17294_M_PE3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 10991,
+      "kuerzel": "M_PE4",
+      "bezeichnung": "Produktentwicklung 4",
+      "url": "allModules/10991_M_PE4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 13208,
+      "kuerzel": "mUk_CAM",
+      "bezeichnung": "Rechnerintegrierte Fertigung CAM",
+      "url": "allModules/13208_mUk_CAM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12338,
+      "kuerzel": "U_RiCAM",
+      "bezeichnung": "Rechnerintegrierte Fertigung CAM - Übergangsmodul",
+      "url": "allModules/12338_U_RiCAM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12538,
+      "kuerzel": "mUk_CAQ",
+      "bezeichnung": "Rechnerintegrierte Messtechnik CAQ",
+      "url": "allModules/12538_mUk_CAQ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12400,
+      "kuerzel": "U_ReIng",
+      "bezeichnung": "Recht für Ingenieure - Übergangsmodul (M)",
+      "url": "allModules/12400_U_ReIng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 15509,
+      "kuerzel": "U_ReIngSpez",
+      "bezeichnung": "Recht für Ingenieure - Übergangsmodul WS 05 (Spezial)",
+      "url": "allModules/15509_U_ReIngSpez.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12962,
+      "kuerzel": "mUk_RegelT1",
+      "bezeichnung": "Regelungstechnik 1 (Abt. M)",
+      "url": "allModules/12962_mUk_RegelT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12964,
+      "kuerzel": "mUk_RegelT2",
+      "bezeichnung": "Regelungstechnik 2 (Abt. M)",
+      "url": "allModules/12964_mUk_RegelT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12330,
+      "kuerzel": "U_RegT2_M",
+      "bezeichnung": "Regelungstechnik 2 (M) - Übergangsmodul",
+      "url": "allModules/12330_U_RegT2_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12970,
+      "kuerzel": "mUk_RegT3",
+      "bezeichnung": "Regelungstechnik 3 (Abt. E)",
+      "url": "allModules/12970_mUk_RegT3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 13246,
+      "kuerzel": "mUk_RegelT3",
+      "bezeichnung": "Regelungstechnik 3 (Abt. M)",
+      "url": "allModules/13246_mUk_RegelT3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12333,
+      "kuerzel": "U_RegT3_M",
+      "bezeichnung": "Regelungstechnik 3 (M) - Übergangsmodul",
+      "url": "allModules/12333_U_RegT3_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12990,
+      "kuerzel": "mUk_RobTech",
+      "bezeichnung": "Robotertechnik",
+      "url": "allModules/12990_mUk_RobTech.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11109,
+      "kuerzel": "M_Rob",
+      "bezeichnung": "Robotik",
+      "url": "allModules/11109_M_Rob.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 12326,
+      "kuerzel": "U_SichT",
+      "bezeichnung": "Sicherheitstechnik - Übergangsmodul",
+      "url": "allModules/12326_U_SichT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11196,
+      "kuerzel": "M_SimSys1",
+      "bezeichnung": "Simulation mechanischer Systeme 1",
+      "url": "allModules/11196_M_SimSys1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 13030,
+      "kuerzel": "mUk_SimSyst1",
+      "bezeichnung": "Simulation mechanischer Systeme 1",
+      "url": "allModules/13030_mUk_SimSyst1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13252,
+      "kuerzel": "mUk_SimSyst2",
+      "bezeichnung": "Simulation mechanischer Systeme 2",
+      "url": "allModules/13252_mUk_SimSyst2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12435,
+      "kuerzel": "M_SimSys2",
+      "bezeichnung": "Simulation mechanischer Systeme 2",
+      "url": "allModules/12435_M_SimSys2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 12339,
+      "kuerzel": "U_SimSys2",
+      "bezeichnung": "Simulation mechanischer Systeme 2 - Übergangsmodul",
+      "url": "allModules/12339_U_SimSys2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 12340,
+      "kuerzel": "U_SimSys3",
+      "bezeichnung": "Simulation mechanischer Systeme 3 - Übergangsmodul",
+      "url": "allModules/12340_U_SimSys3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 13040,
+      "kuerzel": "mUk_SoEnMBI",
+      "bezeichnung": "Software Engineering für MBI",
+      "url": "allModules/13040_mUk_SoEnMBI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11012,
+      "kuerzel": "M_SE1",
+      "bezeichnung": "Software-Engineering 1",
+      "url": "allModules/11012_M_SE1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 13269,
+      "kuerzel": "U_SE_MBI",
+      "bezeichnung": "Software-Engineering MBI - Uebergangsmodul",
+      "url": "allModules/13269_U_SE_MBI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 13042,
+      "kuerzel": "mUk_SoEPhWi",
+      "bezeichnung": "Sonnenenergie: Photovoltaik und Wind",
+      "url": "allModules/13042_mUk_SoEPhWi.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15285,
+      "kuerzel": "U_SoPhoWi_SS06",
+      "bezeichnung": "Sonnenenergie: Photovoltaik und Wind - Übergangsmodul SS 06",
+      "url": "allModules/15285_U_SoPhoWi_SS06.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10975,
+      "kuerzel": "M_Span1",
+      "bezeichnung": "Spanisch 1",
+      "url": "allModules/10975_M_Span1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10980,
+      "kuerzel": "M_Span2",
+      "bezeichnung": "Spanisch 2",
+      "url": "allModules/10980_M_Span2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 13056,
+      "kuerzel": "mUk_SteuerT",
+      "bezeichnung": "Steuerungstechnik",
+      "url": "allModules/13056_mUk_SteuerT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 13016,
+      "kuerzel": "mUk_SA1M",
+      "bezeichnung": "Studienarbeit 1 Maschinenbau",
+      "url": "allModules/13016_mUk_SA1M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 13248,
+      "kuerzel": "mUk_SA2M",
+      "bezeichnung": "Studienarbeit 2 Maschinenbau",
+      "url": "allModules/13248_mUk_SA2M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 11200,
+      "kuerzel": "M_SAM",
+      "bezeichnung": "Studienarbeit Maschinentechnik",
+      "url": "allModules/11200_M_SAM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 12334,
+      "kuerzel": "U_SA2_M",
+      "bezeichnung": "Studienarbeit Maschinentechnik 2 - Übergangsmodul",
+      "url": "allModules/12334_U_SA2_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 15993,
+      "kuerzel": "U_TgTfa",
+      "bezeichnung": "Technikgeschichte und Technikfolgenabschätzung - Übergang (M)",
+      "url": "allModules/15993_U_TgTfa.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11153,
+      "kuerzel": "M_TechInf1",
+      "bezeichnung": "Technische Informatik 1",
+      "url": "allModules/11153_M_TechInf1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 13062,
+      "kuerzel": "mUk_TechInf1",
+      "bezeichnung": "Technische Informatik 1",
+      "url": "allModules/13062_mUk_TechInf1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 13064,
+      "kuerzel": "mUk_TechInf2",
+      "bezeichnung": "Technische Informatik 2",
+      "url": "allModules/13064_mUk_TechInf2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 11154,
+      "kuerzel": "M_TechInf2",
+      "bezeichnung": "Technische Informatik 2",
+      "url": "allModules/11154_M_TechInf2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 11027,
+      "kuerzel": "M_TechM1",
+      "bezeichnung": "Technische Mechanik 1",
+      "url": "allModules/11027_M_TechM1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 15586,
+      "kuerzel": "U_TechM1",
+      "bezeichnung": "Technische Mechanik 1 - Übergangsmodul",
+      "url": "allModules/15586_U_TechM1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 11028,
+      "kuerzel": "M_TechM2",
+      "bezeichnung": "Technische Mechanik 2",
+      "url": "allModules/11028_M_TechM2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 11029,
+      "kuerzel": "M_TechM3",
+      "bezeichnung": "Technische Mechanik 3",
+      "url": "allModules/11029_M_TechM3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 13070,
+      "kuerzel": "mUk_TechM3",
+      "bezeichnung": "Technische Mechanik 3",
+      "url": "allModules/13070_mUk_TechM3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12321,
+      "kuerzel": "U_TechM3",
+      "bezeichnung": "Technische Mechanik 3 - Übergangsmodul",
+      "url": "allModules/12321_U_TechM3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 13072,
+      "kuerzel": "mUk_TechM4",
+      "bezeichnung": "Technische Mechanik 4",
+      "url": "allModules/13072_mUk_TechM4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12437,
+      "kuerzel": "U_TechM4",
+      "bezeichnung": "Technische Mechanik 4 - Übergangsmodul",
+      "url": "allModules/12437_U_TechM4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 13082,
+      "kuerzel": "mUk_ThSolarT",
+      "bezeichnung": "Thermische Solartechnik",
+      "url": "allModules/13082_mUk_ThSolarT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15284,
+      "kuerzel": "U_ThSolar_SS06",
+      "bezeichnung": "Thermische Solartechnik - Übergangsmodul SS 06",
+      "url": "allModules/15284_U_ThSolar_SS06.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11096,
+      "kuerzel": "M_TFD1",
+      "bezeichnung": "Thermo- und Fluiddynamik 1",
+      "url": "allModules/11096_M_TFD1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 12325,
+      "kuerzel": "U_TFD1",
+      "bezeichnung": "Thermo- und Fluiddynamik 1 - Übergangsmodul",
+      "url": "allModules/12325_U_TFD1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11099,
+      "kuerzel": "M_TFD2",
+      "bezeichnung": "Thermo- und Fluiddynamik 2",
+      "url": "allModules/11099_M_TFD2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 13078,
+      "kuerzel": "mUk_ThermoD1",
+      "bezeichnung": "Thermodynamik 1 mit Labor",
+      "url": "allModules/13078_mUk_ThermoD1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13254,
+      "kuerzel": "mUk_ThermoD2",
+      "bezeichnung": "Thermodynamik 2 mit Labor",
+      "url": "allModules/13254_mUk_ThermoD2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13104,
+      "kuerzel": "mUk_UmwRes",
+      "bezeichnung": "Umwelt und Ressourcen",
+      "url": "allModules/13104_mUk_UmwRes.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 16925,
+      "kuerzel": "M_UmwRes",
+      "bezeichnung": "Umwelt und Ressourcen",
+      "url": "allModules/16925_M_UmwRes.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 16929,
+      "kuerzel": "M_UT1",
+      "bezeichnung": "Umwelttechnik 1",
+      "url": "allModules/16929_M_UT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 13098,
+      "kuerzel": "mUk_UmweltT1",
+      "bezeichnung": "Umwelttechnik 1",
+      "url": "allModules/13098_mUk_UmweltT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13100,
+      "kuerzel": "mUk_UmweltT2",
+      "bezeichnung": "Umwelttechnik 2",
+      "url": "allModules/13100_mUk_UmweltT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 16933,
+      "kuerzel": "M_UT2",
+      "bezeichnung": "Umwelttechnik 2",
+      "url": "allModules/16933_M_UT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 12702,
+      "kuerzel": "mUk_FueSPM",
+      "bezeichnung": "Unternehmensführung: Strateg. Planung u. Marketing",
+      "url": "allModules/12702_mUk_FueSPM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 12982,
+      "kuerzel": "mUk_ReUnt",
+      "bezeichnung": "Unternehmensrecht",
+      "url": "allModules/12982_mUk_ReUnt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 13090,
+      "kuerzel": "mUk_UIntMBI",
+      "bezeichnung": "User Interfaces für MBI",
+      "url": "allModules/13090_mUk_UIntMBI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12324,
+      "kuerzel": "U_UIntMBI",
+      "bezeichnung": "User-Interface für MBI - Übergangsmodul",
+      "url": "allModules/12324_U_UIntMBI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11036,
+      "kuerzel": "M_VekBM",
+      "bezeichnung": "Vektorgeometrie für Bauingenieurwesen und Maschinentechnik",
+      "url": "allModules/11036_M_VekBM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 13168,
+      "kuerzel": "mUk_VwlVw",
+      "bezeichnung": "Volkswirtschaft",
+      "url": "allModules/13168_mUk_VwlVw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15997,
+      "kuerzel": "M_VwlTg",
+      "bezeichnung": "Volkswirtschaft und Technikgeschichte",
+      "url": "allModules/15997_M_VwlTg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 16005,
+      "kuerzel": "U_VwlWP",
+      "bezeichnung": "Volkswirtschaft und Wirtschaftspolitik - Übergangsmodul (M)",
+      "url": "allModules/16005_U_VwlWP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 13198,
+      "kuerzel": "mUk_WrStat",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung und Statistik",
+      "url": "allModules/13198_mUk_WrStat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 13184,
+      "kuerzel": "mUk_WebTMBI",
+      "bezeichnung": "Web Technologien für MBI",
+      "url": "allModules/13184_mUk_WebTMBI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 12328,
+      "kuerzel": "U_WebT",
+      "bezeichnung": "Web-Technologien für MBI - Übergangsmodul",
+      "url": "allModules/12328_U_WebT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 13190,
+      "kuerzel": "mUk_Werkst3",
+      "bezeichnung": "Werkstoffkunde 3",
+      "url": "allModules/13190_mUk_Werkst3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10060,
+          "kuerzel": "K_U1M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 1 (Jahrgang 2001)",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ]
+}

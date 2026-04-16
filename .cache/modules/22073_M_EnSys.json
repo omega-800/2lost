@@ -1,0 +1,209 @@
+{
+  "id": 22073,
+  "kuerzel": "M_EnSys",
+  "bezeichnung": "Energiesysteme",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Der Absolvent kennt die Techniken zur Erzeugung elektrischer Energie, die dazu erforderlichen Maschinen und deren Betriebsverhalten. Er kennt auch die f&uuml;r&nbsp;Stromtransport und -verteilung erforderlichen Betriebsmittel und deren Betriebsverhalten. <br />Er kann Versorgungsleitungen zu den Lasten dimensionieren und durch entsprechende Schutzeinrichtungen absichern. Er kann die regeltechnischen Prinzipien beschreiben, nach denen der Betrieb elektrischer Netze funktioniert. Er weiss, wie man energietechnische Betriebsmittel wirtschaftlich einsetzt und deren Kosten bestimmt. </p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 22074,
+      "kuerzel": "EnSys",
+      "bezeichnung": "Energiesysteme",
+      "planinhalt": "<ul>\n    <li>Der elektrische Strom als Energietr&auml;ger; Energiebilanz Schweiz </li>\n    <li>Technische Stromerzeugung <br />* Energiewandler und ihr Entwicklungspotential <br />* Kraftwerkstypen f&uuml;r grosstechnischen und dezentralen Einsatz <br />* Generatoren f&uuml;r Gleich-, Wechsel- und Drehstrom </li>\n    <li>Netzbetrieb: Frequenz-Leistungs- und Spannungs-Blindleistungsregelung </li>\n    <li>Stromtransport und -verteilung: Elektrische Netze, Dimensionierung und Betrieb </li>\n    <li>Transformatoren und Schaltanlagen </li>\n    <li>Energiespeicherung </li>\n    <li>Schutzeinrichtungen f&uuml;r Mensch und Maschine</li>\n    <li>Elektrizit&auml;tswirtschaft: &Ouml;konomischer Einsatz von Betriebsmitteln, Kostenrechnung&nbsp;</li>\n</ul>\n<p>Aenderung vorbehalten.<br /></p>",
+      "kurselemente": [
+        {
+          "id": 22075,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        },
+        {
+          "id": 22076,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Energiesysteme"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Energy Systems"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5016736,
+      "name": "Demiray",
+      "vorname": "Turhan"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11122,
+      "kuerzel": "M_WS_DST",
+      "bezeichnung": "Wechsel- und Drehstromtechnik",
+      "url": "allModules/11122_M_WS_DST.json"
+    },
+    {
+      "id": 11125,
+      "kuerzel": "M_ElMasch",
+      "bezeichnung": "Elektrische Maschinen (E)",
+      "url": "allModules/11125_M_ElMasch.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 22073,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>75% der Praktika besucht</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Energiesysteme"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Energy Systems"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2013,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 11129,
+    "kuerzel": "M_EnSys",
+    "bezeichnung": "Energiesysteme",
+    "url": "allModules/11129_M_EnSys.json"
+  }
+}

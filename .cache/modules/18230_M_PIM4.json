@@ -1,0 +1,222 @@
+{
+  "id": 18230,
+  "kuerzel": "M_PIM4",
+  "bezeichnung": "Planungsinstrumente und Methodik 4",
+  "kreditpunkte": 4,
+  "lernziele": "Anwendung der Lehrinhalte aus den Kursen Planungsmethodik 1 und 2 sowie Verkehrsplanung 1-4 anhand praktischer &Uuml;bungsarbeiten&nbsp;",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 18231,
+      "kuerzel": "MetRplg",
+      "bezeichnung": "Angewandte Methodik Raumplanung",
+      "lernziele": "Selbst&auml;ndige Entwicklung und Bearbeitung eines Projektes",
+      "planinhalt": "<p>Bearbeitung von Themen der Infrastrukturplanung&nbsp;in Seminarform mit projektbezogenen &Uuml;bungen<br />1. Projektentwicklung, Aufgabenstellung erfassen, Auftrag definieren, Vorgehen, Terminplanung und Arbeitsprogramm entwickeln<br />2. Umgang mit Informationen: Grundlagen beschaffen, auswerten, analysieren<br />3. L&ouml;sungsvarianten entwickeln, bewerten, entscheiden<br />4. L&ouml;sung und Bericht ausarbeiten</p>\n<p>&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 18880,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Angewandte Methodik Raumplanung"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Applied Methods of Spatial Planning"
+        }
+      ]
+    },
+    {
+      "id": 18234,
+      "kuerzel": "MetVP",
+      "bezeichnung": "Angewandte Methodik Verkehrsplanung",
+      "lernziele": "Kennenlernen und selbstst&auml;ndige Anwendung von Methoden und Programmen zur Unterst&uuml;tzung von Verkehrsplanungsaufgaben&nbsp;&nbsp;&nbsp;&nbsp;",
+      "planinhalt": "<p>Makromodellierung<br />Mikromodellierung<br />Emissionsberechnungen<br />L&auml;rmabsch&auml;tzungen<br />Kapazit&auml;tsberechnungen<br />Absch&auml;tzung des Verkehrsaufkommens<br />Lichtsignalsteuerungen</p>",
+      "kurselemente": [
+        {
+          "id": 18881,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Angewandte Methodik Verkehrsplanung"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Applied Methods of Transport Planning"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10000,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10000_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10006,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10006_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10041,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10041_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10096,
+          "kuerzel": "R_vp",
+          "bezeichnung": "Verkehrsplanung",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10123,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10123_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10096,
+          "kuerzel": "R_vp",
+          "bezeichnung": "Verkehrsplanung",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 541306,
+      "name": "Hagedorn",
+      "vorname": "Carsten"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 18195,
+      "kuerzel": "M_VK2",
+      "bezeichnung": "Verkehr 2",
+      "url": "allModules/18195_M_VK2.json"
+    },
+    {
+      "id": 18213,
+      "kuerzel": "M_VK3",
+      "bezeichnung": "Verkehr 3",
+      "url": "allModules/18213_M_VK3.json"
+    },
+    {
+      "id": 18237,
+      "kuerzel": "M_VK4",
+      "bezeichnung": "Verkehr 4",
+      "url": "allModules/18237_M_VK4.json"
+    },
+    {
+      "id": 18439,
+      "kuerzel": "M_PIM1",
+      "bezeichnung": "Planungsinstrumente und Methodik 1",
+      "url": "allModules/18439_M_PIM1.json"
+    },
+    {
+      "id": 18450,
+      "kuerzel": "M_PIM2",
+      "bezeichnung": "Planungsinstrumente und Methodik 2",
+      "url": "allModules/18450_M_PIM2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Planungsinstrumente und Methodik 4"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Planning Tools and Methodology 4"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2009,
+    "beginSemester": "HS",
+    "endJahr": 2013,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 18230,
+    "kuerzel": "M_PIM4",
+    "bezeichnung": "Planungsinstrumente und Methodik 4",
+    "url": "allModules/18230_M_PIM4.json"
+  }
+}

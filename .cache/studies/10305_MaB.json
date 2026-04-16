@@ -1,0 +1,75 @@
+{
+  "id": 10305,
+  "kuerzel": "MaB",
+  "bezeichnung": "Maschinenbau",
+  "versionKuerzel": "STD_05",
+  "art": "Profil",
+  "parent": {
+    "id": 10280,
+    "kuerzel": "ST_VZ",
+    "bezeichnung": "Systemtechnik VZ",
+    "url": "allStudies/10280_ST_VZ.json"
+  },
+  "zuordnungen": [
+    {
+      "id": 54148,
+      "kuerzel": "M_MaB_I",
+      "bezeichnung": "Maschinenbau I",
+      "url": "allModules/54148_M_MaB_I.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 54647,
+      "kuerzel": "M_MaB_II",
+      "bezeichnung": "Maschinenbau II",
+      "url": "allModules/54647_M_MaB_II.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 54157,
+      "kuerzel": "M_MaB_III",
+      "bezeichnung": "Maschinenbau III",
+      "url": "allModules/54157_M_MaB_III.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 54671,
+      "kuerzel": "M_MaB_IV",
+      "bezeichnung": "Maschinenbau IV",
+      "url": "allModules/54671_M_MaB_IV.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 54800,
+      "kuerzel": "M_SYS_A_(Ma)",
+      "bezeichnung": "Systemtechnik A (Maschinenbau)",
+      "url": "allModules/54800_M_SYS_A_(Ma).json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 54812,
+      "kuerzel": "M_SYS_B_(Ma)",
+      "bezeichnung": "Systemtechnik B (Maschinenbau)",
+      "url": "allModules/54812_M_SYS_B_(Ma).json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 4
+    }
+  ]
+}

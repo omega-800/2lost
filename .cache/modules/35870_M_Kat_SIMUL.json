@@ -1,0 +1,165 @@
+{
+  "id": 35870,
+  "kuerzel": "M_Kat_SIMUL",
+  "bezeichnung": "Modellbildung und Simulation",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Fachkompetenzen:<br />Die Teilnehmenden k&ouml;nnen:<br />&bull;&nbsp;Prozesse analysieren und modellieren&nbsp;&nbsp;&nbsp;&nbsp; <br />&bull;&nbsp;Mit Modellen in praktischen Simulationen experimentieren<br />&bull;&nbsp;Simulationsergebnisse statistisch untersuchen und auswerten</p>\n<p><br />Methodenkompetenzen:<br />Die Teilnehmenden k&ouml;nnen:<br />&bull;&nbsp;Aus mehreren bekannten Simulationsmodellen das in der spez. Situation geeignete ausw&auml;hlen<br />&bull;&nbsp;Simulationsergebnisse (auch statistisch) interpretieren</p>\n<p><br />Selbstkompetenzen:<br />Die Teilnehmenden k&ouml;nnen:<br />&bull;&nbsp;Den Aufwand, Kosten und Nutzen von Simulationen einsch&auml;tzen<br />&bull;&nbsp;Die eigenen St&auml;rken und Schw&auml;chen im Simulationsprozess erkennen</p>\n<p>&nbsp;</p>\n<p>Sozialkompetenzen:<br />Die Teilnehmenden k&ouml;nnen:<br />&bull;&nbsp;Bei der Erstellung des Projektmodells effektiv zusammenarbeiten<br /></p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 35871,
+      "kuerzel": "Simul",
+      "bezeichnung": "Modellbildung und Simulation",
+      "planinhalt": "<p>Ein eigenes Simulationsprojekt soll erarbeitet werden, dazu werden spezifische Beispiele zur Erl&auml;uterung in der Vorlesung aufbereitet, in den &Uuml;bungen werden die Kompetenzen zur Umsetzung in das eigene Projekt erarbeitet</p>\n<p>Themen-/Lernblock:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />&bull;&nbsp;Ablauf des Simulationsprozesses<br />&bull;&nbsp;Beschreibungssprachen (SysML, UML)<br />&bull;&nbsp;Ereignisgesteuerte Prozesssimulation<br />&bull;&nbsp;Warteschlangen<br />&bull;&nbsp;Dynamische Simulationen</p>",
+      "kurselemente": [
+        {
+          "id": 35872,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 108,
+          "harteGrenze": true
+        },
+        {
+          "id": 35873,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Modellbildung und Simulation"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Modelling and Simulation"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10130,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10130_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 1
+        },
+        {
+          "id": 10125,
+          "kuerzel": "W_IKpl",
+          "bezeichnung": "Ingenieurkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10128,
+          "kuerzel": "W-STpl",
+          "bezeichnung": "Systemtechnik und ergänzende Fachmodule",
+          "kreditpunkte": 1
+        }
+      ]
+    },
+    {
+      "id": 10169,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10169_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 1
+        }
+      ]
+    },
+    {
+      "id": 10170,
+      "bezeichnung": "Smart Factories and Robotics",
+      "kuerzel": "WING_Fact",
+      "url": "allStudies/10170_WING_Fact.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10167,
+      "bezeichnung": "Smart Factories and Robotics",
+      "kuerzel": "WING_Fact",
+      "url": "allStudies/10167_WING_Fact.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 160,
+      "name": "Rinkel",
+      "vorname": "Andreas"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 35870,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Modellbildung und Simulation"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Modelling and Simulation"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

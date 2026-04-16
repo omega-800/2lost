@@ -1,0 +1,252 @@
+{
+  "id": 36471,
+  "kuerzel": "M_PFSec",
+  "bezeichnung": "Platform Security",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden k&ouml;nnen</p>\n<ul>\n<li>die unterschiedlichen Sicherheitskonzepte der wichtigsten heutigen Platformen darstellen</li>\n<li>die aktuellen Ans&auml;tze, Betriebssysteme und Rechnerplattformen vor Angriffen und Unterwanderung durch Malware sch&uuml;tzen, erkl&auml;ren</li>\n<li>die entsprechenden Methoden dazu erl&auml;utern und in der Praxis umsetzen</li>\n</ul>",
+  "vorausgKenntnisse": "<p>Zus&auml;tzlich werden Programmierkenntnisse vorausgesetzt.</p>\n<p>Der vorg&auml;ngige oder parallele Besuch von Network and IoT Security wird empfohlen.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 36470,
+      "kuerzel": "PFSec",
+      "bezeichnung": "Platform Security",
+      "planinhalt": "<ul>\n<li>Plattformsicherheit<br />-&nbsp;Attacken (Beispiel Buffer Overflow, Root Kits, Lying Endpoint Problem)<br />- Hardware Security Module, Chipkarten<br />-&nbsp;Platform Trust Service auf der Basis des Trusted Platform Moduls (TPM)<br />-&nbsp;UEFI Secure Boot, Windows/Linux/Android Plattformsicherheit.<br />-&nbsp;Geh&auml;rtete Betriebssysteme, Trusted Boot von virtuellen Maschinen.</li>\n<li>Klassische Platformen: Sicherheitskonzepte in modernen Betriebssystemen und in virtualisierten Platformen</li>\n<li>Moderne Cloud Platformen: Sicherheitskonzepte und Umsetzung</li>\n<li>Der Inhalt wird nach Bedarf angepasst, um auf aktuelle Trends reagieren zu k&ouml;nnen.</li>\n</ul>\n<p>Lern- und Unterrichtsmethoden: Vorlesung, &Uuml;bungen am Computer (Security Lab)</p>\n<p>Unterrichtsunterlagen: Folien mit Zusatztexten (Kommentar); Tutorials/White Papers; Online-Infos</p>",
+      "kurselemente": [
+        {
+          "id": 39141,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        },
+        {
+          "id": 39142,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Platform Security"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Platform Security"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10107,
+      "bezeichnung": "Network & Cloud-Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10107_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10173,
+      "bezeichnung": "Cyber Security ",
+      "kuerzel": "CySec",
+      "url": "allStudies/10173_CySec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10191,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10191_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10231,
+      "bezeichnung": "Cybersecurity",
+      "kuerzel": "CySec",
+      "url": "allStudies/10231_CySec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 10194,
+      "bezeichnung": "Cybersecurity",
+      "kuerzel": "CySec",
+      "url": "allStudies/10194_CySec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533840,
+      "name": "Weiler",
+      "vorname": "Nathalie"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 23311,
+      "kuerzel": "M_CN2",
+      "bezeichnung": "Computernetze 2",
+      "url": "allModules/23311_M_CN2.json"
+    },
+    {
+      "id": 36478,
+      "kuerzel": "M_CySec",
+      "bezeichnung": "Cyber Security Foundations",
+      "url": "allModules/36478_M_CySec.json"
+    },
+    {
+      "id": 36488,
+      "kuerzel": "M_SecSW",
+      "bezeichnung": "Secure Software",
+      "url": "allModules/36488_M_SecSW.json"
+    },
+    {
+      "id": 39080,
+      "kuerzel": "M_Bsys1",
+      "bezeichnung": "Betriebssysteme 1",
+      "url": "allModules/39080_M_Bsys1.json"
+    },
+    {
+      "id": 39084,
+      "kuerzel": "M_CN1",
+      "bezeichnung": "Computernetze 1",
+      "url": "allModules/39084_M_CN1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 36471,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Platform Security"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Platform Security"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2021,
+    "beginSemester": "HS",
+    "endJahr": 2022,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 36471,
+    "kuerzel": "M_PFSec",
+    "bezeichnung": "Platform Security",
+    "url": "allModules/36471_M_PFSec.json"
+  }
+}

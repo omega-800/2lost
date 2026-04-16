@@ -1,0 +1,92 @@
+{
+  "id": 61501,
+  "kuerzel": "M_REMOD",
+  "bezeichnung": "Regression Modeling",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Regressionen stellen einen der grundlegende Ans&auml;tze dar, mit denen wir aus Beobachtungen (Daten) lernen: Es geht darum, auf der Basis von einem oder mehreren Inputsgr&ouml;ssen (z.B. Teilnehmerzahl am Open Air &amp; Tagestemperatur) eine Outputgr&ouml;sse (Nachfrage nach Bier) vorherzusagen. Konzepte aus der Regressonsanalyse sind Basis f&uuml;r viele weiterf&uuml;hrende Methoden, die z.B. im Maschine Learning und f&uuml;r K&uuml;nstliche Intelligenz zum Einsatz kommen.</p>\n<p>&nbsp;</p>\n<p>Absolvent:innen dieses Moduls lernen bessere Entscheide datenbasiert treffen: sie wissen wie man relevante Beobachtungsgr&ouml;ssen von unwichtigen unterscheidet, k&ouml;nnen qualifizierte Sch&auml;tzungen wichtiger Steuerungsgr&ouml;ssen eines Unternehmens vornehmen und sind sich dar&uuml;ber im Klaren, mit welchen Unsicherheiten diese Sch&auml;tzungen behaftet sind.</p>",
+  "vorausgKenntnisse": "<p>Summen- und Produktfunktionen mit Indices<br>e-Funktion; Logarithmus (f&uuml;r logistische Regression)<br>quantitative (stetige, kontinuierliche) und qualitative (kategorisch) Variablen unterscheiden<br>Erwartungswert, Varianz, kumulative Wahrscheinlichkeit<br>Wahrscheinlichkeitsverteilung (insb. Normalverteilung)<br>Bedingte Wahrscheinlichkeiten,<br>Daten Einlesen aus *.XLSX, CSV etc ; sich einen &Uuml;berblick verschaffen; Datenformate ; Datenbereinigung<br>Testverfahren in der Statistik (t-Test, p-Werte)<br>--&gt; klar abgrenzen, was REGMOD selbst an Grundlagen erarbeiten muss!</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 61502,
+      "kuerzel": "REMOD",
+      "bezeichnung": "Regression Modeling",
+      "lernziele": "<p><strong>Fachkompetenzen:</strong><br>Absolvent:innen dieses Moduls&nbsp;<br>- k&ouml;nnen grundlegende Ans&auml;tze der Regressionsanalyse auf vorhandene Daten anwenden, die Ergebnisse aussagekr&auml;ftig aufbereiten und kritisch interpretieren.<br>- verstehen die Grundlagen der vermittelten Methoden und k&ouml;nnen auf dieser Basis problemspezifisch geeignete Ans&auml;tze ausw&auml;hlen</p>\n<p>&nbsp;</p>\n<p><strong>Methodenkompetenzen:</strong><br>f&uuml;r einfache &amp; multiple Regression und logistische Regression:<br>-Modelle aufstellen und Parameter sch&auml;tzen<br>-Testen der Modelle bestimmen der Vertrauensintervalle<br>-Umsetzung in Python (mit asugew&auml;hlten Packages)<br>-Visualisieren &amp; Interpretieren der Ergebnisse</p>\n<p>(Resuduenanalyse &amp; Interpretaton der Ergebnisse ?)</p>",
+      "planinhalt": "<p>einfache lineare Regression:<br>- Grundlegende Konzepte der Regressionsanalyse<br>- Umsetzung mit HIlfe von Python an unterschiedlchen Beispielen<br>- Interpretation der Ergebisse und Beurteilung der Validit&auml;t &nbsp;</p>\n<p>&nbsp;</p>\n<p>multiple lineare Regression<br>- Erweiterung der Modellvorstellung f&uuml;r Abh&auml;ngigkeiten von mehreren Einflussgr&ouml;ssen<br>- Umsetzungf&uuml;r unterschiedliche Anwendungen in Python (mit Packages)<br>- Vergleich einfache vs. multiple Modelle (multiple Regression ist mehr als mehrere einfache Regressionen)</p>\n<p>&nbsp;</p>\n<p>Bewertung und Vergleich von linearen Regressionsmodellen<br>- Residuenanalyse<br>- Beurteilungen der Modellwahl/ Kolinearit&auml;t/ Overfitting</p>\n<p>&nbsp;</p>\n<p>Regression bei qualitativen Beobachtungen (Classification)<br>- Grundlegende Konzepte f&uuml;r Problemstellungen mit qualitativen Vorhersagevariablen (Logistische Regresion)&nbsp;<br>- Umsetzung in Python (mit Packages) an unterschiedlichen Anwendungsbeispielen</p>",
+      "kurselemente": [
+        {
+          "id": 61503,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 108,
+          "harteGrenze": true
+        },
+        {
+          "id": 61504,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Regression Modeling"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Regression Modeling"
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 28034,
+      "name": "Hügel",
+      "vorname": "Katrin"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 61501,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Schriftliche Pr&uuml;fung mit Einsatz der im Unterricht verwendeten Tools (Python)&nbsp;</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Regression Modeling"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Regression Modeling"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

@@ -1,0 +1,162 @@
+{
+  "id": 10950,
+  "kuerzel": "M_ICTh",
+  "bezeichnung": "Informations- und Codierungstheorie",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Vermittlung der&nbsp;Begriffe und Keminhalte der Informationstheorie und ihre Bedeutung f&#252;r die Codierung hinsichtlich Fehlererkennung, Komprimierung und Kanalanpassung sowie die Grundlagen der Quantisierung und Codierung von Audiodaten.</p>",
+  "vorausgKenntnisse": "Mathematische Kenntnisse der Berufsmatura. \n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10027,
+      "kuerzel": "ICTh",
+      "bezeichnung": "Informations- und Codierungstheorie",
+      "planinhalt": "<p align=\"left\">Die Veranstaltung gibt eine Einf&uuml;hrung in die Grundlagen und deren Anwendung.</p>\n<p align=\"left\">Inhalt:</p>\n<ul>\n    <li>\n    <div align=\"left\">Nachrichten und Kan&auml;le</div>\n    </li>\n    <li>\n    <div align=\"left\">Technischer Informationsbegriff</div>\n    </li>\n    <li>\n    <div align=\"left\">Entropie</div>\n    </li>\n    <li>\n    <div align=\"left\">Quellencodierung, Datenkompression, Informationskanal und Kanalcodierung </div>\n    </li>\n    <li>\n    <div align=\"left\">Signale und Quantisierung</div>\n    </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 10412,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 10413,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Informations- und Codierungstheorie"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Information and Coding Theory"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 160,
+      "name": "Rinkel",
+      "vorname": "Andreas"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 10950,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Informations- und Codierungstheorie"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Information and Coding Theory"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2011,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 10950,
+    "kuerzel": "M_ICTh",
+    "bezeichnung": "Informations- und Codierungstheorie",
+    "url": "allModules/10950_M_ICTh.json"
+  }
+}

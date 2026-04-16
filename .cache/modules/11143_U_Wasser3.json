@@ -1,0 +1,146 @@
+{
+  "id": 11143,
+  "kuerzel": "U_Wasser3",
+  "bezeichnung": "Wasser 3 – Übergangsmodul WS05/06",
+  "kreditpunkte": 4,
+  "lernziele": "<p>&#8226; F&#228;higkeit zur hydraulischen Bemessung und Projektierung von wasserbaulichen Strukturen im Wasserkraftbau sowie in der Siedlungsentw&#228;sserung</p>",
+  "vorausgKenntnisse": "<p>Hydraulik 1, Hydraulik 2, Wasser 1 und Wasser 2</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10295,
+      "kuerzel": "uWasBau",
+      "bezeichnung": "Wasserbau - Übergang ",
+      "lernziele": "<p>&#8226; Umsetzung der hydraulischen Kenntnisse auf den praktischen Wasserbau <br />&#8226; F&#228;higkeit einfache Bemessungsaufgaben aus der Praxis durchzuf&#252;hren <br />&#8226; F&#228;higkeit wasserbauliche Projekte zu erarbeiten und zu beurteilen </p>",
+      "planinhalt": "<p>&#8226; Hydraulische und statische Bemessung sowie konstruktive Gestaltung von verschiedenen wasserbaulichen Strukturen wie Stauwehre, Tosbecken und Kan&#228;le</p>",
+      "kurselemente": [
+        {
+          "id": 10746,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Wasserbau - Übergang "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Hydraulic Engineering - Transition"
+        }
+      ]
+    },
+    {
+      "id": 10296,
+      "kuerzel": "uSEW2",
+      "bezeichnung": "Siedlungsentwässerung 2 - Übergang ",
+      "lernziele": "<p>&#8226; F&#228;higkeit, ein Kanalsystem inkl. Sonderbauwerke hydraulisch zu bemessen, zu analysieren und zu optimieren</p>",
+      "planinhalt": "<p>&#8226; hydrologische und hydrodynamische Abflussmodelle <br />&#8226; Entlastungsbauwerke <br />&#8226; Begrenzung der &#220;berlauffrachten <br />&#8226; Retention von Meteorw&#228;ssern im Siedlungsgebiet <br />&#8226; Ausf&#252;hrungsvorschriften f&#252;r Abwasserleitungen <br />&#8226; Sonderbauwerke <br />&nbsp;&nbsp; o Hochwasserentlastungen <br />&nbsp;&nbsp; o Regenbecken <br />&nbsp;&nbsp; o Vereinigungssch&#228;chte <br />&nbsp;&nbsp; o Fallsch&#228;chte <br />&nbsp;&nbsp; o D&#252;kerbauwerke <br />&nbsp;&nbsp; o Abwasserpumpstationen </p>",
+      "kurselemente": [
+        {
+          "id": 10747,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Siedlungsentwässerung 2 - Übergang "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Urban Dewatering 2 - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10011,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10011_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10017,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10017_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1031,
+      "name": "Speerli",
+      "vorname": "Jürg"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11143,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Wasser 3 – Übergangsmodul WS05/06"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Hydraulic Structures 3 - Bridging Module WS05/06"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2005,
+    "endSemester": "WS"
+  }
+}

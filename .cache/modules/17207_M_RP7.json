@@ -1,0 +1,140 @@
+{
+  "id": 17207,
+  "kuerzel": "M_RP7",
+  "bezeichnung": "Raumplanung 7",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Selbst&auml;ndige Anwendung der Theorie aus den Kursen PlgMeth 1 und 2 <br />Repetitorium: <br />- Planungsmethodik und Planungsstatistik <br />- Vertiefung von Theorieinhalten und Anwendung verschiedener Methoden an konkreter Aufgabenstellung <br />Uebungen: Selbst&auml;ndige Abwicklung eines Projektes vom Auftrag bis zum Schlussbericht </p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 17208,
+      "kuerzel": "PlgMeth3",
+      "bezeichnung": "Planungsmethodik 3",
+      "lernziele": "<p>Entwicklung eines Projektes<br />Bearbeitung von Themen der Infrastrukturplanung</p>\n<p>&nbsp;</p>",
+      "planinhalt": "<ol>\n    <li>Projektstart: Aufgabenstellung erfassen Auftrag definieren, ausarbeiten von Vorgehen mit Ablaufplanung, Terminplanung und Arbeitsprogramm. </li>\n    <li>Umgang mit Informationen: Grundlagen beschaffen, auswerten und analysieren </li>\n    <li>L&ouml;sungsvarianten entwickeln, bewerten und entscheiden </li>\n    <li>Ausarbeiten L&ouml;sungsvorschlag und Bericht </li>\n    <li>Lernen aus den Resultaten </li>\n    <li>Theoriel&uuml;cken schliessen im Rahmen der Bearbeitung. </li>\n</ol>\n<p>Seminarien und Uebungen<br /></p>",
+      "kurselemente": [
+        {
+          "id": 17228,
+          "art": "Uebung",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Planungsmethodik 3"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Planning Methods 3"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10000,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10000_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10006,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10006_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10012,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10012_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 868,
+      "name": "Gilgen",
+      "vorname": "Kurt"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 16383,
+      "kuerzel": "M_RP4",
+      "bezeichnung": "Raumplanung 4",
+      "url": "allModules/16383_M_RP4.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 17207,
+      "art": "Note von 1 - 6",
+      "pruefungMue": true,
+      "dauerPrfMue": 20,
+      "pruefungSchr": false,
+      "zulassung": true,
+      "zulassungsBedingung": "Testat: Abgabe der Uebungen",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Raumplanung 7"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Spatial Planning 7"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2008,
+    "beginSemester": "HS",
+    "endJahr": 2008,
+    "endSemester": "HS"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "id": 12329,
+  "kuerzel": "U_Elekt1",
+  "bezeichnung": "Elektrotechnik 1 - Übergangsmodul",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Der Absolvent kennt die Grundlagen der Wechselstromtechnik.Er kann einfache elektrische Schaltungen analysieren und auslegen. Er beherrscht die elementaren Regeln im Umgang mit der Elektrizit&#228;t und kann die elektrischen Gr&#246;ssen mit geeigneten Instrumenten messen. </p>",
+  "vorausgKenntnisse": "<p>Basisgr&#246;ssen und Grundgesetze der Elektrotechnik (Physik/Elektrotechnik)</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 12253,
+      "kuerzel": "uElekt1",
+      "bezeichnung": "Elektrotechnik 1 - Übergang",
+      "planinhalt": "<p>1.&nbsp;Sicherheit im Umgang mit der Elektrizit&#228;t (Personenschutz, Anlagenschutz, Vorschriften) <br />2. Wechselstromtechnik <br />- Grundbegriffe: Periodendauer und Frequenz, Mittel-, Scheitel- und Effektivwerte, Phasenverschiebung, Formfaktoren<br />- Dastellung von Wechselgr&#246;ssen: Liniendiagramme, Zeigerdiagramme, Frequenzgang <br />- Komplexe Berechnung von Wechselgr&#246;ssen <br />- Verbraucher im Wechselstromnetz: Berechnung, Schaltung und Kompensation <br />- Wirk-, Blind- und Scheinleistung: Messung und Berechnung <br />3. Drehstromsystem <br />- Entstehung, Begr&#252;ndung, Eigenschaften <br />- Verketten der Str&#246;me und Spannungen <br />- Drei- und Vierleiternetze <br />- Anwendung der Stern- und Dreieckschaltung <br />- Leistungen im Drehstromsystem <br />- Blindstromkompensation im Drehstromnetz <br />4. Einf&#252;hrung in die Leistungselektronik. </p>",
+      "kurselemente": [
+        {
+          "id": 12287,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 12440,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrotechnik 1 - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electrical Engineering 1 - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 147,
+      "name": "Prechtl",
+      "vorname": "Heiner"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 12329,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": true,
+      "zulassungsBedingung": "Abgabe von 2 Laborberichten mit Bewertung &gt;=<sup> </sup>4",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Elektrotechnik 1 - Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electrical Engineering 1 - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2005,
+    "endSemester": "WS"
+  }
+}

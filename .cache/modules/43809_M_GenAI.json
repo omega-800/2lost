@@ -1,0 +1,240 @@
+{
+  "id": 43809,
+  "kuerzel": "M_GenAI",
+  "bezeichnung": "Generative AI",
+  "kreditpunkte": 4,
+  "lernziele": "<p>In this module, we provide a comprehensive overview of the generative AI landscape covering both theory and practical applications. We dive into the fundamental ideas related to autoencoders, generative adversarial networks, and autoregressive</p>\n<p>models. We explore advanced techniques, including transformers, diffusion models, and multimodal models, illustrating their</p>\n<p>capabilities across various tasks.</p>\n<p>The focus is on generative AI techniques and their applications in our everyday life as well as in professional environments spanning fields such as advertising, fashion design, creative writing, music production, and software engineering. We will discuss, understand, and implement various useful generative AI methods like styleGANs, large language models (LLMs) such as GPT and LLaMA, vision-language models like DALL&middot;E, Stable Diffusion, etc. Participants will gain a deeper understanding of these cutting-edge generative AI methods and their practical utility.</p>",
+  "vorausgKenntnisse": "<p>Python skills are necessary. This module is taught in English. Most of the AI Literature is in English. An intermediate level is recommended. The students are free to write reports in German or English. The exam questions will be in English, the students are free to write answers in German or English.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 43810,
+      "kuerzel": "GenAI",
+      "bezeichnung": "Generative AI",
+      "lernziele": "<p>After the successful completion of this module the students are able to:<br />1. Understand the current state of generative AI<br />2. Embrace the generative AI technology to explore new ideas much faster and iterate over concepts in a way that previously was not possible.<br />3. Appreciate the importance of ethical and practical challenges faced by generative AI<br />4. Train different generative AI models, measure their performance, and deploy them locally<br />5. Learn to generate and adapt images, create text, create music with the help of generative AI</p>",
+      "planinhalt": "<p>In this module, we delve into specific generative AI topics and apply them to concrete tangible examples. The emphasis will be on widely employed deep learning techniques and their (potential) applications in real-world scenarios. While the exact list of</p>\n<p>topics may vary, the following topics are anticipated to be covered:</p>\n<p>1. Learn how large language models like ChatGPT are trained</p>\n<p>2. Train your own model for text generation</p>\n<p>3. Understand and implement prompting, prompt tuning and few-shot learning and AI agents</p>\n<p>4. Understand and implement (a chatbot-based) retrieval augmented search with LLMs</p>\n<p>5. Discover how Variational Autoencoders can alter images</p>\n<p>6. Train generative adversarial networks (GANs) to generate new images based on a given dataset and explore the latest&nbsp; StyleGAN</p>\n<p>7. Build diffusion models to produce new diverse variations of a certain image</p>\n<p>8. Compose music using Transformers and MuseGAN</p>\n<p>9. Dive into multimodal models such as DALL&middot;E 2, Imagen, and Stable Diffusion</p>\n<p>10. Appreciate ethical concerns of generative AI like privacy, fairness, bias, ownership, fake content, etc.<br />During the semester the students will solve a graded challenge in a non-technical, interdisciplinary context.</p>",
+      "kurselemente": [
+        {
+          "id": 43811,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        },
+        {
+          "id": 43812,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Generative AI"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Generative AI"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10191,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10191_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10246,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10246_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10193,
+      "bezeichnung": "Frontend Engineering",
+      "kuerzel": "FrEng",
+      "url": "allStudies/10193_FrEng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10233,
+      "bezeichnung": "Data Science",
+      "kuerzel": "DaEnMaIn",
+      "url": "allStudies/10233_DaEnMaIn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10196,
+      "bezeichnung": "Data Science",
+      "kuerzel": "DaEnMaIn",
+      "url": "allStudies/10196_DaEnMaIn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10230,
+      "bezeichnung": "Frontend Engineering",
+      "kuerzel": "FrEng",
+      "url": "allStudies/10230_FrEng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10251,
+      "bezeichnung": "Data Science",
+      "kuerzel": "DaEn",
+      "url": "allStudies/10251_DaEn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10451,
+      "bezeichnung": "Artificial Intelligence",
+      "kuerzel": "VTAI",
+      "url": "allStudies/10451_VTAI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5025565,
+      "name": "Purandare",
+      "vorname": "Mitra"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 38879,
+      "kuerzel": "M_AutPy",
+      "bezeichnung": "Automatisierung mit Python",
+      "url": "allModules/38879_M_AutPy.json"
+    },
+    {
+      "id": 40866,
+      "kuerzel": "M_AIFo",
+      "bezeichnung": "AI Foundations",
+      "url": "allModules/40866_M_AIFo.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 43809,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Generative AI"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Generative AI"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2024,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  }
+}

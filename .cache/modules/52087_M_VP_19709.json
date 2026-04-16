@@ -1,0 +1,229 @@
+{
+  "id": 52087,
+  "kuerzel": "M_VP_19709",
+  "bezeichnung": "Eingebettete Systeme I e",
+  "kreditpunkte": 15,
+  "lernziele": "<p>Fachkompetenz:<br />Die Studierenden</p><ul><li>kennen die Grundlagen der Programmiersprache C++.</li><li>k&ouml;nnen verschiedene Sprachkonstrukte fachgerecht einsetzen.</li><li>kennen die M&ouml;glichkeiten der Standardbibliothek.</li><li>kennen die grundlegenden Eigenschaften einer Robotersteuerung.</li><li>k&ouml;nnen daraus ein passendes Programm innerhalb eines gegebenen Frameworks (eeros) entwickeln.</li></ul><p>Methodenkompetenz<br />Die Studierenden</p><ul><li>demonstrieren F&auml;higkeit zu Analyse, Kreativit&auml;t, vernetztes Denken.</li><li>k&ouml;nnen ein bestehendes Konzepte analysieren und auf erweiterte Anforderungen anpassen.</li></ul><p>Sozialkompetenz</p><ul><li>Kommunikations- und Kooperationsf&auml;higkeit</li></ul><p>Selbstkompetenz</p><ul><li>Selbst&auml;ndigkeit, Verantwortlichkeit</li></ul>",
+  "vorausgKenntnisse": "Bachelor of Science in Systemtechnik",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 52088,
+      "kuerzel": "VP_1970901",
+      "bezeichnung": "Echtzeitfähige Steuerung für „Wheelie“DWARFFPGA",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Fachkompetenz:<br />Die Studierenden</p><ul><li>kennen die grundlegenden Eigenschaften einer Robotersteuerung.</li><li>k&ouml;nnen daraus ein passendes Programm innerhalb eines gegebenen Frameworks (eeros) entwickeln.</li></ul><p>Methodenkompetenz:<br />Die Studierenden</p><ul><li>demonstrieren F&auml;higkeit zu Analyse, Kreativit&auml;t, vernetztes Denken.</li><li>k&ouml;nnen ein bestehendes Konzept analysieren und auf erweiterte Anforderungen anpassen.</li></ul><p>Sozialkompetenz</p><ul><li>Kommunikations- und Kooperationsf&auml;higkeit</li></ul><p>Selbstkompetenz</p><ul><li>Selbst&auml;ndigkeit, Verantwortlichkeit</li></ul>",
+      "planinhalt": "<p>Eine bestehende Roboterhardwareplattform soll mit einer neuen Steuerung ausger&uuml;stet werden. Diese Steuerung soll eine maximale Zykluszeit von 1ms nicht &uuml;berschreiten. Eine Analyse soll zeigen, ob eine zentrale oder dezentrale Steuerung der Drives eingesetzt werden soll. Eine attraktive Beispielapplikation soll realisiert werden.<br />Erstellen eines detaillierten Projektplans mit Meilensteinen, regelm&auml;ssige Information bez&uuml;glich Projektstand, Selbstverantwortung.</p><p>Lieferobjekte: Projekt, Bericht, Schlusspr&auml;sentation.</p>",
+      "bibliographie": "<p>www.eeros.org</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "bemerkungKurs": "<p>Unterrichtssprache Deutsch (teilweise in Englisch)</p>",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird mittels Bericht und Pr&auml;sentation bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 52089,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000080,
+          "name": "Graf",
+          "vorname": "Urs"
+        }
+      ]
+    },
+    {
+      "id": 52090,
+      "kuerzel": "VP_1970902",
+      "bezeichnung": "C++",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>kennen die Grundlagen der Programmiersprache C++.</li><li>k&ouml;nnen verschiedene Sprachkonstrukte fachgerecht einsetzen.</li><li>kennen die M&ouml;glichkeiten der Standardbibliothek.</li><li>erwerben Fachkompetenz (Faktenwissen, Methodenwissen und Systemdenken) und Methodenkompetenz.</li></ul>",
+      "planinhalt": "<ul><li>Classes, Members, Constructors</li><li>Templates</li><li>Exceptions</li><li>Standardbibliothek</li><li>Evolution C++, C++11, C++14, C++17, C++20</li></ul>",
+      "bibliographie": "<p>Diverse Online-Tutorials<br />Effective Modern C++, Scott Meyers, O&#39;Reilly Media</p>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "bemerkungKurs": "<p>Unterrichtssprache Deutsch (teilweise in Englisch)</p>",
+      "leistungsnachweis": "<p>Dieser Kurs wird mittels Demonstration mit Fachvortrag bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 52091,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000080,
+          "name": "Graf",
+          "vorname": "Urs"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000080,
+      "name": "Graf",
+      "vorname": "Urs"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Embedded Systems I e"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2019,
+    "beginSemester": "HS",
+    "endJahr": 2019,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 51470,
+    "kuerzel": "M_VP_18710",
+    "bezeichnung": "Eingebettete Systeme I e",
+    "url": "allModules/51470_M_VP_18710.json"
+  }
+}

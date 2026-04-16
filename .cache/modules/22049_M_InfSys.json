@@ -1,0 +1,143 @@
+{
+  "id": 22049,
+  "kuerzel": "M_InfSys",
+  "bezeichnung": "Informationssysteme",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Ausgew&auml;hlte Themen von Informationssystemen und Datenbanksystem-anwendungen kennen und die entsprechenden Werkzeuge anwenden k&ouml;nnen.</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 22050,
+      "kuerzel": "InfSys",
+      "bezeichnung": "Informationssysteme",
+      "planinhalt": "<ul>\n    <li>Geodatenbank- und Geoinformationssysteme (multidimensionale Datentypen)</li>\n    <li>OLAP und Data Warehouses</li>\n    <li>Data Mining / Data Analysis</li>\n    <li>Einf&uuml;hrung in das Information Retrieval und in die maschinelle Sprachverarbeitung</li>\n    <li>Weitere ausgew&auml;hlte Themen, u.a. Stammdatenverwaltung, Patterns und temporale Datenbanksysteme</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 22051,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 22052,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Informationssysteme"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Informationsystems"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10233,
+      "bezeichnung": "Data Science",
+      "kuerzel": "DaEnMaIn",
+      "url": "allStudies/10233_DaEnMaIn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 353,
+      "name": "Keller",
+      "vorname": "Stefan F."
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 22049,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Informationssysteme"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Informationsystems"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "FS",
+    "endJahr": 2013,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 22049,
+    "kuerzel": "M_InfSys",
+    "bezeichnung": "Informationssysteme",
+    "url": "allModules/22049_M_InfSys.json"
+  }
+}

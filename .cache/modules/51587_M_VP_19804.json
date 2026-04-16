@@ -1,0 +1,221 @@
+{
+  "id": 51587,
+  "kuerzel": "M_VP_19804",
+  "bezeichnung": "ImageTo3D Stereoscopic View Extension",
+  "kreditpunkte": 15,
+  "lernziele": "<p>The student will learn and apply algorithms, concerned with multiple view geometry such as stereoscopic images, in order to increase the amount of recognized (geometry) points in a point cloud.</p>",
+  "vorausgKenntnisse": "<p>Visual Computing<br />Computer Graphics or an equivalent class. Experience with C++ programming<br />Some background in geometry or computational geometry is helpful, but not necessary.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 51588,
+      "kuerzel": "VP_1980402",
+      "bezeichnung": "Multiple View Geometry",
+      "kreditpunkte": 0,
+      "lernziele": "<p>The students will learn how to reconstruct the three-dimensional world and the camera motion from multiple images.</p>",
+      "planinhalt": "<p>The students will learn how to reconstruct the three-dimensional world and the camera motion from multiple images. For this, focus lies on the determining correspondences between points in various images and respective constraints that allow to compute motion and 3D structure. A particular emphasis lies on mathematical descriptions of rigid body motion and of perspective projection.<br />For estimating camera motion and 3D geometry both spectral methods and methods of nonlinear optimization are used.</p>",
+      "bibliographie": "<p>Hartley, R.~I. and Zisserman, A. (2004). Multiple View Geometry in Computer Vision. Cambridge University Press. [978-0521540513]<br />Yi Ma, Stefano Soatto, Jana Kosecka, and S. Shankar Sastry. 2003. An Invitation to 3-D Vision: From Images to Geometric Models. SpringerVerlag. [978-0387008936]</p>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "leistungsnachweis": "<p>Dieser Kurs wird mittels eines Summarys bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 51589,
+          "art": "Seminar",
+          "maxTeilnehmer": 36,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000823,
+          "name": "Frei",
+          "vorname": "Norbert"
+        }
+      ]
+    },
+    {
+      "id": 51590,
+      "kuerzel": "VP_1980401",
+      "bezeichnung": "ImageTo3D Stereoscopic View Extension",
+      "kreditpunkte": 0,
+      "lernziele": "<p>The students will learn how to design, program and analyze algorithms and systems for interactive 3D shape modeling and digital geometry processing out of images from different views, specifically stereoscopic images.</p>",
+      "planinhalt": "<p>Multiple View Geometry is the theory of determining geometic properties of objects from one or more source images. These techniques are widely used in robotics and 3D scene recognition to produce meshes.<br />In order to improve the detection of feature points from stereoscopic source images, new methods should be implemented that make use of multiple view geometry. The assumption should be tested, that this will increase the amount of detected points.</p>",
+      "bibliographie": "<p>Hartley, R.~I. and Zisserman, A. (2004). Multiple View Geometry in Computer Vision. Cambridge University Press. [978-0521540513]</p><p>Yi Ma, Stefano Soatto, Jana Kosecka, and S. Shankar Sastry. 2003. An Invitation to 3-D Vision: From Images to Geometric Models. SpringerVerlag. [978-0387008936]</p>",
+      "empfLehrmittel": "<p>Projektarbeit</p>",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird mittels Bericht und Pr&auml;sentation bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 51591,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000823,
+          "name": "Frei",
+          "vorname": "Norbert"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000823,
+      "name": "Frei",
+      "vorname": "Norbert"
+    }
+  ],
+  "orte": [
+    {
+      "id": 2,
+      "kuerzel": "WSG",
+      "bezeichnung": "Waldau St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Measurement of Learning Success in Computer Science Education"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2019,
+    "beginSemester": "FS",
+    "endJahr": 2019,
+    "endSemester": "FS"
+  }
+}

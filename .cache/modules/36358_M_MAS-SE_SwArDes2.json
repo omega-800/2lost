@@ -1,0 +1,131 @@
+{
+  "id": 36358,
+  "kuerzel": "M_MAS-SE_SwArDes2",
+  "bezeichnung": "Software-Architektur & Design 2",
+  "kreditpunkte": 4,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 36353,
+      "kuerzel": "MAS-SE_AppSec",
+      "bezeichnung": "Application Security",
+      "lernziele": "<p>Grunds&auml;tze der Informationssicherheit verstehen und auf Anwendungsbeispiele umsetzen k&ouml;nnen.</p>\n<p>Verst&auml;ndnis der Schutzzielen der Informationssicherheit und deren Bedeutung. Kenntnis der typischen Bedrohungen und die technischen und organisatorischen Massnahmen zu deren Abwehr.</p>",
+      "planinhalt": "<p>Inhalte Kursblock 1: Information Security Management</p>\n<p>1.1 Grundbegriffe Risikomanagement</p>\n<p>1.2 Sicherheitsziele</p>\n<p>1.3 Massnahmen &nbsp;</p>\n<p>Inhalte Kursblock 2:&nbsp; Kryptologie Grundlagen</p>\n<p>2.1 Symmetrische Verschl&uuml;sselung</p>\n<p>2.2 Hashfunktionen</p>\n<p>2.3 Asymmetrische Verschl&uuml;sselung</p>\n<p>2.4 Signaturen &nbsp; Inhalte Kursblock</p>\n<p>3: Anwendungssicherheit</p>\n<p>3.1 Schwachstellen (Injections, Sicherheitsrelevante Fehlkonfigurationen, Verlust der Vertraulichkeit sensibler Daten, etc.)</p>\n<p>3.2 Best practices (Datenbanken, Webanwendungen, Software development) &nbsp; Inhalte Kursblock</p>\n<p>4: Netzwerksicherheit</p>\n<p>4.1 Zugangskontrolle</p>\n<p>4.2 Firewalls</p>\n<p>4.3 Weitere Themen</p>",
+      "bibliographie": "<p>Der Kauf eines Buches ist nicht notwendig. &nbsp;</p>\n<p>&nbsp;</p>\n<p>Boyle, R. J., Panko, R. (2014). Corporate Computer Security: International Edition. Prentice Hall, Pearson Education. Stallings, W. (2016). Network Security Essentials - Applications and Standards. Pearson. Kaufmann, Ch., Perlman, R., Speciner, M. (2002). Network Security &ndash; Private Communication in a Public World. Prentice Hall. Anderson, R. (2008). Security engineering: A guide to building dependable distributed systems (2.ed.). Indianapolis Ind. u.a.: Wiley. Schmeh, K. (2016). Kryptografie: Verfahren, Protokolle, Infrastrukturen (6., aktualisierte Auflage). iX-Edition.Heidelberg: dpunkt.verlag. Schwenk, J. (2014). Sicherheit und Kryptographie im Internet: Theorie und Praxis (4., &uuml;berarb. u. erw. Aufl.). Wiesbaden: SpringerVieweg. Sowa, A. (2017). Management der Informationssicherheit. Wiesbaden: Springer-Vieweg.</p>\n<p>&nbsp;</p>\n<p>Internetlinks: Werden jeweils in den Vorlesungsunterlagen bzw. &uuml;ber Moodle angegeben</p>\n<p>&nbsp;</p>\n<p>Tools: OwaspZAP</p>",
+      "empfLehrmittel": "<p>Frontalunterricht, &Uuml;bungen via Online Tool und Moodle teilweise in der Vorlesung integriert, teilweise im Selbststudium.</p>",
+      "leistungsnachweis": "<p>Schriftlich, ggf. am PC</p>",
+      "kurselemente": [
+        {
+          "id": 36352,
+          "art": "Blockkurs",
+          "anzLektionen": 5,
+          "maxTeilnehmer": 45,
+          "harteGrenze": true
+        }
+      ]
+    },
+    {
+      "id": 36355,
+      "kuerzel": "MAS-SE_AvS",
+      "bezeichnung": "Architekturen verteilter Systeme",
+      "lernziele": "<p>Vertieften Einblick in die Konzepte, Architekturen rund um verteilte Systeme zu gewinnen.</p>\n<p>Der Kurs <em>Architecture for Distributed Systems </em>(ADS, Architektur f&uuml;r Verteilte Systeme) gibt den Kursteilnehmern einen fundierten Einblick in die Konzepte, Architekturen von verteilten Systemen. Es werden in der Theorie die grundlegenden Architekturen von solchen Systemen behandelt und in &Uuml;bungen Komponenten f&uuml;r die Realisierung von solchen Architekturen, unter Verwendung erworbener Kenntnissen des Kurses <em>Communication in Distributed Systems</em> (CDS) vertieft. Es werden Architekturen wie Client/Server, Object Management Architecture, Service Orientierted Architecture, Microservice Architecture behandelt und deren Gemeinsamkeiten und Evolution betrachtet. <em>Architektur f&uuml;r Verteilte Systeme </em>ist kein Spezialisierungskurs, sondern gibt den angehenden Software-Ingenieuren/innen einen fundierten &Uuml;berblick in angemessener Tiefe, was als wertvolle Grundlage f&uuml;r die Praxis dient.</p>",
+      "planinhalt": "<p><strong><em>Grundlagen</em></strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n<ul>\n<li>Architektur verteilter Systeme</li>\n<li>Grundlagen &amp; Vorgehen beim Erstellen</li>\n</ul>\n<p><strong><em>Architekturen</em></strong></p>\n<ul>\n<li>Bekannte Architektur-Strukturen und Plattformen (Objekt-basiert, Service-basiert, Event-basiert)</li>\n<li>Unterschied von C/S, OMA, SOA, Microservice-Architekturen</li>\n</ul>\n<p><strong><em>Design, Implementation von Services</em></strong></p>\n<ul>\n<li>Service-Architekturen</li>\n<li>Schnittstellen Design</li>\n</ul>\n<p><strong><em>Plattformen in der Praxis</em></strong></p>\n<ul>\n<li>Applikations-Service mit EJB</li>\n<li>Typische Konstellationen (Praxis-Fallbeispiel)</li>\n</ul>",
+      "bibliographie": "<p>Vorlesungsunterlagen, Vortr&auml;ge und Artikel im Internet</p>\n<p>Literaturhinweise:</p>\n<p>Verteilte Systeme, Prinzipien und Paradigma, Andrew S. Tanenbaum, Maarten van Steen, Pearson, &pound; 978-3-8273-7203-2 Verteilte Systeme, Alexander Schill, Thomas, Springer 978-3-642-25795-7 UML Distilled (3rd Edition), Martin Fowler, Addison Wesley, ISBN 0-321-19368-7 Patterns of Enterprise Application Architecture, Martin Fowler et.al., Addison Wesley, ISBN 0-321-12742-0 Enterprise Integration Patterns, Gregor Hohpe , Bobby Woolf, Addison Wesley, ISBN 0-321-20068-3 Building Microservices, Sam Newman, O&lsquo;Reilly, ISBN 978-1-491-95935-7 SOA in der Praxis, Nicolai Josuttis,dpunkt.verlag, ISBN-978-3-98864-476-1 Enterprise Service Bus, David A. Chappell,O&lsquo;Reilly, ISBN 0-596-00675-6</p>",
+      "empfLehrmittel": "<p>Theorie mit integrierten &Uuml;bungen. &Uuml;bungen sind ein integrierter und wichtiger Teil des Kurses</p>",
+      "leistungsnachweis": "<p>Schriftliche Pr&uuml;fung am Ende des Kursblocks</p>",
+      "kurselemente": [
+        {
+          "id": 36354,
+          "art": "Blockkurs",
+          "anzLektionen": 5,
+          "maxTeilnehmer": 45,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 574,
+          "name": "Koch",
+          "vorname": "Andres"
+        }
+      ]
+    },
+    {
+      "id": 36357,
+      "kuerzel": "MAS-SE_CC",
+      "bezeichnung": "Cloud Computing",
+      "lernziele": "<ul>\n<li>Sie k&ouml;nnen die definierenden Merkmale des Cloud Computing, die Cloud Deployment-Modelle (Sichtbarkeitsarten), und Servicemodelle (Abstraktionsebenen) auflisten und vergleichen.</li>\n<li>Sie k&ouml;nnen die St&auml;rken, Schw&auml;chen, Chancen und Risiken von Cloud Computing einsch&auml;tzen und erkl&auml;ren.</li>\n<li>Sie k&ouml;nnen Cloud-Architekturmuster erkl&auml;ren und auf Cloud-Dienste anwenden.</li>\n<li>Sie sind in der Lage, Cloud-Anbieter hinsichtlich ihrer Eignung f&uuml;r den Betrieb von Web- und Unternehmensanwendungen zu bewerten.</li>\n<li>Sie k&ouml;nnen die Auswirkungen von Cloud Deployment auf die Anwendungsarchitektur beurteilen und cloudf&auml;hige Anwendungen entwerfen.</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>etabliert Cloud Computing Konzepte anhand von Architekturmustern</li>\n<li>stellt wichtige Designelemente bei ausgew&auml;hlten Cloud-Anbietern vor</li>\n<li>zeigt, wie cloud-native Anwendungsarchitekturen gestaltet werden k&ouml;nnen</li>\n</ul>\n<p>Cloud Computing hat sich in den letzten Jahren vom stark gehypten Trendthema zur attraktiven Architekturalternative f&uuml;r Entwicklung und Betrieb von Web-Anwendungen und anderer Software entwickelt. Neben traditionellen IT-Anbietern wie Microsoft sind Internetfirmen wie Amazon und Google im Public Cloud Markt aktiv; Open Source Assets erlauben den Aufbau von Private Clouds. Die Cloud-Anbieter unterscheiden sich stark hinsichtlich ihrer Preismodelle und der zugesicherten Dienstg&uuml;te. Anwendungsarchitekten und Entwickler sind daher mit einer Vielzahl neuer Designoptionen konfrontiert, z. B. Message-Oriented Middleware mit At-Least-Once Delivery, nichtrelationale Speichertechniken (NoSQL) sowie Server-, Speicher- und Netzwerkvirtualisierung. Mit den Cloud-Ressourcen muss sparsam und fehlertolerant umgegangen werden; nicht alle existierenden Entwurfsmuster eignen sich f&uuml;r Cloud-Anwendungsbau und Cloud-Migrationen. Dieser Kursblock f&uuml;hrt in ausgew&auml;hlte Konzepte und Technologien des Cloud Computing ein und bef&auml;higt Sie, Cloud-Dienste aus der Sicht des Anwendungsarchitekten zu analysieren und cloud-native Anwendungen systematisch zu entwerfen.</p>",
+      "bibliographie": "<p>C. Fehling, F. Leymann et al., Cloud Computing Patterns &ndash; Fundamentals to Design, Build, and Manage Cloud Applications, Springer-Verlag 2014 (in der Bibliothek vorhanden)</p>\n<p>&nbsp;</p>\n<p>http://cloudcomputingpatterns.org (weitere werden mit den Kursunterlagen zur Verf&uuml;gung gestellt)</p>\n<p>&nbsp;</p>\n<p>Tools: Cloud Services ausgew&auml;hlter Anbieter mit Free Tiers (optional) &nbsp;</p>",
+      "empfLehrmittel": "<ul>\n<li>Vorlesung und &Uuml;bung ca. im Verh&auml;ltnis 60-40.</li>\n<li>Lehrgespr&auml;ch (also Vortrag mit interaktiven Elementen), begleitende/vertiefende &Uuml;bungen.</li>\n</ul>",
+      "leistungsnachweis": "<p>Schriftliche Pr&uuml;fung am Ende des Kursblocks</p>",
+      "kurselemente": [
+        {
+          "id": 36356,
+          "art": "Blockkurs",
+          "anzLektionen": 5,
+          "maxTeilnehmer": 45,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 5000585,
+          "name": "Zimmermann",
+          "vorname": "Olaf"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10068,
+      "bezeichnung": "MAS SW Engineering",
+      "kuerzel": "MAS-SE",
+      "url": "allStudies/10068_MAS-SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 10164,
+      "bezeichnung": "CAS Advanced",
+      "kuerzel": "MAS-SE_Adv",
+      "url": "allStudies/10164_MAS-SE_Adv.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 541091,
+      "name": "Bläser",
+      "vorname": "Luc"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "-- Übersetzung --"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "-- Übersetzung --"
+    }
+  ]
+}

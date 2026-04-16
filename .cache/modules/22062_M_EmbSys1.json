@@ -1,0 +1,277 @@
+{
+  "id": 22062,
+  "kuerzel": "M_EmbSys1",
+  "bezeichnung": "Embedded Systems 1",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Das Modul behandelt Hardware- und Software-Komponenten und deren Schnittstellen in vernetzten eingebetteten Systemen (sogenannten cyber-physischen Systemen) entlang des \"Sense, Think, Act, Communicate\"-Modells, welches anhand verschiedener Anwendungen aus der Sensorik, digitalen Signalverarbeitung und Artificial Intelligence (AI), Regeltechnik und Kommunikationstechnik besprochen wird.<br />Die Studierenden lernen, die Systemkomponenten unter dem Aspekt beschr&auml;nkter Ressourcen (Uniprozessor, minimaler Speicher, Ultra-Low-Power, Low-Cost, etc.) zu entwerfen, zu analysieren und auf einem Mikrocontroller umzusetzen.</p>",
+  "vorausgKenntnisse": "<ul>\n<li>Programmieren in C und Python</li>\n<li>Software Engineering</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 22063,
+      "kuerzel": "EmbSys1",
+      "bezeichnung": "Embedded Systems 1",
+      "lernziele": "<ul>\n<li>Die Studierenden k&ouml;nnen ressourcenbeschr&auml;nkte eingebettete Systeme modellieren, analysieren und auf einem Mikrocontroller implementieren.</li>\n<li>Sie k&ouml;nnen Sensoren kalibrieren und Sensordaten einlesen, sammeln und auf dem Zielsystem mittels digitaler Signalverarbeitung und Machine Learning (TinyML) weiterverarbeiten.</li>\n<li>Sie k&ouml;nnen Motoren auf unterschiedliche Weise ansteuern und einfache digitale Regler umsetzen.</li>\n<li>Sie k&ouml;nnen Kommunikationsprotokolle verstehen und ausgew&auml;hlte Funktionalit&auml;ten in Hardware und Software realisieren.</li>\n<li>Sie k&ouml;nnen ein eingebettetes System gem&auml;ss vorgegebener Metriken optimieren, um so den beschr&auml;nkten Ressourcen im System gerecht zu werden.</li>\n</ul>",
+      "planinhalt": "<p>Das Modul behandelt anhand von Arm Cortex-M Mikrocontrollern die wesentlichen Bestandteile und Eigenschaften eines modernen eingebetteten Systems:</p>\n<ul>\n<li>Themenblock I \"Sense\": Sensoren, Sensor-Kalibration, Verarbeitung von Sensordaten, DSP- und Machine Learning-Methoden (z.B. Filter, FFT, Regression, Klassifikation), Sensor Fusion, State Estimation, Data Logging.</li>\n<li>Themenblock II \"Act\": Aktuatoren, Motor-Regelung (Strom/Drehmoment, Drehzahl/Geschwindigkeit, Position), digitale Regler (z.B. PID), Trajektorien-Generierung und -Tracking.</li>\n<li>Themenblock III \"Communicate\": drahtgebundene und drahtlose Kommunikationsprotokolle (z.B. TCP/IP f&uuml;r Ethernet und WiFi, GAP und GATT f&uuml;r BLE), Feldbusse (z.B. Modbus, CAN), Wireless Sensor Networks (z.B. Mesh Networking, Distributed Computing).</li>\n<li>Themenblock IV \"System\": Modellierung und Analyse, Mikrocontroller-Auswahl und System-Optimierung (z.B. Low-Power), Power Management, Timing, Real-Time Clocks, Watchdog Timer.</li>\n</ul>\n<p><br />Inhaltliche &Auml;nderungen und weitere Themen sind m&ouml;glich.</p>",
+      "kurselemente": [
+        {
+          "id": 22064,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        },
+        {
+          "id": 22065,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Embedded Systems 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Embedded Systems 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10191,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10191_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10246,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10246_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5026211,
+      "name": "Breitenmoser",
+      "vorname": "Andreas"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 23345,
+      "kuerzel": "M_ComEng2",
+      "bezeichnung": "Computer Engineering 2",
+      "url": "allModules/23345_M_ComEng2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 22062,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>75% der Praktika besucht</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Embedded Systems 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Embedded Systems 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2012,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 11187,
+    "kuerzel": "M_EmbSys1",
+    "bezeichnung": "Embedded Systems 1",
+    "url": "allModules/11187_M_EmbSys1.json"
+  }
+}

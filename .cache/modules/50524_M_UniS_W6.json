@@ -1,0 +1,92 @@
+{
+  "id": 50524,
+  "kuerzel": "M_UniS_W6",
+  "bezeichnung": "Uni_Saxion_Wahlmodul_5KP",
+  "kreditpunkte": 5,
+  "lernziele": "<p>siehe Modulbeschreibung der Uni Saxion</p>",
+  "vorausgKenntnisse": "<p>Siehe Modulbeschreibung der Uni Saxion</p>",
+  "semesterBewertung": "bestanden / nicht bestanden",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 50525,
+      "kuerzel": "UNIS_W5",
+      "bezeichnung": "Uni Saxion Wahlmodul 5KP",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Siehe Modulbeschreibung der Uni Saxion</p>",
+      "planinhalt": "<p>Siehe Modulbeschreibung der Uni Saxion</p>",
+      "bibliographie": "<p>Siehe Modulbeschreibung der Uni Saxion</p>",
+      "empfLehrmittel": "<p>Siehe Modulbeschreibung der Uni Saxion</p>",
+      "bemerkungKurs": "<p>Die Module werden von der Uni Saxion angeboten. Die Studierenden der NTB besuchten als Austauschstudenten die Wahlmodule:</p><ul><li>Power Systems Analysis</li><li>Power Systems Engineering</li></ul>",
+      "leistungsnachweis": "<p>Siehe Modulbeschreibung der Uni Saxion</p>",
+      "kurselemente": [
+        {
+          "id": 50526,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 36,
+          "harteGrenze": false
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 5
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000117,
+      "name": "Keller",
+      "vorname": "Daniel"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2017,
+    "beginSemester": "FS",
+    "endJahr": 2017,
+    "endSemester": "FS"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": 44457,
+  "kuerzel": "M_TuiT_AsiaM",
+  "bezeichnung": "Asia Modul",
+  "kreditpunkte": 6,
+  "lernziele": "siehe: <a href=\"http://www.msengineering.ch/\">http://www.msengineering.ch/</a>&nbsp;",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 44458,
+      "kuerzel": "TuiT_AsiaM",
+      "bezeichnung": "Asia Modul",
+      "kurselemente": [
+        {
+          "id": 44459,
+          "art": "Blockkurs",
+          "maxTeilnehmer": 999,
+          "harteGrenze": false
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Asia Modul"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Asia Module"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 6
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9983,
+      "name": "ZZZ Dozent Zentral",
+      "vorname": "Planung"
+    }
+  ],
+  "orte": [
+    {
+      "id": 0,
+      "kuerzel": "undev",
+      "bezeichnung": "kein Standort definiert",
+      "ort": ""
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Asia Modul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Asia Module"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2024,
+    "beginSemester": "FS",
+    "endJahr": 2024,
+    "endSemester": "FS"
+  }
+}

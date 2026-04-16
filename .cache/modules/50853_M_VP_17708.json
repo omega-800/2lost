@@ -1,0 +1,221 @@
+{
+  "id": 50853,
+  "kuerzel": "M_VP_17708",
+  "bezeichnung": "Eingebettete Systeme I d",
+  "kreditpunkte": 12,
+  "lernziele": "<p>Fachkompetenz:<br />Die Studierenden</p><ul><li>kennen unterschiedliche Bustopologien.</li><li>implementieren flink &uuml;ber AXI-Bus auf mindestens 3 Plattformen.</li><li>realisieren ein umfassendes Release Management.</li><li>haben vertiefte Kenntnisse &uuml;ber VHDL.</li><li>kennen und folgen unseren internen Coding-Guidelines.</li><li>beherrschen ein umfassendes Simulationstool.</li><li>k&ouml;nnen automatische Testbenches erstellen.</li></ul><p>Methodenkompetenz<br />Die Studierenden</p><ul><li>demonstrieren F&auml;higkeit zu Analyse, Kreativit&auml;t, vernetztes Denken.</li><li>k&ouml;nnen ein bestehendes Konzepte analysieren und auf erweiterte Anforderungen anpassen.</li></ul><p>Sozialkompetenz</p><ul><li>Kommunikations- und Kooperationsf&auml;higkeit</li></ul><p>Selbstkompetenz</p><ul><li>Selbst&auml;ndigkeit, Verantwortlichkeit</li></ul>",
+  "vorausgKenntnisse": "Bachelor of Science in Systemtechnik",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 50854,
+      "kuerzel": "VP_1770801",
+      "bezeichnung": "flink auf AXI-Bus",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Fachkompetenz:<br />Die Studierenden</p><ul><li>kennen unterschiedliche Bustopologien.</li><li>implementieren flink &uuml;ber AXI-Bus auf mindestens 3 Plattformen.</li><li>realisieren ein umfassendes Release Management.</li></ul><p>&nbsp;</p><p>Sozialkompetenz</p><ul><li>Kommunikations- und Kooperationsf&auml;higkeit</li></ul><p>Selbstkompetenz</p><ul><li>Selbst&auml;ndigkeit, Verantwortlichkeit</li></ul>",
+      "planinhalt": "<p>Analyse des bestehenden Avalon-Buses und Vergleich mit AXI-Bus, allgemeine Bustopologien, Simulation und Testbarkeit, Versionierung und Release Management detaillierter Projektplans mit Meilensteinen, regelm&auml;ssige Information bez&uuml;glich Projektstand, Selbstverantwortung.<br />Lieferobjekte: Projekt, Bericht, Schlusspr&auml;sentation.</p>",
+      "bibliographie": "<p>www.flink-project.ch</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "Das zu bearbeitende Projekt wird mittels Projektarbeit, Bericht und einer Schlusspr&auml;sentation mit Pr&uuml;fungsgespr&auml;ch bewertet.",
+      "kurselemente": [
+        {
+          "id": 50855,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000080,
+          "name": "Graf",
+          "vorname": "Urs"
+        }
+      ]
+    },
+    {
+      "id": 50856,
+      "kuerzel": "VP_1770802",
+      "bezeichnung": "VHDL",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>haben vertiefte Kenntnisse &uuml;ber VHDL.</li><li>kennen und folgen unseren internen Coding-Guidelines.</li><li>beherrschen ein umfassendes Simulationstool.</li><li>k&ouml;nnen automatische Testbenches erstellen.</li><li>erwerben Fachkompetenzen (Faktenwissen, Methodenwissen und Systemdenken) und Methodenkompetenzen.<br />&nbsp;</li></ul>",
+      "planinhalt": "<p>Gesamter Umfang der VHDL Sprache, Synthetisierbarkeit, Simulation inclusive self-checking Testbenches.</p>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "bemerkungKurs": "<p>Unterrichtssprache Englisch, teilweise in Deutsch</p>",
+      "leistungsnachweis": "<p>Der Kurs wird mittels Fachgespr&auml;ch mit Demonstration eigner Beispiele bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 50857,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000080,
+          "name": "Graf",
+          "vorname": "Urs"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000080,
+      "name": "Graf",
+      "vorname": "Urs"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Embedded Systems I d"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2017,
+    "beginSemester": "HS",
+    "endJahr": 2017,
+    "endSemester": "HS"
+  }
+}

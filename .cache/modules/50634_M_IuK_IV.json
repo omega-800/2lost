@@ -1,0 +1,227 @@
+{
+  "id": 50634,
+  "kuerzel": "M_IuK_IV",
+  "bezeichnung": "Informations- und Kommunikationssysteme IV",
+  "kreditpunkte": 10,
+  "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen Skalierbarkeits- und Verf&uuml;gbarkeitstechnologien in grossen Netzwerken korrekt anwenden.</li><li>k&ouml;nnen ein Campusnetzwerk f&uuml;r ein gr&ouml;sseres Unternehmen planen und aufbauen.</li><li>k&ouml;nnen IT-Infrastrukturen in der Softwareentwicklung als auch im Betrieb effizient automatisieren.</li><li>k&ouml;nnen ein verteiltes und vernetztes System nach den Grunds&auml;tzen des Web of Things entwickeln.<br />&nbsp;</li></ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 50635,
+      "kuerzel": "IuK_IV_K",
+      "bezeichnung": "IoT-Kommunikationssysteme",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>kennen die Definition des Web of Things (WoT).</li><li>verstehen die Idee&nbsp; und die Komponenten des WoT.</li><li>k&ouml;nnen eingebettete Linux-Systeme einsetzen und ins WoT integrieren.</li><li>k&ouml;nnen WoT-Systeme&nbsp; entwerfen und die Entwicklung umsetzen.</li><li>k&ouml;nnen die Kommunikationsmuster und &ndash;Technologien im WoT anwenden.<br />&nbsp;</li></ul>",
+      "planinhalt": "<ul><li>Sensoren, Aktoren</li><li>Node.js Programmierung</li><li>Kommunikationsschnittstellen (z.B. REST, WebSockets, CoAP, MQTT)</li><li>WoT-Systemarchitekturen (z.B.: Direct, Gateway, Cloud)</li><li>Auffindbarkeit</li><li>Sicherheit</li><li>Mashups<br />&nbsp;</li></ul>",
+      "empfLehrmittel": "<p>Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen mit Projekt</p>",
+      "leistungsnachweis": "<p>W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich wird die Durchf&uuml;hrung eines Web-of-Things Projekts wird bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 50636,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001547,
+          "name": "Hauser",
+          "vorname": "Ulrich"
+        }
+      ]
+    },
+    {
+      "id": 50637,
+      "kuerzel": "IuK_IV_I",
+      "bezeichnung": "IT-Infrastrukturen und Virtualisierung",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>kennen den DevOps-Ansatz.</li><li>verstehen Storage-Systeme und k&ouml;nnen diese konfigurieren und in Betrieb nehmen.</li><li>verstehen Virtualisierungs- und Container-Systeme, k&ouml;nnen diese aufsetzen und gegeneinander abgrenzen.</li><li>k&ouml;nnen Werkzeuge zur automatischen Konfiguration von virtuellen Maschinen einsetzen.</li><li>k&ouml;nnen Werkzeuge zur kontinuierlichen Integration einsetzen.</li><li>verstehen Software-Lizenzen und k&ouml;nnen geeignete ausw&auml;hlen.</li><li>kennen ITIL und seinen Nutzen.<br />&nbsp;</li></ul>",
+      "planinhalt": "<ul><li>RAID, LVM</li><li>Virtualisierungssoftware wie z.B. VMWare Workstation Player, VirtualBox, OpenStack</li><li>Container-Software wie z.B. Docker, LXD</li><li>Konfigurationswerkzeuge wie z.B. Vagrant, Ansible</li><li>CI-Werkzeuge wie z.B. Travis CI</li><li>ITIL</li><li>Software-Lizenzen wie z.B. GPL<br />&nbsp;</li></ul>",
+      "empfLehrmittel": "<p>Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen, Rechen&uuml;bungen</p>",
+      "leistungsnachweis": "<p>Es findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit dem Kurs Computernetwerke III&nbsp;statt.</p>",
+      "kurselemente": [
+        {
+          "id": 50638,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002973,
+          "name": "Toggenburger",
+          "vorname": "Lukas"
+        }
+      ]
+    },
+    {
+      "id": 50639,
+      "kuerzel": "IuK_IV_C",
+      "bezeichnung": "Computernetzwerke III",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen Netzwerke mit IGP (z.B. OSPF, EIGRP) und EGP (BGP) Routingprotokollen korrekt konfigurieren und in gerouteten Netzwerken Fehler beheben.</li><li>k&ouml;nnen die Dimensionen Skalierbarkeit, Verf&uuml;gbarkeit, Leistung in Unternehmensnetzwerken mit geeigneten Technologien verbessern (z.B. STP, HSRP, Link-Aggregation).</li><li>verstehen die Funktionsweise ausgew&auml;hlter WAN-Protokolle und Dienste zur Verbindung von Standorten (z.B. PPP, GRE).</li><li>verstehen die Grundkonzepte von Quality of Service (QoS) in einem Netzwerk.<br />&nbsp;</li></ul>",
+      "planinhalt": "<ul><li>IGP und EGP Routing</li><li>Spanning-Tree</li><li>First Hop Redundancy Protocols (FHRP)</li><li>WAN Protokolle</li><li>Netzwerkmanagementprotokolle</li><li>QoS</li></ul>",
+      "empfLehrmittel": "<p>Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen, Labor&uuml;bungen</p>",
+      "leistungsnachweis": "<p>W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit dem Kurs IT-Infrastrukturen und Virtualisierung&nbsp;statt.</p>",
+      "kurselemente": [
+        {
+          "id": 50640,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001551,
+          "name": "Bigger",
+          "vorname": "Beat"
+        }
+      ]
+    },
+    {
+      "id": 50641,
+      "kuerzel": "IuK_IV_P",
+      "bezeichnung": "Computernetzwerke (Semesterprojekt)",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen eine grobe Anforderungsdefinition f&uuml;r das&nbsp;Netzwerk eines&nbsp;Unternehmens mit mehreren Standorten analysieren und selbst&auml;ndig detaillieren.</li><li>k&ouml;nnen aus der detaillierten Anforderungsdefinition ein geeignetes Netzwerkkonzept ableiten.</li><li>sind in der Lage, die zur Realisierung n&ouml;tigen Komponenten fachgerecht zu konfigurieren und miteinander zu einem funktionierenden System zusammenzuf&uuml;gen.</li><li>k&ouml;nnen ihre &Uuml;berlegungen und ausgef&uuml;hrten Arbeiten sachlich, knapp und verst&auml;ndlich&nbsp;dokumentieren und reflektieren.</li></ul>",
+      "planinhalt": "<ul><li>IPv4 und IPv6 Netzwerkplanung</li><li>Hierarchisches Netzwerkdesign</li><li>Planung, Konfiguration und Betrieb von Netzwerkdiensten (z.B.: NAT, DHCP, Firewall, File, DNS, Web)</li><li>Dokumentation einer Infrastruktur<br />&nbsp;</li></ul>",
+      "empfLehrmittel": "<p>Lehrgespr&auml;ch, selbst&auml;ndige Bearbeitung eines Projektauftrags in Gruppen</p>",
+      "leistungsnachweis": "<p>W&auml;hrend der Unterrichtsphase wird ein Projekt bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 50642,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001551,
+          "name": "Bigger",
+          "vorname": "Beat"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 10380,
+      "bezeichnung": "Informations- und Kommunikationssysteme",
+      "kuerzel": "IKS",
+      "url": "allStudies/10380_IKS.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 10378,
+      "bezeichnung": "Informations- und Kommunikationssysteme",
+      "kuerzel": "IKS",
+      "url": "allStudies/10378_IKS.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 8
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2001551,
+      "name": "Bigger",
+      "vorname": "Beat"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 50623,
+      "kuerzel": "M_IuK_III",
+      "bezeichnung": "Informations- und Kommunikationssysteme III",
+      "url": "allModules/50623_M_IuK_III.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 3,
+      "kuerzel": "CH",
+      "bezeichnung": "Chur",
+      "ort": "Chur"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 50634,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Am Ende des Semesters findet eine abgesetzte Modulschlusspr&uuml;fung in zwei Teilen statt. Die Kurse Computernetzwerke III sowie IT-Infrastrukturen und Virtualisierung bilden je einen Teil der abgesetzten Modulschlusspr&uuml;fung.</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Information and Communication Systems IV"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2018,
+    "beginSemester": "FS",
+    "endJahr": 2021,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 49963,
+    "kuerzel": "M_IuK_IV",
+    "bezeichnung": "Informations- und Kommunikationssysteme IV",
+    "url": "allModules/49963_M_IuK_IV.json"
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "id": 28312,
+  "kuerzel": "M_EET",
+  "bezeichnung": "Elektrische Energietechnik",
+  "kreditpunkte": 4,
+  "lernziele": "<p>siehe Kursbeschreibung</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 28313,
+      "kuerzel": "EET",
+      "bezeichnung": "Elektrische Energietechnik",
+      "lernziele": "<p>Kenntnisse &uuml;ber (a) elektrische Generatoren (Energieerzeugung), (b) Transformatoren, Hoch- und Mittelspannungsleitungen (Energie&uuml;bertragung) und (c) elektrische Maschinen (Energieumwandlung).</p>",
+      "planinhalt": "<p>1. Einleitung</p><p>a). Uebersicht &uuml;ber elektrische Versorgungssysteme</p><p>b). Stand der Technik und k&uuml;nftige Entwicklung</p><p>c). Elektrische Energieversorgung in der Schweiz</p><p>2. Erzeugung von elektrischer Energie</p><p>a). Elektrische Generatoren (Aufbau und Grundlagen)</p><p>b). Effizienz und Verluste</p><p>3. Uebertragung der elektrischen Energie</p><p>a). Leistungs- und Distributionstransformatoren (Aufbau und Grundlagen)</p><p>b). Hochspannungsleitungen</p><p>c). Mittelspannungsleitungen</p><p>d). Effizienz und Verluste</p><p>e). K&uuml;nftige Konzepte (Smart Grids)</p><p>f). Umwandlung der elektrischen Energie in elektrischen Maschinen</p><p>&nbsp;&nbsp;&nbsp; - Gleichstrommaschinen</p><p>&nbsp;&nbsp;&nbsp; - Schrittmotoren</p><p>&nbsp;&nbsp;&nbsp; - Asynchronmaschinen</p>",
+      "kurselemente": [
+        {
+          "id": 28314,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        },
+        {
+          "id": 28315,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 108,
+          "harteGrenze": true
+        },
+        {
+          "id": 28316,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrische Energietechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electrical Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10104,
+          "kuerzel": "EEU-vet",
+          "bezeichnung": "Vertiefungsmodule Energietechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10104,
+          "kuerzel": "EEU-vet",
+          "bezeichnung": "Vertiefungsmodule Energietechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 540047,
+      "name": "Smajic",
+      "vorname": "Jasmin"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 26058,
+      "kuerzel": "M_Ph4EU",
+      "bezeichnung": "Physik 4 (EEU)",
+      "url": "allModules/26058_M_Ph4EU.json"
+    },
+    {
+      "id": 28335,
+      "kuerzel": "M_ETEU",
+      "bezeichnung": "Elektrotechnik (EEU)",
+      "url": "allModules/28335_M_ETEU.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 28312,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Teilnahme und erfolgreiche Bearbeitung von 3 von 4 Praktikumsversuchen (Testat)</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Elektrische Energietechnik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electrical Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2016,
+    "beginSemester": "HS",
+    "endJahr": 2017,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 28312,
+    "kuerzel": "M_EET",
+    "bezeichnung": "Elektrische Energietechnik",
+    "url": "allModules/28312_M_EET.json"
+  }
+}

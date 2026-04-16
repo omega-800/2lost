@@ -1,0 +1,82 @@
+{
+  "id": 64711,
+  "kuerzel": "M_arch.RF2",
+  "bezeichnung": "Raum und Fügung 2",
+  "kreditpunkte": 2,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 64712,
+      "kuerzel": "arch.RF2",
+      "bezeichnung": "Raum und Fügung 2",
+      "kreditpunkte": 0,
+      "kurselemente": [
+        {
+          "id": 64713,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Raum und Fügung 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10485,
+      "bezeichnung": "Architektur",
+      "kuerzel": "ARCH",
+      "url": "allStudies/10485_ARCH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10210,
+          "kuerzel": "A_Arch",
+          "bezeichnung": "Architektur",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10217,
+          "kuerzel": "A_GS",
+          "bezeichnung": "Grundstudium Architektur",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 64597,
+      "kuerzel": "M_arch.E1",
+      "bezeichnung": "Entwurf 1",
+      "url": "allModules/64597_M_arch.E1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Raum und Fügung 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

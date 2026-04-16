@@ -1,0 +1,126 @@
+{
+  "id": 12328,
+  "kuerzel": "U_WebT",
+  "bezeichnung": "Web-Technologien für MBI - Übergangsmodul",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Kennen und verstehen der wichtigsten Internet-Technologien auf der client- und Server Seite und sie in einfachen Applikationen anwenden k&ouml;nnen.</p>",
+  "vorausgKenntnisse": "<p>- Programmieren 1 f&#252;r MBI<br />- Programmieren 2 f&#252;r MBI</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 12252,
+      "kuerzel": "uWebT",
+      "bezeichnung": "Web-Technologien für MBI - Übergang",
+      "planinhalt": "<p>- &Uuml;bersicht &uuml;ber die gebr&auml;chlichen Internettechnologien.<br />- Erstellen von Web-seiten mit HMTL und CSS Stylesheets.<br />- Einf&uuml;hrung in JavaScript.<br />- Programmierung von Skripts f&uuml;r die Server-Seite:<br />&nbsp;&nbsp;CGI-Scripts<br />&nbsp; PHP-Scripts<br /><br />&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 12285,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 12286,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Web-Technologien für MBI - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Web Technologies (MBI) - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 140,
+      "name": "Pletscher",
+      "vorname": "Hans Heinrich"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 12328,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Web-Technologien für MBI - Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Web Technologies (MBI) - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2006,
+    "endSemester": "SS"
+  }
+}

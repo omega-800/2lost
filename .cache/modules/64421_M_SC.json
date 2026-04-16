@@ -1,0 +1,204 @@
+{
+  "id": 64421,
+  "kuerzel": "M_SC",
+  "bezeichnung": "Scientific Computing",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Die L&ouml;sung von partiellen Differentialgleichungen der W&auml;rme- und Str&ouml;mungslehre mit Comsol Multiphysics legt das Fundament zum Verst&auml;ndnis des Thermomanagements mechatronischer Systeme, die oft auf engstem Raum agieren. Die Simulation erm&ouml;glicht die Identifikation kritischer Hotspots und thermischer Lastgrenzen, wodurch die Betriebssicherheit und Lebensdauer von Aktoren und Sensoren erh&ouml;ht werden kann. Digitale Modelle bilden die Grundlage f&uuml;r die Optimierung moderner mechatronischer Hochleistungssysteme.</p>\n<p>&nbsp;</p>\n<p>Die Studierenden</p>\n<ul>\n<li>verstehen partielle Differentialgleichungen (PDE) als mathematisches Werkzeug zur Beschreibung realer Vorg&auml;nge.</li>\n<li>verstehen die Herleitung ausgew&auml;hlter PDEs zu physikalischen Ph&auml;nomenen.</li>\n<li>k&ouml;nnen reale Aufgaben mit Hilfe von PDE modellieren.</li>\n<li>setzen das Programm Comsol Multiphysics zur L&ouml;sung realer Aufgaben ein.</li>\n<li>k&ouml;nnen die Qualit&auml;t der L&ouml;sung bewerten.</li>\n</ul>",
+  "vorausgKenntnisse": "<p>Ebenfalls vorausgesetzt sind die beiden Module Elektrotechnik &amp; Lineare Algebra 1 sowie Elektrotechnik &amp; Lineare Algebra 2.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 64422,
+      "kuerzel": "SC",
+      "bezeichnung": "Scientific Computing",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>verstehen partielle Differentialgleichungen (PDE) als mathematisches Werkzeug zur Beschreibung realer Vorg&auml;nge.</li>\n<li>verstehen die Herleitung ausgew&auml;hlter PDEs zu physikalischen Ph&auml;nomenen.</li>\n<li>k&ouml;nnen reale Aufgaben mit Hilfe von PDE modellieren.</li>\n<li>setzen das Programm Comsol Multiphysics zur L&ouml;sung realer Aufgaben ein.</li>\n<li>k&ouml;nnen die Qualit&auml;t der L&ouml;sung bewerten.</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Einf&uuml;hrung in partielle Differentialgleichungen (PDE) durch Herleitung der W&auml;rmeleitungsgleichung</li>\n<li>Modellierung physikalischer Ph&auml;nomene mit PDE und Anwendung verschiedener Typen von Randbedingungen</li>\n<li>L&ouml;sen von PDE-Modellen mit der Methode der finiten Elemente.</li>\n<li>Einf&uuml;hrung in das Programm Comsol Multiphysics.</li>\n</ul>",
+      "empfLehrmittel": "<p>Unterrichtsgespr&auml;ch im Klassenverband, Selbststudium (&Uuml;bungsaufgaben, Vor- und Nachbereitung der Fachinhalte, Bearbeitung von kleineren Projektarbeiten)</p>",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase wird ein Projekt bewertet.",
+      "kurselemente": [
+        {
+          "id": 64423,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001020,
+          "name": "Wolfer",
+          "vorname": "Claudio"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10284,
+      "bezeichnung": "Mechatronik BB",
+      "kuerzel": "MT_BB",
+      "url": "allStudies/10284_MT_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10189,
+          "kuerzel": "Kat_ZTuWM",
+          "bezeichnung": "Zukunftsthema und Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10285,
+      "bezeichnung": "Mechatronik VZ",
+      "kuerzel": "MT_VZ",
+      "url": "allStudies/10285_MT_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10189,
+          "kuerzel": "Kat_ZTuWM",
+          "bezeichnung": "Zukunftsthema und Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2001020,
+      "name": "Wolfer",
+      "vorname": "Claudio"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 54530,
+      "kuerzel": "M_Ana1",
+      "bezeichnung": "Analysis 1: Differentialrechnung",
+      "url": "allModules/54530_M_Ana1.json"
+    },
+    {
+      "id": 54536,
+      "kuerzel": "M_Phy1",
+      "bezeichnung": "Physik 1: Mechanik und Wärme",
+      "url": "allModules/54536_M_Phy1.json"
+    },
+    {
+      "id": 54539,
+      "kuerzel": "M_Phy2",
+      "bezeichnung": "Physik 2: Elektromagnetismus und Schwingungen",
+      "url": "allModules/54539_M_Phy2.json"
+    },
+    {
+      "id": 56984,
+      "kuerzel": "M_Ana2",
+      "bezeichnung": "Analysis 2: Gewöhnliche Differentialgleichungen",
+      "url": "allModules/56984_M_Ana2.json"
+    },
+    {
+      "id": 56997,
+      "kuerzel": "M_Ana3",
+      "bezeichnung": "Analysis 3: Mehrdimensionale Analysis",
+      "url": "allModules/56997_M_Ana3.json"
+    },
+    {
+      "id": 57003,
+      "kuerzel": "M_Phy3",
+      "bezeichnung": "Physik 3: Optik und Wellen",
+      "url": "allModules/57003_M_Phy3.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 11,
+      "kuerzel": "LSG",
+      "bezeichnung": "Lerchenfeld St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Scientific Computing"
+    }
+  ],
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2026,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 54336,
+    "kuerzel": "M_SC",
+    "bezeichnung": "Scientific Computing",
+    "url": "allModules/54336_M_SC.json"
+  }
+}

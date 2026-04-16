@@ -1,0 +1,217 @@
+{
+  "id": 57027,
+  "kuerzel": "M_DEIAI1",
+  "bezeichnung": "Data Engineering and Industrial Artificial Intelligence 1",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Kurse IoT &amp; Scientific Computing kombiniert zwei essenzielle Bereiche der modernen Ingenieurwissenschaften: die Vernetzung und Echtzeit-Datenverarbeitung durch das Internet der Dinge (IoT) sowie die algorithmische Modellierung und Analyse technischer Systeme im wissenschaftlichen Rechnen. Studierende erwerben theoretische und praktische Kompetenzen, um Sensordaten effizient zu erfassen, zu verarbeiten und mit fortgeschrittenen numerischen Methoden auszuwerten.&nbsp;</p>\n<p>Der Kurs IoT &amp; Edge Computing vermittelt Konzepte zur Vernetzung intelligenter Systeme in Anwendungen wie Industrie 4.0, Smart Health, Smart Grids und Smart Cities. Dabei stehen die Architektur und Implementierung verteilter Sensornetzwerke, Echtzeit-Datenanalyse sowie Edge-Computing-Technologien zur lokalen Vorverarbeitung im Mittelpunkt. Studierende lernen, wie Sensordaten effizient erfasst, verarbeitet und in vernetzten Systemen genutzt werden.&nbsp;</p>\n<p>Der Kurs Scientific Computing vertieft die algorithmischen Grundlagen f&uuml;r die Analyse komplexer Datenmengen. Ein besonderer Fokus liegt auf Datenstrukturen (z. B. Listen, Graphen, Heaps) und Algorithmendesign (iterativ, rekursiv, funktional) als Basis f&uuml;r effiziente Berechnungen. Dar&uuml;ber hinaus werden Methoden der extensiven und informierten Suche behandelt, um komplexe Optimierungsprobleme zu l&ouml;sen &ndash; ein zentraler Einstieg in die Welt des Maschinellen Lernens. Studierende lernen, wie numerische Simulationen mit strukturierten Daten effizient durchgef&uuml;hrt werden und wie fortgeschrittene Such- und Optimierungsalgorithmen zur L&ouml;sung realer Ingenieurprobleme eingesetzt werden k&ouml;nnen.&nbsp;</p>\n<p>Durch die enge Verkn&uuml;pfung beider Themenbereiche verstehen Studierende, wie IoT-Daten durch wissenschaftliche Algorithmen analysiert und interpretiert werden k&ouml;nnen. Sie entwickeln praxisnahe Anwendungen, die Sensordaten in Echtzeit verarbeiten und numerische Methoden zur Entscheidungsfindung nutzen. Das Modul bereitet somit auf fortgeschrittene Anwendungsfelder wie Maschinelles Lernen, intelligente Steuerungssysteme und datengetriebene Simulationen vor.&nbsp;</p>",
+  "vorausgKenntnisse": "<p>Ebenfalls sollten die beiden Module ELA1&nbsp; und ELA 2 besucht worden sein.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 57028,
+      "kuerzel": "DEIAI1_S",
+      "bezeichnung": "Scientific Computing",
+      "kreditpunkte": 0,
+      "lernziele": "<p>&nbsp;Einf&uuml;hrung in das Edge-, Fog- und Cloud-Computing im Kontext von IoTWissenschaftliches Rechnen ist eine zentrale Disziplin in der Ingenieurwissenschaft und spielt eine entscheidende Rolle in der Mechatronik. Dieser Kurs vermittelt grundlegende numerische Methoden und Algorithmen, die zur Modellierung, Simulation und Analyse komplexer technischer Systeme eingesetzt werden. Studierende erlernen nicht nur die theoretischen Grundlagen, sondern auch deren praktische Anwendung mithilfe moderner Software-Werkzeuge.&nbsp;</p>\n<p>Ein besonderes Augenmerk liegt auf der Effizienz von Algorithmen, der numerischen Stabilit&auml;t sowie der angemessenen Wahl von Datenstrukturen. Dabei werden verschiedene mathematische Konzepte wie Graphentheorie, Interpolation, numerische Integration und symbolisches Rechnen behandelt. Durch praxisnahe Beispiele und Implementierungsaufgaben erhalten die Studierenden einen tiefgehenden Einblick in die numerische L&ouml;sung ingenieurwissenschaftlicher Problemstellungen.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Die Studierenden</p>\n<ul>\n<li>k&ouml;nnen in Python Klassen und Funktionen zur L&ouml;sung technischer numerischer Probleme schreiben und verwenden.&nbsp;</li>\n<li>kennen die Vor- und Nachteile des iterativen, rekursiven und funktionalen Programmierens sowie deren Unterschiede.&nbsp;</li>\n<li>k&ouml;nnen die Kondition eines Problems beurteilen sowie die Stabilit&auml;t eines einfachen Algorithmus absch&auml;tzen.&nbsp;</li>\n<li>k&ouml;nnen die Komplexit&auml;t (Rechen- , Speicherkomplexit&auml;t) eines Algorithmus absch&auml;tzen und kennen die O(n)-Notation.&nbsp;</li>\n<li>kennen die wichtigsten Such- und Sortierverfahren: z.B. Bin&auml;re Suche, Quick Sort, Heap Sort.</li>\n<li>k&ouml;nnen numerische Verfahren zur L&ouml;sung von eindimensionalen Gleichungen f(x)=0 anwenden (Nullstellensuche).&nbsp;</li>\n<li>k&ouml;nnen Polynome und Splines in 1D zur Interpolation, Integration und Differenzierung verwenden.&nbsp;</li>\n<li>k&ouml;nnen Quadraturverfahren zur numerischen Approximation von eindimensionalen Integralen verwenden.&nbsp;</li>\n<li>kennen Graphen als Werkzeuge zur Modellierung diskreter Probleme.&nbsp;</li>\n<li>k&ouml;nnen einfache Suchverfahren (BFS, DFS, A*) in Graphen verwenden und kennen die zugeh&ouml;rigen Datenstrukturen (queue, stack, heap).&nbsp;</li>\n<li>k&ouml;nnen die gelernten theoretischen Konzepte in praktischen Anwendungen umsetzen.&nbsp;</li>\n<li>k&ouml;nnen Messdaten auslesen, visualisieren, quantisieren, gl&auml;tten, integrieren, differenzieren und interpolieren.&nbsp;</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Einf&uuml;hrung Algorithmen und Komplexit&auml;t, Zahlendarstellung&nbsp;</li>\n<li>Rekursion und Backtracking: Nullstellensuche&nbsp;</li>\n<li>Kondition eines Problems und Komplexit&auml;tsanalyse&nbsp;</li>\n<li>Lineare Datenstrukturen (queue, stack, heap)&nbsp;</li>\n<li>Graphen als Datenstrukturen&nbsp;</li>\n<li>Suche auf Graphen (BFS, DFS, A*)&nbsp;</li>\n<li>Graphenalgorithmen: z.B. Diijkstra, Page Rank&nbsp;</li>\n<li>Polynom-Interpolation: Lagrange-Polynome&nbsp;</li>\n<li>Integration: Quadraturregeln und Gauss Integration</li>\n<li>Einf&uuml;hrung in die Vektorr&auml;ume orthogonaler Polynome (Basisfunktionen)&nbsp;</li>\n<li>Kubische Splines und B-Splines&nbsp;</li>\n<li>Symbolisches L&ouml;sen (sympy)&nbsp;</li>\n</ul>",
+      "bibliographie": "<p>Vorlesungsskript&nbsp;<br />&nbsp;</p>\n<ol>\n<li>Robert Johansson: Numerical Python. Scientific Computing and Data Science Applications with Numpy, SciPy and Matplotlib. &nbsp;<br />https://link.springer.com/book/10.1007/978-1-4842-4246-9&nbsp;</li>\n<li>Svein Linge , Hans Petter Langtangen: Programming for Computations &ndash; Python, A Gentle Introduction to Numerical Simulations with Python 3.6, Textbook Open Access &copy; 2020, &nbsp;https://link.springer.com/book/10.1007/978-3-030-16877-3&nbsp;</li>\n<li>Hans Petter Langtangen: A Primer on Scientific Programming with Python https://link.springer.com/book/10.1007/978-3-662-49887-3&nbsp; &nbsp;&nbsp;</li>\n<li>Hans Petter Langtangen: Elements of Scientific Computing https://link.springer.com/book/10.1007/978-3-642-11299-7&nbsp;&nbsp;</li>\n</ol>",
+      "empfLehrmittel": "<p>&nbsp;Vorlesung, Selbststudium, &Uuml;bungen&nbsp;</p>",
+      "bemerkungKurs": "<p><span class=\"TextRun SCXW98584307 BCX8\" lang=\"DE-DE\" xml:lang=\"DE-DE\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW98584307 BCX8\">Unterrichtssprache Deutsch (Fachbegriffe und Material teilweise auf Englisch)</span></span><span class=\"EOP SCXW98584307 BCX8\" data-ccp-props=\"{}\">&nbsp;</span></p>",
+      "leistungsnachweis": "<p>Projektarbeit und Modulschlusspr&uuml;fung</p>",
+      "kurselemente": [
+        {
+          "id": 57029,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002668,
+          "name": "Würsch",
+          "vorname": "Christoph"
+        }
+      ]
+    },
+    {
+      "id": 57030,
+      "kuerzel": "DEIAI1_I",
+      "bezeichnung": "IoT & Edge Computing",
+      "lernziele": "<p>IoT und Edge Computing sind wichtige Basistechnologien f&uuml;r die Vernetzung von Computersystemen in Produktion und Logistik (Industrie 4.0), in der Landwirtschaft (Smart Agriculture), im Gesundheitswesen (Smart Health), in der Energieversorgung (Smart Grid), in der Geb&auml;udetechnik (Smart Home), im St&auml;dtemanagement (Smart City), in der Nahrungszubereitung (Kitchen 4.0) und in intelligenten Produkten (Smart Products). In diesem Kurs erwerben die Studierenden fundierte Kenntnisse &uuml;ber die grundlegenden Konzepte des IoT und des Edge Computing. Theoretische Inhalte werden durch praxisnahe &Uuml;bungen vertieft.</p>\n<p>&nbsp;</p>\n<p>Die Studierenden</p>\n<ul>\n<li>kennen die theoretischen Grundlagen des Internets der Dinge.</li>\n<li>kennen wichtige IoT-Kommunikationsprotokolle, IoT-Plattformen und Interaktionsmuster.</li>\n<li>wissen, wie die intelligenten Dinge des IoT aufgebaut sind.</li>\n<li>kennen die Vorz&uuml;ge von Edge-, Fog- und Cloud-Computing bez&uuml;glich IoT.</li>\n<li>kennen best practices im Bereich IoT-Sicherheit.</li>\n<li>k&ouml;nnen einfache intelligente Gegenst&auml;nde f&uuml;r das Internet der Dinge entwerfen und entwickeln.</li>\n<li>k&ouml;nnen Monitoring (Sensorik) und Controlling (Aktorik) IoT Applikationen realisieren.</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Einf&uuml;hrung in das Internet der Dinge (IoT) und seine Rolle im Alltag, sowohl im privaten als auch im industriellen Bereich.</li>\n<li>Erl&auml;uterung der zentralen Komponenten des IoT und seiner Integration in verschiedene Lebensbereiche.</li>\n<li>Grundlegende Konzepte der Computerkommunikation und deren Bedeutung f&uuml;r IoT-Kommunikationsprotokolle.</li>\n<li>Vorstellung g&auml;ngiger Interaktionsmuster und relevanter IoT-Plattformen.</li>\n<li>Einf&uuml;hrung in das Edge-, Fog- und Cloud-Computing im Kontext von IoT.</li>\n<li>Diskussion der Sicherheitsaspekte von IoT-Systemen und Best Practices zur Sicherstellung von Datensicherheit.</li>\n<li>Praxisorientierte &Uuml;bungen mit einem Mikrocontroller-Board zur Anwendung des theoretischen Wissens.</li>\n</ul>",
+      "bibliographie": "<p>Vorlesungsskript</p>",
+      "empfLehrmittel": "<p>Vorlesung, Selbststudium, &Uuml;bungen</p>",
+      "bemerkungKurs": "<p>Unterrichtsprache ist Deutsch und die Literatur teilweise auf Englisch</p>\n<p>&nbsp;</p>",
+      "leistungsnachweis": "<p>Modulschlusspr&uuml;fung</p>",
+      "kurselemente": [
+        {
+          "id": 57031,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002823,
+          "name": "Pawlitzek",
+          "vorname": "René"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10284,
+      "bezeichnung": "Mechatronik BB",
+      "kuerzel": "MT_BB",
+      "url": "allStudies/10284_MT_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10188,
+          "kuerzel": "Kat_VT_MT",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10285,
+      "bezeichnung": "Mechatronik VZ",
+      "kuerzel": "MT_VZ",
+      "url": "allStudies/10285_MT_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10188,
+          "kuerzel": "Kat_VT_MT",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002668,
+      "name": "Würsch",
+      "vorname": "Christoph"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 54530,
+      "kuerzel": "M_Ana1",
+      "bezeichnung": "Analysis 1: Differentialrechnung",
+      "url": "allModules/54530_M_Ana1.json"
+    },
+    {
+      "id": 54533,
+      "kuerzel": "M_Ana2",
+      "bezeichnung": "Analysis 2: Integralrechnung & ODE",
+      "url": "allModules/54533_M_Ana2.json"
+    },
+    {
+      "id": 54536,
+      "kuerzel": "M_Phy1",
+      "bezeichnung": "Physik 1: Mechanik und Wärme",
+      "url": "allModules/54536_M_Phy1.json"
+    },
+    {
+      "id": 54539,
+      "kuerzel": "M_Phy2",
+      "bezeichnung": "Physik 2: Elektromagnetismus und Schwingungen",
+      "url": "allModules/54539_M_Phy2.json"
+    },
+    {
+      "id": 54561,
+      "kuerzel": "M_Inf2",
+      "bezeichnung": "Informatik 2: Softwareengineering",
+      "url": "allModules/54561_M_Inf2.json"
+    },
+    {
+      "id": 56317,
+      "kuerzel": "M_Inf1",
+      "bezeichnung": "Informatik 1: Einführung in die Programmierung",
+      "url": "allModules/56317_M_Inf1.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 57032,
+      "kuerzel": "M_DEIAI2",
+      "bezeichnung": "Data Engineering and Industrial Artificial Intelligence 2",
+      "url": "allModules/57032_M_DEIAI2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 11,
+      "kuerzel": "LSG",
+      "bezeichnung": "Lerchenfeld St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 57027,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Die Modulschlusspr&uuml;fung findet in zwei Teilen statt. Der erste Teil umfasst den Kurs IoT &amp; Edge Computing und der zweite Teil umfasst den Kurs Scientific Computing. Beide Teile dauern je 60 Minuten.&nbsp;&nbsp;</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Data Engineering & Industrial Artificial Intelligence 1"
+    }
+  ],
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2025,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  }
+}

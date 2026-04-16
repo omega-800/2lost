@@ -1,0 +1,222 @@
+{
+  "id": 43779,
+  "kuerzel": "M_LinAlg2EU",
+  "bezeichnung": "Lineare Algebra 2 (EEU)",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Ge&uuml;bter Umgang mit den Grundlagen der Linearen Algebra, insbesondere das solide Rechnen mit Matrizen von Hand und mit dem Computer sowie das Anwenden des Matrizen-, Determinanten- und Eigenwertkalk&uuml;ls auf linearen Abbildungen und Koordinatentransformationen.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 43780,
+      "kuerzel": "LinAlg2EU",
+      "bezeichnung": "Lineare Algebra 2 (EEU)",
+      "lernziele": "<p>&bull; Die Studierenden kennen den Zusammenhang zwischen Vektoren, der Basis eines Vektorraums und den Komponenten eines Vektors<br />&bull; Sie sind in der Lage Probleme in Vektorr&auml;umen durch Wahl einer geeigneten Basis einfacher zu beschreiben<br />&bull; Sie k&ouml;nnen lineare Abbildungen durch Matrizen darstellen und sind in der Lage Matrizen als lineare Abbildungen aufzufassen<br />&bull; Die Studierenden beherrschen das Rechnen mit Vektoren und Matrizen von Hand und mit dem Computer.</p>",
+      "planinhalt": "<p>&bull; Basis eines Vektorraums und Koordinaten von Vektoren<br />&bull; Untervektorr&auml;ume und Ebenen<br />&bull; Lineare Abbildungen und Darstellung durch Matrizen<br />&bull; Matrix-Rechnung (Addition, skalare Multiplikation, Matrixmultiplikation, Einheitsmatrix, Inverse-Matrix, Rechenregeln, Matrixgleichungen), Gauss-Jordan-Verfahren<br />&bull; Koordinatentransformationen und Auswirkungen auf die Koordinaten von Vektoren und linearen Abbildungen<br />&bull; kartesisches Koordinatensystem und Orthonormalbasis<br />&bull; orthogonale Matrizen, transponierte Matrix<br />&bull; Spatprodukt mit Anwendungen auf und Volumenmessung. Determinanten.&nbsp;<br />&bull; Rang und Kern einer Matrix. Regul&auml;re und singul&auml;re Matrizen, wichtige S&auml;tze &uuml;ber die L&ouml;sung von Gleichungssystemen und Invertierbarkeit von Matrizen<br />&bull; Gram-Schmidt-Verfahren<br />&bull; Eigenvektoren und Eigenwerte, Diagonalisierung von Matrizen<br />&bull; Symmetrische Matrizen<br />&bull; Lineare Algebra am Computer</p>",
+      "kurselemente": [
+        {
+          "id": 43781,
+          "art": "Vorlesung",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 43782,
+          "art": "Uebung",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Lineare Algebra 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Linear Algebra 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10101,
+          "kuerzel": "EEU-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10219,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10219_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10101,
+          "kuerzel": "EEU-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10259,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10259_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 538995,
+      "name": "Weibel",
+      "vorname": "Reto"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 23366,
+      "kuerzel": "M_VekGEU",
+      "bezeichnung": "Vektorgeometrie (EEU)",
+      "url": "allModules/23366_M_VekGEU.json"
+    },
+    {
+      "id": 43772,
+      "kuerzel": "M_LinAlg1EU",
+      "bezeichnung": "Lineare Algebra 1 (EEU)",
+      "url": "allModules/43772_M_LinAlg1EU.json"
+    }
+  ],
+  "mengen": [
+    {
+      "id": 7,
+      "name": "Aequivalenz",
+      "dModMengeArt": 5701,
+      "module": [
+        {
+          "id": 19208,
+          "kuerzel": "M_LinAlg2EC",
+          "bezeichnung": "Lineare Algebra (2 ECTS-Punkte)",
+          "url": "allModules/19208_M_LinAlg2EC.json"
+        },
+        {
+          "id": 19977,
+          "kuerzel": "M_LinAlgEU",
+          "bezeichnung": "Lineare Algebra (EEU)",
+          "url": "allModules/19977_M_LinAlgEU.json"
+        },
+        {
+          "id": 43501,
+          "kuerzel": "M_LinAlgEU",
+          "bezeichnung": "Lineare Algebra (EEU)",
+          "url": "allModules/43501_M_LinAlgEU.json"
+        },
+        {
+          "id": 43505,
+          "kuerzel": "M_LinAlg2EC",
+          "bezeichnung": "Lineare Algebra (2 ECTS-Punkte)",
+          "url": "allModules/43505_M_LinAlg2EC.json"
+        },
+        {
+          "id": 43779,
+          "kuerzel": "M_LinAlg2EU",
+          "bezeichnung": "Lineare Algebra 2 (EEU)",
+          "url": "allModules/43779_M_LinAlg2EU.json"
+        },
+        {
+          "id": 44517,
+          "kuerzel": "M_LinAlg2EU",
+          "bezeichnung": "Lineare Algebra 2 (EEU)",
+          "url": "allModules/44517_M_LinAlg2EU.json"
+        },
+        {
+          "id": 45107,
+          "kuerzel": "M_LinAlg2EU",
+          "bezeichnung": "Lineare Algebra 2 (EEU)",
+          "url": "allModules/45107_M_LinAlg2EU.json"
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 43779,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Nachweis der geforderten Mathematikkenntnisse mit einem Testat&nbsp;</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Lineare Algebra 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Linear Algebra 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "vorgaenger": {
+    "id": 43501,
+    "kuerzel": "M_LinAlgEU",
+    "bezeichnung": "Lineare Algebra (EEU)",
+    "url": "allModules/43501_M_LinAlgEU.json"
+  },
+  "nachfolger": {
+    "id": 43779,
+    "kuerzel": "M_LinAlg2EU",
+    "bezeichnung": "Lineare Algebra 2 (EEU)",
+    "url": "allModules/43779_M_LinAlg2EU.json"
+  }
+}

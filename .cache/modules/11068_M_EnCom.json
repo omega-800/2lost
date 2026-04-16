@@ -1,0 +1,189 @@
+{
+  "id": 11068,
+  "kuerzel": "M_EnCom",
+  "bezeichnung": "Enterprise Computing",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Sie lernen die Enterprise Sicht auf Informationssysteme kennen</p> <ul> <li>Sie k&#246;nnen Web Services und Service orientierte Architekturen definieren, implementieren und bewerten</li><li>Sie kennen die Java Enterprise Edition (EJB's, Messaging, Management)</li><li>Sie lernen, wie man Software Komponenten definiert, implementiert und deployed</li><li>Sie kennen die wichtigsten Enterprise Design Patterns <br /><br /></li></ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10190,
+      "kuerzel": "EnCom",
+      "bezeichnung": "Enterprise Computing",
+      "planinhalt": "<ol>\n<li>Multi Tier Architektur, Technologien und Rollen: Client, Middle und Server Tier: <br />formale Modelle gem&#228;ss ISO/OSI RM-ODP und OMG MDA</li>\n<li>Service orientierte System-Architekturen <br />WebServices <br />- XML (Refresher) <br />- WSDL <br />- SOAP <br />- Security <br />- UDDI </li>\n<li>Enterprise Java Beans Technologie <br />- Entity Beans <br />- Session Beans <br />- Message Beans </li>\n<li>Architekturen von Application Servern (AS) und Enterprise Application Integration (EAI) <br />- konkrete Beispiele, kommerziell erh&#228;ltliche Produkte </li>\n<li>Architektur Patterns </li></ol>",
+      "kurselemente": [
+        {
+          "id": 10615,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 10616,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Enterprise Computing"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Enterprise Computing"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 10230,
+      "bezeichnung": "Frontend Engineering",
+      "kuerzel": "FrEng",
+      "url": "allStudies/10230_FrEng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10229,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10229_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 860,
+      "name": "Joller",
+      "vorname": "Josef M."
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11054,
+      "kuerzel": "M_Vss",
+      "bezeichnung": "Verteilte SW-Systeme",
+      "url": "allModules/11054_M_Vss.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11068,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Enterprise Computing"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Enterprise Computing"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2012,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 11068,
+    "kuerzel": "M_EnCom",
+    "bezeichnung": "Enterprise Computing",
+    "url": "allModules/11068_M_EnCom.json"
+  }
+}

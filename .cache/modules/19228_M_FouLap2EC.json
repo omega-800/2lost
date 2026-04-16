@@ -1,0 +1,193 @@
+{
+  "id": 19228,
+  "kuerzel": "M_FouLap2EC",
+  "bezeichnung": "Fourier- und Laplacetransformation (2 ECTS-Punkte)",
+  "kreditpunkte": 2,
+  "lernziele": "<ul>\n<li>&nbsp;Signale im Zeit- und im Frequenzbereich darstellen und berechnen k&ouml;nnen</li>\n<li>Theorie und Anwendungen der Fourier- und der Laplacetransformation verstehen</li>\n<li>LTI-Systeme mit Hilfe der Laplacetransformation analysieren k&ouml;nnen&nbsp;</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 19229,
+      "kuerzel": "FouLap2EC",
+      "bezeichnung": "Fourier- und Laplacetransformation (2 ECTS-Punkte)",
+      "planinhalt": "<ul>\n<li>LTI-Systeme</li>\n<li>Delta-Funktion</li>\n<li>Faltungsprodukt</li>\n<li>Fouriertransformation</li>\n<li>Diskrete Fouriertransformation</li>\n<li>Laplacetransformation</li>\n<li>z-Transformation&nbsp;</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 19230,
+          "art": "Vorlesung",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 19231,
+          "art": "Uebung",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Fourier- und Laplacetransformation (2 ECTS-Punkte)"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Fourier- andLaplacetransformation (2 ECTS-Points)"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5019972,
+      "name": "Bichsel",
+      "vorname": "Manuel"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 23353,
+      "kuerzel": "M_DiffGlM",
+      "bezeichnung": "Differentialgleichungen (M-I)",
+      "url": "allModules/23353_M_DiffGlM.json"
+    },
+    {
+      "id": 31553,
+      "kuerzel": "M_WRechMess",
+      "bezeichnung": "Wahrscheinlichkeit und Messdaten",
+      "url": "allModules/31553_M_WRechMess.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 19228,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Fourier- und Laplacetransformation (2 ECTS-Punkte)"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Fourier- andLaplacetransformation (2 ECTS-Points)"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2008,
+    "beginSemester": "HS",
+    "endJahr": 2024,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 19228,
+    "kuerzel": "M_FouLap2EC",
+    "bezeichnung": "Fourier- und Laplacetransformation (2 ECTS-Punkte)",
+    "url": "allModules/19228_M_FouLap2EC.json"
+  }
+}

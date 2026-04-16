@@ -1,0 +1,154 @@
+{
+  "id": 11079,
+  "kuerzel": "U_BuFU",
+  "bezeichnung": "Boden und Fels – Übergangsmodul",
+  "kreditpunkte": 6,
+  "lernziele": "<p>F&#228;higkeit Erddruckberechnungen durchzuf&#252;hren sowie St&#252;tzkonstruktionen, Baugruben und Fundationen zu bemessen. <br />F&#228;higkeit das Gebirge bautechnisch und geomechanisch zu erfassen und zu beurteilen </p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10197,
+      "kuerzel": "uGeotech",
+      "bezeichnung": "Geotechnik Übergang",
+      "lernziele": "<p>&#8226; F&#228;higkeit optimale Baugrubensysteme zu w&#228;hlen und Baugrubenabschl&#252;sse und St&#252;tzbauwerke zu bemessen</p>",
+      "planinhalt": "<p>&#8226; Erddrucktheorien <br />&#8226; St&#252;tzbauwerke <br />&#8226; Baugrubenabschl&#252;sse <br />&#8226; Tragf&#228;higkeit von Flach- und Tieffundationen </p>",
+      "kurselemente": [
+        {
+          "id": 10626,
+          "art": "Vorlesung",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Geotechnik Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Geotechnics - Transition"
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "kuerzel": "uUntba2",
+      "bezeichnung": "Untertagebau 2 Übergang",
+      "lernziele": "<p>&#8226; Vertiefte Kenntnis des Untertagebaus <br />&#8226; F&#228;higkeit diese in der Praxis anzuwenden </p>",
+      "planinhalt": "<p>&#8226; Geschichte des Untertagebaus <br />&#8226; Bautechnische und geomechanische Erfassung des Gebirges <br />&#8226; Beurteilung des Gebirges <br />&#8226; Ausbruchsicherung <br />&#8226; Tunnelstatik <br />&#8226; Feldmessungen </p>",
+      "kurselemente": [
+        {
+          "id": 10625,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Untertagebau 2 Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Tunnelling 2 - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10011,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10011_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10017,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10017_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9,
+      "name": "Schneider",
+      "vorname": "Hansruedi"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11067,
+      "kuerzel": "M_BuF3",
+      "bezeichnung": "Boden und Fels 3",
+      "url": "allModules/11067_M_BuF3.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11079,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 270,
+      "zulassung": true,
+      "zulassungsBedingung": "<p dir=\"ltr\" style=\"MARGIN-RIGHT: 0px\">Testatbedingungen:<br />Untertagbau 2 Uebergang: <br />- Teilnahme Exkursion<br />- Exkursionsbericht gen&uuml;gend<br />- 2 von 3 Uebungen erf&uuml;llt</p> <p dir=\"ltr\" style=\"MARGIN-RIGHT: 0px\">Geotechnik Uebergang:<br />- Bautechnische Expertise erf&uuml;llt<br />- 3 Uebungen erf&uuml;llt<br /></p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Boden und Fels – Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Soil and Rock - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2006,
+    "endSemester": "SS"
+  }
+}

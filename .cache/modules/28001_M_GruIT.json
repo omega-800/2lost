@@ -1,0 +1,171 @@
+{
+  "id": 28001,
+  "kuerzel": "M_GruIT",
+  "bezeichnung": "Grundlagen Informations-Technologien",
+  "kreditpunkte": 2,
+  "lernziele": "<ul>\n<li>Grundverst&auml;ndnis IT Systeme im Maschinenbau</li>\n<li>Verstehen der grundlegenden Konzepte der Objektorientierung</li>\n<li>Modellierung von Sachverhalten mit Hilfe von UML Klassendiagrammen</li>\n<li>Erstellung von Programmen mit Hilfe der Programmiersprache Java</li>\n<li>Grundverst&auml;ndnis f&uuml;r Webtechnologien</li>\n<li>Einfache REST APIs verwenden</li>\n<li>Daten in einer Webapplikation zusammenf&uuml;hren und darstellen</li>\n<li>Funktionen eines Systems den verschiedenen Ebenen des IoT Stacks zuordnen</li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 28002,
+      "kuerzel": "GruLaIT",
+      "bezeichnung": "Grundlagen Informations-Technologien",
+      "lernziele": "<ul>\n<li>Grundverst&auml;ndnis IT Systeme im Maschinenbau</li>\n<li>Verstehen der grundlegenden Konzepte der Objektorientierung</li>\n<li>Modellierung von einfachen Sachverhalten mit Hilfe von UML Klassendiagrammen</li>\n<li>Erstellung von Programmen mit Hilfe der Programmiersprache C++</li>\n<li>Grundverst&auml;ndnis f&uuml;r Webtechnologien</li>\n<li>Einfache REST APIs verwenden</li>\n<li>Daten in einer Webapplikation zusammenf&uuml;hren und darstellen</li>\n<li>Funktionen eines Systems den verschiedenen Ebenen des IoT Stacks zuordnen</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>&nbsp;Einf&uuml;hrung in einfache IT System Architekturen</li>\n<li>Objektorientierung: Klassen, Attribute, Methoden, Objekte und deren Zusammenh&auml;nge</li>\n<li>Modellierung: Wesentliche Elemente der UML Klassendiagramme</li>\n<li>C++: Grundlegende Sprachelemente der objektorientierten Programmierung: Klassen und Objekte, Vererbung, Kapselung, Listen</li>\n<li>Grundlegende Programmiermuster: Finate-State-Machine, Nutzung von Bibliotheken</li>\n<li>Webtechnologien: Grundlagen des HTTP Protokolls, Webserver, Webservices, Mobile Applikationen.</li>\n<li>Nutzung der Quellcodeverwaltung Git&nbsp;</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 28003,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 28004,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Grundlagen Informations-Technologien"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Information Technologies - Fundamentals"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10243,
+      "bezeichnung": "Digitalisierung",
+      "kuerzel": "M-I-Dig",
+      "url": "allStudies/10243_M-I-Dig.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 539814,
+      "name": "Nyffenegger",
+      "vorname": "Felix"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 37320,
+      "kuerzel": "M_ProgEinf",
+      "bezeichnung": "Einführung Programmierung",
+      "url": "allModules/37320_M_ProgEinf.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Grundlagen Informations-Technologien"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Information Technologies - Fundamentals"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2016,
+    "beginSemester": "FS",
+    "endJahr": 2024,
+    "endSemester": "FS"
+  }
+}

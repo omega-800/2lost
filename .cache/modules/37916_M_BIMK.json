@@ -1,0 +1,110 @@
+{
+  "id": 37916,
+  "kuerzel": "M_BIMK",
+  "bezeichnung": "BIM-Konstruktion 1",
+  "kreditpunkte": 2,
+  "lernziele": "<ul>\n<li>F&auml;higkeit einfache Modelle zu erstellen und zu interpretieren</li>\n<li>Kompetenz mit Modellen zu arbeiten f&uuml;r verschiedene Einsatzbereiche</li>\n<li>Umgang mit Daten und Informationen im Modell</li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 37917,
+      "kuerzel": "BIMK1",
+      "bezeichnung": "BIM-Konstruktion 1",
+      "lernziele": "<p>Erlernen der F&auml;higkeit BIM-Modelle zu erstellen, mit vorhandenen Modellen umzugehen und deren Sinn und Zweck zu verstehen in Bezug auf die Planung und Ausf&uuml;hrung inklusive des Informationsgehaltes je Phase im Bauprozess.</p>",
+      "planinhalt": "<ul>\n<li>Modellieren von einfachen Bauwerken</li>\n<li>Umgang mit Daten im Modell (IFC, DXF etc.)</li>\n<li>Georeferenzierung von Modellen</li>\n<li>Arbeiten mit Modellierungsrichtlinien</li>\n<li>Umgang Materialien und Produkten (PSets)</li>\n<li>Arbeiten mit CRB Elementen der Kostenplanung im Modell</li>\n<li>Erstellen von Bauablaufpl&auml;nen und Modellen f&uuml;r die Bauausf&uuml;hrung</li>\n<li>Hinterlegen oder mit dem Modell verkn&uuml;pfen phasengerechter Detailinformationen</li>\n<li>Umsetzen von Anforderungen und BIM-Zielen</li>\n<li>Umsetzung mit verschiedener Software</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 37918,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 15,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "BIM-Konstruktion 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "BIM construction 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10197,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10197_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5024145,
+      "name": "Beth",
+      "vorname": "Martin"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "BIM-Konstruktion"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "BIM construction"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2020,
+    "beginSemester": "HS",
+    "endJahr": 2020,
+    "endSemester": "HS"
+  }
+}

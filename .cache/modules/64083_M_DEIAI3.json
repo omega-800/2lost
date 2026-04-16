@@ -1,0 +1,197 @@
+{
+  "id": 64083,
+  "kuerzel": "M_DEIAI3",
+  "bezeichnung": "Data Engineering and Industrial Artificial Intelligence 3",
+  "kreditpunkte": 8,
+  "lernziele": "<p>Das Modul bef&auml;higt die Studierenden, Optimierungsprobleme in mechatronischen Systemen strukturiert zu formulieren, geeignete L&ouml;sungsstrategien auszuw&auml;hlen und die Ergebnisse im ingenieurwissenschaftlichen Kontext zu interpretieren.</p>\n<p>&nbsp;</p>\n<p>Das Modul bef&auml;higt Studierende, Datenbanksysteme als integralen Bestandteil moderner mechatronischer Systeme zu verstehen, zu entwerfen und anzuwenden. Sie erwerben die Kompetenz, Mess-, Zustands- und Produktionsdaten strukturiert zu verwalten, auszuwerten und in skalierbare, Cloud-f&auml;hige Architekturen einzubetten. Das Modul legt den Schwerpunkt auf konzeptionelles Verst&auml;ndnis, praktische Anwendung und fundierte Entscheidungsf&auml;higkeit, nicht auf formale Datenbanktheorie oder Systemadministration. Die Studierenden lernen die Grundlagen datenbankgest&uuml;tzter Anwendungen kennen, mit einem Schwerpunkt auf relationalen Datenbanksystemen, der praktischen Nutzung in Anwendungsarchitekturen, der konzeptionellen Planung analytischer Strukturen wie Data Warehouses sowie der Datenanalyse und Exploration mit Python.</p>\n<p>&nbsp;</p>\n<p>Dieses Modul f&uuml;hrt die Teilnehmer in klassische neuronale Netzwerkstrukturen, Multilayer Perceptrons (MLP), Convolution Neural Networks (CNN), Long Short-Term Memory (LSTM), Gated Recurrent Neural Networks (GRU) und Autoencoder (AE, VAE) ein. Die Anwendung dieser Architekturen auf Computer Vision, Zeitreihen, Sicherheit, Verarbeitung nat&uuml;rlicher Sprache (NLP) und Datengenerierung wird behandelt. Aspekte des High Performance Computing (HPC) werden zeigen, wie Deep Learning sowohl auf grafischen Verarbeitungseinheiten (GPUs) als auch auf Grids genutzt werden kann. Der Schwerpunkt liegt in erster Linie auf der Anwendung des Deep Learnings auf Probleme, mit einer Einf&uuml;hrung in die mathematischen Grundlagen. Die Studenten werden die Programmiersprache Python verwenden, um Deep Learning mit Pytorch und/oder Keras zu implementieren.</p>",
+  "vorausgKenntnisse": "",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 64084,
+      "kuerzel": "DEIAI3_O",
+      "bezeichnung": "Optimierung",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Optimierungsverfahren bilden eine zentrale Grundlage moderner mechatronischer Systeme und ingenieurwissenschaftlicher Anwendungen. In der Praxis stehen Ingenieurinnen und Ingenieure regelm&auml;ssig vor der Aufgabe, aus einer Vielzahl m&ouml;glicher Systemparameter jene zu bestimmen, die ein gew&uuml;nschtes Verhalten, eine optimale Leistung oder minimale Kosten gew&auml;hrleisten. Solche Fragestellungen treten insbesondere im Inverse Design auf, bei dem nicht das Systemverhalten simuliert, sondern aus Zielvorgaben auf geeignete Design- und Steuerungsparameter geschlossen wird. Diese Probleme f&uuml;hren in der Regel auf nichtlineare Optimierungsprobleme, deren systematisches Verst&auml;ndnis und numerische L&ouml;sung f&uuml;r die Ingenieurpraxis unerl&auml;sslich ist. Das Modul vermittelt den Studierenden grundlegende Konzepte und Methoden der kontinuierlichen und diskreten Optimierung. Sie lernen, Optimierungsprobleme korrekt zu klassifizieren und geeignete L&ouml;sungsverfahren auszuw&auml;hlen. Ein besonderer Fokus liegt auf glatten, nichtrestringierten Optimierungsproblemen in ein- und mehrdimensionalen R&auml;umen sowie auf restringierten Problemen, die mithilfe der Karush-Kuhn-Tucker-Bedingungen (KKT) analysiert und formuliert werden. Neben analytischen Aspekten werden zentrale numerische Verfahren zur L&ouml;sung realit&auml;tsnaher Optimierungsprobleme eingef&uuml;hrt.</p>\n<p>Lineare Optimierungsprobleme werden sowohl geometrisch in zwei Dimensionen als auch algorithmisch mit dem Simplex-Verfahren behandelt, wodurch die Studierenden ein grundlegendes Verst&auml;ndnis f&uuml;r Struktur und L&ouml;sbarkeit von Optimierungsproblemen entwickeln. Erg&auml;nzend wird der Unterschied zwischen diskreter und kontinuierlicher Optimierung herausgearbeitet, um die Einordnung praktischer Problemstellungen zu erleichtern. Dar&uuml;ber hinaus schafft das Modul eine wichtige methodische Grundlage f&uuml;r moderne datengetriebene Verfahren. Insbesondere das in Deep-Learning-Verfahren eingesetzte Gradient Descent basiert auf Prinzipien der nichtlinearen Optimierung. Das im Modul erworbene Verst&auml;ndnis f&uuml;r Gradienten, Optimalit&auml;tsbedingungen und numerische L&ouml;sungsverfahren erm&ouml;glicht es den Studierenden, solche Algorithmen nicht nur anzuwenden, sondern auch kritisch zu analysieren und weiterzuentwickeln.</p>\n<p>&nbsp;</p>\n<p>Die Studierenden:</p>\n<ul>\n<li>k&ouml;nnen Optimierungsprobleme korrekt klassifizieren und die entsprechenden L&ouml;sungsmethoden w&auml;hlen.</li>\n<li>kennen den Unterschied zwischen diskreter und kontinuierlicher Optimierung.</li>\n<li>k&ouml;nnen lineare Optimierungsprobleme in zwei Dimensionen graphisch l&ouml;sen.</li>\n<li>k&ouml;nnen lineare Optimierungsprobleme mit dem Simplex-Algorithmus l&ouml;sen.</li>\n<li>k&ouml;nnen ein- und mehrdimensionale nichtrestringierte glatte Optimierungsprobleme l&ouml;sen.</li>\n<li>kennen die KKT-Bedingung und k&ouml;nnen diese f&uuml;r restringierte Optimierungsprobleme aufstellen und l&ouml;sen.</li>\n<li>kennen die grundlegenden numerischen Verfahren zur L&ouml;sung von restringierten und nichtrestringierten Optimierungsproblemen und k&ouml;nnen diese anwenden.</li>\n</ul>",
+      "planinhalt": "<p>Klassifikation von Optimierungsproblemen</p>\n<ul>\n<li>Gleichungs- und Ungleichungsnebenbedingungen</li>\n</ul>\n<p><br>Lineare Programme</p>\n<ul>\n<li>Graphische L&ouml;sung 2-dimensionaler Probleme</li>\n<li>Simplex-Algorithmus</li>\n</ul>\n<p><br>Nichtlineare Optimierung</p>\n<ul>\n<li>Eindimensionale Optimierung</li>\n<li>Mehrdimensionale Optimierung ohne Nebenbedingung</li>\n<li>Karush-Kuhn-Tucker-Bedingung</li>\n</ul>\n<p><br>Numerik der Optimierung</p>\n<ul>\n<li>Gradientenverfahren und Line Search</li>\n<li>Gradientenverfahren mit Momentum</li>\n<li>Newton-Algorithmus, Sekantenverfahren und Regula Falsi&nbsp;</li>\n<li>Verfahren des Goldenen Schnitts und Bisektion&nbsp;</li>\n<li>Strafverfahren und Barriere-Methode</li>\n</ul>",
+      "bibliographie": "<p>Eine Kopie des handgeschriebenen Kursskripts wird auf der Moodle-Seite zur Verf&uuml;gung gestellt.</p>",
+      "empfLehrmittel": "<p>Kontaktunterricht mit Theorie und Praxisanteil<br>Vorlesung, Selbststudium, &Uuml;bungen</p>",
+      "bemerkungKurs": "<p><span class=\"TextRun SCXW98584307 BCX8\" lang=\"DE-DE\" xml:lang=\"DE-DE\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW98584307 BCX8\">Unterrichtssprache Deutsch (Fachbegriffe und Material teilweise auf Englisch)</span></span><span class=\"EOP SCXW98584307 BCX8\" data-ccp-props=\"{}\">&nbsp;</span></p>",
+      "leistungsnachweis": "<p>Modulschlusspr&uuml;fung</p>",
+      "kurselemente": [
+        {
+          "id": 64085,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2201228,
+          "name": "Fritz",
+          "vorname": "Hans"
+        }
+      ]
+    },
+    {
+      "id": 64086,
+      "kuerzel": "DEIAI3_Da",
+      "bezeichnung": "Datenbanken und Cloud Computing",
+      "lernziele": "<p>Die Studierenden:</p>\n<ul>\n<li>k&ouml;nnen die Grundprinzipien relationaler Datenbanksysteme und deren Rolle in mechatronischen Anwendungen (z. B. Sensor- und Produktionsdaten) erkl&auml;ren.</li>\n<li>k&ouml;nnen&nbsp;unterschiedliche Informationssystem-Architekturen (Client-Server, n-Tier, Cloud) einordnen und deren Einsatz bewerten.</li>\n<li>k&ouml;nnen&nbsp;grundlegende Konzepte von Transaktionen, Datenkonsistenz und analytischer Datenhaltung (z. B. Data Warehousing) anwenden.</li>\n<li>k&ouml;nnen einfache ER-Modelle erstellen und in relationale Datenmodelle &uuml;berf&uuml;hren.</li>\n<li>k&ouml;nnen&nbsp;Datenmodelle in relationalen Datenbanken implementieren und SQL (DDL, DML) zur Datenabfrage und -manipulation einsetzen.</li>\n<li>k&ouml;nnen&nbsp;aus technischen Anwendungen &uuml;ber Schnittstellen (wie z.B. Java Database Connectivity JDBC) auf Datenbanken zugreifen.</li>\n<li>k&ouml;nnen&nbsp;Daten f&uuml;r Exploration und Prototyping (z. B. mit Pandas) aus Datenbanken extrahieren.</li>\n<li>k&ouml;nnen&nbsp;Datenmodelle hinsichtlich Normalformen, Konsistenz und Performance analysieren.</li>\n<li>k&ouml;nnen&nbsp;geeignete Datenbank- und Architekturl&ouml;sungen f&uuml;r typische mechatronische Szenarien (Embedded, IoT, Cloud) ausw&auml;hlen.</li>\n<li>k&ouml;nnen&nbsp;den Einsatz von Data-Warehouse-Strukturen f&uuml;r Analyse- und Monitoring-Aufgaben begr&uuml;nden.</li>\n<li>k&ouml;nnen&nbsp;ein einfaches Data Warehouse f&uuml;r Mess- oder Produktionsdaten planen und realisieren.</li>\n<li>k&ouml;nnen&nbsp;ein konsistentes Datenbank- und Architekturkonzept f&uuml;r ein einfaches System entwerfen, das als Grundlage f&uuml;r Condition Monitoring, Datenanalyse oder Optimierungsaufgaben dient.</li>\n</ul>",
+      "planinhalt": "<p><strong>I. Grundlagen &amp; Motivation</strong><br>&nbsp; &nbsp;- Bedeutung von Daten in mechatronischen Systemen.<br>&nbsp; &nbsp;- Typische Anwendungsbeispiele aus Produktion, Monitoring und Sensorik.<br>&nbsp; &nbsp;- Motivation f&uuml;r Datenbanken gegen&uuml;ber einfachen Dateiformaten.<br>&nbsp; &nbsp;- Einf&uuml;hrung eines durchg&auml;ngigen Anwendungsszenarios.</p>\n<p><strong>II. Relationale Datenbanken</strong><br>&nbsp; &nbsp;- Relationales Modell: Tabellen, Schl&uuml;ssel und Beziehungen.<br>&nbsp; &nbsp;- Grundprinzipien der Datenmodellierung und Umsetzung in relationale Schemata (ER-Diagramme, Schl&uuml;ssel, Beziehungen,&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Kardinalit&auml;ten).<br>&nbsp; &nbsp;- SQL-Grundlagen zur Definition, Abfrage und Manipulation von Daten.<br>&nbsp; &nbsp;- Praktische Nutzung eines leichtgewichtigen relationalen Datenbanksystems (z. B. SQLite) zur Speicherung und Abfrage von&nbsp; &nbsp; &nbsp; &nbsp;Daten.<br>&nbsp; &nbsp;- Datenkonsistenz und grundlegende Transaktionskonzepte.</p>\n<p><strong>III. Datenbanken in Anwendungen</strong><br>&nbsp; &nbsp;- Einbindung von Datenbanken in Softwareanwendungen.<br>&nbsp; &nbsp;- Konzeptionelle Betrachtung von Architekturen.<br>&nbsp; &nbsp;- Praxisbeispiele aus der Programmierung.</p>\n<p><strong>IV. Datenanalyse &amp; Exploration</strong><br>&nbsp; &nbsp;- Abfrage, Aggregation und Aufbereitung von Mess- und Zustandsdaten aus Datenbanksystemen.<br>&nbsp; &nbsp;- Explorative Datenanalyse und einfache Visualisierung zur Unterst&uuml;tzung von Monitoring- und Analyseaufgaben.<br>&nbsp; &nbsp;- Anwendung typischer Auswertungsmethoden in mechatronischen Anwendungsf&auml;llen, wie Zustands&uuml;berwachung oder&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Betriebsdatenauswertung.</p>\n<p><strong>V. Analytische Konzepte &amp; Einf&uuml;hrung in Data Warehousing</strong><br>&nbsp; &nbsp;- Unterschied zwischen operativer und analytischer Datenhaltung (OLTP vs. OLAP).<br>&nbsp; &nbsp;- Grundidee von Data Warehouses und typische Einsatzszenarien in Monitoring und Analyse.<br>&nbsp; &nbsp;- Aufbau eines einfachen Star-Schemas anhand von Mess- oder Produktionsdaten.<br>&nbsp; &nbsp;- Zentrale OLAP-Konzepte: Aggregationen, Zeitdimension, Kennzahlen.<br>&nbsp; &nbsp;- ETL als Grundkonzept: Daten&uuml;bernahme von operativen Systemen in analytische Strukturen.</p>\n<p><strong>VI. NoSQL-Datenbanken</strong><br>&nbsp; &nbsp;- &Uuml;berblick &uuml;ber NoSQL-Datenbanksysteme mit Fokus auf praxisrelevante Typen:<br>&nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;Time-Series-Datenbanken (z. B. InfluxDB) f&uuml;r Sensorik, Monitoring und Zeitreihendaten.<br>&nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;Dokumentenorientierte Datenbanken (z. B. MongoDB) f&uuml;r flexible JSON-Daten und Logfiles.<br>&nbsp; &nbsp;- Typische Anwendungsf&auml;lle und Entscheidungshilfen f&uuml;r die Auswahl des passenden Datenbanktyps.<br>&nbsp; &nbsp;- Vergleich relationaler und NoSQL-Datenbanken: St&auml;rken, Schw&auml;chen und Einsatzszenarien.<br>&nbsp; &nbsp;- Grundlegende Prinzipien von NoSQL: schemalose Datenhaltung, horizontale Skalierung, hohe Verf&uuml;gbarkeit.</p>\n<p><strong>VII. Cloud-Datenbanken</strong><br>&nbsp; &nbsp;- Vorteile und Herausforderungen cloudbasierter Datenbanksysteme (z. B. Skalierbarkeit, Wartungsaufwand, Verf&uuml;gbarkeit).<br>&nbsp; &nbsp;- Konzeptuelle &Uuml;berlegungen zu Zugriff, Sicherheit, Datenintegration und Kostenmanagement.<br>&nbsp; &nbsp;- Einf&uuml;hrung in g&auml;ngige Cloud-Plattformen wie Google Cloud Platform (GCP), mit Beispielen f&uuml;r Cloud-Datenbanken und&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Managed Services.<br>&nbsp; &nbsp;- Praktische Demonstration eines Cloud-Datenbankeinsatzes: Verbindung von IoT- oder Produktionsdaten zu einer Cloud-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;L&ouml;sung, einschliesslich Datenspeicherung, Zugriff und Analyse.</p>",
+      "bibliographie": "<p>[1.] &nbsp; &nbsp;Kudrass, Thomas (Hrsg.) (2015): Taschenbuch Datenbanken. 2. Auflage. M&uuml;nchen: Carl Hanser Verlag.<br>[2.] &nbsp; &nbsp;Fehily, C. (2020). SQL Database Programming (5th ed.). Questing Vole Press.<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Der Autor stellt eine aktuelle HTML-Version des Buchs (Stand 2024) kostenlos zur Verf&uuml;gung:&nbsp; &nbsp; &nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;https://www.fehily.com/sql.html&nbsp;<br>[3.] &nbsp; &nbsp;Kimball, R., &amp; Ross, M. (2013). The data warehouse toolkit: The definitive guide to dimensional modeling (3rd ed.). Wiley</p>",
+      "empfLehrmittel": "<ul>\n<li>Kontaktunterricht mit Theorie und Praxisanteil</li>\n<li>Vorlesung, Selbststudium, &Uuml;bungen</li>\n<li>Der Praxisteil umfasst ein Projekt zur praxisorientierten Anwendung der in der Theorie erarbeiteten Inhalte.</li>\n</ul>",
+      "bemerkungKurs": "<p>Unterrichtssprache Deutsch (Fachbegriffe und Material teilweise auf Englisch)</p>",
+      "leistungsnachweis": "<p>Modulschlusspr&uuml;fung</p>",
+      "kurselemente": [
+        {
+          "id": 64087,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2142271,
+          "name": "Woo",
+          "vorname": "Shao Jü"
+        }
+      ]
+    },
+    {
+      "id": 64327,
+      "kuerzel": "DEIAI3_DL",
+      "bezeichnung": "Deep Learning",
+      "lernziele": "<p>Die Studierenden:</p>\n<ul>\n<li>k&ouml;nnen Deep Learning als Optimierungsaufgabe formulieren und den Trainingsprozess neuronaler Netze als Zusammenspiel von Daten, Modell, Zielfunktion, Optimierer, Bewertungsmetrik und Backpropagation erkl&auml;ren.</li>\n<li>k&ouml;nnen einfache neuronale Netze (MLP) implementieren, trainieren und deren Lernverhalten anhand von Loss- und Metrikverl&auml;ufen interpretieren.</li>\n<li>k&ouml;nnen typische Trainingsprobleme wie Overfitting, Underfitting oder schlechte Konvergenz identifizieren und geeignete Gegenmassnahmen vorschlagen.</li>\n<li>verstehen die Funktionsweise von Convolutional Neural Networks und k&ouml;nnen erkl&auml;ren, wie Faltungen hierarchische Bildrepr&auml;sentationen extrahieren.</li>\n<li>k&ouml;nnen CNNs f&uuml;r Bildklassifikationsaufgaben implementieren, trainieren und auf reale Datens&auml;tze anwenden.</li>\n<li>k&ouml;nnen den Einsatz von Data Augmentation und Transfer Learning begr&uuml;nden und deren Einfluss auf Generalisierung und Modellleistung bewerten.</li>\n<li>k&ouml;nnen Methoden der Explainable AI (z. B. Feature-Visualisierungen) nutzen, um das Verhalten trainierter CNNs zu analysieren.</li>\n<li>verstehen die Repr&auml;sentation von Textdaten mittels Word Embeddings und k&ouml;nnen semantische Beziehungen im Vektorraum erkl&auml;ren.</li>\n<li>k&ouml;nnen rekurrente neuronale Netze (LSTM, GRU) zur Modellierung von Sequenzen implementieren und trainieren.</li>\n<li>k&ouml;nnen Sequence-to-Sequence-Modelle f&uuml;r einfache NLP- oder Zeitreihenaufgaben einsetzen und deren St&auml;rken und Schw&auml;chen analysieren.</li>\n<li>k&ouml;nnen den konzeptionellen Unterschied zwischen diskriminativen und generativen Modellen erkl&auml;ren.</li>\n<li>verstehen den Einsatz neuronaler Netze als generative Modelle zur Datenerzeugung und k&ouml;nnen einfache generative Ans&auml;tze praktisch umsetzen.</li>\n<li>k&ouml;nnen kreative Anwendungen wie Style Transfer konzeptionell einordnen und technisch nachvollziehen.</li>\n<li>verstehen das Grundprinzip des Attention-Mechanismus und k&ouml;nnen erkl&auml;ren, wie Transformer-Modelle Sequenzen ohne Rekurrenz verarbeiten.</li>\n<li>k&ouml;nnen die Vorteile von Transformer-Architekturen gegen&uuml;ber RNN-basierten Modellen analysieren, insbesondere im Kontext langer Sequenzen.</li>\n<li>k&ouml;nnen Large Language Models als spezielle generative Modelle einordnen und deren Bedeutung f&uuml;r aktuelle Anwendungen im Bereich NLP kritisch reflektieren.</li>\n</ul>",
+      "planinhalt": "<p><strong>I. Grundlagen des Deep Learnings &amp; Trainings</strong></p>\n<ul>\n<li>Einf&uuml;hrung in K&uuml;nstliche Neuronale Netze</li>\n<li>Grundidee neuronaler Netze, Optimierungsproblem, Backpropagation, Modell&ndash;Daten&ndash;Loss&ndash;Optimierer</li>\n<li>Klassifizierung mit Multilayer Perceptrons (MLPs)</li>\n<li>The Machine-Learning-Workflow: Datenaufbereitung, Training, Validierung, Test, Metriken</li>\n<li>DNN Trainieren: Optimierer, Lernraten, Overfitting, Regularisierung, praktische Trainingsstrategien</li>\n</ul>\n<p><strong>II. Computer Vision mit CNNs (R&auml;umliche Daten &amp; Bildverarbeitung)</strong></p>\n<ul>\n<li>Einf&uuml;hrung in CNNs: Faltungen, Feature Maps, Pooling, Architekturen</li>\n<li>CNNs auf kleinen Datens&auml;tzen, Data Augmentation</li>\n<li>Generalisierung, Regularisierung, praktische Tricks</li>\n<li>Transfer-Learning und Fine-Tuning</li>\n<li>Vortrainierte Netze, Feature Extractor vs. Fine-Tuning</li>\n<li>Was CNNs lernen: Explainable AI (XAI)</li>\n<li>Visualisierung von Features, Grad-CAM, Interpretierbarkeit</li>\n</ul>\n<p><strong>III. Sequenzmodelle &amp; Natural Language Processing (Sequenzielle Daten)</strong></p>\n<ul>\n<li>Natural Language Processing (NLP): Word Embeddings</li>\n<li>Vektorrepr&auml;sentationen von Sprache, semantische &Auml;hnlichkeit</li>\n<li>RNNs und Sequence2Sequence-Modelle</li>\n<li>LSTM/GRU, Encoder&ndash;Decoder, zeitliche Abh&auml;ngigkeiten</li>\n</ul>\n<p><strong>IV. Generative Modelle &amp; Repr&auml;sentationslernen</strong></p>\n<ul>\n<li>Daten erzeugen, komprimieren, transformieren</li>\n<li>Generative Modelle: Diskriminativ vs. generativ, Sequenzgenerierung, Sampling</li>\n<li>Autoencoder: AE, VAE, latente R&auml;ume, Dimensionsreduktion</li>\n<li>Style Transfer: Generative Bildtransformation, kreative Anwendungen</li>\n</ul>\n<p><strong>V. Moderne Architekturen &amp; Ausblick (State of the Art &amp; Einordnung)</strong></p>\n<ul>\n<li>Large Language Models</li>\n<li>Transformer, Attention-Mechanismus, LLMs</li>\n</ul>",
+      "bibliographie": "<p>[1.] &nbsp; &nbsp;Francois Chollet , Deep Learning with Python, Manning Publications, ISBN: 9781617294433, 2017<br>[1.] &nbsp; &nbsp;Simon J.D. Prince: Understanding Deep Learning, The MIT Press (2023), http://udlbook.com&nbsp;<br>[2.] &nbsp; &nbsp;Christopher M. Bishop: Deep Learning. Foundations and Concepts (2024), ISBN 978-3-031-45467-7,<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;https://doi.org/10.1007/978-3-031-45468-4<br>[3.] &nbsp; &nbsp;Sebastian Raschka: Python Machine Learning - Second Edition: Machine Learning and Deep Learning with Python, scikit-</p>\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;learn, and TensorFlow (Englisch) Taschenbuch, Packt Publishing; Auflage: 2nd Revised edition (20. September 2017),<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ISBN-13: 978-1787125933<br>[4.] &nbsp; &nbsp;Aur&eacute;lien G&eacute;ron: Hands-On Machine Learning with Scikit-Learn and TensorFlow, Concepts, Tools, and Techniques to Build<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Intelligent Systems, O'Reilly Media, March 2017</p>",
+      "empfLehrmittel": "<p>Kontaktunterricht mit Theorie und Praxisanteil (2 SWS)<br>Lab-Sessions, Selbststudium und &Uuml;bungen (2 SWS)</p>",
+      "bemerkungKurs": "<p>Unterrichtssprache Deutsch (Fachbegriffe und Material teilweise auf Englisch)</p>",
+      "leistungsnachweis": "<p>Projektarbeit mittels Bericht und m&uuml;ndlicher Pr&uuml;fung</p>",
+      "kurselemente": [
+        {
+          "id": 64328,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002668,
+          "name": "Würsch",
+          "vorname": "Christoph"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10284,
+      "bezeichnung": "Mechatronik BB",
+      "kuerzel": "MT_BB",
+      "url": "allStudies/10284_MT_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10188,
+          "kuerzel": "Kat_VT_MT",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10285,
+      "bezeichnung": "Mechatronik VZ",
+      "kuerzel": "MT_VZ",
+      "url": "allStudies/10285_MT_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10188,
+          "kuerzel": "Kat_VT_MT",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 8
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002668,
+      "name": "Würsch",
+      "vorname": "Christoph"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 57032,
+      "kuerzel": "M_DEIAI2",
+      "bezeichnung": "Data Engineering and Industrial Artificial Intelligence 2",
+      "url": "allModules/57032_M_DEIAI2.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 64329,
+      "kuerzel": "M_DEIAI4",
+      "bezeichnung": "Data Engineering and Industrial Artificial Intelligence 4",
+      "url": "allModules/64329_M_DEIAI4.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 11,
+      "kuerzel": "LSG",
+      "bezeichnung": "Lerchenfeld St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 64083,
+      "art": "Note von 1 - 6",
+      "pruefungMue": true,
+      "dauerPrfMue": 30,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Die Modulschlusspr&uuml;fung findet in drei Teilen statt. Der erste Teil umfasst den Kurs Optimierung und der zweite Teil umfasst den Kurs Datenbanken und Cloud Computing. Die beiden teile sind schriftlich und dauert je 60 Minuten. Der dritte Teil umfasst den Kurs Deep Learning er ist m&uuml;ndlich und dauert 30 Minuten.&nbsp;</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Data Engineering & Industrial Artificial Intelligence 3"
+    }
+  ],
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2026,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "id": 23326,
+  "kuerzel": "M_ICTh",
+  "bezeichnung": "Informations- und Codierungstheorie",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Sie verstehen die grundlegenden Konzepte der Signale und ihrer &Uuml;bertragung als Tr&auml;ger der Information. Sie kennen und verstehen die grundlegenden Modulationsverfahren, soweit sie in den Computernetzen Verwendung finden.<br />Sie sind vertraut mit den Ans&auml;tzen zur Digitalisierung analoger Signale zur Weiterverarbeitung in einem Computer oder zur digitalen &Uuml;bertragung.<br />Sie kennen die Ans&auml;tze zur Sprach- und Sprecherkennung.<br />Sie kennen und verstehen die Begriffe und Kerninhalte der Informationstheorie und ihre Bedeutung f&uuml;r die Codierung hinsichtlich Komprimierung, Verschl&uuml;sselung sowie&nbsp;Fehlererkennung und -korrektur. Sie besitzen einen guten &Uuml;berblick &uuml;ber die verwendeten Verfahren.<br />Sie k&ouml;nnen das Erlernte durch einfache Rechnungen erkl&auml;ren und einfache Probleme l&ouml;sen.</p>",
+  "vorausgKenntnisse": "Mathematische Kenntnisse der Berufsmatura. \n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 23327,
+      "kuerzel": "ICTh",
+      "bezeichnung": "Informations- und Codierungstheorie",
+      "planinhalt": "<ul>\n    <li>ICTH - Einf&uuml;hrung </li>\n    <li>Signale Tr&auml;ger der Information </li>\n    <li>Signale verst&auml;rken und modellieren </li>\n    <li>Signale filtern, zerlegen und analysieren </li>\n    <li>Sprachsignale quantisieren, komprimieren und erkennen </li>\n    <li>Leitungscodes im Basisband </li>\n    <li>Leitungscodes: WCDMA, OFDM </li>\n    <li>Informationstheorie und Kanalcodierung </li>\n    <li>Blockcodes, zyklische Codes und eine &Uuml;bersicht &uuml;ber weitere Codes</li>\n    <li>Faltungscodes</li>\n    <li>Informationstheorie und Quellencodierung</li>\n    <li>Komprimierungsverfahren</li>\n    <li>Verschl&uuml;sselungsverfahren</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 23328,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 126,
+          "harteGrenze": true
+        },
+        {
+          "id": 23329,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Informations- und Codierungstheorie"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Information and Coding Theory"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10173,
+      "bezeichnung": "Cyber Security ",
+      "kuerzel": "CySec",
+      "url": "allStudies/10173_CySec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10161,
+      "bezeichnung": "Data Engineering & Machine Intelligence",
+      "kuerzel": "DaEngMaInt",
+      "url": "allStudies/10161_DaEngMaInt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10107,
+      "bezeichnung": "Network & Cloud-Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10107_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10127,
+      "bezeichnung": "Generalist",
+      "kuerzel": "GEN",
+      "url": "allStudies/10127_GEN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10106,
+      "bezeichnung": "Application Design - Cloud Solutions",
+      "kuerzel": "ADCS",
+      "url": "allStudies/10106_ADCS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10108,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10108_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 160,
+      "name": "Rinkel",
+      "vorname": "Andreas"
+    }
+  ],
+  "mengen": [
+    {
+      "id": 41,
+      "name": "Aequivalenz",
+      "dModMengeArt": 5701,
+      "module": [
+        {
+          "id": 23326,
+          "kuerzel": "M_ICTh",
+          "bezeichnung": "Informations- und Codierungstheorie",
+          "url": "allModules/23326_M_ICTh.json"
+        },
+        {
+          "id": 32105,
+          "kuerzel": "M_ICThVirt",
+          "bezeichnung": "Informations- und Codierungstheorie (V)",
+          "url": "allModules/32105_M_ICThVirt.json"
+        },
+        {
+          "id": 38920,
+          "kuerzel": "M_DigCod",
+          "bezeichnung": "Digitale Codierungen",
+          "url": "allModules/38920_M_DigCod.json"
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 23326,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Informations- und Codierungstheorie"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Information and Coding Theory"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "HS",
+    "endJahr": 2021,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 22415,
+    "kuerzel": "M_ICTh",
+    "bezeichnung": "Informations- und Codierungstheorie",
+    "url": "allModules/22415_M_ICTh.json"
+  },
+  "nachfolger": {
+    "id": 23326,
+    "kuerzel": "M_ICTh",
+    "bezeichnung": "Informations- und Codierungstheorie",
+    "url": "allModules/23326_M_ICTh.json"
+  }
+}

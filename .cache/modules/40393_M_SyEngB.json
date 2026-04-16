@@ -1,0 +1,141 @@
+{
+  "id": 40393,
+  "kuerzel": "M_SyEngB",
+  "bezeichnung": "Systems Engineering",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden</p><ul><li>Verstehen das allgemeine Vorgehen der Probleml&ouml;sung im Bauingenieurwesen und k&ouml;nnen es auf einfache Fallbeispiele anwenden</li><li>Verstehen die Methode der qualitativen Systemanalyse und sind in der Lage sie zur Situationsanalyse f&uuml;r Probleme im Bauingenieurwesen anzuwenden</li><li>Kennen und Verstehen ausgew&auml;hlte Verfahren des quantitativen Systemanalyse, k&ouml;nnen Sie an einfachen Beispielen anwenden und sind in der Lage die Ergebnisse dieser Verfahren zu interpretieren</li><li>K&ouml;nnen Ziele systematisch analysieren</li><li>Kennen die wesentlichen entscheidungstheoretischen Grundlagen des Bauingenieurwesens und verstehen den Nutzen der Anwendung von formalisierten Entscheidungsverfahren</li><li>K&ouml;nnen ausgew&auml;hlte Entscheidungsverfahren an einfachen Fallbeispielen anwenden mit besonderen Schwerpunkt auf Wirtschaftlichkeitsanalyen</li></ul>",
+  "vorausgKenntnisse": "<p>keine</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 40394,
+      "kuerzel": "SysEngB",
+      "bezeichnung": "Systems Engingeering (B)",
+      "planinhalt": "<ul>\n<li><strong>Probleml&ouml;sungszyklus&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></li>\n<li><strong>Situationsanalyse und Zielformulierung&nbsp;&nbsp;&nbsp;&nbsp;</strong><br />Systemtheorie und qualitative Systemanalyse&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />Stoffflussanalysen (z.B. Zement und Betonindustrie) &nbsp;&nbsp;&nbsp;<br />Ereignis- und Fehlerb&auml;ume (z.B. Risikoanalysen von Naturgefahren) &nbsp;&nbsp;&nbsp;<br />Zielformulierung im Kontext von Zielsystemen &nbsp;&nbsp;</li>\n</ul>\n<p>&nbsp;</p>\n<ul>\n<li><strong>Entscheidungsmethodik - Analyse und Bewertung von L&ouml;sungsvarianten&nbsp;</strong><br />Entscheidungstheorie&nbsp;<br />Entscheidungsverfahren&nbsp;&nbsp;<br />Entscheidungen mit mehreren Zielen&nbsp;<br />Nutzwertanalyse&nbsp;&nbsp;&nbsp;&nbsp;<br />Entscheidungen unter Unsicherheit<br />Entscheidungsbaumanalysen&nbsp;&nbsp;&nbsp;<br />Wirtschaftlichkeitsanalysen<br />Baukostenermittlung &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />Investitionsrechnung (statisch und dynamisch) &nbsp;&nbsp;&nbsp;&nbsp;<br />Kosten-Nutzen/&nbsp;Kosten-Wirksamkeits-Analysen</li>\n</ul>\n<p>&nbsp;</p>\n<p>Unterlagen:<br />Fallstudiensammlung mit &Uuml;bungen<br />Skript \"Systems-Engineering\"</p>",
+      "kurselemente": [
+        {
+          "id": 40395,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 108,
+          "harteGrenze": true
+        },
+        {
+          "id": 40396,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Systems Engingeering"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Systems Engingeering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10197,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10197_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10234,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10234_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 529046,
+      "name": "Kytzia",
+      "vorname": "Susanne"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Systems Engineering"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Systems Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2022,
+    "beginSemester": "FS",
+    "endJahr": 2023,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 40393,
+    "kuerzel": "M_SyEngB",
+    "bezeichnung": "Systems Engineering",
+    "url": "allModules/40393_M_SyEngB.json"
+  }
+}

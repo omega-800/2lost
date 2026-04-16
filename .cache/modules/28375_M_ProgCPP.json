@@ -1,0 +1,306 @@
+{
+  "id": 28375,
+  "kuerzel": "M_ProgCPP",
+  "bezeichnung": "Programmieren in C++",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden beherrschen die objektorientierte, prozedurale und generische Programmierung in der Programmiersprache C++. Sie k&ouml;nnen Software mit einer integrierten Entwicklungsumgebung (IDE)<em> </em>entwickeln.</p>",
+  "vorausgKenntnisse": "<p>Kenntnisse der Grundkonstrukte einer modernen Programmmiersprache</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 28376,
+      "kuerzel": "ProgCPP",
+      "bezeichnung": "Programmieren in C++",
+      "lernziele": "<p>Die Studierenden wenden die Programmiersprache C++ syntaktisch und semantisch zielgerichtet an.</p>\n<p>Die Studierenden interpretieren Fehlerausschriften und Warnungen des Compilers korrekt.</p>\n<p>Die Studierendenden &uuml;bertragen die in Vorlesung und Praktikum behandelten Konzepte selbst&auml;ndig auf praxisrelevante Problemstellungen.</p>\n<p>Die Studierenden modellieren Software nach dem Paradigma der Objektorientierung.</p>\n<p>Die Studierenden sch&auml;tzen den Zeitaufwand f&uuml;r die L&ouml;sung einer gestellten Programmieraufgabe realistisch ein.</p>\n<p>Die Studierenden sind sich den besonderen Qualit&auml;tsanforderungen f&uuml;r professionelle Software bewusst.</p>",
+      "planinhalt": "<ul>\n<li>Objektorientierte Konzepte (Klasse, Vererbung, Polymorphismus)</li>\n<li>Konstruktoren und Destruktoren</li>\n<li>Pointer und Referenzen</li>\n<li>Streams</li>\n<li>Dynamisches Speichermanagement</li>\n<li>Exception Handling</li>\n<li>Operator Overloading</li>\n<li>Templates</li>\n<li>Softwareentwicklung in der Praxis (Codierstil, Aufteilung in Units, Debugging)</li>\n</ul>",
+      "bibliographie": "<p>Skript und Beispielquelltexte, bereitgestellt auf dem Skriptserver</p>",
+      "kurselemente": [
+        {
+          "id": 28377,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 28378,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Programmieren in C++"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Programming in C++"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10243,
+      "bezeichnung": "Digitalisierung",
+      "kuerzel": "M-I-Dig",
+      "url": "allStudies/10243_M-I-Dig.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533876,
+      "name": "Bonderer",
+      "vorname": "Reto"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 28366,
+      "kuerzel": "M_ProgC",
+      "bezeichnung": "Programmieren in C",
+      "url": "allModules/28366_M_ProgC.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 28375,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>75% der &Uuml;bungen besucht</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Programmieren in C++"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Programming in C++"
+    }
+  ],
+  "skriptAblageLink": "\\\\OST.ch\\root\\alg\\skripte\\BSc_Elektrotechnik\\Fachbereich\\Programmieren_in_C++",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2017,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 26015,
+    "kuerzel": "M_ProgCPP",
+    "bezeichnung": "Programmieren in C++",
+    "url": "allModules/26015_M_ProgCPP.json"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "id": 10927,
+  "kuerzel": "M_Info1",
+  "bezeichnung": "Informatik 1: Grundlagen C++",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Analyse und Programmierung in C++ von einfachen Aufgabenstellungen.</p>\n<p>- L&#246;sungen zu einfachen Aufgabenstellungen erarbeiten und grafisch darstellen k&#246;nnen <br />- L&#246;sungen in C++ Programme umsetzen k&#246;nnen <br />- Entwicklungshilfsmittel richtig einsetzen k&#246;nnen <br /></p>\n<p>&nbsp;</p>",
+  "vorausgKenntnisse": "Stoff des Einf&#252;hrungskurses Informatik 0: Programmier-Einf&#252;hrungskurs&nbsp;\n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10003,
+      "kuerzel": "Info1",
+      "bezeichnung": "Informatik 1: Grundlagen C++",
+      "planinhalt": "<p>HSR Informatikumgebung; Softwareentwicklung in Kleinprojekten; Werkzeuge zur Softwareentwicklung; grafische Notationen; Syntax und ihre Beschreibung; </p>\n<p>C++ Grundlagen: Programmaufbau; Konstanten; Variablen; Typen; Deklarationen; Ausdr&uuml;cke; Anweisungen; Operationen; Kontrollstrukturen; Funktionen; Input/Output; Dateien; abstrakte Datentypen (Klassen)</p>\n<p>(Aenderungen vorbehalten)</p>",
+      "kurselemente": [
+        {
+          "id": 10909,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 48,
+          "harteGrenze": true
+        },
+        {
+          "id": 10910,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Informatik 1: Grundlagen C++"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Computer Science 1: Introductory C++"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1184,
+      "name": "Kottmann",
+      "vorname": "Markus"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 10927,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Informatik 1: Grundlagen C++"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Computer Science 1: Introductory C++"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2007,
+    "endSemester": "HS"
+  }
+}

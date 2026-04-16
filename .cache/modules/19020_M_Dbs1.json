@@ -1,0 +1,195 @@
+{
+  "id": 19020,
+  "kuerzel": "M_Dbs1",
+  "bezeichnung": "Datenbanksysteme 1",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Architekturen und Funktionsweise von relationalen Datenbanksystemen kennen und verstehen </li>\n    <li>Relationale Datenbanken systematisch entwerfen k&ouml;nnen&nbsp; </li>\n    <li>DB-Strukturen mit SQL definieren k&ouml;nnen </li>\n    <li>SQL-Abfragen formulieren k&ouml;nnen&nbsp; </li>\n    <li>Grundkonzepte der Programmierschnittstellen f&uuml;r die Entwicklung von DB-Applikationen kennen, Praxis mit JDBC </li>\n    <li>Praxis im Umgang mit einem DBMS<br /><br /></li>\n</ul>",
+  "vorausgKenntnisse": "<p>Modellierung mit UML-Strukturdiagrammen, Kenntnisse in Java, Kenntnisse in Java <br />(Maschinen- und Elektrotechniker: Modulbesuch Java f&uuml;r C++ Programmierer)</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 19021,
+      "kuerzel": "Dbs1",
+      "bezeichnung": "Datenbanksysteme 1",
+      "planinhalt": "<ul>\n<li>Einf&#252;hrung: Aufbau eines DBMS, Architekturen </li>\n<li>Datenmodellierung </li>\n<li>Relationales Datenmodell </li>\n<li>SQL: SQL als DDL, SQL als DML, SQL als DCL </li>\n<li>Transaktionen </li>\n<li>Synchronisation von parallelen Transaktionen </li>\n<li>Backup und Recovery </li>\n<li>Interne Ebene </li>\n<li>Programmierschnittstellen: Embedded JDBC, Ueberblick ODBC, embedded SQL <br /><br /></li></ul>",
+      "kurselemente": [
+        {
+          "id": 19022,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 19023,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Datenbanksysteme 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Database Systems 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 353,
+      "name": "Keller",
+      "vorname": "Stefan F."
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 19020,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Erfolgreiche Teilnahme an den Uebungen</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Datenbanksysteme 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Database Systems 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2010,
+    "beginSemester": "FS",
+    "endJahr": 2011,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 11030,
+    "kuerzel": "M_Dbs1",
+    "bezeichnung": "Datenbanksysteme 1",
+    "url": "allModules/11030_M_Dbs1.json"
+  },
+  "nachfolger": {
+    "id": 19020,
+    "kuerzel": "M_Dbs1",
+    "bezeichnung": "Datenbanksysteme 1",
+    "url": "allModules/19020_M_Dbs1.json"
+  }
+}

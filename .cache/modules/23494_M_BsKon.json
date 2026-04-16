@@ -1,0 +1,175 @@
+{
+  "id": 23494,
+  "kuerzel": "M_BsKon",
+  "bezeichnung": "Betriebssystem-Konzepte",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Der/die Studierende kann Betriebssysteme unterschiedlicher Art aufgrund ihrer Architektur einordnen und in ihren Eigenschaften beurteilen. Er/sie kann einfache Treiber und Programmbibliotheken auf verbreiteten Systemplattformen (Windows, Linux) entwickeln. <font size=\"2\">Die Konzepte und Programmierung eines verbreiteten Smartphone-Betriebssystems werden beherrscht.</font></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 23495,
+      "kuerzel": "BsKon",
+      "bezeichnung": "Betriebssystem-Konzepte",
+      "planinhalt": "<ul>\n    <li>Betriebssystemarchitekturen (klassische Architekturmodelle, Multiprozessorsysteme und ihre Leistung, Netzwerkbetriebssysteme, verteilte Betriebssysteme) </li>\n    <li>Systemdienste in Multiprozessorsystemen und in verteilten Betriebssystemen (CPU-Scheduling und verteilte Dateisysteme) </li>\n    <li>Implementierung der Ein-/Ausgabe (Treibereinbindung in Kern, Treiberschnittstelle, Treibermodelle, E/A-Architekturen, Treiberentwicklung, Beispiele Windows und Linux)&nbsp;&nbsp; </li>\n    <li>Programmbibliotheken (Konzepte, Verwendung im Betriebssystem, Entwicklung, Beispiele) </li>\n    <li>Konzepte und Applikationsentwicklung f&uuml;r Smartphones am Beispiel eines verbreiteten&nbsp; Betriebssystems</li>\n</ul>\n<p>&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 23496,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 23497,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Betriebssystem-Konzepte"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Operating System Concepts"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 173,
+      "name": "Glatz",
+      "vorname": "Eduard"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 23472,
+      "kuerzel": "M_Bsys1",
+      "bezeichnung": "Betriebssysteme 1",
+      "url": "allModules/23472_M_Bsys1.json"
+    },
+    {
+      "id": 23477,
+      "kuerzel": "M_Bsys2",
+      "bezeichnung": "Betriebssysteme 2",
+      "url": "allModules/23477_M_Bsys2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 23494,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Betriebssystem-Konzepte"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Operating System Concepts"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2014,
+    "beginSemester": "FS",
+    "endJahr": 2014,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 16758,
+    "kuerzel": "M_BsKon",
+    "bezeichnung": "Betriebssystemkonzepte",
+    "url": "allModules/16758_M_BsKon.json"
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "id": 25998,
+  "kuerzel": "M_ELT1",
+  "bezeichnung": "Elektrotechnik 1",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Der Studierende kennt die Grundgesetze der Elektrotechnik in Bezug auf Gleichstromnetzwerke und station&auml;re Str&ouml;mungsfelder. Er kann Gleichstromnetzwerke auslegen und analysieren und die Gr&ouml;ssen im Str&ouml;mungsfeld bestimmen.</p>",
+  "vorausgKenntnisse": "<p>keine</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 25999,
+      "kuerzel": "ELT1",
+      "bezeichnung": "Elektrotechnik 1",
+      "planinhalt": "<ul>\n<li><strong>Grundlagen:</strong> Elektrische Ladung, Strom, Spannung, Leistung und Energie. Leitf&auml;higkeit, Widerstand und Ohmsches Gesetz. Unabh&auml;ngige und gesteuerte Quellen. Gr&ouml;ssen und Einheiten.</li>\n<li><strong>Netzwerke bei Gleichstrom:</strong><br />Kirchhoffsche Gesetze, &Auml;quivalenz, Superposition, Reziprozit&auml;t<br />Lineare und nichtlineare Quellen und Verbraucher<br />Methoden der Netzwerkumwandlung, Ersatzschaltungen, Leistungsanpassung<br />Systematische Analyse linearer Gleichstromnetzwerke</li>\n<li><strong>Elektrisches Str&ouml;mungsfeld:</strong><br />Feldbegriff, Eigenschaften und Grundgr&ouml;ssen, Stromdichte/Stromfluss, elektrische Feldst&auml;rke/Spannung, Leistungsdichte<br />Ohmsches Gesetz (Stoffgleichung) und Kirchhoffsche S&auml;tze im station&auml;ren Str&ouml;mungsfeld <br />Berechnung einfacher Str&ouml;mungsfelder, Bestimmung von Widerst&auml;nden<br /><br /></li>\n</ul>\n<p>&Auml;nderungen vorbehalten</p>",
+      "kurselemente": [
+        {
+          "id": 26000,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 26001,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrotechnik 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electrical Engineering 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 527044,
+      "name": "Lang",
+      "vorname": "Hans-Dieter"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 25998,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>50% der Punkte bei allen Moodle-Tests erreicht</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Elektrotechnik 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electrical Engineering 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2015,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 20014,
+    "kuerzel": "M_ELT1",
+    "bezeichnung": "Elektrotechnik 1",
+    "url": "allModules/20014_M_ELT1.json"
+  }
+}

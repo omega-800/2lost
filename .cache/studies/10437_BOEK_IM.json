@@ -1,0 +1,579 @@
+{
+  "id": 10437,
+  "kuerzel": "BOEK_IM",
+  "bezeichnung": "International Management",
+  "versionKuerzel": "STD_23",
+  "art": "Studienrichtung",
+  "kredits": [
+    {
+      "id": 10975,
+      "minKredits": 96,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment"
+        }
+      ]
+    },
+    {
+      "id": 10976,
+      "minKredits": 18,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule"
+        }
+      ]
+    }
+  ],
+  "spezialisierungen": [
+    {
+      "id": 10448,
+      "kuerzel": "BOEK_IM_IB",
+      "bezeichnung": "International Business",
+      "url": "allStudies/10448_BOEK_IM_IB.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "International Business"
+        }
+      ]
+    },
+    {
+      "id": 10449,
+      "kuerzel": "BOEK_IM_PM",
+      "bezeichnung": "International Project Management",
+      "url": "allStudies/10449_BOEK_IM_PM.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "International Project Management"
+        }
+      ]
+    }
+  ],
+  "parent": {
+    "id": 10435,
+    "kuerzel": "BOEK_VZ",
+    "bezeichnung": "Betriebsökonomie VZ",
+    "url": "allStudies/10435_BOEK_VZ.json"
+  },
+  "zuordnungen": [
+    {
+      "id": 55794,
+      "kuerzel": "M_boek.ACCO",
+      "bezeichnung": "Accounting and Corporate Finance",
+      "url": "allModules/55794_M_boek.ACCO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 55803,
+      "kuerzel": "M_boek.BATH",
+      "bezeichnung": "Bachelor Arbeit",
+      "url": "allModules/55803_M_boek.BATH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 55812,
+      "kuerzel": "M_boek.BINF",
+      "bezeichnung": "Business Informatics",
+      "url": "allModules/55812_M_boek.BINF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 55818,
+      "kuerzel": "M_boek.CAPE",
+      "bezeichnung": "Capstone",
+      "url": "allModules/55818_M_boek.CAPE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 55833,
+      "kuerzel": "M_boek.CFMG",
+      "bezeichnung": "Corporate Finance Management",
+      "url": "allModules/55833_M_boek.CFMG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 55848,
+      "kuerzel": "M_boek.EFAP",
+      "bezeichnung": "English for Academic Purposes",
+      "url": "allModules/55848_M_boek.EFAP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 55851,
+      "kuerzel": "M_boek.EPC1",
+      "bezeichnung": "English for Professional Communication 1",
+      "url": "allModules/55851_M_boek.EPC1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 55854,
+      "kuerzel": "M_boek.EPC2",
+      "bezeichnung": "English for Professional Communication 2",
+      "url": "allModules/55854_M_boek.EPC2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 61344,
+      "kuerzel": "M_boek.EPC2_p",
+      "bezeichnung": "English for Professional Communication 2",
+      "url": "allModules/61344_M_boek.EPC2_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 61347,
+      "kuerzel": "M_boek.EPC3_p",
+      "bezeichnung": "English for Professional Communication 3",
+      "url": "allModules/61347_M_boek.EPC3_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 55857,
+      "kuerzel": "M_boek.EPC3",
+      "bezeichnung": "English for Professional Communication 3",
+      "url": "allModules/55857_M_boek.EPC3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 55878,
+      "kuerzel": "M_boek.FSIN",
+      "bezeichnung": "Financial Services & Investments",
+      "url": "allModules/55878_M_boek.FSIN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 61350,
+      "kuerzel": "M_boek.FSIN_p",
+      "bezeichnung": "Financial Services & Investments",
+      "url": "allModules/61350_M_boek.FSIN_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 57560,
+      "kuerzel": "M_boek.GENE",
+      "bezeichnung": "Gesellschaft und Nachhaltige Entwicklung",
+      "url": "allModules/57560_M_boek.GENE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 55899,
+      "kuerzel": "M_boek.ICPD",
+      "bezeichnung": "Intercultural Competencies and Personal Development",
+      "url": "allModules/55899_M_boek.ICPD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 55902,
+      "kuerzel": "M_boek.INDE",
+      "bezeichnung": "Intercultural Development",
+      "url": "allModules/55902_M_boek.INDE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 55908,
+      "kuerzel": "M_boek.ICP1",
+      "bezeichnung": "International Consulting Project 1",
+      "url": "allModules/55908_M_boek.ICP1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 9
+        }
+      ]
+    },
+    {
+      "id": 55911,
+      "kuerzel": "M_boek.ICP2",
+      "bezeichnung": "International Consulting Project 2",
+      "url": "allModules/55911_M_boek.ICP2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 9
+        }
+      ]
+    },
+    {
+      "id": 55797,
+      "kuerzel": "M_boek.ECON",
+      "bezeichnung": "International Economics",
+      "url": "allModules/55797_M_boek.ECON.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 55914,
+      "kuerzel": "M_boek.ILAW",
+      "bezeichnung": "International Law",
+      "url": "allModules/55914_M_boek.ILAW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56289,
+      "kuerzel": "M_boek.MRKE",
+      "bezeichnung": "Marketing in an International Context",
+      "url": "allModules/56289_M_boek.MRKE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 55968,
+      "kuerzel": "M_boek.ORBE",
+      "bezeichnung": "Organisational Behaviour",
+      "url": "allModules/55968_M_boek.ORBE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 55983,
+      "kuerzel": "M_boek.POME",
+      "bezeichnung": "Production and Operations Management",
+      "url": "allModules/55983_M_boek.POME.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 55698,
+      "kuerzel": "M_boek.PMGE",
+      "bezeichnung": "Project Management",
+      "url": "allModules/55698_M_boek.PMGE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 56028,
+      "kuerzel": "M_boek.SMGE",
+      "bezeichnung": "Strategic Management",
+      "url": "allModules/56028_M_boek.SMGE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56031,
+      "kuerzel": "M_boek.STTA",
+      "bezeichnung": "Strategic Thinking and Acting",
+      "url": "allModules/56031_M_boek.STTA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 56073,
+      "kuerzel": "M_boek.MSTB",
+      "bezeichnung": "Wirtschaftsmathematik und Statistik Betriebsökonomie",
+      "url": "allModules/56073_M_boek.MSTB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 56079,
+      "kuerzel": "M_boek.WSA1",
+      "bezeichnung": "Wissenschaftliches Schreiben und Arbeiten 1",
+      "url": "allModules/56079_M_boek.WSA1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56082,
+      "kuerzel": "M_boek.WSA2",
+      "bezeichnung": "Wissenschaftliches Schreiben und Arbeiten 2",
+      "url": "allModules/56082_M_boek.WSA2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ]
+}

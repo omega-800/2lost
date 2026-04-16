@@ -1,0 +1,194 @@
+{
+  "id": 11116,
+  "kuerzel": "M_EL3",
+  "bezeichnung": "Elektrizitätslehre 3",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Der Absolvent kennt die Grundlagen der Elektrotechnik&nbsp;und kann sie anwenden. Er ist in der Lage,&nbsp;Wechselstromnetzwerke in ihrem Frequenz- und Schwingverhalten zu berechnen.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10257,
+      "kuerzel": "EL3",
+      "bezeichnung": "Elektrizitätslehre 3",
+      "planinhalt": "<ul>\n    <li>Netzwerke / Schaltelemente unter allgemein zeitabh&auml;ngigen Str&ouml;men und&nbsp;Spannungen: Merkmale, Berechnungsmethoden </li>\n    <li>Netzwerke / Schaltelemente unter sinusoidale Str&ouml;men und Spannungen: komplexe Strom- und Spannungs-Zeigerdiagramme&nbsp;<br />Frequenzverhalten linearer Netzwerke: Impedanz / Admittanz, Betrag und Phase, Ortskurven, Produktform der Frequenzfunktion, einfache / doppelt logarithmische Darstellung, Normierung</li>\n    <li>Schwingverhalten linearer Netzwerke: ohne Anregung mit gespeicherter Energie, mit Anregung zeitabh&auml;ngig und zeitunabh&auml;ngig&nbsp; </li>\n    <li>&nbsp;Resonanzkreise Parallel-Schwingkreis,&nbsp;Serien-Schwingkreis, physikalische Bedeutung der Kreisg&uuml;te, Bandbreite, Verstimmung </li>\n    <li>Reale Bauelemente und ihre Ersatzschaltungen: Widerstand, Kondensator, Spule; G&uuml;te realer Serien- und Parallelschaltungen </li>\n    <li>Filtertechnik: Filtermethoden, LC-Filter, Spezialfilter</li>\n</ul>\n<p>Aenderung vorbehalten<br /></p>",
+      "kurselemente": [
+        {
+          "id": 10698,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 10699,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 48,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrizitätslehre 3"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electricity Basics 3"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 139,
+      "name": "Ebneter",
+      "vorname": "Josef"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11113,
+      "kuerzel": "M_EL1",
+      "bezeichnung": "Elektrizitätslehre 1",
+      "url": "allModules/11113_M_EL1.json"
+    },
+    {
+      "id": 11115,
+      "kuerzel": "M_EL2",
+      "bezeichnung": "Elektrizitätslehre 2",
+      "url": "allModules/11115_M_EL2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11116,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "Testat",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Elektrizitätslehre 3"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electricity Basics 3"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2009,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 11116,
+    "kuerzel": "M_EL3",
+    "bezeichnung": "Elektrizitätslehre 3",
+    "url": "allModules/11116_M_EL3.json"
+  }
+}

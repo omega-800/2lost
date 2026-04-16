@@ -1,0 +1,186 @@
+{
+  "id": 19896,
+  "kuerzel": "M_CFD_FEM",
+  "bezeichnung": "CFD und FEM (EEU)",
+  "kreditpunkte": 4,
+  "lernziele": "<ul><li>L&ouml;sung konkreter Ingenieurproblemen mit numerischen Verfahren</li><li>Durchf&uuml;hrung von numerischen Berechnungen</li><li>Theoretischer Hintergrund f&uuml;r Str&ouml;mungsberechnung und Strukturanalyse</li><li>Kritisches Denken zum Einsatz von Simulationen</li><li>Anwendung der CFD Software und Strukturanalyse in ANSYS</li><li>Validierung -- Vergleich mit der Realit&auml;t</li></ul>",
+  "vorausgKenntnisse": "<p style=\"MARGIN: 0cm 0cm 10pt\" class=\"MsoNormal\"><font size=\"3\">Englisch (Das Programm ANSYS und seine Manuals sind auf Englisch)</font></p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 19897,
+      "kuerzel": "CFD_FEM",
+      "bezeichnung": "Numerische Strömungssimulation und Strukturberechnungen",
+      "lernziele": "siehe Modulbeschreibung",
+      "planinhalt": "<p>- Grundgleichungen der Kontinuumsmechanik: Strukturmechanik und Fluiddynamik</p>\n<p>&nbsp;</p>\n<p>- Numerische L&ouml;sungsverfahren und Diskretisierung</p>\n<p>&nbsp;</p>\n<p>- Einf&uuml;hrung in ANSYS</p>\n<p>&nbsp;</p>\n<p>- Strukturmechanik (FEM): </p>\n<ul>\n    <li>&nbsp;&nbsp;&nbsp;Starre K&ouml;rper, </li>\n    <li>&nbsp;&nbsp;&nbsp;Elastische K&ouml;rper (linear, nichtlinear), </li>\n    <li>&nbsp;&nbsp;&nbsp;Kontaktmodellierung, </li>\n    <li>&nbsp;&nbsp;&nbsp;Numerische Anforderungen (Diskretisierung und Konvergenz), </li>\n    <li>&nbsp;&nbsp;&nbsp;Auswertung der Ergebnisse </li>\n</ul>\n<p>&nbsp;</p>\n<p>- Str&ouml;mungssimulationen (CFD): </p>\n<ul>\n    <li>&nbsp;&nbsp;&nbsp;Station&auml;re inkompressible Str&ouml;mung, </li>\n    <li>&nbsp;&nbsp;&nbsp;Turbulenzmodellierung, </li>\n    <li>&nbsp;&nbsp;&nbsp;Transiente Str&ouml;mung, </li>\n    <li>&nbsp;&nbsp;&nbsp;Konvergenzanalyse, - Netzstudien, - Auswertung, </li>\n    <li>&nbsp;&nbsp;&nbsp;Kompressible Str&ouml;mung </li>\n</ul>\n<p>&nbsp;</p>\n<p>- Thermische Simulationen: </p>\n<ul>\n    <li>&nbsp;&nbsp;&nbsp;W&auml;rmeleitung mit FEM, </li>\n    <li>&nbsp;&nbsp;&nbsp;Konvektion mit CFD, </li>\n    <li>&nbsp;&nbsp;&nbsp;Temperaturstrahlung, </li>\n    <li>&nbsp;&nbsp;&nbsp;Kontakte </li>\n</ul>\n<p>&nbsp;</p>\n<p>- Fluid-Struktur Wechselwirkung</p>",
+      "kurselemente": [
+        {
+          "id": 20208,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 120,
+          "harteGrenze": true
+        },
+        {
+          "id": 20209,
+          "art": "Uebung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Numerische Strömungssimulation und Strukturberechnungen"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Computational Fluid Dynamics and  Finite Element Method"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10104,
+          "kuerzel": "EEU-vet",
+          "bezeichnung": "Vertiefungsmodule Energietechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10104,
+          "kuerzel": "EEU-vet",
+          "bezeichnung": "Vertiefungsmodule Energietechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10108,
+          "kuerzel": "EEU-veu",
+          "bezeichnung": "Vertiefungsmodule Umwelttechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 538896,
+      "name": "Nordborg",
+      "vorname": "Henrik"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11043,
+      "kuerzel": "M_Ph1Mech",
+      "bezeichnung": "Physik 1 - Mechanik",
+      "url": "allModules/11043_M_Ph1Mech.json"
+    },
+    {
+      "id": 19780,
+      "kuerzel": "M_MatT1EU",
+      "bezeichnung": "Materialtechnologie 1 (EEU)",
+      "url": "allModules/19780_M_MatT1EU.json"
+    },
+    {
+      "id": 19812,
+      "kuerzel": "M_TFD1EU",
+      "bezeichnung": "Thermo- und Fluiddynamik 1 (EEU)",
+      "url": "allModules/19812_M_TFD1EU.json"
+    },
+    {
+      "id": 19820,
+      "kuerzel": "M_TFD2EU",
+      "bezeichnung": "Thermo- und Fluiddynamik 2 (EEU)",
+      "url": "allModules/19820_M_TFD2EU.json"
+    },
+    {
+      "id": 20825,
+      "kuerzel": "M_Ph3SWO",
+      "bezeichnung": "Physik 3 - Schwingungen und Wellen, Optik",
+      "url": "allModules/20825_M_Ph3SWO.json"
+    },
+    {
+      "id": 20935,
+      "kuerzel": "M_MatT2EU",
+      "bezeichnung": "Materialtechnologie 2 (EEU)",
+      "url": "allModules/20935_M_MatT2EU.json"
+    },
+    {
+      "id": 22009,
+      "kuerzel": "M_Ph2EU",
+      "bezeichnung": "Physik 2 (EEU)",
+      "url": "allModules/22009_M_Ph2EU.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "CFD und FEM"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "CFD and FEM"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2012,
+    "beginSemester": "HS",
+    "endJahr": 2016,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 19896,
+    "kuerzel": "M_CFD_FEM",
+    "bezeichnung": "CFD und FEM (EEU)",
+    "url": "allModules/19896_M_CFD_FEM.json"
+  }
+}

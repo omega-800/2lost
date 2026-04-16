@@ -1,0 +1,441 @@
+{
+  "id": 43505,
+  "kuerzel": "M_LinAlg2EC",
+  "bezeichnung": "Lineare Algebra (2 ECTS-Punkte)",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Die Lineare Algebra stellt sehr n&uuml;tzliche und effiziente Werkzeuge zum Bearbeiten von hochdimensionalen Fragestellungen zur Verf&uuml;gung.<br />Dieses Modul stellt einen mathematischen Werkzeugkasten bereit, damit die hochdimensionalen mathematischen Probleme, welche in den Fachvorlesungen der h&ouml;heren Semester auftauchen, effizient bearbeitet werden k&ouml;nnen.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 43506,
+      "kuerzel": "LinAlg2EC",
+      "bezeichnung": "Lineare Algebra (2 ECTS-Punkte)",
+      "lernziele": "<p>Die Studierenden k&ouml;nnen</p>\n<ul>\n<li>mit dem Gauss'schen Eliminationsalgorithmus lineare Gleichungssysteme l&ouml;sen und Matrizen invertieren.</li>\n<li>alle elementaren Matrix-Berechnungen durchf&uuml;hren und einfache Matrizengleichungen l&ouml;sen.</li>\n<li>Lineare Abbildungen mithilfe von Matrizen ausdr&uuml;cken.</li>\n<li>Determinanten f&uuml;r beliebige Matrizen von Hand berechnen mit dem Laplac'schen Entwicklussatz.</li>\n<li>Koordinatentransformationen (Basiswechsel) durchf&uuml;hren.</li>\n<li>Eigenwerte- und vektoren einer Matrix von Hand berechnen und Matrizen damit diagonalisieren (Eigenwertzerlegung).</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Einf&uuml;hrung:</li>\n<li>Rotationsmatrizen</li>\n<li>Lineare Gleichungssysteme:</li>\n<li>Gauss-Algorithmus, Gauss-Jordan Algorithmus, Rang einer Matrix</li>\n<li>Matrix-Rechnung:&nbsp;</li>\n<li>Addition, Matrix-Multiplikation, Transponieren, Inverse Matrix, Rechenregeln, Lineare Matrixgleichungen</li>\n<li>Der Vektorraum R^n:&nbsp;</li>\n<li>Vektorr&auml;ume, Basis und Koordinaten, L&auml;ngen und Winkel.</li>\n<li>Matrizen als lineare Abbildungen:</li>\n<li>Linearit&auml;t, Konstruktion von Matrizen, Beispiele</li>\n<li>Determinanten:&nbsp;</li>\n<li>(2x2)-Matrizen, (3x3)-Matrizen, Entwicklungssatz, Eigenschaften</li>\n<li>Koordinatentransformationen:</li>\n<li>Gram-Schmidt-Orthogonalisierung, Transformationsmatrix f&uuml;r beliebige und orthogonale Koordinatentransformationen</li>\n<li>Eigenwerte und Eigenvektoren:</li>\n<li>Berechnung, Eigenr&auml;ume, Diagonalisierung,Matrix-Potenz und -Exponentialfunktion</li>\n<li>Berechnung dieser Matrixoperationen mit Matlab</li>\n</ul>",
+      "bibliographie": "<p>Siehe Kursunterlagen: Skript, &Uuml;bungsserien</p>",
+      "kurselemente": [
+        {
+          "id": 43507,
+          "art": "Vorlesung",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 43508,
+          "art": "Uebung",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Lineare Algebra (2 ECTS-Punkte)"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Linear Algebra (2 ECTS)"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10005,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10005_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10104,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10104_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10125,
+          "kuerzel": "W_IKpl",
+          "bezeichnung": "Ingenieurkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10109,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10109_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10129,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10129_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10125,
+          "kuerzel": "W_IKpl",
+          "bezeichnung": "Ingenieurkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10130,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10130_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10125,
+          "kuerzel": "W_IKpl",
+          "bezeichnung": "Ingenieurkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10131,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10131_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10197,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10197_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10202,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10202_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10272,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10272_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10169,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10169_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 10151,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10151_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 538970,
+      "name": "Martignoli",
+      "vorname": "Stefan"
+    }
+  ],
+  "mengen": [
+    {
+      "id": 7,
+      "name": "Aequivalenz",
+      "dModMengeArt": 5701,
+      "module": [
+        {
+          "id": 19208,
+          "kuerzel": "M_LinAlg2EC",
+          "bezeichnung": "Lineare Algebra (2 ECTS-Punkte)",
+          "url": "allModules/19208_M_LinAlg2EC.json"
+        },
+        {
+          "id": 19977,
+          "kuerzel": "M_LinAlgEU",
+          "bezeichnung": "Lineare Algebra (EEU)",
+          "url": "allModules/19977_M_LinAlgEU.json"
+        },
+        {
+          "id": 43501,
+          "kuerzel": "M_LinAlgEU",
+          "bezeichnung": "Lineare Algebra (EEU)",
+          "url": "allModules/43501_M_LinAlgEU.json"
+        },
+        {
+          "id": 43505,
+          "kuerzel": "M_LinAlg2EC",
+          "bezeichnung": "Lineare Algebra (2 ECTS-Punkte)",
+          "url": "allModules/43505_M_LinAlg2EC.json"
+        },
+        {
+          "id": 43779,
+          "kuerzel": "M_LinAlg2EU",
+          "bezeichnung": "Lineare Algebra 2 (EEU)",
+          "url": "allModules/43779_M_LinAlg2EU.json"
+        },
+        {
+          "id": 44517,
+          "kuerzel": "M_LinAlg2EU",
+          "bezeichnung": "Lineare Algebra 2 (EEU)",
+          "url": "allModules/44517_M_LinAlg2EU.json"
+        },
+        {
+          "id": 45107,
+          "kuerzel": "M_LinAlg2EU",
+          "bezeichnung": "Lineare Algebra 2 (EEU)",
+          "url": "allModules/45107_M_LinAlg2EU.json"
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 43505,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Lineare Algebra (2 ECTS-Punkte)"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Linear Algebra (2 ECTS)"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2024,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 19208,
+    "kuerzel": "M_LinAlg2EC",
+    "bezeichnung": "Lineare Algebra (2 ECTS-Punkte)",
+    "url": "allModules/19208_M_LinAlg2EC.json"
+  }
+}

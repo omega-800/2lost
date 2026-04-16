@@ -1,0 +1,209 @@
+{
+  "id": 57198,
+  "kuerzel": "M_MeT_IV",
+  "bezeichnung": "Mechatronik IV",
+  "kreditpunkte": 10,
+  "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>kennen</li>\n</ul>",
+  "vorausgKenntnisse": "<p>Vorausgesetzt sind die Module Mechanik &amp; Materials Engineering I und Mechanik &amp; Materials Engineering II, Elektrotechnik &amp; Lineare Algebra I und Elektrotechnik &amp; Lineare Algebra II sowie Informatik &amp; Autonome Roboter und Informatik.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 57199,
+      "kuerzel": "MeT_IV_B",
+      "bezeichnung": "Batterien in mechatronischen Produkten",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>k&ouml;nnen die Anforderungen an ein Batteriesystem definieren und daraus eine geeignete Batteriezelle identifizieren.</li>\n<li>k&ouml;nnen einfache thermisch- / elektrische Modelle von Batteriezellen erstellen und parametrieren und dadurch das Systemverhalten analysieren.</li>\n<li>k&ouml;nnen Batteriemodelle anhand experimenteller Daten validieren.</li>\n<li>k&ouml;nnen das Thermalsystem und die mechanischen Komponenten eines Batteriesystems unter Ber&uuml;cksichtigung der wichtigsten Sicherheitsaspekte auslegen.</li>\n<li>verstehen die Aufgaben und Funktionsweise des Batteriemanagement-Systems (BMS) als zentrale, sicherheitsrelevante Komponente.</li>\n<li>kennen die unterschiedlichen Ladestrategien (CC, CV, CP) und deren Einfluss auf Ladedauer und Effizienz.</li>\n<li>kennen die Ursachen f&uuml;r die Alterung von Batterien und k&ouml;nnen diese bei der Auslegung eines Batteriesystems ber&uuml;cksichtigen.</li>\n<li>kennen die g&auml;ngigsten, anwendungsspezifischen Zertifizierungen f&uuml;r Batteriesysteme.</li>\n<li>verstehen die Herausforderungen der Kreislaufwirtschaft bezogen auf Batterien und kennen die aktuellen Bestrebungen bez&uuml;glich Nachhaltigkeit und Recycling.&nbsp;</li>\n</ul>",
+      "planinhalt": "<p>Der Kurs &laquo;Batterien in mechatronischen Produkten&raquo; vermittelt das n&ouml;tige Wissen, um Energiespeicher f&uuml;r mobile Anwendungen einzusetzen. Es werden alle ben&ouml;tigten Komponenten und deren Einfluss auf Effizienz und Lebensdauer der Batterie behandelt. Zus&auml;tzlich werden auch die Themen Zertifizierung und Sicherheit behandelt.</p>",
+      "bibliographie": "<p>Gregory L. Plett, Battery Management Systems, Volume 1: Battery Modelling, 2015</p>",
+      "empfLehrmittel": "<p>Vorlesung, Labor&uuml;bungen, Selbststudium, Projektarbeit</p>",
+      "bemerkungKurs": "<p>Unterrichtssprache ist Deutsch, die Unterrichtsunterlagen sind zum Teil auf Englisch</p>",
+      "leistungsnachweis": "<p>Projektarbeit</p>",
+      "kurselemente": [
+        {
+          "id": 57200,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2201838,
+          "name": "Stöck",
+          "vorname": "Martin"
+        }
+      ]
+    },
+    {
+      "id": 57201,
+      "kuerzel": "MeT_IV_ML",
+      "bezeichnung": "Machine Learning in Action",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>kennen die Arten des Maschinellen Lernens (ML), k&ouml;nnen ML Verfahren kategorisieren und diese jeweils entsprechenden Problemstellungen zuweisen.</li>\n<li>sind in der Lage, eine univariate und multivariate explorative Datenanalyse (EDA) durchzuf&uuml;hren.</li>\n<li>k&ouml;nnen f&uuml;r einen gegebenen Datensatz Merkmale extrahieren (feature engineering), ausw&auml;hlen (feature selection) und vorbearbeiten (preprocessing).</li>\n<li>kennen die wichtigsten klassischen ML-Modelle f&uuml;r &uuml;berwachtes Lernen (lin. Regression, log. Regression, kNN, Decision Tree, Random Forest, AdaBoost) und k&ouml;nnen diese in ML-Pipelines unter Verwendung von Python und geeigneten Bibliotheken (scikit-learn, pandas, keras | pytorch) implementieren, debuggen und optimieren.</li>\n<li>kennen den Bias-Variance-Trade-off sowie das &laquo;no Free Lunch&raquo;-Theorem und sind in der Lage, ein geeignetes ML-Verfahren mittels Kreuzvalidierung zu bewerten.</li>\n<li>verstehen die wichtigsten Metriken (mse, mae, accuracy, F1, recall, precision, ROC, AUC,&hellip;) und k&ouml;nnen ein erlerntes ML-Verfahren anhand von Test- und Validierungsdatens&auml;tzen mittels dieser Metriken quantitativ bewerten.</li>\n<li>kennen Regularisierungsmethoden f&uuml;r ML-Modelle Netze und k&ouml;nnen Hyperparameter von Architekturen mittels einer (kreuzvalidierten) Gittersuche anpassen.</li>\n<li>k&ouml;nnen Machine Learning Projekte end-to-end planen, durchf&uuml;hren und dokumentieren (z.B. mit Jupyter Notebooks).</li>\n<li>k&ouml;nnen erkl&auml;ren, wie neuronale Netze funktionieren und was sie im Vergleich zu anderen Modellen des maschinellen Lernens auszeichnet.</li>\n<li>k&ouml;nnen entscheiden, in welchen F&auml;llen und Anwendungen ein tiefes neuronales Netz eine gute Wahl f&uuml;r ein bestimmtes ML-Problem ist.</li>\n<li>kennen die wichtigsten Architekturen (CNN,&hellip;) von tiefen Neuronalen Netzen und k&ouml;nnen diese in Python (Keras | pytorch) implementieren, trainieren und deren Performance f&uuml;r einen ML-Task beurteilen.</li>\n<li>sind in der Lage, ihr Verst&auml;ndnis von tiefen Neuronalen Netzen in einem angewandten Projekt zu demonstrieren</li>\n</ul>",
+      "planinhalt": "<p>Dieser Kurs bietet eine fundierte Einf&uuml;hrung in die Grundlagen des Maschinellen Lernens, unter Verwendung von Python, scikit-learn, keras und/oder PyTorch. Studierende werden in die Lage versetzt, komplexe Probleme zu analysieren, datenbasierte Modelle zu erstellen, zu trainieren, zu regularisieren und optimeren, zu validieren und anzuwenden. Durch praktische &Uuml;bungen und Anwendungsbeispiele aus verschiedenen Bereichen (z.B. Bilderkennung, Sprachverarbeitung, NLP) werden die Teilnehmer mit den neuesten Entwicklungen und Best Practices im Bereich des Maschinellen Lernens vertraut gemacht. Das Abschlussprojekt erm&ouml;glicht es den Studierenden, ihr erworbenes Wissen in einem eigenst&auml;ndigen Projekt unter Beweis zu stellen.<br />Dieser Kurs ist ein unverzichtbarer Bestandteil f&uuml;r alle, die sich auf dem Gebiet des Maschinellen Lernens weiterentwickeln und ihr Verst&auml;ndnis f&uuml;r die Anwendung von Algorithmen und Techniken vertiefen m&ouml;chten.</p>",
+      "bibliographie": "<ol>\n<li>Aur&eacute;lien G&eacute;ron: Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition, September 2019, O'Reilly Media, Inc. ISBN: 9781492032649</li>\n<li>Sebastian Raschka: Machine Learning with PyTorch and Scikit-Learn: Develop machine learning and deep learning models with Python, Packt Publishing, 2022</li>\n<li>Fran&ccedil;ois Chollet: Deep Learning mit Python und Keras, Das Praxis-Handbuch vom Entwickler der Keras-Bibliothek, Mitp Verlags GmbH &amp; Co.KG</li>\n</ol>",
+      "empfLehrmittel": "<p>Klassenunterricht mit Lehrvortrag, &Uuml;bungen, Selbststudium, Gruppenarbeiten, etc.&nbsp;</p>",
+      "leistungsnachweis": "<p>Projekt mit m&uuml;ndlicher Pr&uuml;fung</p>",
+      "kurselemente": [
+        {
+          "id": 57202,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002668,
+          "name": "Würsch",
+          "vorname": "Christoph"
+        }
+      ]
+    },
+    {
+      "id": 57203,
+      "kuerzel": "MeT_IV_MR",
+      "bezeichnung": "Mobile Robotik",
+      "kreditpunkte": 0,
+      "lernziele": "<ul>\n<li>Verst&auml;ndnis von verschiedenen Koordinatensystemen im Kontext der Robotik</li>\n<li>Umrechnung zwischen Koordinatensystemen mittels homogener Transformationsmatrizen</li>\n<li>Berechnung der Vorw&auml;rts- und R&uuml;ckw&auml;rtskinematik, sowie der Jakobimatrix eines Roboters</li>\n<li>Berechnung von &Uuml;bersetzungsverh&auml;ltnissen und Reduktion von Tr&auml;gheiten</li>\n<li>Kenntnisse &uuml;ber die Berechnung der Dynamik eines Roboters</li>\n<li>Modellierung eines DC-Motors</li>\n<li>Auslegung von Positions- und Geschwindigkeitsreglern</li>\n<li>Bahnplanung mobiler Roboter</li>\n<li>Kenntnisse &uuml;ber verschiedene Sensoren in der mobilen Robotik</li>\n<li>F&auml;higkeit zur Fusion von Sensorinformationen und Anwendung von Beobachtern und Filtern</li>\n<li>Anwendung der erworbenen Kenntnisse in realen Szenarien und Programmierung eines kleinen mobilen Roboters</li>\n<li>M&ouml;gliches Anwendungsbeispiel: Angefangen von der Ansteuerung deines Motors wird schrittweise aufgebaut bis und mit zum Abfahren von vorgegangen Punkten im Raum mittels optimierten Bahnplaner.</li>\n<li>Allenfalls Auslegung und Anwendung eines Kalman Filters</li>\n</ul>",
+      "planinhalt": "<p>Der Kurs \"Mobile Robotik\" vermittelt einen umfassenden &Uuml;berblick &uuml;ber die theoretischen Grundlagen und praktischen Anwendungen der Robotik. Die Studierenden lernen die verschiedenen in der Robotik verwendeten Koordinatensysteme kennen und beherrschen die Umrechnung zwischen ihnen. Sie verstehen die Kinematik und Dynamik von Robotern und damit die Bewegungsm&ouml;glichkeiten und -grenzen eines Roboters.<br />Ein Schwerpunkt liegt auf der Berechnung von Bewegungsabl&auml;ufen, der Positions- und Geschwindigkeitsregelung und der Bahnplanung f&uuml;r mobile Roboter. Dar&uuml;ber hinaus werden Sensortechnologien, die Fusion von Sensorinformationen und die Anwendung von Beobachtern und Filtern zur pr&auml;zisen Positionsbestimmung behandelt.<br />Das Modul legt gro&szlig;en Wert darauf, dass die Teilnehmer ihr erworbenes Wissen in realen Szenarien anwenden k&ouml;nnen. Dazu geh&ouml;rt die Programmierung eines kleinen mobilen Roboters, beginnend mit der Ansteuerung des Motors bis hin zur Implementierung eines optimierten Bahnplaners f&uuml;r die Navigation durch vorgegebene Punkte im Raum.</p>",
+      "bibliographie": "<p>Bruno Siciliano, Handbook of Robotics, Springer Verlag, 2016<br />Peter Corke, Robotics, Vision and Control Fondamental Algorithms in MATLAB, Springer Verlag, 2017<br />Peter Corke, Robotics, Vision and Control Fondamental Algorithms in Python, Springer Verlag, 2023</p>",
+      "empfLehrmittel": "<p>Vorlesung, Labor&uuml;bungen, Projekt, Selbststudium</p>",
+      "bemerkungKurs": "",
+      "leistungsnachweis": "<p>Projektarbeit und Modulschlusspr&uuml;fung</p>",
+      "kurselemente": [
+        {
+          "id": 57204,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2143096,
+          "name": "Frei",
+          "vorname": "Jonas"
+        }
+      ]
+    },
+    {
+      "id": 57205,
+      "kuerzel": "MeT_IV_R",
+      "bezeichnung": "Regelung mechatronischer Systeme",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden&nbsp;</p>\n<ul>\n<li>k&ouml;nnen das Verfahren der Pol-/Nullstellenkompensation anwenden, um das dynamische Verhalten eines Systems zu beeinflussen.&nbsp;<br />(Bsp.: anpassen der Systemdynamik durch ein Kontrollglied.)</li>\n<li>k&ouml;nnen den geeigneten Regler f&uuml;r ein System festlegen und dessen Parameter bestimmen.<br />(Bsp.: Positionsregelung eines einzelnen DC-Motors.)</li>\n<li>k&ouml;nnen das Konzept der Vorsteuerung (Feed Forward) anwenden, um das F&uuml;hrungsverhalten einer Kaskadenregelung zu verbessern.<br />(Bsp.: Geschwindigkeits- und Momentenvorsteuerung beim DC-Motor)</li>\n<li>kennen die Limitierungen des realen Systems und k&ouml;nnen deren Einfluss auf die Regelung absch&auml;tzen.<br />(Bsp.: Stellgr&ouml;ssenbegrenzung, Sensoraufl&ouml;sung, Abtastzeit Digitalregler etc.)</li>\n<li>k&ouml;nnen einen zeitdiskreten PID-Regler auf einem Mikrokontroller implementieren.</li>\n</ul>",
+      "planinhalt": "<p>Die Studierenden versehen das Konzept der Pol-Nullstellen-Kompensation zur Beeinflussung des Streckenverhaltens. Daraus abgeleitet erfolgt der Entwurf einer Kaskadenregelung mit Vorsteuerung f&uuml;r das mechatronische Beispielsystem &laquo;Servoantrieb mit Last&raquo;. Es wird eine zeitdiskrete Regelung implementiert und in Betrieb genommen um die Limitierungen (Abtastzeit, Sensoraufl&ouml;sung, Stellgr&ouml;ssenbegrenzung, etc.) eines realen mechatronischen Systems aufzuzeigen.</p>",
+      "bibliographie": "<p>Wilhelm Haager, Regelungstechnik, HPT-Verlag, 2017</p>",
+      "empfLehrmittel": "<p>Vorlesung, Lehrgespr&auml;ch, Labor&uuml;bungen, Projekt, Selbststudium</p>",
+      "leistungsnachweis": "<p>Projekt und Modulschlusspr&uuml;fung</p>",
+      "kurselemente": [
+        {
+          "id": 57206,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002897,
+          "name": "Christen",
+          "vorname": "Rouven"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2201838,
+      "name": "Stöck",
+      "vorname": "Martin"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 57187,
+      "kuerzel": "M_MeT_III",
+      "bezeichnung": "Mechatronik III",
+      "url": "allModules/57187_M_MeT_III.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 11,
+      "kuerzel": "LSG",
+      "bezeichnung": "Lerchenfeld St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 57198,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Am Ende des Semesters findet eine abgesetzte Modulschlusspr&uuml;fung in zwei Teilen statt. Die Kurse Mobile Robotik sowie Regelung mechatronischer Systeme bilden je einen Teil der abgesetzten Modulschlusspr&uuml;fung.</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Mechatronics IV"
+    }
+  ],
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2025,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "FS"
+  }
+}

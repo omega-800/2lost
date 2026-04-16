@@ -1,0 +1,180 @@
+{
+  "id": 23029,
+  "kuerzel": "M_BuF4",
+  "bezeichnung": "Boden und Fels 4",
+  "kreditpunkte": 4,
+  "lernziele": "<p>&bull; Geotechnik 4: F&auml;higkeit Erddruckberechnungen auszuf&uuml;hren sowie St&uuml;tzkonstruktionen und Baugruben zu bemessen<br />&bull; Untertagebau 2: F&auml;higkeit Untertagebauwerke zu projektieren und zu realisieren</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 23030,
+      "kuerzel": "Untbau2",
+      "bezeichnung": "Untertagebau 2",
+      "lernziele": "<p>&bull; Grundkenntnisse in Projektierung und Realisierung von Untertagebauten<br />&bull; Kenntnis wesentlicher Bauverfahren, Installationen sowie Arbeitssicherheits-Anforderungen</p>",
+      "planinhalt": "<ul><li>Bau und Projektierung von Untertag-Bauwerken</li><li>Grunds&auml;tze der Projektleitung&nbsp;</li><li>Kavernen- und Schachtbau</li><li>Pressrohrvortrieb/Microtunnelling</li><li>Tunnel-Abdichtung, -Entw&auml;sserung, -Verkleidung</li><li>Materialbewirtschaftung, Umwelt</li><li>Logistik und Installationen</li><li>Bau- und Betriebsl&uuml;ftung</li><li>Tunnelvermessung</li><li>Arbeitssicherheit</li><li>Bauzeiten und Baukosten, Qualit&auml;t</li><li>Sprengkurs</li></ul>",
+      "kurselemente": [
+        {
+          "id": 23031,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Untertagebau 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Tunnelling 2"
+        }
+      ]
+    },
+    {
+      "id": 23034,
+      "kuerzel": "Geotech4",
+      "bezeichnung": "Geotechnik 4",
+      "lernziele": "<ul>\n    <li>F&auml;higkeit optimale Baugrubensysteme zu w&auml;hlen und Baugrubenabschl&uuml;sse und St&uuml;tzbauwerke zu bemessen</li>\n</ul>",
+      "planinhalt": "<p>&#8226; Erddrucktheorien <br />&#8226; St&#252;tzbauwerke <br />&#8226; Baugrubenabschl&#252;sse </p>",
+      "kurselemente": [
+        {
+          "id": 23035,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Geotechnik 4"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Geotechnics 4"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10005,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10005_B.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10109,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10109_B.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10131,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10131_B.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9,
+      "name": "Schneider",
+      "vorname": "Hansruedi"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 23259,
+      "kuerzel": "M_BuF3",
+      "bezeichnung": "Boden und Fels 3",
+      "url": "allModules/23259_M_BuF3.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 23029,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Geotechnik 4:&nbsp; Testatbedingung</p><p><br />Untertagebau 2:</p><ul><li>Semester&uuml;bung erf&uuml;llt&nbsp;</li></ul><p>&nbsp;</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Boden und Fels 4"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Soil and Rock 4"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "FS",
+    "endJahr": 2017,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 11070,
+    "kuerzel": "M_BuF4",
+    "bezeichnung": "Boden und Fels 4",
+    "url": "allModules/11070_M_BuF4.json"
+  }
+}

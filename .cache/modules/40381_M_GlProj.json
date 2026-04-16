@@ -1,0 +1,167 @@
+{
+  "id": 40381,
+  "kuerzel": "M_GlProj",
+  "bezeichnung": "Grundlagen der Projektierung von Tragwerken",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n<li>Verstehen von Bemessungskonzepten zur Gew&auml;hrleistung von Tragsicherheit und Gebrauchstauglichkeit von Bauwerken gem&auml;ss Normen SIA 260 und SIA 261.</li>\n<li>Verstehen die Bestimmung aller wesentlichen Einwirkungen auf Tragwerke.</li>\n<li>F&auml;higkeit einfache Tragwerke aus der Ingenieurpraxis zu modellieren und von Hand zu bemessen</li>\n<li>Verst&auml;ndnis von Zuverl&auml;ssigkeit und Robustheit von Tragwerken mit Statistik und Wahrscheinlichkeit als Basis.</li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 40384,
+      "kuerzel": "GlProj",
+      "bezeichnung": "Grundlagen der Projektierung von Tragwerken",
+      "lernziele": "<p>&#8226; Verst&#228;ndnis f&#252;r den Umgang mit Berechnungsmodellen zur Gew&#228;hrleistung von Tragsicherheit und Gebrauchstauglichkeit von Bauwerken. <br />&#8226; Sicherheit in der Anwendung der Grundlagen der SWISSCODES (neue Normengeneration SIA 260 &#8211; 267) </p>",
+      "planinhalt": "<p>&#8226; Projektierungselemente (Gef&#228;hrdungsbild, Nutzungszustand, Bemessungssituationen, Tragsicherheit, Gebrauchstauglichkeit) <br />&#8226; Einwirkungen auf Tragwerke, Last- und Reduktionsbeiwerte, Bemessungswerte <br />&#8226; Grenzzust&#228;nde der Tragsicherheit und der Gebrauchstauglichkeit </p>",
+      "kurselemente": [
+        {
+          "id": 40385,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 40387,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Grundlagen der Projektierung von Tragwerken"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Fundamentals of Structural Design"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10197,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10197_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10234,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10234_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5010785,
+      "name": "Marković",
+      "vorname": "Ivan"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 26096,
+      "kuerzel": "M_Bausta1",
+      "bezeichnung": "Baustatik 1",
+      "url": "allModules/26096_M_Bausta1.json"
+    },
+    {
+      "id": 28467,
+      "kuerzel": "M_Baustoff1",
+      "bezeichnung": "Baustoffe 1",
+      "url": "allModules/28467_M_Baustoff1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 40381,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Abgegebenes Semesterprojekt</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Grundlagen der Projektierung von Tragwerken"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Fundamentals of Structural Design"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2022,
+    "beginSemester": "FS",
+    "endJahr": 2023,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 40381,
+    "kuerzel": "M_GlProj",
+    "bezeichnung": "Grundlagen der Projektierung von Tragwerken",
+    "url": "allModules/40381_M_GlProj.json"
+  }
+}

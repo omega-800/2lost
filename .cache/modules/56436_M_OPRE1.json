@@ -1,0 +1,272 @@
+{
+  "id": 56436,
+  "kuerzel": "M_OPRE1",
+  "bezeichnung": "Operations Research 1",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden lernen Modellierungsans&auml;tze und mathematische Methoden kennen, die helfen, anspruchsvolle Optimierungsaufgaben aus der Industrie und der Betriebswirtschaft erfolgreich zu bearbeiten. Die bearbeiteten Anwendungen liegen vor allem im Operations-Management &amp; Logistics, sind aber genauso in Service und Dienstleistung anwendbar.&nbsp;</p>\n<p>Fokus liegt auf der mathematischen Modellierung von deterministischen Systemen (stochstische Problemstellungen werden in OPRE2, FS angegangen) und auf der selbstst&auml;ndigen Entwicklung von einfachen Algorithmen f&uuml;r praktische Optimierungsaufgaben. Erkl&auml;rtes Ziel ist es, ausreichend Anwendungskompetenzen zu vermitteln, dass Sie sich zutrauen, die Ans&auml;tze selbstst&auml;ndig in der Praxis anzuweden.</p>",
+  "vorausgKenntnisse": "<ul>\n<li>Basismathematik (Umgang mit Vektoren und Matrizen)</li>\n<li>APROG (einfache Kontrollstrukturen (IF, FOR) in Python)</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 56437,
+      "kuerzel": "Research1",
+      "bezeichnung": "Operations Research 1",
+      "lernziele": "<p><strong>Fachkompetenzen</strong></p>\n<p>Die Teilnehmenden:</p>\n<p>-k&ouml;nnen (Operations-Research) Modelle herleiten, simulieren, analysieren, validieren und ggf. verbessern</p>\n<p>-k&ouml;nnen gut dokumentierte Heuristiken und Algorithmen korrekt ausf&uuml;hren, richtig anwenden und ggf. f&uuml;r eigene Bed&uuml;rfnisse anpassen</p>\n<p>-lernen grosse komplexe Probleme in kleinere, &uuml;berschaubarere Probleme herunterzubrechen und durch Trial-and-Error sich langsam aber sicher an wirksame L&ouml;sungen heranzutasten&nbsp;&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Methodenkompetenzen</strong></p>\n<p>Die Teilnehmenden:&nbsp;<br />-k&ouml;nnen f&uuml;r einfache und mittelschwere Aufgabenstellungen ein ad&auml;quates mathematisches Programmierungsmodel aufstellen und mit einem Solver l&ouml;sen.&nbsp;<br />-k&ouml;nnen f&uuml;r einfache und mittelschwere Aufgabenstellungen ein ad&auml;quates graphentheoretisches Modell aufstellen und mit bekannten Algorithmen l&ouml;sen.&nbsp;<br />-k&ouml;nnen Konstruktionsheuristiken und Verbesserungsheuristiken entwickeln f&uuml;r Optimierungsaufgaben aus der Praxis, die zu gross sind, um mit einem Standard ILP Solver zu l&ouml;sen.</p>\n<p>&nbsp;</p>\n<p><strong>Selbstkompetenzen</strong></p>\n<p>Die Teilnehmenden:&nbsp;<br />-gewinnen Selbstverstrauen, Mut und Kreativit&auml;t in der Arbeit mit quantitativen Methoden (insbesondere im Bereich Operations-Management &amp; Logistics).&nbsp;<br />-k&ouml;nnen die Grenzen der erlernten Methoden einsch&auml;tzen.&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Sozialkompetenzen</strong>&nbsp;</p>\n<p>Die Teilnehmenden:&nbsp;<br />-k&ouml;nnen bei der Erstellung von Modellen effektiv zusammenarbeiten.&nbsp;<br />-k&ouml;nnen durch gezieltes Nachfragen aus unvollst&auml;ndigen Angaben und vagen Zielvorstellungen eine ad&auml;quate Aufgabenstellung herleiten. &nbsp;</p>",
+      "planinhalt": "<p><strong>Themen/Lernblock: &nbsp;Mathematische Programmierung&nbsp;</strong></p>\n<ul>\n<li>Einf&uuml;hrung: Variablen, Parameter und Indices als Bausteine f&uuml;r lineare Modelle mit Zielfunktion und Nebenbedingungen.</li>\n<li>Modelle mit bin&auml;ren Variablen; Modellierung von logischen Nebenbedingungen (A oder B, A und B, wenn A dann B), Sprungkosten u.v.m. &nbsp;</li>\n<li>Standard (Matrix-) Form der mathematischen Programmierungsmodelle; Optimierung mit Hilfe von open-source zug&auml;nglichen Solvern (Python); Interpretation und Validierung der Ergebnisse.&nbsp;</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Themen/Lernblock: &nbsp;Kombinatorische Optimierung</strong></p>\n<ul>\n<li>Einf&uuml;hrung: globales Optimum, lokales Optimum, Nachbarschaft.</li>\n<li>Konstruktionsheuristiken &amp; Verbesserungsheuristiken.</li>\n<li>Neustarts &amp; Randomisierung.</li>\n<li>Umsetzung an individuellen Praxis-Beispielen: Projektarbeit in Kleinruppen. (vgl. Leistungsnachweis)</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Themen/Lernblock: &nbsp;Graphentheorie&nbsp;</strong></p>\n<ul>\n<li>Einf&uuml;hrung: Knoten und Kanten; Pfade, B&auml;ume und Fl&uuml;sse; Kanten- und Knotenf&auml;rbungen. &nbsp;</li>\n<li>Algorithmen zur Bestimmung des k&uuml;rzesten Pfades, des minimalen Spannbaums und des maximalen Flusses. &Uuml;bersicht der breiten Anwendungsm&ouml;glichkeiten dieser Algorithmen.</li>\n<li>Umsetzung und Optimierung &nbsp;mit bestehenden Packages in Python.</li>\n<li>Das Traveling Salesman Problem und die sogenannte &laquo;kombinatorische Explosion&raquo;.</li>\n</ul>",
+      "bibliographie": "<p><strong>Pflichtliteratur wie Skript, B&uuml;cher </strong></p>\n<ul>\n<li>Folienskript</li>\n<li>Zusammengestellte Unterlagen&nbsp;</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Weiterf&uuml;hrende Literatur (Empfehlung an Studierende)&nbsp;</strong></p>\n<ul>\n<li>\n<p>Winston, Wayne L., Operations Research: Applications and Algorithms., Vol. 4., Duxbury Press, 2004.</p>\n<p>&nbsp;</p>\n</li>\n<li>\n<p>Holger H. Hoos &amp; Thomas St&uuml;tzle, Stochastic Local Search: Foundations and Applications, Morgan Kaufmann / Elsevier, 2004.</p>\n<p>&nbsp;</p>\n</li>\n<li>\n<p>Sebastian Stiller: Planet der Algorithmen; Knaus Verlag, 2015 [Auszug] beschreibt das Konzept des Dijkstra Algorithmus anschaulich und gibt Hinweise, wie der Algorithmus in sehr umfangreichen Graphen zum Einsatz kommt (Navigationsger&auml;te)</p>\n</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 56438,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 108,
+          "harteGrenze": true
+        },
+        {
+          "id": 56439,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Operations Research 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Operations Research 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10104,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10104_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10127,
+          "kuerzel": "W-MKpl",
+          "bezeichnung": "Methodenkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10129,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10129_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10127,
+          "kuerzel": "W-MKpl",
+          "bezeichnung": "Methodenkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10130,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10130_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10127,
+          "kuerzel": "W-MKpl",
+          "bezeichnung": "Methodenkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10151,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10151_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10169,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10169_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10202,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10202_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10272,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10272_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10277,
+      "bezeichnung": "Data Science",
+      "kuerzel": "WING_DaSc",
+      "url": "allStudies/10277_WING_DaSc.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10224,
+      "bezeichnung": "Data Science",
+      "kuerzel": "WING_DaSc",
+      "url": "allStudies/10224_WING_DaSc.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 28034,
+      "name": "Hügel",
+      "vorname": "Katrin"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 56436,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Schwerpunkt Mathematische Programmierung und Graphentheorie<br />Dauer: 60 Minuten, Anteil an der Note 50%</p>\n<p>Bei der Pr&uuml;fung erlaubt sind: &nbsp;<br />- closed book mit eigener Zusammenfassung auf 2 Blatt A4, beidseitig beschrieben (=4 Seiten)<br />-Taschenrechner (keine kommunikationsf&auml;higen Ger&auml;te)</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Operations Research 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Operations Research 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2025,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 31594,
+    "kuerzel": "M_Research1",
+    "bezeichnung": "Operations Research 1",
+    "url": "allModules/31594_M_Research1.json"
+  }
+}

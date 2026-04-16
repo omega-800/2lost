@@ -1,0 +1,159 @@
+{
+  "id": 37778,
+  "kuerzel": "M_TSM_MatPla",
+  "bezeichnung": "Werkstoffmechanik und Plastizität",
+  "kreditpunkte": 3,
+  "lernziele": "siehe: <a href=\"http://www.msengineering.ch/\">http://www.msengineering.ch/</a>&nbsp;",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 37779,
+      "kuerzel": "TSM_Matpla",
+      "bezeichnung": "Werkstoffmechanik und Plastizität",
+      "kurselemente": [
+        {
+          "id": 37780,
+          "art": "Blockkurs",
+          "maxTeilnehmer": 999,
+          "harteGrenze": false
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Werkstoffmechanik und Plastizität"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Mechanics of materials and theory of plasticity"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10064,
+      "bezeichnung": "Spatial Development & Landscape Architecture",
+      "kuerzel": "SDLA_FG",
+      "url": "allStudies/10064_SDLA_FG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10066,
+      "bezeichnung": "Civil Engineering & Building Technology",
+      "kuerzel": "CEBT_FG",
+      "url": "allStudies/10066_CEBT_FG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10114,
+          "kuerzel": "MSE-TSM_P",
+          "bezeichnung": "Pflichtmodule aus Kategorie Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10182,
+      "bezeichnung": "Bau und Planung",
+      "kuerzel": "BuP",
+      "url": "allStudies/10182_BuP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10136,
+          "kuerzel": "MSE-ZentMo",
+          "bezeichnung": "MSE Zentrale Module",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10183,
+      "bezeichnung": "Civil Engineering",
+      "kuerzel": "CE_Profil",
+      "url": "allStudies/10183_CE_Profil.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9989,
+      "name": "ZZZ Dozent HL",
+      "vorname": "Planung"
+    }
+  ],
+  "orte": [
+    {
+      "id": 5,
+      "kuerzel": "MSE-Z",
+      "bezeichnung": "MSE Zürich",
+      "ort": "Zürich"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Werkstoffmechanik und Plastizität"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Mechanics of materials and theory of plasticity"
+    }
+  ],
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2021,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  }
+}

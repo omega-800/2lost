@@ -1,0 +1,181 @@
+{
+  "id": 16130,
+  "kuerzel": "M_Info4OOA",
+  "bezeichnung": "Informatik 4: OOA/OOD",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Beherrschen einfacher Systementwicklungen mittels objektorientierten Methoden (OOA/OOD) <br /><br /><br /><br /><br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 16131,
+      "kuerzel": "Info4OOA",
+      "bezeichnung": "Informatik 4 OOA/OOD",
+      "planinhalt": "<p>Vorgehensmodell; Anforderungsanalyse; Anwendungsfallanalyse;&nbsp;Problembereichsanalyse; UML; <br />Klassendiagramm; Aktivit&auml;tsdiagramm; Kommunikationsdiagramm; Sequenzdiagramm; Zustandsdiagramm; Paktetdiagramm, Objektdiagramm, Use-Case-Diagramm, Umsetzung von UML-Spezifikationen nach C++/Java, Design Patterns<br />Komponentendiagramm; Object Constraint Language; Demonstrationsprojekt</p>\n<p>(Aenderungen vorbehalten)<br /></p>",
+      "kurselemente": [
+        {
+          "id": 16132,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 48,
+          "harteGrenze": true
+        },
+        {
+          "id": 16133,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Informatik 4 OOA/OOD"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Computer Science 4 OOA/OOD"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 221,
+      "name": "Letsch",
+      "vorname": "Thomas"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 16135,
+      "kuerzel": "M_Info3Java",
+      "bezeichnung": "Informatik 3: Java",
+      "url": "allModules/16135_M_Info3Java.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 16130,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Informatik 4: OOA/OOD"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Computer Science 4: OOA/OOD"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2007,
+    "beginSemester": "HS",
+    "endJahr": 2008,
+    "endSemester": "HS"
+  }
+}

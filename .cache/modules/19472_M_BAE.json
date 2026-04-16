@@ -1,0 +1,130 @@
+{
+  "id": 19472,
+  "kuerzel": "M_BAE",
+  "bezeichnung": "Bachelor-Arbeit Elektrotechnik",
+  "kreditpunkte": 12,
+  "lernziele": "<p>Anwendung der erworbenen Kenntnisse und F&#228;higkeiten. Die Arbeit soll den Nachweis erbringen, dass der Absolvent f&#228;hig ist, ein Problem selbstst&#228;ndig unter Anwendung ingenieurm&#228;ssiger Methoden zu l&#246;sen.</p>",
+  "vorausgKenntnisse": "<p>Zulassungsbedingung:<br />64 ECTS-Punkte erworben in der Kategorie Elektrotechnik Grundlagen und<br />30 ECTS-Punkte erworben in der Kategorie Mathematik<br /><br />F&uuml;r die Zulassung zur Bachelorarbeit im Herbstsemester gelten zus&auml;tzliche Bedingungen, gem&auml;ss &quot;Ausf&uuml;hrungsbestimmungen f&uuml;r das Bachelor- und das Masterstudium an der HSR Hochschule f&uuml;r Technik Rapperswil&quot;.</p>\n<p>&nbsp;</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 19473,
+      "kuerzel": "BAE",
+      "bezeichnung": "Bachelor-Arbeit Elektrotechnik",
+      "planinhalt": "<p>Die Bachelor-Arbeit wird in der Regel einem 2er Team &uuml;bertragen und von einem Dozenten betreut. Sie dauert ca. 14 Wochen mit einem Arbeitsaufwand von insgesamt&nbsp;mindestens 360 Arbeitsstunden. <br />Das Thema der Arbeit kann von einer externen Firma, vom Dozenten oder von den&nbsp;Studierenden vorgeschlagen werden und steht in Zusammenhang mit einem oder mehreren Profilierungsmodulen, welche die Studierenden belegen. Die definitive Aufgabenstellung obliegt dem betreuenden Dozenten.&nbsp; <br /><br />Entsprechend desLernziels sollte die Bachelor-Arbeit &uuml;ber einen konzeptionellen, einen theoretischen und einen praktischen Anteil verf&uuml;gen und folgende Teilaufgaben umfassen: <br />&bull; Einarbeitung in eine neue Aufgabenstellung <br />&bull; Planung des Projektes <br />&bull; Analyse der Anforderungen (Spezifikation, Pflichtenheft) <br />&bull; Entwurf und Realisierung der L&ouml;sung (inkl. Bewertung des Standes der Technik) <br />&bull; Test der L&ouml;sung <br />&bull; Bewertung und Ausblick. </p>\n<p>Es wird empfohlen, die Studien- und die Bachelor-Arbeit in unterschiedlichen Profilierungsmodulen zu absolvieren.<br /><br /></p>",
+      "kurselemente": [
+        {
+          "id": 19474,
+          "art": "Bachelor-Arbeit",
+          "anzLektionen": 12,
+          "maxTeilnehmer": 100,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Bachelor-Arbeit Elektrotechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Bachelor Thesis Electrical Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10083,
+          "kuerzel": "E-BA",
+          "bezeichnung": "Bachelor-Arbeit Elektrotechnik",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10083,
+          "kuerzel": "E-BA",
+          "bezeichnung": "Bachelor-Arbeit Elektrotechnik",
+          "kreditpunkte": 12
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 147,
+      "name": "Prechtl",
+      "vorname": "Heiner"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 19475,
+      "kuerzel": "M_SAE",
+      "bezeichnung": "Studienarbeit Elektrotechnik",
+      "url": "allModules/19475_M_SAE.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Bachelor-Arbeit Elektrotechnik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Bachelor Thesis Electrical Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2010,
+    "beginSemester": "FS",
+    "endJahr": 2013,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 11191,
+    "kuerzel": "M_BAE",
+    "bezeichnung": "Bachelor-Arbeit Elektrotechnik",
+    "url": "allModules/11191_M_BAE.json"
+  },
+  "nachfolger": {
+    "id": 19472,
+    "kuerzel": "M_BAE",
+    "bezeichnung": "Bachelor-Arbeit Elektrotechnik",
+    "url": "allModules/19472_M_BAE.json"
+  }
+}

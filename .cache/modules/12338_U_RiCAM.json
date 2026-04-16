@@ -1,0 +1,125 @@
+{
+  "id": 12338,
+  "kuerzel": "U_RiCAM",
+  "bezeichnung": "Rechnerintegrierte Fertigung CAM - Übergangsmodul",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Grundkenntnisse, &Uuml;berblick &uuml;ber CNC Fertigungsverfahren. Vertiefung im Bereich Fr&auml;sen durch praktische Arbeit am CAM-System.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 12263,
+      "kuerzel": "uRiCAM",
+      "bezeichnung": "Rechnerintegrierte Fertigung CAM - Übergang",
+      "planinhalt": "<p>CNC<br />Grundlagen:<br />- Grundlagen Steuerungsaufbau<br />- Achsenantriebe (Rotation, Linear)<br />- Messeinrichtungen<br />- F&#252;hrungen<br />- Schutzeinrichtungen<br />- Einbindung, Anbindung an Verwaltungssysteme</p>\n<p>Fr&#228;sen/Drehen:<br />- Achsanordnungen,&nbsp;Aufbau, F&#252;hrungen, spezielle Kinematiken<br />- 2.5D / 3D<br />- Mehrachsenfr&#228;sen<br />- Pheripherie<br />- Fr&#228;stechnologie / Fr&#228;serwerkstoffe / HSC Fr&#228;sen / konverntinelles Fr&#228;sen<br />- angetriebene Werkzeuge&nbsp;beim Drehen<br />- Mehrspindeldrehb&#228;nke<br />- kombinierte Maschinen (Drehen, Fr&#228;sen, Lasern)<br />- Bearbeitungszentren</p>\n<p>Blechbearbeitung:<br />- Konturschneiden<br />- Stanzen, Pressen<br />- Biegen<br />- Vollautomatische Fertigungsstrassen</p>\n<p>Roboter: Montage, Fertigungsstrasse, Entgraten, Schweissen, Pr&#252;fen<br />- Roboteraufbau (X, Y, Z, Scara, 5,6 Achsen, \"Spinnenbein\")<br />- Einsatz<br />- Pheripherie&nbsp;</p>\n<p>andere Verfahren:<br />- Drahterodieren<br />- Erodieren<br />- Schleifen (rund, flach)</p>\n<p><br />&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 12303,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 12304,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Rechnerintegrierte Fertigung CAM - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Computer-aided Manufacturing - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9988,
+      "name": "ZZZ Dozent LB",
+      "vorname": "Planung"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 12338,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Rechnerintegrierte Fertigung CAM - Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Computer-aided Manufacturing - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2007,
+    "endSemester": "SS"
+  }
+}

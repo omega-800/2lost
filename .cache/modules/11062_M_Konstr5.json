@@ -1,0 +1,195 @@
+{
+  "id": 11062,
+  "kuerzel": "M_Konstr5",
+  "bezeichnung": "Konstruktion 5",
+  "kreditpunkte": 4,
+  "lernziele": "<p>&#8226; F&#228;higkeit zum Entwerfen, Bemessen und Gestalten von Tragwerken des Massivbaus und Stahlbaus <br />&#8226; Kompetenz in der Anwendung der zutreffenden Berechnungsannahmen und statischen Modelle sowie der einschl&#228;gigen Normen und Vorschriften </p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10170,
+      "kuerzel": "StBeton5",
+      "bezeichnung": "Stahlbeton 5",
+      "lernziele": "<p>&#8226; F&#228;higkeit zum Entwerfen, Bemessen und Gestalten von Bauteilen aus Spannbeton</p>",
+      "planinhalt": "<p>&#8226; Statische Berechnung, Bemessung, Nachweise und konstruktive Durchbildung von Tragwerken aus Spannbeton</p>",
+      "kurselemente": [
+        {
+          "id": 10590,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Stahlbeton 5"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Reinforced Concrete 5"
+        }
+      ]
+    },
+    {
+      "id": 10171,
+      "kuerzel": "StBau4",
+      "bezeichnung": "Stahlbau 4",
+      "lernziele": "<p>&#8226; F&#228;higkeit zum Entwerfen, Bemessen und Gestalten von Stahlhochbauten</p>",
+      "planinhalt": "<p>&bull; Stahlkonstruktionen (Hallen), Rahmenecken <br />&bull; Stahl-Beton-Verbundbauteile (Decken, Tr&auml;ger und St&uuml;tzen) <br />&bull; Auflager (St&uuml;tzenf&uuml;sse). </p>",
+      "kurselemente": [
+        {
+          "id": 10589,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Stahlbau 4"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Steel Construction 4"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10005,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10005_B.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10011,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10011_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10109,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10109_B.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10017,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10017_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 69,
+      "name": "Würmli",
+      "vorname": "Peter"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11060,
+      "kuerzel": "M_Konstr4",
+      "bezeichnung": "Konstruktion 4",
+      "url": "allModules/11060_M_Konstr4.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11062,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Konstruktion 5"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Structural Engineering 5"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2012,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 11062,
+    "kuerzel": "M_Konstr5",
+    "bezeichnung": "Konstruktion 5",
+    "url": "allModules/11062_M_Konstr5.json"
+  }
+}

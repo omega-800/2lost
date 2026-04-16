@@ -1,0 +1,161 @@
+{
+  "id": 19833,
+  "kuerzel": "M_MAR1",
+  "bezeichnung": "Mess-/Antriebs-/Regeltechnik 1",
+  "kreditpunkte": 4,
+  "vorausgKenntnisse": "<p>Grundkenntnisse im Einsatz von Computern</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 19834,
+      "kuerzel": "MessTDat",
+      "bezeichnung": "Messtechnik und Datenerfassung",
+      "lernziele": "<ul>\n    <li>Beherrschung und Verstehen von Verfahren und Systemen f&uuml;r die Erfassung von Komponenten- und Prozesszust&auml;nden </li>\n    <li>Kenntnis von Messprinzipien </li>\n    <li>Planung und Durchf&uuml;hrung von Versuchen </li>\n    <li>Kenntnis von Messdatenerfassungs-Systemen</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Untersuchung und Beschreibung des statischen und dynamischen Verhaltens von Systemen </li>\n    <li>Einflussgr&ouml;ssen, Messfehler </li>\n    <li>Sensoren und Messwandler </li>\n    <li>Messkette </li>\n    <li>Messdatenerfassung mit Digitalrechnern </li>\n    <li>Abtastung-Aliasing&nbsp; </li>\n    <li>Signalauswertung und -registrierung </li>\n    <li>Datenbl&auml;tter </li>\n    <li>Messtechnik als Basis f&uuml;r Prozess&uuml;berwachung, Sicherheit und Regelung</li>\n    <li>Praktische Beispiele (Labor) </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 20167,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 120,
+          "harteGrenze": true
+        },
+        {
+          "id": 20168,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Messtechnik und Datenerfassung"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Measurement Engineering and Data Acquisition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 60,
+      "name": "Weilenmann",
+      "vorname": "Martin"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11117,
+      "kuerzel": "M_CompAw",
+      "bezeichnung": "Computeranwendungen",
+      "url": "allModules/11117_M_CompAw.json"
+    },
+    {
+      "id": 22021,
+      "kuerzel": "M_Ph2HAT",
+      "bezeichnung": "Physik 2 - Hydro-, Aero- und Thermodynamik",
+      "url": "allModules/22021_M_Ph2HAT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 19833,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "3&nbsp;gen&uuml;gende Laborberichte",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Mess-/Antriebs-/Regeltechnik 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Measurement and Control  Engineering 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2011,
+    "beginSemester": "HS",
+    "endJahr": 2014,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 19833,
+    "kuerzel": "M_MAR1",
+    "bezeichnung": "Mess-/Antriebs-/Regeltechnik 1",
+    "url": "allModules/19833_M_MAR1.json"
+  }
+}

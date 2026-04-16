@@ -1,0 +1,139 @@
+{
+  "id": 55725,
+  "kuerzel": "M_winf.AVSW",
+  "bezeichnung": "Architekturen verteilter Softwaresysteme",
+  "kreditpunkte": 6,
+  "lernziele": "<p>Die Absolventinnen und Absolventen sehen sich heute einem sehr komplexen technischen Umfeld des Software-Engineering ausgesetzt. Um in Projekten in der Rolle als Wirtschaftsinformatiker kompetent mitzuarbeiten, m&uuml;ssen sie einen vertieften Einblick in moderne Softwarearchitekturen von verteilten ICT-Systemen erhalten und selbstst&auml;ndig komplexe Aufgabenstellungen erarbeiten k&ouml;nnen.</p>",
+  "vorausgKenntnisse": "<p>Grundlagen in der Programmierung, Requirements Engineering und Datenbanken</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 55726,
+      "kuerzel": "winf.AVSW",
+      "bezeichnung": "Architekturen verteilter Softwaresysteme",
+      "kreditpunkte": 0,
+      "lernziele": "<p><strong>Fachkompetenzen:</strong><br />Die Teilnehmenden k&ouml;nnen:</p>\n<ul>\n<li>verschiedene Auspr&auml;gungen von IT-Architekturen aufzeigen</li>\n<li>die Prinzipien von SOA (Service Oriented Architecture) ausf&uuml;hren</li>\n<li>f&uuml;r Microservices die Makro- und Mikroarchitektur entwerfen</li>\n<li>Schichten-Architekturen von verteilten Systemen wie Web- und Mobilapplikationen designen.</li>\n<li>eine Integrationsarchitektur ad&auml;quat ausarbeiten.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Methodenkompetenzen:</strong></p>\n<p>Die Teilnehmenden k&ouml;nnen:</p>\n<ul>\n<li>Softwarearchitekturen mittels arc42-Template dokumentieren</li>\n<li>mittels UML (Unified Modeling Language) komplexe Softwarearchitekturen dokumentieren</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Selbstkompetenzen:</strong></p>\n<p>Die Teilnehmenden k&ouml;nnen:</p>\n<ul>\n<li>ist nicht im Fokus dieses Moduls</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Sozialkompetenzen:</strong></p>\n<p>Die Teilnehmenden k&ouml;nnen:</p>\n<ul>\n<li>komplexe Herausforderungen im Team organisieren und bew&auml;ltigen</li>\n</ul>",
+      "planinhalt": "<p><strong>Themen-/Lernblock I:</strong> Grundlagen der Softwarearchitektur</p>\n<ul>\n<li>Einf&uuml;hrung in die Softwarearchitektur</li>\n<li>Rolle, Aufgaben eines Softwarearchitekten</li>\n<li>arc42-Template</li>\n<li>Service Oriented Architecture (SOA)</li>\n<li>Event-/Message Oriented Architecture</li>\n<li>Einf&uuml;hrung in die Mehrschichtige Architektur</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Themen-/Lernblock II:</strong> Flexible Mehrschichtige Architekturen</p>\n<ul>\n<li>Microservices - Makro-/Mikroarchitektur</li>\n<li>Clientseitige Architekturen</li>\n<li>Serverseitige Architekturen<br>\n<ul>\n<li>Skriptsprachen (NodeJS, PHP)</li>\n<li>.NET</li>\n<li>Jakarta (Java) EE</li>\n</ul>\n</li>\n<li>IoT-Referenzarchitekturen</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Themen-/Lernblock III:</strong> Anwendungsintegrationsarchitektur</p>\n<ul>\n<li>Integration auf der Pr&auml;sentationsebene (Widgets, Plugins, Portall&ouml;sungen, WfMS)</li>\n<li>Integration auf Applikationsebene<br>\n<ul>\n<li>Enterprise Application Integration (EAI), B2B-Integration-Standards</li>\n<li>Integration Middleware</li>\n</ul>\n</li>\n<li>Integration auf der Datenebene<br>\n<ul>\n<li>Data-Warehouse-Architektur</li>\n<li>Data Lake</li>\n</ul>\n</li>\n</ul>",
+      "bibliographie": "<p>Pflichtliteratur:</p>\n<ul>\n<li>Tremp, H. (2024). Architekturen verteilter Softwaresysteme (2. Auflage). Wiesbaden: Springer Vieweg</li>\n</ul>\n<p>&nbsp;</p>\n<p>Weiterf&uuml;hrende Literatur:</p>\n<ul>\n<li>Siehe in der Literaturhinweise zu jeder Subdisziplin.</li>\n</ul>",
+      "empfLehrmittel": "<p>Lernvideos, Lehrgespr&auml;ch, Themenerarbeitung in der Gruppe, Selbststudium</p>",
+      "kurselemente": [
+        {
+          "id": 55727,
+          "art": "Vorlesung",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 1054,
+          "name": "Tremp",
+          "vorname": "Hansruedi"
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Architekturen verteilter Softwaresysteme"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Architectures of Application Systems"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10428,
+      "bezeichnung": "Wirtschaftsinformatik VZ",
+      "kuerzel": "WINF_VZ",
+      "url": "allStudies/10428_WINF_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10429,
+      "bezeichnung": "Wirtschaftsinformatik TZ",
+      "kuerzel": "WINF_TZ",
+      "url": "allStudies/10429_WINF_TZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 6
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1054,
+      "name": "Tremp",
+      "vorname": "Hansruedi"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 55725,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Architekturen verteilter Softwaresysteme"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Architectures of distributed Software Systems"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2027,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  }
+}

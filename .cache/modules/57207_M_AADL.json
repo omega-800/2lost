@@ -1,0 +1,142 @@
+{
+  "id": 57207,
+  "kuerzel": "M_AADL",
+  "bezeichnung": "Applied AI with Deep Learning",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Dieses Modul bietet eine praxisorientierte Einf&uuml;hrung in Artificial Intelligence (AI) mit Deep Learning, speziell angewendet auf autonomes Fahren. Studierende werden ein AI-gesteuertes Modellauto trainieren und testen, das autonom auf einer vorbereiteten Rennstrecke f&auml;hrt. Der Fokus liegt darauf, praktisch zu lernen, wie AI-Systeme funktionieren, ohne komplexe mathematische Herleitungen. Die Studierenden ben&ouml;tigen keine Vorkenntnisse in AI oder Python und werden schrittweise an die Konzepte von Deep Learning und neuronalen Netzen herangef&uuml;hrt. Als Modell wird eine Convolutional Neural Network (CNN)-basierte &bdquo;Black-Box&ldquo;-L&ouml;sung verwendet, um ein intuitives Verst&auml;ndnis f&uuml;r AI-gest&uuml;tzte Entscheidungsprozesse zu entwickeln.</p>\n<p>Nach erfolgreichem Abschluss des Moduls sind die Studierenden in der Lage:</p>\n<p>1.&nbsp;&nbsp;&nbsp;&nbsp; Learning Basics: Einf&uuml;hrung in Neural Networks, speziell Convolutional Neural Networks (CNNs).</p>\n<p>2.&nbsp;&nbsp;&nbsp;&nbsp; Autonomes Fahren: Training eines AI-Modells zur Steuerung eines Miniaturfahrzeugs.</p>\n<p>3.&nbsp;&nbsp;&nbsp;&nbsp; Hands-on Erfahrung: Arbeiten mit echten Sensordaten, z.B. Kamera und einer vordefinierten Strecke.</p>\n<p>4.&nbsp;&nbsp;&nbsp;&nbsp; Python &amp; AI-Frameworks: Einstieg in Python, TensorFlow/PyTorch</p>\n<p>5.&nbsp;&nbsp;&nbsp;&nbsp; Verst&auml;ndnis f&uuml;r die Herausforderungen und Limitationen von AI-Systemen&nbsp;</p>",
+  "vorausgKenntnisse": "<p>Grundlegende Programmierkenntnisse im Niveau Informatikerlehre oder Vorkurs des Studiengangs Informatik.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 57212,
+      "kuerzel": "AADL",
+      "bezeichnung": "Applied AI with Deep Learning",
+      "lernziele": "<p>Dieses Modul bietet eine praxisorientierte Einf&uuml;hrung in Artificial Intelligence (AI) mit Deep Learning, speziell angewendet auf autonomes Fahren. Studierende werden ein AI-gesteuertes Modellauto trainieren und testen, das autonom auf einer vorbereiteten Rennstrecke f&auml;hrt. Der Fokus liegt darauf, praktisch zu lernen, wie AI-Systeme funktionieren, ohne komplexe mathematische Herleitungen. Die Studierenden ben&ouml;tigen keine Vorkenntnisse in AI oder Python und werden schrittweise an die Konzepte von Deep Learning und neuronalen Netzen herangef&uuml;hrt. Als Modell wird eine Convolutional Neural Network (CNN)-basierte &bdquo;Black-Box&ldquo;-L&ouml;sung verwendet, um ein intuitives Verst&auml;ndnis f&uuml;r AI-gest&uuml;tzte Entscheidungsprozesse zu entwickeln.</p>\n<p>Nach erfolgreichem Abschluss des Moduls sind die Studierenden in der Lage:</p>\n<p>1.&nbsp;&nbsp;&nbsp;&nbsp; Learning Basics: Einf&uuml;hrung in Neural Networks, speziell Convolutional Neural Networks (CNNs).</p>\n<p>2.&nbsp;&nbsp;&nbsp;&nbsp; Autonomes Fahren: Training eines AI-Modells zur Steuerung eines Miniaturfahrzeugs.</p>\n<p>3.&nbsp;&nbsp;&nbsp;&nbsp; Hands-on Erfahrung: Arbeiten mit echten Sensordaten, z.B. Kamera und einer vordefinierten Strecke.</p>\n<p>4.&nbsp;&nbsp;&nbsp;&nbsp; Python &amp; AI-Frameworks: Einstieg in Python, TensorFlow/PyTorch</p>\n<p>5.&nbsp;&nbsp;&nbsp;&nbsp; Verst&auml;ndnis f&uuml;r die Herausforderungen und Limitationen von AI-Systemen&nbsp;</p>",
+      "planinhalt": "<p>Dieses Modul bietet eine erste Einf&uuml;hrung in AI und Deep Learning. Studierende erhalten nicht nur einen Einblick in die Grundlagen neuronaler Netze, sondern erleben auch direkt, wie AI-Modelle in der realen Welt angewendet werden &ndash; durch das Training eines autonomen Fahrzeugs. &nbsp;</p>\n<p>&nbsp;</p>\n<p>W&auml;hrend des Semesters werden u. a. folgende Themen behandelt:</p>\n<p>1.&nbsp;&nbsp;&nbsp;&nbsp; Einf&uuml;hrung in Deep Learning und neuronale Netze (Grundlagen f&uuml;r Einsteiger).</p>\n<p>2.&nbsp;&nbsp;&nbsp;&nbsp; Verstehen von Convolutional Neural Networks (CNNs) als \"Black Box\"-Modell.</p>\n<p>3.&nbsp;&nbsp;&nbsp;&nbsp; Sensordatenverarbeitung: Nutzung von Kameraaufnahmen f&uuml;r die Steuerung eines Fahrzeugs.</p>\n<p>4.&nbsp;&nbsp;&nbsp;&nbsp; Training eines AI-Modells f&uuml;r autonomes Fahren (Datenaufnahme, Modelltraining, Evaluierung).</p>\n<p>5.&nbsp;&nbsp;&nbsp;&nbsp; Erkennen von Herausforderungen autonomer Systeme (Bias, Overfitting, Precision, Recall, usw.).</p>\n<p>6.&nbsp;&nbsp;&nbsp;&nbsp; Praktische &Uuml;bungen mit realer Hardware: Miniaturfahrzeuge mit Raspberry PI und eine vorbereitete Rennstrecke.</p>\n<p>7.&nbsp;&nbsp;&nbsp;&nbsp; Projekt: Optimierung des Modells f&uuml;r bessere Fahrleistung und neue Herausforderungen&nbsp;</p>\n<p>8.&nbsp;&nbsp;&nbsp;&nbsp; Abschlussveranstaltung: Zusammen mit anderen Teams treten die Studierenden gegeneinander an, um zu sehen, wie gut ihr Auto im Vergleich abschneidet. &nbsp;</p>\n<p>&nbsp;</p>\n<p>Praktische Umsetzung steht im Vordergrund &ndash; Learning by Doing!</p>",
+      "kurselemente": [
+        {
+          "id": 57213,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Applied AI with Deep Learning"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Applied AI with Deep Learning"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10191,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10191_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10246,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10246_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10260,
+      "bezeichnung": "Digital Design",
+      "kuerzel": "DD",
+      "url": "allStudies/10260_DD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10163,
+          "kuerzel": "DD-W",
+          "bezeichnung": "Wahlpflichtbereich",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5025565,
+      "name": "Purandare",
+      "vorname": "Mitra"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Applied AI with Deep Learning"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Applied AI with Deep Learning"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 1,
+    "beginJahr": 2025,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  }
+}

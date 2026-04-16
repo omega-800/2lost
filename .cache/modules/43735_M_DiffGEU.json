@@ -1,0 +1,196 @@
+{
+  "id": 43735,
+  "kuerzel": "M_DiffGEU",
+  "bezeichnung": "Differentialgleichungen (EEU)",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Das L&ouml;sen von Differentialgleichungen ist ein wichtiges Werkzeug zum Modellieren von realen physikalischen Vorg&auml;ngen in in den Naturwissenschaften und der Technik.</p>\n<p>&nbsp;</p>\n<p>In dieser Vorlesung erlernen die Studierenden die grundlegenden mathematischen Techniken zum L&ouml;sen von gew&ouml;hnlichen Differentialgleichungen. Damit werden die mathematischen Tools bereitgestellt, um im EEU-Studium die Module aus der Physik, Technische Mechanik, Elektrotechnik, Messtechnik und Automation erfolgreich zu verstehen und anwenden zu k&ouml;nnen.</p>\n<p>&nbsp;</p>\n<p>Dabei beschr&auml;nkt sich das Modul auf die Differentialgleichungen, welche f&uuml;r Anwendungen in der Technik besonders wichtig sind.</p>",
+  "vorausgKenntnisse": "",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 43736,
+      "kuerzel": "DiffGEU",
+      "bezeichnung": "Differentialgleichungen EEU",
+      "lernziele": "<p>Die Studierenden k&ouml;nnen</p>\n<ul>\n<li>verstehen, dass mit Differentialgleichungen dynamische Vorg&auml;nge aus der realen Welt mathematisch modelliert werden k&ouml;nnen.</li>\n<li>f&uuml;r Differentialgleichungen 1. Ordnung die Methoden \"Separation der Variablen\" und \"Variation der Konstanten\" analytisch auf neue Problemstellungen anwenden.</li>\n<li>Die Differential- und Integralrechnung aus Analysis 1+2 erfolgreich f&uuml;r das L&ouml;sen von Differentialgleichungen nutzen.</li>\n<li>den L&ouml;sungsalgorithmus f&uuml;r homogene und inhomogene lineare Differentialgleichungen n-ter Ordnung mit konstanten Koeffizienten analytisch auf neue Problemstellungen anwenden.</li>\n<li>eine Verbindung schaffen zwischen den im Modul erlenten Inhalten und den Fachvorlesungen des Studiengangs.&nbsp;</li>\n</ul>",
+      "planinhalt": "<p>Einf&uuml;hrung in die Welt der Differentialgleichungen:</p>\n<ul>\n<li>\n<p>Allgemeine und spezielle L&ouml;sungen, Integrationskonstanten.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n</li>\n</ul>\n<p>&nbsp;</p>\n<p>Differentialgleichungen 1. Ordnung:</p>\n<ul>\n<li>Separation der Variablen</li>\n<li>Lineare Differentialgleichungen: Variation der Konstanten</li>\n<li>Fixpunkte und ihre Stabilit&auml;t</li>\n</ul>\n<p>&nbsp;</p>\n<p>Einfache Differentialgleichungen 2. Ordnung:</p>\n<ul>\n<li>Schwingungen und ihre Darstellung (Amplituden-Phasen-Form, Sin-Cos-Form, komplex)</li>\n<li>Differentialgleichungen, welche nur von x' und t abh&auml;ngen.</li>\n</ul>\n<p>&nbsp;</p>\n<p>Lineare Differentialgleichungen n-ter Ordnung mit konstanten Koeffizienten:</p>\n<ul>\n<li>L&ouml;sungsalgorithmus for homogene Gleichungen: Charakteristische Gleichung, Fundamentalsystem.</li>\n<li>inhomogene Gleichungen: L&ouml;sungsans&auml;tze und berechnen der partikul&auml;ren L&ouml;sung f&uuml;r die St&ouml;rfunktionen Exponentialfunktionen, Polynome und Schwingungen sowie Kombinationen daraus (Addition und Multiplikation)</li>\n</ul>\n<p>&nbsp;</p>\n<p>L&ouml;sen von Differentialgleichungen mit Matlab. Viele Anwendungen aus den Naturwissenschaften und der Technik</p>",
+      "bibliographie": "<p>Skript und &Uuml;bungsserien</p>",
+      "kurselemente": [
+        {
+          "id": 43737,
+          "art": "Uebung",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 43738,
+          "art": "Vorlesung",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Differentialgleichungen EEU"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Differential Equations"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10101,
+          "kuerzel": "EEU-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10101,
+          "kuerzel": "EEU-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10219,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10219_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10101,
+          "kuerzel": "EEU-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10259,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10259_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 538970,
+      "name": "Martignoli",
+      "vorname": "Stefan"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 19943,
+      "kuerzel": "M_An2EU",
+      "bezeichnung": "Analysis 2 (EEU)",
+      "url": "allModules/19943_M_An2EU.json"
+    },
+    {
+      "id": 22001,
+      "kuerzel": "M_An1EU",
+      "bezeichnung": "Analysis 1 (EEU)",
+      "url": "allModules/22001_M_An1EU.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 43735,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Differentialgleichungen (EEU)"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Differential Equations"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "vorgaenger": {
+    "id": 23349,
+    "kuerzel": "M_DiffGEU",
+    "bezeichnung": "Differentialgleichungen (EEU)",
+    "url": "allModules/23349_M_DiffGEU.json"
+  },
+  "nachfolger": {
+    "id": 43735,
+    "kuerzel": "M_DiffGEU",
+    "bezeichnung": "Differentialgleichungen (EEU)",
+    "url": "allModules/43735_M_DiffGEU.json"
+  }
+}

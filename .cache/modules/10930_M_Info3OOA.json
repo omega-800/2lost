@@ -1,0 +1,181 @@
+{
+  "id": 10930,
+  "kuerzel": "M_Info3OOA",
+  "bezeichnung": "Informatik 3: OOA/OOD",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Beherrschen einfacher Systementwicklungen mittels objektorientierten Methoden (OOA/OOD) <br /><br /><br /><br /><br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10006,
+      "kuerzel": "Info3OOA",
+      "bezeichnung": "Informatik 3: OOA/OOD",
+      "planinhalt": "<p>Vorgehensmodell; Anforderungsanalyse; Anwendungsfallanalyse;&nbsp;Problembereichsanalyse; UML; <br />Klassendiagramm; Aktivit&auml;tsdiagramm; Kommunikationsdiagramm; Sequenzdiagramm; Zustandsdiagramm; Paktetdiagramm, Objektdiagramm, Use-Case-Diagramm, Umsetzung von UML-Spezifikationen nach C++<br />Komponentendiagramm; Object Constraint Language; Demonstrationsprojekt</p>\n<p>(Aenderungen vorbehalten)<br /></p>",
+      "kurselemente": [
+        {
+          "id": 10903,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 48,
+          "harteGrenze": true
+        },
+        {
+          "id": 10904,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Informatik 3: OOA/OOD"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Computer Science 3: OOA/OOD"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 221,
+      "name": "Letsch",
+      "vorname": "Thomas"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 10929,
+      "kuerzel": "M_Info2",
+      "bezeichnung": "Informatik 2: C++ Aufbau",
+      "url": "allModules/10929_M_Info2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 10930,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Informatik 3: OOA/OOD"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Computer Science 3: OOA/OOD"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2006,
+    "endSemester": "WS"
+  }
+}

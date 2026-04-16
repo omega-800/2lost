@@ -1,0 +1,2212 @@
+{
+  "id": 10169,
+  "kuerzel": "WING",
+  "bezeichnung": "Wirtschaftsingenieurwesen",
+  "versionKuerzel": "U_18",
+  "typ": "Bachelor",
+  "art": "Studiengang",
+  "form": "Vollzeit",
+  "kredits": [
+    {
+      "id": 10612,
+      "minKredits": 20,
+      "kategorien": [
+        {
+          "id": 10122,
+          "kuerzel": "W-IP",
+          "bezeichnung": "Industrieprojekt"
+        }
+      ]
+    },
+    {
+      "id": 10613,
+      "minKredits": 20,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen"
+        }
+      ]
+    },
+    {
+      "id": 10614,
+      "minKredits": 24,
+      "kategorien": [
+        {
+          "id": 10120,
+          "kuerzel": "W-WK",
+          "bezeichnung": "Wirtschaftskompetenzen"
+        }
+      ]
+    },
+    {
+      "id": 10615,
+      "minKredits": 22,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen"
+        }
+      ]
+    },
+    {
+      "id": 10616,
+      "minKredits": 12,
+      "kategorien": [
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik"
+        }
+      ]
+    },
+    {
+      "id": 10617,
+      "minKredits": 10,
+      "kategorien": [
+        {
+          "id": 10118,
+          "kuerzel": "W-PT",
+          "bezeichnung": "Produktionstechnik"
+        }
+      ]
+    },
+    {
+      "id": 10618,
+      "minKredits": 12,
+      "kategorien": [
+        {
+          "id": 10121,
+          "kuerzel": "W-KS",
+          "bezeichnung": "Kontextstudium"
+        }
+      ]
+    },
+    {
+      "id": 10619,
+      "minKredits": 12,
+      "kategorien": [
+        {
+          "id": 10123,
+          "kuerzel": "W-BAW",
+          "bezeichnung": "Bachelor-Arbeit"
+        }
+      ]
+    }
+  ],
+  "spezialisierungen": [
+    {
+      "id": 10170,
+      "kuerzel": "WING_Fact",
+      "bezeichnung": "Smart Factories and Robotics",
+      "url": "allStudies/10170_WING_Fact.json"
+    },
+    {
+      "id": 10171,
+      "kuerzel": "WING_Prod",
+      "bezeichnung": "Smart Products and Data Science",
+      "url": "allStudies/10171_WING_Prod.json"
+    },
+    {
+      "id": 10172,
+      "kuerzel": "WING_Valu",
+      "bezeichnung": "Value Chain Networks and Additive Manufacturing",
+      "url": "allStudies/10172_WING_Valu.json"
+    }
+  ],
+  "studienberater": {
+    "id": 5013439,
+    "name": "Politze",
+    "vorname": "Daniel Patrick"
+  },
+  "zuordnungen": [
+    {
+      "id": 23729,
+      "kuerzel": "M_PROG",
+      "bezeichnung": "Angewandte Programmierung",
+      "url": "allModules/23729_M_PROG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 40020,
+      "kuerzel": "M_APROG",
+      "bezeichnung": "Angewandte Programmierung",
+      "url": "allModules/40020_M_APROG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45583,
+      "kuerzel": "M_ABPM1",
+      "bezeichnung": "Anlagenbau und Projektmanagement 1",
+      "url": "allModules/45583_M_ABPM1.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 45586,
+      "kuerzel": "M_ABPM2",
+      "bezeichnung": "Anlagenbau und Projektmanagement 2",
+      "url": "allModules/45586_M_ABPM2.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 44314,
+      "kuerzel": "M_AutoMI",
+      "bezeichnung": "Automation",
+      "url": "allModules/44314_M_AutoMI.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 39237,
+      "kuerzel": "M_BATHV",
+      "bezeichnung": "Bachelor-Arbeit - Vorbereitung ",
+      "url": "allModules/39237_M_BATHV.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10121,
+          "kuerzel": "W-KS",
+          "bezeichnung": "Kontextstudium",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 31175,
+      "kuerzel": "M_BAWVOR",
+      "bezeichnung": "Bachelor-Arbeit - Vorbereitung",
+      "url": "allModules/31175_M_BAWVOR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10121,
+          "kuerzel": "W-KS",
+          "bezeichnung": "Kontextstudium",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57422,
+      "kuerzel": "M_BATHV_v1",
+      "bezeichnung": "Bachelor-Arbeit - Vorbereitung  SG",
+      "url": "allModules/57422_M_BATHV_v1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10121,
+          "kuerzel": "W-KS",
+          "bezeichnung": "Kontextstudium",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56455,
+      "kuerzel": "M_BATH",
+      "bezeichnung": "Bachelor-Arbeit Wirtschaftsingenieurwesen",
+      "url": "allModules/56455_M_BATH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10123,
+          "kuerzel": "W-BAW",
+          "bezeichnung": "Bachelor-Arbeit",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 57426,
+      "kuerzel": "M_BATH_v1",
+      "bezeichnung": "Bachelor-Arbeit Wirtschaftsingenieurwesen SG",
+      "url": "allModules/57426_M_BATH_v1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10123,
+          "kuerzel": "W-BAW",
+          "bezeichnung": "Bachelor-Arbeit",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 20776,
+      "kuerzel": "M_BeKoAn",
+      "bezeichnung": "Betrieb und Konstruktion von Anlagen",
+      "url": "allModules/20776_M_BeKoAn.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 24453,
+      "kuerzel": "M_WI2",
+      "bezeichnung": "Business Processes für Informatik",
+      "url": "allModules/24453_M_WI2.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 40825,
+      "kuerzel": "M_BuPro",
+      "bezeichnung": "Business Processes für Informatik",
+      "url": "allModules/40825_M_BuPro.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 56390,
+      "kuerzel": "M_BWLGL",
+      "bezeichnung": "BWL-Grundlagen",
+      "url": "allModules/56390_M_BWLGL.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10120,
+          "kuerzel": "W-WK",
+          "bezeichnung": "Wirtschaftskompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57390,
+      "kuerzel": "M_BWL",
+      "bezeichnung": "BWL-Grundlagen SG",
+      "url": "allModules/57390_M_BWL.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10120,
+          "kuerzel": "W-WK",
+          "bezeichnung": "Wirtschaftskompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 23730,
+      "kuerzel": "M_CADW",
+      "bezeichnung": "CAD (WING)",
+      "url": "allModules/23730_M_CADW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 41955,
+      "kuerzel": "M_CADWA",
+      "bezeichnung": "CAD (WING) - Aufbau",
+      "url": "allModules/41955_M_CADWA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 26318,
+      "kuerzel": "M_CADWG",
+      "bezeichnung": "CAD (WING) - Grundlagen",
+      "url": "allModules/26318_M_CADWG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 37179,
+      "kuerzel": "M_ChallP1",
+      "bezeichnung": "Challenge Projekte 1",
+      "url": "allModules/37179_M_ChallP1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 37182,
+      "kuerzel": "M_ChallP2",
+      "bezeichnung": "Challenge Projekte 2",
+      "url": "allModules/37182_M_ChallP2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 65160,
+      "kuerzel": "M_CHMAN",
+      "bezeichnung": "Change Management",
+      "url": "allModules/65160_M_CHMAN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57402,
+      "kuerzel": "M_CHMAN_v1",
+      "bezeichnung": "Change Management SG",
+      "url": "allModules/57402_M_CHMAN_v1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 28063,
+      "kuerzel": "M_Chin1",
+      "bezeichnung": "Chinesisch 1",
+      "url": "allModules/28063_M_Chin1.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 40474,
+      "kuerzel": "M_ComT",
+      "bezeichnung": "Computational Thinking",
+      "url": "allModules/40474_M_ComT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 39093,
+      "kuerzel": "M_Dbs1",
+      "bezeichnung": "Datenbanksysteme 1",
+      "url": "allModules/39093_M_Dbs1.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 40969,
+      "kuerzel": "M_ELTE1",
+      "bezeichnung": "Elektrotechnik 1 (WING)",
+      "url": "allModules/40969_M_ELTE1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 40973,
+      "kuerzel": "M_ELTE2",
+      "bezeichnung": "Elektrotechnik 2 (WING)",
+      "url": "allModules/40973_M_ELTE2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 29963,
+      "kuerzel": "M_ENGL1W",
+      "bezeichnung": "Englisch 1 (WING)",
+      "url": "allModules/29963_M_ENGL1W.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10121,
+          "kuerzel": "W-KS",
+          "bezeichnung": "Kontextstudium",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 29973,
+      "kuerzel": "M_ENGL2W",
+      "bezeichnung": "Englisch 2 (WING)",
+      "url": "allModules/29973_M_ENGL2W.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10121,
+          "kuerzel": "W-KS",
+          "bezeichnung": "Kontextstudium",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 55597,
+      "kuerzel": "M_TecBEC",
+      "bezeichnung": "English Beyond Borders: Navigating Academic & Professional Success with IELTS",
+      "url": "allModules/55597_M_TecBEC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10121,
+          "kuerzel": "W-KS",
+          "bezeichnung": "Kontextstudium",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56496,
+      "kuerzel": "M_EnglHTw",
+      "bezeichnung": "English: How Things work",
+      "url": "allModules/56496_M_EnglHTw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 56413,
+      "kuerzel": "M_ENMET",
+      "bezeichnung": "Entscheidungsmethodik",
+      "url": "allModules/56413_M_ENMET.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 37308,
+      "kuerzel": "M_SITEC",
+      "bezeichnung": "EQ2 - Sicherheitstechnik",
+      "url": "allModules/37308_M_SITEC.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 23744,
+      "kuerzel": "M_FERT1",
+      "bezeichnung": "Fertigung und Montage 1",
+      "url": "allModules/23744_M_FERT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10118,
+          "kuerzel": "W-PT",
+          "bezeichnung": "Produktionstechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 24549,
+      "kuerzel": "M_FERT2",
+      "bezeichnung": "Fertigung und Montage 2",
+      "url": "allModules/24549_M_FERT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10118,
+          "kuerzel": "W-PT",
+          "bezeichnung": "Produktionstechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 23742,
+      "kuerzel": "M_FEST",
+      "bezeichnung": "Festigkeitslehre (WING)",
+      "url": "allModules/23742_M_FEST.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56365,
+      "kuerzel": "M_FELEH",
+      "bezeichnung": "Festigkeitslehre (WING)",
+      "url": "allModules/56365_M_FELEH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 39400,
+      "kuerzel": "M_FREWE",
+      "bezeichnung": "Finanz- und Rechnungswesen",
+      "url": "allModules/39400_M_FREWE.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10120,
+          "kuerzel": "W-WK",
+          "bezeichnung": "Wirtschaftskompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57712,
+      "kuerzel": "M_FSPR1",
+      "bezeichnung": "Fremdsprache Englisch 1",
+      "url": "allModules/57712_M_FSPR1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10121,
+          "kuerzel": "W-KS",
+          "bezeichnung": "Kontextstudium",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56458,
+      "kuerzel": "M_FUEHR",
+      "bezeichnung": "Führungsgespräche",
+      "url": "allModules/56458_M_FUEHR.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10121,
+          "kuerzel": "W-KS",
+          "bezeichnung": "Kontextstudium",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 39404,
+      "kuerzel": "M_GMIFI",
+      "bezeichnung": "Geschäftsmodellinnovation und Finanzierung",
+      "url": "allModules/39404_M_GMIFI.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10120,
+          "kuerzel": "W-WK",
+          "bezeichnung": "Wirtschaftskompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56386,
+      "kuerzel": "M_GPIW2",
+      "bezeichnung": "Geschäftsprozesse und IT Werkzeuge 2",
+      "url": "allModules/56386_M_GPIW2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10120,
+          "kuerzel": "W-WK",
+          "bezeichnung": "Wirtschaftskompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57435,
+      "kuerzel": "M_GPIW2_v1",
+      "bezeichnung": "Geschäftsprozesse und IT Werkzeuge 2 SG",
+      "url": "allModules/57435_M_GPIW2_v1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10120,
+          "kuerzel": "W-WK",
+          "bezeichnung": "Wirtschaftskompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56382,
+      "kuerzel": "M_GPIW1",
+      "bezeichnung": "Geschäftsprozesse und IT-Werkzeuge 1",
+      "url": "allModules/56382_M_GPIW1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10120,
+          "kuerzel": "W-WK",
+          "bezeichnung": "Wirtschaftskompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56905,
+      "kuerzel": "M_GKT1",
+      "bezeichnung": "Grundlagen der Kunststofftechnik: Kunststofftechnik 1",
+      "url": "allModules/56905_M_GKT1.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 43912,
+      "kuerzel": "M_GZEU",
+      "bezeichnung": "Grundzüge EEU (M-I)",
+      "url": "allModules/43912_M_GZEU.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 26080,
+      "kuerzel": "M_GZE",
+      "bezeichnung": "Grundzüge Energietechnik",
+      "url": "allModules/26080_M_GZE.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 60948,
+      "kuerzel": "M_GZET",
+      "bezeichnung": "Grundzüge Energietechnik",
+      "url": "allModules/60948_M_GZET.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 65154,
+      "kuerzel": "M_GZUKU",
+      "bezeichnung": "Grundzüge Klima und Umwelt",
+      "url": "allModules/65154_M_GZUKU.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 26084,
+      "kuerzel": "M_GZUT",
+      "bezeichnung": "Grundzüge Umwelttechnik",
+      "url": "allModules/26084_M_GZUT.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 23768,
+      "kuerzel": "M_KOMMI",
+      "bezeichnung": "Individuelle Kommunikation",
+      "url": "allModules/23768_M_KOMMI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10121,
+          "kuerzel": "W-KS",
+          "bezeichnung": "Kontextstudium",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57350,
+      "kuerzel": "M_KOMI",
+      "bezeichnung": "Individuelle Kommunikation SG",
+      "url": "allModules/57350_M_KOMI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10121,
+          "kuerzel": "W-KS",
+          "bezeichnung": "Kontextstudium",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57368,
+      "kuerzel": "M_IPIDE",
+      "bezeichnung": "Industrieprojekt - Idee",
+      "url": "allModules/57368_M_IPIDE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10122,
+          "kuerzel": "W-IP",
+          "bezeichnung": "Industrieprojekt",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 39264,
+      "kuerzel": "M_IPIDF",
+      "bezeichnung": "Industrieprojekt 1 - Ideenfindung ",
+      "url": "allModules/39264_M_IPIDF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10122,
+          "kuerzel": "W-IP",
+          "bezeichnung": "Industrieprojekt",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 39441,
+      "kuerzel": "M_IPKON",
+      "bezeichnung": "Industrieprojekt 2 - Konzeption",
+      "url": "allModules/39441_M_IPKON.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10122,
+          "kuerzel": "W-IP",
+          "bezeichnung": "Industrieprojekt",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57394,
+      "kuerzel": "M_IPRKO",
+      "bezeichnung": "Industrieprojekt 2 - Konzeption SG",
+      "url": "allModules/57394_M_IPRKO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10122,
+          "kuerzel": "W-IP",
+          "bezeichnung": "Industrieprojekt",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 56447,
+      "kuerzel": "M_IPENT",
+      "bezeichnung": "Industrieprojekt 3 - Entwurf",
+      "url": "allModules/56447_M_IPENT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10122,
+          "kuerzel": "W-IP",
+          "bezeichnung": "Industrieprojekt",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57406,
+      "kuerzel": "M_ITENT",
+      "bezeichnung": "Industrieprojekt 3 - Entwurf SG",
+      "url": "allModules/57406_M_ITENT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10122,
+          "kuerzel": "W-IP",
+          "bezeichnung": "Industrieprojekt",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 39445,
+      "kuerzel": "M_IPPRO",
+      "bezeichnung": "Industrieprojekt 4 - Prototyping & Optimierung",
+      "url": "allModules/39445_M_IPPRO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10122,
+          "kuerzel": "W-IP",
+          "bezeichnung": "Industrieprojekt",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56451,
+      "kuerzel": "M_IPSER",
+      "bezeichnung": "Industrieprojekt 5 - Serienfertigung",
+      "url": "allModules/56451_M_IPSER.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10122,
+          "kuerzel": "W-IP",
+          "bezeichnung": "Industrieprojekt",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57439,
+      "kuerzel": "M_ISEFE",
+      "bezeichnung": "Industrieprojekt 5 - Serienfertigung SG",
+      "url": "allModules/57439_M_ISEFE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10122,
+          "kuerzel": "W-IP",
+          "bezeichnung": "Industrieprojekt",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56942,
+      "kuerzel": "M_IPSPO",
+      "bezeichnung": "Industrieprojekt 5 - Spin-Off",
+      "url": "allModules/56942_M_IPSPO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10122,
+          "kuerzel": "W-IP",
+          "bezeichnung": "Industrieprojekt",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44595,
+      "kuerzel": "M_Inno4s",
+      "bezeichnung": "Innovation 4: Spezielle Aspekte des Innovationsmanagements ",
+      "url": "allModules/44595_M_Inno4s.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 42425,
+      "kuerzel": "M_Inno5",
+      "bezeichnung": "Innovation 5",
+      "url": "allModules/42425_M_Inno5.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 56409,
+      "kuerzel": "M_INTMA",
+      "bezeichnung": "Innovations- und Technologiemanagement",
+      "url": "allModules/56409_M_INTMA.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57418,
+      "kuerzel": "M_INTMA_v1",
+      "bezeichnung": "Innovations- und Technologiemanagement SG",
+      "url": "allModules/57418_M_INTMA_v1.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56444,
+      "kuerzel": "M_INTKO",
+      "bezeichnung": "Interkulturelle Kommunikation",
+      "url": "allModules/56444_M_INTKO.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10121,
+          "kuerzel": "W-KS",
+          "bezeichnung": "Kontextstudium",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 39437,
+      "kuerzel": "M_ISWEE",
+      "bezeichnung": "International Study Week",
+      "url": "allModules/39437_M_ISWEE.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10121,
+          "kuerzel": "W-KS",
+          "bezeichnung": "Kontextstudium",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 39413,
+      "kuerzel": "M_INTWS",
+      "bezeichnung": "Internationale Wirtschaftssysteme",
+      "url": "allModules/39413_M_INTWS.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10120,
+          "kuerzel": "W-WK",
+          "bezeichnung": "Wirtschaftskompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56397,
+      "kuerzel": "M_INVRE",
+      "bezeichnung": "Investitionsrechnung",
+      "url": "allModules/56397_M_INVRE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10120,
+          "kuerzel": "W-WK",
+          "bezeichnung": "Wirtschaftskompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57398,
+      "kuerzel": "M_INVRE_v1",
+      "bezeichnung": "Investitionsrechnung SG",
+      "url": "allModules/57398_M_INVRE_v1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10120,
+          "kuerzel": "W-WK",
+          "bezeichnung": "Wirtschaftskompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 28088,
+      "kuerzel": "M_Jap1",
+      "bezeichnung": "Japanisch 1",
+      "url": "allModules/28088_M_Jap1.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 35541,
+      "kuerzel": "M_Jap2",
+      "bezeichnung": "Japanisch 2 - WING",
+      "url": "allModules/35541_M_Jap2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 37403,
+      "kuerzel": "M_KOMMT",
+      "bezeichnung": "Kommunikation im Team (WING)",
+      "url": "allModules/37403_M_KOMMT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10121,
+          "kuerzel": "W-KS",
+          "bezeichnung": "Kontextstudium",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 37218,
+      "kuerzel": "M_KatKont2",
+      "bezeichnung": "Kontextstudium ",
+      "url": "allModules/37218_M_KatKont2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10121,
+          "kuerzel": "W-KS",
+          "bezeichnung": "Kontextstudium",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 37215,
+      "kuerzel": "M_KatKont1",
+      "bezeichnung": "Kontextstudium",
+      "url": "allModules/37215_M_KatKont1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10121,
+          "kuerzel": "W-KS",
+          "bezeichnung": "Kontextstudium",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 24035,
+      "kuerzel": "M_KT2",
+      "bezeichnung": "Kunststofftechnik 2",
+      "url": "allModules/24035_M_KT2.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 39388,
+      "kuerzel": "M_LEPRO",
+      "bezeichnung": "Lean Production",
+      "url": "allModules/39388_M_LEPRO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10118,
+          "kuerzel": "W-PT",
+          "bezeichnung": "Produktionstechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 29753,
+      "kuerzel": "M_LEANEngl",
+      "bezeichnung": "Lean Production - in Englisch",
+      "url": "allModules/29753_M_LEANEngl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10118,
+          "kuerzel": "W-PT",
+          "bezeichnung": "Produktionstechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 43505,
+      "kuerzel": "M_LinAlg2EC",
+      "bezeichnung": "Lineare Algebra (2 ECTS-Punkte)",
+      "url": "allModules/43505_M_LinAlg2EC.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 56374,
+      "kuerzel": "M_LOSCM",
+      "bezeichnung": "Logistik und Supply Chain Management",
+      "url": "allModules/56374_M_LOSCM.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10118,
+          "kuerzel": "W-PT",
+          "bezeichnung": "Produktionstechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57410,
+      "kuerzel": "M_LOSCM_v1",
+      "bezeichnung": "Logistik und Supply Chain Management SG",
+      "url": "allModules/57410_M_LOSCM_v1.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10118,
+          "kuerzel": "W-PT",
+          "bezeichnung": "Produktionstechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 41612,
+      "kuerzel": "M_MALEA",
+      "bezeichnung": "Machine Learning (WING)",
+      "url": "allModules/41612_M_MALEA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 56401,
+      "kuerzel": "M_MASAL",
+      "bezeichnung": "Marketing und Sales",
+      "url": "allModules/56401_M_MASAL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10120,
+          "kuerzel": "W-WK",
+          "bezeichnung": "Wirtschaftskompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 39392,
+      "kuerzel": "M_MAKON",
+      "bezeichnung": "Maschinenbau und Konstruktion",
+      "url": "allModules/39392_M_MAKON.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 23731,
+      "kuerzel": "M_MATH1",
+      "bezeichnung": "Mathematik 1",
+      "url": "allModules/23731_M_MATH1.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 23732,
+      "kuerzel": "M_MATH2",
+      "bezeichnung": "Mathematik 2",
+      "url": "allModules/23732_M_MATH2.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 32016,
+      "kuerzel": "M_KatMeth1",
+      "bezeichnung": "Methodenkompetenzen",
+      "url": "allModules/32016_M_KatMeth1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 37223,
+      "kuerzel": "M_KatMeth2",
+      "bezeichnung": "Methodenkompetenzen",
+      "url": "allModules/37223_M_KatMeth2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 40139,
+      "kuerzel": "M_MOSIM",
+      "bezeichnung": "Modellbildung und Simulation",
+      "url": "allModules/40139_M_MOSIM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 35870,
+      "kuerzel": "M_Kat_SIMUL",
+      "bezeichnung": "Modellbildung und Simulation",
+      "url": "allModules/35870_M_Kat_SIMUL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 1
+        }
+      ]
+    },
+    {
+      "id": 56440,
+      "kuerzel": "M_NAHET",
+      "bezeichnung": "Nachhaltigkeit und Ethik",
+      "url": "allModules/56440_M_NAHET.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 55578,
+      "kuerzel": "M_OEA",
+      "bezeichnung": "Öffentlichkeitsarbeit",
+      "url": "allModules/55578_M_OEA.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 65149,
+      "kuerzel": "M_NaBew",
+      "bezeichnung": "Ökologische Nachhaltigkeitsbewertung",
+      "url": "allModules/65149_M_NaBew.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 56436,
+      "kuerzel": "M_OPRE1",
+      "bezeichnung": "Operations Research 1",
+      "url": "allModules/56436_M_OPRE1.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 55352,
+      "kuerzel": "M_OPRE2",
+      "bezeichnung": "Operations Research 2",
+      "url": "allModules/55352_M_OPRE2.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 55356,
+      "kuerzel": "M_OPTIM",
+      "bezeichnung": "Optimierung",
+      "url": "allModules/55356_M_OPTIM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 23733,
+      "kuerzel": "M_PHYS1",
+      "bezeichnung": "Physik 1 (WING)",
+      "url": "allModules/23733_M_PHYS1.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57342,
+      "kuerzel": "M_PHYS1_v1",
+      "bezeichnung": "Physik 1 (WING) SG",
+      "url": "allModules/57342_M_PHYS1_v1.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 23734,
+      "kuerzel": "M_PHYS2",
+      "bezeichnung": "Physik 2 (WING)",
+      "url": "allModules/23734_M_PHYS2.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57346,
+      "kuerzel": "M_PHYS2_v1",
+      "bezeichnung": "Physik 2 (WING) SG",
+      "url": "allModules/57346_M_PHYS2_v1.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 55364,
+      "kuerzel": "M_ProdMan",
+      "bezeichnung": "Production management",
+      "url": "allModules/55364_M_ProdMan.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 56417,
+      "kuerzel": "M_PRODM",
+      "bezeichnung": "Produktmanagement ",
+      "url": "allModules/56417_M_PRODM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 23752,
+      "kuerzel": "M_PRODUCT",
+      "bezeichnung": "Produktmanagement",
+      "url": "allModules/23752_M_PRODUCT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56394,
+      "kuerzel": "M_PROJM",
+      "bezeichnung": "Projektmanagement (WING)",
+      "url": "allModules/56394_M_PROJM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56378,
+      "kuerzel": "M_QUMAN",
+      "bezeichnung": "Qualitätsmanagement",
+      "url": "allModules/56378_M_QUMAN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 26205,
+      "kuerzel": "M_RECHT",
+      "bezeichnung": "Recht (WING)",
+      "url": "allModules/26205_M_RECHT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10120,
+          "kuerzel": "W-WK",
+          "bezeichnung": "Wirtschaftskompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56370,
+      "kuerzel": "M_REAUT",
+      "bezeichnung": "Regelungstechnik und Automation",
+      "url": "allModules/56370_M_REAUT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 39417,
+      "kuerzel": "M_RIMAN",
+      "bezeichnung": "Risikomanagement",
+      "url": "allModules/39417_M_RIMAN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 36105,
+      "kuerzel": "M_SeAnBau",
+      "bezeichnung": "Serie- und Anlagenbau",
+      "url": "allModules/36105_M_SeAnBau.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 35906,
+      "kuerzel": "M_SFROBOTICS",
+      "bezeichnung": "SF-Robotics",
+      "url": "allModules/35906_M_SFROBOTICS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 35905,
+      "kuerzel": "M_SFFACTORY",
+      "bezeichnung": "SF-Smart Factory",
+      "url": "allModules/35905_M_SFFACTORY.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 35904,
+      "kuerzel": "M_SPDATASC",
+      "bezeichnung": "SP-Data Science",
+      "url": "allModules/35904_M_SPDATASC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 35903,
+      "kuerzel": "M_SPPRODUCTS",
+      "bezeichnung": "SP-Smart Products",
+      "url": "allModules/35903_M_SPPRODUCTS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 23735,
+      "kuerzel": "M_STAT",
+      "bezeichnung": "Statistik (WING)",
+      "url": "allModules/23735_M_STAT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56426,
+      "kuerzel": "M_SYDD1",
+      "bezeichnung": "Systemdenken und Systemdynamik 1",
+      "url": "allModules/56426_M_SYDD1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57575,
+      "kuerzel": "M_SYDD2",
+      "bezeichnung": "Systemdenken und Systemdynamik 2",
+      "url": "allModules/57575_M_SYDD2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 39421,
+      "kuerzel": "M_SYDD2",
+      "bezeichnung": "Systemdenken und Systemdynamik 2",
+      "url": "allModules/39421_M_SYDD2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10119,
+          "kuerzel": "W-MK",
+          "bezeichnung": "Methodenkompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56422,
+      "kuerzel": "M_SYMAN",
+      "bezeichnung": "Systemisches Management",
+      "url": "allModules/56422_M_SYMAN.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10120,
+          "kuerzel": "W-WK",
+          "bezeichnung": "Wirtschaftskompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57414,
+      "kuerzel": "M_SYMAN_v1",
+      "bezeichnung": "Systemisches Management SG",
+      "url": "allModules/57414_M_SYMAN_v1.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10120,
+          "kuerzel": "W-WK",
+          "bezeichnung": "Wirtschaftskompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 24608,
+      "kuerzel": "M_TG",
+      "bezeichnung": "Technikgeschichte",
+      "url": "allModules/24608_M_TG.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 56852,
+      "kuerzel": "M_TMECH",
+      "bezeichnung": "Technische Mechanik (WING)",
+      "url": "allModules/56852_M_TMECH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43662,
+      "kuerzel": "M_VekGM",
+      "bezeichnung": "Vektorgeometrie (M-I)",
+      "url": "allModules/43662_M_VekGM.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 44675,
+      "kuerzel": "M_VNADDMAN",
+      "bezeichnung": "VN-Additive Manufacturing",
+      "url": "allModules/44675_M_VNADDMAN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 35907,
+      "kuerzel": "M_VNVALCHAIN",
+      "bezeichnung": "VN-Value Chain Networks",
+      "url": "allModules/35907_M_VNVALCHAIN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10118,
+          "kuerzel": "W-PT",
+          "bezeichnung": "Produktionstechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 23738,
+      "kuerzel": "M_WERKSTW",
+      "bezeichnung": "Werkstoffe (WING)",
+      "url": "allModules/23738_M_WERKSTW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56359,
+      "kuerzel": "M_WSTOF",
+      "bezeichnung": "Werkstoffe (WING)",
+      "url": "allModules/56359_M_WSTOF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57429,
+      "kuerzel": "M_WSTOF_v2",
+      "bezeichnung": "Werkstoffe (WING) SG",
+      "url": "allModules/57429_M_WSTOF_v2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 26382,
+      "kuerzel": "M_WI1",
+      "bezeichnung": "Wirtschaftsinformatik 1: IT im Business",
+      "url": "allModules/26382_M_WI1.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 37212,
+      "kuerzel": "M_KatWirt1",
+      "bezeichnung": "Wirtschaftskompetenzen",
+      "url": "allModules/37212_M_KatWirt1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10120,
+          "kuerzel": "W-WK",
+          "bezeichnung": "Wirtschaftskompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 41510,
+      "kuerzel": "M_KatWirt2",
+      "bezeichnung": "Wirtschaftskompetenzen 2",
+      "url": "allModules/41510_M_KatWirt2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10120,
+          "kuerzel": "W-WK",
+          "bezeichnung": "Wirtschaftskompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 32766,
+      "kuerzel": "M_WSLS",
+      "bezeichnung": "Workshop \"Lern-Support an der OST\"",
+      "url": "allModules/32766_M_WSLS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ]
+}

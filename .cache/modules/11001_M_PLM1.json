@@ -1,0 +1,137 @@
+{
+  "id": 11001,
+  "kuerzel": "M_PLM1",
+  "bezeichnung": "Product Lifecycle Management 1",
+  "kreditpunkte": 2,
+  "lernziele": "<p>- Produktlebenszyklus kennen</p>\n<p>- Die Zusammenh&#228;nge zwischen den Hauptprozessen der Produktentstehung (Produktentwicklung und Produktherstellung) kennen</p>\n<p>- PLM relevante, besondere Aspekte im Produktentwicklungsprozess kennen und verstehen</p>\n<p>- Grundlegende Einsatzm&#246;glichkeiten und Nutzung von PLM/PDM-Systemen kennen<br /></p>",
+  "vorausgKenntnisse": "<p>Keine</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10100,
+      "kuerzel": "uPLM1",
+      "bezeichnung": "Product Lifecycle Management 1",
+      "planinhalt": "<p>- &#196;nderungsprozesse</p>\n<p>- Berechtigungskonzepte </p>\n<p>- Concurrent Engineering </p>\n<p>- Datenmodelle</p>\n<p>- Datenverwaltung</p>\n<p>- Freigabeprozesse </p>\n<p>- Nummerierungssysteme </p>\n<p>- Produktstrukturen </p>\n<p>- Produktsichten</p>\n<p>- Schnittstellen zu PLM-Umsystemen </p>\n<p>- Variantenbildung und deren Management</p>\n<p><br />&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 10481,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Product Lifecycle Management 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Product Lifecycle Management 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 28,
+      "name": "Simeon",
+      "vorname": "Alex"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11001,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Product Lifecycle Management 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Product Lifecycle Management 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2008,
+    "endSemester": "FS"
+  }
+}

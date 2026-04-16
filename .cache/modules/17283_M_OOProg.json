@@ -1,0 +1,214 @@
+{
+  "id": 17283,
+  "kuerzel": "M_OOProg",
+  "bezeichnung": "OO-Programmierkonzepte",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Objektorientierte Programmierkonzepte mit C++&nbsp;kennen und anwenden</li>\n    <li>Mit der integrierten Entwicklungsumgebung Eclipse arbeiten<br /><br /></li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 17284,
+      "kuerzel": "OOProg",
+      "bezeichnung": "OO-Programmierkonzepte",
+      "lernziele": "<ul>\n    <li>Objektorientierte Konzepte (Klasse, Vererbung, Polymorphismus) </li>\n    <li>Konstruktoren und Destruktoren</li>\n    <li>Streams </li>\n    <li>Dynamisches Speichermanagement </li>\n    <li>Exception Handling </li>\n    <li>Pointer und Referenzen </li>\n    <li>Softwareentwicklung in der Praxis (Codierstil, Aufteilung in Units, Debugging) </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 17285,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 17327,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "OO-Programmierkonzepte"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "OO-Programming Concepts"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533876,
+      "name": "Bonderer",
+      "vorname": "Reto"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 19646,
+      "kuerzel": "M_ProgGruE",
+      "bezeichnung": "Programmieren Grundlage (E)",
+      "url": "allModules/19646_M_ProgGruE.json"
+    },
+    {
+      "id": 19653,
+      "kuerzel": "M_ProgGruM",
+      "bezeichnung": "Programmieren Grundlage",
+      "url": "allModules/19653_M_ProgGruM.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 17283,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "Testat",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "OO-Programmierkonzepte"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "OO-Programming Concepts"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2009,
+    "beginSemester": "FS",
+    "endJahr": 2015,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 17283,
+    "kuerzel": "M_OOProg",
+    "bezeichnung": "OO-Programmierkonzepte",
+    "url": "allModules/17283_M_OOProg.json"
+  }
+}

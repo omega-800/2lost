@@ -1,0 +1,115 @@
+{
+  "id": 11170,
+  "kuerzel": "M_StReiseR",
+  "bezeichnung": "Studienreise R",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Die Studienreise soll anhand ausl&#228;ndischer Beispiele Einblicke in die Zusammenh&#228;nge der an der Schule vermittelten Kenntnisse aufzeigen und verst&#228;ndlich machen. <br />Erweiterung des pers&#246;nlichen Horizonts <br />Praxis- und problemorientiertes Vertiefen und Aktualisieren der schulischen Kenntnisse <br />Begegnung mit unterschiedlichen gesellschaftlichen und &#246;konomischen Situationen <br /></p>",
+  "semesterBewertung": "bestanden / nicht bestanden",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10336,
+      "kuerzel": "StReiseR",
+      "bezeichnung": "Studienreise",
+      "planinhalt": "<p>Neben Exkursionen zu st&#228;dtebaulich und landschaftlich interessanten Fallbeispielen sowie bedeutenden Architekturprojekten sind Fachvortr&#228;ge und Gespr&#228;che mit Experten in den jeweils zust&#228;ndigen Stadtverwaltungen und Hochschulen vorgesehen. <br />Denkbar sind auch Arbeitswochen mit praktischen Eins&#228;tzen in der betreffenden Region. </p>\n<p><br />Vorbereitungsarbeiten und abschliessender Reise- bzw. Arbeitsbericht <br /></p>",
+      "kurselemente": [
+        {
+          "id": 10811,
+          "art": "Exkursion",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Studienreise"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Study Trip "
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10000,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10000_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10028,
+          "kuerzel": "R-p",
+          "bezeichnung": "Projekte ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10006,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10006_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10028,
+          "kuerzel": "R-p",
+          "bezeichnung": "Projekte ",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 247,
+      "name": "Matta",
+      "vorname": "Thomas"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Studienreise R"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Study Trip (R)"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2007,
+    "beginSemester": "SS",
+    "endJahr": 2007,
+    "endSemester": "SS"
+  },
+  "nachfolger": {
+    "id": 11170,
+    "kuerzel": "M_StReiseR",
+    "bezeichnung": "Studienreise R",
+    "url": "allModules/11170_M_StReiseR.json"
+  }
+}

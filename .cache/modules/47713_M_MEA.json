@@ -1,0 +1,106 @@
+{
+  "id": 47713,
+  "kuerzel": "M_MEA",
+  "bezeichnung": "Messdaten-Erfassung und Analyse",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Die Studierenden k&ouml;nnen</p>\n<ul>\n    <li>f&uuml;r ein gegebenes Messproblem die geeignete Hardware spezifizieren. </li>\n    <li>geeignete Parameter zur Messdatenerfassung festlegen. </li>\n    <li>Messdaten korrekt erfassen. </li>\n    <li>Signale im Zeit- und Frequenzbereich analysieren. </li>\n    <li>Ganze Messaufl&auml;ufe strukturieren. </li>\n    <li>Bedienoberfl&auml;chen anwenderfreundlich gestalten. </li>\n</ul>",
+  "vorausgKenntnisse": "Vorausgesetzt werden die beiden Module Systemtechnik A und Systemtechnik B aus einem beliebigen Profil.",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 47714,
+      "kuerzel": "MEA",
+      "bezeichnung": "Messdaten-Erfassung und Analyse",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden k&ouml;nnen</p>\n<ul>\n    <li>f&uuml;r ein gegebenes Messproblem die geeignete Messdatenerfassungs-Hardware spezifizieren. </li>\n    <li>geeignete Parameter zur Messdatenerfassung festlegen. </li>\n    <li>Signale im Zeit- und Frequenzbereich analysieren. </li>\n    <li>Abl&auml;ufe von Messdatenerfassungsprogrammen strukturieren </li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Abtastrate und Aufl&ouml;sung </li>\n    <li>Einsatz von Filter </li>\n    <li>Integration von Signalen </li>\n    <li>Korrelationsmesstechnik </li>\n    <li>Regressionsanalyse </li>\n    <li>Frequenzanalyse </li>\n    <li>Modalanalyse </li>\n</ul>\n<p>Der Unterricht findet im Labor statt. Die Lerninhalte werden an Hand praktischer Beispiele aus der Entwicklung und Forschung vermittelt. Dazu wird LabVIEW eingesetzt.</p>",
+      "bibliographie": "Skript",
+      "empfLehrmittel": "<p>Vorlesungen und Laborpraktika; Konkrete Anwendungsbeispiele werden&nbsp;im Team&nbsp;programmiert; </p>",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase werden einige erstellte Programme&nbsp;bewertet und es wird eine Pr&uuml;fung geschrieben.",
+      "kurselemente": [
+        {
+          "id": 47715,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 25,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000211,
+          "name": "Stöck",
+          "vorname": "Maximilian"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000211,
+      "name": "Stöck",
+      "vorname": "Maximilian"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Aquisition and Analysis of Measurement Data"
+    }
+  ],
+  "vorgaenger": {
+    "id": 46065,
+    "kuerzel": "M_MEA",
+    "bezeichnung": "Messdaten-Erfassung und Analyse",
+    "url": "allModules/46065_M_MEA.json"
+  }
+}

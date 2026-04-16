@@ -1,0 +1,117 @@
+{
+  "id": 26065,
+  "kuerzel": "M_ProjB",
+  "bezeichnung": "Projektarbeit Bauingenieurwesen",
+  "kreditpunkte": 6,
+  "lernziele": "<ul>\n    <li>F&auml;higkeit selbst&auml;ndig ein Projekt - vorzugsweise im Team - zu bearbeiten, einen professionell technischen Bericht zu verfassen und das Projekt einem Fachpublikum zu pr&auml;sentieren.</li>\n</ul>",
+  "vorausgKenntnisse": "<p>Dem Themenbereich der Projektarbeit entsprechende Profilierungsmodule</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 26066,
+      "kuerzel": "ProjB",
+      "bezeichnung": "Projektarbeit Bauingenieurwesen",
+      "lernziele": "<ul>\n    <li>Kenntnis der Projektprozesse im Bauingenieurwesen unter Einbezug der Umweltaspekte. </li>\n    <li>F&auml;higkeit, Ingenieuraufgaben sowohl selbst&auml;ndig als auch im Team zu bearbeiten </li>\n    <li>F&auml;higkeit anhand der Fachliteratur L&ouml;sungsans&auml;tze zu finden und im Selbststudium zu vertiefen. </li>\n    <li>Vertiefung der Ausbildung in den Ingenieurf&auml;chern. </li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Es werden Projekte in den Fachbereichen Massivbau, Stahlbau, Holzbau, Geotechnik, Untertagebau, Verkehrswegebau, Wasserbau/Flussbau, Wasserversorgung, Abwassertechnik und Umweltingenieurwesen bearbeitet. </li>\n    <li>Selbststudium der Fachliteratur </li>\n    <li>Verfassen eines technischen Berichts </li>\n    <li>Pr&auml;sentation der Projektarbeit vor den Studierenden und Dozierenden </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 26067,
+          "art": "Projekt",
+          "anzLektionen": 6,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Projektarbeit Bauingenieurwesen"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Project in Civil Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10005,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10005_B.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10109,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10109_B.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1031,
+      "name": "Speerli",
+      "vorname": "Jürg"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Projektarbeit Bauingenieurwesen"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Project in Civil Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2016,
+    "beginSemester": "FS",
+    "endJahr": 2021,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 11074,
+    "kuerzel": "M_ProjB",
+    "bezeichnung": "Projektarbeit im Bauingenieurwesen",
+    "url": "allModules/11074_M_ProjB.json"
+  }
+}

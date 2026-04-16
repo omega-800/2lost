@@ -1,0 +1,93 @@
+{
+  "id": 37218,
+  "kuerzel": "M_KatKont2",
+  "bezeichnung": "Kontextstudium ",
+  "kreditpunkte": 4,
+  "vorausgKenntnisse": "Anrechnung von ECTS aus anderen FachHochschulen",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 37219,
+      "kuerzel": "k_katkont2",
+      "bezeichnung": "Kontextstudium",
+      "kurselemente": [
+        {
+          "id": 37220,
+          "art": "Blockkurs",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Kontextstudium"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10151,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10151_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10121,
+          "kuerzel": "W-KS",
+          "bezeichnung": "Kontextstudium",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10169,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10169_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10121,
+          "kuerzel": "W-KS",
+          "bezeichnung": "Kontextstudium",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 540086,
+      "name": "Keller",
+      "vorname": "Daniel F."
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Kontextstudium"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

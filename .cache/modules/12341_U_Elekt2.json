@@ -1,0 +1,127 @@
+{
+  "id": 12341,
+  "kuerzel": "U_Elekt2",
+  "bezeichnung": "Elektrotechnik 2 - Übergangsmodul",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Der Absolvent versteht die Grundz&uuml;ge der elektromechanischen Energiewandlung und kennt Aufbau und Funktion der wichtigsten elektrischen Maschinen. Er weiss, wie man die Maschinen in der Praxis in Betrieb setzt und anhand der messtechnisch erfassbaren Parameter beurteilt. </p>",
+  "vorausgKenntnisse": "<p>Elektrotechnik 1</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 12266,
+      "kuerzel": "uElekt2",
+      "bezeichnung": "Elektrotechnik 2 - Übergang",
+      "planinhalt": "<p dir=\"ltr\" style=\"MARGIN-RIGHT: 0px\">Elektrische Maschinen <br />1. Die elektrodynamischen Grundgesetze <br />2. Allgemeine Merkmale und Eigenschaften elektrischer Maschinen <br />3. Gleichstrommaschinen:&nbsp;<br />&nbsp;&nbsp; Aufbau und Wirkungsweise,&nbsp;Grundgleichungen,&nbsp;Betriebsverhalten und Schaltungen<br />&nbsp; &nbsp;der GSM <br />4. Synchronmaschinen: Wirkungsweise und Aufbau,&nbsp;Betriebseigenschaften und -gr&ouml;ssen,&nbsp;Sonderbauformen <br />5. Drehstrom-Asynchronmaschinen: Wirkungsweise, Aufbau und Schaltungen,&nbsp;Betriebseigenschaften, Kreisdiagramm <br />6. Transversalflussmaschinen: Aufbau und Wirkungsweise,&nbsp;Betriebseigenschaften<br />7. Steuerung und Regelung elektrischer Maschinen&nbsp;<br /></p>",
+      "kurselemente": [
+        {
+          "id": 12309,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 12441,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrotechnik 2 - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electrical Engineering 2 - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1205,
+      "name": "Neubauer",
+      "vorname": "Raimund E."
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 12341,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": true,
+      "zulassungsBedingung": "Abgabe von 2 Laborberichten mit Bewertung &gt;= 4.0",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Elektrotechnik 2 - Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electrical Engineering 2 - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2006,
+    "endSemester": "SS"
+  }
+}

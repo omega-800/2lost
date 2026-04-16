@@ -1,0 +1,208 @@
+{
+  "id": 20751,
+  "kuerzel": "M_AutoT1",
+  "bezeichnung": "Automation 1",
+  "kreditpunkte": 6,
+  "lernziele": "<ul>\n    <li>Kenntnis der Strukturierung und Steuerung von automatisierten Prozessen</li>\n    <li>Beherrschung und Verstehen von Verfahren und Systemen f&uuml;r die Messung von Maschinen- und Prozesszust&auml;nden </li>\n    <li>Kenntnis der Bedingungen und Verfahren f&uuml;r den Entwurf automatisierter Systeme</li>\n</ul>",
+  "vorausgKenntnisse": "<p>oder Grundkenntnisse im Einsatz von Computern</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 20752,
+      "kuerzel": "MessT",
+      "bezeichnung": "Messtechnik",
+      "lernziele": "<ul>\n<li>Beherrschung und Verstehen von Verfahren und Systemen f&#252;r die Erfassung von Maschinen- und Prozesszust&#228;nden</li><li>Kenntnis von Messprinzipien</li><li>Planung und Durchf&#252;hrung von Versuchen</li></ul>",
+      "planinhalt": "<ul>\n    <li>Untersuchung und Beschreibung des statischen und dynamischen Verhaltens von Systemen </li>\n    <li>Einflussgr&ouml;ssen, Messfehler </li>\n    <li>Sensoren und Messwandler </li>\n    <li>Messkette</li>\n    <li>Messdatenerfassung mit Digitalrechnern</li>\n    <li>Abtastung-Aliasing&nbsp;</li>\n    <li>Signalauswertung und -registrierung </li>\n    <li>Datenbl&auml;tter </li>\n    <li>Praktische Beispiele (Labor)</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 20753,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 20754,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Messtechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Measurement Engineering"
+        }
+      ]
+    },
+    {
+      "id": 20756,
+      "kuerzel": "SteuerT",
+      "bezeichnung": "Steuerungstechnik",
+      "lernziele": "<ul>\n    <li>Kenntnis der Strukturierung und Steuerung von automatisierten Prozessen </li>\n    <li>Methodische Entwicklung von Steuerungssystemen </li>\n    <li>F&auml;higkeit zur Programmierung vonn SPS Steuerungen </li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Aufbau und Funktionsweise einer Steuerung </li>\n    <li>Darstellung von Systemen in Blockschema </li>\n    <li>Aussagelogik und Boolesche Algebra </li>\n    <li>Verkn&uuml;pfungs- und Ablaufsteuerung </li>\n    <li>Speicherprogrammierbare Steuerung (SPS) </li>\n    <li>SPS Programmierung </li>\n    <li>Praxisbeispiele </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 20757,
+          "art": "Uebung",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 20758,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        },
+        {
+          "id": 20759,
+          "art": "Vorlesung",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Steuerungstechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Control Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 6
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1269,
+      "name": "Koller",
+      "vorname": "Agathe"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11117,
+      "kuerzel": "M_CompAw",
+      "bezeichnung": "Computeranwendungen",
+      "url": "allModules/11117_M_CompAw.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 20751,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Kurs Messtechnik: Abgabe von 2 Laborberichten mit Bewertung &gt;= 4.0<br />Kurs Steuerungstechnik: alle Laborversuche absolviert</p>\n<p>&nbsp;</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Automation 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Automation 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2011,
+    "beginSemester": "HS",
+    "endJahr": 2013,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 11152,
+    "kuerzel": "M_AutoT1",
+    "bezeichnung": "Automatisierungstechnik 1",
+    "url": "allModules/11152_M_AutoT1.json"
+  },
+  "nachfolger": {
+    "id": 20751,
+    "kuerzel": "M_AutoT1",
+    "bezeichnung": "Automation 1",
+    "url": "allModules/20751_M_AutoT1.json"
+  }
+}

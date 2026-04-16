@@ -1,0 +1,203 @@
+{
+  "id": 25751,
+  "kuerzel": "M_WiRe",
+  "bezeichnung": "Wissenschaftliches Rechnen mit MATLAB",
+  "kreditpunkte": 2,
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 25752,
+      "kuerzel": "WiRe",
+      "bezeichnung": "Wissenschaftliches Rechnen mit MATLAB",
+      "lernziele": "<p>Die Studierenden k&ouml;nnen</p>\n<ul>\n    <li>die wichtigsten Datenstrukturen in Matlab erkl&auml;ren und die f&uuml;r ihre Problemstellung geeigneten&nbsp;ausw&auml;hlen,</li>\n    <li>einfache Skripte und Funktionen programmieren,</li>\n    <li>numerische Probleme mit Matlab bearbeiten,</li>\n    <li>Resultate in Matlab graphisch darstellen,</li>\n    <li>dynamische Systeme in Simulink modellieren und simulieren,</li>\n    <li>Simulinkmodelle aus Matlab aufrufen und Simulationsergebnisse in Matlab weiterverarbeiten.</li>\n</ul>",
+      "planinhalt": "Numerische Ingenieurprobleme, z.B. Lineare Algebra, Integraltransformationen,&nbsp;Interpolation, Optimierung, L&ouml;sen von Differential- und Differenzengleichungen.&nbsp;",
+      "kurselemente": [
+        {
+          "id": 25753,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 25759,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Wissenschaftliches Rechnen mit MATLAB"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Scientific Computing using MATLAB"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10243,
+      "bezeichnung": "Digitalisierung",
+      "kuerzel": "M-I-Dig",
+      "url": "allStudies/10243_M-I-Dig.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1184,
+      "name": "Kottmann",
+      "vorname": "Markus"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 20106,
+      "kuerzel": "M_An2M",
+      "bezeichnung": "Analysis 2 (M-I)",
+      "url": "allModules/20106_M_An2M.json"
+    },
+    {
+      "id": 23353,
+      "kuerzel": "M_DiffGlM",
+      "bezeichnung": "Differentialgleichungen (M-I)",
+      "url": "allModules/23353_M_DiffGlM.json"
+    },
+    {
+      "id": 37320,
+      "kuerzel": "M_ProgEinf",
+      "bezeichnung": "Einführung Programmierung",
+      "url": "allModules/37320_M_ProgEinf.json"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 43505,
+      "kuerzel": "M_LinAlg2EC",
+      "bezeichnung": "Lineare Algebra (2 ECTS-Punkte)",
+      "url": "allModules/43505_M_LinAlg2EC.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 25751,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": true,
+      "zulassungsBedingung": "Testat",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Wissenschaftliches Rechnen mit MATLAB"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Scientific Computing using MATLAB"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2015,
+    "beginSemester": "FS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  }
+}

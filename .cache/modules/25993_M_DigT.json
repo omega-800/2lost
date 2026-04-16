@@ -1,0 +1,176 @@
+{
+  "id": 25993,
+  "kuerzel": "M_DigT",
+  "bezeichnung": "Digitaltechnik",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Die Studierenden beherrschen die Grundbegriffe der Digitaltechnik. Sie k&ouml;nnen auf systematische Art und Weise kombinatorische und sequentielle Schaltungen auf der Basis verschiedener Beschreibungsmethoden analysieren und realisieren.&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 25994,
+      "kuerzel": "DigT",
+      "bezeichnung": "Digitaltechnik",
+      "planinhalt": "<p>Einf&uuml;hrung in die Digitaltechnik (Digitale Signale und Systeme, Digitaler Design-Flow, Analog vs. Digital) <br />Zahlendarstellung, Codes<br />Boolesche Algebra (Rechenregeln, Normalformen)<br />Designbeschreibung f&uuml;r kombinatorische Systeme (Hierarchisches Design, Schaltschema, Wahrheitstabelle) <br />Synthese (Minimierung)</p>\n<p><br />Schaltungsbeschreibung und Schaltungssynthese sequentieller Systeme<br />Endliche Zustandsautomaten (Struktur synchroner sequentieller Systeme, Zustandsspeicher, Zeitliches Verhalten, Synthese)<br />CMOS Schaltungstechnik (Aufbau und Verhalten logischer Gatter)&nbsp;<br />Realisierungsformen digitaler Schaltungen&nbsp;<br />&nbsp;</p>\n<p>&Auml;nderungen vorbehalten.</p>",
+      "kurselemente": [
+        {
+          "id": 25995,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        },
+        {
+          "id": 25996,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Digitaltechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Digital Technology"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 537055,
+      "name": "Zbinden",
+      "vorname": "Paul"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 25993,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat (Praktikum)</p>\n<p>&nbsp;</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Digitaltechnik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Digital Circuits"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2015,
+    "beginSemester": "HS",
+    "endJahr": 2021,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 20002,
+    "kuerzel": "M_DT1",
+    "bezeichnung": "Digitaltechnik 1",
+    "url": "allModules/20002_M_DT1.json"
+  },
+  "nachfolger": {
+    "id": 25993,
+    "kuerzel": "M_DigT",
+    "bezeichnung": "Digitaltechnik",
+    "url": "allModules/25993_M_DigT.json"
+  }
+}

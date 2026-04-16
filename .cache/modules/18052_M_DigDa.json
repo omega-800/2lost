@@ -1,0 +1,164 @@
+{
+  "id": 18052,
+  "kuerzel": "M_DigDa",
+  "bezeichnung": "Digitale Daten im Bauingenieurwesen - Verarbeitung/Darstellung",
+  "kreditpunkte": 4,
+  "lernziele": "<ul><li><p>Kenntnisse im Umgang mit digitalen Daten im Bauingenieurwesen</p></li><li><p>BIM (Building Information Modeling ) Grundlagen</p></li><li><p>Einf&uuml;hrung in Digitale Gel&auml;ndemodelle (DGM) als Grundlage f&uuml;r die digitale Projektbearbeitung</p></li><li><p>Grundkenntnisse der Bildverarbeitung und Visualisierung</p></li></ul>",
+  "vorausgKenntnisse": "<p>keine</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 18053,
+      "kuerzel": "DigDa",
+      "bezeichnung": "Verarbeitung und Darstellung von digitalen Daten im Bauingenieurwesen",
+      "planinhalt": "<p>Bearbeiten von GIS-Daten mit &bdquo;Global-Mapper&ldquo;:</p><ul><li><p>Importieren und exportieren von verschiedenen Dateiformaten (Raster-und Vektorformate)</p></li><li><p>Bearbeiten von Punkthaufen, Bruchkanten, H&ouml;henlinien etc.</p></li><li><p>Erstellen von Gel&auml;ndemodellen, und Karten</p></li></ul><p>Gel&auml;ndemodellierung im Strassenbau mit InfraWorks und Civil 3D</p><ul><li><p>Aufbau von digitalen Gel&auml;ndemodellen</p></li><li><p>Erdmassenberechnung, automatische Profilerstellung</p></li><li><p>Planung einer Strassenf&uuml;hrung</p></li></ul><p>Konstruktion und Visualisierung:</p><ul><li><p>Konstruieren und Visualisieren von 3D-Objekten mit Trimble &bdquo;SketchUp&ldquo;</p></li><li><p>Photorealistische Visualisierung mit &bdquo;IRender nXt&ldquo;</p></li></ul><p>BIM (Building Information Modeling):</p><ul><li><!--  -->Grundlagen</li><li>IFC-Schnittstelle</li></ul><p><!--  -->Bildbearbeitung mit &bdquo;GIMP&ldquo;:</p><ul><li><p>Bearbeiten von verschiedenen Bildformaten wie JPEG, GIF, PNG oder TIFF</p></li><li><p>Erstellen einer Photomontage</p></li></ul><p>&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 18061,
+          "art": "Praktikum",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Verarbeitung und Darstellung von digitalen Daten im Bauingenieurwesen"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Processing and display of digital data in Civil Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10005,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10005_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10109,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10109_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10131,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10131_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10197,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10197_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 205,
+      "name": "Schaufelberger",
+      "vorname": "Rainer"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Digitale Daten im Bauingenieurwesen - Verarbeitung/Darstellung"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Digital Data in Civil Engineering - Processing/Display"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2009,
+    "beginSemester": "FS",
+    "endJahr": 2020,
+    "endSemester": "HS"
+  }
+}

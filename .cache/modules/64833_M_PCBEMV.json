@@ -1,0 +1,138 @@
+{
+  "id": 64833,
+  "kuerzel": "M_PCBEMV",
+  "bezeichnung": "PCB-Design und EMV",
+  "kreditpunkte": 3,
+  "lernziele": "<p><span style=\"text-decoration: underline;\">Grundlagen von professionellen PCB Layouts (in KiCAD)</span></p>\n<ul>\n<li>PCB Materialien, Stackup</li>\n<li>PDN Design</li>\n<li>High-Speed Design</li>\n<li>Grundlagen SI/PI-gerechtes Design</li>\n</ul>\n<p>&nbsp;</p>\n<p><span style=\"text-decoration: underline;\">EMV-Grundlagen</span></p>\n<ul>\n<li>Grundbegriffe, Str&ouml;rbeinflussungsmodell, Kopplungen</li>\n<li>Wichtigste Standards, Begriffslandschaft</li>\n<li>Conducted Emissions, LISN, Messungen</li>\n<li>Radiated Emissions, Antennen, Messungen</li>\n<li>Immissionen, Immunity</li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 64834,
+      "kuerzel": "PCBEMV",
+      "bezeichnung": "PCB-Design und EMV",
+      "lernziele": "<p><span style=\"text-decoration: underline;\">Grundlagen von professionellen PCB Layouts (in KiCAD)</span></p>\n<ul>\n<li>PCB Materialien, Stackup</li>\n<li>PDN Design</li>\n<li>High-Speed Design</li>\n<li>Grundlagen SI/PI-gerechtes Design<br>&nbsp;</li>\n</ul>\n<p><span style=\"text-decoration: underline;\">EMV-Grundlagen</span></p>\n<ul>\n<li>Grundbegriffe, Str&ouml;rbeinflussungsmodell, Kopplungen</li>\n<li>Wichtigste Standards, Begriffslandschaft</li>\n<li>Conducted Emissions, LISN, Messungen</li>\n<li>Radiated Emissions, Antennen, Messungen</li>\n<li>Immissionen, Immunity</li>\n</ul>",
+      "planinhalt": "",
+      "kurselemente": [
+        {
+          "id": 65041,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 24,
+          "harteGrenze": true
+        },
+        {
+          "id": 65042,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 8,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "PCB-Design und EMV"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "PCB-Design and EMV"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 527044,
+      "name": "Lang",
+      "vorname": "Hans-Dieter"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 26011,
+      "kuerzel": "M_ELT4",
+      "bezeichnung": "Elektrotechnik 4",
+      "url": "allModules/26011_M_ELT4.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 64833,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>75% der Praktika besucht<br>50% der Punkte bei Moodle-Tests erreicht&nbsp;</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "PCB-Design und EMV"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "PCB Design and EMC"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2026,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  }
+}

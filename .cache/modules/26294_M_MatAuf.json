@@ -1,0 +1,134 @@
+{
+  "id": 26294,
+  "kuerzel": "M_MatAuf",
+  "bezeichnung": "Materialaufbau",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Vertrautheit mit dem Aufbau und Eigenschaften von technologischen Materialien und deren <br />Verwendung in der Technik.</p>",
+  "vorausgKenntnisse": "<p>Basischemie oder mindestens Stufe BMS</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 26299,
+      "kuerzel": "MatAuf",
+      "bezeichnung": "Aufbau der Materialien",
+      "lernziele": "<ul>\n    <li>Kenntnisse des atomaren Aufbaus und Verst&auml;ndnis der Eigenschaften von technologisch wichtigen Materialien. </li>\n    <li>Kenntnis und Verst&auml;ndnis von elektrochemischen Anwendungen. </li>\n</ul>",
+      "planinhalt": "<ol>\n    <li>Festk&ouml;rperstrukturen: Aufbau und Eigenschaften von Metallen, Polymeren und anderen modernen Werkstoffen </li>\n    <li>Korrosion und Korrosionsschutz von Werkstoffen </li>\n    <li>Redoxsysteme, Batterien, Akkumulatoren, Brennstoffzellen </li>\n</ol>",
+      "kurselemente": [
+        {
+          "id": 26300,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Aufbau der Materialien"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Materials Composition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10004,
+          "kuerzel": "E-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10004,
+          "kuerzel": "E-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533909,
+      "name": "Graf",
+      "vorname": "Mario"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 26294,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Materialaufbau"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Materials Science "
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2015,
+    "beginSemester": "HS",
+    "endJahr": 2015,
+    "endSemester": "HS"
+  }
+}

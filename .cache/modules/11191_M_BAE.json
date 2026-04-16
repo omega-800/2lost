@@ -1,0 +1,115 @@
+{
+  "id": 11191,
+  "kuerzel": "M_BAE",
+  "bezeichnung": "Bachelor-Arbeit Elektrotechnik",
+  "kreditpunkte": 12,
+  "lernziele": "<p>Anwendung der erworbenen Kenntnisse und F&#228;higkeiten. Die Arbeit soll den Nachweis erbringen, dass der Absolvent f&#228;hig ist, ein Problem selbstst&#228;ndig unter Anwendung ingenieurm&#228;ssiger Methoden zu l&#246;sen.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10367,
+      "kuerzel": "BAE",
+      "bezeichnung": "Bachelor-Arbeit Elektrotechnik",
+      "planinhalt": "<p>Die Bachelorarbeit wird in der Regel einem 2er Team &uuml;bertragen und von einem Dozenten betreut. Sie dauert ca. 14 Wochen (semesterbegleitend), gefolgt von einem 2-w&ouml;chigen Block mit einem Arbeitsaufwand von insgesamt&nbsp;360 Arbeitsstunden. <br />Das Thema der Arbeit kann von einer externen Firma, vom Dozenten oder von den Studenten vorgeschlagen werden und steht in Zusammenhang mit einem oder mehreren Profilierungsmodulen, welche die Sachbearbeiter belegen. Die definitive Aufgabenstellung obliegt dem betreuenden Dozenten. Wenn m&ouml;glich baut die Bachelorarbeit auf der vorangehenden Studienarbeit auf, wobei die Aufgabenstellung jedoch neu und eigenst&auml;ndig ist. <br /><br />Entsprechend dem Lernziel sollte die Bachelorarbeit &uuml;ber einen konzeptionellen, einen theoretischen und einen praktischen Anteil verf&uuml;gen und folgende Teilaufgaben umfassen: <br />&bull; Einarbeitung in eine neue Aufgabenstellung <br />&bull; Planung des Projektes <br />&bull; Analyse der Anforderungen (Spezifikation, Pflichtenheft) <br />&bull; Entwurf und Realisierung der L&ouml;sung (inkl. Bewertung des Standes der Technik) <br />&bull; Test der L&ouml;sung <br />&bull; Bewertung und Ausblick. <br /><br /></p>",
+      "kurselemente": [
+        {
+          "id": 11268,
+          "art": "Bachelor-Arbeit",
+          "anzLektionen": 12,
+          "maxTeilnehmer": 100,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Bachelor-Arbeit Elektrotechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Bachelor Thesis Electrical Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10083,
+          "kuerzel": "E-BA",
+          "bezeichnung": "Bachelor-Arbeit Elektrotechnik",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10083,
+          "kuerzel": "E-BA",
+          "bezeichnung": "Bachelor-Arbeit Elektrotechnik",
+          "kreditpunkte": 12
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 147,
+      "name": "Prechtl",
+      "vorname": "Heiner"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Bachelor-Arbeit Elektrotechnik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Bachelor Thesis Electrical Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2008,
+    "beginSemester": "FS",
+    "endJahr": 2009,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 11191,
+    "kuerzel": "M_BAE",
+    "bezeichnung": "Bachelor-Arbeit Elektrotechnik",
+    "url": "allModules/11191_M_BAE.json"
+  }
+}

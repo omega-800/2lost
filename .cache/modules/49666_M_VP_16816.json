@@ -1,0 +1,230 @@
+{
+  "id": 49666,
+  "kuerzel": "M_VP_16816",
+  "bezeichnung": "Fortgeschrittene statistische Prozesskontrolle",
+  "kreditpunkte": 18,
+  "lernziele": "<p>Die Studierenden</p><ul><li>kennen die Grundbegriffe der multivariaten Statistik, insbesondere die multiple lineare Regression.</li><li>kennen die grundlegenden Verfahren der MSPC: PCA, PLS, ICA, Faktoranalyse und Kernel-PCA.</li><li>k&ouml;nnen einen realen komplexen Fertigungsprozess (Lenksysteme) analysieren und gemessene Produktionsdaten zur weiteren Verarbeitung aufbereiten.</li><li>k&ouml;nnen Methoden der multivariaten Statistik, des maschinellen Lernens und der multivariaten statistischen Prozesskontrolle auf reale Prozessdaten anwenden.</li><li>k&ouml;nnen diese Methoden mit der Programmiersprache R realisieren und die Ergebnisse visualisieren.</li></ul>",
+  "vorausgKenntnisse": "Grundlagen der Mathematik und Informatik vom Bachelor-Studium Systemtechnik.",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 49667,
+      "kuerzel": "VP_1681601",
+      "bezeichnung": "Erstellen eines \"Produktionscockpits\"",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen einen realen komplexen Fertigungsprozess analysieren und gemessene Produktionsdaten zur weiteren Verarbeitung aufbereiten.</li><li>k&ouml;nnen Methoden der multivariaten Statistik, des maschinellen Lernens und der multivariaten statistischen Prozesskontrolle auf reale Prozessdaten anwenden.</li><li>k&ouml;nnen diese Methoden mit der Programmiersprache R realisieren und die Ergebnisse visualisieren.</li></ul>",
+      "planinhalt": "<ul><li>angewandte multivariate statistische Prozesskontrolle</li><li>fortgeschrittene Programmierung mit R</li></ul>",
+      "bibliographie": "<ul><li>Z. Ge und Z. Song Multivariate Statistical Process Control. Springer (2013)</li><li>U. Kruger und L. Xie Statistical Monitoring of Complex Multivariate Processes. Wiley (2012)</li></ul>",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird mittels Bericht und Fachgespr&auml;ch bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 49668,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002957,
+          "name": "Frick",
+          "vorname": "Klaus"
+        }
+      ]
+    },
+    {
+      "id": 49669,
+      "kuerzel": "VP_1681602",
+      "bezeichnung": "Einführung in multivariate statistische Prozesskontrolle (MSPC)",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>kennen die Grundbegriffe der multivariaten Statistik, insbesondere die multiple lineare Regression.</li><li>kennen die grundlegenden Verfahren der MSPC: PCA, PLS, ICA, Faktoranalyse und Kernel-PCA.</li><li>k&ouml;nnen die grundlegenden Verfahren der MSPC kombinieren, um industrielle Prozesse zu &uuml;berwachen.</li></ul>",
+      "planinhalt": "<ul><li>Multivariate Statistik</li><li>Statistische Prozesskontrolle</li></ul>",
+      "bibliographie": "<ul><li>Z. Ge und Z. Song Multivariate Statistical Process Control. Springer (2013)</li><li>U. Kruger und L. Xie Statistical Monitoring of Complex Multivariate Processes. Wiley (2012)</li></ul>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "leistungsnachweis": "<p>Dieser Kurs wird mittels Bericht und Fachgespr&auml;ch bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 49670,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002957,
+          "name": "Frick",
+          "vorname": "Klaus"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002957,
+      "name": "Frick",
+      "vorname": "Klaus"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 49482,
+      "kuerzel": "M_VP_15719",
+      "bezeichnung": "Machine Learning und Data Mining",
+      "url": "allModules/49482_M_VP_15719.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2016,
+    "beginSemester": "FS",
+    "endJahr": 2016,
+    "endSemester": "FS"
+  }
+}

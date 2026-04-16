@@ -1,0 +1,171 @@
+{
+  "id": 19827,
+  "kuerzel": "M_TeMeEU",
+  "bezeichnung": "Technische Mechanik ",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Technische Mechanik und Festigkeitslehre anwenden k&ouml;nnen.</li>\n    <li>Auslegen von Bauteilen unter Einhaltung von Sicherheitsfaktoren.</li>\n    <li>Kennen der existierenden Normen und Regelwerke.</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 19828,
+      "kuerzel": "TeMeEU",
+      "bezeichnung": "Technische Mechanik",
+      "planinhalt": "<ul>\n    <li>Einf&uuml;hrung in die technische Mechanik und deren Teilgebiete </li>\n    <li>Statische Grundlagen der Festigkeitslehre und elementare Festigkeitsrechnung unter Ber&uuml;cksichtigung von&nbsp; Sicherheitsfaktoren </li>\n    <li>Spannungs- und Verformungszustand </li>\n    <li>Typische Beanspruchungsf&auml;lle (Zug/Druck, Schub, Biegung, Torsion, zusammengesetzte Beanspruchung) </li>\n    <li>Arbeit und Energie der Verformung, Festigkeitshypothesen </li>\n    <li>Schwingende Belastung, Erm&uuml;dung </li>\n    <li>Spezielle Kapitel (Kerbwirkung und Gestaltfestigkeit,&nbsp;Stabilit&auml;tsprobleme) </li>\n    <li>Ausgew&auml;hlte Bauelemente und ihre strukturellen Eigenschaften </li>\n    <li>Regelwerke und Normen f&uuml;r Druckbeh&auml;lter</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 19829,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 120,
+          "harteGrenze": true
+        },
+        {
+          "id": 19830,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Technische Mechanik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Engineering Mechanics"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10219,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10219_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5010756,
+      "name": "Jousset",
+      "vorname": "Pierre"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11043,
+      "kuerzel": "M_Ph1Mech",
+      "bezeichnung": "Physik 1 - Mechanik",
+      "url": "allModules/11043_M_Ph1Mech.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 19827,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Technische Mechanik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Engineering Mechanics"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2011,
+    "beginSemester": "HS",
+    "endJahr": 2021,
+    "endSemester": "HS"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "id": 15475,
+  "kuerzel": "M_KomFou",
+  "bezeichnung": "Komplexe Zahlen und Fourierreihen",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Beherrschen des Rechnens mit komplexen Zahlen </li>\n    <li>Periodische Funktionen mit Reihen darstellen und untersuchen k&ouml;nnen </li>\n    <li>Spektraldarstellung von periodischen und nicht periodischen Signalen verstehen </li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 15476,
+      "kuerzel": "KomFour",
+      "bezeichnung": "Komplexe Zahlen und Fourierreihen",
+      "planinhalt": "<ul>\n    <li>Der Begriff der komplexen Zahl, die verschiedenen Darstellungsarten </li>\n    <li>Die vier Grundoperationen, Potenzen, Wurzeln </li>\n    <li>Komplexe Funktionen: die allgemeine lineare Abbildung (M&ouml;biustransformation), speziell die Inversion, die Exponential- und die Logarithmusfunktion </li>\n    <li>Fourierreihen in reeler und komplexer Darstellung </li>\n    <li>Uebergang Fourierreihen - Fouriertransformation </li>\n    <li>Diskrete Fouriertransformation </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 15477,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 15478,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Komplexe Zahlen und Fourierreihen"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1064,
+      "name": "Bernhardsgrütter",
+      "vorname": "Remo"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 10934,
+      "kuerzel": "M_An1E",
+      "bezeichnung": "Analysis 1 für Elektrotechnik",
+      "url": "allModules/10934_M_An1E.json"
+    },
+    {
+      "id": 10937,
+      "kuerzel": "M_LinAlg",
+      "bezeichnung": "Lineare Algebra: Einführung",
+      "url": "allModules/10937_M_LinAlg.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 15475,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Komplexe Zahlen und Fourierreihen"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Complex Numbers and Fourier Series"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "vorgaenger": {
+    "id": 10978,
+    "kuerzel": "M_KomFou",
+    "bezeichnung": "Komplexe Zahlen und Fourierreihen",
+    "url": "allModules/10978_M_KomFou.json"
+  }
+}

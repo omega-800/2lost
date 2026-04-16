@@ -1,0 +1,203 @@
+{
+  "id": 28362,
+  "kuerzel": "M_EmbSW2",
+  "bezeichnung": "Embedded Software Engineering 2",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden k&ouml;nnen verschiedene Paradigmen (prozedural, objektorientiert, generisch) bei der <em>Programmierung von Embedded Systems in C und C++</em> effektiv anwenden und deren Vor- und Nachteile beurteilen. Sie k&ouml;nnen die Effizienz von Implementationen beurteilen und charakterisieren, sowie Embedded Systems hocheffizient realisieren.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 28363,
+      "kuerzel": "EmbSW2",
+      "bezeichnung": "Embedded Software Engineering 2",
+      "planinhalt": "<p><strong>Beurteilung von Komplexit&auml;t und Performance</strong></p>\n<ul>\n<li>Komplexit&auml;tstheorie</li>\n<li>Performance Profiling</li>\n<li>C vs. C++</li>\n</ul>\n<p><strong>Effective C++ for Embedded Systems</strong></p>\n<ul>\n<li>Avoiding code and data bloat</li>\n<li>Interface-based programming (runtime, link-time and compile-time polymorphism)</li>\n<li>ROMability</li>\n<li>Memory-mapped I/O, e.g. with templates</li>\n<li>Dynamic memory management</li>\n</ul>\n<p><strong>Securing Embedded Systems using Crypto Engines</strong></p>\n<p><strong>Random Number Generators (Pseudo RNG, Cryptographically Secure PRNG, True RNG)</strong></p>\n<p><strong>Effiziente Cyclic Redundancy Checks (CRC)</strong></p>\n<p><strong>Bootloader</strong></p>\n<p>&Auml;nderungen vorbehalten</p>",
+      "kurselemente": [
+        {
+          "id": 28364,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 64,
+          "harteGrenze": true
+        },
+        {
+          "id": 28365,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Embedded Software Engineering 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Embedded Software Engineering 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533876,
+      "name": "Bonderer",
+      "vorname": "Reto"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 28358,
+      "kuerzel": "M_EmbSW1",
+      "bezeichnung": "Embedded Software Engineering 1",
+      "url": "allModules/28358_M_EmbSW1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 28362,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>75% der Praktika besucht</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Embedded Software Engineering 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Embedded Software Engineering 2"
+    }
+  ],
+  "skriptAblageLink": "\\\\OST.ch\\root\\alg\\skripte\\BSc_Elektrotechnik\\Fachbereich\\Embedded_Software_Engineering_2",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2017,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 22058,
+    "kuerzel": "M_EmbSW2",
+    "bezeichnung": "Embedded Software Engineering 2",
+    "url": "allModules/22058_M_EmbSW2.json"
+  }
+}

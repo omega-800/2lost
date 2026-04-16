@@ -1,0 +1,166 @@
+{
+  "id": 22085,
+  "kuerzel": "M_MikroelSys1",
+  "bezeichnung": "Mikroelektronik-Systeme 1",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden k&ouml;nnen wichtige Grundschaltungen und Subsysteme in CMOS-Technologie entwerfen und analysieren. Sie k&ouml;nnen auf systematische Art und Weise integrierte CMOS-Schaltungen berechnen und mittels Simulationen &uuml;berpr&uuml;fen und optimieren. </p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 22086,
+      "kuerzel": "MikroelSys1",
+      "bezeichnung": "Mikroelektronik-Systeme 1",
+      "planinhalt": "<p>MOS-Transistor (Struktur, Kennlinien, Ersatzschaltungen) <br />Grundschaltungen des MOS-Transistors <br />MOS-Diode <br />MOS-Transistor als Stromquelle <br />MOS-Stromspiegel <br />Einstufige MOS-Verst&auml;rker <br />MOS-Operationsverst&auml;rker <br />Spannungsreferenzen&nbsp;<br /><br />Aenderungen vorbehalten.<br /></p>",
+      "kurselemente": [
+        {
+          "id": 22087,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        },
+        {
+          "id": 22088,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Mikroelektronik-Systeme 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Micro Electronics Systems 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 537055,
+      "name": "Zbinden",
+      "vorname": "Paul"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11201,
+      "kuerzel": "M_Elo1",
+      "bezeichnung": "Elektronik 1",
+      "url": "allModules/11201_M_Elo1.json"
+    },
+    {
+      "id": 11202,
+      "kuerzel": "M_Elo2",
+      "bezeichnung": "Elektronik 2",
+      "url": "allModules/11202_M_Elo2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 22085,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat (Praktikum)</p>\n<p>&nbsp;</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Mikroelektronik-Systeme 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Micro Electronics Systems 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2012,
+    "beginSemester": "HS",
+    "endJahr": 2014,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 17316,
+    "kuerzel": "M_Mikroel3",
+    "bezeichnung": "Mikroelektronik 3",
+    "url": "allModules/17316_M_Mikroel3.json"
+  },
+  "nachfolger": {
+    "id": 22085,
+    "kuerzel": "M_MikroelSys1",
+    "bezeichnung": "Mikroelektronik-Systeme 1",
+    "url": "allModules/22085_M_MikroelSys1.json"
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "id": 11186,
+  "kuerzel": "M_Mikroel1",
+  "bezeichnung": "Mikroelektronik 1",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Der Student kennt die Grundbegriffe der Mikroelektronik und der Schaltungsintegration und kann entscheiden, wann es sinnvoll ist, eine anwendungsspezifische Integrierte Schaltung (ASIC) zu entwickeln. <br />Er kann den Frequenzgang von Schaltungen berechnen und gezielt beeinflussen und kennt die Theorie und Praxis der Gegenkopplung. <br />Er kann elektronische Schaltungen mit diskreten Bipolar- und MOS-Transistoren sowie mit integrierten Standardschaltungen entwerfen, dimensionieren und mit dem Simulator verifizieren und optimieren. F&#252;r viele typische Funktionen der Elektronik kennt er je eine Schaltungsvariante in diskreter und in integrierbarer Form. Die wichtigsten Unterschiede zwischen der diskreten und der integrierten Schaltungstechnik sind ihm gel&#228;ufig. <br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10361,
+      "kuerzel": "Mikroel1",
+      "bezeichnung": "Mikroelektronik 1",
+      "planinhalt": "<p>Grundbegriffe der Mikroelektronik und der Schaltungsintegration, <br />&Uuml;bertragungsfunktion, Bodediagramm und Frequenzgang elektronischer Schaltungen, <br />Theorie und Praxis der Gegenkopplung, <br />Bipolar- und MOS-Schaltungstechnik f&uuml;r diskrete und integrierte Schaltungen. <br />Wechselnde Spezialthemen nach Bedarf: Oszillatoren, Filter, Breitbandverst&auml;rker, Rauschen, Leistungsverst&auml;rker. <br />Bei aktuellem Bedarf (Studienarbeiten mit besonderen Voraussetzungen) k&ouml;nnen Themen zwischen den Modulen Mikroel1 und Mikroel2 verschoben werden. Aenderungen vorbehalten.<br /></p>",
+      "kurselemente": [
+        {
+          "id": 10851,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 48,
+          "harteGrenze": true
+        },
+        {
+          "id": 10852,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Mikroelektronik 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Micro Electronics 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 871,
+      "name": "Hinn",
+      "vorname": "Werner"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11201,
+      "kuerzel": "M_Elo1",
+      "bezeichnung": "Elektronik 1",
+      "url": "allModules/11201_M_Elo1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11186,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Mikroelektronik 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Micro Electronics 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2007,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 11186,
+    "kuerzel": "M_Mikroel1",
+    "bezeichnung": "Mikroelektronik 1",
+    "url": "allModules/11186_M_Mikroel1.json"
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "id": 11012,
+  "kuerzel": "M_SE1",
+  "bezeichnung": "Software-Engineering 1",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Alle Schritte der methodischen objektorientierten Softwareentwicklung von der Anforderungsanalyse &#252;ber Domainanalyse, <br />Objektorienter Entwurf bis Umsetzung in Code verstehen und durchf&#252;hren k&#246;nnen. <br />Verst&#228;ndnis des objektorientierten Software-Entwicklungsprozesses mit Projektmanagement und unterst&#252;tzendenden T&#228;tigkeiten <br />wie Software-Pr&#252;fung und Konfigurationsmanagement <br /><br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10110,
+      "kuerzel": "SE1",
+      "bezeichnung": "Software-Engineering 1",
+      "planinhalt": "<p>&Uuml;bersicht des iterativen und inkrementellen objektorientierten Software-Entwicklungsprozesses anhand des Ratinal Process (RP) <br /><br />Einzelne Schritte der objektorientierten Softwareentwicklung mit entsprechenden Modellen in UML unter Verwendung eines UML-Modellierungswerkzeuges: <br />- Anforderungsanalyse mit Use Cases <br />- Objektorientierte Domainanalyse <br />- Architekturentwurf und objektorientierter Entwurf<br />- Umsetzung des Entwurfs in Code <br />- Entwurfsprinzipien und grundlegende Design Pattern<br /><br />Projektmanagement (Projektplanung, -steuerung und -kontrolle) <br />Pr&uuml;fen von Software (Reviews und Tests) <br />Konfigurationsmanagement <br /><br /></p>",
+      "kurselemente": [
+        {
+          "id": 10510,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 10511,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Software-Engineering 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Software Engineering 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10058,
+          "kuerzel": "K_U1I",
+          "bezeichnung": "Übergangsmodule Informatik 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 873,
+      "name": "Rudin",
+      "vorname": "Hans"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11045,
+      "kuerzel": "M_Prog2",
+      "bezeichnung": "Programmieren 2: Programmierkonzepte",
+      "url": "allModules/11045_M_Prog2.json"
+    },
+    {
+      "id": 15687,
+      "kuerzel": "M_Prog1",
+      "bezeichnung": "Programmieren 1: Programmieren mit Java",
+      "url": "allModules/15687_M_Prog1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11012,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat erfordert Teilnahme an&nbsp;mindestens 75%&nbsp;der &#220;bungen und erfolgreiche Abgabe einzelner &#220;bungsl&#246;sungen</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Software-Engineering 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Software Engineering 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2008,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 11012,
+    "kuerzel": "M_SE1",
+    "bezeichnung": "Software-Engineering 1",
+    "url": "allModules/11012_M_SE1.json"
+  }
+}

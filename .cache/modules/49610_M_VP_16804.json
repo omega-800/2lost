@@ -1,0 +1,231 @@
+{
+  "id": 49610,
+  "kuerzel": "M_VP_16804",
+  "bezeichnung": "Partielle Differentialgleichungen mit OpenFOAM",
+  "kreditpunkte": 18,
+  "lernziele": "<p>Die Studierenden verstehen Grundlagen der numerischen Methoden zur L&ouml;sung von partiellen Differentialgleichungen. Sie verstehen die Finite-Volumen-Methoden und kennen verschiedene Diskretisierungsverfahren, wie sie in OpenFOAM verwendet werden. Sie setzen OpenFOAM zur L&ouml;sung von partiellen Differentialgleichungen (insbesondere W&auml;rmeleitungsgleichung, Convection-Diffusion equation, Navier-Stokes (laminar und turbulent)) ein. Die Studierenden wenden Linux als Betriebssystem f&uuml;r OpenFOAM an. Sie k&ouml;nnen Prozesse mit Hilfe von Linux-Befehlen automatisieren.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 49611,
+      "kuerzel": "VP_1680401",
+      "bezeichnung": "Partielle Differentialgleichungen mit OpenFOAM",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden verstehen Grundlagen der numerischen Methoden zur L&ouml;sung von partiellen Differentialgleichungen. Sie verstehen die Finite-Volumen-Methoden und kennen verschiedene Diskretisierungsverfahren, wie sie in OpenFOAM verwendet werden. Sie setzen OpenFOAM zur L&ouml;sung von partiellen Differentialgleichungen (insbesondere W&auml;rmeleitungsgleichung, Convection-Diffusion equation, Navier-Stokes (laminar und turbulent)) ein.</p>",
+      "planinhalt": "<p>Verfahren des Data Mining</p><ul><li>Grundlagen numerische Methoden f&uuml;r PDEs</li><li>Finite-Volumen-Methode, Diskretisierungen</li><li>OpenFOAM</li><li>W&auml;rmeleitungsgleichung</li><li>Convection-Diffusion-Equation</li><li>Laminare Str&ouml;mungen</li><li>Turbulente Str&ouml;mungen</li><li>Kopplungen von PDEs<br />&nbsp;</li></ul>",
+      "bibliographie": "<p>Ferziger, Peric: Numerische Str&ouml;mungsmechanik<br />Lecheler: Numerische Str&ouml;mungsberechnung<br />Knabner, Angermann: Numerik Partieller Differentialgleichungen<br />Online-Manuals zu OpenFOAM</p>",
+      "empfLehrmittel": "<p>Projektarbeit</p>\n<p>Literaturstudium</p>\n<p>Selbststudium</p>",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird mittels Bericht und Fachgespr&auml;ch bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 49612,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000192,
+          "name": "Schreiner",
+          "vorname": "Michael"
+        }
+      ]
+    },
+    {
+      "id": 49613,
+      "kuerzel": "VP_1680402",
+      "bezeichnung": "Einführung in Linux",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden wenden Linux als Betriebssystem f&uuml;r OpenFOAM an. Sie k&ouml;nnen Prozesse mit Hilfe von Linux-Befehlen automatisieren.</p>",
+      "planinhalt": "<p>Grundlagen Linux (Skriptsprache, Pipes, Stream Editor, etc.)</p>",
+      "bibliographie": "<p>Manuals, Tutorials, etc.<br />Siever, Figgins, Love, Robbins: Linux in a Nutshell</p>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>Dieser Kurs wird mittels Fachgespr&auml;ch mit Diskussion und Pr&uuml;fungsfragen bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 49614,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000192,
+          "name": "Schreiner",
+          "vorname": "Michael"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000192,
+      "name": "Schreiner",
+      "vorname": "Michael"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 49515,
+      "kuerzel": "M_VP_15702",
+      "bezeichnung": "Strömungsmechanik und CFD",
+      "url": "allModules/49515_M_VP_15702.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2016,
+    "beginSemester": "FS",
+    "endJahr": 2016,
+    "endSemester": "FS"
+  }
+}

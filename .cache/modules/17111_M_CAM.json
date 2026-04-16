@@ -1,0 +1,140 @@
+{
+  "id": 17111,
+  "kuerzel": "M_CAM",
+  "bezeichnung": "CAM / Produktionstechnik",
+  "kreditpunkte": 2,
+  "lernziele": "<ul>\n    <li>Grundlagen des Digital Manufacturing kennen und Voraussetzungen, Nutzen, Chancen und Risiken verstehen</li>\n    <li>Grundbegriffe der Maschinensteuerungen (&Uuml;berblick DNC) kennen</li>\n    <li>Vollst&auml;ndige Prozesskette vom CAD zum montierten Werikst&uuml;ck durchf&uuml;hren</li>\n    <li>Datenaustausch-Problematik kennen (Austausch &uuml;ber Systemgrenzen</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 17117,
+      "kuerzel": "CAM",
+      "bezeichnung": "CAM / Produktionstechnik",
+      "planinhalt": "<p>Digitale Produktentwicklung und Fertigung (Produkt Lebenszyklus)<br />Nummerisch gesteuerte Fertigungsverfahren (Grundlagen/&Uuml;berblick<br />Programmierung von CNC Maschinen<br />Postprozessoren und Maschinen Simulation (Aufbau/Funktion)<br />Vernetzung von CNC Maschinen (DNC/MDE/BDE)<br />Werkzeugdaten Management (Grundlagen/&Uuml;berblick Werkzeugkreislauf)<br />Fertigungsprozess Management (Montag-, Fabrikplanung)<br />Fertigungsprozess Management (Robotik- und Automatisierungsplanung)</p>",
+      "kurselemente": [
+        {
+          "id": 17118,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 17119,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "CAM / Produktionstechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "CAM / Production Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 28,
+      "name": "Simeon",
+      "vorname": "Alex"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 17111,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": true,
+      "zulassungsBedingung": "Erf&uuml;llen der Testatbedingungen",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "CAM / Produktionstechnik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "CAM / Production Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2009,
+    "beginSemester": "FS",
+    "endJahr": 2011,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 17111,
+    "kuerzel": "M_CAM",
+    "bezeichnung": "CAM / Produktionstechnik",
+    "url": "allModules/17111_M_CAM.json"
+  }
+}

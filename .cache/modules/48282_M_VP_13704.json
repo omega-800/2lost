@@ -1,0 +1,221 @@
+{
+  "id": 48282,
+  "kuerzel": "M_VP_13704",
+  "bezeichnung": "Dynamikuntersuchungen an einer Transfermaschine",
+  "kreditpunkte": 15,
+  "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>kennen die typischen heutigen Auslegungsmethoden und Grenzbelastungen bei Transfermaschinen in der Grossserienproduktion.</li>\n    <li>k&ouml;nnen komplexe Maschinen, insbesondere eine oder mehrere Arbeitsstationen der Transfermaschine als Mehrk&ouml;rpermodell aufbauen und beispielhaft mit Hilfe des Programms Simpack simulieren.</li>\n    <li>k&ouml;nnen mit Hilfe der Mehrk&ouml;rpersimulation die dynamischen Eigenschaften analysieren, Schwachstellen erkennen und L&ouml;sungsvorschl&auml;ge erstellen.</li>\n    <li>k&ouml;nnen die Vorteile einer Mehrk&ouml;rpersimulation im Vergleich zu heutigen Auslegungsmethoden bewerten.</li>\n</ul>",
+  "vorausgKenntnisse": "Bachelor of Science in Systemtechnik mit Vertiefung in Mechanik und Produktion",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 48283,
+      "kuerzel": "VP_1370401",
+      "bezeichnung": "Dynamikuntersuchungen an einer Transfermaschine in der Grossserienproduktion ",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>kennen detailliert die Funktionsweise, insbesondere die dynamischen Vorg&auml;nge bei Transfermaschinen.</li>\n    <li>kennen die heutigen Auslegungsmethoden von Kurvenscheiben bei Transfermaschinen und die daraus resultierenden dynamischen Eigenschaften.</li>\n    <li>k&ouml;nnen eine oder mehrere Arbeitsstationen der Transfermaschine als Mehrk&ouml;rpermodell aufbauen und beispielhaft mit Hilfe des Programms Simpack simulieren. </li>\n    <li>k&ouml;nnen mit Hilfe der Mehrk&ouml;rpersimulation die dynamischen Eigenschaften analysieren, Schwachstellen erkennen und L&ouml;sungsvorschl&auml;ge in Hinblick auf die Erh&ouml;hung der Taktrate erstellen.</li>\n    <li>k&ouml;nnen die Vorteile einer Mehrk&ouml;rpersimulation im Vergleich zu heutigen Auslegungsmethoden bewerten.&nbsp; </li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Dynamik von Mehrk&ouml;rpersystemen</li>\n    <li>Transfermaschine in der Grossserienproduktion </li>\n    <li>Mehrk&ouml;rpersimulation am Beispiel des Programms Simpack</li>\n    <li>Optimierung des dynamischen Verhaltens zur Erh&ouml;hung der Taktrate</li>\n</ul>",
+      "bibliographie": "<p>Mayr: Technische Mechanik<br />Vorlesungsunterlagen Mechanische Systeme I und II<br />Roloff / Matek: Maschinenelemente</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "Das zu bearbeitende Projekt wird mittels m&uuml;ndlicher Pr&uuml;fung nach Projektabschluss bewertet.",
+      "kurselemente": [
+        {
+          "id": 48284,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001060,
+          "name": "Althaus",
+          "vorname": "Josef"
+        }
+      ]
+    },
+    {
+      "id": 48285,
+      "kuerzel": "VP_1370402",
+      "bezeichnung": "Mehrkörpersimulation",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>kennen den strukturellen Aufbau eines Mehrk&ouml;rpersimulationsprogramms mit Relativkoordinaten.</li>\n    <li>k&ouml;nnen komplexe Maschinen als Mehrk&ouml;rpermodell aufbauen und beispielhaft mit Hilfe des Programms Simpack simulieren.</li>\n    <li>k&ouml;nnen die St&auml;rken und Schw&auml;chen einer solchen Mehrk&ouml;rpersimulation bewerten. </li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Dynamik von Mehrk&ouml;rpersystemen</li>\n    <li>K&ouml;rper, Joints, Kraftelemente, Constraints</li>\n    <li>Numerische Integration nichtlinearer Differentialgleichungen</li>\n</ul>",
+      "bibliographie": "<p>Vorlesungsunterlagen Mechanische Systeme II<br />Rill, G.; Schaeffer, T.: Grundlagen und Methodik der Mehrk&ouml;rpersimulation<br />Woernle, C.: Mehrk&ouml;rpersysteme<br />Bremer, H.; Pfeiffer, F.: Elastische Mehrk&ouml;rpersysteme</p>",
+      "empfLehrmittel": "<p>Puzzle Methode</p>",
+      "leistungsnachweis": "Dieser Kurs wird mittels eines Fachvortrages bewertet.",
+      "kurselemente": [
+        {
+          "id": 48286,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001060,
+          "name": "Althaus",
+          "vorname": "Josef"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2001060,
+      "name": "Althaus",
+      "vorname": "Josef"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Investigation of the Dynamic Behaviour of a Transfer Machine"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "HS",
+    "endJahr": 2013,
+    "endSemester": "HS"
+  }
+}

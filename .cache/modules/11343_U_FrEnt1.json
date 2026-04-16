@@ -1,0 +1,142 @@
+{
+  "id": 11343,
+  "kuerzel": "U_FrEnt1",
+  "bezeichnung": "Freiraumentwurf  1 - Übergangsmodul",
+  "kreditpunkte": 4,
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 11228,
+      "kuerzel": "uBauad1",
+      "bezeichnung": "Bauadministration 1 - Übergang",
+      "kurselemente": [
+        {
+          "id": 11322,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 11323,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Bauadministration 1 - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Construction administration 1 - Transition"
+        }
+      ]
+    },
+    {
+      "id": 11229,
+      "kuerzel": "uMetEnt",
+      "bezeichnung": "Entwurfsmethodik - Übergang",
+      "kurselemente": [
+        {
+          "id": 11324,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Entwurfsmethodik - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Design Methodology - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10008,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10008_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10014,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10014_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1233,
+      "name": "Cejka",
+      "vorname": "Andrea"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11343,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Projektarbeit Bauadmin2</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Freiraumentwurf  1 - Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Landscape Architectural Design Studio 1 - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2005,
+    "endSemester": "WS"
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "id": 21732,
+  "kuerzel": "M_UInt2",
+  "bezeichnung": "User Interfaces 2",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Vertiefte Kenntnisse zu Entwurf und Realisierung von User Interfaces. <br />Vertiefte Kenntnisse zu Gestaltung und Benutzbarkeit von User Interfaces. </p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 21733,
+      "kuerzel": "UInt2",
+      "bezeichnung": "User Interfaces 2",
+      "planinhalt": "<ul>\n    <li>Benutzungsorientierte Anforderungsanalyse</li>\n    <li>Design for Collaboration</li>\n    <li>Low fidelity Prototyping</li>\n    <li>Input &amp; Output Hardware</li>\n    <li>Psychologische und physiologische Grundlagen der HCI</li>\n    <li>Methoden des UI Testing</li>\n    <li>Visual &amp; Web Design</li>\n    <li>Next Generation UI Design (aktuelle Themen)</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 21734,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 21735,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "User Interfaces 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "User Interfaces 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533889,
+      "name": "Stolze",
+      "vorname": "Markus"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11013,
+      "kuerzel": "M_SE2P",
+      "bezeichnung": "Software-Engineering 2 - Projekt",
+      "url": "allModules/11013_M_SE2P.json"
+    },
+    {
+      "id": 18558,
+      "kuerzel": "M_SE1",
+      "bezeichnung": "Software-Engineering 1",
+      "url": "allModules/18558_M_SE1.json"
+    },
+    {
+      "id": 23868,
+      "kuerzel": "M_UIn1",
+      "bezeichnung": "User Interfaces 1",
+      "url": "allModules/23868_M_UIn1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 21732,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Aktive Teilnahme an den &#220;bungen.</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "User Interfaces 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "User Interfaces 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2012,
+    "beginSemester": "FS",
+    "endJahr": 2015,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 10984,
+    "kuerzel": "M_UInt2",
+    "bezeichnung": "User Interfaces 2",
+    "url": "allModules/10984_M_UInt2.json"
+  },
+  "nachfolger": {
+    "id": 21732,
+    "kuerzel": "M_UInt2",
+    "bezeichnung": "User Interfaces 2",
+    "url": "allModules/21732_M_UInt2.json"
+  }
+}

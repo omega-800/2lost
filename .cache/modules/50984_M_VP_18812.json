@@ -1,0 +1,238 @@
+{
+  "id": 50984,
+  "kuerzel": "M_VP_18812",
+  "bezeichnung": "Eingebettete Systeme II",
+  "kreditpunkte": 18,
+  "lernziele": "<p>Fachkompetenz:<br />Die Studierenden</p><ul><li>kennen die Grundlagen der Programmiersprache C++.</li><li>k&ouml;nnen verschiedene Sprachkonstrukte fachgerecht einsetzen.</li><li>kennen die M&ouml;glichkeiten der Standardbibliothek.</li><li>kennen die grundlegenden Eigenschaften einer Robotersteuerung.</li><li>k&ouml;nnen daraus ein passendes Programm innerhalb eines gegebenen Frameworks (eeros) entwickeln.</li></ul><p>Methodenkompetenz<br />Die Studierenden</p><ul><li>demonstrieren F&auml;higkeit zu Analyse, Kreativit&auml;t, vernetztes Denken.</li><li>k&ouml;nnen ein bestehendes Konzepte analysieren und auf erweiterte Anforderungen anpassen.</li></ul><p>Sozialkompetenz</p><ul><li>Kommunikations- und Kooperationsf&auml;higkeit</li></ul><p>Selbstkompetenz</p><ul><li>Selbst&auml;ndigkeit, Verantwortlichkeit</li></ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 50985,
+      "kuerzel": "VP_1881201",
+      "bezeichnung": "Software für Delta-Roboter",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Fachkompetenz:<br />Die Studierenden</p><ul><li>kennen die grundlegenden Eigenschaften einer Robotersteuerung.</li><li>k&ouml;nnen daraus ein passendes Programm innerhalb eines gegebenen Frameworks (eeros) entwickeln.</li></ul><p>Methodenkompetenz<br />Die Studierenden</p><ul><li>demonstrieren F&auml;higkeit zu Analyse, Kreativit&auml;t, vernetztes Denken.</li><li>k&ouml;nnen ein bestehendes Konzepte analysieren und auf erweiterte Anforderungen anpassen.</li></ul><p>Sozialkompetenz</p><ul><li>Kommunikations- und Kooperationsf&auml;higkeit</li></ul><p>Selbstkompetenz</p><ul><li>Selbst&auml;ndigkeit, Verantwortlichkeit</li></ul>",
+      "planinhalt": "<p>F&uuml;r einen bestehenden Delta-Roboter soll ein neues Steuerungsboard evaluiert und eingesetzt werden. Die bestehenden Sensoren und Aktoren m&uuml;ssen passend eingebunden werden. Allf&auml;llige weitere geplante Peripherieger&auml;te sollen ebenfalls hinzugef&uuml;gt werden k&ouml;nnen. Die bestehende Demonstrationssoftware soll auf den neusten Stand gebracht werden. Dazu passend wird eine neue attraktive Demoapplikation entwickelt und getestet. Ein ausf&uuml;hrliches Tutorial soll den sp&auml;teren Einsatz als Unterrichtsroboter f&ouml;rdern.<br />Erstellen eines detaillierten Projektplans mit Meilensteinen, regelm&auml;ssige Information bez&uuml;glich Projektstand, Selbstverantwortung.</p><p>Lieferobjekte: Projekt, Bericht, Schlusspr&auml;sentation.</p>",
+      "bibliographie": "<p>www.eeros.org, http://hw.eeros.org/eeduro/</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "bemerkungKurs": "<p>Unterrichtssprache Deutsch (Literatur zum Teil in Englisch)</p><p>&nbsp;</p>",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird mittels Projektarbeit, Bericht und einer Schlusspr&auml;sentation mit Pr&uuml;fungsgespr&auml;ch bewertet..</p>",
+      "kurselemente": [
+        {
+          "id": 50986,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000080,
+          "name": "Graf",
+          "vorname": "Urs"
+        }
+      ]
+    },
+    {
+      "id": 50987,
+      "kuerzel": "VP_1881202",
+      "bezeichnung": "C++",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>kennen die Grundlagen der Programmiersprache C++.</li><li>k&ouml;nnen verschiedene Sprachkonstrukte fachgerecht einsetzen.</li><li>kennen die M&ouml;glichkeiten der Standardbibliothek.</li><li>erwerben Fachkompetenzen (Faktenwissen, Methodenwissen und Systemdenken) und Methodenkompetenzen.</li></ul>",
+      "planinhalt": "<ul><li>Classes, Members, Constructors</li><li>Templates</li><li>Exceptions</li><li>Standardbibliothek</li><li>Evolution C++, C++11, C++14</li></ul>",
+      "bibliographie": "<p>Diverse Online-Tutorials</p><p>Effective Modern C++, Scott Meyers, O&#39;Reilly Media</p>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "bemerkungKurs": "<p>Literatur teilweise in Englisch</p>",
+      "leistungsnachweis": "<p>Der Kurs wird mittels Fachgespr&auml;ch mit Demonstration eigner Beispiele bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 50988,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000080,
+          "name": "Graf",
+          "vorname": "Urs"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000080,
+      "name": "Graf",
+      "vorname": "Urs"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 50853,
+      "kuerzel": "M_VP_17708",
+      "bezeichnung": "Eingebettete Systeme I d",
+      "url": "allModules/50853_M_VP_17708.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Embedded Systems II"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2018,
+    "beginSemester": "FS",
+    "endJahr": 2018,
+    "endSemester": "FS"
+  }
+}

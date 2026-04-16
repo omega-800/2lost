@@ -1,0 +1,98 @@
+{
+  "id": 39799,
+  "kuerzel": "M_KatMaPhys",
+  "bezeichnung": "Mathematik und Physik",
+  "kreditpunkte": 4,
+  "vorausgKenntnisse": "Anrechnung von ECTS aus anderen FachHochschulen",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 39800,
+      "kuerzel": "KatNatW",
+      "bezeichnung": "Mathematik und Physik",
+      "kurselemente": [
+        {
+          "id": 39801,
+          "art": "Blockkurs",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Naturwissenschaften"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10191,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10191_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10246,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10246_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 113,
+      "name": "Bucher",
+      "vorname": "Benno"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Mathematik und Physik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Mathematics and Physics"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

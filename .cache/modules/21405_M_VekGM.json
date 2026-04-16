@@ -1,0 +1,158 @@
+{
+  "id": 21405,
+  "kuerzel": "M_VekGM",
+  "bezeichnung": "Vektorgeometrie (M-I)",
+  "kreditpunkte": 2,
+  "lernziele": "<ul> <li>F&#228;higkeit, entsprechende geometrische Fragen mit Hilfe der Vektorgeometrie zu bearbeiten</li><li>Kompetenter Umgang mit linearen Gleichungssystemen <br /></li></ul>",
+  "vorausgKenntnisse": "Mathematikkenntnisse gem&auml;ss Rahmenlehrplan f&uuml;r die technische Berufsmaturit&auml;t.",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 21406,
+      "kuerzel": "VekGM",
+      "bezeichnung": "Vektorgeometrie (M-I)",
+      "planinhalt": "<ul>\n<li>Projektion eines Vektors auf einen anderen</li><li>Vektorprodukt</li><li>Anwendung auf geometrische Probleme</li><li>Gleichungssysteme in Matrizenschreibweise und Diskussion der verschiedenen F&#228;lle</li><li>Rechnen mit Matrizen</li></ul>",
+      "kurselemente": [
+        {
+          "id": 21407,
+          "art": "Vorlesung",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 21408,
+          "art": "Uebung",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Vektorgeometrie"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Vector Geometry"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 538995,
+      "name": "Weibel",
+      "vorname": "Reto"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 21405,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Vektorgeometrie"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Vector Geometry"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2011,
+    "beginSemester": "HS",
+    "endJahr": 2012,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 19938,
+    "kuerzel": "M_VekG",
+    "bezeichnung": "Vektorgeometrie",
+    "url": "allModules/19938_M_VekG.json"
+  },
+  "nachfolger": {
+    "id": 21405,
+    "kuerzel": "M_VekGM",
+    "bezeichnung": "Vektorgeometrie (M-I)",
+    "url": "allModules/21405_M_VekGM.json"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": 55401,
+  "kuerzel": "M_KatNatWi",
+  "bezeichnung": "Naturwissenschaften",
+  "kreditpunkte": 20,
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 55402,
+      "kuerzel": "KatNatW",
+      "bezeichnung": "Naturwissenschaften",
+      "kurselemente": [
+        {
+          "id": 55403,
+          "art": "Blockkurs",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Naturwissenschaften"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10234,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10234_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10030,
+          "kuerzel": "B-n",
+          "bezeichnung": "Naturwissenschaften ",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 10261,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10261_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10030,
+          "kuerzel": "B-n",
+          "bezeichnung": "Naturwissenschaften ",
+          "kreditpunkte": 20
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533883,
+      "name": "Wenk",
+      "vorname": "Felix"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Naturwissenschaften"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Natural sciences"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

@@ -1,0 +1,164 @@
+{
+  "id": 11013,
+  "kuerzel": "M_SE2P",
+  "bezeichnung": "Software-Engineering 2 - Projekt",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Objektorientiertes Entwicklungsprojekt in kleinem Team vollst&#228;ndig und methodisch abwickeln k&#246;nnen. <br /><br /><br /></p>",
+  "vorausgKenntnisse": "<p>paralleler Besuch von Software-Engineering 2</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10111,
+      "kuerzel": "SE2P",
+      "bezeichnung": "Software-Engineering 2 - Projekt",
+      "planinhalt": "<p>Ein Software-Entwicklungsprojekt wird in einem kleinen Team methodisch von der Anforderungsspezifikation bis <br />zum getesteten Code vollst&#228;ndig entwickelt und dokumentiert. <br /><br />Das Projekt wird in 3er bis 4er Teams durchgef&#252;hrt. (Abweichende Teamgr&#246;ssen k&#246;nnen von den Dozenten bewilligt werden.)</p>\n<p>Das Thema kann vom Team gew&#228;hlt werden, muss aber von den Dozenten bewilligt werden.<br /><br />Das Projekt wird in einem inkrementellen, iterativen Entwicklungsprozess in Phasen abgewickelt. Es finden pro Team&nbsp;mehrere 45 min&#252;tige Reviews statt (Team plus betreuender Dozent). Auf die Review-Termine sind festgelegte Arbeitsresultate abzugeben. Zum Teil sind an den Reviews Prototypen zu demonstrieren.<br /><br />Am Schluss-Termin wird das Projekt pr&#228;sentiert und alle (&#252;berarbeiteten) Arbeitsresultate sind abzugeben. <br /><br /></p>",
+      "kurselemente": [
+        {
+          "id": 10512,
+          "art": "Projekt",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Software-Engineering 2 - Projekt"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Software Engineering 2 - Project"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 873,
+      "name": "Rudin",
+      "vorname": "Hans"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 15687,
+      "kuerzel": "M_Prog1",
+      "bezeichnung": "Programmieren 1: Programmieren mit Java",
+      "url": "allModules/15687_M_Prog1.json"
+    },
+    {
+      "id": 18558,
+      "kuerzel": "M_SE1",
+      "bezeichnung": "Software-Engineering 1",
+      "url": "allModules/18558_M_SE1.json"
+    },
+    {
+      "id": 22288,
+      "kuerzel": "M_AD",
+      "bezeichnung": "Programmieren 2: Algorithmen und Datenstrukturen",
+      "url": "allModules/22288_M_AD.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Software-Engineering 2 - Projekt"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Software Engineering 2 - Project"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2015,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 11013,
+    "kuerzel": "M_SE2P",
+    "bezeichnung": "Software-Engineering 2 - Projekt",
+    "url": "allModules/11013_M_SE2P.json"
+  }
+}

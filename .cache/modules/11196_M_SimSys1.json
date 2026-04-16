@@ -1,0 +1,151 @@
+{
+  "id": 11196,
+  "kuerzel": "M_SimSys1",
+  "bezeichnung": "Simulation mechanischer Systeme 1",
+  "kreditpunkte": 2,
+  "lernziele": "<p>- kennt die Einsatzm&#246;glichkeiten eines modernen M-CAD-Systems (Unigraphics) im Bereich von kinematischen Simulationen <br /><br />- kann mit Unigraphics einfache kinematische Aufgabenstellungen selbst&#228;ndig l&#246;sen <br /><br />- kann Simulationsergebnisse interpretieren und auswerten <br /><br /><br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10372,
+      "kuerzel": "SimSys1",
+      "bezeichnung": "Simulation mechanischer Systeme 1",
+      "planinhalt": "<p>Grundlagen und Ziele der Simulation mechanischer Systeme <br /><br />Die Abstraktion der realen Geometrie durch eine \"Drahtgeometrie\" <br /><br />Anwenden der kinematischen Elemente auf die Drahtgeometrie und auf ausmodellierte Objekte: erstellen, editieren, l&#246;schen <br /><br />Definieren von \"Links\" (Verbindungen der Elemente) und \"Joints\" (relative Bewegungen und Antriebe) <br /><br />Simulation von Federn, D&#228;mpfer, externe Kr&#228;fte, usw. <br /><br />Resultate auswerten, interpretieren und verifizieren <br /><br />Einsatz von verschiedenen weiteren Analysemethoden <br /><br /></p>",
+      "kurselemente": [
+        {
+          "id": 10877,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Simulation mechanischer Systeme 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Simulation of mechanical Systems 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 28,
+      "name": "Simeon",
+      "vorname": "Alex"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 17213,
+      "kuerzel": "M_PE1",
+      "bezeichnung": "Produktentwicklung 1",
+      "url": "allModules/17213_M_PE1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11196,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>75 % der Uebungen erfolgreich absolviert (Testat)</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Simulation mechanischer Systeme 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Simulation of mechanical Systems 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2011,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 11196,
+    "kuerzel": "M_SimSys1",
+    "bezeichnung": "Simulation mechanischer Systeme 1",
+    "url": "allModules/11196_M_SimSys1.json"
+  }
+}

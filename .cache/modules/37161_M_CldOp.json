@@ -1,0 +1,203 @@
+{
+  "id": 37161,
+  "kuerzel": "M_CldOp",
+  "bezeichnung": "Cloud Operations",
+  "kreditpunkte": 4,
+  "lernziele": "<p>What happens once your software is actually running in production? Ensuring that it stays up-and-running is important, with little or no downtime.</p>\n<p>This module teaches you how to perform operations in your on-premises private cloud and in the public cloud.</p>\n<p>&nbsp;</p>\n<p>Installation, configuration, automation, monitoring, securing, maintaining, and troubleshooting the services, networks, and systems necessary to support business applications are covered in that module.</p>\n<p>It includes specific Kubernetes and AWS features, tools, and best practices related to these technologies.</p>\n<p>&nbsp;</p>\n<p>By the end of this course, you'll be able to:</p>\n<ul>\n<li>Identify the important aspects of being an Ops engineer.</li>\n<li>Define why availability, scalability, monitoring, logging, tracing and security are important to Ops.</li>\n<li>Integrate your code automatically and continuously automate deployment (DevOps).</li>\n<li>Use Ansible in DevOps environments to deploy and manage software and configurations.</li>\n<li>Build and Expose Kubernetes applications.</li>\n<li>Manage Kubernetes objects like ingress, storage, ConfigMaps and Secrets.</li>\n<li>Learn to analyze and locate critical pod log files in your Kubernetes clusters and create a centralized logging system with a configured EFK (Elasticsearch, Fluentd, and Kibana) stack for Kubernetes.</li>\n<li>Learn how to monitor your Kubernetes clusters and objects with tools like Prometheus.</li>\n<li>Add service meshes to a Kubernetes cluster to help solve the growing complexities of connectivity, security, and observability.</li>\n<li>Get hands-on exploring some services meshes examples with Istio.</li>\n<li>Use most of the features in Helm, a package manager for Kubernetes.</li>\n<li>Discover Kustomize, a new declarative approach to configuration customization.</li>\n<li>Use the Git version control system to organize and manage your Kubernetes infrastructure and applications (GitOps).</li>\n<li>Use the AWS Command Line Interface (AWS CLI), and understand administration and development tool.</li>\n<li>Manage, secure, and scale configurations, compute instances, storage and databases on AWS.</li>\n<li>Monitor the health of your infrastructure with services such as Amazon CloudWatch, AWS CloudTrail, and AWS Config.</li>\n<li>Manage resource consumption in an AWS account by using tags, Amazon CloudWatch, and AWS Trusted Advisor.</li>\n<li>Create and configure automated and repeatable deployments with tools such as Amazon Machine Images (AMIs) and AWS CloudFormation.</li>\n<li>Set up, manage, and tear down complex infrastructure environments with terraform.</li>\n<li>Understand the principles of site reliability engineering (SRE).</li>\n<li>Explain the differences between the two approaches SRE and DevOps.</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 37160,
+      "kuerzel": "CldOp",
+      "bezeichnung": "Cloud Operations",
+      "lernziele": "<div>\n<div class=\"right\">\n<div>\n<p>Siehe Modul-Lernziele</p>\n</div>\n</div>\n</div>\n<div>\n<div class=\"left\">&nbsp;</div>\n</div>",
+      "planinhalt": "<div>\n<div class=\"right\">\n<div>\n<p>Siehe Modul-Lernziele</p>\n</div>\n</div>\n</div>\n<div>\n<div class=\"left\">&nbsp;</div>\n</div>",
+      "kurselemente": [
+        {
+          "id": 37158,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 37159,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Cloud Operations"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Cloud Operations"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10191,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10191_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10232,
+      "bezeichnung": "Network and Cloud Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10232_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 10195,
+      "bezeichnung": "Network and Cloud Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10195_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 10173,
+      "bezeichnung": "Cyber Security ",
+      "kuerzel": "CySec",
+      "url": "allStudies/10173_CySec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5015908,
+      "name": "Metzger",
+      "vorname": "Laurent"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 29855,
+      "kuerzel": "M_CldInf",
+      "bezeichnung": "Cloud Infrastructure",
+      "url": "allModules/29855_M_CldInf.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 37161,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat der Gastvorlesungen</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Cloud Operations"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Cloud Operations"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2022,
+    "beginSemester": "FS",
+    "endJahr": 2023,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 37161,
+    "kuerzel": "M_CldOp",
+    "bezeichnung": "Cloud Operations",
+    "url": "allModules/37161_M_CldOp.json"
+  }
+}

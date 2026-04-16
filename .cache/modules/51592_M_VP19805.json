@@ -1,0 +1,209 @@
+{
+  "id": 51592,
+  "kuerzel": "M_VP19805",
+  "bezeichnung": "Messung von Lernerfolg im Informatikunterricht",
+  "kreditpunkte": 15,
+  "lernziele": "<p>Kenntnis und Implementierung von geeigneten Analyse-Verfahren zur Beurteilung des Lernfortschritts.</p><p>Kenntnis von Web- und Data Warehouse Technologien.</p><p>Implementierung einer 3-tier Web-Applikation, sodass Studierende und Dozierende von Lernfortschritt im Informatik-Grundlagen-Unterricht erfassen und beurteilen k&ouml;nnen.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 51593,
+      "kuerzel": "VP_1980501",
+      "bezeichnung": "Erfassung und Analyse von Messdaten, um den Lernerfolg im Informatik-Unterricht zu beurteilen",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Kenntnis und Implementierung von geeigneten Analyse-Verfahren zur Beurteilung des Lernfortschritts.</p><p>Kenntnis von Web- und Data Warehouse Technologien.</p><p>Implementierung einer 3-tier Web-Applikation, sodass Studierende und Dozierende von Lernfortschritt im Informatik-Grundlagen-Unterricht erfassen und beurteilen k&ouml;nnen.</p>",
+      "planinhalt": "<p>Vertiefungsprojekt: Entwicklung eines Learning Analytics Systems zur Lernerfolgsbeurteilung im Informatik-Grundlagenunterricht.<br />Im Rahmen einer Masterarbeit wurde an der NTB ein Werkzeug entwickelt, das Metriken misst, mit denen der Lernerfolg von Studierenden in Informatik-&Uuml;bungsstunden abgesch&auml;tzt werden kann. Es handelt sich dabei um eine in der Entwicklungsumgebung BlueJ eingesetzte Erweiterung. Sie misst das Programmierverhalten der Studierenden anhand von Metriken, die aus Unterrichtsbeobachtungen und Dozierendenbefragungen hergeleitet wurden.</p><p>Ziel:<br />Im Rahmen dieser Arbeit soll das bestehende System erweitert werden mit einem Data Warehouse und einem web-basierten Dashboard.</p><p>Der Fokus der Arbeit liegt bei der Analyse / Auswertung der anfallenden Daten. Es gilt folgende Fragen zu beantworten:<br />1) Welche Information kann aus den anfallenden Daten gewonnen werden?<br />2) Welche Analyse-Verfahren sind geeignet die anfallenden Daten zu verarbeiten?<br />3) Wie k&ouml;nnen die &bdquo;gefundenen&ldquo; Informationen anschaulich visualisiert werden?</p>",
+      "empfLehrmittel": "<p>Projektarbeit</p>",
+      "leistungsnachweis": "Das zu bearbeitende Projekt wird mittels Bericht und Pr&auml;sentation bewertet.",
+      "kurselemente": [
+        {
+          "id": 51594,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002823,
+          "name": "Pawlitzek",
+          "vorname": "René"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002823,
+      "name": "Pawlitzek",
+      "vorname": "René"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 51483,
+      "kuerzel": "M_VP18712",
+      "bezeichnung": "Blockchain Technologie in Theorie und Praxis",
+      "url": "allModules/51483_M_VP18712.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Creation of Surfaces in Optical Quality"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2019,
+    "beginSemester": "FS",
+    "endJahr": 2019,
+    "endSemester": "FS"
+  }
+}

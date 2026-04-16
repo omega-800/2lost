@@ -1,0 +1,124 @@
+{
+  "id": 37926,
+  "kuerzel": "M_BIMK2",
+  "bezeichnung": "BIM-Konstruktion Vertiefung",
+  "kreditpunkte": 2,
+  "lernziele": "<ul>\n<li>Vertiefte Kenntnisse der Modellierung mit der BIM-Methode in Bezug zu den Studien-Profilen</li>\n<li>Phasengerechtes Anreichern der Modelle mit Informationen</li>\n<li>Vertiefte Anwendung von fachspezifischer BIM-Software</li>\n<li>Praxisnahe Umsetzung anhand von Beispielen</li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 37927,
+      "kuerzel": "BIMK2",
+      "bezeichnung": "BIM-Konstruktion Vertiefung",
+      "lernziele": "<p>Erlangen von vertieften Kenntnissen der Modellierung mit der BIM-Methode in Bezug zu den Profilen Konstruktion, Geotechnik, Verkehr und Wasser. Phasengerechtes Anreichern der spezifischen Modelle mit Informationen und praxisnahe Umsetzung anhand von Beispielen.</p>",
+      "planinhalt": "<ul>\n<li>Modellieren mit verschiedener BIM-Autorensoftware</li>\n<li>Richtige Verwendung der geometrischen Elemente</li>\n<li>Parametrisiertes und assoziatives Modellieren</li>\n<li>Erstellen von fachspezifischen Modellen</li>\n<li>Phasengerechtes Anreichern von Modellen mit Daten und Informationen</li>\n<li>Arbeiten mit Modellierrichtlinien</li>\n<li>Austausch von Modellen und Informationen f&uuml;r eine fachspezifische Weiterverwendung im BIM-Prozess</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 37929,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 15,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "BIM-Konstruktion Vertiefung"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "BIM construction deepening"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10197,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10197_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5024145,
+      "name": "Beth",
+      "vorname": "Martin"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 37916,
+      "kuerzel": "M_BIMK",
+      "bezeichnung": "BIM-Konstruktion 1",
+      "url": "allModules/37916_M_BIMK.json"
+    },
+    {
+      "id": 37920,
+      "kuerzel": "M_GBIM",
+      "bezeichnung": "BIM-Grundlagen",
+      "url": "allModules/37920_M_GBIM.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "BIM-Konstruktion Vertiefung"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "BIM construction deepening "
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2021,
+    "beginSemester": "FS",
+    "endJahr": 2021,
+    "endSemester": "FS"
+  }
+}

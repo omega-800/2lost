@@ -1,0 +1,217 @@
+{
+  "id": 21897,
+  "kuerzel": "M_DigSig2",
+  "bezeichnung": "Digital Signal Processing 2",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Digital Signal Processing 1 und Digital Signal Processing 2 bilden zusammen einen einj&auml;hrigen Grundkurs in der digitalen Signalverarbeitung</p>",
+  "vorausgKenntnisse": "Digital Signal Processing 1 oder entsprechende Vorkenntnisse",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 21898,
+      "kuerzel": "DigSig2",
+      "bezeichnung": "Digital Signal Processing 2",
+      "lernziele": "<p>Am Ende dieses Kurses sollte der Student/Studentin die folgenden Konzepte verstehen und anwenden k&ouml;nnen:</p>\n<ul>\n    <li>Digital Filter Realizations</li>\n    <li>Signal Processing Applications</li>\n    <li>DFT/FFT Algorithms</li>\n    <li>FIR Digital Filter Design</li>\n    <li>IIR Digital Filter Design</li>\n    <li>Interpolation, Decimation and Oversampling</li>\n</ul>",
+      "planinhalt": "<p>Der Aufbau ist in etwa wie folgt:</p>\n<ul>\n    <li>Digital Filter Realizations</li>\n    <li>Signal Processing Applications</li>\n    <li>DFT/FFT Algorithms</li>\n    <li>FIR Digital Filter Design</li>\n    <li>IIR Digital Filter Design</li>\n    <li>Interpolation, Decimation and Oversampling</li>\n</ul>\n<p>&Auml;nderungen sind aber jederzeit m&ouml;glich <br /></p>",
+      "kurselemente": [
+        {
+          "id": 21899,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        },
+        {
+          "id": 21900,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Digital Signal Processing 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Digital Signal Processing 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 670,
+      "name": "Schuster",
+      "vorname": "Guido"
+    }
+  ],
+  "mengen": [
+    {
+      "id": 17,
+      "name": "Aequivalenz",
+      "dModMengeArt": 5701,
+      "module": [
+        {
+          "id": 21897,
+          "kuerzel": "M_DigSig2",
+          "bezeichnung": "Digital Signal Processing 2",
+          "url": "allModules/21897_M_DigSig2.json"
+        },
+        {
+          "id": 28167,
+          "kuerzel": "M_DigSig2Engl",
+          "bezeichnung": "Digital Signal Processing 2",
+          "url": "allModules/28167_M_DigSig2Engl.json"
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 21897,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Digital Signal Processing 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Digital Signal Processing 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "FS",
+    "endJahr": 2018,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 11017,
+    "kuerzel": "M_DigSig2",
+    "bezeichnung": "Digitale Signalverarbeitung 2",
+    "url": "allModules/11017_M_DigSig2.json"
+  }
+}

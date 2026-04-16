@@ -1,0 +1,249 @@
+{
+  "id": 42248,
+  "kuerzel": "M_Inno4",
+  "bezeichnung": "Innovation 4",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Modulziele:</p>\n<ul>\n    <li>An industrieller Aufgabenstellung eine Produktentwicklung von der Idee bis zum Prototypen durchf&uuml;hren k&ouml;nnen (mit Modul: Innovation 3). Hier Fokus aufs Detail. </li>\n    <li>die Methodiken des PLM vom Prozessablauf &uuml;ber Varianten zum Aenderungswesen&nbsp;unterst&uuml;tzend einsetzen k&ouml;nnen </li>\n    <li>Lernen den Projektstand realistisch einzusch&auml;tzen und entsprechend handeln zu k&ouml;nnen </li>\n</ul>\n<p>Kursziele: siehe Lernziele der Kurse</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 42249,
+      "kuerzel": "PLM1",
+      "bezeichnung": "Product Lifecycle Management 1",
+      "lernziele": "<ul>\n    <li>Produktlebenszyklus kennen</li>\n    <li>Die Zusammenh&auml;nge zwischen den Hauptprozessen der Produktentstehung (Produktentwicklung und Produktherstellung) kennen</li>\n    <li>PLM relevante, besondere Aspekte im Produktentwicklungsprozess kennen und verstehen</li>\n    <li>Grundlegende Einsatzm&ouml;glichkeiten und Nutzung von PLM/PDM-Systemen kennen<br /></li>\n</ul>",
+      "planinhalt": "<p>- &Auml;nderungsprozesse</p>\n<p>- Berechtigungskonzepte </p>\n<p>- Concurrent Engineering </p>\n<p>- Datenmodelle</p>\n<p>- Datenverwaltung</p>\n<p>- Freigabeprozesse </p>\n<p>- Nummerierungssysteme </p>\n<p>- Produktstrukturen </p>\n<p>- Produktsichten</p>\n<p>- Schnittstellen zu PLM-Umsystemen </p>\n<p>- Variantenbildung und deren Management</p>",
+      "kurselemente": [
+        {
+          "id": 42250,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 42251,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Product Lifecycle Management 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Product Lifecycle Management 1"
+        }
+      ]
+    },
+    {
+      "id": 42255,
+      "kuerzel": "EwickP2",
+      "bezeichnung": "Entwicklungsprojekt Teil 2",
+      "lernziele": "<ul>\n    <li>An industrieller Aufgabenstellung eine Produktentwicklung von der Idee bis zum Prototypen durchf&uuml;hren k&ouml;nnen (mit Modul: Innovation 3). </li>\n    <li>m&ouml;glichst grosse Lerneffekte erzielen durch das konkrete Umsetzen der selbst entwickelten Produkte</li>\n    <li>Ziel ist (sind) funktionsf&auml;hige Prototyp(en)</li>\n    <li>die&nbsp;Berechnung der Herstellkosten&nbsp;beherrschen</li>\n    <li>Umsetzen der erworbenen Kenntnisse aus allen bisherigen Grundlagenmodulen und Bez&uuml;ge zu den Modulen desselben Semesters nutzen </li>\n</ul>",
+      "planinhalt": "<p>Projektarbeit in Teams:</p>\n<ul>\n    <li>Kontrolle der beschafften Teile </li>\n    <li>Montage von x Varianten oder Baugruppen </li>\n    <li>Testpl&auml;ne erarbeiten&nbsp;sowie CE-konforme Gefahrenanalyse und Risikobeurteilung durchf&uuml;hren </li>\n    <li>Inbetriebnahme und Durchf&uuml;hren der Tests </li>\n    <li>Verbesserungsmassnahmen, insbesondere bei Nicht-Erf&uuml;llen der Funktion<br />(allenfalls Wiederholung des L&ouml;sungszyklus) </li>\n    <li>Kosten-Berechnungen </li>\n    <li>Vorf&uuml;hrung des funktionsf&auml;higen Baumusters (FuMu) </li>\n    <li>Erstellen der konformen Produkt- und Projekt-Dokumentation</li>\n    <li>allenfalls Fund-Raising zur Deckung der Ausgaben </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 42256,
+          "art": "Projekt",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Entwicklungsprojekt Teil 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Design Project Part 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 539814,
+      "name": "Nyffenegger",
+      "vorname": "Felix"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 20085,
+      "kuerzel": "M_EQ1",
+      "bezeichnung": "Entwurf und Qualität 1",
+      "url": "allModules/20085_M_EQ1.json"
+    },
+    {
+      "id": 24025,
+      "kuerzel": "M_AutoT1",
+      "bezeichnung": "Automation 1",
+      "url": "allModules/24025_M_AutoT1.json"
+    },
+    {
+      "id": 31619,
+      "kuerzel": "M_VE2",
+      "bezeichnung": "Virtuelles Entwickeln 2",
+      "url": "allModules/31619_M_VE2.json"
+    },
+    {
+      "id": 37375,
+      "kuerzel": "M_EQ2",
+      "bezeichnung": "Entwurf und Qualität 2",
+      "url": "allModules/37375_M_EQ2.json"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 20549,
+      "kuerzel": "M_Inno3",
+      "bezeichnung": "Innovation 3",
+      "url": "allModules/20549_M_Inno3.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 42248,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat: Abschluss der PLM1 &Uuml;bungsarbeit</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Innovation 4"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Innovation 4"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2024,
+    "beginSemester": "FS",
+    "endJahr": 2024,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 28208,
+    "kuerzel": "M_Inno4",
+    "bezeichnung": "Innovation 4",
+    "url": "allModules/28208_M_Inno4.json"
+  }
+}

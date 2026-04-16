@@ -1,0 +1,116 @@
+{
+  "id": 12327,
+  "kuerzel": "U_Konstr3",
+  "bezeichnung": "Konstruktion 3 - Übergangsmodul",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Wendet Methoden des Teilprozesses Ausarbeiten praktisch an</p>\n<p>Praktische Anwendungen der Konstruktionsprozesse: Kl&#228;ren - Konzipieren - Entwerfen und Gestalten - Ausarbeiten</p>\n<p>Vertiefte Anwendung des 3D-CAD</p>\n<p><br />&nbsp;</p>\n<p>&nbsp;</p>",
+  "vorausgKenntnisse": "<p>Konstruktion 1<br />Konstruktion 2</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 12251,
+      "kuerzel": "uKonstr3",
+      "bezeichnung": "Konstruktion 3 - Übergang",
+      "lernziele": "<p>Wendet Methoden des Teilprozesses Ausarbeiten praktisch an <br /><br />Grundlagen Kosten und Ingenieur</p>\n<p>Praktische Anwendungen der Konstruktionsprozesse: Kl&#228;ren - Konzipieren - Entwerfen und Gestalten - Ausarbeiten <br /><br />Vertiefte Anwendung des 3D-CAD <br /><br /></p>",
+      "planinhalt": "<p>Einf&#252;hrung in die methodischen Grundlagen des Ausarbeitens</p>\n<p>Kosten und Ingenieurt&#228;tigkeit</p>\n<p>Praktische Durchf&#252;hrung von Concurrent Engineering mit Anwendung des 3D-CAD</p>\n<p>Projektarbeit zur Vertiefung des Stoffes der Ausbildung Produktentwicklung</p>",
+      "kurselemente": [
+        {
+          "id": 12283,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 12284,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Konstruktion 3 - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Structural Engineering 3 - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533,
+      "name": "Meier",
+      "vorname": "Jürg"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Konstruktion 3 - Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Structural Engineering 3 - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2006,
+    "endSemester": "SS"
+  }
+}

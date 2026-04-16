@@ -1,0 +1,35 @@
+{
+  "id": 10184,
+  "kuerzel": "ReLa_Profi",
+  "bezeichnung": "Raumentwicklung und Landschaftsarchitektur",
+  "versionKuerzel": "MSE_20",
+  "art": "Profil",
+  "parent": {
+    "id": 10182,
+    "kuerzel": "BuP",
+    "bezeichnung": "Bau und Planung",
+    "url": "allStudies/10182_BuP.json"
+  },
+  "zuordnungen": [
+    {
+      "id": 37886,
+      "kuerzel": "M_BuBP_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37886_M_BuBP_MT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 37888,
+      "kuerzel": "M_BuBP_MT_JM",
+      "bezeichnung": "Master Thesis (JM)",
+      "url": "allModules/37888_M_BuBP_MT_JM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    }
+  ]
+}

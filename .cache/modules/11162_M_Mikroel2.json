@@ -1,0 +1,188 @@
+{
+  "id": 11162,
+  "kuerzel": "M_Mikroel2",
+  "bezeichnung": "Mikroelektronik 2",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Der Student kann wichtige Grundschaltungen und Subsysteme in CMOS-Technologie entwerfen und analysieren. Er kann auf systematische Art und Weise integrierte CMOS-Schaltungen berechnen und mittels Simulationen &#252;berpr&#252;fen und optimieren. Er beherrscht den gesamten Design-Flow f&#252;r analoge Full-Custom-ASICs (\"Application Specific Integrated Circuit\") von der Schema-Eingabe &#252;ber die Simulation und das Layout bis zur Post-Layout-Simulation mit modernsten IC-Design-Tools.</p> <p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10322,
+      "kuerzel": "Mikroel2",
+      "bezeichnung": "Mikroelektronik 2",
+      "planinhalt": "<p>MOS-Transistor (Struktur, Kennlinien, Ersatzschaltungen) <br />Grundschaltungen des MOS-Transistors <br />MOS-Diode <br />MOS-Transistor als Stromquelle <br />MOS-Stromspiegel <br />Einstufige MOS-Verst&auml;rker <br />MOS-Operationsverst&auml;rker <br />Spannungsreferenzen <br /><br />Wechselnde Spezialthemen nach Bedarf: <br />Analog/Digital- und Digital/Analog-Wandler <br />Zeitdiskrete Schaltungen (Sample&amp;Hold, Track&amp;Hold, SC-Schaltungstechnik) <br />Halbleiter-Sensorik (Photosensorik, ...) <br /><br />Bei aktuellem Bedarf (Studienarbeiten mit besonderen Voraussetzungen) k&ouml;nnen Themen zwischen den Modulen Mikroelektronik 1 und Mikroelektronik 2 verschoben werden. </p>\n<p>&nbsp;</p>\n<p>Aenderungen vorbehalten.<br /></p>",
+      "kurselemente": [
+        {
+          "id": 14096,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        },
+        {
+          "id": 10791,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 48,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Mikroelektronik 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Micro Electronics 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1185,
+      "name": "Loeliger",
+      "vorname": "Teddy"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11162,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat (Praktikum)</p>\r\n<p>&nbsp;</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Mikroelektronik 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Micro Electronics 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2008,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 11162,
+    "kuerzel": "M_Mikroel2",
+    "bezeichnung": "Mikroelektronik 2",
+    "url": "allModules/11162_M_Mikroel2.json"
+  }
+}

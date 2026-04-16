@@ -1,0 +1,140 @@
+{
+  "id": 64750,
+  "kuerzel": "M_arch.GR5",
+  "bezeichnung": "Gesellschaft und Realisation 5",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Neben der Vermittlung von neuen Themenbereichen dienen die Module GR5 und GRT6 des Thesis-Jahres auch der Vorbereitung und Durchf&uuml;hrung einer Thesisarbeit im Lehrbereich &laquo;Mensch&raquo;, sowie der Unterst&uuml;tzung der Vorbereitung der freien Bachelorarbeit im Entwurf.</p>\n<p><br>Die Studierenden sollen ihre Kenntnisse und Fertigkeiten komplettieren k&ouml;nnen und in der Setzung von individuellen Schwerpunkten im Rahmen der Vorbereitung und Durchf&uuml;hrung der Bachelor-Thesis unterst&uuml;tzt werden. Die Lehrveranstaltungen des Thesis-Jahres sind durch die Arbeit an einem konkreten Projekt, die Zusammenarbeit an einem Thema und mit den Dozierenden, sowie die aktive Nutzung aller Ressourcen der ArchitekturWerkstatt sehr stark durch den Werkstattgedanken gepr&auml;gt.</p>\n<p><br>Schwerpunkt GR5. Das Modul GR5 bietet die M&ouml;glichkeit, spezifische Einzelaspekte aus den Modulen GR1&ndash;4 (Modelle der Realisation, Baurecht und Raumplanung) vertieft zu betrachten.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 64751,
+      "kuerzel": "arch.GR5.K1",
+      "bezeichnung": "Kurs 1 Vertiefung Modelle der Realisation",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Lernziele Kurs 1: (Modelle der Realisation) Die Absolventinnen und Absolventen...</p>\n<ul>\n<li>K&ouml;nnen &ouml;konomische Faktoren mit anderen entwurfsrelevanten Faktoren verbinden</li>\n<li>K&ouml;nnen die Belange der an der Planung beteiligten Akteure verstehen und diese in die Planung einbeziehen</li>\n<li>Kennen die Nachhaltigkeitslabels und verstehen deren Prinzipien</li>\n<li>kennen die Grundlagen des Beschaffungswesen und verstehen die Grunds&auml;tze der Kostenermittlung</li>\n<li>kennen die grundlegenden Beurteilungsmethoden der des Baurechts</li>\n<li>K&ouml;nnen den gesamten Entwurfsprozess nachvollziehbar strukturiert und vollst&auml;ndig in einem Dossier abbilden.</li>\n</ul>\n<p>&nbsp;</p>\n<p>Lernziele Kurs 2 (Baurecht) Die Absolventinnen und Absolventen...</p>\n<ul>\n<li>Kennen die Haftungsrisiken der an der Planung und Realisation beteiligten Akteure und die Versicherungsm&ouml;glichkeiten</li>\n<li>Erhalten vertieftes Wissen in zwei weiteren, mit den Studierenden zu bestimmenden Themengebieten des Baurechts</li>\n</ul>\n<p>&nbsp;</p>\n<p>Lernziele Kurs 3 (Raumplanung) Die Absolventinnen und Absolventen...</p>\n<ul>\n<li>Entwickeln ein Verst&auml;ndnis f&uuml;r die Bedeutung der Raumplanung, den St&auml;dtebau und die architektonischen Themen auf den grossen Massstabsebenen.</li>\n</ul>",
+      "empfLehrmittel": "<p>Vorlesung, Textarbeit, Gruppen- und Einzelarbeiten, Selbststudium, Fachdiskussion, Exkursion</p>",
+      "kurselemente": [
+        {
+          "id": 64752,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 1053,
+          "name": "Somm",
+          "vorname": "Othmar"
+        },
+        {
+          "id": 85976,
+          "name": "Contratto",
+          "vorname": "Sabrina"
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Kurs 1 Vertiefung Modelle der Realisation"
+        }
+      ]
+    },
+    {
+      "id": 64753,
+      "kuerzel": "arch.GR5.K2",
+      "bezeichnung": "Kurs 2 Vertiefung Baurecht",
+      "kreditpunkte": 0,
+      "kurselemente": [
+        {
+          "id": 64754,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Kurs 2 Vertiefung Baurecht"
+        }
+      ]
+    },
+    {
+      "id": 64755,
+      "kuerzel": "arch.GR5.K3",
+      "bezeichnung": "Kurs 3 Vertiefung Raumplanung",
+      "kreditpunkte": 0,
+      "kurselemente": [
+        {
+          "id": 64756,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Kurs 3 Vertiefung Raumplanung"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10485,
+      "bezeichnung": "Architektur",
+      "kuerzel": "ARCH",
+      "url": "allStudies/10485_ARCH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10214,
+          "kuerzel": "A_Men",
+          "bezeichnung": "Mensch",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 75023,
+      "name": "Jessen",
+      "vorname": "Anna"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 64740,
+      "kuerzel": "M_arch.GR4",
+      "bezeichnung": "Gesellschaft und Realisation 4",
+      "url": "allModules/64740_M_arch.GR4.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Gesellschaft und Realisation 5"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

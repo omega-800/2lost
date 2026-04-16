@@ -1,0 +1,161 @@
+{
+  "id": 29954,
+  "kuerzel": "M_WaBe1",
+  "bezeichnung": "Wasseraufbereitung 1",
+  "kreditpunkte": 4,
+  "lernziele": "Kenntnisse der wichtigsten Abwasserbehandlungsverfahren",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 29955,
+      "kuerzel": "WaBe1",
+      "bezeichnung": "Wasseraufbereitung 1",
+      "lernziele": "siehe Modulbeschreibung",
+      "planinhalt": "<ul><li>Abwassersysteme (Mischkanalisation, etc.)</li><li>Abwasserinfrastruktur (Kosten usw.)</li><li>Abwasserinhaltstoffe und Qualit&auml;tsparameter</li><li>Kommunale und industrielle Abwasserreinigung</li><li>Regenabwasserbehandlung</li><li>Zuk&uuml;nftige Herausforderungen an die Abwasserbehandlung</li><li>Verfahren der Abwasserbehandlung (Sedimentation, Filtration, etc.)</li><li>Exkursion</li></ul><p>&nbsp;</p><p>Praktikum:</p><p>Durchf&uuml;hrung von Laborversuchen und Anwendung von Messger&auml;ten, um g&auml;ngige Mess- und Behandlungsverfahren zu erlernen.</p><p>&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 29956,
+          "art": "Vorlesung",
+          "anzLektionen": 2.5,
+          "maxTeilnehmer": 120,
+          "harteGrenze": true
+        },
+        {
+          "id": 29957,
+          "art": "Praktikum",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Wasseraufbereitung 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Water Treatment 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10108,
+          "kuerzel": "EEU-veu",
+          "bezeichnung": "Vertiefungsmodule Umwelttechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10108,
+          "kuerzel": "EEU-veu",
+          "bezeichnung": "Vertiefungsmodule Umwelttechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 535732,
+      "name": "Burkhardt",
+      "vorname": "Michael"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 26084,
+      "kuerzel": "M_GZUT",
+      "bezeichnung": "Grundzüge Umwelttechnik",
+      "url": "allModules/26084_M_GZUT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 29954,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Teilnahme an allen Praktika</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Wasseraufbereitung 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Water Treatment 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2017,
+    "beginSemester": "HS",
+    "endJahr": 2020,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 19902,
+    "kuerzel": "M_WaBe1",
+    "bezeichnung": "Wasseraufbereitung 1",
+    "url": "allModules/19902_M_WaBe1.json"
+  },
+  "nachfolger": {
+    "id": 29954,
+    "kuerzel": "M_WaBe1",
+    "bezeichnung": "Wasseraufbereitung 1",
+    "url": "allModules/29954_M_WaBe1.json"
+  }
+}

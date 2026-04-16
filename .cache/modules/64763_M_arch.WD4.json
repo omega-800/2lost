@@ -1,0 +1,83 @@
+{
+  "id": 64763,
+  "kuerzel": "M_arch.WD4",
+  "bezeichnung": "Wahrnehmen und Darstellen 4",
+  "kreditpunkte": 4,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 64764,
+      "kuerzel": "arch.WD4",
+      "bezeichnung": "Wahrnehmen und Darstellen 4",
+      "kreditpunkte": 0,
+      "kurselemente": [
+        {
+          "id": 64765,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Wahrnehmen und Darstellen 4"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10485,
+      "bezeichnung": "Architektur",
+      "kuerzel": "ARCH",
+      "url": "allStudies/10485_ARCH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10211,
+          "kuerzel": "A_Ku",
+          "bezeichnung": "Kunst",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 87884,
+      "name": "Collomb",
+      "vorname": "Léo"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 64575,
+      "kuerzel": "M_arch.E3",
+      "bezeichnung": "Entwurf 3",
+      "url": "allModules/64575_M_arch.E3.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Wahrnehmen und Darstellen 4"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

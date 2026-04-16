@@ -1,0 +1,168 @@
+{
+  "id": 39243,
+  "kuerzel": "M_MATH2",
+  "bezeichnung": "Mathematik 2 ",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Teilnehmenden erhalten eine Einf&uuml;hrung in die Vektorrechnung, in das Rechnen mit Matrizen und in die Differentialrechnung mehreren Variablen. Diese Inhalte werden sowohl von Hand als auch mit Hilfe des Computers ge&uuml;bt.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 39244,
+      "kuerzel": "Math2",
+      "bezeichnung": "Mathematische Grundlagen 2",
+      "lernziele": "<p><strong>Fachkompetenzen:</strong></p>\n<ul>\n<li>Rechnen in Vektorr&auml;umen</li>\n<li>Orts- und Richtungsvektoren</li>\n<li>Euklidische Vektorr&auml;ume, Norm und Skalarprodukt</li>\n<li>Rechnen mit Matrizen</li>\n<li>Vektorielle und punkteweise Rechenoperationen</li>\n<li>L&ouml;sen von linearen Gleichungssystemen</li>\n<li>Differentialrechnung von reellen und vektorwertigen Funktionen in mehrerer Variablen</li>\n<li>Gradient als Werkzeug zur Berechnung von station&auml;re Stellen und zur Linearisierung</li>\n<li>Extremalstellen und Volumenberechnungen</li>\n<li>Verwendung des Computers zum L&ouml;sen mathematischer Probleme<br /></li>\n</ul>\n<p><strong>Methodenkompetenzen:</strong><br />Die Teilnehmenden k&ouml;nnen:</p>\n<ul>\n<li>Funktionen in mehreren Variablen darstellen und analysieren</li>\n<li>Optimierungsaufgaben mit mehreren unabh&auml;ngigen Variablen erkennen und und mit Hilfe der Ableitung l&ouml;sen</li>\n<li>Lineare Gleichungssysteme aufstellen und l&ouml;sen</li>\n<li>Den Computer zur L&ouml;sung mathematischer Probleme heranziehen</li>\n</ul>\n<p><strong>Selbstkompetenzen:</strong><br />Die Teilnehmenden k&ouml;nnen:</p>\n<ul>\n<li>Umgangssprachlich formulierte Probleme in eine mathematisch pr&auml;zise Formulierung &uuml;berf&uuml;hren</li>\n</ul>\n<p><strong>Sozialkompetenzen:</strong><br />Die Teilnehmenden k&ouml;nnen:</p>\n<ul>\n<li>Eine exakte Sprache verwenden, um mit Kollegen &uuml;ber den L&ouml;sungsweg eines mathematisch, naturwissenschaftlichen Sachverhalts zu diskutieren</li>\n</ul>",
+      "planinhalt": "<ul><li>Einf&uuml;hrung von Punktraum und Vektorraum</li><li>Grundlegende Rechenoperationen in Vektorr&auml;umen</li><li>Skalarprodukt, Norm und Winkel zwischen Vektoren</li><li>Vektorwertige Funktionen einer Variable (Kurven)</li><li>Richtungsableitung einer Kurve</li><li>Reellwertige Funktionen mehrerer Variablen (Fl&auml;chen)</li><li>Gradient und partielle Ableitung</li><li>Extremwertaufgaben</li><li>Lineare Gleichungssysteme und deren geometrische Interpretation</li><li>L&ouml;sen linearer Gleichungssysteme mittels Gauss-Algorithmus</li><li>Matrizen und Matrixmultiplikation</li><li>Differentialrechnung von Funktionen mehrerer Variablen</li></ul>",
+      "bibliographie": "<p><strong>Pflichtliteratur wie Skript, B&uuml;cher:</strong></p>\n<ul>\n<li>Skript (Oliver Augenstein: Mathematik 2 f&uuml;r Wirtschaftsingenieure)</li>\n<li>ggf. erg&auml;nzende Unterrichtsmaterialien in elektronischer Form</li>\n</ul>\n<p><strong>Weiterf&uuml;hrende Literatur:</strong></p>\n<ul>\n<li>&nbsp;Norbert Henze, G&uuml;nter Last: Mathematik f&uuml;r Wirtschaftsingenieure 1</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 39245,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 39246,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Mathematische Grundlagen 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Mathematics 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10151,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10151_WING.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10202,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10202_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10272,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10272_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 538489,
+      "name": "Augenstein",
+      "vorname": "Oliver"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 39221,
+      "kuerzel": "M_MATH1",
+      "bezeichnung": "Mathematik 1",
+      "url": "allModules/39221_M_MATH1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    },
+    {
+      "id": 14,
+      "kuerzel": "LSG_SG",
+      "bezeichnung": "Lerchenfeld WING",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 39243,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Mathematik 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Mathematics 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2022,
+    "beginSemester": "FS",
+    "endJahr": 2026,
+    "endSemester": "FS"
+  }
+}

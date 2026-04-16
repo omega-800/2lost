@@ -1,0 +1,229 @@
+{
+  "id": 48297,
+  "kuerzel": "M_VP_13707",
+  "bezeichnung": "Unit Testing",
+  "kreditpunkte": 15,
+  "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>vertiefen ihre Kenntnisse im Bereich der Softwareverifikation.</li>\n    <li>erlangen tieferen Einblick in Testingstrategien.</li>\n    <li>konzipieren das Projekt thematisch und im Ablauf selbstst&auml;ndig und setzen es erfolgreich um.</li>\n    <li>sind in der Lage die Ergebnisse ihrer Arbeit addressatenspezifisch, schriftlich und m&uuml;ndlich zu kommunizieren.</li>\n    <li>verstehen die theoretischen und praktischen Hintergr&uuml;nde von fundamentalen Verifikationstechniken.</li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 48298,
+      "kuerzel": "VP_1370701",
+      "bezeichnung": "Unit-Testing im Bereich Embedded Systems",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>vertiefen ihre Kenntnisse im Bereich der Softwareverifikation.</li>\n    <li>erlangen tieferen Einblick in Testingstrategien.</li>\n    <li>konzipieren das Projekt thematisch und im Ablauf selbstst&auml;ndig und setzen es erfolgreich um.</li>\n    <li>sind in der Lage die Ergebnisse ihrer Arbeit addressatenspezifisch, schriftlich und m&uuml;ndlich zu kommunizieren.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Recherche &uuml;ber bestehende Vorgehensweisen f&uuml;r Unit-Testing im Embedded Umfeld</li>\n    <li>Entwickeln geeigneter Teststrategien f&uuml;r ausgew&auml;hlte Probleme aus der Embedded Treiberentwicklung (in Bare-Metal und Betriebssystemumgebung)</li>\n    <li>Untersuchung des Einflusses der gew&auml;hlten L&ouml;sungen auf die Performanz<br /></li>\n</ul>",
+      "bibliographie": "Dohmke, T. Test-Driven Development of Embedded Control Systems: Application in an Automotive Collision Prevention System<br />Grenning, James W. Test-Driven Development for Embedded C",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "Das zu bearbeitende Projekt wird mittels Bericht bewertet.",
+      "kurselemente": [
+        {
+          "id": 48299,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000080,
+          "name": "Graf",
+          "vorname": "Urs"
+        }
+      ]
+    },
+    {
+      "id": 48300,
+      "kuerzel": "VP_1370702",
+      "bezeichnung": "Softwareverifikation",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>verstehen die theoretischen und praktischen Hintergr&uuml;nde von fundamentalen Verifikationstechniken.</li>\n    <li>sind in der Lage, diese Techniken auf reale Beispiele zu &uuml;bertragen.</li>\n    <li>sind in der Lage die Ergebnisse ihrer Arbeit addressatenspezifisch, schriftlich und m&uuml;ndlich zu kommunizieren.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Axiomatische Semantik</li>\n    <li>Abstrakte Interpretation</li>\n    <li>Modellpr&uuml;fung und Echtzeit</li>\n    <li>Testing</li>\n</ul>",
+      "bibliographie": "<ul>\n    <li>Michael Huth and Mark Ryan. Logic in Computer Science: Modelling and Reasoning about Systems, second edition. Cambridge University Press, 2004. </li>\n    <li>Aaron Bradley and Zohar Manna. The Calculus of Computation. Springer, 2007. </li>\n    <li>David Gries. The Science of Programming. Springer, 1981. </li>\n    <li>Bertrand Meyer. Introduction to the Theory of Programming Languages. Prentice Hall, 1990. </li>\n    <li>Flemming Nielson and Hanne Riis Nielson. Semantics with Applications: An Appetizer. Springer, 2007. </li>\n    <li>Krzysztof R. Apt, Frank S. de Boer, Ernst-R&uuml;diger Olderog. Verification of Sequential and Concurrent Programs. Springer, 2009. </li>\n    <li>Flemming Nielson, Hanne Riis Nielson, Chris Hankin. Principles of Program Analysis. Springer, 2005. </li>\n    <li>Neil D. Jones, Flemming Nielson. Abstract Interpretation: a Semantic-Based Tool for Program Analysis, in: Handbook of logic in computer science (vol. 4). Oxford University Press, 1995 </li>\n    <li>Edmund M. Clarke, Orna Grumberg, and Doron A. Peled. Model Checking. MIT Press, 2000. </li>\n    <li>Carlo A. Furia, Dino Mandrioli, Angelo Morzenti, and Matteo Rossi. Modeling Time in Computing. Monographs in Theoretical Computer Science. An EATCS series. Springer, 2012. </li>\n    <li>Mauro Pezz&egrave;, Michal Young: Software Testing and Analysis: Process, Principles and Techniques, Wiley, 2007. </li>\n    <li>Paul Ammann, Jeff Offutt: Introduction to Software Testing, Cambridge University Press, 2008.</li>\n</ul>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "leistungsnachweis": "Der Kurs wird mittels eines Fachvortrages bewertet.",
+      "kurselemente": [
+        {
+          "id": 48301,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000080,
+          "name": "Graf",
+          "vorname": "Urs"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000080,
+      "name": "Graf",
+      "vorname": "Urs"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 47687,
+      "kuerzel": "M_VP_12723",
+      "bezeichnung": "Java Exception in deep",
+      "url": "allModules/47687_M_VP_12723.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "HS",
+    "endJahr": 2013,
+    "endSemester": "HS"
+  }
+}

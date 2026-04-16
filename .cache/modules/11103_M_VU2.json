@@ -1,0 +1,175 @@
+{
+  "id": 11103,
+  "kuerzel": "M_VU2",
+  "bezeichnung": "Verkehr und Umwelt 2",
+  "kreditpunkte": 8,
+  "lernziele": "<p>Lernziele Verkehrsplanung:<br />Kenntnisse des Aufbaues kommunaler Verkehrsplanungen; F&#228;higkeit zur Ausf&#252;hrung anspruchsvollerer Verkehrsraumgestaltungen; Grundlagen von Spezialgebieten der Verkehrsplanung.<br />&nbsp;<br />Lernziele Siedlungs&#246;kologie:<br />F&#228;higkeit zur Absch&#228;tzung des Energiebedarfs f&#252;r Bauten und Quartiere sowie zur Beurteilung von Haustechnikkonzepten; Grundlagen im Bereich der Luftreinhaltung. </p>",
+  "vorausgKenntnisse": "<p><br /></p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10240,
+      "kuerzel": "VerkPl3",
+      "bezeichnung": "Verkehrsplanung 3",
+      "lernziele": "<p>Kenntnisse des Aufbaues kommunaler Verkehrsplanungen; F&#228;higkeit zur Ausf&#252;hrung anspruchsvollerer Verkehrsraumgestaltungen; Grundlagen von Spezialgebieten der Verkehrsplanung. <br />Anwendung der erworbenen Kenntnisse anhand einer betreuten Semesterarbeit.<br /></p>",
+      "planinhalt": "<p>Hauptstrassen <br />Kommunale Gesamtverkehrskonzepte<br />Verkehrsentwicklungsplanung<br />Parkierung<br />G&#252;terverkehr</p>",
+      "kurselemente": [
+        {
+          "id": 10675,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 10876,
+          "art": "Studienarbeit",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Verkehrsplanung 3"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Transport Planning 3"
+        }
+      ]
+    },
+    {
+      "id": 10241,
+      "kuerzel": "SOek2",
+      "bezeichnung": "Siedlungsökologie 2",
+      "lernziele": "<p>F&#228;higkeit zur Absch&#228;tzung des Energiebedarfs f&#252;r Bauten und Quartiere sowie zur Beurteilung von Haustechnikkonzepten; Grundlagen im Bereich der Luftreinhaltung. </p>",
+      "planinhalt": "<p>Grundlagen Haustechnik, Heizungsdimensionierungen <br />K&#252;nftige Entwicklungen im Geb&#228;udebereich <br />Energieversorgung M&#246;glichkeiten und Grenzen <br />Energieversorgung im Quartier <br />Energieversorgung in der Gemeinde <br />Eidgen&#246;ssisches und kantonales Energierecht, energetische Nachweise im Rahmen des Baubewilligungsverfahrens <br />Technische und chemische Grundlagen Luftreinhaltung <br />Innenraumbelastungen mit Luftschadstoffen, Radon <br />Nichionisierende Strahlungen (NIS) <br />Luft, Energie und Mobilit&#228;t </p>",
+      "kurselemente": [
+        {
+          "id": 10674,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Siedlungsökologie 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10000,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10000_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10006,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10006_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10012,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10012_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 81,
+      "name": "Zweibrücken",
+      "vorname": "Klaus"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11102,
+      "kuerzel": "M_VU1",
+      "bezeichnung": "Verkehr und Umwelt 1",
+      "url": "allModules/11102_M_VU1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11103,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Verkehr und Umwelt 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Transport and Environment 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2005,
+    "endSemester": "WS"
+  },
+  "nachfolger": {
+    "id": 11103,
+    "kuerzel": "M_VU2",
+    "bezeichnung": "Verkehr und Umwelt 2",
+    "url": "allModules/11103_M_VU2.json"
+  }
+}

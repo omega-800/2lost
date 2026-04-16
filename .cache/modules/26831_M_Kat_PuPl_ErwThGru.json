@@ -1,0 +1,79 @@
+{
+  "id": 26831,
+  "kuerzel": "M_Kat_PuPl_ErwThGru",
+  "bezeichnung": "Kategorie Anrechnung MSE",
+  "kreditpunkte": 3,
+  "lernziele": "Themenbezogene theoretische Arbeit des MSE Studiums",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 30474,
+      "kuerzel": "k_katanrMSE",
+      "bezeichnung": "Anrechnung MSE",
+      "kurselemente": [
+        {
+          "id": 30475,
+          "art": "Blockkurs",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10019,
+      "bezeichnung": "Public Planning, Construction and Building Technology",
+      "kuerzel": "PPCBT",
+      "url": "allStudies/10019_PPCBT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10064,
+      "bezeichnung": "Spatial Development & Landscape Architecture",
+      "kuerzel": "SDLA_FG",
+      "url": "allStudies/10064_SDLA_FG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Kategorie Anrechnung"
+    }
+  ]
+}

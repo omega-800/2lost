@@ -1,0 +1,214 @@
+{
+  "id": 11064,
+  "kuerzel": "M_FlTrWe",
+  "bezeichnung": "Flächentragwerke",
+  "kreditpunkte": 4,
+  "lernziele": "<p>&bull; Kompetenz in der praxisgerechten Modellierung bautypischer Tragwerke. <br />&bull; Sicherheit in der Interpretation von Berechnungsergebnissen und F&auml;higkeit zur Plausibilit&auml;tskontrolle.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10172,
+      "kuerzel": "FEM_B",
+      "bezeichnung": "Finite Elemente Methode ",
+      "lernziele": "<p>&#8226; Verstehen der Grundbegriffe <br />&#8226; Einblick in Arbeitsweise und Anwendung der Finite Elemente (FE) -Methode <br />&#8226; Einsicht in M&#246;glichkeiten und Grenzen der FE-Simulationen <br />&#8226; &#220;bersicht &#252;ber die strukturmechanischen Eigenschaften typischer Tragwerke (Balken, St&#228;be, Platten, Schalen, Membranen etc.) bzw. entsprechender Finiter Elemente <br />&#8226; F&#228;higkeit einer aufgabengerechten Modellbildung und Idealisierung <br />&#8226; F&#228;higkeit ein FE-Programm bei praktischen baustatischen Problemstellungen anzuwenden <br />&#8226; Beherrschen der Schritte einer erfolgreichen Simulation sowie der Auswertung, Darstellung und kritischen Interpretation der Ergebnisse </p>",
+      "planinhalt": "<p>&#8226; &#220;bersicht <br />&#8226; Grundlagen <br />&#8226; Diskussion von Fallbeispielen <br />&#8226; Deformationsmethode <br />&#8226; Modellierungsprozess <br />&#8226; Finite Elemente als Ersatz f&#252;r elastische Strukturelemente <br />&#8226; Herleitung der Gleichungssysteme mittels Matrizen <br />&#8226; Funktionsweise von L&#246;sungsalgorithmen <br />&#8226; Ursachen von Fehlern bei der Modellierung und Berechnung <br />&#8226; M&#246;glichkeiten zur &#220;berpr&#252;fung und Interpretation der Ergebnisse <br />&#8226; &#220;bungen: <br />&nbsp;&nbsp; o Stabstatik, Platten, Flachdecken, Scheiben, Simulation von Unterz&#252;gen, Gelenklinien etc. <br />&nbsp;&nbsp; o Handrechnungen, typische Lastfallkombinationen, Berechnung &#8220;von oben nach unten&#8220;, Bewehrung </p>",
+      "kurselemente": [
+        {
+          "id": 10591,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Finite Elemente Methode "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Finite Element Method"
+        }
+      ]
+    },
+    {
+      "id": 10173,
+      "kuerzel": "StBeton3",
+      "bezeichnung": "Stahlbeton 3",
+      "lernziele": "<p>&#8226; F&#228;higkeit zum Entwerfen und Gestalten von Platten, Flachdecken und Fundamenten in Stahlbeton <br />&#8226; Kompetenz in der Wahl der zutreffenden Berechnungsannahmen und statischen Modelle <br />&#8226; Kenntnis der einschl&#228;gigen Normen und F&#228;higkeit zur Interpretation der einschl&#228;gigen Vorschriften </p>",
+      "planinhalt": "<p>&#8226; Grundlagen der Plattentheorie, <br />&#8226; Bemessung von Platten, Pilz- und Flachdecken, Fundamenten <br />&#8226; Schub und Durchstanzen </p>",
+      "kurselemente": [
+        {
+          "id": 10592,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Stahlbeton 3"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Reinforced Concrete 3"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10005,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10005_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10011,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10011_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10109,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10109_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10131,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10131_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10017,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10017_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 541724,
+      "name": "Stürwald",
+      "vorname": "Simone"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 10944,
+      "kuerzel": "M_Baustat3",
+      "bezeichnung": "Baustatik 3",
+      "url": "allModules/10944_M_Baustat3.json"
+    },
+    {
+      "id": 21472,
+      "kuerzel": "M_Kons2",
+      "bezeichnung": "Konstruktion 2",
+      "url": "allModules/21472_M_Kons2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11064,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Verfassung und Abgabe einer Kurzdokumentation f&#252;r 50% der &#220;bungen (betrifft Kurs FEM)</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Flächentragwerke"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Plate and Shell Structures"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2016,
+    "endSemester": "FS"
+  }
+}

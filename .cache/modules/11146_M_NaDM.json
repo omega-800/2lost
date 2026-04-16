@@ -1,0 +1,157 @@
+{
+  "id": 11146,
+  "kuerzel": "M_NaDM",
+  "bezeichnung": "Netzwerk Architektur, Design und Management",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Der/Die Studierende erhalten das Grundwissen, um auf Basis der ermittelten Anforderungen ein mittleres bis gr&#246;sseres Rechnernetz zu planen, aufzubauen und in den operationellen Betrieb zu &#252;berf&#252;hren. Neben dem technischen Grundlagenwissen sollen auch Fragen der Auf- und Ablauforganisation und den damit verbundenen Problemen sowie wirtschaftliche Aspekt aufgezeigt werden. </p>\n<p>Das Computer Netzwerk entwickelt sich in (fast) allen Firmen immer mehr zum haupts&#228;chlichen Kommunikationskanal f&#252;r Gesch&#228;ftsabl&#228;ufe. Gesch&#228;ftskritische Applikationen laufen &#252;ber das Netz, sind h&#228;ufig \"Web-based\". Der gr&#246;sste Teil der gesch&#228;ftlichen Kommunikation l&#228;uft &#252;ber E-mail. Damit steigen die Anforderungen an die Infrastruktur massiv an. Beispile sind Verf&#252;gbarkeit, Sicherheit, M&#246;glichkeit, gesch&#228;ftskritische Applikationen zu sch&#252;tzen/priorisieren (z.B. vor Webverkehr, vor File-sharing traffic, Spam, Attacken, usw.), Flexibilit&#228;t (f&#252;r Wachstum, Firmen(ver)k&#228;ufe), Fusionen, usw.) und das alles bei stetig kleiner werdenden Budgets. Es w&#228;re deshalb unverantwortlich (und f&#252;r jeden Netzwerk Designer ziemlich Job-gef&#228;hrdend), ohne strukturierten Design Prozess und saubere Dokumentation zu arbeiten. Am Schluss dieser Vorlesung sollen Sie deshalb das Handwerk des \"strukturierten Top Down Design\" beherrschen und in einer auf die Situation und Gr&#246;sse des Netzwerkes angepasster Weise anwenden k&#246;nnen. </p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10299,
+      "kuerzel": "NaDM",
+      "bezeichnung": "Netzwerk Architektur, Design und Management",
+      "planinhalt": "Teil Design (Stettler) Inhalte: - Analyzing Business Goals and Constraints - Analyzing Tchnical Goals and Constraints - Characterizing the Existing Network - Characterizing the Network Traffic - Designing a Network Topology - Designing Models for Addressing and Naming - Selecting Bridging, Switching and Routing Protocols - Selecting Technologies and Devices f&#252;r your Network - Developing Network Security Strategy - Testing your Design - Documenting your Network Design - Optimizing your Design Teil Management (Rinkel) - Management Technologien Plattformsysteme Managementziele Customer Care Systeme Anwendungsbeispiele - Netzwerk Management Standards CMP, SNMP - Aufbau- und Ablauforganisation",
+      "kurselemente": [
+        {
+          "id": 10753,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 10754,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Netzwerk Architektur, Design und Management"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Network Architecture, Design and Management"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 946,
+      "name": "Stettler",
+      "vorname": "Beat"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11147,
+      "kuerzel": "M_CN2",
+      "bezeichnung": "Computernetze 2",
+      "url": "allModules/11147_M_CN2.json"
+    },
+    {
+      "id": 15339,
+      "kuerzel": "M_CN1",
+      "bezeichnung": "Computernetze 1",
+      "url": "allModules/15339_M_CN1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11146,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Netzwerk Architektur, Design und Management"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Network Architecture, Design and Management"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2011,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 11146,
+    "kuerzel": "M_NaDM",
+    "bezeichnung": "Netzwerk Architektur, Design und Management",
+    "url": "allModules/11146_M_NaDM.json"
+  }
+}

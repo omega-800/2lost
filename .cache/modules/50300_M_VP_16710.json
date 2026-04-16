@@ -1,0 +1,238 @@
+{
+  "id": 50300,
+  "kuerzel": "M_VP_16710",
+  "bezeichnung": "Stoff- und Wärmetransport in nicht-Newton'schen Flüssigkeiten",
+  "kreditpunkte": 18,
+  "lernziele": "<p>Die Studierenden</p><ul><li>verstehen die Grundlagen der Str&ouml;mungsmechanik und der W&auml;rmeleitung. Sie&nbsp; verstehen die Navier-Stokes-Gleichung und die Diffusions-Konvektionsgleichung und k&ouml;nnen diese aus den Grundgleichungen (Impulserhaltung, Bilanzgleichung) herleiten.</li><li>verstehen die Methode der finiten Volumen und k&ouml;nnen str&ouml;mungsmechanische Probleme mit OpenFOAM/CFX&nbsp; l&ouml;sen und k&ouml;nnen da Str&ouml;mung und W&auml;rmetransport koppeln.</li><li>k&ouml;nnen die f&uuml;r die Str&ouml;mungsmechanik wichtigen&nbsp; thermophysikalische Eigenschaften von Stoffen (Feststoffe, Fl&uuml;ssigkeiten und Gemischen) in Modellen beschreiben.</li><li>sind in der Lage die thermophysikalischen Eigenschaften von Stoffgemischen (Emulsionen, Suspensionen) als Funktion der Zusammensetzung, Temperatur und Scherraten zu beschreiben.</li><li>k&ouml;nnen die Reaktionskinetik der Kristallisation &uuml;ber die Materialgesetze mit der Str&ouml;mungsberechnung koppeln.</li></ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 50301,
+      "kuerzel": "VP_1671001",
+      "bezeichnung": "Stoff- und Wärmetransport in nicht-Newton'schen Flüssigkeiten",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>sind Sie in der Lage, einen Finite-Volumen-Code (OpenFOAM, CFX) zur Berechnung von Aufgaben aus der Str&ouml;mungsmechanik und der W&auml;rmeleitung anzuwenden.</li><li>sind Sie in der Lage, Str&ouml;mung und W&auml;rmetransport zu koppeln und k&ouml;nnen die Ergebnisse der Simulation bewerten.</li><li>k&ouml;nnen Sie die die thermophysikalischen Eigenschaften von Stoffgemischen (Emulsionen, Suspensionen) als Funktion der Zusammensetzung, Temperatur und Scherraten zu beschreiben.</li><li>k&ouml;nnen Sie die Reaktionskinetik der Kristallisation &uuml;ber die Materialgesetze mit der Str&ouml;mungsberechnung koppeln.</li></ul>",
+      "planinhalt": "<ul><li>Str&ouml;mungsmechanik</li><li>Str&ouml;mungssimulation</li><li>Reaktionskinetik</li><li>Stoffmodelle</li><li>Kontinuumsmechanik</li></ul>",
+      "bibliographie": "<p>OpenFOAM User Guide:<br />http://foam.sourceforge.net/docs/Guides-a4/UserGuide.pdf</p><p>OpenFOAM Programmers Guide:<br />http://foam.sourceforge.net/docs/Guides-a4/ ProgrammersGuide.pdf</p><p>&nbsp;</p><p>Literatur:</p><p>[1.]&nbsp;Avrami, Melvin, Kinetics of Phase Change. I General Theory, The Journal of Chemical Physics, 7, 1103-1112 (1939), DOI: http://dx.doi.org/10.1063/1.1750380<br />[2.]&nbsp;Avrami, Melvin, Kinetics of Phase Change. II Transformation‐Time Relations for Random Distribution of Nuclei, The Journal of Chemical Physics, 8, 212-224 (1940), DOI: http://dx.doi.org/10.1063/1.1750631<br />[3.]&nbsp;Alejandro G. Marangoni, Leendert H. Wesdorp :Structure and Properties of Fat Crystal Networks, Second Edition, September 25, 2012 by CRC Press, ISBN 9781439887622<br />[4.]&nbsp;Mourad Yataghene, Francine Fayolle, Jack Legrand, Experimental and numerical analysis of heat transfer including viscous dissipation in a scraped surface heat exchanger, Chemical Engineering and Processing: Process Intensification, Volume 48, Issue 10, October 2009, http://dx.doi.org/10.1016/j.cep.2009.07.012<br />[5.]&nbsp;Gianfranco Mazzanti, Alejandro G. Marangoni, and Stefan H. J. Idziak:<br />Modeling phase transitions during the crystallization of a multicomponent fat under shear, Phys. Rev. E 71, 041607 &ndash; Published 25 April 2005<br />[6.]&nbsp;PARKINSON, C. SHERMAN, P., MATSUMOTO, S.:&nbsp; FAT CRYSTALS AND THE FLOW RHEOLOGY OF BUTTER AND MARGARINE, Journal of Texture Studies, Volume 1, Issue 2, pages 206&ndash;213, March 1970, http://dx.doi.org/10.1111/j.1745-4603.1970.tb00724.x<br />[7.]&nbsp;Serpil Metin, Richard W. Hartel: Crystallization of Fats and Oils, In: Bailey&#39;s Industrial Oil and Fat Products, , 6 Volume Set, 6th Edition<br />Fereidoon Shahidi (Editor), ISBN: 978-0-471-38460-1, April 2005, DOI: 10.1002/047167849X.bio021</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird mittels Bericht und Pr&auml;sentation bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 50302,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002668,
+          "name": "Würsch",
+          "vorname": "Christoph"
+        }
+      ]
+    },
+    {
+      "id": 50303,
+      "kuerzel": "VP_1671002",
+      "bezeichnung": "Strömungsmechanik",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>verstehen die Grundlagen der Str&ouml;mungsmechanik und der W&auml;rmeleitung.</li><li>verstehen die Navier-Stokes-Gleichung und die Diffusions-Konvektionsgleichung und k&ouml;nnen diese aus den Grundgleichungen (Impulserhaltung, Bilanzgleichung) herleiten.</li><li>verstehen die Methode der finiten Volumen und k&ouml;nnen str&ouml;mungsmechanische Probleme mit OpenFOAM/CFX&nbsp; l&ouml;sen und k&ouml;nnen da Str&ouml;mung und W&auml;rmetransport koppeln.</li><li>k&ouml;nnen die f&uuml;r die Str&ouml;mungsmechanik wichtigen&nbsp; thermophysikalische Eigenschaften von Stoffen (Feststoffe, Fl&uuml;ssigkeiten und Gemischen) in Modellen beschreiben und diese als Funktion der Temperatur und Zusammensetzung der betrachteten Stoffe in die Modelle einbinden.</li></ul>",
+      "planinhalt": "<p>Hydrodynamische Grundlagen</p><ul><li>Potentialstr&ouml;mungen, ebene Wirblestr&ouml;mungen</li><li>Viskose Str&ouml;mungen, Navier-Stokes-Gleichung</li><li>Grundlagen Grenzschichttheorie</li><li>Turbulente Str&ouml;mungen, Reynolds Averaged NS-Gleichung</li><li>Knotenmodelle von Str&ouml;mungselementen (Rohrstr&ouml;mungen, Ventile, Blenden)</li><li>Kopplung von Str&ouml;mung und W&auml;rmetransport</li></ul>",
+      "bibliographie": "<ul><li>Hendrik Kuhlmann: Str&ouml;mungsmechanik, Eine kompakte Einf&uuml;hrung f&uuml;r Physiker und Ingenieure,&nbsp; ISBN: 978-3-8689-4253-8,&nbsp; 304 Seiten, 2014</li><li>Frank White: Fluid Mechanics, Series: McGraw-Hill Series in Mechanical Engineering, McGraw-Hill Science/Engineering/Math; 7 edition, 2010, ISBN-10: 0077422414</li><li>Willi Bohl, W. Elmendorf: Technische Str&ouml;mungslehre, Vogel Buchverlag, ISBN: 978-3-8343-3329-2</li></ul>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>Dieser Kurs wird mittels Bericht und Pr&auml;sentation bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 50304,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002668,
+          "name": "Würsch",
+          "vorname": "Christoph"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002668,
+      "name": "Würsch",
+      "vorname": "Christoph"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 49676,
+      "kuerzel": "M_VP_16820",
+      "bezeichnung": "Multiphysik-Modellierung und Simulation in der Plasmaphysik",
+      "url": "allModules/49676_M_VP_16820.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Mass and Heat Transport in Non-Newtonian Fluids"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2016,
+    "beginSemester": "HS",
+    "endJahr": 2016,
+    "endSemester": "HS"
+  }
+}

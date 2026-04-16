@@ -1,0 +1,183 @@
+{
+  "id": 18253,
+  "kuerzel": "M_VK5",
+  "bezeichnung": "Verkehr 5",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Erlangen spezieller Fachkenntnisse in der Verkehrsplanung; Vermittlung fach- und disziplinen&uuml;bergreifender Ans&auml;tze, Praktische Anwendung in Kurz&uuml;bungen<br />&nbsp;<br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 18254,
+      "kuerzel": "VP5",
+      "bezeichnung": "Verkehrsplanung 5",
+      "lernziele": "<p>Erlangen spezieller Fachkenntnisse in der Verkehrsplanung; Vermittlung fach- und disziplinen&uuml;bergreifender Ans&auml;tze<br />Praktische Anwendungen in Kurz&uuml;bungen</p>",
+      "planinhalt": "<p>Mobilit&auml;t, Raumentwicklung und Nachhaltigkeit<br />Niveaufreie Knoten<br />Projektablauf und Management von Verkehrsprojekten<br />Komplexe Verkehrsplanungen<br />Hochbelastete Hauptstrassen mit &ouml;ffentlichem Verkehr<br />Bahnh&ouml;fe, Bahnplanung<br />Nachhaltige Technologien im Verkehr<br />Verkehrstelematik<br />Mobilit&auml;tsmanagement und Mobilit&auml;tsdienstleistungen<br />Verkehrs&ouml;konomie<br />Verkehrsbeeinflussung, Verkehrssteuerungen, Verkehrsprognosen</p>",
+      "kurselemente": [
+        {
+          "id": 18255,
+          "art": "Vorlesung",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Verkehrsplanung 5"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Transport Planning 5"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10000,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10000_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10006,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10006_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10041,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10041_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10096,
+          "kuerzel": "R_vp",
+          "bezeichnung": "Verkehrsplanung",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10123,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10123_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10096,
+          "kuerzel": "R_vp",
+          "bezeichnung": "Verkehrsplanung",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 541306,
+      "name": "Hagedorn",
+      "vorname": "Carsten"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 18195,
+      "kuerzel": "M_VK2",
+      "bezeichnung": "Verkehr 2",
+      "url": "allModules/18195_M_VK2.json"
+    },
+    {
+      "id": 18213,
+      "kuerzel": "M_VK3",
+      "bezeichnung": "Verkehr 3",
+      "url": "allModules/18213_M_VK3.json"
+    },
+    {
+      "id": 18237,
+      "kuerzel": "M_VK4",
+      "bezeichnung": "Verkehr 4",
+      "url": "allModules/18237_M_VK4.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 18253,
+      "art": "Note von 1 - 6",
+      "pruefungMue": true,
+      "dauerPrfMue": 20,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Verkehr 5"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Transport Planning 5"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2009,
+    "beginSemester": "HS",
+    "endJahr": 2016,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 18253,
+    "kuerzel": "M_VK5",
+    "bezeichnung": "Verkehr 5",
+    "url": "allModules/18253_M_VK5.json"
+  }
+}

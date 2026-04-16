@@ -1,0 +1,298 @@
+{
+  "id": 28249,
+  "kuerzel": "M_InfSi1",
+  "bezeichnung": "Informationssicherheit 1 - Grundlagen",
+  "kreditpunkte": 4,
+  "lernziele": "<ul><li>Sie k&ouml;nnen Gr&uuml;nde f&uuml;r Informationssicherheitsmassnahmen identifizieren</li><li>Sie beherrschen Vorgehensweisen zum Verbesserung der Informationssicherheit</li><li>Sie beherrschen Krypto-Grundlagen (Verschl&uuml;sselungsalgorithmen, Signatur, Zertifikat)</li><li>Sie verstehen die verschiedenen Authentifizierungsverfahren und &ndash;technologien</li><li>Sie kennen Begriffe und Produkte aus dem Sicherheitsbereich und k&ouml;nnen diese anhand aktueller Beispiele erkl&auml;ren.</li></ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 28250,
+      "kuerzel": "InfSi1",
+      "bezeichnung": "Informationssicherheit 1",
+      "lernziele": "<p>siehe oben</p>",
+      "planinhalt": "<ul><li>Einf&uuml;hrung zur Informationssicherheit<br />-&nbsp;Ziele (Werte, Gefahren, Verletzlichkeiten, technische, rechtliche, wirtschaftliche Risiken)<br />-&nbsp;Vorgehen zur Verbesserung der Informationssicherheit (Sicherheitskonzepte, Standards/Best Practices, Gesetze)</li><li>Kryptologie Grundlagen<br />-&nbsp;Begriffe, Prinzipien, Informationstheorie<br />-&nbsp;Verschl&uuml;sselungsverfahren<br />-&nbsp;Digitale Signatur<br />-&nbsp;Zertifikate</li><li>Zugriffskontrolle (Identifikation, Authentisierung)<br />-&nbsp;Prinzipien der Authentisierung (Passwort, Zertifikat, Biometric Sensors, ..., Smart Card)</li><li>Beispiel: Web Security (SSL/TLS)</li><li>Beispiel: Mail Security</li><li>Der Inhalt wird nach Bedarf angepasst, um aktuelle Sicherheitsprobleme zu behandeln</li></ul><p>Lern- und Unterrichtsmethoden: Vorlesung mit Lernkontrollen, &Uuml;bungen am Computer<br />&nbsp;</p><p>Unterrichtsunterlagen: Folien mit Zusatztexten (Kommentar); Tutorials/Videos/White Papters; Online-Infos</p><p>w&ouml;chentliche Lernkontrollen (MobileQuiz)</p>",
+      "kurselemente": [
+        {
+          "id": 28251,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 126,
+          "harteGrenze": true
+        },
+        {
+          "id": 28252,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Informationssicherheit 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Internet Security 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10107,
+      "bezeichnung": "Network & Cloud-Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10107_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10127,
+      "bezeichnung": "Generalist",
+      "kuerzel": "GEN",
+      "url": "allStudies/10127_GEN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10106,
+      "bezeichnung": "Application Design - Cloud Solutions",
+      "kuerzel": "ADCS",
+      "url": "allStudies/10106_ADCS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10108,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10108_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10161,
+      "bezeichnung": "Data Engineering & Machine Intelligence",
+      "kuerzel": "DaEngMaInt",
+      "url": "allStudies/10161_DaEngMaInt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5015908,
+      "name": "Metzger",
+      "vorname": "Laurent"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 28240,
+      "kuerzel": "M_CN1",
+      "bezeichnung": "Computernetze 1",
+      "url": "allModules/28240_M_CN1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 28249,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Informationssicherheit 1 - Grundlagen"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Information Security 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2017,
+    "beginSemester": "FS",
+    "endJahr": 2020,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 22222,
+    "kuerzel": "M_InfSi1",
+    "bezeichnung": "Informationssicherheit 1 - Grundlagen",
+    "url": "allModules/22222_M_InfSi1.json"
+  },
+  "nachfolger": {
+    "id": 28249,
+    "kuerzel": "M_InfSi1",
+    "bezeichnung": "Informationssicherheit 1 - Grundlagen",
+    "url": "allModules/28249_M_InfSi1.json"
+  }
+}

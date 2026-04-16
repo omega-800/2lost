@@ -1,0 +1,110 @@
+{
+  "id": 11339,
+  "kuerzel": "M_DAI",
+  "bezeichnung": "Diplomarbeit Informatik",
+  "kreditpunkte": 20,
+  "lernziele": "<p>Eine komplexe Informatikproblemstellung selbstst&#228;ndig in einem Team l&#246;sen k&#246;nnen.</p>",
+  "vorausgKenntnisse": "<p>Erfolgreicher Besuch der Studienarbeit 2 Informatik.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 11224,
+      "kuerzel": "DAI",
+      "bezeichnung": "Diplomarbeit Informatik",
+      "planinhalt": "<p>Die Diplomarbeiten werden in der Regel in 2-er Teams bearbeitet und von einem Dozent betreut. <br />Die Diplomarbeit dauert ca. 8 Wochen (Vollzeit). <br />Das Thema der Arbeit wird vom betreuenden Dozenten gestellt. Themenvorschl&#228;ge von externen <br />Firmen und von Studierenden k&#246;nnen eingebracht werden, f&#252;r die definitive Aufgabenstellung ist in <br />jedem Fall der betreuende Dozent verantwortlich. <br />Oft wird die Diplomarbeit als Anschlussarbeit an die 2. Studienarbeit gestellt. <br /><br />In der Regel wird ein Informatik-Projekt bearbeitet mit den folgenden Teilaufgaben <br />- Einarbeitung in eine neue Aufgabenstellung <br />- Planung des Projektes <br />- Analyse der Anforderungen <br />- Entwurf und Realisation der L&#246;sung <br />- Test der L&#246;sung <br /><br />Nach der Abgabe findet eine &#246;ffentliche Ausstellung und Pr&#228;sentation der Diplomarbeiten statt. <br />&#220;ber die Diplomarbeit gibt es eine m&#252;ndliche Pr&#252;fung, die in Anwesenheit des Experten abgehalten <br />wird. Die Pr&#252;fung findet Anfang Januar statt und dauert ca. 20min pro Student. <br /></p>",
+      "kurselemente": [
+        {
+          "id": 11315,
+          "art": "Diplomarbeit",
+          "anzLektionen": 20,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Diplomarbeit Informatik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Diploma Thesis Computer Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10078,
+          "kuerzel": "I-DA",
+          "bezeichnung": "Diplomarbeit Informatik",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10072,
+          "kuerzel": "K_DAI_U01",
+          "bezeichnung": "Diplomarbeit Informatik  (Übergang)",
+          "kreditpunkte": 20
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 869,
+      "name": "Huser",
+      "vorname": "Hansjörg"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Diplomarbeit Informatik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Diploma Thesis Computer Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2011,
+    "endSemester": "FS"
+  }
+}

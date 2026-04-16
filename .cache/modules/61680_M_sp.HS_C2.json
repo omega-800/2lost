@@ -1,0 +1,112 @@
+{
+  "id": 61680,
+  "kuerzel": "M_sp.HS_C2",
+  "bezeichnung": "C2 SP Organisationen Sozialer Arbeit",
+  "kreditpunkte": 6,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 61681,
+      "kuerzel": "sp.HS_C2.K1",
+      "bezeichnung": "C2 SP Organisationen Sozialer Arbeit - Leistungsnachweis",
+      "kreditpunkte": 0,
+      "kurselemente": [
+        {
+          "id": 61682,
+          "art": "Vorlesung",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "C2 SP Organisationen Sozialer Arbeit - Leistungsnachweis"
+        }
+      ]
+    },
+    {
+      "id": 61683,
+      "kuerzel": "sp.HS_C2.K2",
+      "bezeichnung": "C2 SP Organisationen Sozialer Arbeit - Präsenzpflicht",
+      "kreditpunkte": 0,
+      "kurselemente": [
+        {
+          "id": 61684,
+          "art": "Vorlesung",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "C2 SP Organisationen Sozialer Arbeit - Präsenzpflicht"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10480,
+      "bezeichnung": "Soziale Arbeit",
+      "kuerzel": "SA",
+      "url": "allStudies/10480_SA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10203,
+          "kuerzel": "P_SA",
+          "bezeichnung": "Pflichtmodule",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10206,
+          "kuerzel": "P_HS_SA",
+          "bezeichnung": "Pflichtmodule Hauptstudium Soziale Arbeit",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10482,
+      "bezeichnung": "Sozialpädagogik",
+      "kuerzel": "SoPa",
+      "url": "allStudies/10482_SoPa.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1003914,
+      "name": "Rudolph",
+      "vorname": "Sophie"
+    }
+  ],
+  "orte": [
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "C2 SP Organisationen Sozialer Arbeit"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

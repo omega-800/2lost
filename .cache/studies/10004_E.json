@@ -1,0 +1,4036 @@
+{
+  "id": 10004,
+  "kuerzel": "E",
+  "bezeichnung": "Elektrotechnik",
+  "versionKuerzel": "STD_05",
+  "typ": "Bachelor",
+  "art": "Studiengang",
+  "form": "Vollzeit",
+  "kredits": [
+    {
+      "id": 10003,
+      "minKredits": 64,
+      "kategorien": [
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik"
+        }
+      ]
+    },
+    {
+      "id": 10006,
+      "minKredits": 32,
+      "kategorien": [
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik"
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "minKredits": 30,
+      "kategorien": [
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik"
+        }
+      ]
+    },
+    {
+      "id": 10012,
+      "minKredits": 14,
+      "kategorien": [
+        {
+          "id": 10004,
+          "kuerzel": "E-n",
+          "bezeichnung": "Naturwissenschaften"
+        }
+      ]
+    },
+    {
+      "id": 10000,
+      "minKredits": 148,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik"
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "minKredits": 12,
+      "kategorien": [
+        {
+          "id": 10005,
+          "kuerzel": "E-ks",
+          "bezeichnung": "Kommunikation und Sprache"
+        }
+      ]
+    },
+    {
+      "id": 10018,
+      "minKredits": 8,
+      "kategorien": [
+        {
+          "id": 10006,
+          "kuerzel": "E-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht"
+        }
+      ]
+    },
+    {
+      "id": 10245,
+      "minKredits": 12,
+      "kategorien": [
+        {
+          "id": 10083,
+          "kuerzel": "E-BA",
+          "bezeichnung": "Bachelor-Arbeit Elektrotechnik"
+        }
+      ]
+    }
+  ],
+  "studienberater": {
+    "id": 670,
+    "name": "Schuster",
+    "vorname": "Guido"
+  },
+  "zuordnungen": [
+    {
+      "id": 25889,
+      "kuerzel": "M_SHST",
+      "bezeichnung": "A Short History of Science and Technology",
+      "url": "allModules/25889_M_SHST.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 56474,
+      "kuerzel": "M_AnME",
+      "bezeichnung": "Analog Microelectronics",
+      "url": "allModules/56474_M_AnME.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10934,
+      "kuerzel": "M_An1E",
+      "bezeichnung": "Analysis 1 für Elektrotechnik",
+      "url": "allModules/10934_M_An1E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 25634,
+      "kuerzel": "M_An1aE",
+      "bezeichnung": "Analysis 1a für Elektrotechnik",
+      "url": "allModules/25634_M_An1aE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 25648,
+      "kuerzel": "M_An1bE",
+      "bezeichnung": "Analysis 1b für Elektrotechnik",
+      "url": "allModules/25648_M_An1bE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10935,
+      "kuerzel": "M_An2E",
+      "bezeichnung": "Analysis 2 für Elektrotechnik",
+      "url": "allModules/10935_M_An2E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 25652,
+      "kuerzel": "M_An2aE",
+      "bezeichnung": "Analysis 2a für Elektrotechnik",
+      "url": "allModules/25652_M_An2aE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 25657,
+      "kuerzel": "M_An2bE",
+      "bezeichnung": "Analysis 2b für Elektrotechnik",
+      "url": "allModules/25657_M_An2bE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 23539,
+      "kuerzel": "M_ElMag",
+      "bezeichnung": "Angewandter Elektromagnetismus: Felder und Wellen",
+      "url": "allModules/23539_M_ElMag.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57612,
+      "kuerzel": "M_AT",
+      "bezeichnung": "Antriebstechnik",
+      "url": "allModules/57612_M_AT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15466,
+      "kuerzel": "M_AntrT2",
+      "bezeichnung": "Antriebstechnik 2",
+      "url": "allModules/15466_M_AntrT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 22259,
+      "kuerzel": "M_AI",
+      "bezeichnung": "Artificial Intelligence (AI)",
+      "url": "allModules/22259_M_AI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 17235,
+      "kuerzel": "M_KatAufbauE3",
+      "bezeichnung": "Aufbau Elektrotechnik",
+      "url": "allModules/17235_M_KatAufbauE3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 17236,
+      "kuerzel": "M_KatAufbauE4",
+      "bezeichnung": "Aufbau Elektrotechnik",
+      "url": "allModules/17236_M_KatAufbauE4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 17234,
+      "kuerzel": "M_KatAufbauE2",
+      "bezeichnung": "Aufbau Elektrotechnik",
+      "url": "allModules/17234_M_KatAufbauE2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 32
+        }
+      ]
+    },
+    {
+      "id": 16998,
+      "kuerzel": "M_KatAufbauE",
+      "bezeichnung": "Aufbau Elektrotechnik",
+      "url": "allModules/16998_M_KatAufbauE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 32
+        }
+      ]
+    },
+    {
+      "id": 18933,
+      "kuerzel": "M_KatAufbauE6",
+      "bezeichnung": "Aufbau Elektrotechnik",
+      "url": "allModules/18933_M_KatAufbauE6.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 12
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 19526,
+      "kuerzel": "M_KatAufbau&T_E2",
+      "bezeichnung": "Aufbau und Technik Elektrotechnik",
+      "url": "allModules/19526_M_KatAufbau&T_E2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 19527,
+      "kuerzel": "M_KatAufbau&T_E1",
+      "bezeichnung": "Aufbau und Technik Elektrotechnik",
+      "url": "allModules/19527_M_KatAufbau&T_E1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10932,
+      "kuerzel": "M_AKapInf1",
+      "bezeichnung": "Ausgewählte Kapitel der Informatik 1",
+      "url": "allModules/10932_M_AKapInf1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10933,
+      "kuerzel": "M_AKapInf2",
+      "bezeichnung": "Ausgewählte Kapitel der Informatik 2",
+      "url": "allModules/10933_M_AKapInf2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44314,
+      "kuerzel": "M_AutoMI",
+      "bezeichnung": "Automation",
+      "url": "allModules/44314_M_AutoMI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 17332,
+      "kuerzel": "M_KatEAutomT",
+      "bezeichnung": "Automatisierungstechnik - Übergang",
+      "url": "allModules/17332_M_KatEAutomT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 24003,
+      "kuerzel": "M_BAE",
+      "bezeichnung": "Bachelor-Arbeit Elektrotechnik",
+      "url": "allModules/24003_M_BAE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10083,
+          "kuerzel": "E-BA",
+          "bezeichnung": "Bachelor-Arbeit Elektrotechnik",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 24453,
+      "kuerzel": "M_WI2",
+      "bezeichnung": "Business Processes für Informatik",
+      "url": "allModules/24453_M_WI2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10006,
+          "kuerzel": "E-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 40825,
+      "kuerzel": "M_BuPro",
+      "bezeichnung": "Business Processes für Informatik",
+      "url": "allModules/40825_M_BuPro.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10006,
+          "kuerzel": "E-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 20780,
+      "kuerzel": "M_BuRe1",
+      "bezeichnung": "Business und Recht 1",
+      "url": "allModules/20780_M_BuRe1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10006,
+          "kuerzel": "E-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45604,
+      "kuerzel": "M_BuRe2a",
+      "bezeichnung": "Business und Recht 2 (a)",
+      "url": "allModules/45604_M_BuRe2a.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10006,
+          "kuerzel": "E-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28063,
+      "kuerzel": "M_Chin1",
+      "bezeichnung": "Chinesisch 1",
+      "url": "allModules/28063_M_Chin1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 28067,
+      "kuerzel": "M_Chin2",
+      "bezeichnung": "Chinesisch 2",
+      "url": "allModules/28067_M_Chin2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 36024,
+      "kuerzel": "M_Chinese2",
+      "bezeichnung": "Chinesisch 2",
+      "url": "allModules/36024_M_Chinese2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 25232,
+      "kuerzel": "M_ComEng1",
+      "bezeichnung": "Computer Engineering 1",
+      "url": "allModules/25232_M_ComEng1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 23341,
+      "kuerzel": "M_CompEng1",
+      "bezeichnung": "Computer Engineering 1",
+      "url": "allModules/23341_M_CompEng1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 23345,
+      "kuerzel": "M_ComEng2",
+      "bezeichnung": "Computer Engineering 2",
+      "url": "allModules/23345_M_ComEng2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 39084,
+      "kuerzel": "M_CN1",
+      "bezeichnung": "Computernetze 1",
+      "url": "allModules/39084_M_CN1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 23311,
+      "kuerzel": "M_CN2",
+      "bezeichnung": "Computernetze 2",
+      "url": "allModules/23311_M_CN2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 39093,
+      "kuerzel": "M_Dbs1",
+      "bezeichnung": "Datenbanksysteme 1",
+      "url": "allModules/39093_M_Dbs1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 29749,
+      "kuerzel": "M_DL",
+      "bezeichnung": "Deep Learning",
+      "url": "allModules/29749_M_DL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 40680,
+      "kuerzel": "M_DigDes",
+      "bezeichnung": "Digital Design",
+      "url": "allModules/40680_M_DigDes.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 24233,
+      "kuerzel": "M_DigPro1",
+      "bezeichnung": "Digital Image Processing 1",
+      "url": "allModules/24233_M_DigPro1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 25103,
+      "kuerzel": "M_DigPro1Engl",
+      "bezeichnung": "Digital Image Processing 1 - Englische Vorlesung",
+      "url": "allModules/25103_M_DigPro1Engl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 21886,
+      "kuerzel": "M_DigPro2",
+      "bezeichnung": "Digital Image Processing 2",
+      "url": "allModules/21886_M_DigPro2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 40697,
+      "kuerzel": "M_DigME",
+      "bezeichnung": "Digital Microelectronics",
+      "url": "allModules/40697_M_DigME.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 21891,
+      "kuerzel": "M_DigSig1",
+      "bezeichnung": "Digital Signal Processing 1",
+      "url": "allModules/21891_M_DigSig1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28177,
+      "kuerzel": "M_DigSig1Engl",
+      "bezeichnung": "Digital Signal Processing 1",
+      "url": "allModules/28177_M_DigSig1Engl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 25097,
+      "kuerzel": "M_DigSig1Engl",
+      "bezeichnung": "Digital Signal Processing 1 - Englische Vorlesung",
+      "url": "allModules/25097_M_DigSig1Engl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 21897,
+      "kuerzel": "M_DigSig2",
+      "bezeichnung": "Digital Signal Processing 2",
+      "url": "allModules/21897_M_DigSig2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28167,
+      "kuerzel": "M_DigSig2Engl",
+      "bezeichnung": "Digital Signal Processing 2",
+      "url": "allModules/28167_M_DigSig2Engl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 40874,
+      "kuerzel": "M_DigT",
+      "bezeichnung": "Digitaltechnik",
+      "url": "allModules/40874_M_DigT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 11010,
+      "kuerzel": "M_DigT1",
+      "bezeichnung": "Digitaltechnik 1",
+      "url": "allModules/11010_M_DigT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11161,
+      "kuerzel": "M_DigT2",
+      "bezeichnung": "Digitaltechnik 2",
+      "url": "allModules/11161_M_DigT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45627,
+      "kuerzel": "M_ElSolT",
+      "bezeichnung": "Electrical Solar Technology",
+      "url": "allModules/45627_M_ElSolT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11125,
+      "kuerzel": "M_ElMasch",
+      "bezeichnung": "Elektrische Maschinen (E)",
+      "url": "allModules/11125_M_ElMasch.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 11180,
+      "kuerzel": "M_EP1",
+      "bezeichnung": "Elektro-Praktikum 1",
+      "url": "allModules/11180_M_EP1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11183,
+      "kuerzel": "M_EP2",
+      "bezeichnung": "Elektro-Praktikum 2",
+      "url": "allModules/11183_M_EP2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 28744,
+      "kuerzel": "M_ElChem",
+      "bezeichnung": "Elektrochemie",
+      "url": "allModules/28744_M_ElChem.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10004,
+          "kuerzel": "E-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11201,
+      "kuerzel": "M_Elo1",
+      "bezeichnung": "Elektronik 1",
+      "url": "allModules/11201_M_Elo1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 11202,
+      "kuerzel": "M_Elo2",
+      "bezeichnung": "Elektronik 2",
+      "url": "allModules/11202_M_Elo2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 25998,
+      "kuerzel": "M_ELT1",
+      "bezeichnung": "Elektrotechnik 1",
+      "url": "allModules/25998_M_ELT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17331,
+      "kuerzel": "M_KatElektrT1_Spez",
+      "bezeichnung": "Elektrotechnik 1 (Wechsel- und Drehstromtechnik) - Übergang",
+      "url": "allModules/17331_M_KatElektrT1_Spez.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 26002,
+      "kuerzel": "M_ELT2",
+      "bezeichnung": "Elektrotechnik 2",
+      "url": "allModules/26002_M_ELT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 26006,
+      "kuerzel": "M_ELT3",
+      "bezeichnung": "Elektrotechnik 3",
+      "url": "allModules/26006_M_ELT3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 26011,
+      "kuerzel": "M_ELT4",
+      "bezeichnung": "Elektrotechnik 4",
+      "url": "allModules/26011_M_ELT4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44331,
+      "kuerzel": "M_EmbMec",
+      "bezeichnung": "Embedded Mechatronics",
+      "url": "allModules/44331_M_EmbMec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28358,
+      "kuerzel": "M_EmbSW1",
+      "bezeichnung": "Embedded Software Engineering 1",
+      "url": "allModules/28358_M_EmbSW1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28362,
+      "kuerzel": "M_EmbSW2",
+      "bezeichnung": "Embedded Software Engineering 2",
+      "url": "allModules/28362_M_EmbSW2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 22062,
+      "kuerzel": "M_EmbSys1",
+      "bezeichnung": "Embedded Systems 1",
+      "url": "allModules/22062_M_EmbSys1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 22068,
+      "kuerzel": "M_EmbSys2",
+      "bezeichnung": "Embedded Systems 2",
+      "url": "allModules/22068_M_EmbSys2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 22073,
+      "kuerzel": "M_EnSys",
+      "bezeichnung": "Energiesysteme",
+      "url": "allModules/22073_M_EnSys.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 16465,
+      "kuerzel": "M_Ent1",
+      "bezeichnung": "Energietechnik 1",
+      "url": "allModules/16465_M_Ent1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 18102,
+      "kuerzel": "M_Ent2",
+      "bezeichnung": "Energietechnik 2 (Erneuerbare Energien)",
+      "url": "allModules/18102_M_Ent2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 55597,
+      "kuerzel": "M_TecBEC",
+      "bezeichnung": "English Beyond Borders: Navigating Academic & Professional Success with IELTS",
+      "url": "allModules/55597_M_TecBEC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10005,
+          "kuerzel": "E-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56496,
+      "kuerzel": "M_EnglHTw",
+      "bezeichnung": "English: How Things work",
+      "url": "allModules/56496_M_EnglHTw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10005,
+          "kuerzel": "E-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45661,
+      "kuerzel": "M_SelTec",
+      "bezeichnung": "English: Selling Technology",
+      "url": "allModules/45661_M_SelTec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10005,
+          "kuerzel": "E-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56504,
+      "kuerzel": "M_EnglScience",
+      "bezeichnung": "English: The World of Science",
+      "url": "allModules/56504_M_EnglScience.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10005,
+          "kuerzel": "E-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28084,
+      "kuerzel": "M_Franz2",
+      "bezeichnung": "Französisch 2",
+      "url": "allModules/28084_M_Franz2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 36421,
+      "kuerzel": "M_FranzKomm",
+      "bezeichnung": "Französisch Kommunikation ",
+      "url": "allModules/36421_M_FranzKomm.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 24427,
+      "kuerzel": "M_FKIA",
+      "bezeichnung": "Führungskommunikation im internationalen Arbeitsmarkt",
+      "url": "allModules/24427_M_FKIA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10005,
+          "kuerzel": "E-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10942,
+      "kuerzel": "M_FuVar",
+      "bezeichnung": "Funktionen mehrerer Variablen",
+      "url": "allModules/10942_M_FuVar.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15602,
+      "kuerzel": "M_KatGWR1",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+      "url": "allModules/15602_M_KatGWR1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10006,
+          "kuerzel": "E-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 38418,
+      "kuerzel": "M_KatGWR",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+      "url": "allModules/38418_M_KatGWR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10006,
+          "kuerzel": "E-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 17152,
+      "kuerzel": "M_KatGWR2",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht 2",
+      "url": "allModules/17152_M_KatGWR2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10006,
+          "kuerzel": "E-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 17161,
+      "kuerzel": "M_KatGWR3",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht 3",
+      "url": "allModules/17161_M_KatGWR3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10006,
+          "kuerzel": "E-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 25171,
+      "kuerzel": "M_KatGWR4",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht 4",
+      "url": "allModules/25171_M_KatGWR4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10006,
+          "kuerzel": "E-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 25173,
+      "kuerzel": "M_KatGWR5",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht 5",
+      "url": "allModules/25173_M_KatGWR5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10006,
+          "kuerzel": "E-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 19552,
+      "kuerzel": "M_KatGruLa&TE1",
+      "bezeichnung": "Grundlage & Technik Elektrotechnik",
+      "url": "allModules/19552_M_KatGruLa&TE1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 19553,
+      "kuerzel": "M_KatGruLa&TE2",
+      "bezeichnung": "Grundlage & Technik Elektrotechnik",
+      "url": "allModules/19553_M_KatGruLa&TE2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 17239,
+      "kuerzel": "M_KatGruLaE3",
+      "bezeichnung": "Grundlage & Technik Elektrotechnik",
+      "url": "allModules/17239_M_KatGruLaE3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 17268,
+      "kuerzel": "M_KatGruLaE4",
+      "bezeichnung": "Grundlage & Technik Elektrotechnik",
+      "url": "allModules/17268_M_KatGruLaE4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 64
+        }
+      ]
+    },
+    {
+      "id": 17269,
+      "kuerzel": "M_KatGruLaE5",
+      "bezeichnung": "Grundlage & Technik Elektrotechnik",
+      "url": "allModules/17269_M_KatGruLaE5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 43912,
+      "kuerzel": "M_GZEU",
+      "bezeichnung": "Grundzüge EEU (M-I)",
+      "url": "allModules/43912_M_GZEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 26080,
+      "kuerzel": "M_GZE",
+      "bezeichnung": "Grundzüge Energietechnik",
+      "url": "allModules/26080_M_GZE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 28739,
+      "kuerzel": "M_HlPhys",
+      "bezeichnung": "Halbleiterphysik",
+      "url": "allModules/28739_M_HlPhys.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10004,
+          "kuerzel": "E-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 30804,
+      "kuerzel": "M_HCID",
+      "bezeichnung": "Human Computer Interaction Design",
+      "url": "allModules/30804_M_HCID.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 36264,
+      "kuerzel": "M_IPCV1",
+      "bezeichnung": "Image Processing and Computer Vision 1",
+      "url": "allModules/36264_M_IPCV1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 36269,
+      "kuerzel": "M_IPCV2",
+      "bezeichnung": "Image Processing and Computer Vision 2",
+      "url": "allModules/36269_M_IPCV2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44614,
+      "kuerzel": "M_IndMtronik",
+      "bezeichnung": "Industrielle Mechatronik",
+      "url": "allModules/44614_M_IndMtronik.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44609,
+      "kuerzel": "M_IndRob",
+      "bezeichnung": "Industrielle Robotik",
+      "url": "allModules/44609_M_IndRob.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10928,
+      "kuerzel": "M_Info0",
+      "bezeichnung": "Informatik 0: Programmier-Einführungskurs",
+      "url": "allModules/10928_M_Info0.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10927,
+      "kuerzel": "M_Info1",
+      "bezeichnung": "Informatik 1: Grundlagen C++",
+      "url": "allModules/10927_M_Info1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10929,
+      "kuerzel": "M_Info2",
+      "bezeichnung": "Informatik 2: C++ Aufbau",
+      "url": "allModules/10929_M_Info2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10930,
+      "kuerzel": "M_Info3OOA",
+      "bezeichnung": "Informatik 3: OOA/OOD",
+      "url": "allModules/10930_M_Info3OOA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10931,
+      "kuerzel": "M_Info4Java",
+      "bezeichnung": "Informatik 4: Java",
+      "url": "allModules/10931_M_Info4Java.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 16130,
+      "kuerzel": "M_Info4OOA",
+      "bezeichnung": "Informatik 4: OOA/OOD",
+      "url": "allModules/16130_M_Info4OOA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 28249,
+      "kuerzel": "M_InfSi1",
+      "bezeichnung": "Informationssicherheit 1 - Grundlagen",
+      "url": "allModules/28249_M_InfSi1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 22611,
+      "kuerzel": "M_InfSi2",
+      "bezeichnung": "Informationssicherheit 2",
+      "url": "allModules/22611_M_InfSi2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 22606,
+      "kuerzel": "M_InfSi3",
+      "bezeichnung": "Informationssicherheit 3",
+      "url": "allModules/22606_M_InfSi3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 20110,
+      "kuerzel": "M_Inno2",
+      "bezeichnung": "Innovation 2",
+      "url": "allModules/20110_M_Inno2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 57703,
+      "kuerzel": "M_Inno_2",
+      "bezeichnung": "Innovation 2: Operatives Innovationsmanagement",
+      "url": "allModules/57703_M_Inno_2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 61226,
+      "kuerzel": "M_IntTra",
+      "bezeichnung": "Integraltransformationen",
+      "url": "allModules/61226_M_IntTra.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 36015,
+      "kuerzel": "M_Ital1",
+      "bezeichnung": "Italienisch 1",
+      "url": "allModules/36015_M_Ital1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 19691,
+      "kuerzel": "M_Ital2",
+      "bezeichnung": "Italienisch 2",
+      "url": "allModules/19691_M_Ital2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 28088,
+      "kuerzel": "M_Jap1",
+      "bezeichnung": "Japanisch 1",
+      "url": "allModules/28088_M_Jap1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 28093,
+      "kuerzel": "M_Jap2",
+      "bezeichnung": "Japanisch 2",
+      "url": "allModules/28093_M_Jap2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 26335,
+      "kuerzel": "M_JavaC",
+      "bezeichnung": "Java für C++ Programmierer",
+      "url": "allModules/26335_M_JavaC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 20396,
+      "kuerzel": "M_KatKaLos",
+      "bezeichnung": "Kategorielos",
+      "url": "allModules/20396_M_KatKaLos.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11144,
+      "kuerzel": "M_KomIng1",
+      "bezeichnung": "Kommunikation 1 für IngenieurInnen",
+      "url": "allModules/11144_M_KomIng1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10005,
+          "kuerzel": "E-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 22341,
+      "kuerzel": "M_KommIng2",
+      "bezeichnung": "Kommunikation 2 für IngenieurInnen  (Teamkommunikation)",
+      "url": "allModules/22341_M_KommIng2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10005,
+          "kuerzel": "E-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 31794,
+      "kuerzel": "M_KatKoSpra",
+      "bezeichnung": "Kommunikation und Sprache",
+      "url": "allModules/31794_M_KatKoSpra.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10005,
+          "kuerzel": "E-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 41497,
+      "kuerzel": "M_KatKoSpra",
+      "bezeichnung": "Kommunikation und Sprache EEU",
+      "url": "allModules/41497_M_KatKoSpra.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10005,
+          "kuerzel": "E-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15475,
+      "kuerzel": "M_KomFou",
+      "bezeichnung": "Komplexe Zahlen und Fourierreihen",
+      "url": "allModules/15475_M_KomFou.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15546,
+      "kuerzel": "M_KomFou1",
+      "bezeichnung": "Komplexe Zahlen und Fourierreihen",
+      "url": "allModules/15546_M_KomFou1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 30058,
+      "kuerzel": "M_LeistEl",
+      "bezeichnung": "Leistungselektronik",
+      "url": "allModules/30058_M_LeistEl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 20260,
+      "kuerzel": "M_LTec",
+      "bezeichnung": "Lerntechnik",
+      "url": "allModules/20260_M_LTec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10937,
+      "kuerzel": "M_LinAlg",
+      "bezeichnung": "Lineare Algebra: Einführung",
+      "url": "allModules/10937_M_LinAlg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 26294,
+      "kuerzel": "M_MatAuf",
+      "bezeichnung": "Materialaufbau",
+      "url": "allModules/26294_M_MatAuf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10004,
+          "kuerzel": "E-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11092,
+      "kuerzel": "M_MatWiss",
+      "bezeichnung": "Materialwissenschaften",
+      "url": "allModules/11092_M_MatWiss.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10004,
+          "kuerzel": "E-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15604,
+      "kuerzel": "M_KatMathe",
+      "bezeichnung": "Mathematik",
+      "url": "allModules/15604_M_KatMathe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 30
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 30
+        }
+      ]
+    },
+    {
+      "id": 17865,
+      "kuerzel": "M_KatMathe2",
+      "bezeichnung": "Mathematik",
+      "url": "allModules/17865_M_KatMathe2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 30
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 30
+        }
+      ]
+    },
+    {
+      "id": 45131,
+      "kuerzel": "M_MathSem1",
+      "bezeichnung": "Mathematisches Seminar 1",
+      "url": "allModules/45131_M_MathSem1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 24089,
+      "kuerzel": "M_MathSem2",
+      "bezeichnung": "Mathematisches Seminar 2",
+      "url": "allModules/24089_M_MathSem2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 20897,
+      "kuerzel": "M_Mtronik1",
+      "bezeichnung": "Mechatronik 1",
+      "url": "allModules/20897_M_Mtronik1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 22090,
+      "kuerzel": "M_MikroelSys2",
+      "bezeichnung": "Mikroelektronik-Systeme 2",
+      "url": "allModules/22090_M_MikroelSys2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 25109,
+      "kuerzel": "M_MobKom1Engl",
+      "bezeichnung": "Mobilkommunikation 1 - Englische Vorlesung",
+      "url": "allModules/25109_M_MobKom1Engl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 27084,
+      "kuerzel": "M_MoKomAP",
+      "bezeichnung": "Mobilkommunikation Architektur und Protokolle",
+      "url": "allModules/27084_M_MoKomAP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11174,
+      "kuerzel": "M_NaT1",
+      "bezeichnung": "Nachrichtentechnik 1",
+      "url": "allModules/11174_M_NaT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 15738,
+      "kuerzel": "M_NaT2",
+      "bezeichnung": "Nachrichtentechnik 2",
+      "url": "allModules/15738_M_NaT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 15605,
+      "kuerzel": "M_KatNatW",
+      "bezeichnung": "Naturwissenschaften",
+      "url": "allModules/15605_M_KatNatW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 14
+        },
+        {
+          "id": 10004,
+          "kuerzel": "E-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 14
+        }
+      ]
+    },
+    {
+      "id": 17150,
+      "kuerzel": "M_KatNatW2",
+      "bezeichnung": "Naturwissenschaften 2",
+      "url": "allModules/17150_M_KatNatW2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10004,
+          "kuerzel": "E-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 20822,
+      "kuerzel": "M_NAP",
+      "bezeichnung": "Naturwissenschaftliches Praktikum",
+      "url": "allModules/20822_M_NAP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10004,
+          "kuerzel": "E-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 41462,
+      "kuerzel": "M_ParProg",
+      "bezeichnung": "Parallele Programmierung",
+      "url": "allModules/41462_M_ParProg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 39045,
+      "kuerzel": "M_PF",
+      "bezeichnung": "Patterns und Frameworks",
+      "url": "allModules/39045_M_PF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 20257,
+      "kuerzel": "M_PersLP",
+      "bezeichnung": "Persönliche Lernplanung",
+      "url": "allModules/20257_M_PersLP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 45143,
+      "kuerzel": "M_Ph1Mech",
+      "bezeichnung": "Physik 1 - Mechanik",
+      "url": "allModules/45143_M_Ph1Mech.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10004,
+          "kuerzel": "E-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 22021,
+      "kuerzel": "M_Ph2HAT",
+      "bezeichnung": "Physik 2 - Hydro-, Aero- und Thermodynamik",
+      "url": "allModules/22021_M_Ph2HAT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10004,
+          "kuerzel": "E-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45153,
+      "kuerzel": "M_Ph3SWO",
+      "bezeichnung": "Physik 3 - Schwingungen und Wellen, Optik",
+      "url": "allModules/45153_M_Ph3SWO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10004,
+          "kuerzel": "E-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 30030,
+      "kuerzel": "M_PhysPE",
+      "bezeichnung": "Physikpraktikum (Elektrotechnik)",
+      "url": "allModules/30030_M_PhysPE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10004,
+          "kuerzel": "E-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 16119,
+      "kuerzel": "M_PraInf1",
+      "bezeichnung": "Praktische Informatik 1",
+      "url": "allModules/16119_M_PraInf1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 16125,
+      "kuerzel": "M_PraInf2",
+      "bezeichnung": "Praktische Informatik 2",
+      "url": "allModules/16125_M_PraInf2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 17277,
+      "kuerzel": "M_ProgGru",
+      "bezeichnung": "Programmieren Grundlage (E und M)",
+      "url": "allModules/17277_M_ProgGru.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28366,
+      "kuerzel": "M_ProgC",
+      "bezeichnung": "Programmieren in C",
+      "url": "allModules/28366_M_ProgC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28375,
+      "kuerzel": "M_ProgCPP",
+      "bezeichnung": "Programmieren in C++",
+      "url": "allModules/28375_M_ProgCPP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28231,
+      "kuerzel": "M_PmQm",
+      "bezeichnung": "Projekt- und Qualitätsmanagement",
+      "url": "allModules/28231_M_PmQm.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28382,
+      "kuerzel": "M_PMSW_Eng",
+      "bezeichnung": "Projektmanagement und Software Engineering",
+      "url": "allModules/28382_M_PMSW_Eng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 11192,
+      "kuerzel": "M_RegT1",
+      "bezeichnung": "Regelungstechnik 1",
+      "url": "allModules/11192_M_RegT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 11194,
+      "kuerzel": "M_RegT2",
+      "bezeichnung": "Regelungstechnik 2",
+      "url": "allModules/11194_M_RegT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 22107,
+      "kuerzel": "M_RegT3",
+      "bezeichnung": "Regelungstechnik 3",
+      "url": "allModules/22107_M_RegT3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 22113,
+      "kuerzel": "M_RegT4",
+      "bezeichnung": "Regelungstechnik 4",
+      "url": "allModules/22113_M_RegT4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 25661,
+      "kuerzel": "M_RKI",
+      "bezeichnung": "Rhetorische Kommunikation für IngenieurInnen",
+      "url": "allModules/25661_M_RKI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10005,
+          "kuerzel": "E-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 31909,
+      "kuerzel": "M_RheKI",
+      "bezeichnung": "Rhetorische Kommunikation für IngenieurInnen",
+      "url": "allModules/31909_M_RheKI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10005,
+          "kuerzel": "E-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 43277,
+      "kuerzel": "M_RheKoI",
+      "bezeichnung": "Rhetorische Kommunikation für IngenieurInnen",
+      "url": "allModules/43277_M_RheKoI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10005,
+          "kuerzel": "E-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 25913,
+      "kuerzel": "M_Sens1",
+      "bezeichnung": "Sensorik 1",
+      "url": "allModules/25913_M_Sens1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 25921,
+      "kuerzel": "M_Sens2",
+      "bezeichnung": "Sensorik 2",
+      "url": "allModules/25921_M_Sens2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11176,
+      "kuerzel": "M_SigSys1",
+      "bezeichnung": "Signale und Systeme 1",
+      "url": "allModules/11176_M_SigSys1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 15753,
+      "kuerzel": "M_SigSys2",
+      "bezeichnung": "Signale und Systeme 2",
+      "url": "allModules/15753_M_SigSys2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65132,
+      "kuerzel": "M_SOAD",
+      "bezeichnung": "Software Architecture and Design",
+      "url": "allModules/65132_M_SOAD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65118,
+      "kuerzel": "M_SW_Eng",
+      "bezeichnung": "Software Engineering Fundamentals",
+      "url": "allModules/65118_M_SW_Eng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 28097,
+      "kuerzel": "M_Span1",
+      "bezeichnung": "Spanisch 1",
+      "url": "allModules/28097_M_Span1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 44428,
+      "kuerzel": "M_Span2",
+      "bezeichnung": "Spanisch 2",
+      "url": "allModules/44428_M_Span2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 25882,
+      "kuerzel": "M_ML",
+      "bezeichnung": "Statistical Machine Learning",
+      "url": "allModules/25882_M_ML.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 24006,
+      "kuerzel": "M_SAE",
+      "bezeichnung": "Studienarbeit Elektrotechnik",
+      "url": "allModules/24006_M_SAE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 17262,
+      "kuerzel": "M_KatTechnikE3",
+      "bezeichnung": "Technik Elektrotechnik",
+      "url": "allModules/17262_M_KatTechnikE3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 146
+        }
+      ]
+    },
+    {
+      "id": 17261,
+      "kuerzel": "M_KatTechnikE2",
+      "bezeichnung": "Technik Elektrotechnik",
+      "url": "allModules/17261_M_KatTechnikE2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 146
+        }
+      ]
+    },
+    {
+      "id": 17263,
+      "kuerzel": "M_KatTechnikE4",
+      "bezeichnung": "Technik Elektrotechnik",
+      "url": "allModules/17263_M_KatTechnikE4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 146
+        }
+      ]
+    },
+    {
+      "id": 17240,
+      "kuerzel": "M_KatTechnikE",
+      "bezeichnung": "Technik Elektrotechnik",
+      "url": "allModules/17240_M_KatTechnikE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 146
+        }
+      ]
+    },
+    {
+      "id": 26302,
+      "kuerzel": "M_PhysTech",
+      "bezeichnung": "Technische Physik",
+      "url": "allModules/26302_M_PhysTech.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10004,
+          "kuerzel": "E-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56946,
+      "kuerzel": "M_UIP",
+      "bezeichnung": "UI Patterns and Frameworks",
+      "url": "allModules/56946_M_UIP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 16925,
+      "kuerzel": "M_UmwRes",
+      "bezeichnung": "Umwelt und Ressourcen",
+      "url": "allModules/16925_M_UmwRes.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 16929,
+      "kuerzel": "M_UT1",
+      "bezeichnung": "Umwelttechnik 1",
+      "url": "allModules/16929_M_UT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 16933,
+      "kuerzel": "M_UT2",
+      "bezeichnung": "Umwelttechnik 2",
+      "url": "allModules/16933_M_UT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10979,
+      "kuerzel": "M_UInt1",
+      "bezeichnung": "User Interfaces 1",
+      "url": "allModules/10979_M_UInt1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 27164,
+      "kuerzel": "M_Vss",
+      "bezeichnung": "Verteilte SW-Systeme",
+      "url": "allModules/27164_M_Vss.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 42760,
+      "kuerzel": "M_VwlTg",
+      "bezeichnung": "Volkswirtschaft und Technikgeschichte",
+      "url": "allModules/42760_M_VwlTg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10006,
+          "kuerzel": "E-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 24489,
+      "kuerzel": "M_WrStat",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung und Statistik",
+      "url": "allModules/24489_M_WrStat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11122,
+      "kuerzel": "M_WS_DST",
+      "bezeichnung": "Wechsel- und Drehstromtechnik",
+      "url": "allModules/11122_M_WS_DST.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 28183,
+      "kuerzel": "M_WsComm1Engl",
+      "bezeichnung": "Wireless Communications 1",
+      "url": "allModules/28183_M_WsComm1Engl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 26022,
+      "kuerzel": "M_WsComm1",
+      "bezeichnung": "Wireless Communications 1",
+      "url": "allModules/26022_M_WsComm1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 26026,
+      "kuerzel": "M_WsComm2",
+      "bezeichnung": "Wireless Communications 2",
+      "url": "allModules/26026_M_WsComm2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28187,
+      "kuerzel": "M_WsComm2Engl",
+      "bezeichnung": "Wireless Communications 2",
+      "url": "allModules/28187_M_WsComm2Engl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 26382,
+      "kuerzel": "M_WI1",
+      "bezeichnung": "Wirtschaftsinformatik 1: IT im Business",
+      "url": "allModules/26382_M_WI1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10006,
+          "kuerzel": "E-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ]
+}

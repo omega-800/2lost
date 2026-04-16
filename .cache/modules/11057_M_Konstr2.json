@@ -1,0 +1,229 @@
+{
+  "id": 11057,
+  "kuerzel": "M_Konstr2",
+  "bezeichnung": "Konstruktion 2",
+  "kreditpunkte": 4,
+  "lernziele": "<p>&#8226; Kenntnis der Berechnungsmodelle zur Gew&#228;hrleistung von Tragsicherheit und Gebrauchstauglichkeit von Bauteilen aus Holz, Stahl und Stahlbeton <br />&#8226; Kompetenz in der Wahl der zutreffenden Berechnungsannahmen und der geeigneten statischen Modelle <br />&#8226; &#220;berblick &#252;ber die einschl&#228;gigen Normen </p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10162,
+      "kuerzel": "HoBau1",
+      "bezeichnung": "Holzbau 1",
+      "lernziele": "<p>&#8226; Kenntnis der Baustoffeigenschaften von Holz. <br />&#8226; F&#228;higkeit zur Bemessung von Bauteilen aus Holz unter Ber&#252;cksichtigung der Tragsicherheit und der Gebrauchstauglichkeit. </p>",
+      "planinhalt": "<p>&#8226; Baustoffe: Vollholz, Brettschichtholz, Holzwerkstoffe <br />&#8226; Grundlagen der Bemessung im Holzbau, Bemessung von geraden Bauteilen aus Vollholz und Brettschichtholz. </p>",
+      "kurselemente": [
+        {
+          "id": 10580,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Holzbau 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Timber Construction 1"
+        }
+      ]
+    },
+    {
+      "id": 10163,
+      "kuerzel": "StBau1",
+      "bezeichnung": "Stahlbau 1",
+      "lernziele": "<p>&#8226; Kenntnis der Baustoffeigenschaften von Stahl <br />&#8226; F&#228;higkeit zur Bemessung von Walzprofilen unter Ber&#252;cksichtigung der Tragsicherheit und der Gebrauchstauglichkeit </p>",
+      "planinhalt": "<p>&#8226; Baustoff Stahl <br />&#8226; Walzerzeugnisse aus Stahl <br />&#8226; Grundlagen der Bemessung im Stahlbau <br />&#8226; Querschnittswiderstand <br />&#8226; Bemessung von Bauteilen aus Walzprofilen </p>",
+      "kurselemente": [
+        {
+          "id": 10582,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 54,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Stahlbau 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Steel Construction 1"
+        }
+      ]
+    },
+    {
+      "id": 10164,
+      "kuerzel": "StBeton2",
+      "bezeichnung": "Stahlbeton 2",
+      "lernziele": "<p>&#8226; F&#228;higkeit zur Bemessung von Stahlbetonbauteilen unter besonderer Ber&#252;cksichtigung statischer, konstruktiver und ausf&#252;hrungstechnischer Aspekte</p>",
+      "planinhalt": "<p>&#8226; Entwurf, statische Berechnung, konstruktive Durchbildung und Gestaltung der Bewehrung von typischen Bauteilen des Massivbaus (Balken und St&#252;tzen) <br />&#8226; Gebrauchstauglichkeit: Berechnungsmodelle, Bemessung und Nachweise zur Begrenzung der Rissbreiten und Durchbiegungen </p>",
+      "kurselemente": [
+        {
+          "id": 10581,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Stahlbeton 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Reinforced Concrete 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10005,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10005_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10011,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10011_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10017,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10017_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10062,
+          "kuerzel": "K_U2B",
+          "bezeichnung": "Übergangsmodule Bauingenieurwesen 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10109,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10109_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1030,
+      "name": "Kenel",
+      "vorname": "Albin"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 10943,
+      "kuerzel": "M_Baustat2",
+      "bezeichnung": "Baustatik 2",
+      "url": "allModules/10943_M_Baustat2.json"
+    },
+    {
+      "id": 11056,
+      "kuerzel": "M_Konstr1",
+      "bezeichnung": "Konstruktion 1",
+      "url": "allModules/11056_M_Konstr1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11057,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Konstruktion 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Structural Engineering 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2010,
+    "endSemester": "HS"
+  }
+}

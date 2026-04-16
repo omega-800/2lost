@@ -1,0 +1,116 @@
+{
+  "id": 12334,
+  "kuerzel": "U_SA2_M",
+  "bezeichnung": "Studienarbeit Maschinentechnik 2 - Übergangsmodul",
+  "kreditpunkte": 8,
+  "lernziele": "<p>Lernziel: Effizientes Bearbeiten und Pr&#228;sentieren einer Problemstellung aus dem vom Studierenden gew&#228;hlten Schwerpunktbereich. </p>\n<p>Vermittelte Kenntnisse: Analyse und Bearbeitungsplanung der gestellten Aufgabe; Beschaffung der n&#246;tigen Zusatzinformationen; Vorgehen beim Umsetzen<br />der in den Ausbildungsmodulen erworbenen Kenntnisse in praktische Resultate und der Resultate in eine adressatengerechte Pr&#228;sentation.</p>",
+  "vorausgKenntnisse": "<p>bestandene Module bis und mit 5. Semester gem&#228;ss Musterstudienplan</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 12259,
+      "kuerzel": "uSA2_M",
+      "bezeichnung": "Studienarbeit Maschinentechnik 2 - Übergang",
+      "planinhalt": "<p>Entsprechend der konkreten Aufgabenstellung</p>",
+      "kurselemente": [
+        {
+          "id": 12297,
+          "art": "Studienarbeit",
+          "anzLektionen": 8,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Studienarbeit Maschinentechnik 2 - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Project Mechanical Engineering 2 - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 8
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1261,
+      "name": "Gysin",
+      "vorname": "Hanspeter"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Studienarbeit Maschinentechnik 2 - Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Project Mechanical Engineering 2 - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2009,
+    "endSemester": "HS"
+  }
+}

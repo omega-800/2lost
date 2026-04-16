@@ -1,0 +1,139 @@
+{
+  "id": 57163,
+  "kuerzel": "M_REAL5",
+  "bezeichnung": "Management 5",
+  "kreditpunkte": 3,
+  "lernziele": "<ul>\n<li>Managementwissen und Unternehmertum&nbsp;</li>\n<li>Kommunikationsf&auml;higkeit, Pr&auml;sentationstechnik, Dokumentationstechnik, Englisch</li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 57166,
+      "kuerzel": "REAL5_PM",
+      "bezeichnung": "Projektmanagement & Unternehmertum 5",
+      "kreditpunkte": 0,
+      "lernziele": "<p><span class=\"NormalTextRun SCXW167605205 BCX8\">Die Studierenden k&ouml;nnen ausgew&auml;hlte Managementkonzepte und -methoden </span><span class=\"NormalTextRun SCXW167605205 BCX8\">verstehen.</span></p>",
+      "planinhalt": "<p><span class=\"TextRun Highlight SCXW169349032 BCX8\" lang=\"DE-CH\" xml:lang=\"DE-CH\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW169349032 BCX8\">Die Studierenden erlernen ausgew&auml;hlte Konzepte und Methoden des Managements.</span></span><span class=\"EOP SCXW169349032 BCX8\" data-ccp-props=\"{}\">&nbsp;</span></p>",
+      "empfLehrmittel": "<p>Klassenunterricht mit Lehrvortrag, &Uuml;bungen, Selbststudium, Gruppenarbeiten, etc. &nbsp;</p>",
+      "bemerkungKurs": "",
+      "leistungsnachweis": "<p>Projektarbeit</p>",
+      "kurselemente": [
+        {
+          "id": 57167,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2201227,
+          "name": "Alberding",
+          "vorname": "Matthäus"
+        }
+      ]
+    },
+    {
+      "id": 57168,
+      "kuerzel": "REAL5_K",
+      "bezeichnung": "Kommunikation 5",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>\n<p>k&ouml;nnen Berichte in gesch&auml;ftlichem Kontext verfassen.</p>\n</li>\n<li>\n<p>k&ouml;nnen wissenschaftliche Arbeiten verfassen.</p>\n</li>\n<li>\n<p>k&ouml;nnen wissenschaftlich recherchieren.</p>\n</li>\n</ul>",
+      "planinhalt": "<p>Die Studierenden erlernen und &uuml;ben Recherche und schriftliche Kommunikation im gesch&auml;ftlichen und wissenschaftlichen Kontext.</p>",
+      "empfLehrmittel": "<p>Klassenunterricht mit Lehrvortrag, &Uuml;bungen, Selbststudium, Gruppenarbeiten, etc.&nbsp;&nbsp;</p>",
+      "bemerkungKurs": "",
+      "leistungsnachweis": "<p>Projektarbeit</p>",
+      "kurselemente": [
+        {
+          "id": 57169,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2201227,
+          "name": "Alberding",
+          "vorname": "Matthäus"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10284,
+      "bezeichnung": "Mechatronik BB",
+      "kuerzel": "MT_BB",
+      "url": "allStudies/10284_MT_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10285,
+      "bezeichnung": "Mechatronik VZ",
+      "kuerzel": "MT_VZ",
+      "url": "allStudies/10285_MT_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2201227,
+      "name": "Alberding",
+      "vorname": "Matthäus"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 11,
+      "kuerzel": "LSG",
+      "bezeichnung": "Lerchenfeld St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Management 1"
+    }
+  ],
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2026,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  }
+}

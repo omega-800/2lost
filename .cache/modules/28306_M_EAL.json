@@ -1,0 +1,192 @@
+{
+  "id": 28306,
+  "kuerzel": "M_EAL",
+  "bezeichnung": "Elektrische Antriebstechnik und Leistungselektronik",
+  "kreditpunkte": 4,
+  "lernziele": "<p>siehe Kursbeschreibung</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 28307,
+      "kuerzel": "ErzUm",
+      "bezeichnung": "Erzeugung, Übertragung und Umwandlung elektrischer Energie",
+      "lernziele": "<ul><li>Verstehen des Aufbaus und der Funktionsweise elektrischer Antriebe</li><li>Kennen der Einsatzbereiche</li><li>F&auml;higkeit zur Auswahl elektrischer Antriebe</li><li>Verstehen der Hauptschaltungen der Leistungselektronik und deren Anwendung</li></ul>",
+      "planinhalt": "<ul><li>Mathematische Modellierung elektrischer Antriebssysteme</li><li>Zuordnung zwischen Elektromotor und Last (Arbeitsmaschine)</li><li>Dimensionierung und Projektierung elektrischer Antriebe</li><li>Leistungselektronikschaltungen f&uuml;r die elektrische Antriebstechnik<ul><li>Gleich- und Wechselrichter</li><li>Gleich- und Wechselstromsteller</li><li>Frequenzumrichter</li></ul></li><li>Simulationsbasierte Analyse der Leistungselektronikschaltungen</li></ul>",
+      "kurselemente": [
+        {
+          "id": 28308,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        },
+        {
+          "id": 28309,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 108,
+          "harteGrenze": true
+        },
+        {
+          "id": 28310,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrische Antriebstechnik und Leistungselektronik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electric Drives and Power Electronics"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10104,
+          "kuerzel": "EEU-vet",
+          "bezeichnung": "Vertiefungsmodule Energietechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10104,
+          "kuerzel": "EEU-vet",
+          "bezeichnung": "Vertiefungsmodule Energietechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10219,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10219_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10104,
+          "kuerzel": "EEU-vet",
+          "bezeichnung": "Vertiefungsmodule Energietechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 540047,
+      "name": "Smajic",
+      "vorname": "Jasmin"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 26058,
+      "kuerzel": "M_Ph4EU",
+      "bezeichnung": "Physik 4 (EEU)",
+      "url": "allModules/26058_M_Ph4EU.json"
+    },
+    {
+      "id": 28335,
+      "kuerzel": "M_ETEU",
+      "bezeichnung": "Elektrotechnik (EEU)",
+      "url": "allModules/28335_M_ETEU.json"
+    },
+    {
+      "id": 31548,
+      "kuerzel": "M_EET",
+      "bezeichnung": "Elektrische Energietechnik",
+      "url": "allModules/31548_M_EET.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 28306,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Teilnahme und erfolgreiche Bearbeitung von 6 von 7 Praktikumsversuchen (Testat)</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Elektrische Antriebstechnik und Leistungselektronik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electric Drives and Power Electronics"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2017,
+    "beginSemester": "FS",
+    "endJahr": 2023,
+    "endSemester": "FS"
+  }
+}

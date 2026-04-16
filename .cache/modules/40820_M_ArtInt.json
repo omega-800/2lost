@@ -1,0 +1,266 @@
+{
+  "id": 40820,
+  "kuerzel": "M_ArtInt",
+  "bezeichnung": "Artificial Intelligence",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Artificial Intelligence (AI) will have a fundamental impact on every area of work and life in the near future. To be in a position to help shape this future, OST students should understand the basic ideas of AI, regardless of their chosen fields of study.</p>\n<p>The guiding idea of this module is to make the fundamentals of AI understandable to students who have not had higher mathematics, nor can they program. In other words, this module is not for mathematicians and/or programmers, but for the great rest of the world. This module enables students to understand and apply modern AI methods, but not to develop them.</p>\n<p>AI provides generic tools for automatically solving problems based on collected data. These tools can be successfully applied to challenges in almost all areas of life, as demonstrated for example by the interdisciplinary AI projects at OST.</p>",
+  "vorausgKenntnisse": "<p>Professional baccalaureate knowledge of English (the module will be taught in English) and mathematics (we will draw points in graphs), as well as basic Excel knowledge (own laptop is required)</p>",
+  "semesterBewertung": "bestanden / nicht bestanden",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 40821,
+      "kuerzel": "ArtInt",
+      "bezeichnung": "Artificial Intelligence (AI)",
+      "lernziele": "<p><strong>Subject competencies</strong></p>\n<p>Students can</p>\n<ul>\n<li>explain why AI is important</li>\n<li>explain what an AI algorithm is</li>\n<li>distinguish between Supervised and Unsupervised Learning</li>\n<li>distinguish between Regression and Classification</li>\n<li>evaluate the performance of an AI algorithm</li>\n<li>explain probabilities intuitively</li>\n<li>explain the concept of Data Preparation</li>\n<li>identify AI applications from your own field</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Methodological competencies</strong></p>\n<p>Students can</p>\n<ul>\n<li>explain k-Means Clustering</li>\n<li>explain Principal Component Analysis</li>\n<li>explain Association Rules</li>\n<li>explain Linear Regression</li>\n<li>explain k-Nearest Neigbors Classification</li>\n<li>explain Support Vector Machines Classification</li>\n<li>explain Decision Trees &amp; Random Forests</li>\n<li>explain Neural Networks</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Self-competencies</strong></p>\n<p>Students can</p>\n<ul>\n<li>independently solve the tasks provided using paper and pencil</li>\n<li>reflect on how AI will change their field in the coming years</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Social competencies</strong></p>\n<p>Students can</p>\n<ul>\n<li>in a group, present their solutions and reflect on the different approaches and find the best solution together</li>\n<li>reflect on AI issues and develop their own perspective. Then present and argue for this perspective in a group discussion</li>\n</ul>",
+      "planinhalt": "<p><strong>Introduction</strong></p>\n<ul>\n<li>What is AI &amp; why is AI important?</li>\n<li>Regression vs. Classification &amp; Supervised vs. Unsupervised</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Develop intuition</strong></p>\n<ul>\n<li>Probability is fundamental</li>\n<li>Develop intuition with tables</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Unsupervised Learning</strong></p>\n<ul>\n<li>Clustering</li>\n<li>Principal Component Analysis</li>\n<li>Association Rules</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Supervised Learning</strong></p>\n<ul>\n<li>Linear Regression</li>\n<li>k-Nearest Neigbors Classification</li>\n<li>Support Vector Machines</li>\n<li>Decision Trees &amp; Random Forests</li>\n<li>Neural Networks</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Conclusion</strong></p>\n<ul>\n<li>How do you evaluate an AI algorithm?</li>\n<li>What are AI applications in the respective fields?</li>\n</ul>",
+      "bibliographie": "<p>\"Numsense! Data Science for the Layman (No Math Added)\", by Annalyn Ng and Kenneth Soo</p>\n<p>\"Data Science &ndash; was ist das eigentlich?!\", aus dem Englischen &uuml;bersetzt von Matthias Delbr&uuml;ck.</p>\n<p>OST VPN: https://link.springer.com/content/pdf/10.1007%2F978-3-662-56776-0.pdf</p>",
+      "kurselemente": [
+        {
+          "id": 40822,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 40823,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Artificial Intelligence (AI)"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Artificial Intelligence (AI)"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10197,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10197_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10234,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10234_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10034,
+          "kuerzel": "B-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10261,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10261_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10173,
+          "kuerzel": "B_KGM",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10112,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10112_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10152,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10152_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10201,
+      "bezeichnung": "Stadt-, Verkehrs- und Raumplanung",
+      "kuerzel": "SVR",
+      "url": "allStudies/10201_SVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10264,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10264_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10199,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10199_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10268,
+      "bezeichnung": "Stadt-, Verkehrs- und Raumplanung",
+      "kuerzel": "SVR",
+      "url": "allStudies/10268_SVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10142,
+      "bezeichnung": "Stadt-, Verkehrs- und Raumplanung ",
+      "kuerzel": "SVR",
+      "url": "allStudies/10142_SVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10243,
+      "bezeichnung": "Digitalisierung",
+      "kuerzel": "M-I-Dig",
+      "url": "allStudies/10243_M-I-Dig.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5018076,
+      "name": "Barnes-Schuster",
+      "vorname": "Dawn"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Artificial Intelligence"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Artificial Intelligence"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 3,
+    "beginJahr": 2023,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  }
+}

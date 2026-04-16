@@ -1,0 +1,192 @@
+{
+  "id": 45654,
+  "kuerzel": "M_CADEU",
+  "bezeichnung": "CAD (EEU)",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Studierende bef&auml;higen das CAD als Werkzeug zu nutzen um ihre Ideen in eine Konstruktion zu bringen.<br>Die Grundlagen im CAD soweit beherrschen, dass Einzelteile, Baugruppen und Zeichnungsableitungen erstellt werden k&ouml;nnen.</p>",
+  "vorausgKenntnisse": "keine\n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 45655,
+      "kuerzel": "CADEU",
+      "bezeichnung": "CAD (EEU)",
+      "lernziele": "<p><strong>Sachkompetenz</strong></p>\n<p>Die Studierenden k&ouml;nnen:</p>\n<ul>\n<li>Fertigungsteile (Drehteile, Fr&auml;steile, Blechteile) im CAD modellieren</li>\n<li>Skizzen effizient und der Bauteilgeometrie entsprechend sinnvoll aufbauen</li>\n<li>Geometrie im Austauschformat STEP im CAD bearbeiten</li>\n<li>Baugruppen mit bestehenden Teilen und Normteilen aufbauen</li>\n<li>Zeichnungsableitungen von Einzelteilen und Baugruppen erstellen</li>\n<li>Explosionsdarstellungen und St&uuml;cklisten von Baugruppen erstellen</li>\n<li>Eine offen formulierte Konstruktionsarbeit anforderungsgerecht l&ouml;sen</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Selbstkompetenz</strong></p>\n<p>Die Studierenden k&ouml;nnen:<strong><br></strong></p>\n<ul>\n<li>den Konstruktionsaufwand f&uuml;r virtuelle Modelle absch&auml;tzen</li>\n<li>fachgerechte Spezifikationen f&uuml;r die Herstellung von Einzelteilen definieren</li>\n<li>virtuelle Modelle als Grundlage f&uuml;r den weiteren Entwicklungsprozess (z.B. FEM Berechnungen oder Produktvisualisirungen) erarbeiten</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Sozialkompetenz</strong></p>\n<p>Die Studierenden k&ouml;nnen:</p>\n<ul>\n<li>eine Modellierungsarbeit im Peer Review &uuml;berpr&uuml;fuen und beurteilen&nbsp;</li>\n</ul>\n<p>&nbsp;</p>",
+      "planinhalt": "<p><strong>Methodik:</strong> Feature-Based Modeling, Top-Down, Bottom-UP, Master-Model Ansatz</p>\n<p><br><strong>Modelling:</strong> Relations in Skizzen, Boolsche Operationen, Bohrungen, Direct Modeling, Muster</p>\n<p><br><strong>Baugruppen:</strong> Assembly Constraints, Normeile, Load Options, Explosionsdarstellungen, St&uuml;cklisten</p>\n<p><br><strong>Zeichnungsableitung:</strong> Setzen von Vermassung, Tolerierung, Form- und Lagetoleranzen. Bauteilschnitte, Ausbr&uuml;che, Detailansichten</p>",
+      "kurselemente": [
+        {
+          "id": 45656,
+          "art": "Uebung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "CAD (EEU)"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "CAD (EEU)"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10219,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10219_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10259,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10259_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 524611,
+      "name": "Eichenberger",
+      "vorname": "Peter"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 65143,
+      "kuerzel": "M_Tech-Z",
+      "bezeichnung": "Technisches Zeichnen",
+      "url": "allModules/65143_M_Tech-Z.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 45654,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>&nbsp;L&ouml;sen von 75 % der &Uuml;bungsaufgaben</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "CAD (EEU)"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "CAD (EEU)"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2024,
+    "beginSemester": "HS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 19772,
+    "kuerzel": "M_CADEU",
+    "bezeichnung": "CAD (EEU)",
+    "url": "allModules/19772_M_CADEU.json"
+  }
+}

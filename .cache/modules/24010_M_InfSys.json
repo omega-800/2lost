@@ -1,0 +1,220 @@
+{
+  "id": 24010,
+  "kuerzel": "M_InfSys",
+  "bezeichnung": "Informationssysteme",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Ausgew&auml;hlte Themen von Informationssystem- und Datenbanksystem-Anwendungen kennen und die entsprechenden Werkzeuge anwenden k&ouml;nnen. </li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 24011,
+      "kuerzel": "InfSys",
+      "bezeichnung": "Informationssysteme",
+      "lernziele": "<ul>\n    <li>Sie kennen Geodatentypen und die Anwendungen und Prinzipien von Geoinformationssystemen </li>\n    <li>Sie kennen die Anwendungen und Strukturen von Online Analytical Processing (OLAP) Systemen. Sie k&ouml;nnen die einschl&auml;gigen Patterns f&uuml;r den Entwurf von Data Warehouse (DW) Datenbanken anwenden. Sie k&ouml;nnen die SQL-Funktionen f&uuml;r die Abfragen von DW-Datenbanken erstellen. </li>\n    <li>Sie kennen den Data-Mining (DM) Prozess und verschiedene DM-Anwendungen. Sie kennen die Eigenschaften der wichtigsten Algorithmen f&uuml;r die Klassifikation, die Segmentierung und f&uuml;r die Warenkorbanalyse und k&ouml;nnen diese an einfacheren Szenarien anwenden </li>\n    <li>Sie kennen die Grundlagen von Information Retrieval und kennen die wichtigsten Prinzipien, Methoden und Technologien der Volltextsuche. </li>\n    <li>Sie k&ouml;nnen die Master Data Management und Information Integration Patterns erkl&auml;ren, miteinander vergleichen und zur L&ouml;sung von Entwurfsproblemen beim Bau von Informationssystemen anwenden. </li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Geodatenbank- und Geoinformationssysteme </li>\n    <li>Data Warehouses und Online Analytical Processing </li>\n    <li>Data Mining / Data Analysis </li>\n    <li>Volltextsuche (Information Retrieval) </li>\n    <li>Stammdatenverwaltung (Master Data Management) </li>\n    <li>Infomation Integration Patterns: Data Consolidation, Data Virtualization, Messaging, Extract-Transform-Load<br /></li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 24012,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 24013,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 126,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Informationssysteme"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Informationsystems"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10233,
+      "bezeichnung": "Data Science",
+      "kuerzel": "DaEnMaIn",
+      "url": "allStudies/10233_DaEnMaIn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10127,
+      "bezeichnung": "Generalist",
+      "kuerzel": "GEN",
+      "url": "allStudies/10127_GEN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10106,
+      "bezeichnung": "Application Design - Cloud Solutions",
+      "kuerzel": "ADCS",
+      "url": "allStudies/10106_ADCS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 353,
+      "name": "Keller",
+      "vorname": "Stefan F."
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 20813,
+      "kuerzel": "M_Dbs1",
+      "bezeichnung": "Datenbanksysteme 1",
+      "url": "allModules/20813_M_Dbs1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 24010,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Informationssysteme"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Informationsystems"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2014,
+    "beginSemester": "FS",
+    "endJahr": 2018,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 22049,
+    "kuerzel": "M_InfSys",
+    "bezeichnung": "Informationssysteme",
+    "url": "allModules/22049_M_InfSys.json"
+  },
+  "nachfolger": {
+    "id": 24010,
+    "kuerzel": "M_InfSys",
+    "bezeichnung": "Informationssysteme",
+    "url": "allModules/24010_M_InfSys.json"
+  }
+}

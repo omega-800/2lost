@@ -1,0 +1,196 @@
+{
+  "id": 11151,
+  "kuerzel": "M_AutoT3",
+  "bezeichnung": "Automatisierungstechnik 3",
+  "kreditpunkte": 4,
+  "lernziele": "<ul><li>Grundlegendes Verst&auml;ndnis der&nbsp;elektromechanischen Energiewandlung</li><li>Kenntnisse &uuml;ber Aufbau und Funktion der wichtigsten elektrischen Maschinen</li><li>Kenntnis der praktischen Messtechnik.</li></ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10307,
+      "kuerzel": "RegT2M",
+      "bezeichnung": "Regelungstechnik 2 (M)",
+      "lernziele": "<ul> <li>Beherrschen der Beschreibungsm&#246;glichkeiten f&#252;r dynamische und r&#252;ckgekoppelte Systeme</li><li>Kenntnis der Beschreibungsm&#246;glichkeiten dynamischer Systeme im Bildbereich</li><li>Auslegung von Regelkreisen im Frequenzbereich</li></ul>",
+      "planinhalt": "<ul>\n<li>Uebertragungsfunktionen, Laplacetransformation</li><li>Mehrschleifige Regelkreise</li><li>Verfahren f&#252;r den Reglerentwurf</li><li>Analyse praktischer Regelstrecken</li><li>Simulation</li></ul>",
+      "kurselemente": [
+        {
+          "id": 10864,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 10764,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Regelungstechnik 2 (M)"
+        }
+      ]
+    },
+    {
+      "id": 10365,
+      "kuerzel": "ElektrT2",
+      "bezeichnung": "Elektrotechnik 2",
+      "planinhalt": "<p><strong>Elektrische Maschinen <br /></strong>1. Die elektrodynamischen Grundgesetze <br />2. Allgemeine Kennzeichen und Mermale elektrischer Maschinen <br />3. Gleichstrommaschinen:&nbsp;&nbsp; Aufbau und Wirkungsweise,&nbsp;Grundgleichungen,&nbsp;Betriebsverhalten,&nbsp;Klemmenbezeichnungen&nbsp;und Schaltungsvarianten&nbsp; <br />4. Synchronmaschinen: Bauarten, Funktion,&nbsp;Betriebseigenschaften - und gr&ouml;ssen,&nbsp;Sonderbauformen <br />5. Drehstrom-Asynchronmaschinen: Bauarten,&nbsp;Schaltungen,&nbsp;Wirkungsweise,&nbsp;Betriebseigenschaften, Kreisdiagramm <br />6. Transversalflussmaschinen: Aufbau und Wirkungsweise,&nbsp;Betriebseigenschaften Plan und Inhalt <br />7. Steuerung und Regelung elektrischer&nbsp;Maschinen.</p>",
+      "kurselemente": [
+        {
+          "id": 11263,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 12442,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrotechnik 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 136,
+      "name": "Domeisen",
+      "vorname": "Heinz"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11034,
+      "kuerzel": "M_An1BM",
+      "bezeichnung": "Analysis 1 für Bauingenieurwesen und Maschinentechnik",
+      "url": "allModules/11034_M_An1BM.json"
+    },
+    {
+      "id": 11037,
+      "kuerzel": "M_Math2M",
+      "bezeichnung": "Mathematik für Maschinentechnik 2",
+      "url": "allModules/11037_M_Math2M.json"
+    },
+    {
+      "id": 11114,
+      "kuerzel": "M_ElektrGL",
+      "bezeichnung": "Elektrotechnik: Grundlagen",
+      "url": "allModules/11114_M_ElektrGL.json"
+    },
+    {
+      "id": 11155,
+      "kuerzel": "M_AutoT2",
+      "bezeichnung": "Automatisierungstechnik 2",
+      "url": "allModules/11155_M_AutoT2.json"
+    },
+    {
+      "id": 15371,
+      "kuerzel": "M_Math3M",
+      "bezeichnung": "Mathematik für Maschinentechnik 3",
+      "url": "allModules/15371_M_Math3M.json"
+    },
+    {
+      "id": 15480,
+      "kuerzel": "M_Math4M",
+      "bezeichnung": "Mathematik für Maschinentechnik 4",
+      "url": "allModules/15480_M_Math4M.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11151,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Kurs Elektrotechnik 2: Abgabe von 2 Laborberichten mit Bewertung &gt;= 4.0<br />Kurs Regelungstechnik 2 (M): Abgabe von 2 Laborberichten mit Bewertung &gt;= 4.0</p>\r\n<p>&nbsp;</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Automatisierungstechnik 3"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

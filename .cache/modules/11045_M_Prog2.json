@@ -1,0 +1,169 @@
+{
+  "id": 11045,
+  "kuerzel": "M_Prog2",
+  "bezeichnung": "Programmieren 2: Programmierkonzepte",
+  "kreditpunkte": 8,
+  "lernziele": "<ol> <li>Sie kennen grundlegende Algorithmen und Datenstrukturen und k&#246;nnen diese in praktischen Beispielen einsetzen.</li><li>Sie k&#246;nnen eigene Abstrakte Datentypen definieren und mithilfe eigener Datenstrukturen implementieren</li><li>Sie kennen Bewertungskriterien f&#252;r Algorithmen und k&#246;nnen Algorithmen bewerten.</li></ol>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10199,
+      "kuerzel": "Prog2",
+      "bezeichnung": "Programmieren 2",
+      "planinhalt": "<ol>\n<li>Entwurf und Analyse von Algorithmen <br />- Begriff&nbsp;des Algorithmus, regul&#228;re Ausdr&#252;cke</li><li>&nbsp;XML <br />Grundlagen (Konzept [wohlgeformt, validiert], DTD, Path, Schema)</li><li>Rekursion&nbsp;</li><li>Beispiele von Algorithmen: Suchen, Sortieren, Quicksort&nbsp;</li><li>Komplexit&#228;t und asymptotisches Verhalten von Algorithmen (Time, Space) : Bewertung von Algorithmen&nbsp;</li><li>Divide-and-conquer, Backtracking, Greedy-Algorithmen&nbsp;</li><li>Dynamische Programmierung </li></ol>\n<p>Datenstrukturen&nbsp;</p>\n<ol>\n<li>Grundlagen: ADT, Stack, Queue, Verkettete Liste, Iterator&nbsp;</li><li>B&#228;ume: Traversierung, Suchb&#228;ume, Sortieren mit B&#228;ume (HeapSort)&nbsp;</li><li>Hashverfahren&nbsp;</li><li>Graphen: Grundbegriffe (gerichtete Graphen, gewichtete Graphen, etc.), Breiten- und Tiefen-Durchlauf, k&#252;rzester Weg in Graphen </li></ol>\n<p>Design Patterns&nbsp;</p>\n<ol>\n<li>Konzept und Eigenschaften von Entwurfmuster&nbsp;</li><li>Auswahl von wichtigen Design Pattern wie: Strategie, Adapter, Decorator, Singelton, Composite, Observer </li></ol>",
+      "kurselemente": [
+        {
+          "id": 10627,
+          "art": "Vorlesung",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 10628,
+          "art": "Uebung",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Programmieren 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Programming 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 860,
+      "name": "Joller",
+      "vorname": "Josef M."
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 15687,
+      "kuerzel": "M_Prog1",
+      "bezeichnung": "Programmieren 1: Programmieren mit Java",
+      "url": "allModules/15687_M_Prog1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11045,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Programmieren 2: Programmierkonzepte"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Programming 2: Programming Concepts"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2012,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 11045,
+    "kuerzel": "M_Prog2",
+    "bezeichnung": "Programmieren 2: Programmierkonzepte",
+    "url": "allModules/11045_M_Prog2.json"
+  }
+}

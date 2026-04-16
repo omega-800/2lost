@@ -1,0 +1,221 @@
+{
+  "id": 50961,
+  "kuerzel": "M_VP_18804",
+  "bezeichnung": "Simulation einer elektromechanischen Bremse b",
+  "kreditpunkte": 15,
+  "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen ein statisches und transientes Simulationsmodell f&uuml;r das thermische Verhalten einer elektromechanischen Bremse aufbauen.</li><li>k&ouml;nnen aus den Ergebnissen einer Mehrk&ouml;rper- und thermischen Simulation Verbesserungen f&uuml;r die elektromechanische Bremse ableiten.</li><li>besitzen grundlegende Kenntnisse in der Projektf&uuml;hrung.</li><li>k&ouml;nnen die Bewegungsgleichungen eines Mehrk&ouml;rpersystems aufstellen und diese numerisch l&ouml;sen.</li></ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 50962,
+      "kuerzel": "VP_1880401",
+      "bezeichnung": "Simulation einer elektromechanischen Bremse",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen ein statisches und transientes Simulationsmodell f&uuml;r das thermische Verhalten einer elektromechanischen Bremse aufbauen.</li><li>k&ouml;nnen aus den Ergebnissen einer Mehrk&ouml;rper- und thermischen Simulation Verbesserungen f&uuml;r die elektromechanische Bremse ableiten.</li><li>besitzen grundlegende Kenntnisse in der Projektf&uuml;hrung.</li></ul>",
+      "planinhalt": "<ul><li>Simulation von Mehrk&ouml;rpersystemen</li><li>Simulation des instation&auml;ren thermischen Verhaltens</li><li>Simulation der K&uuml;hlung (z.B. &uuml;ber Str&ouml;mungssimulation)</li><li>Projektmanagement</li></ul>",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird anhand eines Berichtes, einer Pr&auml;sentation und einer m&uuml;ndlicher Pr&uuml;fung nach Projektabschluss bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 50963,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001060,
+          "name": "Althaus",
+          "vorname": "Josef"
+        }
+      ]
+    },
+    {
+      "id": 50964,
+      "kuerzel": "VP_1880402",
+      "bezeichnung": "Mehrkörpersimulation",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen ein Mehrk&ouml;rpersystem &uuml;ber Differentialgleichungen beschreiben, diese l&ouml;sen und die Ergebnisse interpretieren.</li></ul>",
+      "planinhalt": "<ul><li>Impuls- und Drallsatz</li><li>Kraftgesetze und Bindungen</li><li>Numerische L&ouml;sung nichtlinearer Differentialgleichungen</li></ul>",
+      "bibliographie": "<p>Mayr: Technische Mechanik<br />W&ouml;rnle: Mehrk&ouml;rpersysteme<br />Althaus: Vorlesungsskript &laquo;Starre Mehrk&ouml;rpersysteme&raquo;</p>",
+      "empfLehrmittel": "<p>Puzzle Methode</p>",
+      "leistungsnachweis": "<p>Dieser Kurs wird mittels Bericht, Fachvortrag und m&uuml;ndlicher Pr&uuml;fung bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 50965,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001060,
+          "name": "Althaus",
+          "vorname": "Josef"
+        }
+      ]
+    },
+    {
+      "id": 50966,
+      "kuerzel": "VP_1470601-2",
+      "bezeichnung": "Optimierung eines mechatronischen Systems",
+      "kreditpunkte": 3,
+      "lernziele": "siehe VP_1470601-1",
+      "planinhalt": "siehe VP_1470601-1",
+      "bibliographie": "siehe VP_1470601-1",
+      "empfLehrmittel": "siehe VP_1470601-1",
+      "leistungsnachweis": "siehe VP_1470601-1",
+      "kurselemente": [
+        {
+          "id": 50967,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001060,
+          "name": "Althaus",
+          "vorname": "Josef"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2001060,
+      "name": "Althaus",
+      "vorname": "Josef"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Simulation of an Electromechanical Brake b"
+    }
+  ]
+}

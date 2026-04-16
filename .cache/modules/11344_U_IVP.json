@@ -1,0 +1,120 @@
+{
+  "id": 11344,
+  "kuerzel": "U_IVP",
+  "bezeichnung": "Individuelles Vertiefungsprojekt - Übergangsmodul",
+  "kreditpunkte": 8,
+  "lernziele": "<p>Selbst&#228;ndige Durchf&#252;hrung einer sachlich und methodisch komplexen Aufgabenstellung aus dem <br />weiten Feld der Landschaftsarchitektur.<br /></p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 11230,
+      "kuerzel": "uIVP",
+      "bezeichnung": "Individuelles Vertiefungsprojekt - Übergang",
+      "planinhalt": "<p>4-w&#246;chige Projektarbeit. In der Regel Einzelarbeit . Interdisziplin&#228;res Arbeiten mit der Abteilung Raumplanung ist m&#246;glich.<br /></p>",
+      "kurselemente": [
+        {
+          "id": 11326,
+          "art": "Projekt",
+          "anzLektionen": 8,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Individuelles Vertiefungsprojekt - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Individual Specialist Project - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10008,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10008_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10014,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10014_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10065,
+          "kuerzel": "K_U2L",
+          "bezeichnung": "Übergangsmodule Landschaftsarchitektur 2 (Jahrgang 2001)",
+          "kreditpunkte": 8
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1091,
+      "name": "Mönnecke",
+      "vorname": "Margit"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11344,
+      "art": "Note von 1 - 6",
+      "pruefungMue": true,
+      "dauerPrfMue": 20,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Individuelles Vertiefungsprojekt - Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Individual Specialist Project - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2008,
+    "endSemester": "HS"
+  }
+}

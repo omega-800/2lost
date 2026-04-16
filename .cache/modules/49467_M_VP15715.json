@@ -1,0 +1,221 @@
+{
+  "id": 49467,
+  "kuerzel": "M_VP15715",
+  "bezeichnung": "User Interface Engineering für Internet of Things",
+  "kreditpunkte": 15,
+  "lernziele": "<p>Fachkompetenz:</p>\n<ul>\n    <li>F&auml;higkeit graphische Benutzeroberfl&auml;chen f&uuml;r skalierbare Web Applikationen zu entwickeln</li>\n</ul>\n<p>Sozialkompetenz</p>\n<ul>\n    <li>Kommunikations- und Kooperationsf&auml;higkeit</li>\n</ul>\n<p>Selbstkompetenz</p>\n<ul>\n    <li>Selbst&auml;ndiges Arbeit, Verantwortung &uuml;bernehmen</li>\n</ul>",
+  "vorausgKenntnisse": "Bachelor of Science in Systemtechnik",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 49468,
+      "kuerzel": "VP_1571501",
+      "bezeichnung": "Graphische Benutzeroberflächen für Internet of Things Anwendungen in der Cloud",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>verstehen die Grundlangen des Internets der Dinge (engl. Internet of Things, IoT ).</li>\n    <li>verstehen die Grundlagen des Cloud Computings.</li>\n    <li>sind in der Lage, skalierbare Web Applikationen mit graphischen Benutzeroberfl&auml;chen f&uuml;r die Google Cloud zu entwickeln.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Plattform as a Service</li>\n    <li>Actuators and Sensors</li>\n    <li>Web Interaction patterns</li>\n    <li>Non-SQL databases</li>\n    <li>Google App Engine, Google Data Store</li>\n    <li>Single Page Applications</li>\n</ul>",
+      "bibliographie": "<ul>\n    <li>Dan Sanderson: Programming Google App Engine, Build &amp; run Scalable Web Apps on Google&rsquo;s Infrastructure, ISBN 978-1-449-39826-2</li>\n    <li>Cuno Pfister: Getting Started with the Internet of Things, ISBN 978-1-449-39357-1</li>\n    <li>Manfred Steyer, Vildan Softic: AngularJS, modern Webanwendungen und Single Page Applications mit Javascript, ISBN 978-3-9551-950-3<br /></li>\n</ul>",
+      "empfLehrmittel": "Projektarbeit, Literaturstudium, Selbststudium",
+      "bemerkungKurs": "Teile der Literatur k&ouml;nnen in Englisch sein",
+      "leistungsnachweis": "Das zu bearbeitende Projekt wird mittels Bericht und Pr&auml;sentation bewertet.",
+      "kurselemente": [
+        {
+          "id": 49469,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002823,
+          "name": "Pawlitzek",
+          "vorname": "René"
+        }
+      ]
+    },
+    {
+      "id": 49470,
+      "kuerzel": "VP_1571502",
+      "bezeichnung": "User Interface Engineering",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden sollen verschiedene Ans&auml;tze f&uuml;r den Entwurf, die Entwicklung und Bewertung von Mensch-Maschine-Schnittstellen kennen lernen und deren Vor- und Nachteile verstehen. Sie sollen ein Verst&auml;ndnis f&uuml;r einen Mensch-zentrierten Systementwurf entwickeln. Au&szlig;erdem sollen Studierende die zugrundeliegenden Aspekte der Sensor- und Ausgabetechnologien verstehen, sowie ein grundlegendes Verst&auml;ndnis von Algorithmen zum Verarbeiten von User input in moderne Computersysteme entwickeln. </p>\n<p>Insbesondere werden dabei Techniken zum Erfassen von Touch input sowie fundamentale Konzepte in der Erweiterten Realit&auml;t und in Gesten basierter Interaktion vermittelt. Am Ende der Vorlesung sollten Studierende in der Lage sein anspruchsvolle user interface Technologien zu verstehen und anzuwenden, und in der Lage sein Systeme die unkonventionelle Sensorik und Displaytechnologien beinhalten zu entwickeln.</p>",
+      "planinhalt": "<ul>\n    <li>Methoden zur Bewertung von Schnittstellen</li>\n    <li>Sensor- und Ausgabetechnologien</li>\n    <li>Algorithmen zur Verarbeitung von User Input</li>\n</ul>",
+      "empfLehrmittel": "Selbststudium",
+      "leistungsnachweis": "Der Kurs wird mittels einer Pr&auml;sentation bewertet.",
+      "kurselemente": [
+        {
+          "id": 49471,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 36,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002823,
+          "name": "Pawlitzek",
+          "vorname": "René"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002823,
+      "name": "Pawlitzek",
+      "vorname": "René"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "User Interface Engineering for Internet of Things"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2015,
+    "beginSemester": "HS",
+    "endJahr": 2015,
+    "endSemester": "HS"
+  }
+}

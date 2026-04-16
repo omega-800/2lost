@@ -1,0 +1,216 @@
+{
+  "id": 49676,
+  "kuerzel": "M_VP_16820",
+  "bezeichnung": "Multiphysik-Modellierung und Simulation in der Plasmaphysik",
+  "kreditpunkte": 18,
+  "lernziele": "<p>Die Studierenden</p><ul><li>wissen, was ein Plasma ist und k&ouml;nnen die Prozesse, welche in einem Plasma ablaufen, als physikalische Prozesse beschreiben (St&ouml;sse, Ionisation, Reaktion, Drift).</li><li>wissen, wie sich geladene Teilchen im einem B-Feld bewegen und sind in der Lage, gekoppelte elektromagnetische Systeme mit Hilfe der Methode der Finiten Elemente (FEM) zu formulieren, modellieren und zu l&ouml;sen.</li><li>verstehen die Maxwell- und Navier-Stokes-Gleichungen und deren Kopplungen als Grundlage f&uuml;r die Plasmaphysik.</li><li>kennen das Fl&uuml;ssigkeitsbild des Plasmas (MHD, Magnetohydrodynamik) und die kinetische Theorie der Plasmen (Teilchenbild) und kennen deren G&uuml;ltigkeitsbereich.</li><li>kennen die verschiedenen Ans&auml;tze f&uuml;r die numerische L&ouml;sung der gekoppelten Maxwell- und Navier-Stokes Gleichungen f&uuml;r ein 2-komponentiges neutrales Edelgas-Plasma (z.B. Argon) und ein nicht-neutrales Plasma (reines Elektronengas).</li><li>sind in der Lage, einfache Modelle zu parametrisieren, &uuml;ber eine Skriptsprache (MATLAB) zu steuern (scripting), zu optimieren (optimization) und auszuwerten (postprocessing).</li><li>sind in der Lage, analytische Modelle zur Validierung der numerischen Simulation in MATLAB zu implementieren und die Resultate zu vergleichen und zu bewerten.</li><li>sind in der Lage, englische Fachpublikationen und Paper zu lesen, deren Inhalte nachzuvollziehen und umzusetzen.</li></ul>",
+  "vorausgKenntnisse": "<p>Bachelor of Science in Systemtechnik</p><p>Einf&uuml;hrung in mehrdimensionale Analysis</p><p>Scientific Computing</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 49677,
+      "kuerzel": "VP_1682001",
+      "bezeichnung": "Multiphysik-Modellierung und Simulation in der Plasmaphysik",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>wissen, was ein Plasma ist und k&ouml;nnen die Prozesse, welche in einem Plasma ablaufen, als physikalische Prozesse beschreiben (St&ouml;sse, Ionisation, Reaktion, Drift).</li><li>wissen, wie sich geladene Teilchen im einem B-Feld bewegen und sind in der Lage, gekoppelte elektromagnetische Systeme mit Hilfe der Methode der Finiten Elemente (FEM) zu formulieren, modellieren und zu l&ouml;sen.</li><li>verstehen die Maxwell- und Navier-Stokes-Gleichungen und deren Kopplungen als Grundlage f&uuml;r die Plasmaphysik.</li><li>kennen das Fl&uuml;ssigkeitsbild des Plasmas (MHD, Magnetohydrodynamik) und die kinetische Theorie der Plasmen (Teilchenbild) und kennen deren G&uuml;ltigkeitsbereich.</li><li>kennen die verschiedenen Ans&auml;tze f&uuml;r die numerische L&ouml;sung der gekoppelten Maxwell- und Navier-Stokes Gleichungen f&uuml;r ein 2-komponentiges neutrales Edelgas-Plasma (z.B. Argon) und ein nicht-neutrales Plasma (reines Elektronengas).</li><li>verstehen die numerische Implementierung eines PIC-Codes und sind in der Lage, ein Elektronenplasma mit einem PIC-Code zu simulieren.</li><li>sind in der Lage, englische Fachpublikationen und Paper zu lesen, deren Inhalte nachzuvollziehen und umzusetzen.</li></ul>",
+      "planinhalt": "<p>Die obigen Ziele werden anhand von praktischen Aufgabenstellungen erarbeitet, beispielsweise:</p><ul><li>Simulation der B-Feld-Verteilung in einem invertierten Magnetron, Berechnung der Trajektorien von Elektronen</li><li>Erweiterung eines elektrostatischen PIC-Codes in MATLAB durch ein statisches Magnetfeld</li><li>Simulation eines nicht-neutralen Plasmas in einem invertierten Magnetron im Hochvakuum (HV) und Ultrahochvakuum-Bereich (UHV) mittels eines Particle-in-Cell-Codes (CST Particle Code)<br /><br />&nbsp;</li></ul>",
+      "bibliographie": "<p>[1]&nbsp;STROTH U.: Plasmaphysik - Ph&auml;nomene, Grundlagen, Anwendungen, Vieweg+Teubner Springer, Wiesbaden, (2011), 1-12</p><p>[2]&nbsp;GOLDSTON R.J.: RUTHERFORD P.H.: Plasmaphysik Eine Einf&uuml;hrung, Vieweg Braunschweig, (1998) 9-15, 120-158<br />[3]&nbsp;KEUDELL A.: Einf&uuml;hrung Plasmaphysik, Ruhr Universit&auml;t Bochum, (Juni 2008), 1-40<br />[4]&nbsp;CALCATELLI A.: The development of Vacuum measurements down to extremely high vacuum &ndash; XHV, Measurements, Turin (September 2012), 1029-1039<br />[5]&nbsp;DAVIDSON, Ronald C.: Physics of Nonneutral Plasmas, World Scientific Pub Co Inc; Auflage: Revised. (Dezember 2001)<br />[6]&nbsp;SCHUURMAN W.: Investigation of a low pressure penning discharge, Physica 36, FOM Institute vor plasma-fyscia, Rijnhuizen, Jutphaas , NL (1967), 136-160<br />[7]&nbsp;REDHEAD P.A.: Instabilities in crosses-field discharges at low pressures Vacuum, numbers 8-10, Divison of Physics, Nationl Research Council of Canada, Ottawa Canada (1988), 901-906<br />[8]&nbsp;DRISCOLL C.F.: FINE K.S.: HUANG X.P.: MITCHELL T.B.: CLUGGISH B.P.: Vortices and Turbulent relaxation in magnetized electron columns, Department of physics and institute for pure and applied physical sciences, university of California at San Diego, La Jolla, 1-10<br />[9]&nbsp;Analytical and Computational Methods in Electromagnetics, Ramesh Garg, Artech House Inc; Auflage 30. September 2008), ISBN-10: 1596933852<br />&nbsp;</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird mittels Bericht und Pr&auml;sentation bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 49678,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002668,
+          "name": "Würsch",
+          "vorname": "Christoph"
+        }
+      ]
+    },
+    {
+      "id": 49679,
+      "kuerzel": "VP_1682002",
+      "bezeichnung": "Methoden der Multiphysik-Modellierung",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>sind in der Lage, einfache Modelle zu parametrisieren, &uuml;ber eine Skriptsprache (MATLAB, Python) zu steuern (scripting), zu optimieren (optimization) und auszuwerten (postprocessing).</li><li>sind in der Lage, analytische Modelle zur Validierung der numerischen Simulation in MATLAB zu implementieren und die Resultate zu vergleichen und zu bewerten.</li><li>sind in der Lage, rechenintensive wissenschaftliche Berechnungen in MATLAB oder Python effizient und sauber strukturiert zu programmieren.</li></ul>",
+      "planinhalt": "<ul><li>Particle-in-Cell Code in MATLAB verstehen und erweitern mit einem statischen B-Feld</li><li>Vergleich mit kommerziellem PIC-Code</li><li>Vergleich der Simulationsergebnisse mit Messungen</li></ul>",
+      "bibliographie": "<p>[1]&nbsp;COMSOL Multiphysics Dokumentation, http://www.comsol.com/products<br />[2]&nbsp;CST Particle Studio, Particle in Cell Code, Dokumentation, <a href=\"https://www.cst.com/Products/CSTPS\">https://www.cst.com/Products/CSTPS</a></p>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>Dieser Kurs wird mittels Bericht und Pr&auml;sentation bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 49680,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002668,
+          "name": "Würsch",
+          "vorname": "Christoph"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002668,
+      "name": "Würsch",
+      "vorname": "Christoph"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2016,
+    "beginSemester": "FS",
+    "endJahr": 2016,
+    "endSemester": "FS"
+  }
+}

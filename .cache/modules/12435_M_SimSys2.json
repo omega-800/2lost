@@ -1,0 +1,175 @@
+{
+  "id": 12435,
+  "kuerzel": "M_SimSys2",
+  "bezeichnung": "Simulation mechanischer Systeme 2",
+  "kreditpunkte": 2,
+  "lernziele": "<p>- Kennt die Bedeutung von Kurvenscheiben und Koppelgetrieben im Sondermaschinenbau <br />- Kann Kurvenscheiben f&#252;r typische Bewegungsgesetze rechnen <br />- Kennt Koppelgetriebe f&#252;r wichtige Bewegungstypen <br />- Kennt Grundlagen zur Auslegung von Planetengetrieben <br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 12417,
+      "kuerzel": "SimSys2",
+      "bezeichnung": "Simulation mechanischer Systeme 2",
+      "planinhalt": "<p>Kurvenscheiben: <br />Die Begriffe Stoss und Ruck <br />Normierte Funktionen <br />Bestimmung des Weg-Winkeldiagramms <br />Auswahl sinnvoller Funktionen f&#252;r gegebene Weg-Winkeldiagramme <br />Berechnung symmetrischer und asymmetrischer Funktionen <br />Simulation von Kurvenscheibenantrieben <br />Einf&#252;hrung in die Koppelgetriebe<br /></p>",
+      "kurselemente": [
+        {
+          "id": 12424,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Simulation mechanischer Systeme 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Simulation of mechanical Systems 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 28,
+      "name": "Simeon",
+      "vorname": "Alex"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11027,
+      "kuerzel": "M_TechM1",
+      "bezeichnung": "Technische Mechanik 1",
+      "url": "allModules/11027_M_TechM1.json"
+    },
+    {
+      "id": 11028,
+      "kuerzel": "M_TechM2",
+      "bezeichnung": "Technische Mechanik 2",
+      "url": "allModules/11028_M_TechM2.json"
+    },
+    {
+      "id": 11029,
+      "kuerzel": "M_TechM3",
+      "bezeichnung": "Technische Mechanik 3",
+      "url": "allModules/11029_M_TechM3.json"
+    },
+    {
+      "id": 11196,
+      "kuerzel": "M_SimSys1",
+      "bezeichnung": "Simulation mechanischer Systeme 1",
+      "url": "allModules/11196_M_SimSys1.json"
+    },
+    {
+      "id": 12363,
+      "kuerzel": "M_FEM1",
+      "bezeichnung": "Finite Elemente Methode 1",
+      "url": "allModules/12363_M_FEM1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 12435,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": true,
+      "zulassungsBedingung": "Abgabe von 2 Uebungen mit Bewertung &gt;= 4.0",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Simulation mechanischer Systeme 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Simulation of mechanical Systems 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "WS",
+    "endJahr": 2010,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 12435,
+    "kuerzel": "M_SimSys2",
+    "bezeichnung": "Simulation mechanischer Systeme 2",
+    "url": "allModules/12435_M_SimSys2.json"
+  }
+}

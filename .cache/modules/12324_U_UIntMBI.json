@@ -1,0 +1,127 @@
+{
+  "id": 12324,
+  "kuerzel": "U_UIntMBI",
+  "bezeichnung": "User-Interface für MBI - Übergangsmodul",
+  "kreditpunkte": 4,
+  "lernziele": "<p>- Kenntnisse zur Ergonomie von Benutzeroberfl&#228;chen<br />- Entwerfen und realisieren von graphischen Benutzeroberfl&#228;chen mit Delphi<br />- Verwenden von eigenen Komponenten f&#252;r die VCL<br />- Erstellen von eigenen Komponenten f&#252;r die VCL</p>",
+  "vorausgKenntnisse": "<p>- Programmieren 2 f&#252;r MBI</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 12248,
+      "kuerzel": "uUIntMBI",
+      "bezeichnung": "User-Interface für MBI - Übergang",
+      "planinhalt": "<p>Grundlagen der Software-Ergonomie<br />Ergonomische Masken- und Dialoggestaltung<br />Entwurf und Realisierung von graphischen Benutzeroberfl&#228;chen mit Delphi:<br />- Alphanumerische Ein-/Ausgabe<br />- Fehlerbehandlung mit Exception Handling<br />- Graphische Ein-/Ausgabe<br />- Maussteuerung<br />- Menuesteuerung<br />- Verwendung von Bildern</p>",
+      "kurselemente": [
+        {
+          "id": 12278,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 12277,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "User-Interface für MBI - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "User Interface (MBI) - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9988,
+      "name": "ZZZ Dozent LB",
+      "vorname": "Planung"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 12324,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "abgegebene Projektarbeit mit Bewertung &gt;= 4.0",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "User-Interface für MBI - Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "User Interface (MBI) - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2005,
+    "endSemester": "WS"
+  }
+}

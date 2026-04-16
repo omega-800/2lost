@@ -1,0 +1,126 @@
+{
+  "id": 12326,
+  "kuerzel": "U_SichT",
+  "bezeichnung": "Sicherheitstechnik - Übergangsmodul",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Kennt die Konsequenzen der Produktehaftung<br />Anwendung der Grundlagen der Sicherheitstechnik<br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 12250,
+      "kuerzel": "uSichT",
+      "bezeichnung": "Sicherheitstechnik - Übergang",
+      "lernziele": "<p>Kennt die Konsequenzen der Produktehaftung:<br />-Vermeidung des Konzeptfehlers<br />-Vermeidung des Herstellungsfehlers<br />-Vermeidung des Instruktionsfehlers</p>\n<p>Anwendung der Grundlagen der Sicherheitstechnik<br /></p>\n<p>&nbsp;</p>",
+      "planinhalt": "<p>Einf&uuml;hrung in die Produktehaftung</p>\n<p>Grundlagen der Bemessung nach SIA 260/261/263, <br />Eurocode 3: Tragsicherheit und Gebrachstauglichkeit</p>\n<p>Einf&uuml;hrung in das Qualit&auml;tsmanagement</p>\n<p>Maschinenrichtlinie 98/37/EG<br />Druckger&auml;terichtlinie 97/23/EG<br />Sicherheitstechnik, Risc Management<br />Gefahrenanalyse und Risikobeurteilung<br />Konformit&auml;tserkl&auml;rung, CE-Kennzeichnung</p>\n<p>&Uuml;bungen zum praxisnahen Verarbeiten des Unterrichtsstoffes</p>",
+      "kurselemente": [
+        {
+          "id": 12281,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 12282,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Sicherheitstechnik - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Safety Engineering - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533,
+      "name": "Meier",
+      "vorname": "Jürg"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 12326,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Sicherheitstechnik - Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Safety Engineering - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2007,
+    "endSemester": "SS"
+  }
+}

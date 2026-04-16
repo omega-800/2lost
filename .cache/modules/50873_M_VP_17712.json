@@ -1,0 +1,221 @@
+{
+  "id": 50873,
+  "kuerzel": "M_VP_17712",
+  "bezeichnung": "Internet of Things und Analytics Demonstrators",
+  "kreditpunkte": 18,
+  "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen Daten von einem Sensor auslesen, &uuml;bertragen, vorverarbeiten und (im Cloud-Dienst MS Azure) speichern.</li><li>k&ouml;nnen die Grundprinzipien der beschreibenden Statistik. Visualisierung und Vorverarbeitung realer Daten (auf der Cloud) verwenden.</li><li>k&ouml;nnen eine reale Fragestellung als ein supervised bzw. unsupervised learning - Problem formulieren.</li><li>k&ouml;nnen die wichtigsten Methoden der Modellvalidierung (Kreuzvalidierung, validation set Ansatz, Bootstrapping) einsetzen.</li><li>k&ouml;nnen Machine Learning Methoden in einer geeigneten Programmiersprache implementieren und auf einer Cloud Platform (MS Azure) anwenden.</li></ul>",
+  "vorausgKenntnisse": "<p>Bachelor of Science in Systemtechnik</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 50874,
+      "kuerzel": "VP_1771201",
+      "bezeichnung": "IoT und Analytics Demonstrators",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen Daten von einem Sensor auslesen, &uuml;bertragen, vorverarbeiten und (im Cloud-Dienst MS Azure) speichern.</li><li>k&ouml;nnen die Grundprinzipien der beschreibenden Statistik Visualisierung und Vorverarbeitung realer Daten (auf der Cloud) verwenden.</li><li>k&ouml;nnen Machine Learning Algorithmen (z.B. in Python) auf der Cloud durchf&uuml;hren.</li></ul>",
+      "planinhalt": "<ul><li>Machine Learning</li><li>MS Azure</li></ul>",
+      "bibliographie": "<p>V. Fontama et al. Predictive Analytics with Microsoft Azure Machine Learning 2nd Edition (2015)</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird mittels Bericht und Fachgespr&auml;ch bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 50875,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002957,
+          "name": "Frick",
+          "vorname": "Klaus"
+        }
+      ]
+    },
+    {
+      "id": 50876,
+      "kuerzel": "VP_1771202",
+      "bezeichnung": "Grundlagen Statistical Learning ",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>erlernen die Grundz&uuml;ge multivariater Statistik und deren Anwendung im maschinellen Lernen.</li><li>erlernen die Grundlagen der Programmiersprache Python.</li><li>realisieren ein einfaches Maschine Learning Projekt in Python.</li></ul>",
+      "planinhalt": "<p>Hydrodynamische Grundlagen</p><ul><li>Machine Learning</li><li>Python</li><li>Multivariate Statistik</li></ul>",
+      "bibliographie": "<p>S. Raschka Machine Learning mit Python (2016)<br />G. James Introduction to Statistical Learning (2015)</p>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "leistungsnachweis": "<p>Dieser Kurs wird mittels Fachgespr&auml;ch bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 50877,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002957,
+          "name": "Frick",
+          "vorname": "Klaus"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002957,
+      "name": "Frick",
+      "vorname": "Klaus"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Internet of Things and Analytics Demonstrators"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2017,
+    "beginSemester": "HS",
+    "endJahr": 2017,
+    "endSemester": "HS"
+  }
+}

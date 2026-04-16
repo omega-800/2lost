@@ -1,0 +1,192 @@
+{
+  "id": 43573,
+  "kuerzel": "M_An1M",
+  "bezeichnung": "Analysis 1 (M-I)",
+  "kreditpunkte": 6,
+  "lernziele": "<p>Die Ingenieurwissenschaften sind auf mathematischem Grundwissen aufgebaut.</p>\n<p>&nbsp;</p>\n<p>Das Modul stellt den Studierenden einen Werkzeugkasten aus dem mathematischen Gebiet der Analysis zur Verf&uuml;gung, damit sie f&auml;hig sind, erste Anwendungen auf den Gebieten der Mathematik, &nbsp;Naturwissenschaften und Technik mathematisch sinnvoll zu bearbeiten.</p>",
+  "vorausgKenntnisse": "Mathematikkenntnisse gem&auml;ss Rahmenlehrplan f&uuml;r die technische Berufsmaturit&auml;t",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 43574,
+      "kuerzel": "An1M",
+      "bezeichnung": "Analysis 1 (M-I)",
+      "lernziele": "<p>Die Studierenden k&ouml;nnen&nbsp;<br />- bekannte Inhalte aus der BMS (z.B. Logarithmus, lineare Funktion) selbst&auml;ndig repetieren und auf ausgew&auml;hlte Aufgaben anwenden<br />- ausgew&auml;hlte Aufgaben aus der Goniometrie l&ouml;sen<br />- ausgew&auml;hlte Aufgaben zu AR, GR, Summenzeichen, Fakult&auml;ten, Binomialkoeffizienten und linearer Optimierung l&ouml;sen<br />- den Begriff der Ableitung verstehen und an Beispielen illustrieren<br />- Funktionen mit Hilfe der Ableitungsregeln ableiten<br />- den Hauptsatz der Differential- und Integralrechnung verstehen<br />- erste, einfache Funktionen integrieren<br />- die (eindimensionale) Differential- und Integralrechnung auf ausgew&auml;hlte Aufgaben anwenden.<br />- einfache mathematische Zusammenh&auml;nge in einer verst&auml;ndlichen Sprache schriftlich festhalten<br />- mit Hilfe von MATLAB einfache Aufgaben aus Analysis 1 l&ouml;sen</p>\n<p>- ihre mathematischen F&auml;higkeiten in bestimmten Bereichen einigermassen vern&uuml;nftig einsch&auml;tzen</p>\n<p>- sich beim Bearbeiten von Aufgaben zur Analysis 1 gegenseitig unterst&uuml;tzen</p>",
+      "planinhalt": "<p>Goniometrie: Bogenmass; sin, cos, tan, cot am Einheitskreis; Polarkoordinaten; Umkehrfunktionen arcsin, arccos, arctan; Additionstheoreme; Summen-Produkt-Formeln; einige Typen von goniometrischen Gleichungen</p>\n<p>&nbsp;</p>\n<p>Algebra: Pascal'sches Dreieck; Faktorzerlegung; AR, GR; Summen- und Produktzeichen; Fakult&auml;t, Binomialkoeffizienten; Logarithmen; erste Grenzwerte</p>\n<p>&nbsp;</p>\n<p>Funktionen: Geradengleichung; lineare Funktion; lineare Optimierung</p>\n<p>&nbsp;</p>\n<p>Differentialrechnung: Begriff der Ableitung; Linearisierung; Ableitungsregeln; hyperbolische Funktionen; Newton-Verfahren; Anwendungsaufgaben</p>\n<p>&nbsp;</p>\n<p>Integralrechnung: Begriff des Integrals; Hauptsatz der Differential- und Integralrechnung; Stammfunktion; Berechnen einfacher Integrale (speziell lineare Substitution); Anwendungsaufgaben</p>",
+      "bibliographie": "<p>Skript mit erg&auml;nzenden Unterlagen; &Uuml;bungsserien; Moodle; MATLAB</p>",
+      "kurselemente": [
+        {
+          "id": 43575,
+          "art": "Vorlesung",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 43576,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Analysis 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Analysis 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften",
+          "kreditpunkte": 6
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 538995,
+      "name": "Weibel",
+      "vorname": "Reto"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 43573,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Nachweis der geforderten Kenntnisse einer Mathematiksoftware in Form eines Testats</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Analysis 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Analysis 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2024,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 22028,
+    "kuerzel": "M_An1M",
+    "bezeichnung": "Analysis 1 (M-I)",
+    "url": "allModules/22028_M_An1M.json"
+  }
+}

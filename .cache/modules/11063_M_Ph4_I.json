@@ -1,0 +1,177 @@
+{
+  "id": 11063,
+  "kuerzel": "M_Ph4_I",
+  "bezeichnung": "Physik 4 für Informatiker",
+  "kreditpunkte": 4,
+  "lernziele": "<ul> <li>Kentnisse der zeitabh&#228;ngigen Vorg&#228;nge in Natur und Technik: Schwingungen und Wellen.</li><li>Kenntnisse der elektrischen und magnetischen Ph&#228;nomene. <br /><br /><br /></li></ul>",
+  "vorausgKenntnisse": "<p>&nbsp;</p>\n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10177,
+      "kuerzel": "Ph4_I",
+      "bezeichnung": "Elektrizitätslehre für Informatiker",
+      "lernziele": "<ul> <li>Verst&#228;ndnis von Wellenph&#228;nomenen in Netzwerken.</li><li>Verst&#228;ndnis von elektrodynamischen Vorg&#228;ngen im Umfeld der Informatik.</li></ul>",
+      "planinhalt": "<ol>\n<li><strong>Schwingung:</strong> Harmonische, unged&#228;mpft und ged&#228;mpft Schwingungen; Begriff des Spektrums;&nbsp;Erzwungene Schwingungen und Resonanz.</li>\n<li><strong>Wellen:</strong>&nbsp;mathematische Beschreibung, Welleneigenschaften (Wellenl&#228;nge, Frequenz etc.); Interferenzen; Reflexion, Brechung und Transmission von Wellen, D&#228;mpfung; Elektromagnetische Wellen: Doppelleiter, Koaxialkabel, Impedanzen; Geometrische Optik, Lichwellenleiter.</li>\n<li><strong>Elektrisches Feld:</strong> Entstehung des E-Feldes, Energie und Energiedichte des E-Feldes, elektrische Spannung und Potential, <br />Feld und Potentialberechnungen f&#252;r einfache Geometrien;&nbsp;Kondensator und seine Schaltungen. </li>\n<li><strong>Elektrischer Strom:</strong> Transportmechanismen in Halbleitern, Metallen und Elektrolyten, Ohmsches Gesetz und Schaltungen <br />von Widerst&#228;nden, RC-Kreise, Joulsche W&#228;rme. </li>\n<li><strong>Magnetostatik:</strong> Begriff des Magnetfeldes, Energiedichte des Magnetfeldes, Entstehung von B-Feldern und magnetische <br />Kr&#228;fte.</li></ol>",
+      "kurselemente": [
+        {
+          "id": 10599,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 10600,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrizitätslehre für Informatiker"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electricity Basics for Computer Scientists"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1213,
+      "name": "Müller",
+      "vorname": "Mathias"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 10951,
+      "kuerzel": "M_An1I",
+      "bezeichnung": "Analysis 1 für Informatiker",
+      "url": "allModules/10951_M_An1I.json"
+    },
+    {
+      "id": 11043,
+      "kuerzel": "M_Ph1Mech",
+      "bezeichnung": "Physik 1 - Mechanik",
+      "url": "allModules/11043_M_Ph1Mech.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11063,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Physik 4 für Informatiker"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Physics 4 for Software Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2010,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 11063,
+    "kuerzel": "M_Ph4_I",
+    "bezeichnung": "Physik 4 für Informatiker",
+    "url": "allModules/11063_M_Ph4_I.json"
+  }
+}

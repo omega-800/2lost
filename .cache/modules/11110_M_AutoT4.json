@@ -1,0 +1,176 @@
+{
+  "id": 11110,
+  "kuerzel": "M_AutoT4",
+  "bezeichnung": "Automatisierungstechnik 4",
+  "kreditpunkte": 4,
+  "lernziele": "<ul> <li>F&#228;higkeit anspruchsvolle Regelungsaufgaben zu l&#246;sen &#8211; von der Modellierung, Parameter-Identifikation, Modell-Validierung, Reglerentwurf, bis zum Test mit dem realen System</li><li>Auslegung und Implementierung digitaler Regelungen <br /></li></ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10246,
+      "kuerzel": "RegT3M",
+      "bezeichnung": "Regelungstechnik 3 (M)",
+      "planinhalt": "<ul>\n<li>Digitale Regelung</li><li>Modellbasierte Regelung</li><li>Nichtlineare Regelung</li><li>Optimale Regelung</li><li>Aktuelle Entwicklungen<br /></li></ul>",
+      "kurselemente": [
+        {
+          "id": 10684,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 10685,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 10686,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Regelungstechnik 3 (M)"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Control Systems 3 (M)"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 136,
+      "name": "Domeisen",
+      "vorname": "Heinz"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11152,
+      "kuerzel": "M_AutoT1",
+      "bezeichnung": "Automatisierungstechnik 1",
+      "url": "allModules/11152_M_AutoT1.json"
+    },
+    {
+      "id": 11155,
+      "kuerzel": "M_AutoT2",
+      "bezeichnung": "Automatisierungstechnik 2",
+      "url": "allModules/11155_M_AutoT2.json"
+    },
+    {
+      "id": 15701,
+      "kuerzel": "M_AutoT3_1",
+      "bezeichnung": "Automatisierungstechnik 3",
+      "url": "allModules/15701_M_AutoT3_1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11110,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Automatisierungstechnik 4"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Automation 4"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2008,
+    "beginSemester": "FS",
+    "endJahr": 2011,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 11110,
+    "kuerzel": "M_AutoT4",
+    "bezeichnung": "Automatisierungstechnik 4",
+    "url": "allModules/11110_M_AutoT4.json"
+  }
+}

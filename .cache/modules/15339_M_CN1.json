@@ -1,0 +1,250 @@
+{
+  "id": 15339,
+  "kuerzel": "M_CN1",
+  "bezeichnung": "Computernetze 1",
+  "kreditpunkte": 6,
+  "lernziele": "<p>Nach dieser Einf&uuml;hrung zu Computernetzen beherrschen die Teilnehmenden Methoden zur Netzbeschreibung (ISO/OSI-Modell) sowie die Grundideen der Netzwerk-Protokolle. Sie verstehen, wie diese Grundlagen bei den Ethernet-Technologien und bei den TCP/IP-Protokollen umgesetzt wurden. Im Rahmen der Uebungen und Praktika sammeln sie Erfahrungen in Bezug auf den Einsatz von Netzwerkkomponenten. Sie k&ouml;nnen die Leistungsf&auml;higkeit beurteilen und Fehler systematisch eingrenzen und beheben.</p>",
+  "vorausgKenntnisse": "Englisch",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 15345,
+      "kuerzel": "CN1Prak",
+      "bezeichnung": "Computernetze 1 Praktikum ",
+      "lernziele": "<p>Die Studierenden sammeln praktische Erfahrungen im Umgang mit den Netzwerkkomponenten und Messwerkzeugen.&nbsp;<br />Sie sollen die erlernte Theorie auf konkrete Problemstellungen anwenden k&ouml;nnen.</p>",
+      "planinhalt": "<p>Praktische Versuche zu Themen wie:</p>\n<ul>\n    <li>Signale, serielle Schnittstellen</li>\n    <li>Ethernet Physical Layer</li>\n    <li>Ethernet Medium Access Layer (Switching)</li>\n    <li>Wireless LAN (MAC)</li>\n    <li>Switching (VLAN, Trunking, STP)</li>\n    <li>Performance (Wireshark Advanced)</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 15346,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Computernetze 1 Praktikum "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Computer Networks 1 Lab"
+        }
+      ]
+    },
+    {
+      "id": 15340,
+      "kuerzel": "CN1",
+      "bezeichnung": "Computernetze 1 ",
+      "lernziele": "<p>siehe oben</p>",
+      "planinhalt": "<ul>\n    <li>ISO/OSI-Referenzmodell: Netztopologien und Multiple Access Protokolle </li>\n    <li>Ethernet Physical Layer Technologien (Verkabelung, Signalisierung, Kollisionsdetektion, Repeater/Hub)</li>\n    <li>Ethernet Medium Access Control (Framestruktur, Switching, VLAN, Trunking, STP)</li>\n    <li>Wireless LAN </li>\n    <li>Internet Architektur </li>\n    <li>Netzwerk Protokolle (IPv4, IPv6), ICMP und Address Resolution Protocol (ARP) </li>\n    <li>Transport Protokolle (TCP, UDP) </li>\n    <li>Anwendungsprotokolle (HTTP, FTP, TFTP, SMTP) </li>\n    <li>Whois, Domain Name System (DNS), Dynamic Hoist Configuration Protocol (DHCP) </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 15341,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 15342,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Computernetze 1 "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Computer Networks 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 870,
+      "name": "Heinzmann",
+      "vorname": "Peter"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 23326,
+      "kuerzel": "M_ICTh",
+      "bezeichnung": "Informations- und Codierungstheorie",
+      "url": "allModules/23326_M_ICTh.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 15339,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Erlangung des Testates im Praktikum.</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Computernetze 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Computer Networks 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "WS",
+    "endJahr": 2013,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 10961,
+    "kuerzel": "M_CN1",
+    "bezeichnung": "Computernetze 1",
+    "url": "allModules/10961_M_CN1.json"
+  },
+  "nachfolger": {
+    "id": 15339,
+    "kuerzel": "M_CN1",
+    "bezeichnung": "Computernetze 1",
+    "url": "allModules/15339_M_CN1.json"
+  }
+}

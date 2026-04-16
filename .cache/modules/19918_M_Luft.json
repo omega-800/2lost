@@ -1,0 +1,165 @@
+{
+  "id": 19918,
+  "kuerzel": "M_Luft",
+  "bezeichnung": "Luftreinhaltung",
+  "kreditpunkte": 2,
+  "lernziele": "<ul><li><p>Kenntnisse &uuml;ber:</p></li><li>die Mechanismen der Bildung von Schadstoffen</li><li>die emissions- und immissionsseitige Situation in nationaler und globaler Hinsicht</li><li>die technischen M&ouml;glichkeiten zur Minderung der Emissionen</li><li>die Konzepte der schweizerischen und der internationalen Luftreinhaltepolitik</li></ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 19919,
+      "kuerzel": "Luft",
+      "bezeichnung": "Luftreinhaltung",
+      "lernziele": "Siehe Modulbeschreibung",
+      "planinhalt": "<p>1. Grundlagen Luftverunreinigungen und Luftreinhaltung; Luftqualit&auml;t in der Schweiz</p><p>&nbsp;</p><p>2. Luftreinhaltung: Gesetze und Normen</p><p>&nbsp;</p><p>3. Emission: Quellen und&nbsp;Bildungsmechanismen typischer Luftschadstoffe</p><p>&nbsp;</p><p>4. Begrenzung von Emissionen (Innermotorische Massnahmen, verbrennungstechnische</p><p>&nbsp;&nbsp;&nbsp;&nbsp;Optimierung)</p><p>&nbsp;</p><p>5. Messung von Luftschadstoffen und &Uuml;berwachung der Luftreinheit</p><p>&nbsp;</p><p>6. Transmission: Ausbreitung von Luftschadstoffen</p><p>&nbsp;</p><p>7. Verfahren zur Luftreinhaltung</p><ul><li>Staubabscheidung</li><li>Russabscheidung</li><li>Absorption</li><li>Adsorption</li><li>Entschwefelung</li><li>Entstickung</li><li>Thermische Abluftreinigung</li><li>Biologische Abluftreinigung</li><li>Spezialverfahren</li></ul><p>&nbsp;</p><p>8. Verfahrenskombination in der Abluftreinigung</p><p>&nbsp;</p><p>9. Fallbeispiele aus der Praxis&nbsp;&nbsp;</p><p>&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 19920,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 120,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Luftreinhaltung"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Air Pollution Control "
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10108,
+          "kuerzel": "EEU-veu",
+          "bezeichnung": "Vertiefungsmodule Umwelttechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10108,
+          "kuerzel": "EEU-veu",
+          "bezeichnung": "Vertiefungsmodule Umwelttechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5011490,
+      "name": "Frey",
+      "vorname": "Ruedi"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 19846,
+      "kuerzel": "M_UmRes",
+      "bezeichnung": "Umwelt und Ressourcen (EEU)",
+      "url": "allModules/19846_M_UmRes.json"
+    },
+    {
+      "id": 19850,
+      "kuerzel": "M_VT2",
+      "bezeichnung": "Verfahrenstechnik 2",
+      "url": "allModules/19850_M_VT2.json"
+    },
+    {
+      "id": 22005,
+      "kuerzel": "M_VT1",
+      "bezeichnung": "Verfahrenstechnik 1",
+      "url": "allModules/22005_M_VT1.json"
+    },
+    {
+      "id": 26084,
+      "kuerzel": "M_GZUT",
+      "bezeichnung": "Grundzüge Umwelttechnik",
+      "url": "allModules/26084_M_GZUT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 19918,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Luftreinhaltung"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Air Pollution Control  "
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2012,
+    "beginSemester": "HS",
+    "endJahr": 2015,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 19918,
+    "kuerzel": "M_Luft",
+    "bezeichnung": "Luftreinhaltung",
+    "url": "allModules/19918_M_Luft.json"
+  }
+}

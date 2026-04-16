@@ -1,0 +1,295 @@
+{
+  "id": 22611,
+  "kuerzel": "M_InfSi2",
+  "bezeichnung": "Informationssicherheit 2",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Sie kennen die auf den verschiedenen Schichten des OSI Kommunikationsmodells aktuell verwendeten Netzwerksicherheitsprotokolle und k&ouml;nnen diese praktisch anwenden.</li>\n    <li>Sie beherrschen die modernen Konzepte der Netzwerkzugriffskontrolle und k&ouml;nnen sie in die Praxis umsetzen.</li>\n    <li>Sie verstehen die aktuellen Ans&auml;tze, Betriebssysteme und Rechnerplattformen vor Angriffen und Unterwanderung durch Malware zu sch&uuml;tzen.<br /></li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 22612,
+      "kuerzel": "InfSi2",
+      "bezeichnung": "Informationssicherheit 2 - Netzwerk und Plattform",
+      "planinhalt": "<ul>\n    <li>Netzwerksicherheit<br />-&nbsp;Physical Layer (Quantenkryptographie, Generierung von echten Zufallszahlen)<br />-&nbsp;Link Layer (MAC, WLAN, 802.1X, 3G/4G Mobilfunk Sicherheit) <br />-&nbsp;Network Layer (Virtuelle Private Netze, IPsec, DNSSEC, VoIP Sicherheit)<br />-&nbsp;Anonymisierungsverfahren im Internet </li>\n    <li>Netzwerkzugriffskontrolle<br />-&nbsp;Firewalls, Intrusion Detection/Prevention Systeme<br />-&nbsp;Network Endpoint Assessment, Trusted Network Connect, Network Access Protection </li>\n    <li>Plattformsicherheit<br />-&nbsp;Attacken (Beispiel Buffer Overflow, Root Kits, Lying Endpoint Problem)<br />-&nbsp;Hardware Security Module, Chipkarten<br />-&nbsp;Platform Trust Service auf der Basis des Trusted Platform Moduls (TPM)<br />-&nbsp;UEFI Secure Boot, Windows/Linux/Android Plattformsicherheit.<br />-&nbsp;Geh&auml;rtete Betriebssysteme, Trusted Boot von virtuellen Maschinen. </li>\n    <li>Der Inhalt wird nach Bedarf angepasst, um auf aktuelle Trends reagieren zu k&ouml;nnen. </li>\n</ul>\n<p>Lern- und Unterrichtsmethoden: Vorlesung, &Uuml;bungen am Computer (Security Lab)</p>\n<p>Unterrichtsunterlagen: Folien mit Zusatztexten (Kommentar); Tutorials/White Papers; Online-Infos</p>",
+      "kurselemente": [
+        {
+          "id": 22613,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 126,
+          "harteGrenze": true
+        },
+        {
+          "id": 22614,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Informationssicherheit 2 - Netzwerk und Plattform"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Internet Security 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10107,
+      "bezeichnung": "Network & Cloud-Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10107_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10232,
+      "bezeichnung": "Network and Cloud Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10232_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10106,
+      "bezeichnung": "Application Design - Cloud Solutions",
+      "kuerzel": "ADCS",
+      "url": "allStudies/10106_ADCS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 10127,
+      "bezeichnung": "Generalist",
+      "kuerzel": "GEN",
+      "url": "allStudies/10127_GEN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10231,
+      "bezeichnung": "Cybersecurity",
+      "kuerzel": "CySec",
+      "url": "allStudies/10231_CySec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 525324,
+      "name": "Steffen",
+      "vorname": "Andreas"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 23311,
+      "kuerzel": "M_CN2",
+      "bezeichnung": "Computernetze 2",
+      "url": "allModules/23311_M_CN2.json"
+    },
+    {
+      "id": 28240,
+      "kuerzel": "M_CN1",
+      "bezeichnung": "Computernetze 1",
+      "url": "allModules/28240_M_CN1.json"
+    },
+    {
+      "id": 28249,
+      "kuerzel": "M_InfSi1",
+      "bezeichnung": "Informationssicherheit 1 - Grundlagen",
+      "url": "allModules/28249_M_InfSi1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 22611,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Informationssicherheit 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Internet Security 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "FS",
+    "endJahr": 2019,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 11087,
+    "kuerzel": "M_IntSi2",
+    "bezeichnung": "Internet Sicherheit 2",
+    "url": "allModules/11087_M_IntSi2.json"
+  },
+  "nachfolger": {
+    "id": 22611,
+    "kuerzel": "M_InfSi2",
+    "bezeichnung": "Informationssicherheit 2",
+    "url": "allModules/22611_M_InfSi2.json"
+  }
+}

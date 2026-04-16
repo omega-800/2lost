@@ -1,0 +1,169 @@
+{
+  "id": 22044,
+  "kuerzel": "M_SMS",
+  "bezeichnung": "System Modeling and Simulation",
+  "kreditpunkte": 4,
+  "lernziele": "<p style=\"TEXT-INDENT: -0.2pt; MARGIN: 0cm 2.75pt 0pt 2.95pt\" class=\"MsoNormal\"><span new=\"\"></span></p>\n<p style=\"TEXT-INDENT: -0.2pt; MARGIN: 0cm 2.75pt 0pt 2.95pt\" class=\"MsoNormal\"><span new=\"\"></span></p>\n<p style=\"TEXT-INDENT: -0.2pt; MARGIN: 0cm 2.75pt 0pt 2.95pt\" class=\"MsoNormal\"><span new=\"\">Sie&nbsp;</span><span new=\"\">k&ouml;nnen Systeme modellieren, simulieren und optimieren&nbsp;und </span><span new=\"\">besitzen&nbsp;damit ideale F&auml;higkeiten, um im Consulting-Bereich (mit) zu arbeiten. </span></p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 22045,
+      "kuerzel": "SMS",
+      "bezeichnung": "System Modeling and Simulation",
+      "planinhalt": "<p style=\"TEXT-INDENT: 0cm; MARGIN: 0cm 2.75pt 0pt 1.75pt\" class=\"MsoNormal\"><b style=\"mso-bidi-font-weight: normal\"><span style=\"FONT-FAMILY: &quot;Verdana&quot;, &quot;sans-serif&quot;; FONT-SIZE: 7pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-GB\" lang=\"EN-GB\">Simulation related theory and modelling techniques:</span></b><span style=\"FONT-FAMILY: &quot;Verdana&quot;, &quot;sans-serif&quot;; FONT-SIZE: 7pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-GB\" lang=\"EN-GB\"> <br />discrete event simulation, agent based simulation, swarm simulation, event driven modelling, Bossel diagrams, system modelling, modelling of time, system theory, model verification and inspection, treats output and input analysis, optimisation<br /><b style=\"mso-bidi-font-weight: normal\">Application and Tool oriented<br /></b>Introduction into professional tools, e.g. Arena, anylogig.<br />The problem domains addresses e.g. production lines, supply chains, transportation systems, business processes, computer systems. Tool related generation of powerful animations\n<p>&nbsp;</p>\n</span></p>",
+      "kurselemente": [
+        {
+          "id": 22046,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        },
+        {
+          "id": 22047,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "System Modeling and Simulation"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "System Modeling and Simulation"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 160,
+      "name": "Rinkel",
+      "vorname": "Andreas"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 22044,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "System Modeling and Simulation"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "System Modeling and Simulation"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "FS",
+    "endJahr": 2021,
+    "endSemester": "HS"
+  }
+}

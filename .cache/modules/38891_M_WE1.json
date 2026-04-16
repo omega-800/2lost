@@ -1,0 +1,317 @@
+{
+  "id": 38891,
+  "kuerzel": "M_WE1",
+  "bezeichnung": "Web Engineering 1",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Das Modul vermittelt die Grundlagen, die f&uuml;r die Entwicklung von einfachen Webanwendungen ben&ouml;tigt werden, und betrachtet sowohl den f&uuml;r die Benutzer:innen sichtbaren Teil (das Frontend) als auch die Komponente, die auf dem Server ausgef&uuml;hrt wird (das Backend). Das Modul konzentriert sich auf die grundlegenden Technologien, auf denen die fortgeschrittenen Modulen des Web Engineering (Web Engineering 2 und Web Engineering 3) aufbauen.</p>\n<p><strong>Fachkompetenzen:</strong></p>\n<ul>\n<li>Sie k&ouml;nnen grundlegende Technologien zur Erstellung von Webanwendungen (Hypertext Markup Language (HTML), Cascading Stylesheets (CSS)) erkl&auml;ren und sie bei der Entwicklung einfacher Webanwendungen anwenden.</li>\n<li>Sie k&ouml;nnen die Grundlagen der Barrierefreiheit im Web beschreiben und die Anforderungen an unterschiedliche Komponenten von Webanwendungen formulieren.</li>\n<li>Sie k&ouml;nnen das Document Object Model (DOM) erkl&auml;ren und die entsprechenden Schnittstellen anwenden, um das DOM zu manipulieren und auf Eingaben und Events zu reagieren.</li>\n<li>Sie k&ouml;nnen die Sprachmittel von JavaScript anwenden und eigene Funktionen implementieren.</li>\n<li>Sie k&ouml;nnen die Struktur des Hypertext Transfer Protocol (HTTP) erkl&auml;ren und einen Webserver, der auf einfache HTTP-Anfragen reagiert implementieren.</li>\n<li>Sie k&ouml;nnen das Konzept der asynchronen Programmierung mit Promises beschreiben und asynchrone Anfragen in JavaScript implementieren.</li>\n<li>Sie k&ouml;nnen den HTML-, CSS- und JavaScript-Code manuell und mit entsprechenden Werkzeugen (z.B. Linter) analysieren und Verbesserungsvorschl&auml;ge entwickeln und umsetzen.</li>\n<li>Sie k&ouml;nnen die Grundlagen der Usability im Web beschreiben und bei der Analyse von Webseiten und anderen interaktiven Systemen anwenden.</li>\n</ul>\n<p><strong>Methodenkompetenzen:</strong></p>\n<ul>\n<li>Sie k&ouml;nnen Standards, Dokumentationen und Fachliteratur verwenden um Entwurfsentscheidungen zu treffen.</li>\n<li>Sie k&ouml;nnen Code (z.B. HTML, CSS, Javascript) anhand von Richtlinien und Standards oder mit entsprechenden Werkzeugen analysieren und kritisch bewerten.</li>\n<li>Sie k&ouml;nnen den inkrementellen Entwicklungsprozess einer Anwendung planen und reflektieren.</li>\n</ul>\n<p><strong>Sozial- und Selbstkompetenzen:</strong></p>\n<ul>\n<li>Sie k&ouml;nnen Ihren Lernprozess selbstst&auml;ndig planen und strukturieren.</li>\n<li>Sie k&ouml;nnen konstruktives Feedback formulieren und Feedback konstruktiv entgegennehmen.</li>\n<li>Sie k&ouml;nnen die Grenzen Ihres Wissens erkennen und sich selbstst&auml;ndig Fachliteratur aus dem Themengebiet der Vorlesung aneignen.</li>\n<li>Sie k&ouml;nnen Fragen gemeinsam mit Mitstudierenden oder im Dialog mit der Lehrperson formulieren und kl&auml;ren.</li>\n<li>Sie k&ouml;nnen sich in Bezug auf berufliche Frage- und Problemstellungen begr&uuml;ndet eine eigene Meinung bilden und diese kommunizieren.</li>\n</ul>",
+  "vorausgKenntnisse": "",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 38892,
+      "kuerzel": "WE1",
+      "bezeichnung": "Web Engineering + Design 1",
+      "lernziele": "<p>Die Lernziele sind identisch zu den Lernzielen des Moduls.</p>",
+      "planinhalt": "<p><strong>Bestandteile des Frontends</strong></p>\n<p>HTML</p>\n<ul>\n<li>Aufbau von HTML-Dateien</li>\n<li>Bestandteile des HTML-Standards</li>\n<li>Syntaktisch und semantisch korrektes HTML</li>\n<li>Optimierung der Barrierefreiheit von HTML</li>\n</ul>\n<p>&nbsp;</p>\n<p>CSS</p>\n<ul>\n<li>Aufbau von CSS-Regeln</li>\n<li>Einfache und komplexe Selektoren, Pseudo-Klassen und -Elemente</li>\n<li>Spezifit&auml;t von Selektoren</li>\n<li>Flexbox</li>\n</ul>\n<p>&nbsp;</p>\n<p>Javascript</p>\n<ul>\n<li>Sprachmittel</li>\n<li>Funktionen und Objekte</li>\n</ul>\n<p>&nbsp;</p>\n<p>Document Object Model (DOM)</p>\n<ul>\n<li>Ladezustand des DOM</li>\n<li>Selektion von Elementen</li>\n<li>Bearbeiten des DOM</li>\n<li>Event-Handling</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Komponenten des Backends und Kommunikation mit Backends</strong></p>\n<p>HTTP</p>\n<ul>\n<li>Aufbau von Request und Response</li>\n<li>HTTP-Methoden</li>\n<li>Implementierung eines einfachen Webservers</li>\n</ul>\n<p>&nbsp;</p>\n<p>REST</p>\n<ul>\n<li>Grundprinzipien von REST</li>\n<li>Eigenschaften von REST am Modell von Richardson</li>\n<li>Repr&auml;sentation von Ressourcen</li>\n<li>Dokumentation von Webservices</li>\n</ul>\n<p>&nbsp;</p>\n<p>AJAX</p>\n<ul>\n<li>Implementierung asynchroner Anfragen mit fetch</li>\n<li>Umgang mit Promises (then/await)</li>\n<li>Umgang mit langsamen und unzuverl&auml;ssigen Backends</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Grundlagen der Usability im Web</strong></p>\n<ul>\n<li>Motivation</li>\n<li>Grundlegende Designprinzipien (Heuristiken, Gestaltgesetze, visuelles Design)</li>\n<li>Barrierefreie Gestaltung</li>\n<li>Usability-Tests</li>\n</ul>",
+      "bibliographie": "<p>- Dokumentation des MDN (Mozilla Development Network), (https://developer.mozilla.org/en-US/docs/Web).</p>\n<p>- Webstandards (https://html.spec.whatwg.org/)</p>\n<p>- Standards zur Barrierefreiheit (https://www.w3.org/TR/WCAG22/)</p>",
+      "kurselemente": [
+        {
+          "id": 38893,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        },
+        {
+          "id": 38894,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Web Engineering + Design 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Web Engineering + Design 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10191,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10191_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10246,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10246_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10260,
+      "bezeichnung": "Digital Design",
+      "kuerzel": "DD",
+      "url": "allStudies/10260_DD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10159,
+          "kuerzel": "DD-WE",
+          "bezeichnung": "Webengineering",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10108,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10108_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10106,
+      "bezeichnung": "Application Design - Cloud Solutions",
+      "kuerzel": "ADCS",
+      "url": "allStudies/10106_ADCS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10161,
+      "bezeichnung": "Data Engineering & Machine Intelligence",
+      "kuerzel": "DaEngMaInt",
+      "url": "allStudies/10161_DaEngMaInt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10127,
+      "bezeichnung": "Generalist",
+      "kuerzel": "GEN",
+      "url": "allStudies/10127_GEN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10173,
+      "bezeichnung": "Cyber Security ",
+      "kuerzel": "CySec",
+      "url": "allStudies/10173_CySec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10107,
+      "bezeichnung": "Network & Cloud-Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10107_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5025755,
+      "name": "Loch",
+      "vorname": "Frieder"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 38872,
+      "kuerzel": "M_OOP1",
+      "bezeichnung": "Objektorientierte Programmierung 1",
+      "url": "allModules/38872_M_OOP1.json"
+    },
+    {
+      "id": 38910,
+      "kuerzel": "M_OOP2",
+      "bezeichnung": "Objektorientierte Programmierung 2",
+      "url": "allModules/38910_M_OOP2.json"
+    }
+  ],
+  "mengen": [
+    {
+      "id": 42,
+      "name": "Aequivalenz",
+      "dModMengeArt": 5701,
+      "module": [
+        {
+          "id": 32110,
+          "kuerzel": "M_WED1Virt",
+          "bezeichnung": "Web Engineering + Design 1 (V)",
+          "url": "allModules/32110_M_WED1Virt.json"
+        },
+        {
+          "id": 38891,
+          "kuerzel": "M_WE1",
+          "bezeichnung": "Web Engineering 1",
+          "url": "allModules/38891_M_WE1.json"
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 10,
+      "kuerzel": "SG",
+      "bezeichnung": "St.Gallen (Informatik Raster)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 38891,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testataufgaben</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Web Engineering 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Web Engineering 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2021,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 24372,
+    "kuerzel": "M_WED1",
+    "bezeichnung": "Web Engineering + Design 1",
+    "url": "allModules/24372_M_WED1.json"
+  }
+}

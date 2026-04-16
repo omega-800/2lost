@@ -1,0 +1,81 @@
+{
+  "id": 61660,
+  "kuerzel": "M_sa_sp.GR_SSK.A",
+  "bezeichnung": "SSK Sozial- und Selbstkompetenz A",
+  "kreditpunkte": 1,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 61661,
+      "kuerzel": "sa_sp.GR_SSK.A",
+      "bezeichnung": "SSK Sozial- und Selbstkompetenz A",
+      "kreditpunkte": 0,
+      "kurselemente": [
+        {
+          "id": 61662,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "SSK Sozial- und Selbstkompetenz A"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10480,
+      "bezeichnung": "Soziale Arbeit",
+      "kuerzel": "SA",
+      "url": "allStudies/10480_SA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10203,
+          "kuerzel": "P_SA",
+          "bezeichnung": "Pflichtmodule",
+          "kreditpunkte": 1
+        },
+        {
+          "id": 10205,
+          "kuerzel": "P_GS_SA",
+          "bezeichnung": "Pflichtmodule Grundstudium Soziale Arbeit",
+          "kreditpunkte": 1
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1002053,
+      "name": "Sutter",
+      "vorname": "Katharina"
+    }
+  ],
+  "orte": [
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "SSK Sozial- und Selbstkompetenz A"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

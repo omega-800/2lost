@@ -1,0 +1,352 @@
+{
+  "id": 24785,
+  "kuerzel": "M_SeAnBau",
+  "bezeichnung": "Serie- und Anlagenbau",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Die Rollen der Entwicklung, der Produktion und der Beschaffung in den beiden Gesch&auml;ftsprozessen&nbsp; Serien- und Anlagenbau verstehen.</li>\n    <li>Als Entwicklungsverantwortlicher die Teilaufgaben von Produktion und Beschaffung so kennen, dass im Entwicklungsprozess und &ndash;projekt diese Funktionen optimal integriert werden k&ouml;nnen.</li>\n    <li>Die in den beiden Gesch&auml;ftsprozessen typischen Treiber und Risiken f&uuml;r Herstellkosten, Liefer- /Abnahmef&auml;higkeit und Kapitalbedarf identifizieren und steuern k&ouml;nnen. </li>\n    <li>Die Wechselwirkungen von Produktstruktur, Seriegr&ouml;sse, Fertigungsverfahren und Werkstoffwahl auf die Herstellkosten, Lieferf&auml;higkeit und den Kapitalbedarf&nbsp; gezielt beeinflussen k&ouml;nnen.<br /></li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 24786,
+      "kuerzel": "SeAnBau",
+      "bezeichnung": "Serie- und Anlagenbau",
+      "lernziele": "siehe Lernziele des Moduls",
+      "planinhalt": "<ul>\n    <li>Unterschiede und Gemeinsamkeiten im Gesch&auml;ft und Prozessmodell von Serien- und Anlagenbauern </li>\n    <li>Kostenrechnung, Kalkulation und Wirtschaftlichkeitsrechnung </li>\n    <li>Arbeitsplanung </li>\n    <li>Produktionsplanung </li>\n    <li>Beschaffung, Make or Buy </li>\n    <li>Fertigung und Fertigungssteuerung, Grundlagen der Lean Production </li>\n    <li>F&uuml;hrungsmittel in Beschaffung und Produktion </li>\n    <li>Der Leiter Produktion und Beschaffung im Serienbau, SPC </li>\n    <li>Der Leiter Produktion und Beschaffung im Anlagenbau </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 24787,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 24788,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 24789,
+          "art": "Projekt",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Serie- und Anlagenbau"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Batch Production and Plant Engineering and Construction"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10104,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10104_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10129,
+          "kuerzel": "W-PTpl",
+          "bezeichnung": "Produktionstechnik und ergänzende Fachmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10129,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10129_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10129,
+          "kuerzel": "W-PTpl",
+          "bezeichnung": "Produktionstechnik und ergänzende Fachmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10130,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10130_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10129,
+          "kuerzel": "W-PTpl",
+          "bezeichnung": "Produktionstechnik und ergänzende Fachmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10169,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10169_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10208,
+      "bezeichnung": "Kunststofftechnik",
+      "kuerzel": "M-I-KS",
+      "url": "allStudies/10208_M-I-KS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10119,
+      "bezeichnung": "Kunststofftechnik",
+      "kuerzel": "M-I-KS",
+      "url": "allStudies/10119_M-I-KS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10082,
+      "bezeichnung": "Kunststofftechnik",
+      "kuerzel": "M-I-KS",
+      "url": "allStudies/10082_M-I-KS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10118,
+      "bezeichnung": "Betrieb- und Instandhaltung",
+      "kuerzel": "M-I-BI",
+      "url": "allStudies/10118_M-I-BI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10121,
+      "bezeichnung": "Produktentwicklung",
+      "kuerzel": "M-I-PE",
+      "url": "allStudies/10121_M-I-PE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10210,
+      "bezeichnung": "Produktentwicklung",
+      "kuerzel": "M-I-PE",
+      "url": "allStudies/10210_M-I-PE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10207,
+      "bezeichnung": "Betrieb- und Instandhaltung",
+      "kuerzel": "M-I-BI",
+      "url": "allStudies/10207_M-I-BI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10081,
+      "bezeichnung": "Betrieb- und Instandhaltung",
+      "kuerzel": "M-I-BI",
+      "url": "allStudies/10081_M-I-BI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10084,
+      "bezeichnung": "Produktentwicklung",
+      "kuerzel": "M-I-PE",
+      "url": "allStudies/10084_M-I-PE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5012434,
+      "name": "Hänggi",
+      "vorname": "Roman"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 20085,
+      "kuerzel": "M_EQ1",
+      "bezeichnung": "Entwurf und Qualität 1",
+      "url": "allModules/20085_M_EQ1.json"
+    },
+    {
+      "id": 37375,
+      "kuerzel": "M_EQ2",
+      "bezeichnung": "Entwurf und Qualität 2",
+      "url": "allModules/37375_M_EQ2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 24785,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "Testate aus Uebung und Projekt",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Serie- und Anlagenbau"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Batch Production and Plant Engineering and Construction"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2014,
+    "beginSemester": "HS",
+    "endJahr": 2022,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 20669,
+    "kuerzel": "M_SeAnBau",
+    "bezeichnung": "Serie- und Anlagenbau",
+    "url": "allModules/20669_M_SeAnBau.json"
+  },
+  "nachfolger": {
+    "id": 24785,
+    "kuerzel": "M_SeAnBau",
+    "bezeichnung": "Serie- und Anlagenbau",
+    "url": "allModules/24785_M_SeAnBau.json"
+  }
+}

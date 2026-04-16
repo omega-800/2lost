@@ -1,0 +1,181 @@
+{
+  "id": 23732,
+  "kuerzel": "M_MATH2",
+  "bezeichnung": "Mathematik 2",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Fachkompetenzen:<br />Die Teilnehmenden k&ouml;nnen:<br />&bull;&nbsp;Lineare Gleichungssysteme aufstellen und l&ouml;sen<br />&bull;&nbsp;Mit Vektoren und Matrizen umgehen</p>\n<p><br />Methodenkompetenzen:<br />Die Teilnehmenden k&ouml;nnen:<br />&bull;&nbsp;Einfache Textaufgaben in Gleichungssysteme &uuml;berf&uuml;hren und mittels geeigneter Methoden l&ouml;sen<br />&bull;&nbsp;Einfache geometrische Aufgaben in 2 und 3 Dimensionen l&ouml;sen<br />&bull;&nbsp;Vektoren in naturwissenschaftlichen und wirtschaftlichen Anwendungen identifizieren und einfache Sachverhalte in mathematische Modelle &uuml;berf&uuml;hren</p>\n<p><br />Selbstkompetenzen:<br />Die Teilnehmenden k&ouml;nnen:<br />&bull;&nbsp;Umgangssprachlich, vage formulierte Probleme in eine mathematisch pr&auml;zise Formulierung &uuml;berf&uuml;hren</p>\n<p>&nbsp;</p>\n<p>Sozialkompetenzen:<br />Die Teilnehmenden k&ouml;nnen:<br />&bull;&nbsp;Eine exakte Sprache verwenden, um mit Kollegen &uuml;ber den L&ouml;sungsweg eines mathematisch, naturwissenschaftlichen Sachverhalts zu diskutieren</p>\n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 23780,
+      "kuerzel": "Math2",
+      "bezeichnung": "Mathematik 2",
+      "planinhalt": "<p>Themen-/Lernblock: lineare Gleichungssysteme<br />o&nbsp;L&ouml;sen linearer Gleichungssysteme<br />o&nbsp;Matrixdarstellung eines LGS<br />o&nbsp;Gaussalgorithmus<br />o&nbsp;L&ouml;sungsverhalten von homogenen und inhom. LGS<br />o&nbsp;L&ouml;sen von Gleichungssystemen mit dem Computer</p>\n<p><br />Themen-/Lernblock: Vektorrechnung <br />o&nbsp;Physikalische Vektoren (Kr&auml;fteparallelogramm)<br />o&nbsp;Vektoren als 2-Tupel<br />o&nbsp;Skalare Multiplikation und Addition zweier Vektoren<br />o&nbsp;Anwendung: <br />&nbsp;Geschwindigkeitsvektor einer Bahnkurve (und damit auch Parameterdarstellung einer Gerade)<br />o&nbsp;Vektoren als 3-Tupel<br />o&nbsp;Skalare Multiplikation und Addition zweier Vektoren<br />o&nbsp;Norm eines Vektors<br />o&nbsp;Skalarprodukt in 2 und 3 Dimensionen<br />o&nbsp;Orthogonale Projektion als Kraft in Wegrichtung<br />o&nbsp;Winkel zwischen Vektoren<br />o&nbsp;Anwendung: <br />&nbsp;Gradient als Vektor: Schnittwinkel zweier Kurven<br />&nbsp;Gradient steht senkrecht auf H&ouml;henlinien einer reellwertigen Fkt. in zwei Variablen<br />o&nbsp;Projektaufgabe mit Computer: Achterbahnfahrt mit Gravitation als Differenzengleichung (Geschwindigkeit, Position und Fliehkraft als Fkt. der Zeit)</p>\n<p><br />Themen-/Lernblock: Matrixoperationen<br />o&nbsp;Drehungen, Streckungen, Projektionen<br />o&nbsp;Verkettung und Matrixmultiplikation an einfachen Beispielen <br />o&nbsp;Matrixaddition und Multiplikation im R3 und Rn<br />o&nbsp;Anwendung: &Uuml;bergangsmatrix eines Random-Walks</p>",
+      "kurselemente": [
+        {
+          "id": 24578,
+          "art": "Vorlesung",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 24579,
+          "art": "Uebung",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Mathematik 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Mathematics 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10104,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10104_WING.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10125,
+          "kuerzel": "W_IKpl",
+          "bezeichnung": "Ingenieurkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10129,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10129_WING.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10125,
+          "kuerzel": "W_IKpl",
+          "bezeichnung": "Ingenieurkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10130,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10130_WING.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10125,
+          "kuerzel": "W_IKpl",
+          "bezeichnung": "Ingenieurkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10169,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10169_WING.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 542829,
+      "name": "Himmelmann",
+      "vorname": "Lin"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 23732,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Mathematik 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Mathematics 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2015,
+    "beginSemester": "FS",
+    "endJahr": 2018,
+    "endSemester": "FS"
+  }
+}

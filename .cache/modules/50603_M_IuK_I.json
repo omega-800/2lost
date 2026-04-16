@@ -1,0 +1,237 @@
+{
+  "id": 50603,
+  "kuerzel": "M_IuK_I",
+  "bezeichnung": "Informations- und Kommunikationssysteme I",
+  "kreditpunkte": 12,
+  "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen objektorientierte Programme schreiben.</li><li>k&ouml;nnen Clientseitige Webapplikationen mit Frontend-Web-Frameworks und Technologien wie HTML5, CSS3, JavaScript, JSON und AJAX entwickeln.</li><li>kennen die Methoden des Software-Engineerings und k&ouml;nnen diese in Entwicklungsprojekten einsetzen.</li><li>k&ouml;nnen Relationale Datenbankmodelle entwerfen und SQL Datenbanken in Programmen einsetzen.</li></ul>",
+  "vorausgKenntnisse": "<p>Vorausgesetzt sind die drei Module Infomatik, Elektrotechnik &amp; Lineare Algebra I sowie Elektrotechnik &amp; Lineare Algebra II.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 50604,
+      "kuerzel": "IuK_I_D",
+      "bezeichnung": "Datenbanksysteme",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>verstehen die Konzepte von relationaler Datenbanken.</li><li>sind f&auml;hig, Datenbanken methodisch korrekt zu entwerfen und zu implementieren.</li><li>k&ouml;nnen Sachverhalte mit Entity-Relationship-Diagrammen oder UML-Klassendiagrammen modellieren.</li><li>k&ouml;nnen ER-Diagramme in die entsprechenden Tabellen umsetzen und die Normalisierung erkl&auml;ren und anwenden.</li><li>k&ouml;nnen SQL (Structured Query Language) zur Datendefinition und Datenmanipulation anwenden.</li><li>k&ouml;nnen aus Java mittels JDBC oder ORM auf Datenbanken zugreifen.</li><li>kennen die Grundlagen von objektorientierten und objektrelationalen Datenbanken.</li></ul>",
+      "planinhalt": "<ul><li>Grundlagen und Aufbau von Datenbanken</li><li>Entwurfsmethoden f&uuml;r Datenbanken</li><li>Relationenmodell und Normalisierung</li><li>Datendefinition und Datenmanipulation mit SQL</li><li>Physische Datenorganisation/Systemarchitektur</li><li>Datenintegrit&auml;t, Datenkonsistenz Datensicherung, Datenschutz</li><li>objektorientierte und objektrelationale Datenbanken</li><li>Java Database Connectivity (JDBC)</li><li>Object-relational Mapping (ORM)</li></ul>",
+      "empfLehrmittel": "Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen, Rechner&uuml;bungen",
+      "leistungsnachweis": "<p>W&auml;hrend der Unterrichtsphase wird eine&nbsp;Selbststudienarbeit bewertet. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen&nbsp;Softwarekonzepte, Webtechnologien (Client Technologien)&nbsp;sowie Software Engineering statt.</p>",
+      "kurselemente": [
+        {
+          "id": 50605,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002974,
+          "name": "Süsstrunk",
+          "vorname": "Norman"
+        }
+      ]
+    },
+    {
+      "id": 50606,
+      "kuerzel": "IuK_I_K",
+      "bezeichnung": "Softwarekonzepte",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>kennen die Gemeinsamkeiten und Unterschiede imperativer und objektorientierter Programmierung.</li><li>kennen den Unterschied zwischen interpretierten und kompilierten Produkten.</li><li>k&ouml;nnen die wesentlichen Strukturen von Programmiersprachen anwenden.</li><li>k&ouml;nnen formulierte Algorithmen in Code umsetzen.</li></ul>",
+      "planinhalt": "<ul><li>Datentypen</li><li>Anweisungen</li><li>Kontrollfl&uuml;sse</li><li>Schnittstellen</li><li>Klassen und Objekte</li><li>Abstraktion</li><li>Fehlerbehandlung und defensives Programmieren</li><li>Korrektheit</li><li>Test</li></ul>",
+      "bibliographie": "<p><span id=\"cke_bm_47C\" style=\"display:none\">&nbsp;</span>&nbsp;</p><ul></ul>",
+      "empfLehrmittel": "<p>Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen, Rechner&uuml;bungen</p>",
+      "leistungsnachweis": "<p>W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen&nbsp;Datenbanksysteme, Webtechnologien (Client Technologien) sowie Software Engineering&nbsp;statt.</p>",
+      "kurselemente": [
+        {
+          "id": 50607,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001547,
+          "name": "Hauser",
+          "vorname": "Ulrich"
+        }
+      ]
+    },
+    {
+      "id": 50608,
+      "kuerzel": "IuK_I_S",
+      "bezeichnung": "Software Engineering",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>kennen traditionelle SW-Entwicklungsprozesse (Wasserfall/V)</li><li>verstehen die aktuellen, in der SW-Projektentwicklung g&auml;ngigen Entwicklungsmodelle XP und Scrum.</li><li>k&ouml;nnen mit der UML in Analyse und Synthese arbeiten.</li><li>k&ouml;nnen im Rahmen agiler Projekte:<br />-&nbsp;Anforderungen an SW formulieren&nbsp;<br />-&nbsp;Aufw&auml;nde absch&auml;tzen, planen, verfolgen und anpassen<br />-&nbsp;Projektschritte planen und durchf&uuml;hren<br />-&nbsp;Testgetriebene SW-Entwicklung umsetzen</li></ul>",
+      "planinhalt": "<ul><li>Traditionelle Entwicklungsprozesse</li><li>Agile Prozesse</li><li>UML</li><li>Testgetriebene Entwicklung und Continuous Integration</li></ul>",
+      "empfLehrmittel": "<p>Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen mit Coaching</p>",
+      "leistungsnachweis": "<p>Es findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen&nbsp;Datenbanksysteme, Webtechnologien (Client Technologien) sowie Softwarekonzepte&nbsp;statt.</p>",
+      "kurselemente": [
+        {
+          "id": 50609,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001547,
+          "name": "Hauser",
+          "vorname": "Ulrich"
+        }
+      ]
+    },
+    {
+      "id": 50610,
+      "kuerzel": "IuK_I_W",
+      "bezeichnung": "Webtechnologien (Client Technologien)",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen Webapplikationen mit HTML5 und CSS3 entwickeln.</li><li>k&ouml;nnen Webapplikationen mit JavaScript entwickeln.</li><li>k&ouml;nnen ein Frontend-Web-Framework zur Entwicklung einer Webapplikation einsetzen.</li><li>k&ouml;nnen RESTful Webservices konsumieren.</li><li>kennen das RESTful Programmierparadigma.</li><li>k&ouml;nnen Cookies in einer Webapplikation speichern, l&ouml;schen und auslesen.</li><li>verstehen JSON als Datenaustauschformat.</li><li>verstehen AJAX als Konzept der asynchronen Daten&uuml;bertragung.</li><li>verstehen die Entwicklungsschritte des World Wide Webs.</li></ul>",
+      "planinhalt": "<ul><li>HTML5, CSS3</li><li>JavaScript</li><li>RESTful Webservices benutzen</li><li>JSON</li><li>AJAX</li><li>JavaScript Web Framework</li><li>Cookies<br />&nbsp;</li></ul>",
+      "empfLehrmittel": "Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen, Rechner&uuml;bungen",
+      "leistungsnachweis": "<p>W&auml;hrend der Unterrichtsphase wird eine Selbststudienarbeit&nbsp;bewertet.Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen&nbsp;Datenbanksysteme,&nbsp;Softwarekonzepte sowie Software Engineering statt.</p>",
+      "kurselemente": [
+        {
+          "id": 50611,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2115535,
+          "name": "Capol",
+          "vorname": "Corsin"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10380,
+      "bezeichnung": "Informations- und Kommunikationssysteme",
+      "kuerzel": "IKS",
+      "url": "allStudies/10380_IKS.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 10378,
+      "bezeichnung": "Informations- und Kommunikationssysteme",
+      "kuerzel": "IKS",
+      "url": "allStudies/10378_IKS.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2001551,
+      "name": "Bigger",
+      "vorname": "Beat"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 52943,
+      "kuerzel": "M_IAR",
+      "bezeichnung": "Informatik & Autonome Roboter",
+      "url": "allModules/52943_M_IAR.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 50612,
+      "kuerzel": "M_IuK_II",
+      "bezeichnung": "Informations- und Kommunikationssysteme II",
+      "url": "allModules/50612_M_IuK_II.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 3,
+      "kuerzel": "CH",
+      "bezeichnung": "Chur",
+      "ort": "Chur"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 50603,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Am Ende des Semesters findet eine abgesetzte Modulschlusspr&uuml;fung in vier Teilen statt. Die Kurse Softwarekonzepte, Datenbanksysteme, &nbsp;Software Engineering sowie Webtechnologien (Client Technologien) bilden je einen Teil der abgesetzten Modulschlusspr&uuml;fung.</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Information and Communication Systems I"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2017,
+    "beginSemester": "HS",
+    "endJahr": 2019,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 49928,
+    "kuerzel": "M_IuK_I",
+    "bezeichnung": "Informations- und Kommunikationssysteme I",
+    "url": "allModules/49928_M_IuK_I.json"
+  }
+}

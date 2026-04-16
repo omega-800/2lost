@@ -1,0 +1,181 @@
+{
+  "id": 56262,
+  "kuerzel": "M_winf.DBIS",
+  "bezeichnung": "Datenbanken & Informationssysteme",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Absolventinnen und Absolventen der Wirtschaftsinformatik &uuml;bernehmen in Unternehmen oftmals Schnittstellenfunktionen, in denen die Formalisierung und Dokumentation von Prozessen und Ereignissen zu ihren Aufgaben z&auml;hlen. Ergebnis sind dabei Datenmodelle, die die f&uuml;r einen bestimmten Anwendungskontext relevanten Objekte, deren Eigenschaften und Beziehungen beschreiben und die Grundlage f&uuml;r den sp&auml;teren Entwurf eines modernen datenbankgetriebenen IT-Systems bilden k&ouml;nnen. In diesem Modul erlernen die Studierenden zentrale Konzepte und Begriffe der Datenmodellierung und erlangen die F&auml;higkeit, selbst&auml;ndig vollst&auml;ndige, qualitativ hochwertige Datenmodelle zu erstellen. Um in IT-Projekten in der Rolle als Wirtschaftsinformatiker kompetent mitarbeiten zu k&ouml;nnen, hilft zudem ein praktischer Einblick in die datenbankgest&uuml;tzte Software-Entwicklung, der im Rahmen des Moduls erm&ouml;glicht wird.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 56263,
+      "kuerzel": "winf.DBIS",
+      "bezeichnung": "Datenbanken & Informationssysteme",
+      "lernziele": "<p><strong>Sachkompetenzen:</strong><br />Die Teilnehmenden k&ouml;nnen:</p>\n<ul>\n<li>Den Aufbau eines typischen Informationssystems erl&auml;utern</li>\n<li>Konzepte der Datenmodellierung erl&auml;utern und anwenden&nbsp;</li>\n<li>Vorgehensweisen zur Formalisierung erl&auml;utern und anwenden&nbsp;</li>\n<li>Verschiedene Darstellungsm&ouml;glichkeiten von Datenmodellen erl&auml;utern und anwenden</li>\n<li>Datenmodelle f&uuml;r verschiedene Anwendungskontexte in etablierten Notationen mittels&nbsp;<br />entsprechender Software erstellen&nbsp;</li>\n<li>Optimierungsm&ouml;glichkeiten in existierenden Datenmodellen identifizieren und nutzen&nbsp;</li>\n<li>Vorhandene Datenmodelle in andere Notationen &uuml;berf&uuml;hren&nbsp;</li>\n<li>Die Datenbanksprache SQL f&uuml;r komplexere Aufgabenstellungen anwenden&nbsp;</li>\n<li>Datenbanken aus einer Programmiersprache heraus ansprechen&nbsp;</li>\n<li>Die T&auml;tigkeiten der Administration und des Betriebs der DBMS planen</li>\n</ul>\n<p><br /><strong>Selbstkompetenzen:</strong><br />Die Teilnehmenden k&ouml;nnen:</p>\n<ul>\n<li>eigenen Lernprozess planen, steuern und reflektieren</li>\n</ul>\n<p><br /><strong>Sozialkompetenzen:</strong><br />Die Teilnehmenden k&ouml;nnen:</p>\n<ul>\n<li>Konkrete Aufgabenstellungen im Team bearbeiten&nbsp;</li>\n<li>Ergebnisse vor Kollegen erl&auml;utern und diskutieren</li>\n</ul>",
+      "planinhalt": "<p><strong>Themen-/Lernblock I: </strong>Einf&uuml;hrung</p>\n<ul>\n<li>Informationssysteme</li>\n<li>Phasenmodell f&uuml;r Datenbankentwurf und -realisierung</li>\n</ul>\n<p><br /><strong>Themen-/Lernblock II: </strong>Phasenmodell f&uuml;r Datenbankentwurf und -realisierung</p>\n<ul>\n<li>Phase Anforderungsanalyse: Analyse von Use Cases</li>\n<li>Phase Konzeptioneller Entwurf: Datenmodellierung mit UML Klassendiagrammen; Erstellung&nbsp;<br />eines konzeptionellen Schemas</li>\n<li>Phase Logischer Entwurf: Relationenmodell, relationale Algebra, Relationale Entwurfstheorie&nbsp;<br />inkl. Normalisierung</li>\n<li>Phase Datendefinition: Structured Query Language (SQL), SQL/Data Definition Language,&nbsp;<br />SQL/Data Manipulation Language, SQL/Data Query Language&nbsp;</li>\n<li>Phase Physischer Entwurf: Optimierung von Datenbanken</li>\n<li>Phase Implementierung, Betrieb &amp; Wartung: DB/DBMS Administration (Userverwaltung,&nbsp;<br />Rollenzuordnung, &Uuml;berwachung des Betriebs, &hellip;)</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Themen-/Lernblock III: </strong>Relationaler Entwurf in der Praxis; Alternativen zu relationalen Datenbanken</p>\n<ul>\n<li>Das (erweiterte) Entity Relationship Modell</li>\n<li>NoSQL</li>\n<li>Weitere ausgew&auml;hlte Themen optional</li>\n</ul>\n<p><br /><strong>Themen-/Lernblock IV: </strong>Aufbau von Informationssystemen &ndash; Datenbanken programmatisch&nbsp;<br />ansprechen</p>\n<ul>\n<li>Praxislabor: Aufbau eines einfachen Datenbank-basierten Informationssystems&nbsp;<br />\n<ul>\n<li>Aufbau Web Service, Aufbau Web Applikation</li>\n<li>Anbindung einer relationalen Datenbank</li>\n<li>Anbindung einer NoSQL Datenbank</li>\n</ul>\n</li>\n</ul>\n<p>&nbsp;</p>\n<ul>\n<li>Relationale Datenbanken programmatisch ansprechen: Ausgew&auml;hlte Themen aus<br />\n<ul>\n<li>JDBC/Java Database Connectivity</li>\n<li>PA/Java Persistence API, ORM/Object Relational Mapping&nbsp;</li>\n<li>Stored Procedures, User Defined Functions, Triggers, Views</li>\n<li>DB-Transaktionen&nbsp;</li>\n</ul>\n</li>\n</ul>",
+      "bibliographie": "<p><strong>Pflichtliteratur:</strong></p>\n<p style=\"padding-left: 40px;\">Taschenbuch Datenbanken<br />Auflage: 2., neu bearbeitete Auflage<br />Thomas Kudra&szlig;<br />eISBN: 978-3-446-44026-5&nbsp;<br />Print ISBN: 978-3-446-43508-7&nbsp;<br />2015 Carl Hanser Verlag GmbH &amp; Co. KG</p>",
+      "empfLehrmittel": "<p>Lehrgespr&auml;ch, Gruppen- und Einzelarbeit</p>",
+      "dozenten": [
+        {
+          "id": 79073,
+          "name": "Baumgarten",
+          "vorname": "Christoph"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10151,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10151_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10202,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10202_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10272,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10272_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10428,
+      "bezeichnung": "Wirtschaftsinformatik VZ",
+      "kuerzel": "WINF_VZ",
+      "url": "allStudies/10428_WINF_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10429,
+      "bezeichnung": "Wirtschaftsinformatik TZ",
+      "kuerzel": "WINF_TZ",
+      "url": "allStudies/10429_WINF_TZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10276,
+      "bezeichnung": "Digital Business",
+      "kuerzel": "WING_DigBu",
+      "url": "allStudies/10276_WING_DigBu.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10220,
+      "bezeichnung": "Digital Business",
+      "kuerzel": "WING_DigBu",
+      "url": "allStudies/10220_WING_DigBu.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 79073,
+      "name": "Baumgarten",
+      "vorname": "Christoph"
+    }
+  ],
+  "orte": [
+    {
+      "id": 10,
+      "kuerzel": "SG",
+      "bezeichnung": "St.Gallen (Informatik Raster)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 56262,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testate (z.B. Lernbericht, Pflicht-Pr&auml;senzveranstaltungen)&nbsp;</p>",
+      "bemerkungPruefung": "<p>Die Pr&uuml;fung wird als \"Closed Book\" Pr&uuml;fung abgelegt. Ein Merkblatt in Form einer A4 Seite, ein- oder doppelseitig beschrieben (keine Kopien von Unterrichtsmaterialien!), ist f&uuml;r die Modulabschlusspr&uuml;fung gestattet, ebenso das 4-seitige Merkblatt zu den SQL Befehlen (\"SQL Befehle und Funktionen\").</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Datenbanken & Informationssysteme"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Data modelling & information systems"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

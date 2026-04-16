@@ -1,0 +1,231 @@
+{
+  "id": 50384,
+  "kuerzel": "M_VP_17808",
+  "bezeichnung": "Eingebettete Systeme II b",
+  "kreditpunkte": 15,
+  "lernziele": "<p>Fachkompetenz:<br />Die Studierenden</p><ul><li>haben vertiefte Kenntnisse der Programmiersprache C++.</li><li>k&ouml;nnen verschiedene Sprach Konstrukte fachgerecht einsetzen.</li><li>kennen die M&ouml;glichkeiten der Standardbibliothek, inkl. C++14.</li><li>kennen die Bed&uuml;rfnisse aus Roboteranwendersicht.</li><li>k&ouml;nnen daraus ein passendes Programm innerhalb eines gegebenen Frameworks entwickeln.</li></ul><p>Methodenkompetenz<br />Die Studierenden</p><ul><li>demonstrieren F&auml;higkeit zu Analyse, Kreativit&auml;t, vernetztes Denken.</li><li>k&ouml;nnen ein bestehendes Konzepte analysieren und auf erweiterte Anforderungen anpassen.</li></ul><p>Sozialkompetenz</p><ul><li>Kommunikations- und Kooperationsf&auml;higkeit</li></ul><p>Selbstkompetenz</p><ul><li>Selbst&auml;ndigkeit, Verantwortlichkeit</li></ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 50385,
+      "kuerzel": "VP_1780801",
+      "bezeichnung": "EEROS als ROS-Node",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Fachkompetenz:<br />Die Studierenden</p><ul><li>kennen die Bed&uuml;rfnisse aus Roboteranwendersicht.</li><li>k&ouml;nnen daraus ein passendes Programm innerhalb eines gegebenen Frameworks entwickeln.</li></ul><p>Methodenkompetenz<br />Die Studierenden</p><ul><li>demonstrieren F&auml;higkeit zu Analyse, Kreativit&auml;t, vernetztes Denken.</li><li>k&ouml;nnen ein bestehendes Konzepte analysieren und auf erweiterte Anforderungen anpassen.</li></ul><p>Sozialkompetenz</p><ul><li>Kommunikations- und Kooperationsf&auml;higkeit</li></ul><p>Selbstkompetenz</p><ul><li>Selbst&auml;ndigkeit, Verantwortlichkeit</li></ul>",
+      "planinhalt": "<p>ROS ist ein popul&auml;res und universelles Robotik-Framework. Unser echtzeitf&auml;higes Roboterbetriebssystem EEROS soll neu als ROS-Node in einem ROS-System funktionieren. Insbesondere sollen bestehende ROS-Nodes f&uuml;r diverse Sensoren oder f&uuml;r GUI&rsquo;s (rqt) eingebunden werden k&ouml;nnen.<br />Erstellen eines detaillierten Projektplans mit Meilensteinen, regelm&auml;ssige Information bez&uuml;glich Projektstand, Selbstverantwortung.<br />Lieferobjekte: Projekt, Bericht, Schlusspr&auml;sentation</p>",
+      "bibliographie": "<p>www.eeros.org</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird mittels Projektarbeit, Bericht und einer Schlusspr&auml;sentation mit Pr&uuml;fungsgespr&auml;ch bewertet..</p>",
+      "kurselemente": [
+        {
+          "id": 50386,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000080,
+          "name": "Graf",
+          "vorname": "Urs"
+        }
+      ]
+    },
+    {
+      "id": 50387,
+      "kuerzel": "VP_1780802",
+      "bezeichnung": "Effective Modern C++",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>haben vertiefte Kenntnisse der Programmiersprache C++.</li><li>k&ouml;nnen verschiedene Sprach Konstrukte fachgerecht einsetzen.</li><li>kennen die M&ouml;glichkeiten der Standardbibliothek, inkl. C++14.</li><li>erwerben Fachkompetenz (Faktenwissen, Methodenwissen und Systemdenken) und Methodenkompetenz.</li></ul>",
+      "planinhalt": "<p>Aus dem Buch &ldquo;Effektive Modern C++&rdquo; sollen 8 Items, die f&uuml;r die Vertiefungsarbeit relevant sind, ausgew&auml;hlt und mit passenden Beispielen erarbeitet werden.</p>",
+      "bibliographie": "<p>Effective Modern C++, Scott Meyers, O&#39;Reilly Media</p>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "bemerkungKurs": "<p>Literatur teilweise in Englisch</p>",
+      "leistungsnachweis": "<p>Der Kurs wird mittels Zusammenfassungen und Fachgespr&auml;ch bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 50388,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000080,
+          "name": "Graf",
+          "vorname": "Urs"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000080,
+      "name": "Graf",
+      "vorname": "Urs"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 50290,
+      "kuerzel": "M_VP_16708",
+      "bezeichnung": "Eingebettete Systeme I c",
+      "url": "allModules/50290_M_VP_16708.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 46519,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master-Arbeit",
+      "url": "allModules/46519_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Embedded Systems II b"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2017,
+    "beginSemester": "FS",
+    "endJahr": 2017,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 48168,
+    "kuerzel": "M_VP_13808",
+    "bezeichnung": "Eingebettete Systeme II b",
+    "url": "allModules/48168_M_VP_13808.json"
+  },
+  "nachfolger": {
+    "id": 50384,
+    "kuerzel": "M_VP_17808",
+    "bezeichnung": "Eingebettete Systeme II b",
+    "url": "allModules/50384_M_VP_17808.json"
+  }
+}

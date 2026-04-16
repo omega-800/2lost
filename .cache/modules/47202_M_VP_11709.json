@@ -1,0 +1,239 @@
+{
+  "id": 47202,
+  "kuerzel": "M_VP_11709",
+  "bezeichnung": "Multiphysics - Numerik und Anwendungen",
+  "kreditpunkte": 18,
+  "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen reale Probleme mit Hilfe von partiellen Differentialgleichungen formulieren.</li>\n    <li>verstehen die verschiedenen Arten von Randbedingungen.</li>\n    <li>k&ouml;nnen partielle Differentialgleichungen mit Hilfe der Finiten-Volumen-Methode diskretisieren.</li>\n    <li>verstehen die verschiedenen L&ouml;sungsalgorithmen.</li>\n    <li>setzen die Verfahren mit openFOAM um.</li>\n    <li>k&ouml;nnen gekoppelte Differentialgleichungen mit openFOAM l&ouml;sen.</li>\n    <li>kennen die Grundlagen von openFOAM.</li>\n    <li>k&ouml;nnen selbst&auml;ndig eigene Modelle mit openFOAM realisieren.</li>\n</ul>",
+  "vorausgKenntnisse": "Grundlagen der Mathematik und Informatik, wie sie im Bachelorstudium Systemtechnik vermittelt werden.",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 47203,
+      "kuerzel": "VP_1170901",
+      "bezeichnung": "Multiphysics - Numerik und Anwendungen",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen reale Probleme mit Hilfe von partiellen Differentialgleichungen formulieren.</li>\n    <li>verstehen die verschiedenen Arten von Randbedingungen.</li>\n    <li>k&ouml;nnen partielle Differentialgleichungen mit Hilfe der Finiten-Volumen-Methode diskretisieren.</li>\n    <li>verstehen die verschiedenen L&ouml;sungsalgorithmen.</li>\n    <li>setzen die Verfahren mit openFOAM um.</li>\n    <li>k&ouml;nnen gekoppelte Differentialgleichungen mit openFOAM l&ouml;sen.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Partielle Differentialgleichungen</li>\n    <li>Finite-Volumen-Methode</li>\n    <li>Kopplingen von Modellen</li>\n    <li>ALE und Netzverformung</li>\n</ul>",
+      "bibliographie": "<p>M. Kaltenbacher: Numerical Simulation of Mechatronic Sensors and Actors, Springer</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>Das Projekt wird mittels den schriftlich abgegebenen Schulungsunterlagen bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 47204,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000192,
+          "name": "Schreiner",
+          "vorname": "Michael"
+        }
+      ]
+    },
+    {
+      "id": 47205,
+      "kuerzel": "VP_1170902",
+      "bezeichnung": "Einführung in openFOAM",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>kennen die Grundlagen von openFOAM.</li>\n    <li>K&ouml;nnen openFOAM zur L&ouml;sung von W&auml;rmeleitungsproblemen und Str&ouml;mungsproblemen einsetzen.</li>\n    <li>k&ouml;nnen selbst&auml;ndig eigene Modelle mit openFOAM realisieren.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>OpenFOAM als Finite-Volumen-L&ouml;ser </li>\n    <li>Physikalische Modelle in openFOAM</li>\n    <li>Numerische Methoden</li>\n</ul>",
+      "bibliographie": "<p>Schulungsunterlagen openFOAM <br />Online-Ressourcen <br />User&acute;s Manual</p>",
+      "empfLehrmittel": "<p>Selbststudium mit Betreuung</p>",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>Es werden verschiedene Simulationsmodelle mittels einer Pr&auml;sentation bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 47206,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000192,
+          "name": "Schreiner",
+          "vorname": "Michael"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000192,
+      "name": "Schreiner",
+      "vorname": "Michael"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 37877,
+      "kuerzel": "M_FTP_PartDiff",
+      "bezeichnung": "Partial Differential Equations in Engineering Technology",
+      "url": "allModules/37877_M_FTP_PartDiff.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Multiphyiscs – Numerics and Applications"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2011,
+    "beginSemester": "HS",
+    "endJahr": 2011,
+    "endSemester": "HS"
+  }
+}

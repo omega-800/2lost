@@ -1,0 +1,246 @@
+{
+  "id": 20880,
+  "kuerzel": "M_VE5",
+  "bezeichnung": "Virtuelles Entwickeln 5",
+  "kreditpunkte": 2,
+  "lernziele": "<ul>\n    <li>Kennt die Grundlagen der FEM und Ihre mathematischen Modelle</li>\n    <li>Kann einfachere lineare Modelle statisch, dynamisch und thermisch l&ouml;sen</li>\n    <li>Kann die&nbsp;Plausibilit&auml;t der Analysen beurteilen und die Resultate&nbsp;sachgerecht&nbsp;interpretieren </li>\n    <li>Kennt die M&ouml;glichkeiten und Grenzen der Methode f&uuml;r die Grundanalyse-Arten</li>\n    <li>Erwirbt sich dadurch eine Entscheider-Kompetenz</li>\n    <li>Erwirbt sich Umsetzer-Kompetenz: F&auml;higkeit, das FEM Know-How situations- und kostengerecht einsetzen zu k&ouml;nnen <br /><br /></li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 20881,
+      "kuerzel": "FEM2",
+      "bezeichnung": "Finite Elemente Methode 2 ",
+      "lernziele": "siehe Lernziele des Moduls",
+      "planinhalt": "<ul>\n    <li>Grundlagen: Steifigkeitsmatrizen, L&ouml;sungsalgorithmen, Elementtypen&nbsp; </li>\n    <li>Materialbeschreibung inkl. Composites </li>\n    <li>lineare Dynamik&nbsp;(Eigenschwingungen, transiente Analysen)&nbsp;</li>\n    <li>Thermo-Mechanische Analyse </li>\n    <li>Systematik der Fehlerquellen und&nbsp;m&ouml;glicher Gegenmassnahmen </li>\n    <li>Uebungen anhand typischer Aufgabenstellungen und anhand einer Modell-Maschinenstruktur <br /><br /><br /></li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 20882,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 20,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Finite Elemente Methode 2 "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Finite Element Method 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10083,
+      "bezeichnung": "Maschinenbau-Informatik",
+      "kuerzel": "M-I-MI",
+      "url": "allStudies/10083_M-I-MI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10120,
+      "bezeichnung": "Maschinenbau-Informatik",
+      "kuerzel": "M-I-MI",
+      "url": "allStudies/10120_M-I-MI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10084,
+      "bezeichnung": "Produktentwicklung",
+      "kuerzel": "M-I-PE",
+      "url": "allStudies/10084_M-I-PE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10121,
+      "bezeichnung": "Produktentwicklung",
+      "kuerzel": "M-I-PE",
+      "url": "allStudies/10121_M-I-PE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10122,
+      "bezeichnung": "Simulationstechnik",
+      "kuerzel": "M-I-SI",
+      "url": "allStudies/10122_M-I-SI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10082,
+      "bezeichnung": "Kunststofftechnik",
+      "kuerzel": "M-I-KS",
+      "url": "allStudies/10082_M-I-KS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10119,
+      "bezeichnung": "Kunststofftechnik",
+      "kuerzel": "M-I-KS",
+      "url": "allStudies/10119_M-I-KS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10085,
+      "bezeichnung": "Simulationstechnik",
+      "kuerzel": "M-I-SI",
+      "url": "allStudies/10085_M-I-SI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1261,
+      "name": "Gysin",
+      "vorname": "Hanspeter"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 20836,
+      "kuerzel": "M_TechM2",
+      "bezeichnung": "Technische Mechanik 2",
+      "url": "allModules/20836_M_TechM2.json"
+    },
+    {
+      "id": 20843,
+      "kuerzel": "M_TechM3",
+      "bezeichnung": "Technische Mechanik 3",
+      "url": "allModules/20843_M_TechM3.json"
+    },
+    {
+      "id": 20876,
+      "kuerzel": "M_VE4",
+      "bezeichnung": "Virtuelles Entwickeln 4",
+      "url": "allModules/20876_M_VE4.json"
+    },
+    {
+      "id": 26184,
+      "kuerzel": "M_TechM1",
+      "bezeichnung": "Technische Mechanik 1",
+      "url": "allModules/26184_M_TechM1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Virtuelles Entwickeln 5"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Virtual Design 5"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2011,
+    "beginSemester": "HS",
+    "endJahr": 2017,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 15471,
+    "kuerzel": "M_FEM2",
+    "bezeichnung": "Finite Elemente Methode 2",
+    "url": "allModules/15471_M_FEM2.json"
+  },
+  "nachfolger": {
+    "id": 20880,
+    "kuerzel": "M_VE5",
+    "bezeichnung": "Virtuelles Entwickeln 5",
+    "url": "allModules/20880_M_VE5.json"
+  }
+}

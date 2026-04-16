@@ -1,0 +1,119 @@
+{
+  "id": 12336,
+  "kuerzel": "U_MVT",
+  "bezeichnung": "Mechanische Verfahrenstechnik - Übergangsmodul",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Das Modul vermittelt die Praxis der mechanischen Verfahrenstechnik. Die Vorlesung wird erg&#228;nzt durch Versuche und Betriebsbesichtigungen. </p>",
+  "vorausgKenntnisse": "<p>Grundoperationen der mechanischen Verfahrenstechnik</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 12261,
+      "kuerzel": "uMVT",
+      "bezeichnung": "Mechanische Verfahrenstechnik - Übergang",
+      "planinhalt": "<p>1. Partikeleigenschaften <br />1.1. Einzelpartikeln (physikalische Eigenschaften; Oberfl&#228;cheneigenschaften) <br />1.2. disperse Systeme <br /><br />2. Anlagenbau und -betrieb <br />2.1. Verfahrensfliessbilder, R&amp;I Schema, Verriegelung <br />2.2. Bilanzierung von vernetzten Fliessdiagrammen <br />2.3. Vorkalkulation (Beispiel Bauschuttsortieranlage) <br />2.4. Wirtschaftlich optimierter Anlagenbetrieb <br />2.5. Monte Carlo Simulationen <br />2.6. Mess- und Regeltechnik im verfahrenstechnischen Betrieb</p>\n<p>3. Verfahrenstechnische Standardprinzipien <br />3.1. Gegenstromverfahren (z.B. Extraktion, W&#228;sche) <br />3.2. Optimierung: Wertstoffausbringen vs. Wertstoffgehalt im Produkt<br />3.3. Batch-Verfahren; Kontinuierliche Verfahren <br />3.4. R&#252;ckf&#252;hrungen (M&#252;hlenkreisl&#228;ufe, Rougher/Cleaner/Scavenger; Aufsalzung in geschlossenen <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wasserkreisl&#228;ufen) <br />3.5. Reaktortechnik: R&#252;hrreaktor, Schlaufenreaktor, Kaskade, Rohrreaktor <br /><br />4. Probennahme <br />6.1 Grundlagen <br />6.2 Probenentnahme (aus Gas; Fl&#252;ssigkeit, Feststoff) <br />6.3 Verteilung der Probenentnahmestellen <br />6.4 Minimale Probenmasse <br />6.5 Probenaufbereitung <br /><br />5. Ausgew&#228;hlte verfahrenstechnische Prozesse <br /><br />6. Erfinden und Patentieren</p>",
+      "kurselemente": [
+        {
+          "id": 12299,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Mechanische Verfahrenstechnik - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Mechanical Process Engineering - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 929,
+      "name": "Bunge",
+      "vorname": "Rainer"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 12336,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Mechanische Verfahrenstechnik - Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Mechanical Process Engineering - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2006,
+    "endSemester": "SS"
+  }
+}

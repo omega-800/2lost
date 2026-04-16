@@ -1,0 +1,103 @@
+{
+  "id": 56749,
+  "kuerzel": "M_DD_TuG",
+  "bezeichnung": "Technologie und Gesellschaft",
+  "kreditpunkte": 4,
+  "lernziele": "",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 56750,
+      "kuerzel": "DD_TuG",
+      "bezeichnung": "Technologie und Gesellschaft",
+      "lernziele": "",
+      "planinhalt": "",
+      "kurselemente": [
+        {
+          "id": 56751,
+          "art": "Vorlesung",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 100,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Technologie und Gesellschaft"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Technology and society"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10260,
+      "bezeichnung": "Digital Design",
+      "kuerzel": "DD",
+      "url": "allStudies/10260_DD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10161,
+          "kuerzel": "DD-EN",
+          "bezeichnung": "Ethik und Nachhaltigkeit",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5025755,
+      "name": "Loch",
+      "vorname": "Frieder"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 56749,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Technologie und Gesellschaft"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Technology and society"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2026,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  }
+}

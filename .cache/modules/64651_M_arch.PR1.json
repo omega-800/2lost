@@ -1,0 +1,102 @@
+{
+  "id": 64651,
+  "kuerzel": "M_arch.PR1",
+  "bezeichnung": "Prozess und Resscource 1",
+  "kreditpunkte": 2,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 64652,
+      "kuerzel": "arch.PR1.K1",
+      "bezeichnung": "Kurs 1 Grundlagen Bauphysik",
+      "kreditpunkte": 0,
+      "kurselemente": [
+        {
+          "id": 64653,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Kurs 1 Grundlagen Bauphysik"
+        }
+      ]
+    },
+    {
+      "id": 64654,
+      "kuerzel": "arch.PR1.K2",
+      "bezeichnung": "Kurs 2 Grundlagen Haustechnik",
+      "kreditpunkte": 0,
+      "kurselemente": [
+        {
+          "id": 64655,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Kurs 2 Grundlagen Haustechnik"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10485,
+      "bezeichnung": "Architektur",
+      "kuerzel": "ARCH",
+      "url": "allStudies/10485_ARCH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10213,
+          "kuerzel": "A_Tech",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10217,
+          "kuerzel": "A_GS",
+          "bezeichnung": "Grundstudium Architektur",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 75023,
+      "name": "Jessen",
+      "vorname": "Anna"
+    }
+  ],
+  "orte": [
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Prozess und Resscource 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

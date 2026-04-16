@@ -1,0 +1,222 @@
+{
+  "id": 47177,
+  "kuerzel": "M_VP_11704",
+  "bezeichnung": "Elektronische Systeme I a",
+  "kreditpunkte": 18,
+  "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen den Energiebedarf einer Schaltung theoretisch bestimmen.</li>\n    <li>k&ouml;nnen den Energiebedarf einer Schaltung messtechnisch erfassen.</li>\n    <li>kennen Konzepte zur Reduktion des Energiebedarfs einer Schaltung.</li>\n    <li>k&ouml;nnen den Energiebedarf einer elektronischen Schaltung simulieren.</li>\n    <li>haben Verst&auml;ndnis der Ph&auml;nomene von Signalen auf Leitungen im Zeit- und Frequenzbereich.</li>\n    <li>k&ouml;nnen Absch&auml;tzung der Realisierbarkeit und Synthese von analogen Filtern durchf&uuml;hren.<br /></li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 47178,
+      "kuerzel": "VP_1170401",
+      "bezeichnung": "Optimierung einer Servodrive-Steuerung",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen den Energiebedarf einer Schaltung theoretisch bestimmen.</li>\n    <li>k&ouml;nnen den Energiebedarf einer Schaltung messtechnisch erfassen.</li>\n    <li>kennen Konzepte zur Reduktion des Energiebedarfs einer Schaltung.</li>\n    <li>k&ouml;nnen den Energiebedarf einer elektronischen Schaltung simulieren.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Hardwareentwicklung </li>\n    <li>Softwareentwicklung </li>\n    <li>Messtechnik </li>\n</ul>",
+      "bibliographie": "<p>Lastenheft / Spezifikation,<br />Datenbl&auml;tter, Application Notes und <br />Fachliteratur</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>W&auml;hrend des Semesters wird das Projekt mittels des technischen Berichts mit eventueller Ver&ouml;ffentlichung oder Mitarbeit an Ver&ouml;ffentlichungen bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 47179,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000096,
+          "name": "Heinzelmann",
+          "vorname": "Andreas"
+        }
+      ]
+    },
+    {
+      "id": 47180,
+      "kuerzel": "VP_1170402",
+      "bezeichnung": "Leitungen und Filter",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>haben Verst&auml;ndnis der Ph&auml;nomene von Signalen auf Leitungen im Zeit- und Frequenzbereich.</li>\n    <li>k&ouml;nnen Absch&auml;tzung der Realisierbarkeit und Synthese von analogen Filtern durchf&uuml;hren.<br /></li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Leitungsgleichungen der TEM-Leitung (Telegraphengleichungen) </li>\n    <li>Beschreibung elektrischer Gr&ouml;ssen auf der TEM Leitung; Reflexion im Zeit- und Frequenzbereich, Smith-Diagramm</li>\n    <li>Verhalten schwach bed&auml;mpfter Leitungen</li>\n    <li>Einfluss des Skineffekts auf D&auml;mpfung und Impulsverzerrung</li>\n    <li>Leitungsersatzschaltungen</li>\n    <li>Gruppenlaufzeit und Dispersion</li>\n    <li>Eigenschaften gekoppelter Leitungen</li>\n    <li>Streuparameter. Butterworth-, Tschebyscheff- und Besselfilter: Einf&uuml;hrung zum Filterentwurf mit Filterprototypen (Tiefpass, Hochpass, Bandpass, Bandsperre)</li>\n    <li>Einfache aktive Filter<br /></li>\n</ul>",
+      "bibliographie": "<p>Skript</p>",
+      "empfLehrmittel": "<p>Vorlesung</p>\n<p>&Uuml;bungen</p>",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>W&auml;hrend des Semesters wir eine m&uuml;ndliche Leistungskontrolle durchgef&uuml;hrt.</p>",
+      "kurselemente": [
+        {
+          "id": 47181,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000096,
+          "name": "Heinzelmann",
+          "vorname": "Andreas"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000096,
+      "name": "Heinzelmann",
+      "vorname": "Andreas"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electronic Systems I a"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2011,
+    "beginSemester": "HS",
+    "endJahr": 2011,
+    "endSemester": "HS"
+  }
+}

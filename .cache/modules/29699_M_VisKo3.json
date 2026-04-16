@@ -1,0 +1,148 @@
+{
+  "id": 29699,
+  "kuerzel": "M_VisKo3",
+  "bezeichnung": "Visuelle Kommunikation 3 (bisher VisKom4)",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Die Studierenden k&ouml;nnen multikriterielle Analysen f&uuml;r raumplanerische Fragestellungen konzipieren und beherrschen die entsprechende GIS-Software, um diese praktisch durchzuf&uuml;hren.</p><p>Hierzu sind sie in der Lage Datenmodelle zu erstellen und mittels Software automatisiert zu verarbeiten.</p>",
+  "vorausgKenntnisse": "<p>F&uuml;r den Besuch des Moduls werden theoretische Kenntnisse Geographischer Informationssysteme (GIS) sowie deren praktische Anwendung in der GIS-Software ArcGIS vorausgesetzt.</p><p>Diese Kompetenz kann im Modul Landschaft 1/Kurs Geodaten und GIS 1 erworben werden.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 29700,
+      "kuerzel": "RAG",
+      "bezeichnung": "Räumliche Analysen und GIS",
+      "lernziele": "<p>Sie sind in der Lage GIS-Software zielgerichtet anzuwenden, um typische raumplanerische Fragestellungen zu beantworten.</p>",
+      "planinhalt": "<p>- Raumplanungsspezifische GIS-gest&uuml;tzte multikriterielle Analysen (Erreichbarkeits- und<br />&nbsp;&nbsp; Ausbreitungsmodelle, Variantenstudium, Geodesign)</p><p>- Minimale Geodatenmodelle der Raumplanung</p><p>- Datenqualit&auml;t und Datenschutz bei r&auml;umlichen Analysen</p><p>- Vertiefte Fertigkeiten in der Anwendung der GIS-Software ArcGIS</p>",
+      "kurselemente": [
+        {
+          "id": 29701,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 15,
+          "harteGrenze": true
+        },
+        {
+          "id": 29702,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 30,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Räumliche Analysen und GIS"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Spatial Analysis and GIS"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10041,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10041_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10027,
+          "kuerzel": "R-vk",
+          "bezeichnung": "Visuelle Kommunikation",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10123,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10123_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10027,
+          "kuerzel": "R-vk",
+          "bezeichnung": "Visuelle Kommunikation",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10142,
+      "bezeichnung": "Stadt-, Verkehrs- und Raumplanung ",
+      "kuerzel": "SVR",
+      "url": "allStudies/10142_SVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10027,
+          "kuerzel": "R-vk",
+          "bezeichnung": "Visuelle Kommunikation",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 541726,
+      "name": "Engelke",
+      "vorname": "Dirk"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Visuelle Kommunikation 3"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Visual Communication 3"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2017,
+    "beginSemester": "HS",
+    "endJahr": 2017,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 28284,
+    "kuerzel": "M_VisKom4",
+    "bezeichnung": "Visuelle Kommunikation 4",
+    "url": "allModules/28284_M_VisKom4.json"
+  },
+  "nachfolger": {
+    "id": 29699,
+    "kuerzel": "M_VisKo3",
+    "bezeichnung": "Visuelle Kommunikation 3 (bisher VisKom4)",
+    "url": "allModules/29699_M_VisKo3.json"
+  }
+}

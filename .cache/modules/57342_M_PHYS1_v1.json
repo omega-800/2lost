@@ -1,0 +1,236 @@
+{
+  "id": 57342,
+  "kuerzel": "M_PHYS1_v1",
+  "bezeichnung": "Physik 1 (WING) SG",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Fachkompetenzen:<br />Die Teilnehmer beherrschen die Grundlagen der ausgew&auml;hlten, behandelten Themen. Sie k&ouml;nnen einfache Fragestellungen einzeln oder im Team bearbeiten.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Methodenkompetenzen:<br />Die Teilnehmer k&ouml;nnen sich, basierend auf den beispielhaft behandelten Themen, selbst&auml;ndig in neue Gebiete einarbeiten.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Sozialkompetenzen:<br />Die Teilnehmer k&ouml;nnen Fragestellungen im Team diskutieren und bearbeiten.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 57343,
+      "kuerzel": "Phys1_v1",
+      "bezeichnung": "Physik 1 SG",
+      "planinhalt": "<p>Themen-/Lernblock</p>\n<p>&nbsp;</p>\n<p>Was ist Physik?<br />Messung, Gr&ouml;sse und Einheit<br />Messung, Messfehler<br />Masse, L&auml;nge und Geschwindigkeit<br />SI-System und Gr&ouml;ssenordnungen</p>\n<p>&nbsp;</p>\n<p>Optik&nbsp;<br />Reflexion, Transmission:&nbsp;<br />Glasfaserkabel<br />Brechung:&nbsp;<br />Linsen, optische Systme</p>\n<p><br />Statik<br />Normalkraft&nbsp;<br />Haft- und Gleitreibung<br />Drehmoment vs. Kraft<br />Starrer K&ouml;rper und Schwerpunkt<br />Gleichgewicht<br />Schub und Scherung</p>\n<p><br />Kinematik<br />Geradlinige Bewegung: Position, Geschwindigkeit und Beschleunigung<br />Kreisbewegung: Winkel, Winkelgeschwindigkeit und Winkelbeschleunigung<br />Masse und Tr&auml;gheitsmoment<br />Beliebige Bewegungen<br />Gravitationsgesetz</p>\n<p><br />Dynamik<br />1. Newtonsches Gesetz<br />2. Newtonsches Gesetz<br />Masse, Gewicht und Beschleunigung<br />Horizontaler und vertikaler Wurf<br />3. Newtonsches Gesetz<br />Gleichheit von tr&auml;ger- und schwerer Masse<br />Repetitionsblock Newtonsche Gesetze<br />Systeme<br />beschleunigte Systeme<br />Inertialsysteme<br />Physikalisches Modell und Realit&auml;t</p>\n<p><br />Arbeit, Energie und Leistung<br />Energie und System<br />Energieerhaltungssatz<br />abgeschlossene Systeme<br />Perpetuum mobile</p>\n<p><br />Impuls und Impulserhaltung<br />Definition<br />Impulserhaltungssatz<br />Elastischer und inelastischer Stoss<br />Drehimpuls</p>\n<p><br />Schwerefeld<br />Raketen, Geschosse und Schwerefeld<br />Der Begriff des Feldes in der Physik<br />Ein Ausflug in die Astronomie</p>\n<p>&nbsp;</p>\n<p>Fluide<br />Schwimmen und Tauchen<br />Ideale Fluide<br />Ruhe und Str&ouml;mung<br />Kontinuit&auml;tsgleichung<br />Bernoulli Gleichung<br />Grenzen analytischer Modelle<br />Numerische Modelle und Inversion</p>\n<p><br />Freie und unged&auml;mpfte Schwingungen<br />Horizontales Federpendel<br />Schwingungsgleichung f&uuml;r das horizontale Federpendel<br />L&ouml;sungen der Schwingungsgleichung</p>\n<p><br />Schwingungen und schwingende Systeme<br />Mathematisches Pendel<br />Horizontales Federpendel und Energie<br />Horizontales Federpendel mit geschwindigkeitsproportionaler D&auml;mpfung<br />Schwingungsgleichung, L&ouml;sungen<br />Schwingung, aperiodischer Grenzfall und Kriechfall</p>",
+      "kurselemente": [
+        {
+          "id": 57344,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 108,
+          "harteGrenze": true
+        },
+        {
+          "id": 57345,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Physik 1 "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Physics 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10104,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10104_WING.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10125,
+          "kuerzel": "W_IKpl",
+          "bezeichnung": "Ingenieurkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10129,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10129_WING.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10125,
+          "kuerzel": "W_IKpl",
+          "bezeichnung": "Ingenieurkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10130,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10130_WING.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10125,
+          "kuerzel": "W_IKpl",
+          "bezeichnung": "Ingenieurkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10151,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10151_WING.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10169,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10169_WING.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10202,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10202_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10272,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10272_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5028258,
+      "name": "Drechsel",
+      "vorname": "Carl"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 57342,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "zulassungsBedingung": "",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Physik 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Physics 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

@@ -1,0 +1,316 @@
+{
+  "id": 39143,
+  "kuerzel": "M_FP",
+  "bezeichnung": "Functional Programming ",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Although widespread, the currently mainstream imperative, object-oriented programming paradigm, with testing as its main method of quality assurance, has its limitations. Even though it allows novices to write programs relatively quickly and without much formal training, such programs tend to become complicated as soon as they need to do something non-trivial. This makes them increasingly hard to write and reason about, making assurance methods that give better guarantees than software testing intractable. Similarly, even though it is possible to write software tests relatively quickly and without much formal training, such tests are only able to show the presence of faults, but never their absence.</p>\n<p>&nbsp;</p>\n<p>Few are aware that there exist a number of alternatives to imperative, object-oriented programming and testing. This course will focus on one of them, functional programming, and the use of formal methods to specify and prove the correctness of functional programs.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Functional programming is an approach to programming where simplicity, clarity, and elegance are the key goals. It is the application of formal mathematical and programming-language-based techniques for the construction and verification of computer programs. Although it has a long history, it has recently received attention due to its potential for writing elegant, correct and efficient programs that are easier to write, compose, and maintain, once one is familiar with its underlying concepts. Its simplicity also allows reasoning about the correctness of functional programs using techniques taught in high-school mathematics. These techniques can not only be used to state and prove functional correctness of smaller programs on paper, but also large systems using automated proof assistants. Such automated proof assistants (e.g. Agda, Isabelle/HOL, Idris, Lean and Coq) are themselves applications and further developments of functional programming.</p>\n<p>&nbsp;</p>\n<p>Main Aim: All participants are able to explain and apply formal programming-language-based techniques for the construction and verification of computer programs. Special emphasis will be made on techniques that surpass some of the limitations of mainstream programming in the imperative object oriented programming style, and on alternatives to mainstream quality assurance using unit testing.</p>\n<p>&nbsp;</p>\n<p>In particular, all participants should be able to:</p>\n<ul>\n<li>construct programs in the functional style.</li>\n<li>verify the correctness of programs using property-based testing and proof.</li>\n<li>explain the formal foundations of the techniques covered.</li>\n</ul>\n<p>&nbsp;</p>\n<p>The functional programming language Haskell will be used as a basis whenever appropriate.&nbsp;&nbsp;</p>",
+  "vorausgKenntnisse": "<p>Englisch-Kenntnisse</p><p>(Dieses Modul wird auf Englisch durchgef&uuml;hrt.)</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 39144,
+      "kuerzel": "FP",
+      "bezeichnung": "Functional Programming ",
+      "lernziele": "<p>Refer to the learning goals for the module.</p>",
+      "planinhalt": "<p><strong>Functional programming (Haskell)</strong>:</p>\n<ul>\n<li>Referential transparency</li>\n<li>Functions as first-class citizens</li>\n<li>Higher-order functions</li>\n<li>Algebraic datatypes</li>\n<li>Pattern matching</li>\n<li>Recursion</li>\n<li>List comprehension</li>\n<li>Types &amp; type inference</li>\n<li>Type classes &thinsp;&ndash; functors, applicative, monads</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Verification:</strong></p>\n<ul>\n<li>Property-based testing (Quickcheck)</li>\n<li>Proving program correctness<br /><br /></li>\n</ul>\n<p><strong>Formal foundations:</strong></p>\n<ul>\n<li>Lambda calculus<br /><br /></li>\n</ul>\n<p>Additional topics will be covered, depending on student interest and the time available. Here are some examples of such topics covered in the past:</p>\n<ul>\n<li>Logic programming</li>\n<li>Formal proof</li>\n<li>Type systems</li>\n<li>Dependent types&nbsp;</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>This course will be taught in English.</strong></p>",
+      "bibliographie": "<p>It is required that each participant have access to \"Programming in Haskell\" 2ed by Graham Hutton. Other material custom made for the course will be made available during its execution.</p>",
+      "kurselemente": [
+        {
+          "id": 39145,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        },
+        {
+          "id": 39146,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Functional Programming"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Functional Programming "
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10106,
+      "bezeichnung": "Application Design - Cloud Solutions",
+      "kuerzel": "ADCS",
+      "url": "allStudies/10106_ADCS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10108,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10108_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10127,
+      "bezeichnung": "Generalist",
+      "kuerzel": "GEN",
+      "url": "allStudies/10127_GEN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10191,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10191_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10246,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10246_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10161,
+      "bezeichnung": "Data Engineering & Machine Intelligence",
+      "kuerzel": "DaEngMaInt",
+      "url": "allStudies/10161_DaEngMaInt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10107,
+      "bezeichnung": "Network & Cloud-Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10107_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5001386,
+      "name": "Mehta",
+      "vorname": "Farhad D."
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 24404,
+      "kuerzel": "M_AutoSpr",
+      "bezeichnung": "Automaten und Sprachen",
+      "url": "allModules/24404_M_AutoSpr.json"
+    },
+    {
+      "id": 24442,
+      "kuerzel": "M_DMI",
+      "bezeichnung": "Diskrete Mathematik für Informatik ",
+      "url": "allModules/24442_M_DMI.json"
+    },
+    {
+      "id": 38872,
+      "kuerzel": "M_OOP1",
+      "bezeichnung": "Objektorientierte Programmierung 1",
+      "url": "allModules/38872_M_OOP1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 10,
+      "kuerzel": "SG",
+      "bezeichnung": "St.Gallen (Informatik Raster)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 39143,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>The successful completion and submission of individual exercises or projects.</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Functional Programming "
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Functional Programming "
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 8,
+    "beginJahr": 2022,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 36712,
+    "kuerzel": "M_PLFM",
+    "bezeichnung": "Programming Languages and Formal Methods",
+    "url": "allModules/36712_M_PLFM.json"
+  }
+}

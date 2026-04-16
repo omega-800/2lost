@@ -1,0 +1,204 @@
+{
+  "id": 42349,
+  "kuerzel": "M_Holzb",
+  "bezeichnung": "Holzbau",
+  "kreditpunkte": 3,
+  "lernziele": "<ul><li>F&auml;higkeit zum Entwerfen und Gestalten von Bauteilen des Holzbaus sowie deren Verbindungen</li><li>Kompetenz in der Wahl der zutreffenden Berechnungsannahmen und der geeigneten statischen Modelle</li><li>Kenntnis der einschl&auml;gigen Normen und F&auml;higkeit zur Interpretation der einschl&auml;gigen Vorschriften</li></ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 42350,
+      "kuerzel": "HoBau",
+      "bezeichnung": "Holzbau",
+      "lernziele": "<p>F&auml;higkeit zum Entwerfen und Gestalten von Bauteilen des Holzbaus unter Ber&uuml;cksichtigung der Stabilit&auml;tsprobleme und der statischen, konstruktiven und ausf&uuml;hrungstechnischen Anforderungen an die Verbindungen</p>",
+      "planinhalt": "<ul>\n<li>Grundlagen der Bemessung im Holzbau</li>\n<li>Bemessung von Bauteilen aus Vollholz und Brettschichtholz</li>\n<li>Bemessung von Holzverbindungen</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 42351,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 42354,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Holzbau"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Timber Construction"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10197,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10197_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10234,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10234_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10261,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10261_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533883,
+      "name": "Wenk",
+      "vorname": "Felix"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 26096,
+      "kuerzel": "M_Bausta1",
+      "bezeichnung": "Baustatik 1",
+      "url": "allModules/26096_M_Bausta1.json"
+    },
+    {
+      "id": 26125,
+      "kuerzel": "M_Baustoff2",
+      "bezeichnung": "Baustoffe 2",
+      "url": "allModules/26125_M_Baustoff2.json"
+    },
+    {
+      "id": 26278,
+      "kuerzel": "M_Baustat2",
+      "bezeichnung": "Baustatik 2",
+      "url": "allModules/26278_M_Baustat2.json"
+    },
+    {
+      "id": 41879,
+      "kuerzel": "M_GlProj",
+      "bezeichnung": "Grundlagen der Projektierung von Tragwerken",
+      "url": "allModules/41879_M_GlProj.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 42349,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat gem&auml;ss Semesterplan</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Holzbau"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Timber Construction"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2023,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  }
+}

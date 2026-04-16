@@ -1,0 +1,7580 @@
+{
+  "id": 10281,
+  "kuerzel": "ST_BB",
+  "bezeichnung": "Systemtechnik BB",
+  "versionKuerzel": "STD_05",
+  "typ": "Bachelor",
+  "art": "Studiengang",
+  "form": "Teilzeit",
+  "kredits": [
+    {
+      "id": 10868,
+      "minKredits": 0,
+      "kategorien": [
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1"
+        }
+      ]
+    },
+    {
+      "id": 10870,
+      "minKredits": 0,
+      "kategorien": [
+        {
+          "id": 10180,
+          "kuerzel": "GLM-G2",
+          "bezeichnung": "Grundlagenmodule Gruppe 2"
+        }
+      ]
+    },
+    {
+      "id": 10871,
+      "minKredits": 0,
+      "kategorien": [
+        {
+          "id": 10181,
+          "kuerzel": "GLM-G3",
+          "bezeichnung": "Grundlagenmodule Gruppe 3"
+        }
+      ]
+    },
+    {
+      "id": 10872,
+      "minKredits": 0,
+      "kategorien": [
+        {
+          "id": 10182,
+          "kuerzel": "GLM-G4",
+          "bezeichnung": "Grundlagenmodule Gruppe 4"
+        }
+      ]
+    },
+    {
+      "id": 10873,
+      "minKredits": 0,
+      "kategorien": [
+        {
+          "id": 10183,
+          "kuerzel": "GLM-G5",
+          "bezeichnung": "Grundlagenmodule Gruppe 5"
+        }
+      ]
+    },
+    {
+      "id": 10874,
+      "minKredits": 0,
+      "kategorien": [
+        {
+          "id": 10184,
+          "kuerzel": "GLM-G6",
+          "bezeichnung": "Grundlagenmodule Gruppe 6"
+        }
+      ]
+    },
+    {
+      "id": 10875,
+      "minKredits": 0,
+      "kategorien": [
+        {
+          "id": 10185,
+          "kuerzel": "GLM-G7",
+          "bezeichnung": "Grundlagenmodule Gruppe 7"
+        }
+      ]
+    },
+    {
+      "id": 10876,
+      "minKredits": 0,
+      "kategorien": [
+        {
+          "id": 10186,
+          "kuerzel": "GLM-G8",
+          "bezeichnung": "Grundlagenmodule Gruppe 8"
+        }
+      ]
+    },
+    {
+      "id": 10855,
+      "minKredits": 70,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule"
+        }
+      ]
+    },
+    {
+      "id": 10852,
+      "minKredits": 61,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule"
+        }
+      ]
+    },
+    {
+      "id": 10850,
+      "minKredits": 20,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule"
+        }
+      ]
+    },
+    {
+      "id": 10848,
+      "minKredits": 14,
+      "kategorien": [
+        {
+          "id": 10177,
+          "kuerzel": "ASM",
+          "bezeichnung": "Module des Anwendungsschwerpunktes"
+        }
+      ]
+    }
+  ],
+  "spezialisierungen": [
+    {
+      "id": 10301,
+      "kuerzel": "ZuQual",
+      "bezeichnung": "Zusatzqualifikation",
+      "url": "allStudies/10301_ZuQual.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Aditional qualification as a Product and Project Engineer"
+        }
+      ]
+    },
+    {
+      "id": 10303,
+      "kuerzel": "MaB",
+      "bezeichnung": "Maschinenbau",
+      "url": "allStudies/10303_MaB.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Mechanical Engineering"
+        }
+      ]
+    },
+    {
+      "id": 10304,
+      "kuerzel": "MiT",
+      "bezeichnung": "Mikrotechnik",
+      "url": "allStudies/10304_MiT.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Microtechnology"
+        }
+      ]
+    },
+    {
+      "id": 10337,
+      "kuerzel": "PhO",
+      "bezeichnung": "Photonik",
+      "url": "allStudies/10337_PhO.json"
+    },
+    {
+      "id": 10367,
+      "kuerzel": "Elekt",
+      "bezeichnung": "Elektronik und Regelungstechnik",
+      "url": "allStudies/10367_Elekt.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Electronics and Control Engineering"
+        }
+      ]
+    },
+    {
+      "id": 10369,
+      "kuerzel": "Ingen",
+      "bezeichnung": "Ingenieurinformatik",
+      "url": "allStudies/10369_Ingen.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Computer Science"
+        }
+      ]
+    },
+    {
+      "id": 10371,
+      "kuerzel": "Mecha",
+      "bezeichnung": "Mechanik und Produktion",
+      "url": "allStudies/10371_Mecha.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Mechanics and Production Engineering"
+        }
+      ]
+    },
+    {
+      "id": 10373,
+      "kuerzel": "Techn",
+      "bezeichnung": "Technologie und Prozesse",
+      "url": "allStudies/10373_Techn.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Technology and Processes"
+        }
+      ]
+    },
+    {
+      "id": 10374,
+      "kuerzel": "IMPmMP",
+      "bezeichnung": "Innovationsmanagement und Produktentwicklung mit Mechanik und Produktion",
+      "url": "allStudies/10374_IMPmMP.json"
+    },
+    {
+      "id": 10375,
+      "kuerzel": "IMPmTP",
+      "bezeichnung": "Innovationsmanagement und Produktentwicklung mit Technologie und Prozesse",
+      "url": "allStudies/10375_IMPmTP.json"
+    },
+    {
+      "id": 10376,
+      "kuerzel": "IMPmER",
+      "bezeichnung": "Innovationsmanagement und Produktentwicklung mit Elektronik und Regelungstechnik",
+      "url": "allStudies/10376_IMPmER.json"
+    },
+    {
+      "id": 10377,
+      "kuerzel": "IMPmII",
+      "bezeichnung": "Innovationsmanagement und Produktentwicklung mit Ingenieurinformatik",
+      "url": "allStudies/10377_IMPmII.json"
+    },
+    {
+      "id": 10378,
+      "kuerzel": "IKS",
+      "bezeichnung": "Informations- und Kommunikationssysteme",
+      "url": "allStudies/10378_IKS.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Infomation and Communication Systems"
+        }
+      ]
+    },
+    {
+      "id": 10379,
+      "kuerzel": "IMPmIKS",
+      "bezeichnung": "Innovationsmanagement und Produktentwicklung mit Informations- und Kommunikationssysteme ",
+      "url": "allStudies/10379_IMPmIKS.json"
+    },
+    {
+      "id": 10395,
+      "kuerzel": "ElSyst",
+      "bezeichnung": "Elektronische Systeme",
+      "url": "allStudies/10395_ElSyst.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Electronic Systems"
+        }
+      ]
+    },
+    {
+      "id": 10396,
+      "kuerzel": "EmbSys",
+      "bezeichnung": "Embedded Systems",
+      "url": "allStudies/10396_EmbSys.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Embedded Systems"
+        }
+      ]
+    },
+    {
+      "id": 10397,
+      "kuerzel": "EnSyst",
+      "bezeichnung": "Energiesysteme",
+      "url": "allStudies/10397_EnSyst.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Energy Systems"
+        }
+      ]
+    },
+    {
+      "id": 10398,
+      "kuerzel": "MeTro",
+      "bezeichnung": "Mechatronik",
+      "url": "allStudies/10398_MeTro.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Mechatronics"
+        }
+      ]
+    },
+    {
+      "id": 10399,
+      "kuerzel": "ProdEnt",
+      "bezeichnung": "Produktentwicklung",
+      "url": "allStudies/10399_ProdEnt.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Product Development"
+        }
+      ]
+    },
+    {
+      "id": 10400,
+      "kuerzel": "MedTech",
+      "bezeichnung": "Medizintechnik",
+      "url": "allStudies/10400_MedTech.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Biomedical Enginering"
+        }
+      ]
+    },
+    {
+      "id": 10401,
+      "kuerzel": "TechOpt",
+      "bezeichnung": "Technische Optik",
+      "url": "allStudies/10401_TechOpt.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Technical Optics"
+        }
+      ]
+    },
+    {
+      "id": 10402,
+      "kuerzel": "WerkTech",
+      "bezeichnung": "Werkstofftechnik",
+      "url": "allStudies/10402_WerkTech.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Materials Science"
+        }
+      ]
+    },
+    {
+      "id": 10403,
+      "kuerzel": "MuNaTech",
+      "bezeichnung": "Mikro- und Nanotechnologie",
+      "url": "allStudies/10403_MuNaTech.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Micro- and Nanotechnology"
+        }
+      ]
+    },
+    {
+      "id": 10404,
+      "kuerzel": "ProdMeTe",
+      "bezeichnung": "Produktionsmesstechnik",
+      "url": "allStudies/10404_ProdMeTe.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Production Metrology"
+        }
+      ]
+    },
+    {
+      "id": 10427,
+      "kuerzel": "CompEng",
+      "bezeichnung": "Computational Engineering",
+      "url": "allStudies/10427_CompEng.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Computational Engineering"
+        }
+      ]
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "bezeichnung": "Systems Engineering, part-time studies"
+    }
+  ],
+  "studienberater": {
+    "id": 2000117,
+    "name": "Keller",
+    "vorname": "Daniel"
+  },
+  "zuordnungen": [
+    {
+      "id": 52624,
+      "kuerzel": "M_BV",
+      "bezeichnung": "2D- und 3D-Bildverarbeitung",
+      "url": "allModules/52624_M_BV.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64379,
+      "kuerzel": "M_3DK",
+      "bezeichnung": "3D-Koordinatenmesstechnik",
+      "url": "allModules/64379_M_3DK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65095,
+      "kuerzel": "M_AdM1",
+      "bezeichnung": "Advanced Manufacturing 1",
+      "url": "allModules/65095_M_AdM1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 50470,
+      "kuerzel": "M_AM",
+      "bezeichnung": "Advanced Materials",
+      "url": "allModules/50470_M_AM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 46295,
+      "kuerzel": "M_APE",
+      "bezeichnung": "Advanced Power Electronics",
+      "url": "allModules/46295_M_APE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64358,
+      "kuerzel": "M_AIP",
+      "bezeichnung": "AI-assisted Programming",
+      "url": "allModules/64358_M_AIP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 53726,
+      "kuerzel": "M_AKK_I",
+      "bezeichnung": "Allgemeiner kultureller Kontext I",
+      "url": "allModules/53726_M_AKK_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10185,
+          "kuerzel": "GLM-G7",
+          "bezeichnung": "Grundlagenmodule Gruppe 7",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 53731,
+      "kuerzel": "M_AKK_II",
+      "bezeichnung": "Allgemeiner kultureller Kontext II",
+      "url": "allModules/53731_M_AKK_II.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10185,
+          "kuerzel": "GLM-G7",
+          "bezeichnung": "Grundlagenmodule Gruppe 7",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 54703,
+      "kuerzel": "M_AKK_III",
+      "bezeichnung": "Allgemeiner kultureller Kontext III",
+      "url": "allModules/54703_M_AKK_III.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10180,
+          "kuerzel": "GLM-G2",
+          "bezeichnung": "Grundlagenmodule Gruppe 2",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10185,
+          "kuerzel": "GLM-G7",
+          "bezeichnung": "Grundlagenmodule Gruppe 7",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 54710,
+      "kuerzel": "M_AKK_IV",
+      "bezeichnung": "Allgemeiner kultureller Kontext IV",
+      "url": "allModules/54710_M_AKK_IV.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10180,
+          "kuerzel": "GLM-G2",
+          "bezeichnung": "Grundlagenmodule Gruppe 2",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10185,
+          "kuerzel": "GLM-G7",
+          "bezeichnung": "Grundlagenmodule Gruppe 7",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 51195,
+      "kuerzel": "M_AKK_IV",
+      "bezeichnung": "Allgemeiner kultureller Kontext IV",
+      "url": "allModules/51195_M_AKK_IV.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10180,
+          "kuerzel": "GLM-G2",
+          "bezeichnung": "Grundlagenmodule Gruppe 2",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10185,
+          "kuerzel": "GLM-G7",
+          "bezeichnung": "Grundlagenmodule Gruppe 7",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 49890,
+      "kuerzel": "M_AKK_IV",
+      "bezeichnung": "Allgemeiner kultureller Kontext IV",
+      "url": "allModules/49890_M_AKK_IV.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10180,
+          "kuerzel": "GLM-G2",
+          "bezeichnung": "Grundlagenmodule Gruppe 2",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10185,
+          "kuerzel": "GLM-G7",
+          "bezeichnung": "Grundlagenmodule Gruppe 7",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64986,
+      "kuerzel": "M_IKAG",
+      "bezeichnung": "Alternde Gesellschaften ",
+      "url": "allModules/64986_M_IKAG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65286,
+      "kuerzel": "M_IKAG_RJ",
+      "bezeichnung": "Alternde Gesellschaften",
+      "url": "allModules/65286_M_IKAG_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65082,
+      "kuerzel": "M_Ana1",
+      "bezeichnung": "Analysis 1: Differentialrechnung",
+      "url": "allModules/65082_M_Ana1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10181,
+          "kuerzel": "GLM-G3",
+          "bezeichnung": "Grundlagenmodule Gruppe 3",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56984,
+      "kuerzel": "M_Ana2",
+      "bezeichnung": "Analysis 2: Gewöhnliche Differentialgleichungen",
+      "url": "allModules/56984_M_Ana2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10181,
+          "kuerzel": "GLM-G3",
+          "bezeichnung": "Grundlagenmodule Gruppe 3",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56997,
+      "kuerzel": "M_Ana3",
+      "bezeichnung": "Analysis 3: Mehrdimensionale Analysis",
+      "url": "allModules/56997_M_Ana3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 54350,
+      "kuerzel": "M_AOP",
+      "bezeichnung": "Angewandte Optimierung",
+      "url": "allModules/54350_M_AOP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56326,
+      "kuerzel": "M_AAC",
+      "bezeichnung": "Angriff und Abwehr im Cyberspace",
+      "url": "allModules/56326_M_AAC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44202,
+      "kuerzel": "M_IKAA",
+      "bezeichnung": "Applied AI",
+      "url": "allModules/44202_M_IKAA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44196,
+      "kuerzel": "M_IKAA_p",
+      "bezeichnung": "Applied AI",
+      "url": "allModules/44196_M_IKAA_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57378,
+      "kuerzel": "M_IKAA_p",
+      "bezeichnung": "Applied AI SG",
+      "url": "allModules/57378_M_IKAA_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57381,
+      "kuerzel": "M_IKAA",
+      "bezeichnung": "Applied AI SG",
+      "url": "allModules/57381_M_IKAA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64361,
+      "kuerzel": "M_ACS",
+      "bezeichnung": "Applied Cyber Security",
+      "url": "allModules/64361_M_ACS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56734,
+      "kuerzel": "M_IKFD",
+      "bezeichnung": "Applied Frugal Design: Einfach gestalten, gesund leben",
+      "url": "allModules/56734_M_IKFD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56737,
+      "kuerzel": "M_IKFD_p",
+      "bezeichnung": "Applied Frugal Design: Einfach gestalten, gesund leben",
+      "url": "allModules/56737_M_IKFD_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 64382,
+      "kuerzel": "M_ANN",
+      "bezeichnung": "Applied Neural Networks",
+      "url": "allModules/64382_M_ANN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 52621,
+      "kuerzel": "M_ANN",
+      "bezeichnung": "Applied Neural Networks",
+      "url": "allModules/52621_M_ANN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64385,
+      "kuerzel": "M_AUT1",
+      "bezeichnung": "Automation 1",
+      "url": "allModules/64385_M_AUT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 64388,
+      "kuerzel": "M_AUT2",
+      "bezeichnung": "Automation 2",
+      "url": "allModules/64388_M_AUT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 54016,
+      "kuerzel": "M_AUT_II",
+      "bezeichnung": "Automation II",
+      "url": "allModules/54016_M_AUT_II.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 54751,
+      "kuerzel": "M_BA",
+      "bezeichnung": "Bachelor-Arbeit",
+      "url": "allModules/54751_M_BA.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10177,
+          "kuerzel": "ASM",
+          "bezeichnung": "Module des Anwendungsschwerpunktes",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 56919,
+      "kuerzel": "M_IKBH",
+      "bezeichnung": "Behavioral Design  ",
+      "url": "allModules/56919_M_IKBH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 54754,
+      "kuerzel": "M_BIM_I",
+      "bezeichnung": "Betriebswirtschaftslehre und Integriertes Management I",
+      "url": "allModules/54754_M_BIM_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10180,
+          "kuerzel": "GLM-G2",
+          "bezeichnung": "Grundlagenmodule Gruppe 2",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10186,
+          "kuerzel": "GLM-G8",
+          "bezeichnung": "Grundlagenmodule Gruppe 8",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 54758,
+      "kuerzel": "M_BIM_II",
+      "bezeichnung": "Betriebswirtschaftslehre und Integriertes Management II",
+      "url": "allModules/54758_M_BIM_II.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10180,
+          "kuerzel": "GLM-G2",
+          "bezeichnung": "Grundlagenmodule Gruppe 2",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10186,
+          "kuerzel": "GLM-G8",
+          "bezeichnung": "Grundlagenmodule Gruppe 8",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64400,
+      "kuerzel": "M_BME",
+      "bezeichnung": "Biomedical Engineering ",
+      "url": "allModules/64400_M_BME.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64403,
+      "kuerzel": "M_BMI",
+      "bezeichnung": "Biomedical Imaging",
+      "url": "allModules/64403_M_BMI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57357,
+      "kuerzel": "M_idks.IKBW",
+      "bezeichnung": "Blickwechsel",
+      "url": "allModules/57357_M_idks.IKBW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44040,
+      "kuerzel": "M_IKBW",
+      "bezeichnung": "Blickwechsel",
+      "url": "allModules/44040_M_IKBW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44094,
+      "kuerzel": "M_IKKL",
+      "bezeichnung": "Circular Economy",
+      "url": "allModules/44094_M_IKKL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44097,
+      "kuerzel": "M_IKKL_p",
+      "bezeichnung": "Circular Economy",
+      "url": "allModules/44097_M_IKKL_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 49694,
+      "kuerzel": "M_CC",
+      "bezeichnung": "Cloud Computing",
+      "url": "allModules/49694_M_CC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56710,
+      "kuerzel": "M_IKCC",
+      "bezeichnung": "Co-Creation und Inclusive Design Methoden",
+      "url": "allModules/56710_M_IKCC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56713,
+      "kuerzel": "M_IKCC_p",
+      "bezeichnung": "Co-Creation und Inclusive Design Methoden",
+      "url": "allModules/56713_M_IKCC_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 54614,
+      "kuerzel": "M_CoE_I",
+      "bezeichnung": "Computational Engineering I",
+      "url": "allModules/54614_M_CoE_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 54623,
+      "kuerzel": "M_CoE_II",
+      "bezeichnung": "Computational Engineering II",
+      "url": "allModules/54623_M_CoE_II.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 54632,
+      "kuerzel": "M_CoE_III",
+      "bezeichnung": "Computational Engineering III",
+      "url": "allModules/54632_M_CoE_III.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 54682,
+      "kuerzel": "M_CoE_IV",
+      "bezeichnung": "Computational Engineering IV",
+      "url": "allModules/54682_M_CoE_IV.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 56716,
+      "kuerzel": "M_IKCG",
+      "bezeichnung": "Corporate Governance and Sustainability",
+      "url": "allModules/56716_M_IKCG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64364,
+      "kuerzel": "M_CoIn",
+      "bezeichnung": "Corporate Innovation",
+      "url": "allModules/64364_M_CoIn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57443,
+      "kuerzel": "M_idks.IKCC",
+      "bezeichnung": "Creative Capability",
+      "url": "allModules/57443_M_idks.IKCC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57027,
+      "kuerzel": "M_DEIAI1",
+      "bezeichnung": "Data Engineering and Industrial Artificial Intelligence 1",
+      "url": "allModules/57027_M_DEIAI1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 52649,
+      "kuerzel": "M_DRL",
+      "bezeichnung": "Deep Reinforcement Learning",
+      "url": "allModules/52649_M_DRL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44043,
+      "kuerzel": "M_IKDK",
+      "bezeichnung": "Demokratie im Zeitalter von KI",
+      "url": "allModules/44043_M_IKDK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44046,
+      "kuerzel": "M_IKDK_p",
+      "bezeichnung": "Demokratie im Zeitalter von KI",
+      "url": "allModules/44046_M_IKDK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65301,
+      "kuerzel": "M_IKDK_p_SG",
+      "bezeichnung": "Demokratie im Zeitalter von KI Kopie",
+      "url": "allModules/65301_M_IKDK_p_SG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56802,
+      "kuerzel": "M_IKNW",
+      "bezeichnung": "Die Nachhaltigkeitswoche: Eventfabrik und Zukunftsworkshops",
+      "url": "allModules/56802_M_IKNW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57681,
+      "kuerzel": "M_IKNW_p",
+      "bezeichnung": "Die Nachhaltigkeitswoche: Eventfabrik und Zukunftsworkshops",
+      "url": "allModules/57681_M_IKNW_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 54641,
+      "kuerzel": "M_DWW",
+      "bezeichnung": "Differentialgleichungen & Wärmelehre / Wellenlehre",
+      "url": "allModules/54641_M_DWW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 7
+        },
+        {
+          "id": 10180,
+          "kuerzel": "GLM-G2",
+          "bezeichnung": "Grundlagenmodule Gruppe 2",
+          "kreditpunkte": 7
+        },
+        {
+          "id": 10181,
+          "kuerzel": "GLM-G3",
+          "bezeichnung": "Grundlagenmodule Gruppe 3",
+          "kreditpunkte": 7
+        }
+      ]
+    },
+    {
+      "id": 52859,
+      "kuerzel": "M_DKM",
+      "bezeichnung": "Differentialrechnung & Klassische Mechanik",
+      "url": "allModules/52859_M_DKM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 7
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 7
+        },
+        {
+          "id": 10181,
+          "kuerzel": "GLM-G3",
+          "bezeichnung": "Grundlagenmodule Gruppe 3",
+          "kreditpunkte": 7
+        }
+      ]
+    },
+    {
+      "id": 52652,
+      "kuerzel": "M_DPE",
+      "bezeichnung": "Digitale Produktentwicklung",
+      "url": "allModules/52652_M_DPE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 46298,
+      "kuerzel": "M_DSV",
+      "bezeichnung": "Digitale Signalverarbeitung",
+      "url": "allModules/46298_M_DSV.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57339,
+      "kuerzel": "M_IKDL_BU",
+      "bezeichnung": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen",
+      "url": "allModules/57339_M_IKDL_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 61146,
+      "kuerzel": "M_IKDL",
+      "bezeichnung": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen",
+      "url": "allModules/61146_M_IKDL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64989,
+      "kuerzel": "M_IKDL_p",
+      "bezeichnung": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen",
+      "url": "allModules/64989_M_IKDL_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65274,
+      "kuerzel": "M_IKDL_p_BU",
+      "bezeichnung": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen Kopie",
+      "url": "allModules/65274_M_IKDL_p_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44241,
+      "kuerzel": "M_IKDM_A",
+      "bezeichnung": "Dream Team - Mentoringprogramm für die nächste Generation Teil A",
+      "url": "allModules/44241_M_IKDM_A.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44244,
+      "kuerzel": "M_IKDM_B",
+      "bezeichnung": "Dream Team - Mentoringprogramm für die nächste Generation Teil B",
+      "url": "allModules/44244_M_IKDM_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 54347,
+      "kuerzel": "M_EVR",
+      "bezeichnung": "Einführung in Virtual Reality",
+      "url": "allModules/54347_M_EVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64367,
+      "kuerzel": "M_EiPa",
+      "bezeichnung": "Einführung ins Patentwesen",
+      "url": "allModules/64367_M_EiPa.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56720,
+      "kuerzel": "M_IKEI",
+      "bezeichnung": "Einsamkeit erforschen - wirtschaftliche, gesellschaftliche und private Dimensionen",
+      "url": "allModules/56720_M_IKEI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56731,
+      "kuerzel": "M_IKEI_p",
+      "bezeichnung": "Einsamkeit erforschen - wirtschaftliche, gesellschaftliche und private Dimensionen",
+      "url": "allModules/56731_M_IKEI_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56880,
+      "kuerzel": "M_EEES1",
+      "bezeichnung": "Electronic Engineering & Embedded Systems 1",
+      "url": "allModules/56880_M_EEES1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56888,
+      "kuerzel": "M_EEES2",
+      "bezeichnung": "Electronic Engineering & Embedded Systems 2",
+      "url": "allModules/56888_M_EEES2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 54342,
+      "kuerzel": "M_EES",
+      "bezeichnung": "Elektrische Energiesysteme",
+      "url": "allModules/54342_M_EES.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 64406,
+      "kuerzel": "M_EMO",
+      "bezeichnung": "Elektromobilität",
+      "url": "allModules/64406_M_EMO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 52865,
+      "kuerzel": "M_EuR_I",
+      "bezeichnung": "Elektronik und Regelungstechnik I",
+      "url": "allModules/52865_M_EuR_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 53854,
+      "kuerzel": "M_EuR_II",
+      "bezeichnung": "Elektronik und Regelungstechnik II",
+      "url": "allModules/53854_M_EuR_II.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 53843,
+      "kuerzel": "M_EuR_III",
+      "bezeichnung": "Elektronik und Regelungstechnik III",
+      "url": "allModules/53843_M_EuR_III.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 53832,
+      "kuerzel": "M_EuR_IV",
+      "bezeichnung": "Elektronik und Regelungstechnik IV",
+      "url": "allModules/53832_M_EuR_IV.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 54546,
+      "kuerzel": "M_ELA_1",
+      "bezeichnung": "Elektrotechnik & Lineare Algebra 1",
+      "url": "allModules/54546_M_ELA_1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 7
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 7
+        },
+        {
+          "id": 10182,
+          "kuerzel": "GLM-G4",
+          "bezeichnung": "Grundlagenmodule Gruppe 4",
+          "kreditpunkte": 7
+        }
+      ]
+    },
+    {
+      "id": 54591,
+      "kuerzel": "M_ELA_1_bb",
+      "bezeichnung": "Elektrotechnik & Lineare Algebra 1 (bb)",
+      "url": "allModules/54591_M_ELA_1_bb.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 7
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 7
+        },
+        {
+          "id": 10182,
+          "kuerzel": "GLM-G4",
+          "bezeichnung": "Grundlagenmodule Gruppe 4",
+          "kreditpunkte": 7
+        }
+      ]
+    },
+    {
+      "id": 54551,
+      "kuerzel": "M_ELA_2",
+      "bezeichnung": "Elektrotechnik & Lineare Algebra 2",
+      "url": "allModules/54551_M_ELA_2.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 7
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 7
+        },
+        {
+          "id": 10182,
+          "kuerzel": "GLM-G4",
+          "bezeichnung": "Grundlagenmodule Gruppe 4",
+          "kreditpunkte": 7
+        }
+      ]
+    },
+    {
+      "id": 57010,
+      "kuerzel": "M_ELA_2_bb",
+      "bezeichnung": "Elektrotechnik & Lineare Algebra 2 (bb)",
+      "url": "allModules/57010_M_ELA_2_bb.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 7
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 7
+        },
+        {
+          "id": 10182,
+          "kuerzel": "GLM-G4",
+          "bezeichnung": "Grundlagenmodule Gruppe 4",
+          "kreditpunkte": 7
+        }
+      ]
+    },
+    {
+      "id": 54127,
+      "kuerzel": "M_ELA_I",
+      "bezeichnung": "Elektrotechnik & Lineare Algebra I",
+      "url": "allModules/54127_M_ELA_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10182,
+          "kuerzel": "GLM-G4",
+          "bezeichnung": "Grundlagenmodule Gruppe 4",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 54168,
+      "kuerzel": "M_ELA_I_bb",
+      "bezeichnung": "Elektrotechnik & Lineare Algebra I (bb)",
+      "url": "allModules/54168_M_ELA_I_bb.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10182,
+          "kuerzel": "GLM-G4",
+          "bezeichnung": "Grundlagenmodule Gruppe 4",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 54132,
+      "kuerzel": "M_ELA_II",
+      "bezeichnung": "Elektrotechnik & Lineare Algebra II",
+      "url": "allModules/54132_M_ELA_II.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 7
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 7
+        },
+        {
+          "id": 10182,
+          "kuerzel": "GLM-G4",
+          "bezeichnung": "Grundlagenmodule Gruppe 4",
+          "kreditpunkte": 7
+        }
+      ]
+    },
+    {
+      "id": 54139,
+      "kuerzel": "M_ELA_II_bb",
+      "bezeichnung": "Elektrotechnik & Lineare Algebra II (bb)",
+      "url": "allModules/54139_M_ELA_II_bb.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 7
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 7
+        },
+        {
+          "id": 10182,
+          "kuerzel": "GLM-G4",
+          "bezeichnung": "Grundlagenmodule Gruppe 4",
+          "kreditpunkte": 7
+        }
+      ]
+    },
+    {
+      "id": 64370,
+      "kuerzel": "M_EnDi",
+      "bezeichnung": "Energie digital",
+      "url": "allModules/64370_M_EnDi.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 49697,
+      "kuerzel": "M_CAE",
+      "bezeichnung": "English for CAE",
+      "url": "allModules/49697_M_CAE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57448,
+      "kuerzel": "M_idks.IKMO",
+      "bezeichnung": "Enkeltauglich?! - Gemeinde und Städte im Morgenland",
+      "url": "allModules/57448_M_idks.IKMO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44049,
+      "kuerzel": "M_IKEK",
+      "bezeichnung": "Ethik & KI",
+      "url": "allModules/44049_M_IKEK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44052,
+      "kuerzel": "M_IKEK_p",
+      "bezeichnung": "Ethik & KI",
+      "url": "allModules/44052_M_IKEK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 46038,
+      "kuerzel": "M_EUB",
+      "bezeichnung": "Eurobot",
+      "url": "allModules/46038_M_EUB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 54761,
+      "kuerzel": "M_FM",
+      "bezeichnung": "Fachmodul",
+      "url": "allModules/54761_M_FM.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10177,
+          "kuerzel": "ASM",
+          "bezeichnung": "Module des Anwendungsschwerpunktes",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 53489,
+      "kuerzel": "M_FaQ",
+      "bezeichnung": "Faszination der Quanten - Konzepte und Anwendungen der modernen Physik",
+      "url": "allModules/53489_M_FaQ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 49566,
+      "kuerzel": "M_FHM_W10",
+      "bezeichnung": "FH_München_Wahlmodul_10KP",
+      "url": "allModules/49566_M_FHM_W10.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 47275,
+      "kuerzel": "M_FHM_W14",
+      "bezeichnung": "FH_München_Wahlmodul_14KP",
+      "url": "allModules/47275_M_FHM_W14.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 14
+        }
+      ]
+    },
+    {
+      "id": 51553,
+      "kuerzel": "M_FHM_W18",
+      "bezeichnung": "FH_München_Wahlmodul_18KP",
+      "url": "allModules/51553_M_FHM_W18.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 52121,
+      "kuerzel": "M_FHNTB_W20",
+      "bezeichnung": "FH_NTB_Wahlmodul_20KP",
+      "url": "allModules/52121_M_FHNTB_W20.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 46514,
+      "kuerzel": "M_FP",
+      "bezeichnung": "Fokusprojekt",
+      "url": "allModules/46514_M_FP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 56925,
+      "kuerzel": "M_IKLD",
+      "bezeichnung": "Future Life Design: Den eigenen Lebensweg erfolgreich gestalten",
+      "url": "allModules/56925_M_IKLD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65051,
+      "kuerzel": "M_IKLD_p",
+      "bezeichnung": "Future Life Design: Den eigenen Lebensweg erfolgreich gestalten",
+      "url": "allModules/65051_M_IKLD_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56740,
+      "kuerzel": "M_IKFL",
+      "bezeichnung": "Future Life Design: Successfully shaping your own life path",
+      "url": "allModules/56740_M_IKFL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56743,
+      "kuerzel": "M_IKFL_p",
+      "bezeichnung": "Future Life Design: Successfully shaping your own life path",
+      "url": "allModules/56743_M_IKFL_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64956,
+      "kuerzel": "M_IKGD",
+      "bezeichnung": "Geheimnisse der Datensicherheit: Die CIA-Trias in der Praxis",
+      "url": "allModules/64956_M_IKGD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65004,
+      "kuerzel": "M_IKMO_p",
+      "bezeichnung": "Gemeinden & Städte von morgen. So gelingt nachhaltige Gemeindeentwicklung",
+      "url": "allModules/65004_M_IKMO_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44055,
+      "kuerzel": "M_IKMO",
+      "bezeichnung": "Gemeinden & Städte von morgen. So gelingt nachhaltige Gemeindeentwicklung",
+      "url": "allModules/44055_M_IKMO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44214,
+      "kuerzel": "M_IKGA_p",
+      "bezeichnung": "Generative AI in der Planung",
+      "url": "allModules/44214_M_IKGA_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64992,
+      "kuerzel": "M_IKGA",
+      "bezeichnung": "Generative AI in der Planung",
+      "url": "allModules/64992_M_IKGA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44061,
+      "kuerzel": "M_IKGL",
+      "bezeichnung": "Gesund leben und Langlebigkeit ",
+      "url": "allModules/44061_M_IKGL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44067,
+      "kuerzel": "M_IKAK_p",
+      "bezeichnung": "Gesundes Altern mit Hilfe von künstlicher Intelligenz",
+      "url": "allModules/44067_M_IKAK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44064,
+      "kuerzel": "M_IKAK",
+      "bezeichnung": "Gesundes Altern mit Hilfe von künstlicher Intelligenz ",
+      "url": "allModules/44064_M_IKAK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57384,
+      "kuerzel": "M_IKAK",
+      "bezeichnung": "Gesundes Altern mit Hilfe von künstlicher Intelligenz  SG",
+      "url": "allModules/57384_M_IKAK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57387,
+      "kuerzel": "M_IKAK_p",
+      "bezeichnung": "Gesundes Altern mit Hilfe von künstlicher Intelligenz SG",
+      "url": "allModules/57387_M_IKAK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 53469,
+      "kuerzel": "M_GDP",
+      "bezeichnung": "Global design project",
+      "url": "allModules/53469_M_GDP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64375,
+      "kuerzel": "M_GABF",
+      "bezeichnung": "Grundlagen der Anwendung der Betriebsfestigkeit",
+      "url": "allModules/64375_M_GABF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64409,
+      "kuerzel": "M_EMV",
+      "bezeichnung": "Grundlagen der Elektromagnetischen Verträglichkeit",
+      "url": "allModules/64409_M_EMV.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44070,
+      "kuerzel": "M_IKNN",
+      "bezeichnung": "Hackathon zu \"Netto-null in Gebäuden und Verkehr\"  ",
+      "url": "allModules/44070_M_IKNN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 47263,
+      "kuerzel": "M_CCNA_I",
+      "bezeichnung": "Hands-on CCNA I",
+      "url": "allModules/47263_M_CCNA_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 47266,
+      "kuerzel": "M_CCNA_II",
+      "bezeichnung": "Hands-on CCNA II",
+      "url": "allModules/47266_M_CCNA_II.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 47105,
+      "kuerzel": "M_HTW_E",
+      "bezeichnung": "HTW_Energietechnik",
+      "url": "allModules/47105_M_HTW_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 47108,
+      "kuerzel": "M_HTW_I",
+      "bezeichnung": "HTW_Internetanwendungen",
+      "url": "allModules/47108_M_HTW_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 47157,
+      "kuerzel": "M_HTW_K",
+      "bezeichnung": "HTW_Klassische und regenerierbare Energien",
+      "url": "allModules/47157_M_HTW_K.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 47154,
+      "kuerzel": "M_HTW_P",
+      "bezeichnung": "HTW_Prozessautomation",
+      "url": "allModules/47154_M_HTW_P.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44073,
+      "kuerzel": "M_IKII",
+      "bezeichnung": "Ideen Inkubator Klimawende ",
+      "url": "allModules/44073_M_IKII.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44076,
+      "kuerzel": "M_IKII_p",
+      "bezeichnung": "Ideen Inkubator Klimawende",
+      "url": "allModules/44076_M_IKII_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64967,
+      "kuerzel": "M_IKTSV2",
+      "bezeichnung": "IKTS_Vorlage 2ECTS",
+      "url": "allModules/64967_M_IKTSV2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43910,
+      "kuerzel": "M_IKTSV3",
+      "bezeichnung": "IKTS_Vorlage 3ECTS",
+      "url": "allModules/43910_M_IKTSV3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 43911,
+      "kuerzel": "M_IKTSV4",
+      "bezeichnung": "IKTS_Vorlage 4ECTS",
+      "url": "allModules/43911_M_IKTSV4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 46047,
+      "kuerzel": "M_IBV",
+      "bezeichnung": "Industrielle Bildverarbeitung",
+      "url": "allModules/46047_M_IBV.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45771,
+      "kuerzel": "M_Inf",
+      "bezeichnung": "Informatik",
+      "url": "allModules/45771_M_Inf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10184,
+          "kuerzel": "GLM-G6",
+          "bezeichnung": "Grundlagenmodule Gruppe 6",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 52948,
+      "kuerzel": "M_Inf",
+      "bezeichnung": "Informatik",
+      "url": "allModules/52948_M_Inf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10184,
+          "kuerzel": "GLM-G6",
+          "bezeichnung": "Grundlagenmodule Gruppe 6",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 52943,
+      "kuerzel": "M_IAR",
+      "bezeichnung": "Informatik & Autonome Roboter",
+      "url": "allModules/52943_M_IAR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10184,
+          "kuerzel": "GLM-G6",
+          "bezeichnung": "Grundlagenmodule Gruppe 6",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 52951,
+      "kuerzel": "M_Inf_bb",
+      "bezeichnung": "Informatik (bb)",
+      "url": "allModules/52951_M_Inf_bb.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10184,
+          "kuerzel": "GLM-G6",
+          "bezeichnung": "Grundlagenmodule Gruppe 6",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 46176,
+      "kuerzel": "M_Inf_bb",
+      "bezeichnung": "Informatik (bb)",
+      "url": "allModules/46176_M_Inf_bb.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10184,
+          "kuerzel": "GLM-G6",
+          "bezeichnung": "Grundlagenmodule Gruppe 6",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 64878,
+      "kuerzel": "M_Inf1",
+      "bezeichnung": "Informatik 1: Einführung in die Programmierung",
+      "url": "allModules/64878_M_Inf1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 5
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 5
+        },
+        {
+          "id": 10184,
+          "kuerzel": "GLM-G6",
+          "bezeichnung": "Grundlagenmodule Gruppe 6",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 61123,
+      "kuerzel": "M_Inf2",
+      "bezeichnung": "Informatik 2: Softwareengineering",
+      "url": "allModules/61123_M_Inf2.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10184,
+          "kuerzel": "GLM-G6",
+          "bezeichnung": "Grundlagenmodule Gruppe 6",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 48318,
+      "kuerzel": "M_IR",
+      "bezeichnung": "Information Retrievel",
+      "url": "allModules/48318_M_IR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 50603,
+      "kuerzel": "M_IuK_I",
+      "bezeichnung": "Informations- und Kommunikationssysteme I",
+      "url": "allModules/50603_M_IuK_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 50612,
+      "kuerzel": "M_IuK_II",
+      "bezeichnung": "Informations- und Kommunikationssysteme II",
+      "url": "allModules/50612_M_IuK_II.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 50623,
+      "kuerzel": "M_IuK_III",
+      "bezeichnung": "Informations- und Kommunikationssysteme III",
+      "url": "allModules/50623_M_IuK_III.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 50634,
+      "kuerzel": "M_IuK_IV",
+      "bezeichnung": "Informations- und Kommunikationssysteme IV",
+      "url": "allModules/50634_M_IuK_IV.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 48306,
+      "kuerzel": "M_IVI",
+      "bezeichnung": "Informationsvisualisierung für Ingenieure",
+      "url": "allModules/48306_M_IVI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 52212,
+      "kuerzel": "M_IVI",
+      "bezeichnung": "Informationsvisualisierung für Ingenieure",
+      "url": "allModules/52212_M_IVI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 52956,
+      "kuerzel": "M_InI_I",
+      "bezeichnung": "Ingenieurinformatik I",
+      "url": "allModules/52956_M_InI_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 52967,
+      "kuerzel": "M_InI_II",
+      "bezeichnung": "Ingenieurinformatik II",
+      "url": "allModules/52967_M_InI_II.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 53764,
+      "kuerzel": "M_InI_III",
+      "bezeichnung": "Ingenieurinformatik III",
+      "url": "allModules/53764_M_InI_III.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 53775,
+      "kuerzel": "M_InI_IV",
+      "bezeichnung": "Ingenieurinformatik IV",
+      "url": "allModules/53775_M_InI_IV.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 52290,
+      "kuerzel": "M_InI_IV",
+      "bezeichnung": "Ingenieurinformatik IV",
+      "url": "allModules/52290_M_InI_IV.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 45893,
+      "kuerzel": "M_IuP_I",
+      "bezeichnung": "Innovationsmanagement und Produktentwicklung I",
+      "url": "allModules/45893_M_IuP_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 45900,
+      "kuerzel": "M_IuP_II",
+      "bezeichnung": "Innovationsmanagement und Produktentwicklung II",
+      "url": "allModules/45900_M_IuP_II.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 52989,
+      "kuerzel": "M_IEM",
+      "bezeichnung": "Integralrechnung & Elektrizität / Magnetismus",
+      "url": "allModules/52989_M_IEM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10181,
+          "kuerzel": "GLM-G3",
+          "bezeichnung": "Grundlagenmodule Gruppe 3",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 50016,
+      "kuerzel": "M_IEM",
+      "bezeichnung": "Integralrechnung & Elektrizität / Magnetismus",
+      "url": "allModules/50016_M_IEM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10181,
+          "kuerzel": "GLM-G3",
+          "bezeichnung": "Grundlagenmodule Gruppe 3",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 44079,
+      "kuerzel": "M_IKIE",
+      "bezeichnung": "Interdisziplinär entwickeln - gerüstet für die technikbasierte Arbeitswelt",
+      "url": "allModules/44079_M_IKIE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 49870,
+      "kuerzel": "M_IPW",
+      "bezeichnung": "International Project Week",
+      "url": "allModules/49870_M_IPW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65049,
+      "kuerzel": "M_IKIS",
+      "bezeichnung": "International Summer School for Sustainability",
+      "url": "allModules/65049_M_IKIS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56866,
+      "kuerzel": "M_IKIS_p",
+      "bezeichnung": "International Summer School for Sustainability",
+      "url": "allModules/56866_M_IKIS_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 52669,
+      "kuerzel": "M_IoT",
+      "bezeichnung": "Internet of Things",
+      "url": "allModules/52669_M_IoT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 50544,
+      "kuerzel": "M_IP_3KP",
+      "bezeichnung": "IP \"Engineering Visions\"_3KP",
+      "url": "allModules/50544_M_IP_3KP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 53829,
+      "kuerzel": "M_IP_4KP",
+      "bezeichnung": "IP \"Engineering Visions\"_4KP",
+      "url": "allModules/53829_M_IP_4KP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44082,
+      "kuerzel": "M_IKLE",
+      "bezeichnung": "IZM-Projekt",
+      "url": "allModules/44082_M_IKLE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44085,
+      "kuerzel": "M_IKLE_p",
+      "bezeichnung": "IZM-Projekt",
+      "url": "allModules/44085_M_IKLE_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44088,
+      "kuerzel": "M_IKGE",
+      "bezeichnung": "Klimagerechte Stadt- und Gemeindeentwicklung ",
+      "url": "allModules/44088_M_IKGE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44091,
+      "kuerzel": "M_IKGE_p",
+      "bezeichnung": "Klimagerechte Stadt- und Gemeindeentwicklung ",
+      "url": "allModules/44091_M_IKGE_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 61396,
+      "kuerzel": "M_IKKP",
+      "bezeichnung": "Klimakrise: Kann die Politik die Welt noch retten?",
+      "url": "allModules/61396_M_IKKP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 61404,
+      "kuerzel": "M_IKKP_p",
+      "bezeichnung": "Klimakrise: Kann die Politik die Welt noch retten?",
+      "url": "allModules/61404_M_IKKP_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65292,
+      "kuerzel": "M_IKKP_p_RJ",
+      "bezeichnung": "Klimakrise: Kann die Politik die Welt noch retten? Kopie",
+      "url": "allModules/65292_M_IKKP_p_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65046,
+      "kuerzel": "M_IKGS",
+      "bezeichnung": "Knowhow und Technologien für nachhaltige Entwicklung im globalen Süden ",
+      "url": "allModules/65046_M_IKGS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65180,
+      "kuerzel": "M_IKGS_p",
+      "bezeichnung": "Knowhow und Technologien für nachhaltige Entwicklung im globalen Süden ",
+      "url": "allModules/65180_M_IKGS_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44187,
+      "kuerzel": "M_IKKK_p",
+      "bezeichnung": "Kommunale Klimawende",
+      "url": "allModules/44187_M_IKKK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44184,
+      "kuerzel": "M_IKKK",
+      "bezeichnung": "Kommunale Klimawende",
+      "url": "allModules/44184_M_IKKK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 52672,
+      "kuerzel": "M_KOM_I",
+      "bezeichnung": "Kommunikation I",
+      "url": "allModules/52672_M_KOM_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 52675,
+      "kuerzel": "M_KOM_II",
+      "bezeichnung": "Kommunikation II",
+      "url": "allModules/52675_M_KOM_II.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 54026,
+      "kuerzel": "M_KIP",
+      "bezeichnung": "Künstliche Intelligenz in der Produktentwicklung",
+      "url": "allModules/54026_M_KIP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 46059,
+      "kuerzel": "M_LO",
+      "bezeichnung": "Laseroptik",
+      "url": "allModules/46059_M_LO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64412,
+      "kuerzel": "M_LaT",
+      "bezeichnung": "Lasertechnik",
+      "url": "allModules/64412_M_LaT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64995,
+      "kuerzel": "M_IKLF",
+      "bezeichnung": "Lernfähigkeit und Gedächtnis",
+      "url": "allModules/64995_M_IKLF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 54005,
+      "kuerzel": "M_LDH",
+      "bezeichnung": "Lernlabor \"Digitalisierung Hands-on\"",
+      "url": "allModules/54005_M_LDH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44232,
+      "kuerzel": "M_IKDH_p",
+      "bezeichnung": "Lernlabor «Digitalisieren Hands-on»",
+      "url": "allModules/44232_M_IKDH_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44235,
+      "kuerzel": "M_IKDH",
+      "bezeichnung": "Lernlabor «Digitalisieren Hands-on»",
+      "url": "allModules/44235_M_IKDH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65243,
+      "kuerzel": "M_IKDH_p_RJ",
+      "bezeichnung": "Lernlabor «Digitalisieren Hands-on»",
+      "url": "allModules/65243_M_IKDH_p_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44103,
+      "kuerzel": "M_IKLK",
+      "bezeichnung": "Lösungsorientierte Kommunikation für dynamische Arbeitswelten ",
+      "url": "allModules/44103_M_IKLK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 54029,
+      "kuerzel": "M_ML",
+      "bezeichnung": "Machine Learning",
+      "url": "allModules/54029_M_ML.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 54148,
+      "kuerzel": "M_MaB_I",
+      "bezeichnung": "Maschinenbau I",
+      "url": "allModules/54148_M_MaB_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 54647,
+      "kuerzel": "M_MaB_II",
+      "bezeichnung": "Maschinenbau II",
+      "url": "allModules/54647_M_MaB_II.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 54157,
+      "kuerzel": "M_MaB_III",
+      "bezeichnung": "Maschinenbau III",
+      "url": "allModules/54157_M_MaB_III.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 54671,
+      "kuerzel": "M_MaB_IV",
+      "bezeichnung": "Maschinenbau IV",
+      "url": "allModules/54671_M_MaB_IV.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 54564,
+      "kuerzel": "M_MMD_1",
+      "bezeichnung": "Materials & Mechanical Design 1",
+      "url": "allModules/54564_M_MMD_1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10183,
+          "kuerzel": "GLM-G5",
+          "bezeichnung": "Grundlagenmodule Gruppe 5",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 54570,
+      "kuerzel": "M_MMD_2",
+      "bezeichnung": "Materials & Mechanical Design 2",
+      "url": "allModules/54570_M_MMD_2.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 5
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 5
+        },
+        {
+          "id": 10183,
+          "kuerzel": "GLM-G5",
+          "bezeichnung": "Grundlagenmodule Gruppe 5",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 57149,
+      "kuerzel": "M_MEPD1",
+      "bezeichnung": "Mechanical Engineering & Product Development 1",
+      "url": "allModules/57149_M_MEPD1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 53041,
+      "kuerzel": "M_MME_I",
+      "bezeichnung": "Mechanik & Materials Engineering I",
+      "url": "allModules/53041_M_MME_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10183,
+          "kuerzel": "GLM-G5",
+          "bezeichnung": "Grundlagenmodule Gruppe 5",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 53048,
+      "kuerzel": "M_MME_I_bb",
+      "bezeichnung": "Mechanik & Materials Engineering I (bb)",
+      "url": "allModules/53048_M_MME_I_bb.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10183,
+          "kuerzel": "GLM-G5",
+          "bezeichnung": "Grundlagenmodule Gruppe 5",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 53817,
+      "kuerzel": "M_MME_II",
+      "bezeichnung": "Mechanik & Materials Engineering II",
+      "url": "allModules/53817_M_MME_II.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10183,
+          "kuerzel": "GLM-G5",
+          "bezeichnung": "Grundlagenmodule Gruppe 5",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 53823,
+      "kuerzel": "M_MME_II_bb",
+      "bezeichnung": "Mechanik & Materials Engineering II (bb)",
+      "url": "allModules/53823_M_MME_II_bb.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10183,
+          "kuerzel": "GLM-G5",
+          "bezeichnung": "Grundlagenmodule Gruppe 5",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 65123,
+      "kuerzel": "M_MeT1",
+      "bezeichnung": "Mechatronik 1",
+      "url": "allModules/65123_M_MeT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 57047,
+      "kuerzel": "M_MeT2",
+      "bezeichnung": "Mechatronik 2",
+      "url": "allModules/57047_M_MeT2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 64863,
+      "kuerzel": "M_MeT3",
+      "bezeichnung": "Mechatronik 3",
+      "url": "allModules/64863_M_MeT3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 9
+        }
+      ]
+    },
+    {
+      "id": 54731,
+      "kuerzel": "M_MeT_I",
+      "bezeichnung": "Mechatronik I",
+      "url": "allModules/54731_M_MeT_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 54742,
+      "kuerzel": "M_MeT_II",
+      "bezeichnung": "Mechatronik II",
+      "url": "allModules/54742_M_MeT_II.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 57187,
+      "kuerzel": "M_MeT_III",
+      "bezeichnung": "Mechatronik III",
+      "url": "allModules/57187_M_MeT_III.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 57198,
+      "kuerzel": "M_MeT_IV",
+      "bezeichnung": "Mechatronik IV",
+      "url": "allModules/57198_M_MeT_IV.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 64983,
+      "kuerzel": "M_IKMI",
+      "bezeichnung": "Medien- und Informationskompetenz in Zeiten von KI ",
+      "url": "allModules/64983_M_IKMI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44112,
+      "kuerzel": "M_IKMI_p",
+      "bezeichnung": "Medien- und Informationskompetenz in Zeiten von KI",
+      "url": "allModules/44112_M_IKMI_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 50044,
+      "kuerzel": "M_MAS",
+      "bezeichnung": "Mehrdimensionale Analysis & Schwingungslehre / Optik",
+      "url": "allModules/50044_M_MAS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10180,
+          "kuerzel": "GLM-G2",
+          "bezeichnung": "Grundlagenmodule Gruppe 2",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10181,
+          "kuerzel": "GLM-G3",
+          "bezeichnung": "Grundlagenmodule Gruppe 3",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 54658,
+      "kuerzel": "M_MAS",
+      "bezeichnung": "Mehrdimensionale Analysis & Schwingungslehre / Optik",
+      "url": "allModules/54658_M_MAS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 5
+        },
+        {
+          "id": 10180,
+          "kuerzel": "GLM-G2",
+          "bezeichnung": "Grundlagenmodule Gruppe 2",
+          "kreditpunkte": 5
+        },
+        {
+          "id": 10181,
+          "kuerzel": "GLM-G3",
+          "bezeichnung": "Grundlagenmodule Gruppe 3",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 56875,
+      "kuerzel": "M_IKME_p",
+      "bezeichnung": "Messbar gesund",
+      "url": "allModules/56875_M_IKME_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44115,
+      "kuerzel": "M_IKME",
+      "bezeichnung": "Messbar gesund",
+      "url": "allModules/44115_M_IKME.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 47713,
+      "kuerzel": "M_MEA",
+      "bezeichnung": "Messdaten-Erfassung und Analyse",
+      "url": "allModules/47713_M_MEA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 50485,
+      "kuerzel": "M_MWS",
+      "bezeichnung": "Microsoft Windows Serverumgebung",
+      "url": "allModules/50485_M_MWS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 49703,
+      "kuerzel": "M_MNT",
+      "bezeichnung": "Mikro- Nanotechnologie",
+      "url": "allModules/49703_M_MNT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 46074,
+      "kuerzel": "M_MTP",
+      "bezeichnung": "Mikrosystemtechnisches Praktikum",
+      "url": "allModules/46074_M_MTP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 53074,
+      "kuerzel": "M_MiT_I",
+      "bezeichnung": "Mikrotechnik I",
+      "url": "allModules/53074_M_MiT_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 53874,
+      "kuerzel": "M_MiT_II",
+      "bezeichnung": "Mikrotechnik II",
+      "url": "allModules/53874_M_MiT_II.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 53580,
+      "kuerzel": "M_MiT_III",
+      "bezeichnung": "Mikrotechnik III",
+      "url": "allModules/53580_M_MiT_III.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 53090,
+      "kuerzel": "M_MiT_III",
+      "bezeichnung": "Mikrotechnik III",
+      "url": "allModules/53090_M_MiT_III.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 53099,
+      "kuerzel": "M_MiT_IV",
+      "bezeichnung": "Mikrotechnik IV",
+      "url": "allModules/53099_M_MiT_IV.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 53609,
+      "kuerzel": "M_MiT_IV",
+      "bezeichnung": "Mikrotechnik IV",
+      "url": "allModules/53609_M_MiT_IV.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 51677,
+      "kuerzel": "M_MiT_IV",
+      "bezeichnung": "Mikrotechnik IV",
+      "url": "allModules/51677_M_MiT_IV.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 46068,
+      "kuerzel": "M_MT",
+      "bezeichnung": "Mikrotechnologie",
+      "url": "allModules/46068_M_MT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64415,
+      "kuerzel": "M_MCV",
+      "bezeichnung": "Modern Computer Vision",
+      "url": "allModules/64415_M_MCV.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65101,
+      "kuerzel": "M_MST1",
+      "bezeichnung": "Moderne Sensortechnologien 1",
+      "url": "allModules/65101_M_MST1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 46077,
+      "kuerzel": "M_MVF",
+      "bezeichnung": "Moderne Verfahren der Fertigungsmesstechnik",
+      "url": "allModules/46077_M_MVF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 46080,
+      "kuerzel": "M_MW",
+      "bezeichnung": "Moderne Werkstoffe",
+      "url": "allModules/46080_M_MW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 46083,
+      "kuerzel": "M_MWh",
+      "bezeichnung": "Moderne Werkstoffe – hands on",
+      "url": "allModules/46083_M_MWh.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57372,
+      "kuerzel": "M_idks.IKBD",
+      "bezeichnung": "My Data - Big Data",
+      "url": "allModules/57372_M_idks.IKBD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65054,
+      "kuerzel": "M_IKNE",
+      "bezeichnung": "Nachhaltige Ernährung für Körper, Geist und Klima",
+      "url": "allModules/65054_M_IKNE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56795,
+      "kuerzel": "M_IKNE_p",
+      "bezeichnung": "Nachhaltige Ernährung für Körper, Geist und Klima",
+      "url": "allModules/56795_M_IKNE_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64977,
+      "kuerzel": "M_IKNP_p",
+      "bezeichnung": "Nachhaltigkeit politisch umsetzen",
+      "url": "allModules/64977_M_IKNP_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64974,
+      "kuerzel": "M_IKNP",
+      "bezeichnung": "Nachhaltigkeit politisch umsetzen",
+      "url": "allModules/64974_M_IKNP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57071,
+      "kuerzel": "M_NuE1",
+      "bezeichnung": "Nachhaltigkeit und Energie 1",
+      "url": "allModules/57071_M_NuE1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44223,
+      "kuerzel": "M_IKKA",
+      "bezeichnung": "Nachhaltigkeit und Klimaschutz angewandt",
+      "url": "allModules/44223_M_IKKA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 46071,
+      "kuerzel": "M_NT",
+      "bezeichnung": "Nanotechnologie",
+      "url": "allModules/46071_M_NT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 53472,
+      "kuerzel": "M_NLP",
+      "bezeichnung": "Natural Language Processing",
+      "url": "allModules/53472_M_NLP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44124,
+      "kuerzel": "M_IKNG_p",
+      "bezeichnung": "Neue Narrative für eine nachhaltige Gesellschaft",
+      "url": "allModules/44124_M_IKNG_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65007,
+      "kuerzel": "M_IKNG",
+      "bezeichnung": "Neue Narrative für eine nachhaltige Gesellschaft ",
+      "url": "allModules/65007_M_IKNG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65013,
+      "kuerzel": "M_IKNK",
+      "bezeichnung": "New Work & KI",
+      "url": "allModules/65013_M_IKNK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65016,
+      "kuerzel": "M_IKNK_p",
+      "bezeichnung": "New Work & KI",
+      "url": "allModules/65016_M_IKNK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65234,
+      "kuerzel": "M_IKNK_p_RJ",
+      "bezeichnung": "New Work & KI",
+      "url": "allModules/65234_M_IKNK_p_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65237,
+      "kuerzel": "M_IKNK_p_SG",
+      "bezeichnung": "New Work & KI",
+      "url": "allModules/65237_M_IKNK_p_SG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64962,
+      "kuerzel": "M_IKOR_p",
+      "bezeichnung": "Öffentliche Ringvorlesung: Verantwortung heute - zwischen Verpflichtung und Ablehnung",
+      "url": "allModules/64962_M_IKOR_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64959,
+      "kuerzel": "M_IKOR",
+      "bezeichnung": "Öffentliche Ringvorlesung: Verantwortung heute - zwischen Verpflichtung und Ablehnung",
+      "url": "allModules/64959_M_IKOR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65019,
+      "kuerzel": "M_IKOW_p",
+      "bezeichnung": "Offgrid Wasser und Sonne: Hands on",
+      "url": "allModules/65019_M_IKOW_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56805,
+      "kuerzel": "M_IKOW",
+      "bezeichnung": "Offgrid Wasser und Sonne: Hands on",
+      "url": "allModules/56805_M_IKOW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 46062,
+      "kuerzel": "M_OM",
+      "bezeichnung": "Optische Messtechnik",
+      "url": "allModules/46062_M_OM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 52681,
+      "kuerzel": "M_OP",
+      "bezeichnung": "Organisationspsychologie",
+      "url": "allModules/52681_M_OP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57131,
+      "kuerzel": "M_PhO1",
+      "bezeichnung": "Photonik 1",
+      "url": "allModules/57131_M_PhO1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 53108,
+      "kuerzel": "M_PhO_I",
+      "bezeichnung": "Photonik I",
+      "url": "allModules/53108_M_PhO_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 53117,
+      "kuerzel": "M_PhO_II",
+      "bezeichnung": "Photonik II",
+      "url": "allModules/53117_M_PhO_II.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 53128,
+      "kuerzel": "M_PhO_III",
+      "bezeichnung": "Photonik III",
+      "url": "allModules/53128_M_PhO_III.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 53567,
+      "kuerzel": "M_PhO_III",
+      "bezeichnung": "Photonik III",
+      "url": "allModules/53567_M_PhO_III.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 53139,
+      "kuerzel": "M_PhO_IV",
+      "bezeichnung": "Photonik IV",
+      "url": "allModules/53139_M_PhO_IV.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 54195,
+      "kuerzel": "M_PhO_IV",
+      "bezeichnung": "Photonik IV",
+      "url": "allModules/54195_M_PhO_IV.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 54536,
+      "kuerzel": "M_Phy1",
+      "bezeichnung": "Physik 1: Mechanik und Wärme",
+      "url": "allModules/54536_M_Phy1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10181,
+          "kuerzel": "GLM-G3",
+          "bezeichnung": "Grundlagenmodule Gruppe 3",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 54539,
+      "kuerzel": "M_Phy2",
+      "bezeichnung": "Physik 2: Elektromagnetismus und Schwingungen",
+      "url": "allModules/54539_M_Phy2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10181,
+          "kuerzel": "GLM-G3",
+          "bezeichnung": "Grundlagenmodule Gruppe 3",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57003,
+      "kuerzel": "M_Phy3",
+      "bezeichnung": "Physik 3: Optik und Wellen",
+      "url": "allModules/57003_M_Phy3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 52701,
+      "kuerzel": "M_PE",
+      "bezeichnung": "Produktentwicklung",
+      "url": "allModules/52701_M_PE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 64427,
+      "kuerzel": "M_Pro5",
+      "bezeichnung": "Projekt 5",
+      "url": "allModules/64427_M_Pro5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 64860,
+      "kuerzel": "M_IKPI_p",
+      "bezeichnung": "Projekte intedisziplinär weiterführen",
+      "url": "allModules/64860_M_IKPI_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 64856,
+      "kuerzel": "M_IKPI",
+      "bezeichnung": "Projekte intedisziplinär weiterführen",
+      "url": "allModules/64856_M_IKPI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 46092,
+      "kuerzel": "M_PM",
+      "bezeichnung": "Projektmanagement",
+      "url": "allModules/46092_M_PM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 53554,
+      "kuerzel": "M_PM_I",
+      "bezeichnung": "Projektmanagement I",
+      "url": "allModules/53554_M_PM_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 52687,
+      "kuerzel": "M_PM_I",
+      "bezeichnung": "Projektmanagement I",
+      "url": "allModules/52687_M_PM_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 54177,
+      "kuerzel": "M_PM_II",
+      "bezeichnung": "Projektmanagement II",
+      "url": "allModules/54177_M_PM_II.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 65246,
+      "kuerzel": "M_IKPS_p_BU",
+      "bezeichnung": "Prototyping für Startup-Ideen",
+      "url": "allModules/65246_M_IKPS_p_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44133,
+      "kuerzel": "M_IKPS",
+      "bezeichnung": "Prototyping für Startup-Ideen",
+      "url": "allModules/44133_M_IKPS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44136,
+      "kuerzel": "M_IKPS_p",
+      "bezeichnung": "Prototyping für Startup-Ideen",
+      "url": "allModules/44136_M_IKPS_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 65021,
+      "kuerzel": "M_IKPH",
+      "bezeichnung": "Prototyping für Startup-Ideen beim Hackathon",
+      "url": "allModules/65021_M_IKPH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65056,
+      "kuerzel": "M_IKPE",
+      "bezeichnung": "Psychologisches Empowerment in Veränderungs- und Wandlungsprozessen",
+      "url": "allModules/65056_M_IKPE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 46095,
+      "kuerzel": "M_QEA",
+      "bezeichnung": "Quality Engineering – Analysieren, Schätzen, Testen",
+      "url": "allModules/46095_M_QEA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 46098,
+      "kuerzel": "M_QED",
+      "bezeichnung": "Quality Engineering – Design of Experiments",
+      "url": "allModules/46098_M_QED.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64418,
+      "kuerzel": "M_QuMe",
+      "bezeichnung": "Quantenmechanik",
+      "url": "allModules/64418_M_QuMe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 46104,
+      "kuerzel": "M_QmA",
+      "bezeichnung": "Quantenmechanik - Anwendungen",
+      "url": "allModules/46104_M_QmA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 46101,
+      "kuerzel": "M_QmG",
+      "bezeichnung": "Quantenmechanik – Grundlagen",
+      "url": "allModules/46101_M_QmG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44142,
+      "kuerzel": "M_IKRE",
+      "bezeichnung": "Resilienz: Schlüsselkompetenz für innere Stärke ",
+      "url": "allModules/44142_M_IKRE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 47723,
+      "kuerzel": "M_SSE",
+      "bezeichnung": "Schaltungsentwicklung, Simulation, EDA",
+      "url": "allModules/47723_M_SSE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64421,
+      "kuerzel": "M_SC",
+      "bezeichnung": "Scientific Computing",
+      "url": "allModules/64421_M_SC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 46116,
+      "kuerzel": "M_SCM",
+      "bezeichnung": "Scientific Computing - Multiphysics",
+      "url": "allModules/46116_M_SCM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 46113,
+      "kuerzel": "M_SCE",
+      "bezeichnung": "Scientific Computing-Einführung",
+      "url": "allModules/46113_M_SCE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56707,
+      "kuerzel": "M_IKBF",
+      "bezeichnung": "Selbststeuerung im Beruf",
+      "url": "allModules/56707_M_IKBF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 52717,
+      "kuerzel": "M_SME",
+      "bezeichnung": "Sensoren für die Medizinelektronik",
+      "url": "allModules/52717_M_SME.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43909,
+      "kuerzel": "M_IKSO",
+      "bezeichnung": "Serious Game zur Unterstützung der Transformation sozialer und wirtschaftlich orientierter Systeme",
+      "url": "allModules/43909_M_IKSO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64971,
+      "kuerzel": "M_IKSI",
+      "bezeichnung": "Serious Game zur Unterstützung der Transformation von Infrastruktursystemen",
+      "url": "allModules/64971_M_IKSI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65023,
+      "kuerzel": "M_IKSS",
+      "bezeichnung": "Ski-Nation Schweiz",
+      "url": "allModules/65023_M_IKSS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44217,
+      "kuerzel": "M_IKSS_p",
+      "bezeichnung": "Ski-Nation Schweiz",
+      "url": "allModules/44217_M_IKSS_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44145,
+      "kuerzel": "M_IKSH",
+      "bezeichnung": "Social and Human Robotic ",
+      "url": "allModules/44145_M_IKSH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57354,
+      "kuerzel": "M_idks.IKSH",
+      "bezeichnung": "Social and Human Robotic  SG",
+      "url": "allModules/57354_M_idks.IKSH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 52684,
+      "kuerzel": "M_SP",
+      "bezeichnung": "Sozialpsychologie",
+      "url": "allModules/52684_M_SP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44148,
+      "kuerzel": "M_IKSW",
+      "bezeichnung": "Stadt der kurzen Wege ",
+      "url": "allModules/44148_M_IKSW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65029,
+      "kuerzel": "M_IKSW_p",
+      "bezeichnung": "Stadt der kurzen Wege",
+      "url": "allModules/65029_M_IKSW_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65026,
+      "kuerzel": "M_IKST_p",
+      "bezeichnung": "Starkes Ich – Starkes Team",
+      "url": "allModules/65026_M_IKST_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65252,
+      "kuerzel": "M_IKST_RJ",
+      "bezeichnung": "Starkes Ich – Starkes Team",
+      "url": "allModules/65252_M_IKST_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65240,
+      "kuerzel": "M_IKST_p_RJ",
+      "bezeichnung": "Starkes Ich – Starkes Team",
+      "url": "allModules/65240_M_IKST_p_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57673,
+      "kuerzel": "M_IKST",
+      "bezeichnung": "Starkes Ich – Starkes Team",
+      "url": "allModules/57673_M_IKST.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65231,
+      "kuerzel": "M_IKSU_p_BU",
+      "bezeichnung": "Startup - Weg zur Gründung",
+      "url": "allModules/65231_M_IKSU_p_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44253,
+      "kuerzel": "M_IKSU",
+      "bezeichnung": "Startup - Weg zur Gründung",
+      "url": "allModules/44253_M_IKSU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44256,
+      "kuerzel": "M_IKSU_p",
+      "bezeichnung": "Startup - Weg zur Gründung",
+      "url": "allModules/44256_M_IKSU_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 65298,
+      "kuerzel": "M_IKSU_p_RJ",
+      "bezeichnung": "Startup - Weg zur Gründung Kopie",
+      "url": "allModules/65298_M_IKSU_p_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56990,
+      "kuerzel": "M_SuS",
+      "bezeichnung": "Statistik und Sensoren",
+      "url": "allModules/56990_M_SuS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 54339,
+      "kuerzel": "M_SD",
+      "bezeichnung": "Statistisches Denken",
+      "url": "allModules/54339_M_SD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64980,
+      "kuerzel": "M_IKSE",
+      "bezeichnung": "Strategie-Entwicklung und -Umsetzung für NPOs",
+      "url": "allModules/64980_M_IKSE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44205,
+      "kuerzel": "M_IKSM",
+      "bezeichnung": "Strategisches Management von Naturgefahren",
+      "url": "allModules/44205_M_IKSM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44208,
+      "kuerzel": "M_IKSM_p",
+      "bezeichnung": "Strategisches Management von Naturgefahren",
+      "url": "allModules/44208_M_IKSM_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64953,
+      "kuerzel": "M_IKSR_p",
+      "bezeichnung": "Strategisches Risikomanagement von Naturgefahren",
+      "url": "allModules/64953_M_IKSR_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64950,
+      "kuerzel": "M_IKSR",
+      "bezeichnung": "Strategisches Risikomanagement von Naturgefahren",
+      "url": "allModules/64950_M_IKSR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 54764,
+      "kuerzel": "M_SYS_A_(C)",
+      "bezeichnung": "Systemtechnik A (Computational Engineering)",
+      "url": "allModules/54764_M_SYS_A_(C).json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 54770,
+      "kuerzel": "M_SYS_A_(E)",
+      "bezeichnung": "Systemtechnik A (Elektronik und Regelungstechnik)",
+      "url": "allModules/54770_M_SYS_A_(E).json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 51692,
+      "kuerzel": "M_SYS_A_(K)",
+      "bezeichnung": "Systemtechnik A (Informations- und Kommunikationssysteme)",
+      "url": "allModules/51692_M_SYS_A_(K).json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 54776,
+      "kuerzel": "M_SYS_A_(I)",
+      "bezeichnung": "Systemtechnik A (Ingenieurinformatik)",
+      "url": "allModules/54776_M_SYS_A_(I).json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 54800,
+      "kuerzel": "M_SYS_A_(Ma)",
+      "bezeichnung": "Systemtechnik A (Maschinenbau)",
+      "url": "allModules/54800_M_SYS_A_(Ma).json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 54691,
+      "kuerzel": "M_SYS_A_(Me)",
+      "bezeichnung": "Systemtechnik A (Mechatronik)",
+      "url": "allModules/54691_M_SYS_A_(Me).json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 54824,
+      "kuerzel": "M_SYS_A_(Mi)",
+      "bezeichnung": "Systemtechnik A (Mikrotechnik)",
+      "url": "allModules/54824_M_SYS_A_(Mi).json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 54806,
+      "kuerzel": "M_SYS_A_(P)",
+      "bezeichnung": "Systemtechnik A (Photonik)",
+      "url": "allModules/54806_M_SYS_A_(P).json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 54782,
+      "kuerzel": "M_SYS_B_(C)",
+      "bezeichnung": "Systemtechnik B (Computational Engineering)",
+      "url": "allModules/54782_M_SYS_B_(C).json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 9
+        }
+      ]
+    },
+    {
+      "id": 54788,
+      "kuerzel": "M_SYS_B_(E)",
+      "bezeichnung": "Systemtechnik B (Elektronik und Regelungstechnik)",
+      "url": "allModules/54788_M_SYS_B_(E).json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 9
+        }
+      ]
+    },
+    {
+      "id": 51728,
+      "kuerzel": "M_SYS_B_(K)",
+      "bezeichnung": "Systemtechnik B (Informations- und Kommunikationssysteme)",
+      "url": "allModules/51728_M_SYS_B_(K).json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 9
+        }
+      ]
+    },
+    {
+      "id": 54794,
+      "kuerzel": "M_SYS_B_(I)",
+      "bezeichnung": "Systemtechnik B (Ingenieurinformatik)",
+      "url": "allModules/54794_M_SYS_B_(I).json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 9
+        }
+      ]
+    },
+    {
+      "id": 54812,
+      "kuerzel": "M_SYS_B_(Ma)",
+      "bezeichnung": "Systemtechnik B (Maschinenbau)",
+      "url": "allModules/54812_M_SYS_B_(Ma).json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 9
+        }
+      ]
+    },
+    {
+      "id": 54697,
+      "kuerzel": "M_SYS_B_(Me)",
+      "bezeichnung": "Systemtechnik B (Mechatronik)",
+      "url": "allModules/54697_M_SYS_B_(Me).json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 9
+        }
+      ]
+    },
+    {
+      "id": 54830,
+      "kuerzel": "M_SYS_B_(Mi)",
+      "bezeichnung": "Systemtechnik B (Mikrotechnik)",
+      "url": "allModules/54830_M_SYS_B_(Mi).json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 9
+        }
+      ]
+    },
+    {
+      "id": 54818,
+      "kuerzel": "M_SYS_B_(P)",
+      "bezeichnung": "Systemtechnik B (Photonik)",
+      "url": "allModules/54818_M_SYS_B_(P).json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 9
+        }
+      ]
+    },
+    {
+      "id": 53812,
+      "kuerzel": "M_SYSP",
+      "bezeichnung": "Systemtechnikprojekt",
+      "url": "allModules/53812_M_SYSP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 64968,
+      "kuerzel": "M_IKTR",
+      "bezeichnung": "Teaming rocks! Zusammenarbeit verstehen & Selbstführung stärken",
+      "url": "allModules/64968_M_IKTR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 47726,
+      "kuerzel": "M_TEN",
+      "bezeichnung": "Technical English",
+      "url": "allModules/47726_M_TEN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 46119,
+      "kuerzel": "M_TEN_I",
+      "bezeichnung": "Technical English I",
+      "url": "allModules/46119_M_TEN_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 46122,
+      "kuerzel": "M_TEN_II",
+      "bezeichnung": "Technical English II",
+      "url": "allModules/46122_M_TEN_II.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 46125,
+      "kuerzel": "M_TdP",
+      "bezeichnung": "Technik des Publizierens",
+      "url": "allModules/46125_M_TdP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44340,
+      "kuerzel": "M_IKTE",
+      "bezeichnung": "The Internet of Everything",
+      "url": "allModules/44340_M_IKTE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44343,
+      "kuerzel": "M_IKTE_p",
+      "bezeichnung": "The Internet of Everything",
+      "url": "allModules/44343_M_IKTE_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 52726,
+      "kuerzel": "M_TES_I",
+      "bezeichnung": "Thermische Energiesysteme I",
+      "url": "allModules/52726_M_TES_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 52729,
+      "kuerzel": "M_TES_II",
+      "bezeichnung": "Thermische Energiesysteme II",
+      "url": "allModules/52729_M_TES_II.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44160,
+      "kuerzel": "M_IKUG",
+      "bezeichnung": "Umwelt und Gesundheit ",
+      "url": "allModules/44160_M_IKUG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44163,
+      "kuerzel": "M_IKUG_p",
+      "bezeichnung": "Umwelt und Gesundheit",
+      "url": "allModules/44163_M_IKUG_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 60097,
+      "kuerzel": "M_UniA_W12",
+      "bezeichnung": "Uni_Auckland_Wahlmodul_12KP",
+      "url": "allModules/60097_M_UniA_W12.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 54259,
+      "kuerzel": "M_UniW_BIM6",
+      "bezeichnung": "Uni_BIM_6KP",
+      "url": "allModules/54259_M_UniW_BIM6.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 52118,
+      "kuerzel": "M_UniC_W13",
+      "bezeichnung": "Uni_Catalunya_Wahlmodul_13KP",
+      "url": "allModules/52118_M_UniC_W13.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 13
+        }
+      ]
+    },
+    {
+      "id": 53262,
+      "kuerzel": "M_UniO_W22",
+      "bezeichnung": "Uni_Oulu_Wahlmodul_22KP",
+      "url": "allModules/53262_M_UniO_W22.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 22
+        }
+      ]
+    },
+    {
+      "id": 52543,
+      "kuerzel": "M_UniO_W23",
+      "bezeichnung": "Uni_Oulu_Wahlmodul_23KP",
+      "url": "allModules/52543_M_UniO_W23.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 23
+        }
+      ]
+    },
+    {
+      "id": 65164,
+      "kuerzel": "M_UniP_W4",
+      "bezeichnung": "Uni_Padua_Wahlmodul_4KP",
+      "url": "allModules/65164_M_UniP_W4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 60103,
+      "kuerzel": "M_UniP_W7",
+      "bezeichnung": "Uni_Padua_Wahlmodul_7KP",
+      "url": "allModules/60103_M_UniP_W7.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 7
+        }
+      ]
+    },
+    {
+      "id": 51574,
+      "kuerzel": "M_UniS_W16",
+      "bezeichnung": "Uni_Saxion_Wahlmodul_16KP",
+      "url": "allModules/51574_M_UniS_W16.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 50828,
+      "kuerzel": "M_UniS_W20",
+      "bezeichnung": "Uni_Saxion_Wahlmodul_20KP",
+      "url": "allModules/50828_M_UniS_W20.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 51656,
+      "kuerzel": "M_UniS_W21",
+      "bezeichnung": "Uni_Saxion_Wahlmodul_21KP",
+      "url": "allModules/51656_M_UniS_W21.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 21
+        }
+      ]
+    },
+    {
+      "id": 50524,
+      "kuerzel": "M_UniS_W6",
+      "bezeichnung": "Uni_Saxion_Wahlmodul_5KP",
+      "url": "allModules/50524_M_UniS_W6.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 49867,
+      "kuerzel": "M_UniS_W6",
+      "bezeichnung": "Uni_Saxion_Wahlmodul_6KP",
+      "url": "allModules/49867_M_UniS_W6.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 60091,
+      "kuerzel": "M_UniT_W11",
+      "bezeichnung": "Uni_Singapur_Wahlmodul_11KP Kopie",
+      "url": "allModules/60091_M_UniT_W11.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 11
+        }
+      ]
+    },
+    {
+      "id": 55104,
+      "kuerzel": "M_UniT_W14",
+      "bezeichnung": "Uni_Singapur_Wahlmodul_14KP",
+      "url": "allModules/55104_M_UniT_W14.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 14
+        }
+      ]
+    },
+    {
+      "id": 54527,
+      "kuerzel": "M_UniT_W12",
+      "bezeichnung": "Uni_Tokio_Wahlmodul_12KP",
+      "url": "allModules/54527_M_UniT_W12.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 56612,
+      "kuerzel": "M_UniT_W8",
+      "bezeichnung": "Uni_Tokio_Wahlmodul_8KP",
+      "url": "allModules/56612_M_UniT_W8.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 60100,
+      "kuerzel": "M_UniT_W9",
+      "bezeichnung": "Uni_Tokio_Wahlmodul_9KP",
+      "url": "allModules/60100_M_UniT_W9.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 9
+        }
+      ]
+    },
+    {
+      "id": 60094,
+      "kuerzel": "M_UniW_W13",
+      "bezeichnung": "Uni_Wien_Wahlmodul_13KP",
+      "url": "allModules/60094_M_UniW_W13.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 13
+        }
+      ]
+    },
+    {
+      "id": 54253,
+      "kuerzel": "M_UniW_W14",
+      "bezeichnung": "Uni_Wien_Wahlmodul_14KP",
+      "url": "allModules/54253_M_UniW_W14.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 14
+        }
+      ]
+    },
+    {
+      "id": 54256,
+      "kuerzel": "M_UniW_W19",
+      "bezeichnung": "Uni_Wien_Wahlmodul_19KP",
+      "url": "allModules/54256_M_UniW_W19.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 19
+        }
+      ]
+    },
+    {
+      "id": 54518,
+      "kuerzel": "M_UniW_W20",
+      "bezeichnung": "Uni_Wien_Wahlmodul_20KP",
+      "url": "allModules/54518_M_UniW_W20.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 64947,
+      "kuerzel": "M_IKVW_p",
+      "bezeichnung": "Verantwortungsvoll Wirtschaften: Unternehmen auf dem Prüfstand",
+      "url": "allModules/64947_M_IKVW_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 64944,
+      "kuerzel": "M_IKVW",
+      "bezeichnung": "Verantwortungsvoll Wirtschaften: Unternehmen auf dem Prüfstand",
+      "url": "allModules/64944_M_IKVW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65035,
+      "kuerzel": "M_IKVK",
+      "bezeichnung": "Vielfalt, Chancengleichheit und Inklusion im KI-Zeitalter ",
+      "url": "allModules/65035_M_IKVK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65038,
+      "kuerzel": "M_IKVK_p",
+      "bezeichnung": "Vielfalt, Chancengleichheit und Inklusion im KI-Zeitalter",
+      "url": "allModules/65038_M_IKVK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57360,
+      "kuerzel": "M_idks.IKVR",
+      "bezeichnung": "Virtual and Augmented Reality",
+      "url": "allModules/57360_M_idks.IKVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65032,
+      "kuerzel": "M_IKVA_p",
+      "bezeichnung": "Virtual Reality für gesundes Leben und Altern",
+      "url": "allModules/65032_M_IKVA_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44172,
+      "kuerzel": "M_IKVA",
+      "bezeichnung": "Virtual Reality für gesundes Leben und Altern",
+      "url": "allModules/44172_M_IKVA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65261,
+      "kuerzel": "M_IKVA_p_BU",
+      "bezeichnung": "Virtual Reality für gesundes Leben und Altern Kopie",
+      "url": "allModules/65261_M_IKVA_p_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65255,
+      "kuerzel": "M_IKVR_RJ",
+      "bezeichnung": "Virtual Reality für Klima und Energie",
+      "url": "allModules/65255_M_IKVR_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65043,
+      "kuerzel": "M_IKVR",
+      "bezeichnung": "Virtual Reality für Klima und Energie ",
+      "url": "allModules/65043_M_IKVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44181,
+      "kuerzel": "M_IKVR_p",
+      "bezeichnung": "Virtual Reality für Klima und Energie",
+      "url": "allModules/44181_M_IKVR_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65295,
+      "kuerzel": "M_IKVR_p_BU",
+      "bezeichnung": "Virtual Reality für Klima und Energie Kopie",
+      "url": "allModules/65295_M_IKVR_p_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 46136,
+      "kuerzel": "M_VWL_I",
+      "bezeichnung": "Volkswirtschaftslehre I",
+      "url": "allModules/46136_M_VWL_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 46139,
+      "kuerzel": "M_VWL_II",
+      "bezeichnung": "Volkswirtschaftslehre II",
+      "url": "allModules/46139_M_VWL_II.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44199,
+      "kuerzel": "M_IKNB",
+      "bezeichnung": "Wasser und Klima: Nachhaltige Wasserbewirtschaftung auf Gemeindeebene",
+      "url": "allModules/44199_M_IKNB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57170,
+      "kuerzel": "M_IKNB_p",
+      "bezeichnung": "Wasser und Klima: Nachhaltige Wasserbewirtschaftung auf Gemeindeebene",
+      "url": "allModules/57170_M_IKNB_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 64424,
+      "kuerzel": "M_Web",
+      "bezeichnung": "Webprogrammierung",
+      "url": "allModules/64424_M_Web.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ]
+}

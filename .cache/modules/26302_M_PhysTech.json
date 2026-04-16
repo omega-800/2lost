@@ -1,0 +1,134 @@
+{
+  "id": 26302,
+  "kuerzel": "M_PhysTech",
+  "bezeichnung": "Technische Physik",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Vertrautheit mit dem Aufbau und Eigenschaften von technologischen Materialien und deren <br />Verwendung in der Technik.</p>",
+  "vorausgKenntnisse": "<p>Basischemie oder mindestens Stufe BMS</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 26303,
+      "kuerzel": "PhysTech",
+      "bezeichnung": "Technische Physik",
+      "lernziele": "<ul> <li>Kentnisse der physikalischen Gesetzm&#228;ssigkeiten bei Halbleitern, Sensoren und modernen elektronischen<br />Bauelementen. <br /></li></ul>",
+      "planinhalt": "<ol>\n<li>Elektrische Felder in Materialien: Stromtransport in Halbleitern und in Metallen, pn &#220;berg&#228;nge, Isolatoren, Spannungsdurchbr&#252;che, Piezoelemente.</li><li>Optische Eigenschaften von Halbleitern und Metallen: optoelektronische Eigenschaften, Photoeffekt, Photowiderst&#228;nde, LED, Absorption und Reflexion von Materialien.</li><li>Thermoelektrizit&#228;t: Thermoelement, Peltierelement. <br /></li></ol>",
+      "kurselemente": [
+        {
+          "id": 26304,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Technische Physik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Engineering Physics"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10004,
+          "kuerzel": "E-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10004,
+          "kuerzel": "E-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5000459,
+      "name": "Krayenbühl-Tapponnier",
+      "vorname": "Axelle"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 26302,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Technische Physik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Engineering Physics"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2015,
+    "beginSemester": "HS",
+    "endJahr": 2016,
+    "endSemester": "HS"
+  }
+}

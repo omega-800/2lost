@@ -1,0 +1,187 @@
+{
+  "id": 20975,
+  "kuerzel": "M_StatDA",
+  "bezeichnung": "Statistische Datenanalyse",
+  "kreditpunkte": 2,
+  "lernziele": "<ul>\n    <li>F&auml;higkeit, statistische Erhebungen zu planen und mit einem Softwarewerkzeug auszuwerten</li>\n    <li>F&auml;higkeit, statistische Hypothesen zu formulieren und zu testen</li>\n    <li>F&auml;higkeit, Wahrscheinlichkeitsexperimente zu simulieren</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 20976,
+      "kuerzel": "StatDA",
+      "bezeichnung": "Statistische Datenanalyse ",
+      "planinhalt": "<ul>\n    <li>Einf&uuml;hrung in R als interaktives System zur statistischen Datenverarbeitung</li>\n    <li>Stichproben und ihre Kennzahlen</li>\n    <li>Sch&auml;tzen von Parametern</li>\n    <li>Testen von Hypothesen</li>\n    <li>Statistische Modelle</li>\n    <li>Programmieren in R</li>\n    <li>Statistische Simulation und numerische Modellierung in R</li>\n    <li>Monte Carlo Simulation mit Lateinschen Hypercuben</li>\n</ul>\n<p>&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 20977,
+          "art": "Uebung",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 20978,
+          "art": "Vorlesung",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Statistische Datenanalyse"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Statistical Data Analysis"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10101,
+          "kuerzel": "EEU-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10101,
+          "kuerzel": "EEU-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10219,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10219_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10101,
+          "kuerzel": "EEU-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10259,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10259_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 534797,
+      "name": "Tietje",
+      "vorname": "Olaf"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 20970,
+      "kuerzel": "M_WrStatEU",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung und Statistik (EEU)",
+      "url": "allModules/20970_M_WrStatEU.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 20975,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Statistische Datenanalyse"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Statistical Data Analysis"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2012,
+    "beginSemester": "FS",
+    "endJahr": 2024,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 20975,
+    "kuerzel": "M_StatDA",
+    "bezeichnung": "Statistische Datenanalyse",
+    "url": "allModules/20975_M_StatDA.json"
+  }
+}

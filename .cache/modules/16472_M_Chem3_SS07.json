@@ -1,0 +1,144 @@
+{
+  "id": 16472,
+  "kuerzel": "M_Chem3_SS07",
+  "bezeichnung": "Chemie 3 - Sommersemester 2007",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Erkennen von Korrosionsproblemen in der Praxis zur Vermeidung von Schadensf&#228;llen und zum Treffen von vorbeugenden Massnahmen im Konstruktionsstadium.</p>",
+  "vorausgKenntnisse": "<p>- Chemie 1 (Basischemie)<br />- Chemie 2 (Anwendung chemischer Reaktionen in der Praxis)</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 16473,
+      "kuerzel": "Chem3_SS07",
+      "bezeichnung": "Chemie 3 - SS07",
+      "planinhalt": "<p>Erscheinungsformen, Messgr&#246;ssen, Passivit&#228;t, Passivatoren/Depassivatoren, Korrosionstypen (Wasserstoff- und Sauerstoff-Typ).</p>\n<p>Elektrochemischer Mechanismus von Korrosionsreaktionen durch Elektrolytl&#246;sungen (Mikroelement-Theorie), Stromdichte-Potentialkurve, Kathodischer und anodischer Korrosion.</p>\n<p>Makrokorrosionselemente, Fl&#228;chenregel:<br />Kontaktkorrosion, Bel&#252;ftungselemente, Lochfrasskorrosion, selektive Korrosion, Spannungsrisskorrosion, Wasserstoffverspr&#246;dung, Schwingungskorrosion, Erosions- und Kavitationskorrision.</p>\n<p>Wahl des geeigneten Werkstoffes, Korrosionsschutzgerechte Konstruktion, inhibierte Systeme in der Praxis, atmosp&#228;rische Korrosion,<br />Korrosion durch Verbrennungsgase, Hochtemperaturkorrosion.</p>\n<p>Beschichtungen und &#220;berz&#252;ge.</p>",
+      "kurselemente": [
+        {
+          "id": 16474,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 16475,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Chemie 3 - SS07"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Chemistry 3 - SS07"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10015,
+          "kuerzel": "M-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10015,
+          "kuerzel": "M-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1267,
+      "name": "Stoll",
+      "vorname": "Jean-Marc"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 16472,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Chemie 3 - Sommersemester 2007"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Chemistry 3 - Summer Term"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2007,
+    "beginSemester": "SS",
+    "endJahr": 2007,
+    "endSemester": "SS"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "id": 10985,
+  "kuerzel": "M_SE3",
+  "bezeichnung": "Software-Engineering 3",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Vertiefte Kenntnisse in Software Engineering: Techniken, Methoden, Vorgehen. </p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10072,
+      "kuerzel": "SE3",
+      "bezeichnung": "Software Engineering 3",
+      "planinhalt": "<p>Programm-Entwicklung:&nbsp;Design by Contract, Features der Programmiersprache (Java 5)</p>\n<p>Modellierung, Entwurf: Vertiefung UML, Vertiefung Patterns in Design, Analyse,&nbsp;Architektur, User Interfaces, usw.</p>\n<p>Vorgehen: Requirements Engineering, Refactoring, Agile Methoden</p>\n<p>Automatisierte SW-Erstellung:&nbsp;Aspekt-orientierte Programming, Generative Programmierung, Model Driven Architecture, Model Driven Software Engieering</p>",
+      "kurselemente": [
+        {
+          "id": 10449,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 10450,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Software Engineering 3"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Software Engineering 3"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 873,
+      "name": "Rudin",
+      "vorname": "Hans"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11013,
+      "kuerzel": "M_SE2P",
+      "bezeichnung": "Software-Engineering 2 - Projekt",
+      "url": "allModules/11013_M_SE2P.json"
+    },
+    {
+      "id": 23498,
+      "kuerzel": "M_SAI",
+      "bezeichnung": "Studienarbeit Informatik",
+      "url": "allModules/23498_M_SAI.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 10985,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Software-Engineering 3"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Software Engineering 3"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2014,
+    "endSemester": "FS"
+  }
+}

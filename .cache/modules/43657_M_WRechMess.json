@@ -1,0 +1,192 @@
+{
+  "id": 43657,
+  "kuerzel": "M_WRechMess",
+  "bezeichnung": "Wahrscheinlichkeit und Messdaten",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Die Studierenden haben einen sicheren Umgang mit der empirischen Verteilungsfunktion, Normalverteilung und Binomialverteilung und k&ouml;nnen darauf basierend Wahrscheinlichkeiten berechnen. Zu einer Stichprobe k&ouml;nnen Mittelwert, Standardabweichung und Anteile gesch&auml;tzt und Konfidenzintervalle berechnet werden. Es k&ouml;nnen ein- und zweiseitige Einstich- und Zweistichproben t-Tests durchgef&uuml;hrt werden. Ausserdem kann der Chi-Quadrat-Test f&uuml;r diskrete Daten, der Shapiro-Wilk-Test und der Kolmogorow-Smirnow-Test angewendet werden und in Grundz&uuml;gen ein statistischer Versuchsplan ausgewertet werden.</p>",
+  "vorausgKenntnisse": "<p>Mathematik-Module des ersten Studienjahres</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 43658,
+      "kuerzel": "WRechMess",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung und Messdaten",
+      "lernziele": "<ul>\n<li>Empirische Verteilung einer Stichprobe</li>\n<li>Normalverteilung sch&auml;tzen und Wahrscheinlichkeiten berechnen</li>\n<li>Konfidenzintervalle f&uuml;r Erwartungswert, Standardabweichung und Anteil bestimmen</li>\n<li>Ein- und zweiseitige Einstich- und Zweistichproben t-Tests planen und durchf&uuml;hren</li>\n<li>Stichprobengr&ouml;sse bestimmen</li>\n<li>Chi-Quadrat-Test f&uuml;r diskrete Daten, Shapiro-Wilk-Test und Kolmogorow-Smirnow-Test</li>\n<li>Grundz&uuml;ge der statistischen Versuchsplanung&nbsp;</li>\n</ul>",
+      "planinhalt": "<ul><li>Messwerte, deren H&auml;ufigkeitsverteilungen und Verteilungs- und Dichtefunktionen</li><li>Quantile von stetigen und diskreten empirischen Wahrscheinlichkeitsverteilungen</li><li>Normalverteilung, Lognormalverteilung, Binomialverteilung und ihre Quantile</li><li>Wahrscheinlichkeitsintervalle von Messdaten und Konfidenzintervalle f&uuml;r Mittelwert, Varianz und Standardabweichung</li><li>Konfidenzintervalle f&uuml;r die Parameter der linearen Regression</li><li>Residualer Standardfehler</li><li>Anwendung und Interpretation von t-Tests, Verteilungstests (Kolmogorov-Smirnov-Test,&nbsp; -Test), F-Test und ANOVA</li><li>Bedingte Wahrscheinlichkeiten von klassierten und stetigen Variablen und Bayes&lsquo;sche Statistik</li><li>Versuchsplanung (Screening mit Mittelwertanalyse, Signifikanz der Effekte, Parameter-Optimierungen)</li></ul><p>&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 43659,
+          "art": "Vorlesung",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 43660,
+          "art": "Uebung",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Wahrscheinlichkeitsrechnung und Messdaten"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Theory of Probability and Measurement Data"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 542829,
+      "name": "Himmelmann",
+      "vorname": "Lin"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 20106,
+      "kuerzel": "M_An2M",
+      "bezeichnung": "Analysis 2 (M-I)",
+      "url": "allModules/20106_M_An2M.json"
+    },
+    {
+      "id": 23370,
+      "kuerzel": "M_VekGM",
+      "bezeichnung": "Vektorgeometrie (M-I)",
+      "url": "allModules/23370_M_VekGM.json"
+    },
+    {
+      "id": 43573,
+      "kuerzel": "M_An1M",
+      "bezeichnung": "Analysis 1 (M-I)",
+      "url": "allModules/43573_M_An1M.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 43657,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Wahrscheinlichkeit und Messdaten"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Theory of Probability and Measurement Data"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2024,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 31553,
+    "kuerzel": "M_WRechMess",
+    "bezeichnung": "Wahrscheinlichkeit und Messdaten",
+    "url": "allModules/31553_M_WRechMess.json"
+  }
+}

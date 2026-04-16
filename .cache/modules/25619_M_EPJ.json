@@ -1,0 +1,177 @@
+{
+  "id": 25619,
+  "kuerzel": "M_EPJ",
+  "bezeichnung": "Engineering-Projekt",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Entwicklungsprojekt in kleinem Team vollst&auml;ndig und methodisch abwickeln.<br /><br />&nbsp;</p>",
+  "vorausgKenntnisse": "<p>paralleler Besuch von Software-Engineering 2</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 25620,
+      "kuerzel": "EPJ",
+      "bezeichnung": "Engineering-Projekt",
+      "lernziele": "<p>Siehe Modul-Lernziele</p>",
+      "planinhalt": "<p>Ein Software-Entwicklungsprojekt wird in einem kleinen Team methodisch von der Anforderungsspezifikation bis<br />zum getesteten Code vollst&auml;ndig entwickelt und dokumentiert.<br /><br />Das Projekt wird in 3er bis 5er Teams durchgef&uuml;hrt. (Abweichende Teamgr&ouml;ssen k&ouml;nnen von den Dozenten bewilligt werden.)</p><p>Das Thema kann vom Team gew&auml;hlt werden, muss aber von den Dozenten bewilligt werden.<br /><br />Das Projekt wird in einem inkrementellen, iterativen Entwicklungsprozess in Phasen abgewickelt. Es finden pro Team&nbsp;mehrere 45 min&uuml;tige Reviews statt (Team plus betreuender Dozent). Auf die Review-Termine sind festgelegte Arbeitsresultate abzugeben. Zum Teil sind an den Reviews Prototypen zu demonstrieren.<br /><br />Am Schluss-Termin wird das Projekt pr&auml;sentiert und alle (&uuml;berarbeiteten) Arbeitsresultate sind abzugeben.<br />&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 25621,
+          "art": "Projekt",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Engineering-Projekt"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Engineering-Project"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5001386,
+      "name": "Mehta",
+      "vorname": "Farhad D."
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 18558,
+      "kuerzel": "M_SE1",
+      "bezeichnung": "Software-Engineering 1",
+      "url": "allModules/18558_M_SE1.json"
+    },
+    {
+      "id": 24499,
+      "kuerzel": "M_OO",
+      "bezeichnung": "Objektorientierte Programmierung",
+      "url": "allModules/24499_M_OO.json"
+    },
+    {
+      "id": 28259,
+      "kuerzel": "M_AD1",
+      "bezeichnung": "Algorithmen und Datenstrukturen 1",
+      "url": "allModules/28259_M_AD1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Engineering-Projekt"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Engineering Project"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2016,
+    "beginSemester": "FS",
+    "endJahr": 2017,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 11013,
+    "kuerzel": "M_SE2P",
+    "bezeichnung": "Software-Engineering 2 - Projekt",
+    "url": "allModules/11013_M_SE2P.json"
+  },
+  "nachfolger": {
+    "id": 25619,
+    "kuerzel": "M_EPJ",
+    "bezeichnung": "Engineering-Projekt",
+    "url": "allModules/25619_M_EPJ.json"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "id": 11330,
+  "kuerzel": "U_ST1",
+  "bezeichnung": "Städtebau 1 - Übergangsmodul",
+  "kreditpunkte": 14,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 11211,
+      "kuerzel": "uST1",
+      "bezeichnung": "Städtebau 1 - Übergang",
+      "lernziele": "<p>Zusammenarbeit mit verschiedenen Architekturdisziplinen <br />Themen, Inhalte und Organisationsstrukturen einer nachhaltigen Stadtentwicklung erkennen </p>",
+      "planinhalt": "<p>- Von der Stadtentwicklung zum St&#228;dtebauprojekt <br />- Vom urbanen zum l&#228;ndlichen Raum <br />- Charakteristik von Stadtr&#228;umen <br />- Stadt-Raum-Entwicklungstheorien <br />- Stadtraumgestaltung <br />- Siedlungserneuerung und Stadtumbau <br />- Umnutzung von brachliegenden Arealen und Bauten <br />- Spezialaufgaben der Stadtplanung und des St&#228;dtebaues </p>",
+      "kurselemente": [
+        {
+          "id": 11294,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 12412,
+          "art": "Uebung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Städtebau 1 - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Town Planning 1 - Transition"
+        }
+      ]
+    },
+    {
+      "id": 11212,
+      "kuerzel": "uST_P",
+      "bezeichnung": "Projekt Städtebau - Übergang",
+      "lernziele": "<p>Entwicklung von Leitideen und konzeptionellen Grundlagen f&uuml;r den st&auml;dtebaulichen Entwurf unter Ber&uuml;cksichtigung des bestehenden Siedlungs- und Stadtgef&uuml;ges und der nat&uuml;rlichen, gesellschafltichen, wirtschaftlichen Randbedingungen in der interdisziplin&auml;ren Projektarbeit.</p>",
+      "planinhalt": "<p>H&#228;ngt von der jeweiligen Aufgabenstellung f&#252;r das Projekt ab. <br /><br /><br /></p>",
+      "kurselemente": [
+        {
+          "id": 11293,
+          "art": "Projekt",
+          "anzLektionen": 8,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Projekt Städtebau - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Project Town Planning - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10006,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10006_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10025,
+          "kuerzel": "R-s",
+          "bezeichnung": "Städtebau",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10028,
+          "kuerzel": "R-p",
+          "bezeichnung": "Projekte ",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10012,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10012_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 269,
+      "name": "Müller",
+      "vorname": "Rosmarie"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11330,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Städtebau 1 - Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Town Planning 1 - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2006,
+    "endSemester": "WS"
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "id": 28366,
+  "kuerzel": "M_ProgC",
+  "bezeichnung": "Programmieren in C",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden k&ouml;nnen Algorithmen zur L&ouml;sung von Problemen beschreiben und diese in der Programmiersprache C programmieren. Sie sind in der Lage, prozedurale Programme sowohl f&uuml;r einen PC als auch f&uuml;r ein mikrocontroller-basiertes Zielsystem zu entwickeln.</p>",
+  "vorausgKenntnisse": "<p>Stoff des <em>Informatikvorkurses Elektrotechnik</em></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 28367,
+      "kuerzel": "ProgC",
+      "bezeichnung": "Programmieren in C",
+      "lernziele": "<p>Die Studierenden wenden die Programmiersprache C syntaktisch und semantisch zielgerichtet an.</p>\n<p>Die Studierendenden &uuml;bertragen die in Vorlesung und Praktikum behandelten Konzepte selbst&auml;ndig auf praxisrelevante Problemstellungen.</p>\n<p>Die Studierenden sch&auml;tzen den Zeitaufwand f&uuml;r die L&ouml;sung einer gestellten Programmieraufgabe realistisch ein.</p>\n<p>Die Studierenden sind sich den besonderen Qualit&auml;tsanforderungen f&uuml;r professionelle Software bewusst.</p>",
+      "planinhalt": "<ul>\n<li>Aufbau eines Rechnersystems</li>\n<li>Werkzeuge zur Softwareentwicklung</li>\n<li>Syntax und Semantik</li>\n<li>Elemente der Programmiersprache C\n<ul>\n<li>Konstanten, Enumerations, Variablen</li>\n<li>Datentypen, Arrays, Strukturen</li>\n<li>Ausdr&uuml;cke, Anweisungen, Operatoren</li>\n<li>Steuerstrukturen (Iteration, Selektion)</li>\n<li>Pointer</li>\n<li>Funktionen</li>\n<li>Input/Output</li>\n<li>Speicherklassen</li>\n</ul>\n</li>\n<li>Programmierung eines mikrocontroller-basierten Roboters mit C</li>\n</ul>\n<p>&Auml;nderungen vorbehalten</p>",
+      "bibliographie": "<p>Skript und Beispielquelltexte, bereitgestellt auf dem Skriptserver</p>",
+      "kurselemente": [
+        {
+          "id": 28368,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 28369,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Programmieren in C"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Programming in C"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10243,
+      "bezeichnung": "Digitalisierung",
+      "kuerzel": "M-I-Dig",
+      "url": "allStudies/10243_M-I-Dig.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533876,
+      "name": "Bonderer",
+      "vorname": "Reto"
+    }
+  ],
+  "mengen": [
+    {
+      "id": 45,
+      "name": "Aequivalenz",
+      "dModMengeArt": 5701,
+      "module": [
+        {
+          "id": 28366,
+          "kuerzel": "M_ProgC",
+          "bezeichnung": "Programmieren in C",
+          "url": "allModules/28366_M_ProgC.json"
+        },
+        {
+          "id": 37320,
+          "kuerzel": "M_ProgEinf",
+          "bezeichnung": "Einführung Programmierung",
+          "url": "allModules/37320_M_ProgEinf.json"
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 28366,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>75% der Praktika besucht</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Programmieren in C"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Programming in C"
+    }
+  ],
+  "skriptAblageLink": "\\\\OST.ch\\root\\alg\\skripte\\BSc_Elektrotechnik\\Fachbereich\\Programmieren_in_C",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2016,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 25135,
+    "kuerzel": "M_ProgC",
+    "bezeichnung": "Programmieren in C",
+    "url": "allModules/25135_M_ProgC.json"
+  }
+}

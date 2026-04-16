@@ -1,0 +1,369 @@
+{
+  "id": 28236,
+  "kuerzel": "M_AppArch",
+  "bezeichnung": "Application Architecture",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Anwendungslandschaften von Unternehmen bestehen heutzutage aus verteilten Software-Systemen, deren Architekturen webbasierte Front Ends mit komponenten- und objektorientierter Applikationslogik sowie Datenbank-Technologien und Messaging-Infrastrukturen im Backend kombinieren &ndash; beispielsweise um Gesch&auml;ftsprozesse in Firmenverb&uuml;nden zu integrieren und zu automatisieren. Das Modul Application Architecture f&uuml;hrt in Entwurf und Umsetzung von derartigen Anwendungsarchitekturen ein.</p>\n<p>&nbsp;</p>\n<p>Die Studierenden k&ouml;nnen:</p>\n<ul>\n<li>die Charakteristika von Unternehmensanwendungen sowie resultierende Designherausforderungen und -ans&auml;tze erkl&auml;ren</li>\n<li>nichtfunktionale Anforderungen f&uuml;r Anwendungsarchitekturen SMART spezifizieren</li>\n<li>allgemeine und dom&auml;nenspezifische Architekturmuster erl&auml;utern, vergleichen und ausw&auml;hlen und derartige Architekturentscheidungen nachvollziehbar begr&uuml;nden</li>\n<li>serviceorientierte Architekturen entwerfen und auf zugeh&ouml;rige Implementierungstechnologien abbilden</li>\n<li>in der Praxis bew&auml;hrte Elemente aus Consulting-, Design- und Integrationsmethoden erkl&auml;ren und anwenden</li>\n</ul>\n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 28237,
+      "kuerzel": "AppArch",
+      "bezeichnung": "Application Architecture",
+      "lernziele": "Siehe Lernziele auf der Modulebene.",
+      "planinhalt": "<ol><li><p>Einsatzszenarien und Anwendungstypen; Design-Herausforderungen mit L&ouml;sungsans&auml;tzen; Fallstudien aus der Praxis</p></li><li><p>Logical Layers und Physical Tiers; ausgew&auml;hlte Containerarchitekturen und -technologien</p></li><li><p>Allgemeine und dom&auml;nenspezifische Architekturmuster z.B. von Evans, Fowler und Hohpe/Woolf</p></li><li><p>Domain-Driven Design in Theorie und Praxis (strategisch, taktisch)</p></li><li><p>Serviceorientierte Architekturen (SOA) mit Implementierungsans&auml;tzen wie Microservices, WSDL/SOAP, RESTful HTTP, API Design &amp; Management</p></li><li><p>Enterprise Application Integration (EAI) &ndash; Prinzipien, Muster und Technologien (u.a. Message-Oriented Middleware, Broker)</p></li><li><p>Methoden-Elemente wie nichtfunktionale Anforderungen, Systemkontext, Komponentenmodellierung, Architekturentscheidungen, Architecturally Evident Coding Styles</p></li></ol>",
+      "kurselemente": [
+        {
+          "id": 28238,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        },
+        {
+          "id": 28239,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Application Architecture"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Application Architecture"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10106,
+      "bezeichnung": "Application Design - Cloud Solutions",
+      "kuerzel": "ADCS",
+      "url": "allStudies/10106_ADCS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10108,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10108_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10161,
+      "bezeichnung": "Data Engineering & Machine Intelligence",
+      "kuerzel": "DaEngMaInt",
+      "url": "allStudies/10161_DaEngMaInt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10191,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10191_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10246,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10246_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10247,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10247_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7
+    },
+    {
+      "id": 10127,
+      "bezeichnung": "Generalist",
+      "kuerzel": "GEN",
+      "url": "allStudies/10127_GEN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10230,
+      "bezeichnung": "Frontend Engineering",
+      "kuerzel": "FrEng",
+      "url": "allStudies/10230_FrEng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7
+    },
+    {
+      "id": 10193,
+      "bezeichnung": "Frontend Engineering",
+      "kuerzel": "FrEng",
+      "url": "allStudies/10193_FrEng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7
+    },
+    {
+      "id": 10107,
+      "bezeichnung": "Network & Cloud-Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10107_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 10229,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10229_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7
+    },
+    {
+      "id": 10192,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10192_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5015909,
+      "name": "Bocek",
+      "vorname": "Thomas"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 30040,
+      "kuerzel": "M_SE1",
+      "bezeichnung": "Software-Engineering 1",
+      "url": "allModules/30040_M_SE1.json"
+    },
+    {
+      "id": 36700,
+      "kuerzel": "M_DS1",
+      "bezeichnung": "Distributed Systems & Blockchain",
+      "url": "allModules/36700_M_DS1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 10,
+      "kuerzel": "SG",
+      "bezeichnung": "St.Gallen (Informatik Raster)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 28236,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Application Architecture"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Application Architecture"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2017,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 24400,
+    "kuerzel": "M_AppArch",
+    "bezeichnung": "Application Architecture",
+    "url": "allModules/24400_M_AppArch.json"
+  }
+}

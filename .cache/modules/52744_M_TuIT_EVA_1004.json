@@ -1,0 +1,188 @@
+{
+  "id": 52744,
+  "kuerzel": "M_TuIT_EVA_1004",
+  "bezeichnung": "Data-driven Engineering",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Daten-getriebenes Engineering revolutioniert derzeit viele Bereiche der technischen Anwendungen. Im Zentrum steht die Beobachtung, dass scheinbar komplexe Systeme wie unser Gehirn, das Wetter, Seuchenausbreitung oder B&ouml;rsenkurse in Wirklichkeit durch niederdimensionale, problemtypische Muster dominiert werden. Wenn man diese Muster aus Daten erlernen kann, dann erst er&ouml;ffnet sich die M&ouml;glichkeit diese Systeme zu modellieren, vorherzusagen und schliesslich zu kontrollieren. Dieses Seminar erarbeitet die Grundlagen, wie solche dominanten Muster berechnet und dargestellt werden k&ouml;nnen. Wir gehen auch der Frage nach, wie solche daten-getriebenen Modelle zur Modellierung und Regelung von komplexen Systemen herangezogen werden k&ouml;nnen.</p>",
+  "vorausgKenntnisse": "<p>Technisches Englisch, Wahrscheinlichkeitsrechung, lineare Algebra und Analysis auf Bachelor Stufe</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 52745,
+      "kuerzel": "TuIT_EVA_1004",
+      "bezeichnung": "Data-driven Engineering",
+      "kreditpunkte": 0,
+      "lernziele": "<p>&nbsp;Daten-getriebenes Engineering revolutioniert derzeit viele Bereiche der technischen Anwendungen. Im Zentrum steht die Beobachtung, dass scheinbar komplexe Systeme wie unser Gehirn, das Wetter, Seuchenausbreitung oder B&ouml;rsenkurse in Wirklichkeit durch niederdimensionale, problemtypische Muster dominiert werden. Wenn man diese Muster aus Daten erlernen kann, dann erst er&ouml;ffnet sich die M&ouml;glichkeit diese Systeme zu modellieren, vorherzusagen und schliesslich zu kontrollieren. Dieses Seminar erarbeitet die Grundlagen, wie solche dominanten Muster berechnet und dargestellt werden k&ouml;nnen. Wir gehen auch der Frage nach, wie solche daten-getriebenen Modelle zur Modellierung und Regelung von komplexen Systemen herangezogen werden k&ouml;nnen.&nbsp;</p>",
+      "planinhalt": "<ul>\n<li>Introduction</li>\n<li>Singular Value Decomposition</li>\n<li>Principle Component Analysis and low dimensional structures</li>\n<li>Clustering and classification</li>\n<li>Data-driven dynamical systems and control&nbsp;</li>\n<li>Sparse signals and compressed sensing, time permitting</li>\n</ul>",
+      "bibliographie": "<p>&ldquo;Data-driven Science and Engineering&ldquo; (2019) Stephen L. Brunton und J. Nathan Kutz<br />Begleitende Webseite databookuw.com&nbsp;</p>",
+      "empfLehrmittel": "<p>Dies ist eine interaktive Buchdiskussionsrunde, welche sich jede Woche im Semester f&uuml;r zwei Stunden trifft. W&auml;hrend dieser Treffen wird &uuml;ber vorgegebene Abschnitte im Buch diskutiert. Die Aufgabe der Teilnehmer ist es, diese Abschnitte vorg&auml;ngig gelesen und verstanden zu haben, so dass sie an der Diskussion aktiv teilnehmen k&ouml;nnen. Neben diesem theoretischen Teil gibt es auch einen praktischen, wo die Teilnehmer die gelesene und diskutierte Theorie mit Matlab/Python &Uuml;bungen vertiefen. &Uuml;berdies gibt es theoretische &Uuml;bungen, welche die Studierenden selbst&auml;ndig zu l&ouml;sen haben, um zu zeigen, dass der Stoff verstanden wurde.</p>",
+      "leistungsnachweis": "<p><span style=\"display: inline !important; float: none; background-color: transparent; color: #000000; cursor: text; font-family: 'Frutiger_web',Arial,Helvetica,sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;\">Dieses Modul wird mittels Pr&uuml;fung bewertet.</span></p>",
+      "kurselemente": [
+        {
+          "id": 52746,
+          "art": "Ergänzende Veranstaltung",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002957,
+          "name": "Frick",
+          "vorname": "Klaus"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002957,
+      "name": "Frick",
+      "vorname": "Klaus"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2021,
+    "beginSemester": "FS",
+    "endJahr": 2023,
+    "endSemester": "FS"
+  }
+}

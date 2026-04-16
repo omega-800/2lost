@@ -1,0 +1,204 @@
+{
+  "id": 45169,
+  "kuerzel": "M_ProgEU",
+  "bezeichnung": "Programmieren (EEU)",
+  "kreditpunkte": 2,
+  "lernziele": "<p>&nbsp;Participants can use a programming language to solve engineering problems.</p>",
+  "vorausgKenntnisse": "<p>English Level B2 is recommended.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 45170,
+      "kuerzel": "MATLAB",
+      "bezeichnung": "Matlab",
+      "lernziele": "<p>Participants are able...</p>\n<ul>\n<li>...to trace, explain, write and modify program codes.</li>\n<li>...to organize program codes into files (scripts and functions), and they use a source code version control system.&nbsp;</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Fundamentals of MATLAB programming</li>\n<li>Problem decomposition, Functions, Copilot</li>\n<li>Control structures: conditionals &amp; loops</li>\n<li>Arrays, Indexing</li>\n<li>Plotting, Debugging</li>\n<li>Git (source code version control)</li>\n<li>File operations</li>\n<li>Image processing</li>\n<li>Applications&nbsp;</li>\n</ul>",
+      "bibliographie": "<p>MATLAB basics are found in many books and internet resources. For instance, this course covers large parts of:&nbsp;</p>\n<p>Chapman, S.: Essentials of MATLAB programming, 3rd edition, 2018, chapters 1 to 5.</p>",
+      "kurselemente": [
+        {
+          "id": 45171,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Matlab"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Matlab"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10219,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10219_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10259,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10259_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 542152,
+      "name": "Fuchs",
+      "vorname": "Roman"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 19943,
+      "kuerzel": "M_An2EU",
+      "bezeichnung": "Analysis 2 (EEU)",
+      "url": "allModules/19943_M_An2EU.json"
+    },
+    {
+      "id": 19977,
+      "kuerzel": "M_LinAlgEU",
+      "bezeichnung": "Lineare Algebra (EEU)",
+      "url": "allModules/19977_M_LinAlgEU.json"
+    },
+    {
+      "id": 22001,
+      "kuerzel": "M_An1EU",
+      "bezeichnung": "Analysis 1 (EEU)",
+      "url": "allModules/22001_M_An1EU.json"
+    },
+    {
+      "id": 23366,
+      "kuerzel": "M_VekGEU",
+      "bezeichnung": "Vektorgeometrie (EEU)",
+      "url": "allModules/23366_M_VekGEU.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Programmieren"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Scientific Computing"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2025,
+    "beginSemester": "FS",
+    "endJahr": 2025,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 40740,
+    "kuerzel": "M_ProgEU",
+    "bezeichnung": "Programmieren (EEU)",
+    "url": "allModules/40740_M_ProgEU.json"
+  },
+  "nachfolger": {
+    "id": 45169,
+    "kuerzel": "M_ProgEU",
+    "bezeichnung": "Programmieren (EEU)",
+    "url": "allModules/45169_M_ProgEU.json"
+  }
+}

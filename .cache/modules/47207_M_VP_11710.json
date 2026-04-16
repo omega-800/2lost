@@ -1,0 +1,221 @@
+{
+  "id": 47207,
+  "kuerzel": "M_VP_11710",
+  "bezeichnung": "Automation und Mechatronik I",
+  "kreditpunkte": 15,
+  "lernziele": "<p>Fachkompetenzen:</p>\n<ul>\n    <li>Steuerungstechnik, Softwareentwicklung, Echtzeitprogrammierung, Kinematik, Modellbildung, Regelung.</li>\n    <li>Die Studierenden verstehen den Aufbau von Robotersteuerungen und k&ouml;nnen sie entwickeln. </li>\n    <li>Die Studierenden verstehen die Kinematik der Roboter und k&ouml;nnen sie berechnen. </li>\n    <li>Sie verstehen die Modellbildung von Robotern f&uuml;r Regelung und Simulation.</li>\n</ul>\n<p>Methodenkompetenzen:</p>\n<ul>\n    <li>Analyse, Kreativit&auml;t, vernetztes Denken.</li>\n    <li>Die Studierenden k&ouml;nnen den Einsatz von verschiedenen Robotertypen zusammen mit Peripherieger&auml;ten und Sensoren planen und die Realisierung im Labor durchf&uuml;hren. </li>\n    <li>Sie verstehen den Roboter als flexible Automatisierungskomponente, &uuml;berblicken und verstehen die Teilsysteme des Roboters</li>\n</ul>\n<p>Sozialkompetenzen:</p>\n<ul>\n    <li>Kommunikations- und Kooperationsf&auml;higkeit</li>\n</ul>\n<p>Selbstkompetenzen:</p>\n<ul>\n    <li>Selbst&auml;ndigkeit, Verantwortlichkeit</li>\n</ul>",
+  "vorausgKenntnisse": "Bachelor-Studium Systemtechnik mit dem Profil Mechanik und Produktion oder Elektronik und Regelungstechnik",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 47208,
+      "kuerzel": "VP_1171001",
+      "bezeichnung": "Entwicklung Robotersteuerung",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Fachkompetenzen:</p>\n<ul>\n    <li>Steuerungstechnik, Softwareentwicklung, Echtzeitprogrammierung, Kinematik, Modellbildung, Regelung.</li>\n    <li>Die Studierenden verstehen den Aufbau von Robotersteuerungen und k&ouml;nnen sie entwickeln. </li>\n</ul>\n<p>Methodenkompetenzen:</p>\n<ul>\n    <li>Analyse, Kreativit&auml;t, vernetztes Denken</li>\n</ul>\n<p>Sozialkompetenzen:</p>\n<ul>\n    <li>Kommunikations- und Kooperationsf&auml;higkeit</li>\n</ul>\n<p>Selbstkompetenzen:</p>\n<ul>\n    <li>Selbst&auml;ndigkeit, Verantwortlichkeit<br /></li>\n    <li>. </li>\n</ul>",
+      "planinhalt": "<p>Teilprojektbearbeitung (Entwurf, Bau oder Realisierung) einer Robotersteuerung (Hardware oder Software).</p>",
+      "bibliographie": "<p>nach Bedarf</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "Das zu bearbeitende Projekt wird mittels m&uuml;ndlicher Pr&uuml;fung nach Projektabschluss bewertet.",
+      "kurselemente": [
+        {
+          "id": 47209,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000825,
+          "name": "Nagel",
+          "vorname": "Günter"
+        }
+      ]
+    },
+    {
+      "id": 47210,
+      "kuerzel": "VP_1171002",
+      "bezeichnung": "Vertiefung Modellbildung, Simulation und Regeltechnik",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden verstehen die Kinematik der Roboter und k&ouml;nnen sie berechnen. Sie verstehen die Modellbildung von Robotern f&uuml;r Regelung und Simulation.</p>",
+      "planinhalt": "<ul>\n    <li>Vektorrechnung in der Robotik, Roboterkinematik</li>\n    <li>Mathematische Grundlagen der Roboterkinematik (lin. Alg.)</li>\n    <li>Berechnung Roboterkinematik (Denavit-Hartenberg)</li>\n    <li>Mehrk&ouml;rpersysteme</li>\n    <li>Simulation der Roboterkinematik</li>\n    <li>Einf&uuml;hrung in die Roboterdynamik</li>\n    <li>Modellbildung</li>\n    <li>Grundlagen der Roboterregelung.</li>\n</ul>",
+      "bibliographie": "<p>Buch Roboterkinematik<br />Weitere nach Bedarf</p>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "leistungsnachweis": "W&auml;hrend des Semesters wird ein Fachvortrag gehalten.",
+      "kurselemente": [
+        {
+          "id": 47211,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000825,
+          "name": "Nagel",
+          "vorname": "Günter"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000825,
+      "name": "Nagel",
+      "vorname": "Günter"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Automation and Mechatronics I"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2011,
+    "beginSemester": "HS",
+    "endJahr": 2011,
+    "endSemester": "HS"
+  }
+}

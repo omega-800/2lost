@@ -1,0 +1,237 @@
+{
+  "id": 45819,
+  "kuerzel": "M_EuR_I",
+  "bezeichnung": "Elektronik und Regelungstechnik I",
+  "kreditpunkte": 12,
+  "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>kennen die Vorgehensweise bei der Schaltungsentwicklung. </li>\n    <li>kennen die physikalischen Prinzipien in der Halbleitertheorie. </li>\n    <li>kennen die Funktionsweisen der analogen Standardbauteile. </li>\n    <li>k&ouml;nnen Schaltungen mit den analogen Standardbauteilen entwerfen. </li>\n    <li>k&ouml;nnen Kippschaltungen entwerfen. </li>\n</ul>\n<p>&nbsp;</p>\n<ul>\n    <li>k&ouml;nnen einen magnetischen Kreis auslegen. </li>\n    <li>k&ouml;nnen eine Spule und einen Transformator dimensionieren. </li>\n    <li>kennen die Eigenschaften und die Arbeitsweise der verschiedenen elektrischen Antriebe. </li>\n    <li>k&ouml;nnen f&uuml;r eine gegebene antriebstechnische Aufgabe den Motor ausw&auml;hlen. </li>\n    <li>kennen die Eigenschaften und die typischen Einsatzgebiete der verschiedenen Leistungshalbleiter und k&ouml;nnen deren Funktionsprinzipien beschreiben. </li>\n    <li>k&ouml;nnen das Einschwingverhalten von geschalteten Netzwerken bestimmen und simulieren. </li>\n    <li>k&ouml;nnen das statische und dynamische Verhalten von K&uuml;hlungssystemen berechnen und sind in der Lage f&uuml;r Systeme mit Leistungsverlusten eine geeignete K&uuml;hlung auszulegen. </li>\n    <li>k&ouml;nnen f&uuml;r vorliegende Schaltungen das elektrische Schaltverhalten berechnen und simulieren. </li>\n    <li>k&ouml;nnen f&uuml;r vorliegende Antriebssysteme und Schaltungen das thermische Verhalten berechnen und simulieren. </li>\n    <li>k&ouml;nnen die Bauelemente der Leistungselektronik beschreiben. </li>\n</ul>\n<p>&nbsp;</p>\n<ul>\n    <li>k&ouml;nnen die Objektorientierte Programmierung einsetzen. </li>\n    <li>kennen einfache Patterns. </li>\n    <li>k&ouml;nnen Benutzeroberfl&auml;chen erstellen. </li>\n    <li>kennen einache dynamische Datenstrukturen, wie lineare Listen, bin&auml;re B&auml;ume. </li>\n</ul>\n<p>&nbsp;</p>\n<ul>\n    <li>k&ouml;nnen gedruckte Schaltungen mit einem EDA-Tool erstellen. </li>\n    <li>k&ouml;nnen analoge Schaltungen nach einem Lastenheft entwickeln.</li>\n</ul>",
+  "vorausgKenntnisse": "<p>Vorausgesetzt sind die beiden Module Elektrotechnik &amp; Lineare Algebra I sowie Elektrotechnik &amp; Lineare Algebra II.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 45820,
+      "kuerzel": "EuR_I_L",
+      "bezeichnung": "Grundlagen der Leistungselektronik",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen einen magnetischen Kreis auslegen. </li>\n    <li>k&ouml;nnen eine Spule und einen Transformator dimensionieren. </li>\n    <li>kennen die Eigenschaften und die Arbeitsweise der verschiedenen elektrischen Antriebe. </li>\n    <li>k&ouml;nnen f&uuml;r eine gegebene antriebstechnische Aufgabe den Motor ausw&auml;hlen. </li>\n    <li>kennen die Eigenschaften und die typischen Einsatzgebiete der verschiedenen Leistungshalbleiter und k&ouml;nnen deren Funktionsprinzipien beschreiben.</li>\n    <li>k&ouml;nnen das Einschwingverhalten von geschalteten Netzwerken bestimmen und simulieren.</li>\n    <li>k&ouml;nnen das statische und dynamische Verhalten von K&uuml;hlungssystemen berechnen und sind in der Lage f&uuml;r Systeme mit Leistungsverlusten eine geeignete K&uuml;hlung auszulegen.</li>\n    <li>k&ouml;nnen f&uuml;r vorliegende Schaltungen das elektrische Schaltverhalten berechnen und simulieren. </li>\n    <li>k&ouml;nnen f&uuml;r vorliegende Antriebssysteme und Schaltungen das thermische Verhalten berechnen und simulieren. </li>\n    <li>k&ouml;nnen die Bauelemente der Leistungselektronik beschreiben. </li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Magnetischer Kreis</li>\n    <li>Reluktanzmodell</li>\n    <li>Ferromagnetsiche Werkstoffe</li>\n    <li>Wirbelstromverluste, Skin-Effekt und Proximity-Effekt</li>\n    <li>Spule</li>\n    <li>Transformator</li>\n    <li>Motor (DC-Motor, Asynchronmaschine, Synchronmaschine, Schrittmotor, Brushless DC-Motor)</li>\n    <li>Transienten Analyse / Schaltvorg&auml;nge</li>\n    <li>Thermische Auslegung</li>\n    <li>Bauelemente Leistungselektronik wie Leistungsdiode, Bipolar Leistungstransitor, Thyristor, GTO (gate turn off thyristor), Leitungs-MOSFET, IGBT (insulated bipolar transitor)</li>\n</ul>",
+      "bibliographie": "<p>Skript und Vorelsungsunterlagen</p><p>Hagmann, Gert: Grundlagen der Elektrotechnik</p>",
+      "empfLehrmittel": "Vorlesung, Selbststudium, Übungen, Gruppenarbeit, Laborübung",
+      "leistungsnachweis": "Während der Unterrichtsphase wird eine Prüfung geschrieben. Zusätzlich findet eine abgesetzte Modulschlussprüfung zusammen mit den Kursen Analoge Schaltungstechnik, Objektorientierte Programmierung und Projekt Entwicklung von Analogschaltungen statt.",
+      "kurselemente": [
+        {
+          "id": 45821,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001214,
+          "name": "Schenk",
+          "vorname": "Kurt"
+        }
+      ]
+    },
+    {
+      "id": 45822,
+      "kuerzel": "EuR_I_S",
+      "bezeichnung": "Analoge Schaltungstechnik",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>kennen die Vorgehensweise bei der Schaltungsentwicklung.</li><li>kennen die physikalischen Prinzipien in der Halbleitertheorie.</li><li>kennen die Funktionsweisen der analogen Standardbauteile.</li><li>können Schaltungen mit den analogen Standardbauteilen entwerfen.</li><li>können Kippschaltungen entwerfen.</li></ul>",
+      "planinhalt": "<ul>\n    <li>Vorgehensweise bei der Schaltungsentwicklung</li>\n    <li>Einf&uuml;hrung in die Halbleitertheorie</li>\n    <li>Analoge Bauelemente:<br />- Grundlagen der elektrischen Eigenschaften von Standardbauteilen der Elektronik (Diode, Bipolartransistor, Feldeffekttransistor)<br />- Lineare aktive Schaltungen mit Transistoren, Differenzverst&auml;rkern, Operationsverst&auml;rkern, Oszillatoren, Leistungsstufen</li>\n    <li>Entwicklung eines Operationsverst&auml;rkers mit Printlayout</li>\n    <li>Transistor als Schalter, Kippschaltungen, Schmitttrigger, Multivibrator</li>\n</ul>",
+      "bibliographie": "<p>Skript</p><p>Tietze, Schenk: Halbleiterschaltungen</p><p>Datenblätter und Applikationsbeschreibung von</p><p>Bauelementen</p><p>Softwarewerkzeuge SPICE und EDA-Tool</p>",
+      "empfLehrmittel": "Vorlesung, Selbststudium, Übungen, Gruppenarbeit",
+      "leistungsnachweis": "Während der Unterrichtsphase wird eine Prüfung geschrieben. Zusätzlich findet eine abgesetzte Modulschlussprüfung zusammen mit den Kursen Grundlagen in der Leistungselektonik, Objektorientierte Programmierung und Projekt Entwicklung von Analogschaltungen statt.",
+      "kurselemente": [
+        {
+          "id": 45823,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000096,
+          "name": "Heinzelmann",
+          "vorname": "Andreas"
+        }
+      ]
+    },
+    {
+      "id": 45824,
+      "kuerzel": "EuR_I_O",
+      "bezeichnung": "Objektorientierte Programmierung",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen die Objektorientierte Programmierung einsetzen.</li>\n    <li>kennen einfache Patterns.</li>\n    <li>k&ouml;nnen Benutzeroberfl&auml;chen erstellen.</li>\n    <li>kennen einache dynamische Datenstrukturen, wie lineare Listen, bin&auml;re B&auml;ume.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Einf&uuml;hrung in die Objektorientierte Programmierung</li>\n    <li>Modellierungssprache UML, Design-Patterns</li>\n    <li>Mensch-Maschine-Schnittstelle</li>\n    <li>Einf&uuml;hrung in navigation und Manipulation dynamischer Datenstrukturen</li>\n</ul>",
+      "bibliographie": "<p>Vorlesungsunterlagen</p><p>Online-Ressourcen</p>",
+      "empfLehrmittel": "Vorlesung, Selbststudium, Übungen, Gruppenarbeit",
+      "leistungsnachweis": "Während der Unterrichtsphase wird eine Prüfung geschrieben. Zusätzlich findet eine abgesetzte Modulschlussprüfung zusammen mit den Kursen Grundlagen in der Leistungselektonik, Analoge Schaltungstechnik und Projekt Entwicklung von Analogschaltungen statt.",
+      "kurselemente": [
+        {
+          "id": 45825,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000080,
+          "name": "Graf",
+          "vorname": "Urs"
+        }
+      ]
+    },
+    {
+      "id": 45826,
+      "kuerzel": "EuR_I_P",
+      "bezeichnung": "Projekt Entwicklung von Analogschaltungen",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>können gedruckte Schaltungen mit einem EDA-Tool erstellen.</li><li>können analoge Schaltungen nach einem Lastenheft entwickeln.</li></ul>",
+      "planinhalt": "<ul><li>Einführung in ein EDA-Tool</li><li>Entwicklung einer analogen Schaltung mit Mikrocontroller</li></ul>",
+      "bibliographie": "<p>Lastenheft, EDA-Tool Manuals, Bauteildatenblätter</p><p>Softwarewerkzeug EDA-Tool</p>",
+      "empfLehrmittel": "Projekt",
+      "leistungsnachweis": "Es wird ein Projekt bewertet. Zusätzlich findet eine abgesetzte Modulschlussprüfung zusammen mit den Kursen Grundlagen in der Leistungselektonik, Analoge Schaltungstechnik und Objektorientierte Programmierung statt.",
+      "kurselemente": [
+        {
+          "id": 45827,
+          "art": "Projekt",
+          "anzLektionen": 0,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000096,
+          "name": "Heinzelmann",
+          "vorname": "Andreas"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10366,
+      "bezeichnung": "Elektronik und Regelungstechnik",
+      "kuerzel": "Elekt",
+      "url": "allStudies/10366_Elekt.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 10367,
+      "bezeichnung": "Elektronik und Regelungstechnik",
+      "kuerzel": "Elekt",
+      "url": "allStudies/10367_Elekt.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000096,
+      "name": "Heinzelmann",
+      "vorname": "Andreas"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 45828,
+      "kuerzel": "M_EuR_II",
+      "bezeichnung": "Elektronik und Regelungstechnik II",
+      "url": "allModules/45828_M_EuR_II.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 2,
+      "kuerzel": "WSG",
+      "bezeichnung": "Waldau St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 45819,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electronics and Control Engineering I"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "WS",
+    "endJahr": 2009,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 45819,
+    "kuerzel": "M_EuR_I",
+    "bezeichnung": "Elektronik und Regelungstechnik I",
+    "url": "allModules/45819_M_EuR_I.json"
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "id": 10978,
+  "kuerzel": "M_KomFou",
+  "bezeichnung": "Komplexe Zahlen und Fourierreihen",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Beherrschen des Rechnens mit komplexen Zahlen </li>\n    <li>Periodische Funktionen mit Reihen darstellen und untersuchen k&ouml;nnen</li>\n</ul>",
+  "vorausgKenntnisse": "Einf&#252;hrung in die Lineare Algebra, Analysis f&#252;r Elektrotechnik 1 <br />\n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10066,
+      "kuerzel": "KomZa",
+      "bezeichnung": "Komplexe Zahlen",
+      "lernziele": "<ul>\n    <li>Beherrschen des Rechnens mit komplexen Zahlen </li>\n    <li>Periodische Funktionen mit Reihen darstellen und untersuchen k&ouml;nnen</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Der Begriff der komplexen Zahl, die verschiedenen Darstellungsarten </li>\n    <li>Die vier Grundoperationen, Potenzen und Wurzeln </li>\n    <li>Komplexe Funktionen: die allgemeine lineare Abbildung (M&ouml;biustransformation), speziell die Inversion, die Exponential- und die Logarithmusfunktion</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 10441,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 10476,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Komplexe Zahlen"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Complex Numbers"
+        }
+      ]
+    },
+    {
+      "id": 10067,
+      "kuerzel": "Fourier",
+      "bezeichnung": "Fourierreihen",
+      "lernziele": "<ul>\n    <li>Fourierreihen berechnen und handhaben k&ouml;nnen</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Fourierreihen in reeler und komplexer Darstellung, diskrete Fouriertransformation</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 10442,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Fourierreihen"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Fourier Series"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9988,
+      "name": "ZZZ Dozent LB",
+      "vorname": "Planung"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 10978,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Komplexe Zahlen und Fourierreihen"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Complex Numbers and Fourier Series"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2006,
+    "endSemester": "SS"
+  },
+  "nachfolger": {
+    "id": 10978,
+    "kuerzel": "M_KomFou",
+    "bezeichnung": "Komplexe Zahlen und Fourierreihen",
+    "url": "allModules/10978_M_KomFou.json"
+  }
+}

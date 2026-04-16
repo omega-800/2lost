@@ -1,0 +1,145 @@
+{
+  "id": 56176,
+  "kuerzel": "M_MLDS",
+  "bezeichnung": "Machine Learning and Data Science (EEU)",
+  "kreditpunkte": 4,
+  "lernziele": "<p>The students learn</p>\n<ul>\n<li>the fundamentals of Machine Learning (ML) for data analysis</li>\n<li>data analysis and data processing in Python</li>\n<li>the application of Machine Learning problems in energy and environmental technology.</li>\n<li>to view the learning problem as an optimization process, to solve it, and to evaluate the quality of the results</li>\n<li>to solve technical problems in mixed teams using ML-based data analysis&nbsp;</li>\n</ul>",
+  "vorausgKenntnisse": "",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 56177,
+      "kuerzel": "MLDS",
+      "bezeichnung": "Machine Learning and Data Science",
+      "lernziele": "<ul>\n<li>know the different approaches to AI-based data analysis (e.g. supervised vs. unsupervised learning)</li>\n<li>process and analyze data with Python</li>\n<li>formulate adequate models for problems from EU and UT and train them on specific data sets</li>\n<li>understand the training process as an optimization problem, solve it and evaluate the quality of the result qualitatively and quantitatively</li>\n<li>solve technical problems in mixed teams using AI-based data analysis</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>\n<p>(Note: not in chronological order)</p>\n<ul>\n<li>Introduction to data analysis with Python</li>\n<li>Review of probability (joint, marginal, and conditional probability; Baye's rule; probability density, ...)</li>\n<li>Review of linear algebra (matrices and vectors, eigen-values and -vectors, factorization, ...)</li>\n<li>Fundamentals of ML-base data analysis\n<ul>\n<li>Formulation of the learning problem</li>\n</ul>\n</li>\n<li>Types of learning according to data availability and type\n<ul>\n<li>supervised learning: regression and classification</li>\n<li>unsupervised learning: clustering and dimensionality reduction</li>\n<li>reinforcement learning</li>\n<li>semi-supervised learning</li>\n<li>causal learning</li>\n</ul>\n</li>\n<li>Methods\n<ul>\n<li>Constrained and regularized optimization</li>\n<li>Linear and non-linear regression</li>\n<li>Gaussian processes and support vector machines</li>\n<li>Neural networks</li>\n<li>Kalman filter and reservoir computing (iterative learning)</li>\n<li>Q-learning</li>\n<li>K-means</li>\n<li>PCA, ICA, and extensions (e.g. kernel PCA)</li>\n</ul>\n</li>\n<li>Applications in the fields of renewables and environmental technology</li>\n<li>Other relevant topics\n<ul>\n<li>The relation between ML and AI</li>\n<li>Interpolation, Extrapolation&nbsp;</li>\n<li>Filtering, smoothing, and forecasting</li>\n<li>Model selection Overfiting and classes of functions</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+      "bibliographie": "<ul>\n<li>Abu-Mostafa, Y. S., Magdon-Ismail, M., &amp; Lin, H.-T. (2012). <em>Learning From Data</em>. AMLBook.</li>\n<li>Bishop, C. M. (2016). <em>Pattern Recognition and Machine Learning</em>&nbsp;(Softcover reprint of the original 1st edition 2006 (corrected at 8th printing 2009)). Springer New York. &nbsp;</li>\n<li>Rasmussen, C. E., &amp; Williams, C. K. I. (2006).&nbsp;<em>Gaussian Processes for Machine Learning</em>. MIT Press.&nbsp;http://www.gaussianprocess.org/gpml/chapters</li>\n<li>Brunton, S. L., &amp; Kutz, J. N. (2022).&nbsp;<em>Data-Driven Science and Engineering: Machine Learning, Dynamical Systems, and Control</em>&nbsp;(2nd ed.). Cambridge University Press.&nbsp;https://doi.org/10.1017/9781009089517</li>\n<li>Peters, J., Janzing, D., &amp; Sch&ouml;lkopf, B. (2017).&nbsp;<em>Elements of causal inference: Foundations and learning algorithms</em>. MIT Press.</li>\n<li>S&auml;rkk&auml;, S. (2013).&nbsp;<em>Bayesian Filtering and Smoothing</em>. Cambridge University Press.&nbsp;https://users.aalto.fi/~ssarkka/#books&nbsp;</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 56178,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 56179,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Machine Learning and Data Science"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Machine Learning and Data Science"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10219,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10219_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10259,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10259_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5015379,
+      "name": "Carbajal",
+      "vorname": "Juan Pablo"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 20970,
+      "kuerzel": "M_WrStatEU",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung und Statistik (EEU)",
+      "url": "allModules/20970_M_WrStatEU.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 56176,
+      "art": "Note von 1 - 6",
+      "pruefungMue": true,
+      "dauerPrfMue": 30,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Machine Learning and Data Science"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Machine Learning and Data Science"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2025,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 45117,
+    "kuerzel": "M_MLDS",
+    "bezeichnung": "Machine Learning and Data Science (EEU)",
+    "url": "allModules/45117_M_MLDS.json"
+  }
+}

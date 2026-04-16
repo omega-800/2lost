@@ -1,0 +1,236 @@
+{
+  "id": 47602,
+  "kuerzel": "M_VP_12703",
+  "bezeichnung": "Regelung eines Krans zur Reduzierung von Pendelschwingungen",
+  "kreditpunkte": 18,
+  "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen ein komplexes mechanisches Mehrk&ouml;rpersystem (MKS) mathematisch modellieren, simulieren und mit Messungen verifizieren.</li>\n    <li>k&ouml;nnen elastische Komponenten innerhalb eines MKS mathematisch beschreiben und simulieren.</li>\n    <li>k&ouml;nnen Versuchs- und Messtechniken sicher anwenden.</li>\n    <li>k&ouml;nnen verschiedene Regelungsalgorithmen auslegen, per Simulation &uuml;berpr&uuml;fen und am Versuchsmodell verifizieren. </li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 47603,
+      "kuerzel": "VP_1270301",
+      "bezeichnung": "Regelung eines Krans zur Reduzierung von Pendelschwingungen",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen ein komplexes mechanisches Mehrk&ouml;rpersystem (MKS) mathematisch modellieren, simulieren und mit Messungen verifizieren.</li>\n    <li>k&ouml;nnen elastische Komponenten innerhalb eines MKS mathematisch beschreiben und simulieren.</li>\n    <li>k&ouml;nnen Versuchs- und Messtechniken sicher anwenden.</li>\n    <li>k&ouml;nnen verschiedene Regelungsalgorithmen auslegen, per Simulation &uuml;berpr&uuml;fen und am Versuchsmodell verifizieren. </li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Dynamik und Regelung von Mehrk&ouml;rpersystemen</li>\n    <li>Versuchs- und Messtechnik</li>\n    <li>Zustandsregelung, adaptive Regel</li>\n    <li>Regelung mittels Mikroprozessoren</li>\n    <li>Elastische K&ouml;rper</li>\n</ul>",
+      "bibliographie": "<p>Mayr: Technische Mechanik<br />Vorlesungsunterlagen Mechanische Systeme II<br />Heimann, Gerth, Popp: Mechatronik<br />Rill, G.; Schaeffer, T.: Grundlagen und Methodik der Mehrk&ouml;rpersimulation<br />Woernle, C.: Mehrk&ouml;rpersysteme</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "Das zu bearbeitende Projekt wird mittels m&uuml;ndlicher Pr&uuml;fung nach Projektabschluss bewertet.",
+      "kurselemente": [
+        {
+          "id": 47604,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001060,
+          "name": "Althaus",
+          "vorname": "Josef"
+        }
+      ]
+    },
+    {
+      "id": 47605,
+      "kuerzel": "VP_1270302",
+      "bezeichnung": "Mehrkörpersimulation",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen die Bewegungsgleichungen eines mechanischen Mehrk&ouml;rpersystems aufstellen.</li>\n    <li>k&ouml;nnen einfache elastische K&ouml;rper f&uuml;r ein Mehrk&ouml;rpersystem modellieren.</li>\n    <li>k&ouml;nnen die Bewegungsgleichungen eines solchen Mehrk&ouml;rpersystems numerisch l&ouml;sen. </li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Dynamik von Mehrk&ouml;rpersystemen</li>\n    <li>Newton-Euler Bewegungsgleichungen</li>\n    <li>Elastische K&ouml;rper</li>\n    <li>Numerische L&ouml;sung nichtlineare Differentialgleichung</li>\n</ul>",
+      "bibliographie": "<p>Vorlesungsunterlagen Mechanische Systeme II<br />Rill, G.; Schaeffer, T.: Grundlagen und Methodik der Mehrk&ouml;rpersimulation<br />Woernle, C.: Mehrk&ouml;rpersysteme<br />Bremer, H.; Pfeiffer, F.: Elastische Mehrk&ouml;rpersysteme</p>",
+      "empfLehrmittel": "<p>Puzzle Methode</p>",
+      "leistungsnachweis": "Dieser Kurs wird mittels eines Fachvortrages bewertet.",
+      "kurselemente": [
+        {
+          "id": 47606,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001060,
+          "name": "Althaus",
+          "vorname": "Josef"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2001060,
+      "name": "Althaus",
+      "vorname": "Josef"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 47458,
+      "kuerzel": "M_VP_12805",
+      "bezeichnung": "Festigkeit mechanischer Systeme",
+      "url": "allModules/47458_M_VP_12805.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Closed-Loop Crane Control for Reducing Pendulum Oscillation"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2012,
+    "beginSemester": "HS",
+    "endJahr": 2012,
+    "endSemester": "HS"
+  }
+}

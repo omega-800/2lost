@@ -1,0 +1,165 @@
+{
+  "id": 55779,
+  "kuerzel": "M_winf.WBDG",
+  "bezeichnung": "Web Development Fundamentals",
+  "kreditpunkte": 6,
+  "lernziele": "<p>Graduates of the &ldquo;Business Software Development&rdquo; specialization gain the expertise required to professionally design and develop business-oriented client/server systems.</p>\n<p>The &ldquo;Web Development Fundamentals&rdquo; (WBDG) module provides a comprehensive introduction to key concepts and technologies for web-based software. Students explore foundational technologies for creating web-based frontends and service-oriented backend systems. Additionally, the module covers essential aspects of contemporary software development, including AI-based code generation and user experience (UX) design.</p>\n<p>The module emphasizes hands-on, practice-oriented learning. Students apply their knowledge by independently working on an interactive web application as part of a semester-long project. This practical work is supported through supervised tutorials, where students deepen their understanding through exercises and receive guidance on their individual projects.</p>",
+  "vorausgKenntnisse": "<ul>\n<li>Programming fundamentals</li>\n<li>Data modeling</li>\n<li>Databases and information systems</li>\n<li>IT architectures</li>\n<li>Algorithms and data structures</li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 55780,
+      "kuerzel": "winf.WBDG",
+      "bezeichnung": "Web Development Fundamentals",
+      "kreditpunkte": 0,
+      "lernziele": "<p><strong>Professional competences:</strong></p>\n<p>Participants can:</p>\n<ul>\n<li>Explain design principles of modern Web-based software;</li>\n<li>Explain peculiarities of the technologies and platforms discussed;</li>\n<li>Apply discussed technologies independently.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Methodological competences:</strong></p>\n<p>Participants can:</p>\n<ul>\n<li>Apply procedural models of modern software development.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Self-competences:</strong></p>\n<p>Participants can:</p>\n<ul>\n<li>Independently access resources on basic technologies or familiarize themselves with emerging technologies;</li>\n<li>Independently analyze and correct errors with the help of online research.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Social competences:</strong></p>\n<p>Participants can:</p>\n<ul>\n<li>Explain and discuss results and research in front of fellow students.</li>\n</ul>",
+      "planinhalt": "<p><strong>Topic area I:</strong> Web Basics</p>\n<ul>\n<li>Technological fundamentals of the Web</li>\n<li>Protocols and core technologies</li>\n<li>Hypertext Markup Language (HTML)</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Topic area II:</strong> Designing and Styling a Web application</p>\n<ul>\n<li>User Experience design</li>\n<li>Cascading Style Sheets (CSS)</li>\n<li>Layouting and Responsive Design</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Topic area III:</strong> Interactive Web Applications</p>\n<ul>\n<li>Dynamic Web elements using JavaScript</li>\n<li>Web service basics</li>\n<li>Service calls and data processing</li>\n</ul>",
+      "bibliographie": "<p>Online literature, will be announced during the course.</p>",
+      "empfLehrmittel": "<p>Lectures, work in groups and individual work</p>",
+      "kurselemente": [
+        {
+          "id": 55781,
+          "art": "Vorlesung",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 71347,
+          "name": "Müller",
+          "vorname": "Sebastian"
+        },
+        {
+          "id": 78069,
+          "name": "Baldauf",
+          "vorname": "Matthias"
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Web Development Fundamentals"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Web Development Fundamentals"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10428,
+      "bezeichnung": "Wirtschaftsinformatik VZ",
+      "kuerzel": "WINF_VZ",
+      "url": "allStudies/10428_WINF_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10194,
+          "kuerzel": "WP_Mod_WI",
+          "bezeichnung": "Wahlpflichtmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10429,
+      "bezeichnung": "Wirtschaftsinformatik TZ",
+      "kuerzel": "WINF_TZ",
+      "url": "allStudies/10429_WINF_TZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10194,
+          "kuerzel": "WP_Mod_WI",
+          "bezeichnung": "Wahlpflichtmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10430,
+      "bezeichnung": "Business Software Development",
+      "kuerzel": "WINF_BSD",
+      "url": "allStudies/10430_WINF_BSD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10433,
+      "bezeichnung": "Business Software Development",
+      "kuerzel": "WINF_BSD",
+      "url": "allStudies/10433_WINF_BSD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 78069,
+      "name": "Baldauf",
+      "vorname": "Matthias"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Web Development Fundamentals"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Web Development Fundamentals"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2027,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  }
+}

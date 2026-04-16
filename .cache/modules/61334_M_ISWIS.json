@@ -1,0 +1,90 @@
+{
+  "id": 61334,
+  "kuerzel": "M_ISWIS",
+  "bezeichnung": "Swiss Business Experience",
+  "kreditpunkte": 4,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 61335,
+      "kuerzel": "ISWIS",
+      "bezeichnung": "Swiss Business Experience",
+      "kurselemente": [
+        {
+          "id": 61336,
+          "art": "Vorlesung",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Swiss Business Experience"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Swiss Business Experience"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10272,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10272_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10150,
+          "kuerzel": "W-WITRA",
+          "bezeichnung": "Wissenstransfer",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 15246,
+      "name": "Kleiner",
+      "vorname": "Mathias"
+    }
+  ],
+  "orte": [
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Swiss Business Experience"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Swiss Business Experience"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 1,
+    "beginJahr": 2026,
+    "beginSemester": "FS",
+    "endJahr": 2026,
+    "endSemester": "FS"
+  }
+}

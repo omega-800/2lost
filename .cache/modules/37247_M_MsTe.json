@@ -1,0 +1,301 @@
+{
+  "id": 37247,
+  "kuerzel": "M_MsTe",
+  "bezeichnung": ".Net Technologien",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden k&ouml;nnen</p>\n<ul>\n<li>Sie kennen die Grundkonzepte und die wichtigsten Funktionalit&auml;ten der .NET Plattform</li>\n<li>Sie wissen, wie einfache und ausgew&auml;hlte erweiterte Sprachkonzepte der C#-Syntax vom Compiler umgesetzt werden und k&ouml;nnen diese anwenden</li>\n<li>Sie k&ouml;nnen ausgew&auml;hlte .NET Technologien / Basis-Frameworks in &uuml;berschaubaren Applikationen korrekt einsetzen</li>\n<li>Sie erlangen die F&auml;higkeit, verteilte Applikationen zu entwerfen und zu implementieren</li>\n<li>Sie sammeln Praxis-Erfahrung im Umgang mit der .NET-Entwicklungsumgebung Visual Studio oder alternativ Visual Studio Code / JetBrains Rider</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 37248,
+      "kuerzel": "MsTe",
+      "bezeichnung": ".NET Technologien",
+      "planinhalt": "<p><strong>Grundlagen .NET und C# (Teil 1)</strong></p>\n<p>Sie erlernen die Basiskonzepte der .NET Plattform kennen und lernen in einem ersten Teil die wichtigsten Basiskonzepte der Programmiersprache C# kennen:</p>\n<ul>\n<li>Architektur der .NET Plattform</li>\n<li>Einf&uuml;hrung in einfache und erweiterte C#-Sprachkonzepte:\n<ul>\n<li>Properties</li>\n<li>Generics</li>\n<li>Exceptions</li>\n<li>Delegates und Events</li>\n<li>Iteratoren und Extension Methods</li>\n<li>LINQ und Lambda Expressions</li>\n<li>Und vieles mehr...</li>\n</ul>\n</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Ausgew&auml;hlte .NET Technologien (Teil 2)</strong></p>\n<p>In einem zweiten Teil werden spezifische Aspekte und Frameworks innerhalb der .NET Plattform betrachtet. Der Fokus f&auml;llt dabei explizit auf Backend-Technologien. Das Wissen &uuml;ber Frontend-Entwicklung wird anderen Modulen des Studiums angeboten.</p>\n<p>Behandelt wird im Teil 2:&nbsp;</p>\n<ul>\n<li>Asynchrone Programmierung&nbsp;</li>\n<li>Datenbank-Anbindung mit Entity Framework Core</li>\n<li>Verteilte Systeme mit gRPC</li>\n<li>Reflection und Attribute&nbsp;&nbsp;</li>\n<li>Weitere je nach Fortschritt</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 37249,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        },
+        {
+          "id": 37250,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": ".Net Technologien"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": ".Net Technologies"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10191,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10191_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10246,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10246_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10161,
+      "bezeichnung": "Data Engineering & Machine Intelligence",
+      "kuerzel": "DaEngMaInt",
+      "url": "allStudies/10161_DaEngMaInt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10127,
+      "bezeichnung": "Generalist",
+      "kuerzel": "GEN",
+      "url": "allStudies/10127_GEN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10247,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10247_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 10173,
+      "bezeichnung": "Cyber Security ",
+      "kuerzel": "CySec",
+      "url": "allStudies/10173_CySec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10108,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10108_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10229,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10229_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 10106,
+      "bezeichnung": "Application Design - Cloud Solutions",
+      "kuerzel": "ADCS",
+      "url": "allStudies/10106_ADCS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10192,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10192_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 524591,
+      "name": "Bauer",
+      "vorname": "Manuel"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 20813,
+      "kuerzel": "M_Dbs1",
+      "bezeichnung": "Datenbanksysteme 1",
+      "url": "allModules/20813_M_Dbs1.json"
+    },
+    {
+      "id": 38872,
+      "kuerzel": "M_OOP1",
+      "bezeichnung": "Objektorientierte Programmierung 1",
+      "url": "allModules/38872_M_OOP1.json"
+    },
+    {
+      "id": 38881,
+      "kuerzel": "M_AlgDat",
+      "bezeichnung": "Algorithmen und Datenstrukturen",
+      "url": "allModules/38881_M_AlgDat.json"
+    },
+    {
+      "id": 38910,
+      "kuerzel": "M_OOP2",
+      "bezeichnung": "Objektorientierte Programmierung 2",
+      "url": "allModules/38910_M_OOP2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 10,
+      "kuerzel": "SG",
+      "bezeichnung": "St.Gallen (Informatik Raster)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 37247,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "zulassungsBedingung": "",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": ".Net Technologien"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": ".Net Technologies"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2020,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 32617,
+    "kuerzel": "M_MsTe",
+    "bezeichnung": ".Net Technologien",
+    "url": "allModules/32617_M_MsTe.json"
+  }
+}

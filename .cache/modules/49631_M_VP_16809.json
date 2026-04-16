@@ -1,0 +1,254 @@
+{
+  "id": 49631,
+  "kuerzel": "M_VP_16809",
+  "bezeichnung": "Angewandte Sensorik und Signalverarbeitung b",
+  "kreditpunkte": 18,
+  "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen f&uuml;r ein komplexes System im Bereich Sensorik und/oder Signalverarbeitung die notwendige elektronische Hardware und Software spezifizieren.</li><li>k&ouml;nnen f&uuml;r das entsprechende System das Schema und Layout f&uuml;r die Elektronik erstellen, best&uuml;cken und in Betrieb nehmen.</li><li>k&ouml;nnen die notwendige Signalverarbeitung auf einem Mikro-controller, FPGA oder DSP implementieren und simulieren.</li><li>k&ouml;nnen f&uuml;r das so geschaffene System Hardware und Software zusammen integrieren und die erreichten Funktionen testen und ausmessen.</li></ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 49632,
+      "kuerzel": "VP_1680901",
+      "bezeichnung": "Entwicklungsprojekt im Bereich digitaler Elektronik, Sensorik und Signalverarbeitung",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen f&uuml;r ein komplexes System im Bereich Sensorik und/oder Signalverarbeitung die notwendige elektronische Hardware und Software spezifizieren.</li><li>k&ouml;nnen f&uuml;r das entsprechende System das Schema und Layout f&uuml;r die Elektronik erstellen, best&uuml;cken und in Betrieb nehmen.</li><li>k&ouml;nnen die notwendige Signalverarbeitung auf einem Mikrocontroller, FPGA oder DSP implementieren und simulieren.</li><li>k&ouml;nnen f&uuml;r das so geschaffene System Hardware und Software zusammen integrieren und die erreichten Funktionen testen und ausmessen.</li></ul>",
+      "planinhalt": "<ul><li>Analyse und Pflichtenheft f&uuml;r ein Sensor-System oder einen wesentlichen Teil davon</li><li>Elektronik Schema und Layout Erstellung, Best&uuml;ckung und Inbetriebnahme</li><li>Programmierung der dazugeh&ouml;renden Signalverarbeitung</li><li>Ausmessung der erreichten Funktionen und Genauigkeit</li></ul>",
+      "bibliographie": "<p>The Zynq Book:&nbsp;Embedded Processing with the ARM Cortex-A9 on the Zynq-7000 SoC</p><p>Andere notwendige Literatur nach Bedarf</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird mittels Dokumentation und einer m&uuml;ndlichen Pr&uuml;fung nach Projektabschluss bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 49633,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001461,
+          "name": "Arato",
+          "vorname": "Laszlo"
+        }
+      ]
+    },
+    {
+      "id": 49634,
+      "kuerzel": "VP_1680902",
+      "bezeichnung": "Sensorik & digitale Signalverarbeitung",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>kennen typische Anwendungen von Sensorik und Signalverarbeitung und die dazu notwendigen Hardware- und Software-Komponenten.</li><li>k&ouml;nnen f&uuml;r ein komplexes System im Bereich Sensorik und/oder Signalverarbeitung die notwendige elektronische Hardware und Software spezifizieren.</li><li>k&ouml;nnen die Signalverarbeitung auf einem Mikrocontroller, FPGA oder DSP auslegen und strukturieren.</li></ul>",
+      "planinhalt": "<ul>\n    <li>Studium ausgew&auml;hlter Literatur</li>\n    <li>Auslegung von Sensoren und Elektronik</li>\n    <li>Spezifikation von Signalverarbeitungsalgorithmen auf DSP und/oder FPGA</li>\n    <li>Charakterisierung der vorgeschlagenen L&ouml;sungen nach Datendurchsatz, Geschwindigkeit, Genauigkeit, Stromverbrauch und Hardware-Aufwand (Kosten)</li>\n</ul>",
+      "bibliographie": "<p>Meyer-Baese:&nbsp;&bdquo;Digital Signal Processing with Field Programmable Gate Arrays&ldquo;</p><p>The Zynq Book:&nbsp;Embedded Processing with the ARM Cortex-A9 on the Zynq-7000 SoC</p><p>Andere notwendige Literatur nach Bedarf</p>",
+      "empfLehrmittel": "<p>Puzzle Methode, Besuch von Konferenzen/Fachtagungen</p>",
+      "leistungsnachweis": "Der Kurs wird mit einem Fachvortrag bewertet.",
+      "kurselemente": [
+        {
+          "id": 49635,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001461,
+          "name": "Arato",
+          "vorname": "Laszlo"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2001461,
+      "name": "Arato",
+      "vorname": "Laszlo"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 17508,
+      "kuerzel": "M_TSM_EmbHardw",
+      "bezeichnung": "Design of Embedded Hardware and Firmware",
+      "url": "allModules/17508_M_TSM_EmbHardw.json"
+    },
+    {
+      "id": 37575,
+      "kuerzel": "M_TSM_AdvElDes",
+      "bezeichnung": "Advanced Electronic Design",
+      "url": "allModules/37575_M_TSM_AdvElDes.json"
+    },
+    {
+      "id": 37871,
+      "kuerzel": "M_FTP_CompAlg",
+      "bezeichnung": "Numerical Analysis and Computer Algebra",
+      "url": "allModules/37871_M_FTP_CompAlg.json"
+    },
+    {
+      "id": 49525,
+      "kuerzel": "M_VP_15711",
+      "bezeichnung": "Angewandte Sensorik und Signalverarbeitung a",
+      "url": "allModules/49525_M_VP_15711.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Applied Sensor Technology and Signal Processing b"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2016,
+    "beginSemester": "FS",
+    "endJahr": 2016,
+    "endSemester": "FS"
+  }
+}

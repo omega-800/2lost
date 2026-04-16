@@ -1,0 +1,181 @@
+{
+  "id": 10932,
+  "kuerzel": "M_AKapInf1",
+  "bezeichnung": "Ausgewählte Kapitel der Informatik 1",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Sie verstehen einige aktuelle Technologien sowie weitere grundlegende Konzepte der Informatik, die Ihre Qualifikation <br />als Entwicklungsingenieur erweitern</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10008,
+      "kuerzel": "AKapInf1",
+      "bezeichnung": "Ausgewählte Kapitel der Informatik 1",
+      "planinhalt": "<p>Es werden 3 - 4 Themen behandelt. <br />J&auml;hrlich findet eine Aktualisierung statt. <br /><br />Auswahl m&ouml;glicher Themen (kann von Jahr zu Jahr &auml;ndern): <br />1. Programmierung von graphischen Benutzeroberfl&auml;chen (GUI) <br />2. UNIX/Linux Tools <br />3. Internetanwendungen <br />4. Projekt- und Qualit&auml;tsmanagement f&uuml;r SW-Entwickler <br />5. XML <br />6. Verteilte Systeme <br />7. Datenbanken <br /></p>",
+      "kurselemente": [
+        {
+          "id": 10907,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 48,
+          "harteGrenze": true
+        },
+        {
+          "id": 10908,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Ausgewählte Kapitel der Informatik 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Selected Chapters of Computer Science 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9989,
+      "name": "ZZZ Dozent HL",
+      "vorname": "Planung"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 10931,
+      "kuerzel": "M_Info4Java",
+      "bezeichnung": "Informatik 4: Java",
+      "url": "allModules/10931_M_Info4Java.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 10932,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Ausgewählte Kapitel der Informatik 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Selected Chapters of Computer Science 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2006,
+    "endSemester": "WS"
+  }
+}

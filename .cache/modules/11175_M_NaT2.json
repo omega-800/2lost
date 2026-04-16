@@ -1,0 +1,188 @@
+{
+  "id": 11175,
+  "kuerzel": "M_NaT2",
+  "bezeichnung": "Nachrichtentechnik 2",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Der Student versteht das Konzept von Nachrichten&#252;bermittlung in <br />verrauschter Umgebung. Er kann Analysen von analogen und digitalen <br />Modulationsarten in verrauschten Kan&#228;len durchf&#252;hren. </p>",
+  "vorausgKenntnisse": "<p>Inhalt aller bisherigen Mathematikmodule</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10345,
+      "kuerzel": "NaT2",
+      "bezeichnung": "Nachrichtentechnik 2",
+      "planinhalt": "<p>Grundkonzepte der Wahrscheinlichkeitsrechnung und stochastischer Prozesse <br />Amplitudenmodulation mit Rauschen <br />Frequenzmodulation mit Rauschen <br />Digitale Uebertragung mit Rauschen und verschiedene Detektoren <br />Grundkonzepte der Informationstheorie <br />weitere Themen<br /></p>",
+      "kurselemente": [
+        {
+          "id": 10821,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 64,
+          "harteGrenze": true
+        },
+        {
+          "id": 10822,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Nachrichtentechnik 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Communications Engineering 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 963,
+      "name": "Mathis",
+      "vorname": "Heinz"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11174,
+      "kuerzel": "M_NaT1",
+      "bezeichnung": "Nachrichtentechnik 1",
+      "url": "allModules/11174_M_NaT1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11175,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Nachrichtentechnik 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Communications Engineering 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2006,
+    "endSemester": "SS"
+  },
+  "nachfolger": {
+    "id": 11175,
+    "kuerzel": "M_NaT2",
+    "bezeichnung": "Nachrichtentechnik 2",
+    "url": "allModules/11175_M_NaT2.json"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "id": 46098,
+  "kuerzel": "M_QED",
+  "bezeichnung": "Quality Engineering – Design of Experiments",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Die Studierenden</p><ul><li>verstehen die Grundkonzepte des Design of Experiments (DoE).</li><li>können mehrere Phasen des DoE zur Lösung von Design-Aufgaben einsetzen.</li><li>kennen verschiedene Prozessmodelle und Versuchspläne.</li><li>verstehen die Problematik von Wechselwirkungen.</li><li>können Versuchspläne im Kontext bewerten.</li><li>setzen Randomisierung und Blockbildung gezielt bei der Problemlösung ein.</li><li>verstehen Methoden des robusten Designs und können sie einsetzen.</li><li>setzen das Programm Statistica zur Lösung der Probleme ein.</li></ul>",
+  "vorausgKenntnisse": "<p>Ebenfalls vorausgesetzt sind die beiden Module Elektrotechnik &amp; Lineare Algebra I sowie Elektrotechnik &amp; Lineare Algebra II.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 46099,
+      "kuerzel": "QED",
+      "bezeichnung": "Design of Experiments",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>verstehen die Grundkonzepte des Design of Experiments (DoE).</li><li>können mehrere Phasen des DoE zur Lösung von Design-Aufgaben einsetzen.</li><li>kennen verschiedene Prozessmodelle und Versuchspläne.</li><li>verstehen die Problematik von Wechselwirkungen.</li><li>können Versuchspläne im Kontext bewerten.</li><li>setzen Randomisierung und Blockbildung gezielt bei der Problemlösung ein.</li><li>verstehen Methoden des robusten Designs und können sie einsetzen.</li><li>setzen das Programm Statistica zur Lösung der Probleme ein.</li></ul>",
+      "planinhalt": "<ul><li>Lineare Regression im statistischen Kontext</li><li>Phasen der Versuchsplanung</li><li>Kontinuierliche und diskrete Modelle für die Versuchsplanung</li><li>Randomisierung, Blockbildung</li><li>Wechselwirkungen</li><li>Robustes Design</li><li>Design of Experiments mit Statistica</li></ul>",
+      "empfLehrmittel": "<p>Unterrichtsgespräch im Klassenverband</p><p>Selbststudium (Übungsaufgaben, Vor- und Nachbereitung der Fachinhalte, Bearbeitung von kleineren Projektarbeiten)</p>",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase wird ein Projekt bewertet.",
+      "kurselemente": [
+        {
+          "id": 46100,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 25,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000192,
+          "name": "Schreiner",
+          "vorname": "Michael"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000192,
+      "name": "Schreiner",
+      "vorname": "Michael"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 45736,
+      "kuerzel": "M_DKM",
+      "bezeichnung": "Differentialrechnung & Klassische Mechanik",
+      "url": "allModules/45736_M_DKM.json"
+    },
+    {
+      "id": 45739,
+      "kuerzel": "M_IEM",
+      "bezeichnung": "Integralrechnung & Elektrizität / Magnetismus",
+      "url": "allModules/45739_M_IEM.json"
+    },
+    {
+      "id": 45794,
+      "kuerzel": "M_MAS",
+      "bezeichnung": "Mehrdimensionale Analysis & Schwingungslehre / Optik",
+      "url": "allModules/45794_M_MAS.json"
+    },
+    {
+      "id": 46095,
+      "kuerzel": "M_QEA",
+      "bezeichnung": "Quality Engineering – Analysieren, Schätzen, Testen",
+      "url": "allModules/46095_M_QEA.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 2,
+      "kuerzel": "WSG",
+      "bezeichnung": "Waldau St.Gallen",
+      "ort": "St. Gallen"
+    },
+    {
+      "id": 3,
+      "kuerzel": "CH",
+      "bezeichnung": "Chur",
+      "ort": "Chur"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Quality Engineering - Design of experiments"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2011,
+    "beginSemester": "FS",
+    "endJahr": 2011,
+    "endSemester": "FS"
+  }
+}

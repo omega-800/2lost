@@ -1,0 +1,197 @@
+{
+  "id": 22196,
+  "kuerzel": "M_GaLaB2",
+  "bezeichnung": "Garten- & Landschaftsbau 2",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Vermittlung von Kenntnissen in Ausf&uuml;hrung und CAD, die f&uuml;r die T&auml;tigkeit in der Landschaftsarchitektur notwendig sind<br /></li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 22197,
+      "kuerzel": "Afü2",
+      "bezeichnung": "Ausführungsplanung 2 ",
+      "lernziele": "<ul>\n    <li>Vermittlung von Kenntnissen in der Ausf&uuml;hrungsplanung, die f&uuml;r die Realisierung eines Projektes in der Landschaftsarchitektur notwendig sind<br /></li>\n</ul>",
+      "planinhalt": "<p>Projektarbeit bestehend aus einem H&ouml;hen-, Absteck- und&nbsp; Entw&auml;sserungsplan und einem Detailplan (Treppe)</p>",
+      "kurselemente": [
+        {
+          "id": 22198,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Ausführungsplanung 2 "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Realistaion Planning 2"
+        }
+      ]
+    },
+    {
+      "id": 22200,
+      "kuerzel": "CADL2",
+      "bezeichnung": "CAD-2 ",
+      "lernziele": "<ul>\n    <li>Einf&uuml;hrung in Digitale Gel&auml;ndemodelle (DGM) als Grundlage f&uuml;r die digitale Projektbearbeitung in der Landschaftsarchitektur<br /></li>\n</ul>",
+      "planinhalt": "DGM in Civil 3D; Theorie zu Digitalen Gel&auml;ndemodellen",
+      "kurselemente": [
+        {
+          "id": 22201,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 15,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "CAD-2 "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "CAD-2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10002,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10002_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10061,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10061_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10112,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10112_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10152,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10152_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 128,
+      "name": "Petschek",
+      "vorname": "Peter"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 22170,
+      "kuerzel": "M_GaLaB1",
+      "bezeichnung": "Garten- & Landschaftsbau 1",
+      "url": "allModules/22170_M_GaLaB1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 22196,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Garten- & Landschaftsbau 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Construction 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "FS",
+    "endJahr": 2017,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 22196,
+    "kuerzel": "M_GaLaB2",
+    "bezeichnung": "Garten- & Landschaftsbau 2",
+    "url": "allModules/22196_M_GaLaB2.json"
+  }
+}

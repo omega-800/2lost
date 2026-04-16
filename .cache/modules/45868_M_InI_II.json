@@ -1,0 +1,277 @@
+{
+  "id": 45868,
+  "kuerzel": "M_InI_II",
+  "bezeichnung": "Ingenieurinformatik II",
+  "kreditpunkte": 12,
+  "lernziele": "<p>Die Studierenden</p><ul><li>kennen an einem einfachen Beispiel, wie ein Peripheriegerät (Funkmodul) an einen Mikrocontroller angeschlossen und angesteuert werden kann. </li><li>kennen den Aufbau eines einfachen Treibers. </li><li>kennen die Problematik der Asynchronität einer Peripherieschnittstelle und deren Lösung durch ein Handshaking-Protokoll. </li><li>kennen einfache Prinzipien der Datenkommunikation.</li><li>können einen komplexen und leistungsfähigen Mikrocontroller in einem eingebetteten System einsetzen.</li><li>können Graphen zur Modellierung und zur Beschreibung von Problemen und Methoden in der Informatik einsetzen.</li><li>können für einen Graphen eine für dessen Realisierung geeignete Datenstruktur auswählen.</li><li>kennen nebst den linearen Datenstrukturen Liste, Stack, Queue auch Baumstruturen (Suchbäume, AVL-Bäume, Heap, Syntaxbaum, Hash-Tabelle).</li><li>können die erwähnten Datenstrukturen auch in geeigneter Form realisieren.</li><li>können technische Probleme analysieren und für deren Lösung geeignete Datenstrukturen und Algorithmen auswählen und auch realisieren.</li><li>kennen die wichtigsten Typen formaler Sprachen und deren Bedeutung.</li><li>kennen eine Notation (EBNF) zur Beschreibung der Grammatik formaler Sprachen.</li><li>können die Syntax einer formalen Sprache (z.B. einer Kommandosprache) so festlegen, dass sie vom Anwender leicht erlernt werden kann und es auch einfach ist einen entsprechenden Interpreter oder Übersetzer dazu zu realisieren.</li><li>können aufgrund des Sprachtyps und des Sprachumfangs entscheiden, ob sie einen Parser vollständig selbst realisieren oder durch einen geeigneten Parsergenerator erzeugen lassen und entsprechend ergänzen.</li><li>können die Struktur von Datenbeständen (z.B. Qualitätsdaten in der Produktion) so entwerfen und beschreiben, dass sie leicht erzeugt und auch auf einfache Art wieder weiterverarbeitet werden können.</li><li>kommen zusammen mit den Inhalten der anderen Profil-Modulen zu einem tiefen Verständnis bezüglich Aufbau und Wirkungsweise des digitalen Rechners und Compilers.</li><li>können nicht triviale (System-)Fehler in Hardware und Software lokalisieren und beheben.</li><li>können Datenstrukturen und Algorithmen in einfache und effiziente Programme umsetzen.</li><li>kennen die Architektur eines repräsentativen Mikrocontrollers. </li><li>sind in der Lage, Teile des Rechnerkerns sowie einiger Peripheriekomponenten in VHDL zu beschreiben. </li><li>können einen Rechnerkern (Soft Core) in VHDL durch eigene Teile ergänzen. </li><li>kennen einen repräsentativen, programmierbaren Baustein (FPGA) und können diesen einsetzen.</li><li>kennen die zentralen Sprachkonstrukte von Standard-SQL.</li><li>können Datenbestände aus Datenbanken abfragen und ändern.</li></ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 45869,
+      "kuerzel": "InI_II_F",
+      "bezeichnung": "Funk",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>kennen an einem einfachen Beispiel, wie ein Peripheriegerät (Funkmodul) an einen Mikrocontroller angeschlossen und angesteuert werden kann. </li><li>kennen den Aufbau eines einfachen Treibers. </li><li>kennen die Problematik der Asynchronität einer Peripherieschnittstelle und deren Lösung durch ein Handshaking-Protokoll. </li><li>kennen einfache Prinzipien der Datenkommunikation.</li></ul>",
+      "planinhalt": "<ul><li>DIO (digital input output) Port eines Mikrocontrollers</li><li>Bitmanipulation in einer Hochsprache</li><li>Entwicklung eines einfachen Treibers</li><li>Handshake Konzept</li><li>Einfache Datenkommunikation</li></ul>",
+      "bibliographie": "Datenblätter des Microcontrollers und des Funkmoduls",
+      "empfLehrmittel": "Selbststudium mit fachlicher Begleitung durch Kurs Rechnerarchitektur",
+      "leistungsnachweis": "Es findet eine gemeinsame abgesetzte Modulschlussprüfung über alle fünf Kurse dieses Moduls statt.",
+      "kurselemente": [
+        {
+          "id": 45870,
+          "art": "Selbststudium",
+          "anzLektionen": 0,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000249,
+          "name": "Zogg",
+          "vorname": "Andreas"
+        }
+      ]
+    },
+    {
+      "id": 45871,
+      "kuerzel": "InI_II_E",
+      "bezeichnung": "Embedded Systems",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>können einen komplexen und leistungsfähigen Mikrocontroller in einem eingebetteten System einsetzen.</li></ul>",
+      "planinhalt": "<ul><li>Architektur eines 32 Bit-Prozessors</li><li>Superskalare Achitektur, Pipelining</li><li>Systembus</li><li>Treiberentwicklung</li><li>Grundlagen eines Real-Time Operating System (RTOS)</li><li>Einsatz in einem ausgewählten Projekt</li></ul>",
+      "bibliographie": "<p>Vorlesungsunterlagen</p><p>MPC555 User und Reference Manual</p>",
+      "empfLehrmittel": "Vorlesung, Laborübungen, Gruppenarbeiten, Selbststudium",
+      "leistungsnachweis": "Es findet eine gemeinsame abgesetzte Modulschlussprüfung über alle fünf Kurse dieses Moduls statt.",
+      "kurselemente": [
+        {
+          "id": 45872,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000080,
+          "name": "Graf",
+          "vorname": "Urs"
+        }
+      ]
+    },
+    {
+      "id": 45873,
+      "kuerzel": "InI_II_C",
+      "bezeichnung": "Compilerbau",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>können Graphen zur Modellierung und zur Beschreibung von Problemen und Methoden in der Informatik einsetzen.</li><li>können für einen Graphen eine für dessen Realisierung geeignete Datenstruktur auswählen.</li><li>kennen nebst den linearen Datenstrukturen Liste, Stack, Queue auch Baumstruturen (Suchbäume, AVL-Bäume, Heap, Syntaxbaum, Hash-Tabelle).</li><li>können die erwähnten Datenstrukturen auch in geeigneter Form realisieren.</li><li>können technische Probleme analysieren und für deren Lösung geeignete Datenstrukturen und Algorithmen auswählen und auch realisieren.</li><li>kennen die wichtigsten Typen formaler Sprachen und deren Bedeutung.</li><li>kennen eine Notation (EBNF) zur Beschreibung der Grammatik formaler Sprachen.</li><li>können die Syntax einer formalen Sprache (z.B. einer Kommandosprache) so festlegen, dass sie vom Anwender leicht erlernt werden kann und es auch einfach ist einen entsprechenden Interpreter oder Übersetzer dazu zu realisieren.</li><li>können aufgrund des Sprachtyps und des Sprachumfangs entscheiden, ob sie einen Parser vollständig selbst realisieren oder durch einen geeigneten Parsergenerator erzeugen lassen und entsprechend ergänzen.</li><li>können die Struktur von Datenbeständen (z.B. Qualitätsdaten in der Produktion) so entwerfen und beschreiben, dass sie leicht erzeugt und auch auf einfache Art wieder weiterverarbeitet werden können.</li><li>kommen zusammen mit den Inhalten der anderen Profil-Modulen zu einem tiefen Verständnis bezüglich Aufbau und Wirkungsweise des digitalen Rechners und Compilers.</li><li>können nicht triviale (System-)Fehler in Hardware und Software lokalisieren und beheben.</li><li>können Datenstrukturen und Algorithmen in einfache und effiziente Programme umsetzen.</li></ul>",
+      "planinhalt": "<ul><li>Graphen</li><li>Datenstrukturen &amp; Algorithmen</li><li>Formale Sprachen</li><li>Beschreibung der Grammatik formaler Sprachen in EBNF</li><li>Aufbau eines Parsers zur Erkennung der Struktur eines formal beschriebenen Sachverhalts (Datenbestand, Kommandofolge, Programm, etc.)</li><li> des Parsers zu einem vollständigen Compiler</li><li>Entwurf und Realisierung ekrocontroller (z.B. ATmega16 von Atmel) - ein umfangreiches, nicht triviales Projekt zur Konsolidierung der Inhalte der verschiedenen Kurse des Profilmoduls Ingenieurinformatik II.</li></ul>",
+      "bibliographie": "Skript, Bücher, Manuale, Internet",
+      "empfLehrmittel": "Lehrgespräch im Klassenverband, Laborübungen, Selbststudium",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase wird ein Projekt bewertet. Zus&auml;tzlich&nbsp;findet eine gemeinsame abgesetzte Modulschlusspr&uuml;fung &uuml;ber alle f&uuml;nf Kurse dieses Moduls statt.",
+      "kurselemente": [
+        {
+          "id": 45874,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000050,
+          "name": "Dornbierer",
+          "vorname": "Ernst"
+        }
+      ]
+    },
+    {
+      "id": 45875,
+      "kuerzel": "InI_II_R",
+      "bezeichnung": "Rechnerarchitektur",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>kennen die Architektur eines repräsentativen Mikrocontrollers. </li><li>sind in der Lage, Teile des Rechnerkerns sowie einiger Peripheriekomponenten in VHDL zu beschreiben. </li><li>können einen Rechnerkern (Soft Core) in VHDL durch eigene Teile ergänzen. </li><li>kennen einen repräsentativen, programmierbaren Baustein (FPGA) und können diesen einsetzen.</li></ul>",
+      "planinhalt": "<ul><li>Entwurf und Wirkungsweise eines einfachen Rechners</li><li>Von Neumann- und Harvard-Architektur</li><li>Rechen- und Steuerwerk, Speicher, Ein- / Ausgabewerke</li><li>Interruptstrukturen</li></ul>",
+      "bibliographie": "<p>Mark Zwolinski, Digital System Design with VHDL2nd edition, Pearson Education Limited, 2004</p><p>Datenblätter</p>",
+      "empfLehrmittel": "Lehrgespräch im Klassenverband, Laborübungen, Selbststudium",
+      "leistungsnachweis": "Es findet eine gemeinsame abgesetzte Modulschlussprüfung über alle fünf Kurse dieses Moduls statt.",
+      "kurselemente": [
+        {
+          "id": 45876,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000249,
+          "name": "Zogg",
+          "vorname": "Andreas"
+        }
+      ]
+    },
+    {
+      "id": 45877,
+      "kuerzel": "InI_II_D",
+      "bezeichnung": "Datenbanksprache SQL",
+      "kreditpunkte": 0,
+      "lernziele": "<p>SQL (structured query language) ist die Datenbanksprache, die von allen relationalen Datenbanksystemen unterstützt wird</p><p>Die Studierenden</p><ul><li>kennen die zentralen Sprachkonstrukte von Standard-SQL.</li><li>können Datenbestände aus Datenbanken abfragen und ändern.</li></ul>",
+      "planinhalt": "<ul><li>Grundkonzepte von Datenbanken (Relationen) und Abfragesprachen (SQL)</li><li>Data Manipulation Language: SELECT, INSERT, UPDATE, DELETE Anweisungen</li><li>Grundzüge der Data Definition Language: CREATE, ALTER, DROP</li></ul>",
+      "bibliographie": "<p>Taschenbuch Datenbanken, Thomas Kudrass, Hanser</p><p>SQL, Chris Ferry, Peachpit Press</p><p>SQL Online Ressourcen</p>",
+      "empfLehrmittel": "Selbststudium mit Sprechstunden",
+      "leistungsnachweis": "Es findet eine gemeinsame abgesetzte Modulschlussprüfung über alle fünf Kurse dieses Moduls statt.",
+      "kurselemente": [
+        {
+          "id": 45878,
+          "art": "Selbststudium",
+          "anzLektionen": 0,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000010,
+          "name": "Bach",
+          "vorname": "Carlo"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10368,
+      "bezeichnung": "Ingenieurinformatik",
+      "kuerzel": "Ingen",
+      "url": "allStudies/10368_Ingen.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10369,
+      "bezeichnung": "Ingenieurinformatik",
+      "kuerzel": "Ingen",
+      "url": "allStudies/10369_Ingen.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000249,
+      "name": "Zogg",
+      "vorname": "Andreas"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 45857,
+      "kuerzel": "M_InI_I",
+      "bezeichnung": "Ingenieurinformatik I",
+      "url": "allModules/45857_M_InI_I.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 45879,
+      "kuerzel": "M_InI_III",
+      "bezeichnung": "Ingenieurinformatik III",
+      "url": "allModules/45879_M_InI_III.json"
+    },
+    {
+      "id": 45893,
+      "kuerzel": "M_IuP_I",
+      "bezeichnung": "Innovationsmanagement und Produktentwicklung I",
+      "url": "allModules/45893_M_IuP_I.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 2,
+      "kuerzel": "WSG",
+      "bezeichnung": "Waldau St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 45868,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Computer Science II"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2008,
+    "beginSemester": "FS",
+    "endJahr": 2009,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 45868,
+    "kuerzel": "M_InI_II",
+    "bezeichnung": "Ingenieurinformatik II",
+    "url": "allModules/45868_M_InI_II.json"
+  }
+}

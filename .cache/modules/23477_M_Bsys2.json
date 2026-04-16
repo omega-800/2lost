@@ -1,0 +1,271 @@
+{
+  "id": 23477,
+  "kuerzel": "M_Bsys2",
+  "bezeichnung": "Betriebssysteme 2",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Der/die Studierende kennt die grundlegenden Mechanismen der Ein-/Ausgabe f&uuml;r allgemeine Peripherie und f&uuml;r systemnahe oder systemintegrierte grafische Bedienoberfl&auml;chen. Er/sie kann wesentliche Merkmale des Speicheraufbaus beschreiben und die wichtigsten Verfahren zur Speicherverwaltung unterscheiden. <font size=\"2\">Verbreitete Dateisysteme k&ouml;nnen aufgrund ihrer Konzepte und Realisierungen qualifiziert werden. </font>Systemnahe Entwicklungswerkzeuge werden beherrscht, Relokationsvorg&auml;nge in ihrer Funktion erkannt, und einfache Shell-Skripte k&ouml;nnen erstellt werden.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 23478,
+      "kuerzel": "Bsys2",
+      "bezeichnung": "Betriebssysteme 2 ",
+      "planinhalt": "<ul>\n    <li><font size=\"2\">\n    <p>Massenspeicher (Funktionsweise, Disk-I/O-Scheduling, Disk-Cache)</p>\n    </font></li>\n    <li><font size=\"2\">\n    <p><font size=\"2\">Dateisystemkonzepte, Realisierung von Dateisystemen anhand von Beispielen</font></p>\n    </font></li>\n    <li><font size=\"2\">\n    <p>Ein-/Ausgabe (Ueberblick, E/A-Abl&auml;ufe, E/A-Systemstruktur, systemnahe oder systemintegrierte Grundmechanismen von Fenstersystemen) </p>\n    </font></li>\n    <li>Speicherverwaltung (Speicherhierarchie, Funktionsweise Cache-Speicher, Verwaltungsgrundlagen, dynamische Speicherbereitstellung, Verwaltung von Prozessadressr&auml;umen, Realer Speicher, Virtueller Speicher, speicherabgebildete Dateien) </li>\n    <li>Programmentwicklung (Einf&uuml;hrung in systemnahe Software-Entwicklungswerkzeuge, Adressraumbelegung und Relokation, Skriptprogrammierung anhand Unix-Shell-Scripts) </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 23479,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 126,
+          "harteGrenze": true
+        },
+        {
+          "id": 23480,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Betriebssysteme 2 "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Operating Systems 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10107,
+      "bezeichnung": "Network & Cloud-Infrastructure",
+      "kuerzel": "NetCloud",
+      "url": "allStudies/10107_NetCloud.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10127,
+      "bezeichnung": "Generalist",
+      "kuerzel": "GEN",
+      "url": "allStudies/10127_GEN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10132,
+          "kuerzel": "I-KMP",
+          "bezeichnung": "Kernmodule Informatik Profile",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10106,
+      "bezeichnung": "Application Design - Cloud Solutions",
+      "kuerzel": "ADCS",
+      "url": "allStudies/10106_ADCS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10229,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10229_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10108,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10108_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10161,
+      "bezeichnung": "Data Engineering & Machine Intelligence",
+      "kuerzel": "DaEngMaInt",
+      "url": "allStudies/10161_DaEngMaInt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5013437,
+      "name": "Richter",
+      "vorname": "Stefan"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 30407,
+      "kuerzel": "M_Bsys1",
+      "bezeichnung": "Betriebssysteme 1",
+      "url": "allModules/30407_M_Bsys1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 23477,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Betriebssysteme 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Operating Systems 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2014,
+    "beginSemester": "FS",
+    "endJahr": 2018,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 16753,
+    "kuerzel": "M_Bsys2",
+    "bezeichnung": "Betriebssysteme 2",
+    "url": "allModules/16753_M_Bsys2.json"
+  },
+  "nachfolger": {
+    "id": 23477,
+    "kuerzel": "M_Bsys2",
+    "bezeichnung": "Betriebssysteme 2",
+    "url": "allModules/23477_M_Bsys2.json"
+  }
+}

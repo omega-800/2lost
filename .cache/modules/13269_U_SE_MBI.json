@@ -1,0 +1,125 @@
+{
+  "id": 13269,
+  "kuerzel": "U_SE_MBI",
+  "bezeichnung": "Software-Engineering MBI - Uebergangsmodul",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Objektorientierte, methodische Softwareentwicklung unter Verwendung der UML: Von der Anforderungs- bzw. <br />Problemdomain-Analyse, &#252;ber den Objektorientierten Entwurf bis zur Umsetzung in Code. <br />Einsatz eines CASE-Tools zur Erstellung von UML-Diagrammen (CASE = Computer-Aided-Software-Engineering). <br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 13266,
+      "kuerzel": "uSE_MBI",
+      "bezeichnung": "Software-Engineering MBI - Uebergang",
+      "planinhalt": "<p>1. Einf&#252;hrung <br />- Komplexit&#228;t, Ans&#228;tze zu ihrer Bew&#228;ltigung / - Abstraktion, Modelle / <br />- Hauptt&#228;tigkeiten (Analyse, Entwurf, Implementierung) / - Vorgehensmodelle <br />2. Grundlegende Konzepte der Objektorientierung <br />- Objekte, Klassen, Attribute, Methoden / - Darstellung mit UML <br />3. Objektorientierte Analyse OOA - Statische Konzepte <br />- Problemdomain-Analyse / - Beziehungen zwischen Klassen / - Analysemuster <br />4. Objektorientierte Analyse OOA - Dynamische Konzepte <br />- Gesch&#228;ftsprozesse / - Szenarios / - Zustandsdiagramme <br />5. Objektorientierter Design OOD <br />- Entwurfsprinzipien / - Software-Architekturen / - Entwurfsmuster / - Detailentwurf <br /><br /></p>",
+      "kurselemente": [
+        {
+          "id": 13267,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 13268,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Software-Engineering MBI - Uebergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Software Engineering MBI - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 140,
+      "name": "Pletscher",
+      "vorname": "Hans Heinrich"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 13269,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Software-Engineering MBI - Uebergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Software Engineering MBI - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2005,
+    "endSemester": "WS"
+  }
+}

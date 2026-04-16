@@ -1,0 +1,941 @@
+{
+  "id": 10436,
+  "kuerzel": "BOEK_GM",
+  "bezeichnung": "General Management",
+  "versionKuerzel": "STD_23",
+  "art": "Studienrichtung",
+  "kredits": [
+    {
+      "id": 10972,
+      "minKredits": 96,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment"
+        }
+      ]
+    },
+    {
+      "id": 10973,
+      "minKredits": 18,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule"
+        }
+      ]
+    }
+  ],
+  "spezialisierungen": [
+    {
+      "id": 10443,
+      "kuerzel": "BOEK_GM_AC",
+      "bezeichnung": "Accounting und Controlling",
+      "url": "allStudies/10443_BOEK_GM_AC.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Accounting and Controlling"
+        }
+      ]
+    },
+    {
+      "id": 10444,
+      "kuerzel": "BOEK_GM_BF",
+      "bezeichnung": "Banking und Finance",
+      "url": "allStudies/10444_BOEK_GM_BF.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Banking and Finance"
+        }
+      ]
+    },
+    {
+      "id": 10445,
+      "kuerzel": "BOEK_GM_MM",
+      "bezeichnung": "Marketing Management",
+      "url": "allStudies/10445_BOEK_GM_MM.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Marketing Management"
+        }
+      ]
+    },
+    {
+      "id": 10446,
+      "kuerzel": "BOEK_GM_SB",
+      "bezeichnung": "Strategie und New Business",
+      "url": "allStudies/10446_BOEK_GM_SB.json",
+      "uebersetzungen": [
+        {
+          "id": 3702,
+          "bezeichnung": "Strategie and New Business"
+        }
+      ]
+    },
+    {
+      "id": 10447,
+      "kuerzel": "BOEK_GM_WO",
+      "bezeichnung": "Wirtschaftspsychologie und Organisation",
+      "url": "allStudies/10447_BOEK_GM_WO.json"
+    }
+  ],
+  "parent": {
+    "id": 10435,
+    "kuerzel": "BOEK_VZ",
+    "bezeichnung": "Betriebsökonomie VZ",
+    "url": "allStudies/10435_BOEK_VZ.json"
+  },
+  "zuordnungen": [
+    {
+      "id": 43725,
+      "kuerzel": "M_boek.AFIN",
+      "bezeichnung": "Accounting und Finance",
+      "url": "allModules/43725_M_boek.AFIN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 55800,
+      "kuerzel": "M_boek.AOPS",
+      "bezeichnung": "Arbeits- und Organisationspsychologie",
+      "url": "allModules/55800_M_boek.AOPS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 55803,
+      "kuerzel": "M_boek.BATH",
+      "bezeichnung": "Bachelor Arbeit",
+      "url": "allModules/55803_M_boek.BATH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 56217,
+      "kuerzel": "M_boek.BFRM",
+      "bezeichnung": "Bank Management and Financial Risk Management",
+      "url": "allModules/56217_M_boek.BFRM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 55815,
+      "kuerzel": "M_boek.CAPS",
+      "bezeichnung": "Capstone",
+      "url": "allModules/55815_M_boek.CAPS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 55824,
+      "kuerzel": "M_boek.CBEH",
+      "bezeichnung": "Consumer Behaviour",
+      "url": "allModules/55824_M_boek.CBEH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 61338,
+      "kuerzel": "M_boek.CBEH_p",
+      "bezeichnung": "Consumer Behaviour",
+      "url": "allModules/61338_M_boek.CBEH_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 55827,
+      "kuerzel": "M_boek.CONT",
+      "bezeichnung": "Controlling",
+      "url": "allModules/55827_M_boek.CONT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 55830,
+      "kuerzel": "M_boek.CFIN",
+      "bezeichnung": "Corporate Finance",
+      "url": "allModules/55830_M_boek.CFIN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 55839,
+      "kuerzel": "M_boek.ORGA",
+      "bezeichnung": "Der Mensch in der Organisation",
+      "url": "allModules/55839_M_boek.ORGA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 55845,
+      "kuerzel": "M_boek.DMCM",
+      "bezeichnung": "Digital Marketing Communication",
+      "url": "allModules/55845_M_boek.DMCM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 55851,
+      "kuerzel": "M_boek.EPC1",
+      "bezeichnung": "English for Professional Communication 1",
+      "url": "allModules/55851_M_boek.EPC1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 55854,
+      "kuerzel": "M_boek.EPC2",
+      "bezeichnung": "English for Professional Communication 2",
+      "url": "allModules/55854_M_boek.EPC2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 61344,
+      "kuerzel": "M_boek.EPC2_p",
+      "bezeichnung": "English for Professional Communication 2",
+      "url": "allModules/61344_M_boek.EPC2_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 61347,
+      "kuerzel": "M_boek.EPC3_p",
+      "bezeichnung": "English for Professional Communication 3",
+      "url": "allModules/61347_M_boek.EPC3_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 55857,
+      "kuerzel": "M_boek.EPC3",
+      "bezeichnung": "English for Professional Communication 3",
+      "url": "allModules/55857_M_boek.EPC3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 43842,
+      "kuerzel": "M_boek.ENTP",
+      "bezeichnung": "Entrepreneurship",
+      "url": "allModules/43842_M_boek.ENTP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 57633,
+      "kuerzel": "M_boek.ENKO",
+      "bezeichnung": "Entscheidung- und Konsumentenpsychologie",
+      "url": "allModules/57633_M_boek.ENKO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 55869,
+      "kuerzel": "M_boek.FIAM",
+      "bezeichnung": "Financial Instruments und Asset Management",
+      "url": "allModules/55869_M_boek.FIAM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 55872,
+      "kuerzel": "M_boek.FIPL",
+      "bezeichnung": "Financial Planning",
+      "url": "allModules/55872_M_boek.FIPL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 55875,
+      "kuerzel": "M_boek.FIRE",
+      "bezeichnung": "Financial Reporting",
+      "url": "allModules/55875_M_boek.FIRE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 55884,
+      "kuerzel": "M_boek.FIMG",
+      "bezeichnung": "Finanzmanagement",
+      "url": "allModules/55884_M_boek.FIMG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 57560,
+      "kuerzel": "M_boek.GENE",
+      "bezeichnung": "Gesellschaft und Nachhaltige Entwicklung",
+      "url": "allModules/57560_M_boek.GENE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 55893,
+      "kuerzel": "M_boek.GSRB",
+      "bezeichnung": "Gesellschafts- und Steuerrecht Betriebsökonomie",
+      "url": "allModules/55893_M_boek.GSRB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 55905,
+      "kuerzel": "M_boek.IKOM",
+      "bezeichnung": "Interkulturelle Kommunikation",
+      "url": "allModules/55905_M_boek.IKOM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 55926,
+      "kuerzel": "M_boek.JAAB",
+      "bezeichnung": "Jahresabschluss",
+      "url": "allModules/55926_M_boek.JAAB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 55617,
+      "kuerzel": "M_boek.KVMG",
+      "bezeichnung": "Kunden- und Vertriebsmanagement",
+      "url": "allModules/55617_M_boek.KVMG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 55935,
+      "kuerzel": "M_boek.LEAD",
+      "bezeichnung": "Leadership",
+      "url": "allModules/55935_M_boek.LEAD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 55953,
+      "kuerzel": "M_boek.MAPO",
+      "bezeichnung": "Making und Prototyping",
+      "url": "allModules/55953_M_boek.MAPO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 55956,
+      "kuerzel": "M_boek.MRKT",
+      "bezeichnung": "Marketing",
+      "url": "allModules/55956_M_boek.MRKT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 55962,
+      "kuerzel": "M_boek.VWL2",
+      "bezeichnung": "Ökonomie anwenden",
+      "url": "allModules/55962_M_boek.VWL2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 55971,
+      "kuerzel": "M_boek.PRP1",
+      "bezeichnung": "Praxisprojekt 1 (Marktforschung)",
+      "url": "allModules/55971_M_boek.PRP1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 9
+        }
+      ]
+    },
+    {
+      "id": 55974,
+      "kuerzel": "M_boek.PRP2",
+      "bezeichnung": "Praxisprojekt 2 (Managementkonzept)",
+      "url": "allModules/55974_M_boek.PRP2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 9
+        }
+      ]
+    },
+    {
+      "id": 55986,
+      "kuerzel": "M_boek.PSMG",
+      "bezeichnung": "Produkt- und Service Management",
+      "url": "allModules/55986_M_boek.PSMG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 55989,
+      "kuerzel": "M_boek.POMG__v2",
+      "bezeichnung": "Produktionswirtschaft und Operations Management",
+      "url": "allModules/55989_M_boek.POMG__v2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 55992,
+      "kuerzel": "M_boek.POMG",
+      "bezeichnung": "Produktionswirtschaft und Operationsmanagement",
+      "url": "allModules/55992_M_boek.POMG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 55995,
+      "kuerzel": "M_boek.PSGL",
+      "bezeichnung": "Psychologie des Glücks",
+      "url": "allModules/55995_M_boek.PSGL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56004,
+      "kuerzel": "M_boek.RHMO",
+      "bezeichnung": "Rhetorik und Moderation",
+      "url": "allModules/56004_M_boek.RHMO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56019,
+      "kuerzel": "M_boek.SVRB",
+      "bezeichnung": "Staats- und Verwaltungsrecht",
+      "url": "allModules/56019_M_boek.SVRB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56031,
+      "kuerzel": "M_boek.STTA",
+      "bezeichnung": "Strategic Thinking and Acting",
+      "url": "allModules/56031_M_boek.STTA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 43902,
+      "kuerzel": "M_boek.STMG",
+      "bezeichnung": "Strategisches Management",
+      "url": "allModules/43902_M_boek.STMG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56046,
+      "kuerzel": "M_boek.TINO",
+      "bezeichnung": "Technologie und Innovation in Organisationen",
+      "url": "allModules/56046_M_boek.TINO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10191,
+          "kuerzel": "VT_Mod_WI",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 56058,
+      "kuerzel": "M_boek.WKPS",
+      "bezeichnung": "Wahrnehmungs- und Kommunikationpsychologie",
+      "url": "allModules/56058_M_boek.WKPS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56067,
+      "kuerzel": "M_boek.WIN2",
+      "bezeichnung": "Wirtschaftsinformatik 2",
+      "url": "allModules/56067_M_boek.WIN2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 56073,
+      "kuerzel": "M_boek.MSTB",
+      "bezeichnung": "Wirtschaftsmathematik und Statistik Betriebsökonomie",
+      "url": "allModules/56073_M_boek.MSTB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 56079,
+      "kuerzel": "M_boek.WSA1",
+      "bezeichnung": "Wissenschaftliches Schreiben und Arbeiten 1",
+      "url": "allModules/56079_M_boek.WSA1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56082,
+      "kuerzel": "M_boek.WSA2",
+      "bezeichnung": "Wissenschaftliches Schreiben und Arbeiten 2",
+      "url": "allModules/56082_M_boek.WSA2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ]
+}

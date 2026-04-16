@@ -1,0 +1,312 @@
+{
+  "id": 55356,
+  "kuerzel": "M_OPTIM",
+  "bezeichnung": "Optimierung",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden lernen grundlegende Konzepte und Methoden der Mathematischen Optimierung. Sie wenden diese in den Feldern: (a) Ingenieurswissenschaften und (b) Wirtschaft praxisnah an. &nbsp;</p>",
+  "vorausgKenntnisse": "<p>Mathematik</p>\n<ul>\n<li>Funktionen in R und RN</li>\n<li>Ableitung, Gradient</li>\n<li>Integralrechnung in R</li>\n<li>Grundfunktionen</li>\n<li>Grundz&uuml;ge der Vektor-Algebra (Vektoren, Matrizen, Rechenoperationen)</li>\n</ul>\n<p>&nbsp;</p>\n<p>Angewandte Programmierung</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 55357,
+      "kuerzel": "OPTIM",
+      "bezeichnung": "Optimierung",
+      "lernziele": "<p><strong>Fachkompetenzen:</strong></p>\n<p>Die Teilnehmenden k&ouml;nnen:&nbsp;<br />&bull; In der Praxis auftretende Extremalwert- und Optimierungs-Aufgaben erkennen und in eine mathematische Optimierungs-Aufgabe &uuml;berf&uuml;hren.<br />&bull; Optimierungs-Aufgaben mathematisch korrekt klassifizieren. Dar&uuml;ber hinaus kennen die Studierenden die Eigenschaften der L&ouml;sungsmengen der verschiedenen Klassen.</p>\n<p>&nbsp;</p>\n<p><strong>Methodenkompetenzen</strong><br />Die Teilnehmenden k&ouml;nnen:<br />&bull; Mathematisch korrekte L&ouml;sungsverfahren identifizieren. <br />&bull;&nbsp;Mit Hilfe von geeigneten Werkzeugen L&ouml;sungsverfahren korrekt anwenden und die Ergebnisse interpretieren</p>\n<p>&nbsp;</p>\n<p><strong>Selbstkompetenzen</strong><br />Die Teilnehmenden k&ouml;nnen:<br />&bull;&nbsp;Die Grenzen der erlernten Verfahren einsch&auml;tzen</p>\n<p><br /><strong>Sozialkompetenzen</strong><br />Die Teilnehmenden k&ouml;nnen:<br />&bull;&nbsp;Mit Fachexperten anderer Disziplinen im Team Optimierungsaufgaben formulieren und l&ouml;sen</p>",
+      "planinhalt": "<p><strong>Grundlagen &amp; Wiederholung</strong><br />- Univariate Funktionen&nbsp;<br />- Multivariate Funktionen&nbsp;<br />- Erste und Zweite Ableitung<br />- Lokale und Globale Optima<br />- Klassifikation von Optimierungsproblemen<br />- Software Tools&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Univariate Optimierung&nbsp;</strong><br />- Modellieren und L&ouml;sen reellwertiger Optimierungsprobleme<br />- Modellieren und L&ouml;sen ganzzahliger Optimierungsprobleme</p>\n<p>&nbsp;</p>\n<p><strong>Multivariate Optimierung&nbsp;</strong><br />- Linear Programming: Reellwertige, ganzzahlige und gemischt-ganzzahlige Optimierung mit linearer Zielfunktion und linearen Nebenbedingungen: Modellierung und L&ouml;sungsverfahren<br />- Non-linear Programming: Reellwertige, ganzzahlige und gemischt-ganzzahlige, multivariate Optimierung mit Nebenbedingungen<br />- Fallstudie</p>",
+      "kurselemente": [
+        {
+          "id": 55358,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 108,
+          "harteGrenze": true
+        },
+        {
+          "id": 55359,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Optimierung"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Optimization"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10129,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10129_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10125,
+          "kuerzel": "W_IKpl",
+          "bezeichnung": "Ingenieurkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10130,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10130_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10125,
+          "kuerzel": "W_IKpl",
+          "bezeichnung": "Ingenieurkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10151,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10151_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10169,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10169_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10202,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10202_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10272,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10272_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10217,
+      "bezeichnung": "Smart Factories",
+      "kuerzel": "WING_Fact",
+      "url": "allStudies/10217_WING_Fact.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10274,
+      "bezeichnung": "Smart Factories",
+      "kuerzel": "WING_Fact",
+      "url": "allStudies/10274_WING_Fact.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10277,
+      "bezeichnung": "Data Science",
+      "kuerzel": "WING_DaSc",
+      "url": "allStudies/10277_WING_DaSc.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10220,
+      "bezeichnung": "Digital Business",
+      "kuerzel": "WING_DigBu",
+      "url": "allStudies/10220_WING_DigBu.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10224,
+      "bezeichnung": "Data Science",
+      "kuerzel": "WING_DaSc",
+      "url": "allStudies/10224_WING_DaSc.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10167,
+      "bezeichnung": "Smart Factories and Robotics",
+      "kuerzel": "WING_Fact",
+      "url": "allStudies/10167_WING_Fact.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10170,
+      "bezeichnung": "Smart Factories and Robotics",
+      "kuerzel": "WING_Fact",
+      "url": "allStudies/10170_WING_Fact.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10276,
+      "bezeichnung": "Digital Business",
+      "kuerzel": "WING_DigBu",
+      "url": "allStudies/10276_WING_DigBu.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 69025,
+      "name": "Tiemessen",
+      "vorname": "Harold"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 55356,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Optimierung"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Optimization"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2025,
+    "beginSemester": "FS",
+    "endJahr": 2026,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 39337,
+    "kuerzel": "M_OPTIM",
+    "bezeichnung": "Optimierung",
+    "url": "allModules/39337_M_OPTIM.json"
+  },
+  "nachfolger": {
+    "id": 55356,
+    "kuerzel": "M_OPTIM",
+    "bezeichnung": "Optimierung",
+    "url": "allModules/55356_M_OPTIM.json"
+  }
+}

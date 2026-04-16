@@ -1,0 +1,149 @@
+{
+  "id": 11111,
+  "kuerzel": "M_AntrT1",
+  "bezeichnung": "Antriebstechnik 1",
+  "kreditpunkte": 2,
+  "lernziele": "<ul>\n    <li>&Uuml;berblick &uuml;ber den Aufbau und die Arbeitsweise fluidischer Antriebe </li>\n    <li>F&auml;higkeit zur Auslegung geeigneter Antriebsl&ouml;sungen <br /></li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10249,
+      "kuerzel": "AntrT1",
+      "bezeichnung": "Fluidische Antriebstechnik",
+      "planinhalt": "<ul>\n<li>Grundlagen der Antriebstechnik </li>\n<li>Vergleich fluidischer-, elektrischer- und mechanischer Antriebsl&#246;sungen </li>\n<li>Grundlagen der Pneumatik und Hydraulik </li>\n<li>Aufbau und Eigenschaften von pneumatischen und hydraulischen Antriebskomponenten </li>\n<li>Beschreibung pneumatischer und hydraulischer Systeme </li>\n<li>Projektierung fluidischer Antriebe </li>\n<li>Steuerung und Regelung fluidischer Antriebe <br /><br /></li></ul>",
+      "kurselemente": [
+        {
+          "id": 10689,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        },
+        {
+          "id": 10690,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Fluidische Antriebstechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Fluid Drive Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1269,
+      "name": "Koller",
+      "vorname": "Agathe"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11111,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Antriebstechnik 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Drive Engineering 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2005,
+    "endSemester": "WS"
+  },
+  "nachfolger": {
+    "id": 11111,
+    "kuerzel": "M_AntrT1",
+    "bezeichnung": "Antriebstechnik 1",
+    "url": "allModules/11111_M_AntrT1.json"
+  }
+}

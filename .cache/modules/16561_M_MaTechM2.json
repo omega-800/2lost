@@ -1,0 +1,221 @@
+{
+  "id": 16561,
+  "kuerzel": "M_MaTechM2",
+  "bezeichnung": "Materialtechnologie 2 (M)",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Kenntnisse: <br />- wichtiger Verarbeitungsmerkmale metallischer Werkstoffe <br />- wichtiger Oberfl&#228;chenbehandlungen metallischer Werkstoffe <br />- zur Schadensanalytik: Korrosion, Verschleiss- und Bruchmechanismen </p> <p>&#220;berblick &#252;ber die Fertigungsverfahren als Grundlage f&#252;r Entscheidungen und die Auswahl im Entwicklungsalltag und im Einkauf <br /><br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 16562,
+      "kuerzel": "Werkst2",
+      "bezeichnung": "Werkstoffkunde 2",
+      "lernziele": "<ul>\n    <li>Aufbau und Eigenschaften nichtmetallischer Werkstoffe </li>\n    <li>Selstst&auml;ndiges Durchf&uuml;hren von:<br />- Werkstoffpr&uuml;fung zur Charakterisierung der wichtigsten Eigenschaften<br />&nbsp;&nbsp; nichtmetallischer Werkstoffe<br />- Verarbeitungstechnologien von faserverst&auml;rkten Kunststoffen </li>\n</ul>",
+      "planinhalt": "<p>Schwerpunkte nichtmetallischer Werkstoffe</p>\n<ul>\n    <li>Strukturen Aufbau</li>\n    <li>Verhalten und Eigenschaften</li>\n    <li>Mechanische Eigenschaften und Werkstoffpr&uuml;fung</li>\n    <li>Spezifische Verarbeitungsmerkmale</li>\n    <li>Schadensanalyse</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 16563,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        },
+        {
+          "id": 16564,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Werkstoffkunde 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Materials Science 2"
+        }
+      ]
+    },
+    {
+      "id": 16566,
+      "kuerzel": "FertVerf",
+      "bezeichnung": "Fertigungsverfahren",
+      "lernziele": "<p>&#220;berblick &#252;ber die Fertigungsverfahren als Grundlage f&#252;r Entscheidungen und die Auswahl im&nbsp;Entwicklungsalltag und im Einkauf&nbsp;</p>",
+      "planinhalt": "<p>Urformen:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Giessen, Sintern<br />Umformen:&nbsp;&nbsp;&nbsp;&nbsp; Biegen, Pressen, Schmieden, Tiefziehen<br />Trennen:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stanzen, Nibbeln, Schneiden (Wasser, Plasma, Laser)<br />Verbinden:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schweissen, Kleben, L&ouml;ten<br />Zerspanen:&nbsp;&nbsp;&nbsp;&nbsp; Bohren, Drehen, Fr&auml;sen, Schleifen<br />Beschichten:&nbsp;&nbsp; Eloxieren, Verzinken<br />Kunststoffe:&nbsp;&nbsp;&nbsp;Spritzgiessen, Niederdruckteile, faserverst&auml;rkte Teile, Sch&auml;umen</p>\n<p>Konstruktive Grundlagen und M&ouml;glichkeiten der&nbsp;einzelnen Verfahren<br />Prototyping<br />Kalkulation</p>",
+      "kurselemente": [
+        {
+          "id": 16567,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Fertigungsverfahren"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Production Process"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 527139,
+      "name": "Ehrig",
+      "vorname": "Frank"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 16551,
+      "kuerzel": "M_MaTechM1",
+      "bezeichnung": "Materialtechnologie 1 (M)",
+      "url": "allModules/16551_M_MaTechM1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 16561,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Kurs Werkstoffkunde 2: Abgabe Praktikabericht der die Leistung &quot;gen&uuml;gend&quot; erzielt.</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Materialtechnologie 2 (M)"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Materials Technology 2 (M)"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2008,
+    "beginSemester": "FS",
+    "endJahr": 2010,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 10996,
+    "kuerzel": "M_MaTechM2",
+    "bezeichnung": "Materialtechnologie 2 (M)",
+    "url": "allModules/10996_M_MaTechM2.json"
+  }
+}

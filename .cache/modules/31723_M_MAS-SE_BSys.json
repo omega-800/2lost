@@ -1,0 +1,138 @@
+{
+  "id": 31723,
+  "kuerzel": "M_MAS-SE_BSys",
+  "bezeichnung": "Betriebssysteme",
+  "kreditpunkte": 3,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 31724,
+      "kuerzel": "MAS-SE_UxBSys",
+      "bezeichnung": "Unix Betriebssysteme",
+      "lernziele": "<p>Sie analysieren Unix-Shell-Skripte und programmieren und erporben eigene Skripte. Sie diskutieren die Vor- unf Nachteile der Unix-Skriptprogrammierung. Sie analysieren einfache parallele Programme die &uuml;ber Unix-Pipes kommunizieren und erweitern diese erfolgreich. Sie erkl&auml;ren die Grundprinzipien der Unix Berkely Socketprogrammierung zur rechner&uuml;bergreifenden Interprozesskommunikation.</p>",
+      "planinhalt": "<p><strong>Programnmausf&uuml;hrung unter der Shell:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />Funktionsweise der Shell, Prozesse auf der Kommandozeile (Vorder-/Hintergrundprozesse).<br />&nbsp;</p><p><strong>Shell-Skriptprogrammierung:</strong><br />Gebrauch von Skripten, Erstellung von Skripten, Elemente der Skriptsprache, Anwendungsbeispiele.<br />&nbsp;</p><p><strong>Unix-Interprozesskommunikation:</strong><br />Rechnerlokale Interprozesskommunikation mittels Unix-Signalen und Unix Pipes. Rechner&uuml;bergreifende Interprozesskommunikation &uuml;ber ein Rechnernetz mittels Socketprogrammierung.</p>",
+      "bibliographie": "<p><strong>Lehrmittel</strong><br />Lehrbuch E. Glatz: <em>Betriebssysteme</em>, dPunkt Verlag, 2006.<br />Handouts der Vortragsfolien inkl. Inhaltsverzeichnis</p><p><strong>Literaturhinweise</strong><br />P. Prinz &amp; U. Kirch-Prinz: <em>C kurz &amp; gut</em>, O&#39;Reilly Verlag, 2002.<br />H. Herold: Linux/Unix Systemprogrammierung, Addison-Wesley, 2004.</p><p><strong>Internet-Links</strong><br />http://de.wikipedia.org/wiki/Unix<br />http://de.wikipedia.org/wiki/Linux<br />http://de.wikibooks.org/wiki/Linux-Kompendium</p><p><strong>Tools</strong><br />http://de.wikipedia.org/wiki/GNU_Compiler_Collection<br />http://www.gnu.org/software/ddd/</p>",
+      "empfLehrmittel": "<p>Gef&uuml;hrtes Selbststudium sowie Pr&auml;senzunterricht mit Theorievertiefung, Anwendungsbeispielen und &Uuml;bungen.</p>",
+      "leistungsnachweis": "<p>Schriftliche Schlusspr&uuml;fung (open book) und Mini-Quizzes im Pr&auml;senzunterricht.</p><p>Dauer der Pr&uuml;fung: 30 Minuten</p><p>Mini-Quizzes: Dienen zur Auf-/Abrundung der Pr&uuml;fungsnote auf n&auml;chste Halbnote.</p>",
+      "kurselemente": [
+        {
+          "id": 31725,
+          "art": "Blockkurs",
+          "anzLektionen": 5,
+          "maxTeilnehmer": 45,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 173,
+          "name": "Glatz",
+          "vorname": "Eduard"
+        }
+      ]
+    },
+    {
+      "id": 31727,
+      "kuerzel": "MAS-SE_WinBSys",
+      "bezeichnung": "Windows Betriebssysteme",
+      "lernziele": "<p>Sie erstellen einfache systemnahe Programme als regul&auml;re Prozesse bzw. als Windows Services und eproben diese erfolgreich. Sie nutzen die Windows-Registry in ihren Programmen und diskutieren deren M&ouml;glichkeiten und Grenzen.&nbsp; Sie programmieren elementare GUI-Programme unter Nutzung der generischen Schnittstelle des Windows-Desktops.&nbsp; Sie erkl&auml;ren die Grundkonzepte und die Funktionsprinzipien des Fenstersystems.</p>",
+      "planinhalt": "<p><strong>Systemregistrierung und Windows Services:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />Funktionen, M&ouml;glichkeiten und Grenzen der Windows-Registry und der Windows Services. Erstellung von eigenen Windows Services und Nutzung der Windows Registry in eigenen Programmen.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p><strong>Windows-GUI:</strong></p><p>Erstellung und Analyse von elementaren GUI-Programmen. Diskussion der Funktionsprinzipien des Fenstersystems.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>",
+      "bibliographie": "<p><strong>Lehrmittel</strong><br />Lehrbuch E. Glatz: Betriebssysteme, 3. Auflage, dPunkt Verlag, 2015.<br />Handouts der Pr&auml;sentationsfolien inkl. Inhaltsverzeichnis</p><p><strong>Literaturhinweise</strong><br />P. Prinz &amp; U. Kirch-Prinz: <em>C kurz &amp; gut</em>, O&#39;Reilly Verlag, 2002.<br />J. M. Hart: Win32 System Programming, Addison-Wesley, 2004.<br />Windows Internals, 7. edition, Microsoft Press 2017</p><p><strong>Internet-Links</strong><br />http://de.wikipedia.org/wiki/Windows<br />http://de.wikipedia.org/wiki/Liste_der_Betriebssysteme</p><p><strong>Tools</strong><br />http://www.mingw.org/old/download.shtml<br />http://www.sysinternals.com</p>",
+      "empfLehrmittel": "<p>Gef&uuml;hrtes Selbststudium sowie Pr&auml;senzunterricht mit Theorievertiefung, Anwendungsbeispielen und &Uuml;bungen.</p>",
+      "leistungsnachweis": "<p>Schriftliche Schlusspr&uuml;fung (open book) und Mini-Quizzes im Pr&auml;senzunterricht.</p><p>Dauer der Pr&uuml;fung: 30 Minuten</p><p>Mini-Quizzes: Dienen zur Auf-/Abrundung der Pr&uuml;fungsnote auf n&auml;chste Halbnote.</p>",
+      "kurselemente": [
+        {
+          "id": 31728,
+          "art": "Blockkurs",
+          "anzLektionen": 5,
+          "maxTeilnehmer": 45,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 173,
+          "name": "Glatz",
+          "vorname": "Eduard"
+        }
+      ]
+    },
+    {
+      "id": 31730,
+      "kuerzel": "MAS-SE_GlBSys",
+      "bezeichnung": "Grundlagen Betriebssysteme",
+      "lernziele": "<p>Sie l&ouml;sen einfache Aufgaben in der Systemprogrammierung unter Unix und Windows. Sie erkl&auml;ren die Prinzipien paralleler Prozessen &amp; Threads sowie der Interprozesskommunikation und nutzen diese in eigenen Programmen.</p>",
+      "planinhalt": "<p><strong>Einf&uuml;hrung in die Systemprogrammierung:</strong><br />Die Programmiersprache C als Grundlage, C Bibliothek und generische Systemfunktionen, Systemdatentypen, R&uuml;ckgabe von Resultaten, Austausch von Datenbl&ouml;cken, Beschreibung von Attributmengen, Opake Anwenderdaten, Arbeiten mit Beschreibungen von Systemfunktionen. Programmierbeispiele aus Unix und Windows.<br />&nbsp;</p><p><strong>Parallelprogrammierung:</strong><br />Programm- &amp; Prozessdefinition, Prozessmodell, Prozesserzeugung &amp; -terminierung, Thread-Modell, Anwendungsbereiche, Vergleich mit Prozessmodell, Prozesszust&auml;nde, Prozessorzuteilungsstrategien. Programmierbeispiele aus Unix und Windows.<br />&nbsp;</p><p><strong>Interprozesskommunikation (IPC):</strong><br />Begriff, Anwendungsbereiche, Problem der Ressourcenteilung. Semaphoren: Synchronisationsmuster, Anwendung, Arten. &Uuml;berblick IPC-Verfahren &amp; Programmiermodelle. Deadlock-Problematik und L&ouml;sungsans&auml;tze.&nbsp;Programmierbeispiele aus Unix und Windows.</p>",
+      "bibliographie": "<p><strong>Lehrmittel</strong><br />Lehrbuch E. Glatz: <em>Betriebssysteme</em>, 3. Auflage, dPunkt Verlag, 2015.<br />Handouts der Pr&auml;sentationsfolien inkl. Inhaltsverzeichnis</p><p><strong>Literaturhinweise</strong><br />P. Prinz &amp; U. Kirch-Prinz: <em>C kurz &amp; gut</em>, O&#39;Reilly Verlag, 2002.<br />J. Hennessy, D. Patterson, A. Arpaci-Dusseau: Computer Architecture, Morgan Kaufmann, 2007.</p><p><strong>Internet-Links</strong><br />http://de.wikipedia.org/wiki/Betriebssystem<br />http://de.wikipedia.org/wiki/Systemprogrammierung<br />http://de.wikipedia.org/wiki/Computerhardware</p><p><strong>Tools</strong><br />http://www.mingw.org/old/download.shtml<br />http://www.gnu.org/software/ddd/</p>",
+      "empfLehrmittel": "<p>Gef&uuml;hrtes Selbststudium sowie Pr&auml;senzunterricht mit Theorievertiefung, Anwendungsbeispielen und &Uuml;bungen.</p>",
+      "leistungsnachweis": "<p>Schriftliche Schlusspr&uuml;fung (open book) und Mini-Quizzes im Pr&auml;senzunterricht.</p><p>Dauer der Pr&uuml;fung: 30 Minuten</p><p>Mini-Quizzes: Dienen zur Auf-/Abrundung der Pr&uuml;fungsnote auf n&auml;chste Halbnote.</p>",
+      "kurselemente": [
+        {
+          "id": 31731,
+          "art": "Blockkurs",
+          "anzLektionen": 5,
+          "maxTeilnehmer": 45,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 173,
+          "name": "Glatz",
+          "vorname": "Eduard"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10068,
+      "bezeichnung": "MAS SW Engineering",
+      "kuerzel": "MAS-SE",
+      "url": "allStudies/10068_MAS-SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 10162,
+      "bezeichnung": "CAS Foundation",
+      "kuerzel": "MAS-SE_Fou",
+      "url": "allStudies/10162_MAS-SE_Fou.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 541091,
+      "name": "Bläser",
+      "vorname": "Luc"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "-- Übersetzung --"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "-- Übersetzung --"
+    }
+  ]
+}

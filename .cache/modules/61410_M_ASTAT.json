@@ -1,0 +1,74 @@
+{
+  "id": 61410,
+  "kuerzel": "M_ASTAT",
+  "bezeichnung": "Applied Statistics",
+  "kreditpunkte": 4,
+  "lernziele": "<p><strong>Leitidee:</strong> Das Modul \"Applied Statistics\" (ASTAT) zielt darauf ab, Studierenden ein Verst&auml;ndnis f&uuml;r statistische Konzepte und deren praktische Anwendung zu vermitteln. Aufbauend auf den Grundlagen der explorativen Datenanalyse (DLAB) und der Wahrscheinlichkeitsrechnung (PCALC), werden die Teilnehmer bef&auml;higt, statistische Methoden mit Python auf reale Datens&auml;tze anzuwenden.&nbsp;<br><strong>Ausbildungsziel:</strong> Ziel des Moduls ist es, Studierende in die Lage zu versetzen, statistische Analysen durchzuf&uuml;hren und die Ergebnisse kritisch zu interpretieren. Sie sollen in der Lage sein, fundierte Entscheidungen auf Basis von Datenanalysen zu treffen und diese verst&auml;ndlich zu kommunizieren.&nbsp;<br><strong>Vision:</strong> Studierende zu kompetenten \"Datenanalysten\" auszubilden, die sowohl die theoretischen als auch die praktischen Aspekte der Statistik beherrschen und in der Lage sind, diese F&auml;higkeiten in verschiedenen beruflichen Kontexten anzuwenden.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 61411,
+      "kuerzel": "ASTAT",
+      "bezeichnung": "Applied Statistics",
+      "lernziele": "<p><strong>Fachkompetenzen:</strong><br>- Verst&auml;ndnis von Daten- und Stichprobenverteilungen.<br>- Durchf&uuml;hrung von Zufallsstichprobenziehungen und Erkennen von Stichprobenverzerrungen.&nbsp;<br>- Anwendung des zentralen Grenzwertsatzes und Berechnung von Standardfehlern.&nbsp;<br>- Einsatz von Bootstrap-Verfahren zur Sch&auml;tzung von Verteilungen.<br>- Konfidenzintervalle<br>- Uniformverteilung Normalverteilung, Exponentialverteilung, Binomialverteilung<br>- Erwartungswert, Varianz<br>- Hypothese Testing</p>\n<p><br><strong>Methodenkompetenzen:</strong><br>Anwendung von Python zur Durchf&uuml;hrung statistischer Analysen. Entwicklung von Skripten zur Automatisierung von Datenanalysen. Nutzung von Bibliotheken wie NumPy, Pandas und SciPy zur Datenverarbeitung und -analyse.</p>",
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Applied Statistics"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Applied Statistics"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10479,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10479_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Applied Statistics"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Applied Statistics"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2027,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  }
+}

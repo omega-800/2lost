@@ -1,0 +1,133 @@
+{
+  "id": 31564,
+  "kuerzel": "M_InfTrend",
+  "bezeichnung": "Informatik Trendthemen",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Die Studierenden erhalten einen vertieften Einblick in ein aktuelles Trend-Thema der Informatik, welches im aktuellen Studienplan noch wenig behandelt wird. Der Unterricht dieses Moduls findet ausserhalb der regul&auml;ren Kontaktzeit statt<br />z.B. <strong>Blockunterricht an einzelnen Tagen in den Wochen 24-27.</strong></p><p>Das Thema der jeweiligen Moduldurchf&uuml;hrung wird vor dem Anmeldetermin bekannt gegeben. Zu diesem Zeitpunkt werden auch Details zum Zeitplan und zu den geforderten Leistungen publiziert.</p><p>Der Arbeitsaufwand entspricht 2 ECTS = 60h</p>",
+  "semesterBewertung": "bestanden / nicht bestanden",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 31565,
+      "kuerzel": "InfTrend",
+      "bezeichnung": "Informatik Trendthemen",
+      "lernziele": "<p>Siehe Modul-Lernziele</p>",
+      "kurselemente": [
+        {
+          "id": 31568,
+          "art": "Blockkurs",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Informatik Trendthemen"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Latest Topics in Computer Science"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533889,
+      "name": "Stolze",
+      "vorname": "Markus"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Informatik Trendthemen"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Latest Topics in Computer Science"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2018,
+    "beginSemester": "FS",
+    "endJahr": 2022,
+    "endSemester": "FS"
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "id": 20711,
+  "kuerzel": "M_KT4",
+  "bezeichnung": "Kunststofftechnik 4",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Auslegung und Anwendung von&nbsp;Kleb-, Schweiss-, Schraub- und Pressverbindungen </li>\n    <li>Werkstoffmechanik der Kunststoffe: Mechanisches Verhalten unter statischer Belastung </li>\n    <li>Berechnung von Kunststoffkonstruktionen: Spannungs- und Verformungsberechnung </li>\n    <li>In &Uuml;bungen wird das Gerlernte anhand von Beispielen vertieft.&nbsp;<br />&nbsp; </li>\n</ul>\n<p>&nbsp;</p>\n<ul>&nbsp;</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 20712,
+      "kuerzel": "FaTe2",
+      "bezeichnung": "Faserverbundtechnik/Leichtbau 2",
+      "lernziele": "<ul>\n    <li>Die Studierenden verstehen die Funktionsweise von Fasern und Matrix </li>\n    <li>Sie kennen das Vorgehen bei der Berechnung von Faserverbundwerkstoffen mit der klassischen Laminartheorie </li>\n    <li>Sie sind in der Lage einfache FVW-Strukturen selbst&auml;ndig zu dimensionieren. </li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Mechanische Eigenschaften von Verst&auml;rkungsfasern und Matrizes </li>\n    <li>Mikromechanik von Faserverbundwerkstoffen </li>\n    <li>Einf&uuml;hrung in die klassische Laminattheorie </li>\n    <li>Versagensmechanismen bei Faserverbundwerkstoffen inkl. Versagenshypothesen </li>\n    <li>Berechnung von&nbsp;Faserverbundwerkstoffen mittels Finite Element Methoden </li>\n    <li>Berechnungsbeispiele aus der Praxis </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 20713,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 20718,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Faserverbundtechnik/Leichtbau 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Fibre Composite Technology/Light-Weight Constructions 2"
+        }
+      ]
+    },
+    {
+      "id": 20719,
+      "kuerzel": "MEKTVER",
+      "bezeichnung": "Mechanische Bauteilauslegung und Verbindungstechnik",
+      "planinhalt": "<ul>\n    <li>Auslegung und Anwendung von&nbsp;Kleb-, Schweiss-, Schraub- und Pressverbindungen</li>\n    <li>Prozess- und Werkzeugtechnik sowie Anwendung des Thermoformens&nbsp;</li>\n    <li>Praktika zu einzelnen Verfahren</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 20903,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 20904,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Mechanische Bauteilauslegung und Verbindungstechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Mechanical part design and joining technologies"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10082,
+      "bezeichnung": "Kunststofftechnik",
+      "kuerzel": "M-I-KS",
+      "url": "allStudies/10082_M-I-KS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10119,
+      "bezeichnung": "Kunststofftechnik",
+      "kuerzel": "M-I-KS",
+      "url": "allStudies/10119_M-I-KS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 527138,
+      "name": "Henne",
+      "vorname": "Markus"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 20618,
+      "kuerzel": "M_KT1",
+      "bezeichnung": "Kunststofftechnik 1",
+      "url": "allModules/20618_M_KT1.json"
+    },
+    {
+      "id": 20703,
+      "kuerzel": "M_KT2",
+      "bezeichnung": "Kunststofftechnik 2",
+      "url": "allModules/20703_M_KT2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 20711,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "Teilnahme an allen &Uuml;bungen",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Kunststofftechnik 4"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Plastics Technology 4"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "FS",
+    "endJahr": 2013,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 20711,
+    "kuerzel": "M_KT4",
+    "bezeichnung": "Kunststofftechnik 4",
+    "url": "allModules/20711_M_KT4.json"
+  }
+}

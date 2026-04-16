@@ -1,0 +1,206 @@
+{
+  "id": 11131,
+  "kuerzel": "M_LeistEl",
+  "bezeichnung": "Leistungselektronik",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Der Absolvent kennt die modernen Bauelemente der Leistungselektronik und ihre Eigenschaften. Er kann die wichtigsten netzgef&uuml;hrten Stromrichterschaltungen dimensionieren und gezielt anwenden. Er kennt Arbeitsweise und Steuerverfahren selbstgef&uuml;hrter Stromrichter. Er weiss, wie Gleichstromsteller funktionieren, wie man sie auslegt und gezielt einsetzt. Er kennt die wichtigsten Grundschaltungen f&uuml;r Umrichter, ihre <br />Einsatzm&ouml;glichkeiten in der Energietechnik und ihre R&uuml;ckwirkungen auf das Netz. <br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10275,
+      "kuerzel": "LeistEl",
+      "bezeichnung": "Leistungselektronik",
+      "planinhalt": "<ul>\n<li>Elektronische Schalter (Leistungshalbleiter) und passive Stromrichterkomponenten </li>\n<li>Aufbau und Arbeitsweise netzgef&#252;hrter Stromrichter</li>\n<li>Wechsel- und Drehstromsteller </li>\n<li>Fremdgef&#252;hrte Stromrichter</li>\n<li>Selbstgef&#252;hrte Stromrichter </li>\n<li>&nbsp;Umrichter </li>\n<li>Steuerung und Regelung von Stromrichtern </li>\n<li>Einsatz von Stromrichtern in der Energietechnik </li>\n<li>Elektromagnetische Vertr&#228;glichkeit und Netzr&#252;ckwirkungen.</li></ul>",
+      "kurselemente": [
+        {
+          "id": 10724,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        },
+        {
+          "id": 10726,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Leistungselektronik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Power Electronics"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 540047,
+      "name": "Smajic",
+      "vorname": "Jasmin"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11122,
+      "kuerzel": "M_WS_DST",
+      "bezeichnung": "Wechsel- und Drehstromtechnik",
+      "url": "allModules/11122_M_WS_DST.json"
+    },
+    {
+      "id": 11125,
+      "kuerzel": "M_ElMasch",
+      "bezeichnung": "Elektrische Maschinen (E)",
+      "url": "allModules/11125_M_ElMasch.json"
+    },
+    {
+      "id": 20014,
+      "kuerzel": "M_ELT1",
+      "bezeichnung": "Elektrotechnik 1",
+      "url": "allModules/20014_M_ELT1.json"
+    },
+    {
+      "id": 20018,
+      "kuerzel": "M_ELT2",
+      "bezeichnung": "Elektrotechnik 2",
+      "url": "allModules/20018_M_ELT2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11131,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": true,
+      "zulassungsBedingung": "Testat",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Leistungselektronik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Power Electronics"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2011,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 11131,
+    "kuerzel": "M_LeistEl",
+    "bezeichnung": "Leistungselektronik",
+    "url": "allModules/11131_M_LeistEl.json"
+  }
+}

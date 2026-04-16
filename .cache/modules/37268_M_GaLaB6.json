@@ -1,0 +1,214 @@
+{
+  "id": 37268,
+  "kuerzel": "M_GaLaB6",
+  "bezeichnung": "Garten- & Landschaftsbau 6",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Vermittlung von Kenntnissen in Geotechnik, Regenwassermanagement und Vermessungskunde</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 37269,
+      "kuerzel": "GeoT_RWM",
+      "bezeichnung": "Geotechnik / RWM",
+      "lernziele": "<ul><li>Vermittlung von bodenphysikalischen und geotechnischen Grundlagen.</li><li>Vermittlung von F&auml;higkeiten zur Dimensionierung von Retentions- und Versickerungsanlagen.</li></ul>",
+      "planinhalt": "<ul><li>Urbaner Wasserhaushalt, Niederschlagswasserbelastung, Regenwasserbehandlung</li><li>Integrales Regenwassermanagement, Retentions- und Versickerungsanlagen, Beispiele aus der Praxis</li><li>Hydraulische und physikalische Bodeneigenschaften, z.B. Korngr&ouml;ssenverteilung, Gef&uuml;gebildung, ME-Wert, Kf-Wert</li><li>Gel&auml;nde- und Laborpraktikum</li><li>Messverfahren in Labor und Feld, z.B. Sickerversuche, Tensiometer</li></ul>",
+      "kurselemente": [
+        {
+          "id": 37270,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 37271,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Geotechnik / RWM"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Geotechnics"
+        }
+      ]
+    },
+    {
+      "id": 37272,
+      "kuerzel": "VK",
+      "bezeichnung": "Vermessungskunde",
+      "lernziele": "<ul>\n    <li>F&auml;higkeit zur Beurteilung und Ausf&uuml;hrung von geod&auml;tischen Messungen im Garten- und Landschaftsbau </li>\n</ul>",
+      "planinhalt": "<p>Instrumentenkunde, Plangrundlagen (insbesondere Liegenschaftskataster), einfache Lage - und H&ouml;henbestimmungen, praktische Arbeiten (Aufnahmen, Absteckungen, DGM) und Vegetationsaufnahmen.</p>",
+      "kurselemente": [
+        {
+          "id": 37273,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 37274,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Vermessungskunde"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Surveying"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10112,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10112_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10152,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10152_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10158,
+      "bezeichnung": "Landschaftsbau und Management",
+      "kuerzel": "L_LBMgmt",
+      "url": "allStudies/10158_L_LBMgmt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10075,
+      "bezeichnung": "Landschaftsbau- und Management",
+      "kuerzel": "LaBau",
+      "url": "allStudies/10075_LaBau.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10073,
+      "bezeichnung": "Landschaftsbau- und Management",
+      "kuerzel": "LaBau",
+      "url": "allStudies/10073_LaBau.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10113,
+      "bezeichnung": "Landschaftsbau- und Management",
+      "kuerzel": "LaBau",
+      "url": "allStudies/10113_LaBau.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 128,
+      "name": "Petschek",
+      "vorname": "Peter"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 37268,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Bestandenes Testat in Geotechnik/Regenwassermanagement. Bestandenes Testat in Vermessungskunde</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Garten- & Landschaftsbau 6"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Construction 6"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2020,
+    "beginSemester": "HS",
+    "endJahr": 2020,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 18345,
+    "kuerzel": "M_GaLaB6",
+    "bezeichnung": "Garten- & Landschaftsbau 6",
+    "url": "allModules/18345_M_GaLaB6.json"
+  },
+  "nachfolger": {
+    "id": 37268,
+    "kuerzel": "M_GaLaB6",
+    "bezeichnung": "Garten- & Landschaftsbau 6",
+    "url": "allModules/37268_M_GaLaB6.json"
+  }
+}

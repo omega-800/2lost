@@ -1,0 +1,200 @@
+{
+  "id": 11132,
+  "kuerzel": "M_EL4",
+  "bezeichnung": "Elektrizitätslehre 4",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Der Absolvent kennt die Grundlagen der Elektrotechnik und kann sie anwenden. Er ist in der Lage,&nbsp;komplexe Zweipole, Vierpole und elektrische Leitungen zu berechnen und auszulegen. <br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10350,
+      "kuerzel": "EL4",
+      "bezeichnung": "Elektrizitätslehre 4",
+      "planinhalt": "<ul>\n    <li>Netzwerke und Systeme (Netzwerkfunktionen und komplexe Frequenz ,&nbsp;Lage der Pol- / Nullstellen und zeitliches Verhalten) </li>\n    <li>Reaktanz-Zweipole (Reaktanzfunktionen und Reaktanzs&auml;tze, Pol- und Nullstellen, Synthese durch Partialbruch- und Kettenbruchzerlegung) </li>\n    <li>Theorie der Vierpole (Klassifizierung, Definitionen, Z&auml;hlrichtungen, Vierpol-Gleichungen, Reziprozit&auml;t, Symmetrie, Parameterbestimmung, Leerlauf-, Kurzschluss- und Betriebsgr&ouml;ssen, Lineare Verst&auml;rker) </li>\n    <li>Theorie der Leitungen (Leitungsgleichungen, RLC-Belag, Wellenwiderstand, Reflexionsfaktor, Leerlauf / Kurzschluss, Leistungsverh&auml;ltnisse, N&auml;herungsformeln f&uuml;r kurze und lange Leitungen, Leiter-Topologien, Leitungsladestr&ouml;me)<br /></li>\n</ul>\n<p>Aenderung vorbehalten</p>",
+      "kurselemente": [
+        {
+          "id": 10831,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 48,
+          "harteGrenze": true
+        },
+        {
+          "id": 10832,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrizitätslehre 4"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electricity Basics 4"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1205,
+      "name": "Neubauer",
+      "vorname": "Raimund E."
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11113,
+      "kuerzel": "M_EL1",
+      "bezeichnung": "Elektrizitätslehre 1",
+      "url": "allModules/11113_M_EL1.json"
+    },
+    {
+      "id": 11115,
+      "kuerzel": "M_EL2",
+      "bezeichnung": "Elektrizitätslehre 2",
+      "url": "allModules/11115_M_EL2.json"
+    },
+    {
+      "id": 11116,
+      "kuerzel": "M_EL3",
+      "bezeichnung": "Elektrizitätslehre 3",
+      "url": "allModules/11116_M_EL3.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11132,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "Testat",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Elektrizitätslehre 4"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electricity Basics 4"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2010,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 11132,
+    "kuerzel": "M_EL4",
+    "bezeichnung": "Elektrizitätslehre 4",
+    "url": "allModules/11132_M_EL4.json"
+  }
+}

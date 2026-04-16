@@ -1,0 +1,160 @@
+{
+  "id": 22634,
+  "kuerzel": "M_UF2K",
+  "bezeichnung": "Unternehmensführung 2 (Kern)",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Vermittlung weiterf&uuml;hrender Kenntnisse in Betriebswirtschaft <br /></li>\n</ul>",
+  "vorausgKenntnisse": "keine",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 22635,
+      "kuerzel": "UF2K",
+      "bezeichnung": "Bauabwicklung, Kalkulation",
+      "lernziele": "Kenntnis der bei Planung und Abwicklung von Landschaftsbauvorhaben erforderlichen organisatorischen Massnahmen, einschl&auml;gigen Verhaltensweisen und Festlegungen vermitteln<br />Zur EDV-gest&uuml;tzten Vorkalkulation landschaftsbaulicher Leistungserstellungen bef&auml;higen",
+      "planinhalt": "Bauabwicklung: Bergriffe und Grundlagen; die Projektbeteiligten und deren Beziehungen; Grundlagen des Ingenieurvertrags; Vorbereitung und Durchf&uuml;hrung der Vergabe; Organisation der Baudurchf&uuml;hrung (Qualit&auml;tssicherung, St&ouml;rungen im Bauablauf); Abnahme; Abrechnung; Projektauswertung<br /><br />Grundlagen der Kalkulation: Zusammensetzung ddes Angebotspreises; Definition der Kalkulationsbestandteile; Ermittlung der Faktoren f&uuml;r die Zuschlagskalkulation; Einf&uuml;hrung in ein Kalkulationsprogramm; Kalkulations&uuml;bungen; Auswertungen<br /><br />&Uuml;bungen zur Bauabwicklung: Erstellung von Vergabeunterlagen; Erstellung von Bauzeitpl&auml;nen; Kostenermittlungen mit Honorarberechnung; Nachtragsmanagement; Rapportwesen",
+      "kurselemente": [
+        {
+          "id": 22636,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 22637,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Bauabwicklung, Kalkulation"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Construction Management, Calculation"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10002,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10002_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10073,
+      "bezeichnung": "Landschaftsbau- und Management",
+      "kuerzel": "LaBau",
+      "url": "allStudies/10073_LaBau.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 128,
+      "name": "Petschek",
+      "vorname": "Peter"
+    }
+  ],
+  "mengen": [
+    {
+      "id": 3,
+      "name": "Aequivalenz",
+      "dModMengeArt": 5701,
+      "module": [
+        {
+          "id": 18385,
+          "kuerzel": "M_UF2",
+          "bezeichnung": "Unternehmensführung 2 (Profil)",
+          "url": "allModules/18385_M_UF2.json"
+        },
+        {
+          "id": 22634,
+          "kuerzel": "M_UF2K",
+          "bezeichnung": "Unternehmensführung 2 (Kern)",
+          "url": "allModules/22634_M_UF2K.json"
+        },
+        {
+          "id": 23398,
+          "kuerzel": "M_UF2K",
+          "bezeichnung": "Unternehmensführung 2 (Kern)",
+          "url": "allModules/23398_M_UF2K.json"
+        },
+        {
+          "id": 23402,
+          "kuerzel": "M_UF2",
+          "bezeichnung": "Unternehmensführung 2",
+          "url": "allModules/23402_M_UF2.json"
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 22634,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Unternehmensführung 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Management 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2011,
+    "beginSemester": "HS",
+    "endJahr": 2012,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 22634,
+    "kuerzel": "M_UF2K",
+    "bezeichnung": "Unternehmensführung 2 (Kern)",
+    "url": "allModules/22634_M_UF2K.json"
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "id": 48535,
+  "kuerzel": "M_IuK_IV",
+  "bezeichnung": "Informations- und Kommunikationssysteme IV",
+  "kreditpunkte": 10,
+  "lernziele": "Die Studierenden<br />\n<ul>\n    <li>k&ouml;nnen die Architektur von IT-Infrastrukturen skizzieren und beschreiben.</li>\n    <li>k&ouml;nnen Projekte zur Evaluation und Beschaffung von IT-Ausr&uuml;stungen durchf&uuml;hren.</li>\n    <li>verstehen data link-Protokolle und k&ouml;nnen Router und Switches konfigurieren und Fehler beheben.</li>\n    <li>k&ouml;nnen IPSec und virtual private network (VPN) in komplexen Netzwerken implementieren.&nbsp;&nbsp; &nbsp;</li>\n    <li>k&ouml;nnen native und webbasierte Anwendungen f&uuml;r mobile Ger&auml;te entwickeln.</li>\n    <li>verstehen die Protokolle zur &Uuml;bertragung von Multimediadaten (Sprache, Audio, Video, usw). </li>\n    <li>verstehen die Formate zur Speicherung von Multimediadaten (Sprache, Audio, Video, usw). </li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 48536,
+      "kuerzel": "IuK_IV_MK",
+      "bezeichnung": "Multimediakommunikation",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen g&auml;ngige Verfahren zur Digitalisierung und Codierung von Sprache beschreiben und deren unterschiedliche Auswirkungen auf die Sprachqualit&auml;t begr&uuml;nden.</li>\n    <li>verstehen die Konzepte der Sprach&uuml;bertragung &uuml;ber IP-Netze mit dem Real-time Transport Protocol RTP und k&ouml;nnen derartige Sprach&uuml;bertragungen mit dem Programm Wireshark aufzeichnen und analysieren.</li>\n    <li>kennen die Fehler, die bei der Sprach&uuml;bertragung mit RTP &uuml;ber IP-Netze auftreten k&ouml;nnen und wissen, welche Massnahmen in Endger&auml;ten getroffen werden k&ouml;nnen, um die Auswirkungen dieser Fehler auf die Sprachqualit&auml;t zu verringern; sie k&ouml;nnen dieses Wissen anwenden, um Endger&auml;te aufgrund ihrer Spezifikationen zu beurteilen.</li>\n    <li>verstehen die Konzepte des Session Initiation Protocol SIP f&uuml;r den Aufbau und die Steuerung von Multimedia-Kommunikationsverbindungen und k&ouml;nnen mit dem Programm Wireshark entsprechende Protokollsequenzen aufzeichnen, analysieren und kommentieren.</li>\n    <li>kennen verschiedene Varianten der Realisierung von SIP-basierten Voice-over-IP-Systemen wie sie aus der aktuellen Praxis bekannt sind.</li>\n    <li>verstehen die Konzepte zur Spracherkennung (speech-to-text, speech recognition) und zur Umsetzung von Text in Sprache (text-to-speech) und haben den Stand der Technik in diesen Bereichen anhand von praktischen Beispielen selbst erfahren; sie sind damit in der Lage, den Einsatz von speech-to-text und text-to-speech in Informationssystemen zu beurteilen.</li>\n    <li>k&ouml;nnen Container-Formate und Audio-/Video-Codeformate unterscheiden und diese Kenntnisse bei Formatkonversionen f&uuml;r die Auswahl daf&uuml;r geeigneter Kenngr&ouml;ssen anwenden.</li>\n    <li>k&ouml;nnen Blockdiagramme von SIP-basierten, integrierten Audio-/Video-Kommunikationssystemen (z.B. Videokonferenzsysteme) kommentieren und die Aufgaben der einzelnen Bl&ouml;cke detailliert erl&auml;utern.</li>\n    <li>k&ouml;nnen auf dem W3C WebRTC API aufbauende, in JavaScript programmierte Audio/Video-Echtzeitapplikationen nachvollziehen.</li>\n    <li>kennen die Konzepte von webbasierten Systemen f&uuml;r die Zusammenarbeit in verteilten Gruppen (z.B. Instant Messaging, Wiki, collaborative document editing) und k&ouml;nnen solche Systeme f&uuml;r eigene Arbeiten effizient nutzen.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Digitalisierung und Codierung von Sprache</li>\n    <li>Real-time Transport Protocol RTP</li>\n    <li>Session Initiation Protocol SIP</li>\n    <li>Voice-over-IP-Systeme</li>\n    <li>Text-to-Speech und Speech-to-Text</li>\n    <li>Digitalisierung und Codierung von Audio und Video</li>\n    <li>Formate f&uuml;r die Codierung von Audio und Video und die gemeinsame Speicherung bzw. &Uuml;bertragung</li>\n    <li>W3C WebRTC</li>\n    <li>Zusammenarbeit im Web</li>\n</ul>",
+      "empfLehrmittel": "Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen, Fallstudien",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Betrieb und Wartung von IT-Systemen, Connecting Networks sowie Multimediakommunikation&nbsp;statt.",
+      "kurselemente": [
+        {
+          "id": 48537,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001549,
+          "name": "Wenk",
+          "vorname": "Bruno"
+        }
+      ]
+    },
+    {
+      "id": 48538,
+      "kuerzel": "IuK_IV_B",
+      "bezeichnung": "Betrieb und Wartung von IT-Systemen",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>verstehen die Organisation und die Aufgaben im IT-Support</li>\n    <li>kennen die Aufgaben, die in IT-Abteilungen unterschiedlicher Firmen anfallen</li>\n    <li>können die Architektur von IT-Infrastrukturen skizzieren und beschreiben</li>\n    <li>verstehen die Unterschiede und Einsatzgebiete verschiedener Speicher-Systeme</li>\n    <li>verstehen den Nutzen und die Gefahren der Servervirtualisierung</li>\n    <li>kennen Technologien zur Erhöhung der Verfügbarkeit von IT-Systemen</li>\n    <li>können in Projekten zur Evaluation und Beschaffung von IT-Ausrüstungen mitwirken</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Evaluation von Hard- und Software</li>\n    <li>IT-Support, Schulung von Mitarbeitenden</li>\n    <li>Grundlagen von Speichersystemen (DAS, NAS, SAN,RAID, iSCSI, FcoE, FC)</li>\n    <li>Virtualisierung</li>\n    <li>Wartung von IT-Systemen (Linux, Windows, Netzwerk)</li>\n    <li>Backup, Archivierung</li>\n    <li>Informationssicherheit</li>\n</ul>",
+      "empfLehrmittel": "Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen, Fallstudien",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Connecting Networks, Mobile Applications sowie Multimediakommunikation&nbsp;statt.",
+      "kurselemente": [
+        {
+          "id": 48539,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001551,
+          "name": "Bigger",
+          "vorname": "Beat"
+        }
+      ]
+    },
+    {
+      "id": 48540,
+      "kuerzel": "IuK_IV_W",
+      "bezeichnung": "Semesterprojekt Webapplikation",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen eine Anforderungsdefinition f&uuml;r eine Webapplikation selbst&auml;ndig erstellen.</li>\n    <li>k&ouml;nnen aus der Anforderungsdefinition eine geeignete Webplattform ableiten.</li>\n    <li>k&ouml;nnen mit Hilfe der Webplattform die Webapplikation erstellen.</li>\n    <li>ber&uuml;cksichtigen Best Practices bei der Entwicklung.</li>\n    <li>ber&uuml;cksichtigen nicht-funktionale Anforderungen (z.B. Mehrbenutzerbetrieb, Performance, usw.).</li>\n    <li>k&ouml;nnen ihre &Uuml;berlegungen und ausgef&uuml;hrten Arbeiten sachlich, knapp und verst&auml;ndlich dokumentieren und reflektieren.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Webapplikation f&uuml;r Desktop und mobile Ger&auml;te planen und entwickeln </li>\n    <li>Webserver konfigurieren </li>\n    <li>Webframeworks und/oder Webapplikationen praktisch einsetzen </li>\n</ul>",
+      "empfLehrmittel": "<p>Selbstst&auml;ndige Bearbeitung eines Entwicklungsprojektes in Gruppen.</p>",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase wird ein Webapplikatonsprojekt bewertet.",
+      "kurselemente": [
+        {
+          "id": 48541,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001466,
+          "name": "Studer",
+          "vorname": "Martin"
+        }
+      ]
+    },
+    {
+      "id": 48542,
+      "kuerzel": "IuK_IV_MA",
+      "bezeichnung": "Mobile Applications",
+      "kreditpunkte": 0,
+      "lernziele": "<p style=\"MARGIN: 0cm 0cm 6pt\" class=\"MsoNormal\"><span style=\"mso-fareast-language: DE-CH\"><font size=\"2\">Native Anwendungen f&uuml;r mobile Ger&auml;te am Beispiel Android </font></span></p>\n<p><font size=\"2\">Die Studierenden&nbsp;</font></p>\n<font size=\"2\">\n<ul>\n    <li>kennen die Programmierkonzepte von Android, beispielsweise Intents, Activities, Services, Broadcast receivers, content providers. </li>\n    <li>k&ouml;nnen eine einfache GUI-basierte Applikation f&uuml;r Android schreiben, inklusive Databinding und Layouting. Die Studierenden k&ouml;nnen Ressourcen einsetzen. </li>\n    <li>kennen den Applikations-Lebenszyklus von Activities, Services, &hellip; </li>\n    <li>k&ouml;nnen erkl&auml;ren, was mit einer Applikation passiert, wenn a) ein Telefonanruf ansteht, b) der Speicher knapp wird, ... </li>\n    <li>kennen den Aufbau von Android. Stichworte: Dalvik Virtual Maschine, Bibilothek SQLite, HAL, &hellip; </li>\n    <li>kennen die Prinzipien zur Steuerung des Energieverbrauches f&uuml;r Android. </li>\n    <li>k&ouml;nnen die Daten von Sensoren, beispielsweise dem Lagesensor, auslesen. </li>\n    <li>k&ouml;nnen Gesten (Touch-Bedienung) in ihrer Applikation verwenden. </li>\n</ul>\n</font>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>Webbasierte Anwendungen f&uuml;r mobile Ger&auml;te</p>\n<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen die Unterschiede/Einschr&auml;nkungen einer webbasierten Anwendung f&uuml;r ein mobiles Ger&auml;t gegen&uuml;ber einer nativen Anwendung erl&auml;utern. (z.B. kein Zugriff auf Sensoren). </li>\n    <li>k&ouml;nnen die Unterschiede/Einschr&auml;nkungen einer webbasierten Anwendung gegen&uuml;ber dem Desktop-Pendant erl&auml;utern. </li>\n    <li>kennen verschiedene Varianten, webbasierte Anwendungen f&uuml;r mobile Ger&auml;te zu erstellen (Original-Seite darstellen, Server-basiert das Layout anpassen, mobile Gerate aus spezielle Site umleiten). Der Student kann die Funktionsweise dieser Varianten erkl&auml;ren (z.B. wie der Server die mobilen Ger&auml;te erkennt). </li>\n    <li>k&ouml;nnen einfache Webanwendungen f&uuml;r mobile Ger&auml;te erstellen. </li>\n    <li>k&ouml;nnen mittels eines JavaScript-Frameworks (z.B. jQuery Mobile) einfache Anwendungen f&uuml;r Mobile Ger&auml;te erstellen. Die Anwendung &uuml;bernimmt das Look&amp;Feel&nbsp; einer nativen Applikation (z.B. Android). </li>\n</ul>\n<p>&nbsp;</p>\n<p><br />Short Range Communication</p>\n<p>Die Studierenden</p>\n<ul>\n    <li>kennen Bluetooth und NFC-Technologien. Sie k&ouml;nnen diese vergleichen und ihre Anwendungen aufzeigen.</li>\n    <li>haben mit konkreter Hardware drahtlose &Uuml;bertragungen durchgef&uuml;hrt.<br /></li>\n</ul>",
+      "planinhalt": "<p>Native Anwendungen f&uuml;r mobile Ger&auml;te am Beispiel Android:</p>\n<ul>\n    <li>Aufbau Betriebssystem, Arbeiten mit Resourcen </li>\n    <li>Lebenszyklen, Sensoren, Touch/Gesten </li>\n</ul>\n<p>&nbsp;</p>\n<p>Webbasierte Anwendungen f&uuml;r mobile Ger&auml;te</p>\n<ul>\n    <li>Konzepte der webbasierte Anwendungen f&uuml;r mobile Ger&auml;te </li>\n    <li>JQueryMobile </li>\n</ul>\n<p><br />Short Range Communication</p>\n<ul>\n    <li>ISO 13157 etc (NFC) </li>\n    <li>IEEE 802.15.1 (Bluetooth)<br /></li>\n</ul>",
+      "bibliographie": "<p>Skript</p>",
+      "empfLehrmittel": "Lehrgespr&auml;ch,&nbsp;&Uuml;bungen, Rechner&uuml;bungen",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Betrieb und Wartung von IT-Systemen, Connecting Networks sowie Multimediakommunikation&nbsp;statt.",
+      "kurselemente": [
+        {
+          "id": 48543,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001466,
+          "name": "Studer",
+          "vorname": "Martin"
+        }
+      ]
+    },
+    {
+      "id": 48544,
+      "kuerzel": "IuK_IV_C",
+      "bezeichnung": "Connecting Networks",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>verstehen und beschreiben verschiedene WAN-Technologien und ihre Vorteile.</li>\n    <li>verstehen und beschreiben die Vorg&auml;nge und Vorteile von Virtual Private Networks (VPNs) und Tunnelbau.</li>\n    <li>verstehen die Konfiguration und Fehlerbehebung serieller Verbindungen.</li>\n    <li>verstehen die Konfiguration und Fehlerbehebung von Breitbandverbindungen.</li>\n    <li>verstehen die Konfiguration und Fehlerbehebung von Tunnellingmechanismen.</li>\n    <li>&Uuml;berwachung und Fehlerbehebung im Netzwerkbetrieb mit Syslog, SNMP, NetFlow.<br />&nbsp; </li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>WAN Technologien (PPP, Frame Relay, MPLS, Metro Ethernet)</li>\n    <li>VPN Technologien (GRE, IPsec site-to-site)</li>\n    <li>Breitbandtechnologien (DOCSIS, DSL, FTTH, 3G, 4G)</li>\n    <li>Netzwerkmanagementtechnologien (Syslog, SNMP, NetFlow)</li>\n    <li>Netzwerktroubleshootingmethodik</li>\n</ul>",
+      "bibliographie": "Literaturangaben:<br />\n<ul>\n    <li>Cisco Networking Academy: <span style=\"font-style: italic;\">CCNA Routing and Switching: Connecting Networks</span>. Online-Kurs.</li>\n</ul>",
+      "empfLehrmittel": "Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen, Fallstudien",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Betrieb und Wartung von IT-Systemen, Mobile Applications sowie Multimediakommunikation&nbsp;statt.",
+      "kurselemente": [
+        {
+          "id": 48545,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001551,
+          "name": "Bigger",
+          "vorname": "Beat"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 10380,
+      "bezeichnung": "Informations- und Kommunikationssysteme",
+      "kuerzel": "IKS",
+      "url": "allStudies/10380_IKS.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 10378,
+      "bezeichnung": "Informations- und Kommunikationssysteme",
+      "kuerzel": "IKS",
+      "url": "allStudies/10378_IKS.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 8
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2001466,
+      "name": "Studer",
+      "vorname": "Martin"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 48524,
+      "kuerzel": "M_IuK_III",
+      "bezeichnung": "Informations- und Kommunikationssysteme III",
+      "url": "allModules/48524_M_IuK_III.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 3,
+      "kuerzel": "CH",
+      "bezeichnung": "Chur",
+      "ort": "Chur"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 48535,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Am Ende des Semesters findet eine abgesetzte Modulschlusspr&uuml;fung in vier Teilen statt. Die Kurse Betrieb und Wartung von IT Systemen, Connecting Networks, Mobile Applications sowie Multimediakommunikation bilden je einen Teil der abgesetzten Modulschlusspr&uuml;fung.</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Information and Communication Systems IV"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2015,
+    "beginSemester": "FS",
+    "endJahr": 2016,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 47888,
+    "kuerzel": "M_IuK_IV",
+    "bezeichnung": "Informations- und Kommunikationssysteme IV",
+    "url": "allModules/47888_M_IuK_IV.json"
+  },
+  "nachfolger": {
+    "id": 48535,
+    "kuerzel": "M_IuK_IV",
+    "bezeichnung": "Informations- und Kommunikationssysteme IV",
+    "url": "allModules/48535_M_IuK_IV.json"
+  }
+}

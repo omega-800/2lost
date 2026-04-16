@@ -1,0 +1,74 @@
+{
+  "id": 61414,
+  "kuerzel": "M_DALAB",
+  "bezeichnung": "Data Lab",
+  "lernziele": "<p><strong>Leitidee: </strong>Das Modul \"Data Lab\" bietet Studierenden im ersten Semester eine praxisorientierte Einf&uuml;hrung in die Welt der Datenanalyse. Ohne Vorbedingungen erm&ouml;glicht es den Teilnehmern, grundlegende Techniken und Werkzeuge zur Datenverarbeitung und -visualisierung zu erlernen und anzuwenden.</p>\n<p>&nbsp;</p>\n<p><strong>Ausbildungsziel:&nbsp;</strong>Ziel des Moduls ist es, den Studierenden die F&auml;higkeit zu vermitteln, Daten selbstst&auml;ndig zu analysieren und zu interpretieren. Sie sollen in der Lage sein, Datenprojekte von der Extraktion bis zur Visualisierung durchzuf&uuml;hren und dabei moderne Tools und Methoden einzusetzen.</p>\n<p>&nbsp;</p>\n<p><strong>Vision: </strong>Die Vision des Moduls ist es, Studierende zu bef&auml;higen, datengetriebene Entscheidungen zu treffen und innovative L&ouml;sungen f&uuml;r reale Probleme zu entwickeln. Durch die Anwendung von Open Data und modernen Analysetools sollen sie einen Beitrag zur digitalen Transformation leisten k&ouml;nnen.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 61415,
+      "kuerzel": "DALAB",
+      "bezeichnung": "Data Lab\t\t",
+      "lernziele": "<p><strong>Fachkompetenzen:</strong><br>- Verst&auml;ndnis der Grundlagen der Explorativen Datenanalyse (EDA).<br>- Kenntnisse im ETL-Prozess (Extract, Transform, Load) zur Datenintegration.<br>- F&auml;higkeit zur Erkennung von Ausreissern sowie zur Analyse von Trends und Saisonalit&auml;ten.<br>- Anwendung von Python, Jupyter, pandas und seaborn zur Datenanalyse und -visualisierung.</p>\n<p>&nbsp;</p>\n<p><strong>Methodenkompetenzen:</strong><br>- Entwicklung und Durchf&uuml;hrung eines individuellen Datenprojekts.<br>- Nutzung von Open Data f&uuml;r die Analyse und Interpretation.<br>- Einsatz von Data Frames und Tabellen zur strukturierten Datenverarbeitung.</p>\n<p>&nbsp;</p>\n<p><strong>Selbstkompetenzen:</strong><br>- Selbstst&auml;ndiges Erarbeiten und Vertiefen von Fachinhalten.<br>- Kritische Reflexion der eigenen Arbeitsergebnisse und deren Pr&auml;sentation.</p>\n<p>&nbsp;</p>\n<p><strong>Sozialkompetenzen:</strong><br>- Kommunikation von Analyseergebnissen an unterschiedliche Zielgruppen.</p>",
+      "planinhalt": "<p>- EDA: Explorative Data Analysis<br>- ETL: Extract, Transform, Load ( = Data import process)<br>- Data Crunching / Big Data<br>- Data Visualization<br>- Outlier detection<br>- Trend and Seasonality<br>- Use of Open Data<br>- Python basiert</p>",
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Data Lab\t\t"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Data Lab\t\t"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10479,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10479_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 1
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Data Lab"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Data Lab"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2026,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "id": 10990,
+  "kuerzel": "M_PE3",
+  "bezeichnung": "Produktentwicklung 3",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Wendet Methoden des Teilprozesses Ausarbeiten praktisch an<br />Praktische Anwendung der Konstruktionsprozesse Kl&#228;ren - Konzipieren - Entwerfen und Gestalten - Ausarbeiten<br />Vertiefte Anwendung des 3D-CAD</p>\n<p>Berechnung und Gestaltung von Elementen des Maschinen- und Anlagenbaus <br />Kennt die Grundlagen der Berechnung (Software) <br />Praktische Anwendung des Konstruktionsprozesses Berechnung <br />Einf&#252;hrung in den Einsatz von relevanter Berechnungssoftware </p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10079,
+      "kuerzel": "MaschEl2",
+      "bezeichnung": "Maschinenelemente 2",
+      "lernziele": "<p>Berechnung und Gestaltung von Elementen des Maschinen- und Anlagenbaus <br />Kennt die Grundlagen der Berechnung (Software) <br />Praktische Anwendung des Konstruktionsprozesses Berechnung <br />Einf&#252;hrung in den Einsatz von relevanter Berechnungssoftware </p>",
+      "planinhalt": "<p>Grundlagen und Berechnung von zum Beispiel:<br />Verbindungstechnk: Bolzen, Kleben, Schweissen, Verschraubungen<br />Dichtungen<br />Federn<br />Rohrleitungen</p>\n<p>Baugruppen</p>",
+      "kurselemente": [
+        {
+          "id": 10460,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 10461,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Maschinenelemente 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Dimensioning of Machine part 2"
+        }
+      ]
+    },
+    {
+      "id": 10080,
+      "kuerzel": "KonstrM3",
+      "bezeichnung": "Konstruktion 3",
+      "lernziele": "<p>Wendet Methoden des Teilprozesses Ausarbeiten praktisch an</p>\n<p>Grundlagen Kosten und Ingenieur</p>\n<p>Praktische Anwendung der Konstruktionsprozesse Kl&#228;ren-Konzipieren-Entwerfen und Gestalten-Ausarbeiten</p>\n<p>Vertiefte Anwendung des 3D-CAD</p>",
+      "planinhalt": "<p>Einf&#252;hrung in die methodischen Grundlagen des Ausarbeitens</p>\n<p>Kosten und Ingenieurt&#228;tigkeit</p>\n<p>Praktische Durchf&#252;hrung von Concurrent Engineering mit Anwendung des 3D-CAD<br />Projektarbeit zur Vertiefung des Stoffes der Ausbildung Produktentwicklung</p>",
+      "kurselemente": [
+        {
+          "id": 10459,
+          "art": "Projekt",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 15764,
+          "art": "Vorlesung",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Konstruktion 3"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Design 3"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533,
+      "name": "Meier",
+      "vorname": "Jürg"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 10962,
+      "kuerzel": "M_PE1",
+      "bezeichnung": "Produktentwicklung 1",
+      "url": "allModules/10962_M_PE1.json"
+    },
+    {
+      "id": 15743,
+      "kuerzel": "M_PE2",
+      "bezeichnung": "Produktentwicklung 2",
+      "url": "allModules/15743_M_PE2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 10990,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Produktentwicklung 3"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Product Development 3"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "WS",
+    "endJahr": 2006,
+    "endSemester": "WS"
+  },
+  "nachfolger": {
+    "id": 10990,
+    "kuerzel": "M_PE3",
+    "bezeichnung": "Produktentwicklung 3",
+    "url": "allModules/10990_M_PE3.json"
+  }
+}

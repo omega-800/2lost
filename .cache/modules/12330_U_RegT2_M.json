@@ -1,0 +1,127 @@
+{
+  "id": 12330,
+  "kuerzel": "U_RegT2_M",
+  "bezeichnung": "Regelungstechnik 2 (M) - Übergangsmodul",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Beherrschen der Beschreibungsm&#246;glichkeiten f&#252;r dynamische und r&#252;ckgekoppelte Systeme <br />Kenntnis der Beschreibungsm&#246;glichkeiten dynamischer Systeme im Bildbereich <br />Auslegung von Regelkreisen im Frequenzbereich <br /></p>",
+  "vorausgKenntnisse": "<p>Messtechnik, Automatisierungstechnik, Regelungstechnik 1</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 12254,
+      "kuerzel": "uRegT2_M",
+      "bezeichnung": "Regelungstechnik 2 (M) - Übergang",
+      "lernziele": "<ul>\n    <li>Beherrschen der Beschreibungsm&ouml;glichkeiten f&uuml;r dynamische und r&uuml;ckgekoppelte Systeme </li>\n    <li>Kenntnis der Beschreibungsm&ouml;glichkeiten dynamischer Systeme im Bildbereich </li>\n    <li>Auslegung von Regelkreisen im Frequenzbereich</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Uebertragungsfunktionen, Laplacetransformation </li>\n    <li>Mehrschleifige Regelkreise </li>\n    <li>Verfahren f&uuml;r den Reglerentwurf </li>\n    <li>Analyse praktischer Regelstrecken </li>\n    <li>Simulation</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 12289,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 12290,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Regelungstechnik 2 (M) - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Control Systems 2 (M) - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 136,
+      "name": "Domeisen",
+      "vorname": "Heinz"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 12330,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Regelungstechnik 2 (M) - Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Control Systems 2 (M) - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2005,
+    "endSemester": "WS"
+  }
+}

@@ -1,0 +1,5156 @@
+{
+  "id": 10202,
+  "kuerzel": "WING",
+  "bezeichnung": "Wirtschaftsingenieurwesen",
+  "versionKuerzel": "STD_21",
+  "typ": "Bachelor",
+  "art": "Studiengang",
+  "form": "Vollzeit",
+  "kredits": [
+    {
+      "id": 10836,
+      "minKredits": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS"
+        }
+      ]
+    },
+    {
+      "id": 10713,
+      "minKredits": 20,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften"
+        }
+      ]
+    },
+    {
+      "id": 10714,
+      "minKredits": 36,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT"
+        }
+      ]
+    },
+    {
+      "id": 10715,
+      "minKredits": 36,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management"
+        }
+      ]
+    },
+    {
+      "id": 10716,
+      "minKredits": 12,
+      "kategorien": [
+        {
+          "id": 10149,
+          "kuerzel": "W-KOKU",
+          "bezeichnung": "Kommunikation & Kultur"
+        }
+      ]
+    },
+    {
+      "id": 10717,
+      "minKredits": 36,
+      "kategorien": [
+        {
+          "id": 10150,
+          "kuerzel": "W-WITRA",
+          "bezeichnung": "Wissenstransfer"
+        }
+      ]
+    }
+  ],
+  "spezialisierungen": [
+    {
+      "id": 10216,
+      "kuerzel": "WING_Prod",
+      "bezeichnung": "Smart Products",
+      "url": "allStudies/10216_WING_Prod.json"
+    },
+    {
+      "id": 10217,
+      "kuerzel": "WING_Fact",
+      "bezeichnung": "Smart Factories",
+      "url": "allStudies/10217_WING_Fact.json"
+    },
+    {
+      "id": 10218,
+      "kuerzel": "WING_Valu",
+      "bezeichnung": "Value Chain Networks",
+      "url": "allStudies/10218_WING_Valu.json"
+    },
+    {
+      "id": 10220,
+      "kuerzel": "WING_DigBu",
+      "bezeichnung": "Digital Business",
+      "url": "allStudies/10220_WING_DigBu.json"
+    },
+    {
+      "id": 10224,
+      "kuerzel": "WING_DaSc",
+      "bezeichnung": "Data Science",
+      "url": "allStudies/10224_WING_DaSc.json"
+    },
+    {
+      "id": 10225,
+      "kuerzel": "WING_Entp",
+      "bezeichnung": "Entrepreneurship",
+      "url": "allStudies/10225_WING_Entp.json"
+    }
+  ],
+  "studienberater": {
+    "id": 540086,
+    "name": "Keller",
+    "vorname": "Daniel F."
+  },
+  "zuordnungen": [
+    {
+      "id": 43725,
+      "kuerzel": "M_boek.AFIN",
+      "bezeichnung": "Accounting und Finance",
+      "url": "allModules/43725_M_boek.AFIN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 64986,
+      "kuerzel": "M_IKAG",
+      "bezeichnung": "Alternde Gesellschaften ",
+      "url": "allModules/64986_M_IKAG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65286,
+      "kuerzel": "M_IKAG_RJ",
+      "bezeichnung": "Alternde Gesellschaften",
+      "url": "allModules/65286_M_IKAG_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 40020,
+      "kuerzel": "M_APROG",
+      "bezeichnung": "Angewandte Programmierung",
+      "url": "allModules/40020_M_APROG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45583,
+      "kuerzel": "M_ABPM1",
+      "bezeichnung": "Anlagenbau und Projektmanagement 1",
+      "url": "allModules/45583_M_ABPM1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45586,
+      "kuerzel": "M_ABPM2",
+      "bezeichnung": "Anlagenbau und Projektmanagement 2",
+      "url": "allModules/45586_M_ABPM2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44202,
+      "kuerzel": "M_IKAA",
+      "bezeichnung": "Applied AI",
+      "url": "allModules/44202_M_IKAA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44196,
+      "kuerzel": "M_IKAA_p",
+      "bezeichnung": "Applied AI",
+      "url": "allModules/44196_M_IKAA_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57378,
+      "kuerzel": "M_IKAA_p",
+      "bezeichnung": "Applied AI SG",
+      "url": "allModules/57378_M_IKAA_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57381,
+      "kuerzel": "M_IKAA",
+      "bezeichnung": "Applied AI SG",
+      "url": "allModules/57381_M_IKAA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56737,
+      "kuerzel": "M_IKFD_p",
+      "bezeichnung": "Applied Frugal Design: Einfach gestalten, gesund leben",
+      "url": "allModules/56737_M_IKFD_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56734,
+      "kuerzel": "M_IKFD",
+      "bezeichnung": "Applied Frugal Design: Einfach gestalten, gesund leben",
+      "url": "allModules/56734_M_IKFD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44314,
+      "kuerzel": "M_AutoMI",
+      "bezeichnung": "Automation",
+      "url": "allModules/44314_M_AutoMI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 39835,
+      "kuerzel": "M_BATHV",
+      "bezeichnung": "Bachelor-Arbeit - Vorbereitung ",
+      "url": "allModules/39835_M_BATHV.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10150,
+          "kuerzel": "W-WITRA",
+          "bezeichnung": "Wissenstransfer",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57422,
+      "kuerzel": "M_BATHV_v1",
+      "bezeichnung": "Bachelor-Arbeit - Vorbereitung  SG",
+      "url": "allModules/57422_M_BATHV_v1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10150,
+          "kuerzel": "W-WITRA",
+          "bezeichnung": "Wissenstransfer",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56455,
+      "kuerzel": "M_BATH",
+      "bezeichnung": "Bachelor-Arbeit Wirtschaftsingenieurwesen",
+      "url": "allModules/56455_M_BATH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10150,
+          "kuerzel": "W-WITRA",
+          "bezeichnung": "Wissenstransfer",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 57426,
+      "kuerzel": "M_BATH_v1",
+      "bezeichnung": "Bachelor-Arbeit Wirtschaftsingenieurwesen SG",
+      "url": "allModules/57426_M_BATH_v1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10150,
+          "kuerzel": "W-WITRA",
+          "bezeichnung": "Wissenstransfer",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 56919,
+      "kuerzel": "M_IKBH",
+      "bezeichnung": "Behavioral Design  ",
+      "url": "allModules/56919_M_IKBH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44598,
+      "kuerzel": "M_BTS",
+      "bezeichnung": "Betriebstechnik und Service",
+      "url": "allModules/44598_M_BTS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 44040,
+      "kuerzel": "M_IKBW",
+      "bezeichnung": "Blickwechsel",
+      "url": "allModules/44040_M_IKBW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57357,
+      "kuerzel": "M_idks.IKBW",
+      "bezeichnung": "Blickwechsel",
+      "url": "allModules/57357_M_idks.IKBW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 40825,
+      "kuerzel": "M_BuPro",
+      "bezeichnung": "Business Processes für Informatik",
+      "url": "allModules/40825_M_BuPro.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 40981,
+      "kuerzel": "M_WI2",
+      "bezeichnung": "Business Processes für Informatik",
+      "url": "allModules/40981_M_WI2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56390,
+      "kuerzel": "M_BWLGL",
+      "bezeichnung": "BWL-Grundlagen",
+      "url": "allModules/56390_M_BWLGL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57390,
+      "kuerzel": "M_BWL",
+      "bezeichnung": "BWL-Grundlagen SG",
+      "url": "allModules/57390_M_BWL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 41955,
+      "kuerzel": "M_CADWA",
+      "bezeichnung": "CAD (WING) - Aufbau",
+      "url": "allModules/41955_M_CADWA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 26318,
+      "kuerzel": "M_CADWG",
+      "bezeichnung": "CAD (WING) - Grundlagen",
+      "url": "allModules/26318_M_CADWG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65160,
+      "kuerzel": "M_CHMAN",
+      "bezeichnung": "Change Management",
+      "url": "allModules/65160_M_CHMAN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57402,
+      "kuerzel": "M_CHMAN_v1",
+      "bezeichnung": "Change Management SG",
+      "url": "allModules/57402_M_CHMAN_v1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44097,
+      "kuerzel": "M_IKKL_p",
+      "bezeichnung": "Circular Economy",
+      "url": "allModules/44097_M_IKKL_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44094,
+      "kuerzel": "M_IKKL",
+      "bezeichnung": "Circular Economy",
+      "url": "allModules/44094_M_IKKL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56710,
+      "kuerzel": "M_IKCC",
+      "bezeichnung": "Co-Creation und Inclusive Design Methoden",
+      "url": "allModules/56710_M_IKCC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56713,
+      "kuerzel": "M_IKCC_p",
+      "bezeichnung": "Co-Creation und Inclusive Design Methoden",
+      "url": "allModules/56713_M_IKCC_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 31630,
+      "kuerzel": "M_ComT",
+      "bezeichnung": "Computational Thinking",
+      "url": "allModules/31630_M_ComT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56716,
+      "kuerzel": "M_IKCG",
+      "bezeichnung": "Corporate Governance and Sustainability",
+      "url": "allModules/56716_M_IKCG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57443,
+      "kuerzel": "M_idks.IKCC",
+      "bezeichnung": "Creative Capability",
+      "url": "allModules/57443_M_idks.IKCC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 61217,
+      "kuerzel": "M_DAANA",
+      "bezeichnung": "Data Analytics",
+      "url": "allModules/61217_M_DAANA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56262,
+      "kuerzel": "M_winf.DBIS",
+      "bezeichnung": "Datenbanken & Informationssysteme",
+      "url": "allModules/56262_M_winf.DBIS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 39093,
+      "kuerzel": "M_Dbs1",
+      "bezeichnung": "Datenbanksysteme 1",
+      "url": "allModules/39093_M_Dbs1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45724,
+      "kuerzel": "M_winf.DMIS",
+      "bezeichnung": "Datenmodellierung & Informationssysteme",
+      "url": "allModules/45724_M_winf.DMIS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 44046,
+      "kuerzel": "M_IKDK_p",
+      "bezeichnung": "Demokratie im Zeitalter von KI",
+      "url": "allModules/44046_M_IKDK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44043,
+      "kuerzel": "M_IKDK",
+      "bezeichnung": "Demokratie im Zeitalter von KI",
+      "url": "allModules/44043_M_IKDK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65301,
+      "kuerzel": "M_IKDK_p_SG",
+      "bezeichnung": "Demokratie im Zeitalter von KI Kopie",
+      "url": "allModules/65301_M_IKDK_p_SG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56802,
+      "kuerzel": "M_IKNW",
+      "bezeichnung": "Die Nachhaltigkeitswoche: Eventfabrik und Zukunftsworkshops",
+      "url": "allModules/56802_M_IKNW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57681,
+      "kuerzel": "M_IKNW_p",
+      "bezeichnung": "Die Nachhaltigkeitswoche: Eventfabrik und Zukunftsworkshops",
+      "url": "allModules/57681_M_IKNW_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57363,
+      "kuerzel": "M_DGL_v2",
+      "bezeichnung": "Differentialgleichungen SG",
+      "url": "allModules/57363_M_DGL_v2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 40316,
+      "kuerzel": "M_DigBusI",
+      "bezeichnung": "Digital Business für Informatik",
+      "url": "allModules/40316_M_DigBusI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 61146,
+      "kuerzel": "M_IKDL",
+      "bezeichnung": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen",
+      "url": "allModules/61146_M_IKDL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64989,
+      "kuerzel": "M_IKDL_p",
+      "bezeichnung": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen",
+      "url": "allModules/64989_M_IKDL_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57339,
+      "kuerzel": "M_IKDL_BU",
+      "bezeichnung": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen",
+      "url": "allModules/57339_M_IKDL_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65274,
+      "kuerzel": "M_IKDL_p_BU",
+      "bezeichnung": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen Kopie",
+      "url": "allModules/65274_M_IKDL_p_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44241,
+      "kuerzel": "M_IKDM_A",
+      "bezeichnung": "Dream Team - Mentoringprogramm für die nächste Generation Teil A",
+      "url": "allModules/44241_M_IKDM_A.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44244,
+      "kuerzel": "M_IKDM_B",
+      "bezeichnung": "Dream Team - Mentoringprogramm für die nächste Generation Teil B",
+      "url": "allModules/44244_M_IKDM_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56731,
+      "kuerzel": "M_IKEI_p",
+      "bezeichnung": "Einsamkeit erforschen - wirtschaftliche, gesellschaftliche und private Dimensionen",
+      "url": "allModules/56731_M_IKEI_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56720,
+      "kuerzel": "M_IKEI",
+      "bezeichnung": "Einsamkeit erforschen - wirtschaftliche, gesellschaftliche und private Dimensionen",
+      "url": "allModules/56720_M_IKEI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 40969,
+      "kuerzel": "M_ELTE1",
+      "bezeichnung": "Elektrotechnik 1 (WING)",
+      "url": "allModules/40969_M_ELTE1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 40973,
+      "kuerzel": "M_ELTE2",
+      "bezeichnung": "Elektrotechnik 2 (WING)",
+      "url": "allModules/40973_M_ELTE2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 29963,
+      "kuerzel": "M_ENGL1W",
+      "bezeichnung": "Englisch 1 (WING)",
+      "url": "allModules/29963_M_ENGL1W.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10149,
+          "kuerzel": "W-KOKU",
+          "bezeichnung": "Kommunikation & Kultur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 29973,
+      "kuerzel": "M_ENGL2W",
+      "bezeichnung": "Englisch 2 (WING)",
+      "url": "allModules/29973_M_ENGL2W.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10149,
+          "kuerzel": "W-KOKU",
+          "bezeichnung": "Kommunikation & Kultur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 55597,
+      "kuerzel": "M_TecBEC",
+      "bezeichnung": "English Beyond Borders: Navigating Academic & Professional Success with IELTS",
+      "url": "allModules/55597_M_TecBEC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10149,
+          "kuerzel": "W-KOKU",
+          "bezeichnung": "Kommunikation & Kultur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56496,
+      "kuerzel": "M_EnglHTw",
+      "bezeichnung": "English: How Things work",
+      "url": "allModules/56496_M_EnglHTw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10149,
+          "kuerzel": "W-KOKU",
+          "bezeichnung": "Kommunikation & Kultur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57448,
+      "kuerzel": "M_idks.IKMO",
+      "bezeichnung": "Enkeltauglich?! - Gemeinde und Städte im Morgenland",
+      "url": "allModules/57448_M_idks.IKMO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 40895,
+      "kuerzel": "M_ENTP",
+      "bezeichnung": "Entrepreneurship",
+      "url": "allModules/40895_M_ENTP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 43842,
+      "kuerzel": "M_boek.ENTP",
+      "bezeichnung": "Entrepreneurship",
+      "url": "allModules/43842_M_boek.ENTP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 56413,
+      "kuerzel": "M_ENMET",
+      "bezeichnung": "Entscheidungsmethodik",
+      "url": "allModules/56413_M_ENMET.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 37308,
+      "kuerzel": "M_SITEC",
+      "bezeichnung": "EQ2 - Sicherheitstechnik",
+      "url": "allModules/37308_M_SITEC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44052,
+      "kuerzel": "M_IKEK_p",
+      "bezeichnung": "Ethik & KI",
+      "url": "allModules/44052_M_IKEK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44049,
+      "kuerzel": "M_IKEK",
+      "bezeichnung": "Ethik & KI",
+      "url": "allModules/44049_M_IKEK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 39291,
+      "kuerzel": "M_FERTI",
+      "bezeichnung": "Fertigungstechnik",
+      "url": "allModules/39291_M_FERTI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56365,
+      "kuerzel": "M_FELEH",
+      "bezeichnung": "Festigkeitslehre (WING)",
+      "url": "allModules/56365_M_FELEH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 39400,
+      "kuerzel": "M_FREWE",
+      "bezeichnung": "Finanz- und Rechnungswesen",
+      "url": "allModules/39400_M_FREWE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57712,
+      "kuerzel": "M_FSPR1",
+      "bezeichnung": "Fremdsprache Englisch 1",
+      "url": "allModules/57712_M_FSPR1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10149,
+          "kuerzel": "W-KOKU",
+          "bezeichnung": "Kommunikation & Kultur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56458,
+      "kuerzel": "M_FUEHR",
+      "bezeichnung": "Führungsgespräche",
+      "url": "allModules/56458_M_FUEHR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10149,
+          "kuerzel": "W-KOKU",
+          "bezeichnung": "Kommunikation & Kultur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56925,
+      "kuerzel": "M_IKLD",
+      "bezeichnung": "Future Life Design: Den eigenen Lebensweg erfolgreich gestalten",
+      "url": "allModules/56925_M_IKLD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65051,
+      "kuerzel": "M_IKLD_p",
+      "bezeichnung": "Future Life Design: Den eigenen Lebensweg erfolgreich gestalten",
+      "url": "allModules/65051_M_IKLD_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56743,
+      "kuerzel": "M_IKFL_p",
+      "bezeichnung": "Future Life Design: Successfully shaping your own life path",
+      "url": "allModules/56743_M_IKFL_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56740,
+      "kuerzel": "M_IKFL",
+      "bezeichnung": "Future Life Design: Successfully shaping your own life path",
+      "url": "allModules/56740_M_IKFL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64956,
+      "kuerzel": "M_IKGD",
+      "bezeichnung": "Geheimnisse der Datensicherheit: Die CIA-Trias in der Praxis",
+      "url": "allModules/64956_M_IKGD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65004,
+      "kuerzel": "M_IKMO_p",
+      "bezeichnung": "Gemeinden & Städte von morgen. So gelingt nachhaltige Gemeindeentwicklung",
+      "url": "allModules/65004_M_IKMO_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44055,
+      "kuerzel": "M_IKMO",
+      "bezeichnung": "Gemeinden & Städte von morgen. So gelingt nachhaltige Gemeindeentwicklung",
+      "url": "allModules/44055_M_IKMO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44214,
+      "kuerzel": "M_IKGA_p",
+      "bezeichnung": "Generative AI in der Planung",
+      "url": "allModules/44214_M_IKGA_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64992,
+      "kuerzel": "M_IKGA",
+      "bezeichnung": "Generative AI in der Planung",
+      "url": "allModules/64992_M_IKGA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 39404,
+      "kuerzel": "M_GMIFI",
+      "bezeichnung": "Geschäftsmodellinnovation und Finanzierung",
+      "url": "allModules/39404_M_GMIFI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56386,
+      "kuerzel": "M_GPIW2",
+      "bezeichnung": "Geschäftsprozesse und IT Werkzeuge 2",
+      "url": "allModules/56386_M_GPIW2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56382,
+      "kuerzel": "M_GPIW1",
+      "bezeichnung": "Geschäftsprozesse und IT-Werkzeuge 1",
+      "url": "allModules/56382_M_GPIW1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44061,
+      "kuerzel": "M_IKGL",
+      "bezeichnung": "Gesund leben und Langlebigkeit ",
+      "url": "allModules/44061_M_IKGL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44064,
+      "kuerzel": "M_IKAK",
+      "bezeichnung": "Gesundes Altern mit Hilfe von künstlicher Intelligenz ",
+      "url": "allModules/44064_M_IKAK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44067,
+      "kuerzel": "M_IKAK_p",
+      "bezeichnung": "Gesundes Altern mit Hilfe von künstlicher Intelligenz",
+      "url": "allModules/44067_M_IKAK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57384,
+      "kuerzel": "M_IKAK",
+      "bezeichnung": "Gesundes Altern mit Hilfe von künstlicher Intelligenz  SG",
+      "url": "allModules/57384_M_IKAK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57387,
+      "kuerzel": "M_IKAK_p",
+      "bezeichnung": "Gesundes Altern mit Hilfe von künstlicher Intelligenz SG",
+      "url": "allModules/57387_M_IKAK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57117,
+      "kuerzel": "M_boek.GREL",
+      "bezeichnung": "Global Relation",
+      "url": "allModules/57117_M_boek.GREL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10149,
+          "kuerzel": "W-KOKU",
+          "bezeichnung": "Kommunikation & Kultur",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56905,
+      "kuerzel": "M_GKT1",
+      "bezeichnung": "Grundlagen der Kunststofftechnik: Kunststofftechnik 1",
+      "url": "allModules/56905_M_GKT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 60948,
+      "kuerzel": "M_GZET",
+      "bezeichnung": "Grundzüge Energietechnik",
+      "url": "allModules/60948_M_GZET.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 26080,
+      "kuerzel": "M_GZE",
+      "bezeichnung": "Grundzüge Energietechnik",
+      "url": "allModules/26080_M_GZE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65154,
+      "kuerzel": "M_GZUKU",
+      "bezeichnung": "Grundzüge Klima und Umwelt",
+      "url": "allModules/65154_M_GZUKU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 26084,
+      "kuerzel": "M_GZUT",
+      "bezeichnung": "Grundzüge Umwelttechnik",
+      "url": "allModules/26084_M_GZUT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44070,
+      "kuerzel": "M_IKNN",
+      "bezeichnung": "Hackathon zu \"Netto-null in Gebäuden und Verkehr\"  ",
+      "url": "allModules/44070_M_IKNN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44073,
+      "kuerzel": "M_IKII",
+      "bezeichnung": "Ideen Inkubator Klimawende ",
+      "url": "allModules/44073_M_IKII.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44076,
+      "kuerzel": "M_IKII_p",
+      "bezeichnung": "Ideen Inkubator Klimawende",
+      "url": "allModules/44076_M_IKII_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64967,
+      "kuerzel": "M_IKTSV2",
+      "bezeichnung": "IKTS_Vorlage 2ECTS",
+      "url": "allModules/64967_M_IKTSV2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43910,
+      "kuerzel": "M_IKTSV3",
+      "bezeichnung": "IKTS_Vorlage 3ECTS",
+      "url": "allModules/43910_M_IKTSV3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 43911,
+      "kuerzel": "M_IKTSV4",
+      "bezeichnung": "IKTS_Vorlage 4ECTS",
+      "url": "allModules/43911_M_IKTSV4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 23768,
+      "kuerzel": "M_KOMMI",
+      "bezeichnung": "Individuelle Kommunikation",
+      "url": "allModules/23768_M_KOMMI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10149,
+          "kuerzel": "W-KOKU",
+          "bezeichnung": "Kommunikation & Kultur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57350,
+      "kuerzel": "M_KOMI",
+      "bezeichnung": "Individuelle Kommunikation SG",
+      "url": "allModules/57350_M_KOMI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10149,
+          "kuerzel": "W-KOKU",
+          "bezeichnung": "Kommunikation & Kultur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57368,
+      "kuerzel": "M_IPIDE",
+      "bezeichnung": "Industrieprojekt - Idee",
+      "url": "allModules/57368_M_IPIDE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10150,
+          "kuerzel": "W-WITRA",
+          "bezeichnung": "Wissenstransfer",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 39264,
+      "kuerzel": "M_IPIDF",
+      "bezeichnung": "Industrieprojekt 1 - Ideenfindung ",
+      "url": "allModules/39264_M_IPIDF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10150,
+          "kuerzel": "W-WITRA",
+          "bezeichnung": "Wissenstransfer",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 39441,
+      "kuerzel": "M_IPKON",
+      "bezeichnung": "Industrieprojekt 2 - Konzeption",
+      "url": "allModules/39441_M_IPKON.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10150,
+          "kuerzel": "W-WITRA",
+          "bezeichnung": "Wissenstransfer",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57394,
+      "kuerzel": "M_IPRKO",
+      "bezeichnung": "Industrieprojekt 2 - Konzeption SG",
+      "url": "allModules/57394_M_IPRKO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10150,
+          "kuerzel": "W-WITRA",
+          "bezeichnung": "Wissenstransfer",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 56447,
+      "kuerzel": "M_IPENT",
+      "bezeichnung": "Industrieprojekt 3 - Entwurf",
+      "url": "allModules/56447_M_IPENT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10150,
+          "kuerzel": "W-WITRA",
+          "bezeichnung": "Wissenstransfer",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57406,
+      "kuerzel": "M_ITENT",
+      "bezeichnung": "Industrieprojekt 3 - Entwurf SG",
+      "url": "allModules/57406_M_ITENT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10150,
+          "kuerzel": "W-WITRA",
+          "bezeichnung": "Wissenstransfer",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 39445,
+      "kuerzel": "M_IPPRO",
+      "bezeichnung": "Industrieprojekt 4 - Prototyping & Optimierung",
+      "url": "allModules/39445_M_IPPRO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10150,
+          "kuerzel": "W-WITRA",
+          "bezeichnung": "Wissenstransfer",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56451,
+      "kuerzel": "M_IPSER",
+      "bezeichnung": "Industrieprojekt 5 - Serienfertigung",
+      "url": "allModules/56451_M_IPSER.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10150,
+          "kuerzel": "W-WITRA",
+          "bezeichnung": "Wissenstransfer",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57439,
+      "kuerzel": "M_ISEFE",
+      "bezeichnung": "Industrieprojekt 5 - Serienfertigung SG",
+      "url": "allModules/57439_M_ISEFE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10150,
+          "kuerzel": "W-WITRA",
+          "bezeichnung": "Wissenstransfer",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56942,
+      "kuerzel": "M_IPSPO",
+      "bezeichnung": "Industrieprojekt 5 - Spin-Off",
+      "url": "allModules/56942_M_IPSPO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10150,
+          "kuerzel": "W-WITRA",
+          "bezeichnung": "Wissenstransfer",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44595,
+      "kuerzel": "M_Inno4s",
+      "bezeichnung": "Innovation 4: Spezielle Aspekte des Innovationsmanagements ",
+      "url": "allModules/44595_M_Inno4s.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56409,
+      "kuerzel": "M_INTMA",
+      "bezeichnung": "Innovations- und Technologiemanagement",
+      "url": "allModules/56409_M_INTMA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57418,
+      "kuerzel": "M_INTMA_v1",
+      "bezeichnung": "Innovations- und Technologiemanagement SG",
+      "url": "allModules/57418_M_INTMA_v1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44079,
+      "kuerzel": "M_IKIE",
+      "bezeichnung": "Interdisziplinär entwickeln - gerüstet für die technikbasierte Arbeitswelt",
+      "url": "allModules/44079_M_IKIE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56444,
+      "kuerzel": "M_INTKO",
+      "bezeichnung": "Interkulturelle Kommunikation",
+      "url": "allModules/56444_M_INTKO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10149,
+          "kuerzel": "W-KOKU",
+          "bezeichnung": "Kommunikation & Kultur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 39437,
+      "kuerzel": "M_ISWEE",
+      "bezeichnung": "International Study Week",
+      "url": "allModules/39437_M_ISWEE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10149,
+          "kuerzel": "W-KOKU",
+          "bezeichnung": "Kommunikation & Kultur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56866,
+      "kuerzel": "M_IKIS_p",
+      "bezeichnung": "International Summer School for Sustainability",
+      "url": "allModules/56866_M_IKIS_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65049,
+      "kuerzel": "M_IKIS",
+      "bezeichnung": "International Summer School for Sustainability",
+      "url": "allModules/65049_M_IKIS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 39413,
+      "kuerzel": "M_INTWS",
+      "bezeichnung": "Internationale Wirtschaftssysteme",
+      "url": "allModules/39413_M_INTWS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 41806,
+      "kuerzel": "M_IOTHI",
+      "bezeichnung": "Internet of Things",
+      "url": "allModules/41806_M_IOTHI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56397,
+      "kuerzel": "M_INVRE",
+      "bezeichnung": "Investitionsrechnung",
+      "url": "allModules/56397_M_INVRE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57398,
+      "kuerzel": "M_INVRE_v1",
+      "bezeichnung": "Investitionsrechnung SG",
+      "url": "allModules/57398_M_INVRE_v1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44085,
+      "kuerzel": "M_IKLE_p",
+      "bezeichnung": "IZM-Projekt",
+      "url": "allModules/44085_M_IKLE_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44082,
+      "kuerzel": "M_IKLE",
+      "bezeichnung": "IZM-Projekt",
+      "url": "allModules/44082_M_IKLE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57095,
+      "kuerzel": "M_boek.JCSP",
+      "bezeichnung": "Joint Chinese Swiss Program (JCSP)",
+      "url": "allModules/57095_M_boek.JCSP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10149,
+          "kuerzel": "W-KOKU",
+          "bezeichnung": "Kommunikation & Kultur",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 44091,
+      "kuerzel": "M_IKGE_p",
+      "bezeichnung": "Klimagerechte Stadt- und Gemeindeentwicklung ",
+      "url": "allModules/44091_M_IKGE_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44088,
+      "kuerzel": "M_IKGE",
+      "bezeichnung": "Klimagerechte Stadt- und Gemeindeentwicklung ",
+      "url": "allModules/44088_M_IKGE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 61404,
+      "kuerzel": "M_IKKP_p",
+      "bezeichnung": "Klimakrise: Kann die Politik die Welt noch retten?",
+      "url": "allModules/61404_M_IKKP_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 61396,
+      "kuerzel": "M_IKKP",
+      "bezeichnung": "Klimakrise: Kann die Politik die Welt noch retten?",
+      "url": "allModules/61396_M_IKKP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65292,
+      "kuerzel": "M_IKKP_p_RJ",
+      "bezeichnung": "Klimakrise: Kann die Politik die Welt noch retten? Kopie",
+      "url": "allModules/65292_M_IKKP_p_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65046,
+      "kuerzel": "M_IKGS",
+      "bezeichnung": "Knowhow und Technologien für nachhaltige Entwicklung im globalen Süden ",
+      "url": "allModules/65046_M_IKGS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65180,
+      "kuerzel": "M_IKGS_p",
+      "bezeichnung": "Knowhow und Technologien für nachhaltige Entwicklung im globalen Süden ",
+      "url": "allModules/65180_M_IKGS_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44187,
+      "kuerzel": "M_IKKK_p",
+      "bezeichnung": "Kommunale Klimawende",
+      "url": "allModules/44187_M_IKKK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44184,
+      "kuerzel": "M_IKKK",
+      "bezeichnung": "Kommunale Klimawende",
+      "url": "allModules/44184_M_IKKK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56463,
+      "kuerzel": "M_KatKomKu",
+      "bezeichnung": "Kommunikation & Kultur",
+      "url": "allModules/56463_M_KatKomKu.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": -1,
+      "kategorien": [
+        {
+          "id": 10149,
+          "kuerzel": "W-KOKU",
+          "bezeichnung": "Kommunikation & Kultur",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 37403,
+      "kuerzel": "M_KOMMT",
+      "bezeichnung": "Kommunikation im Team (WING)",
+      "url": "allModules/37403_M_KOMMT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10149,
+          "kuerzel": "W-KOKU",
+          "bezeichnung": "Kommunikation & Kultur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 39252,
+      "kuerzel": "M_KODGL",
+      "bezeichnung": "Komplexe Zahlen und Differentialgleichungen",
+      "url": "allModules/39252_M_KODGL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 39388,
+      "kuerzel": "M_LEPRO",
+      "bezeichnung": "Lean Production",
+      "url": "allModules/39388_M_LEPRO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 29753,
+      "kuerzel": "M_LEANEngl",
+      "bezeichnung": "Lean Production - in Englisch",
+      "url": "allModules/29753_M_LEANEngl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 64995,
+      "kuerzel": "M_IKLF",
+      "bezeichnung": "Lernfähigkeit und Gedächtnis",
+      "url": "allModules/64995_M_IKLF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65243,
+      "kuerzel": "M_IKDH_p_RJ",
+      "bezeichnung": "Lernlabor «Digitalisieren Hands-on»",
+      "url": "allModules/65243_M_IKDH_p_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44232,
+      "kuerzel": "M_IKDH_p",
+      "bezeichnung": "Lernlabor «Digitalisieren Hands-on»",
+      "url": "allModules/44232_M_IKDH_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44235,
+      "kuerzel": "M_IKDH",
+      "bezeichnung": "Lernlabor «Digitalisieren Hands-on»",
+      "url": "allModules/44235_M_IKDH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43505,
+      "kuerzel": "M_LinAlg2EC",
+      "bezeichnung": "Lineare Algebra (2 ECTS-Punkte)",
+      "url": "allModules/43505_M_LinAlg2EC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56374,
+      "kuerzel": "M_LOSCM",
+      "bezeichnung": "Logistik und Supply Chain Management",
+      "url": "allModules/56374_M_LOSCM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57410,
+      "kuerzel": "M_LOSCM_v1",
+      "bezeichnung": "Logistik und Supply Chain Management SG",
+      "url": "allModules/57410_M_LOSCM_v1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44103,
+      "kuerzel": "M_IKLK",
+      "bezeichnung": "Lösungsorientierte Kommunikation für dynamische Arbeitswelten ",
+      "url": "allModules/44103_M_IKLK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 41612,
+      "kuerzel": "M_MALEA",
+      "bezeichnung": "Machine Learning (WING)",
+      "url": "allModules/41612_M_MALEA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56401,
+      "kuerzel": "M_MASAL",
+      "bezeichnung": "Marketing und Sales",
+      "url": "allModules/56401_M_MASAL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 39392,
+      "kuerzel": "M_MAKON",
+      "bezeichnung": "Maschinenbau und Konstruktion",
+      "url": "allModules/39392_M_MAKON.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 39221,
+      "kuerzel": "M_MATH1",
+      "bezeichnung": "Mathematik 1",
+      "url": "allModules/39221_M_MATH1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 39243,
+      "kuerzel": "M_MATH2",
+      "bezeichnung": "Mathematik 2 ",
+      "url": "allModules/39243_M_MATH2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44112,
+      "kuerzel": "M_IKMI_p",
+      "bezeichnung": "Medien- und Informationskompetenz in Zeiten von KI",
+      "url": "allModules/44112_M_IKMI_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64983,
+      "kuerzel": "M_IKMI",
+      "bezeichnung": "Medien- und Informationskompetenz in Zeiten von KI ",
+      "url": "allModules/64983_M_IKMI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56875,
+      "kuerzel": "M_IKME_p",
+      "bezeichnung": "Messbar gesund",
+      "url": "allModules/56875_M_IKME_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44115,
+      "kuerzel": "M_IKME",
+      "bezeichnung": "Messbar gesund",
+      "url": "allModules/44115_M_IKME.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 40139,
+      "kuerzel": "M_MOSIM",
+      "bezeichnung": "Modellbildung und Simulation",
+      "url": "allModules/40139_M_MOSIM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 39258,
+      "kuerzel": "M_MONTA",
+      "bezeichnung": "Montagetechnik",
+      "url": "allModules/39258_M_MONTA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57372,
+      "kuerzel": "M_idks.IKBD",
+      "bezeichnung": "My Data - Big Data",
+      "url": "allModules/57372_M_idks.IKBD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65054,
+      "kuerzel": "M_IKNE",
+      "bezeichnung": "Nachhaltige Ernährung für Körper, Geist und Klima",
+      "url": "allModules/65054_M_IKNE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56795,
+      "kuerzel": "M_IKNE_p",
+      "bezeichnung": "Nachhaltige Ernährung für Körper, Geist und Klima",
+      "url": "allModules/56795_M_IKNE_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64974,
+      "kuerzel": "M_IKNP",
+      "bezeichnung": "Nachhaltigkeit politisch umsetzen",
+      "url": "allModules/64974_M_IKNP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64977,
+      "kuerzel": "M_IKNP_p",
+      "bezeichnung": "Nachhaltigkeit politisch umsetzen",
+      "url": "allModules/64977_M_IKNP_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56440,
+      "kuerzel": "M_NAHET",
+      "bezeichnung": "Nachhaltigkeit und Ethik",
+      "url": "allModules/56440_M_NAHET.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10149,
+          "kuerzel": "W-KOKU",
+          "bezeichnung": "Kommunikation & Kultur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44223,
+      "kuerzel": "M_IKKA",
+      "bezeichnung": "Nachhaltigkeit und Klimaschutz angewandt",
+      "url": "allModules/44223_M_IKKA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44124,
+      "kuerzel": "M_IKNG_p",
+      "bezeichnung": "Neue Narrative für eine nachhaltige Gesellschaft",
+      "url": "allModules/44124_M_IKNG_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65007,
+      "kuerzel": "M_IKNG",
+      "bezeichnung": "Neue Narrative für eine nachhaltige Gesellschaft ",
+      "url": "allModules/65007_M_IKNG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65016,
+      "kuerzel": "M_IKNK_p",
+      "bezeichnung": "New Work & KI",
+      "url": "allModules/65016_M_IKNK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65013,
+      "kuerzel": "M_IKNK",
+      "bezeichnung": "New Work & KI",
+      "url": "allModules/65013_M_IKNK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65234,
+      "kuerzel": "M_IKNK_p_RJ",
+      "bezeichnung": "New Work & KI",
+      "url": "allModules/65234_M_IKNK_p_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65237,
+      "kuerzel": "M_IKNK_p_SG",
+      "bezeichnung": "New Work & KI",
+      "url": "allModules/65237_M_IKNK_p_SG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64962,
+      "kuerzel": "M_IKOR_p",
+      "bezeichnung": "Öffentliche Ringvorlesung: Verantwortung heute - zwischen Verpflichtung und Ablehnung",
+      "url": "allModules/64962_M_IKOR_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64959,
+      "kuerzel": "M_IKOR",
+      "bezeichnung": "Öffentliche Ringvorlesung: Verantwortung heute - zwischen Verpflichtung und Ablehnung",
+      "url": "allModules/64959_M_IKOR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 55578,
+      "kuerzel": "M_OEA",
+      "bezeichnung": "Öffentlichkeitsarbeit",
+      "url": "allModules/55578_M_OEA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10149,
+          "kuerzel": "W-KOKU",
+          "bezeichnung": "Kommunikation & Kultur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56805,
+      "kuerzel": "M_IKOW",
+      "bezeichnung": "Offgrid Wasser und Sonne: Hands on",
+      "url": "allModules/56805_M_IKOW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65019,
+      "kuerzel": "M_IKOW_p",
+      "bezeichnung": "Offgrid Wasser und Sonne: Hands on",
+      "url": "allModules/65019_M_IKOW_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 65149,
+      "kuerzel": "M_NaBew",
+      "bezeichnung": "Ökologische Nachhaltigkeitsbewertung",
+      "url": "allModules/65149_M_NaBew.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56436,
+      "kuerzel": "M_OPRE1",
+      "bezeichnung": "Operations Research 1",
+      "url": "allModules/56436_M_OPRE1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 55352,
+      "kuerzel": "M_OPRE2",
+      "bezeichnung": "Operations Research 2",
+      "url": "allModules/55352_M_OPRE2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 55356,
+      "kuerzel": "M_OPTIM",
+      "bezeichnung": "Optimierung",
+      "url": "allModules/55356_M_OPTIM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 41624,
+      "kuerzel": "M_ORGPS",
+      "bezeichnung": "Organisationspsychologie",
+      "url": "allModules/41624_M_ORGPS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10149,
+          "kuerzel": "W-KOKU",
+          "bezeichnung": "Kommunikation & Kultur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 23733,
+      "kuerzel": "M_PHYS1",
+      "bezeichnung": "Physik 1 (WING)",
+      "url": "allModules/23733_M_PHYS1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57342,
+      "kuerzel": "M_PHYS1_v1",
+      "bezeichnung": "Physik 1 (WING) SG",
+      "url": "allModules/57342_M_PHYS1_v1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 23734,
+      "kuerzel": "M_PHYS2",
+      "bezeichnung": "Physik 2 (WING)",
+      "url": "allModules/23734_M_PHYS2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57346,
+      "kuerzel": "M_PHYS2_v1",
+      "bezeichnung": "Physik 2 (WING) SG",
+      "url": "allModules/57346_M_PHYS2_v1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56417,
+      "kuerzel": "M_PRODM",
+      "bezeichnung": "Produktmanagement ",
+      "url": "allModules/56417_M_PRODM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 64860,
+      "kuerzel": "M_IKPI_p",
+      "bezeichnung": "Projekte intedisziplinär weiterführen",
+      "url": "allModules/64860_M_IKPI_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 64856,
+      "kuerzel": "M_IKPI",
+      "bezeichnung": "Projekte intedisziplinär weiterführen",
+      "url": "allModules/64856_M_IKPI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56394,
+      "kuerzel": "M_PROJM",
+      "bezeichnung": "Projektmanagement (WING)",
+      "url": "allModules/56394_M_PROJM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65246,
+      "kuerzel": "M_IKPS_p_BU",
+      "bezeichnung": "Prototyping für Startup-Ideen",
+      "url": "allModules/65246_M_IKPS_p_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44136,
+      "kuerzel": "M_IKPS_p",
+      "bezeichnung": "Prototyping für Startup-Ideen",
+      "url": "allModules/44136_M_IKPS_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44133,
+      "kuerzel": "M_IKPS",
+      "bezeichnung": "Prototyping für Startup-Ideen",
+      "url": "allModules/44133_M_IKPS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65021,
+      "kuerzel": "M_IKPH",
+      "bezeichnung": "Prototyping für Startup-Ideen beim Hackathon",
+      "url": "allModules/65021_M_IKPH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65056,
+      "kuerzel": "M_IKPE",
+      "bezeichnung": "Psychologisches Empowerment in Veränderungs- und Wandlungsprozessen",
+      "url": "allModules/65056_M_IKPE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43622,
+      "kuerzel": "M_PYTHON1",
+      "bezeichnung": "Python für Ingenieure",
+      "url": "allModules/43622_M_PYTHON1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56378,
+      "kuerzel": "M_QUMAN",
+      "bezeichnung": "Qualitätsmanagement",
+      "url": "allModules/56378_M_QUMAN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 26205,
+      "kuerzel": "M_RECHT",
+      "bezeichnung": "Recht (WING)",
+      "url": "allModules/26205_M_RECHT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56370,
+      "kuerzel": "M_REAUT",
+      "bezeichnung": "Regelungstechnik und Automation",
+      "url": "allModules/56370_M_REAUT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 55776,
+      "kuerzel": "M_wing.RENG",
+      "bezeichnung": "Requirements Engineering",
+      "url": "allModules/55776_M_wing.RENG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 45720,
+      "kuerzel": "M_winf.RENG",
+      "bezeichnung": "Requirements Engineering ",
+      "url": "allModules/45720_M_winf.RENG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 44142,
+      "kuerzel": "M_IKRE",
+      "bezeichnung": "Resilienz: Schlüsselkompetenz für innere Stärke ",
+      "url": "allModules/44142_M_IKRE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 39417,
+      "kuerzel": "M_RIMAN",
+      "bezeichnung": "Risikomanagement",
+      "url": "allModules/39417_M_RIMAN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57318,
+      "kuerzel": "M_wing.SAPG",
+      "bezeichnung": "SAP Grundlagen und Business Process Integration mit SAP S/4HANA",
+      "url": "allModules/57318_M_wing.SAPG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 61297,
+      "kuerzel": "M_boek.SAPG",
+      "bezeichnung": "SAP Grundlagen und Business Process Integration mit SAP S/4HANA",
+      "url": "allModules/61297_M_boek.SAPG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56707,
+      "kuerzel": "M_IKBF",
+      "bezeichnung": "Selbststeuerung im Beruf",
+      "url": "allModules/56707_M_IKBF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43909,
+      "kuerzel": "M_IKSO",
+      "bezeichnung": "Serious Game zur Unterstützung der Transformation sozialer und wirtschaftlich orientierter Systeme",
+      "url": "allModules/43909_M_IKSO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64971,
+      "kuerzel": "M_IKSI",
+      "bezeichnung": "Serious Game zur Unterstützung der Transformation von Infrastruktursystemen",
+      "url": "allModules/64971_M_IKSI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 35906,
+      "kuerzel": "M_SFROBOTICS",
+      "bezeichnung": "SF-Robotics",
+      "url": "allModules/35906_M_SFROBOTICS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 35905,
+      "kuerzel": "M_SFFACTORY",
+      "bezeichnung": "SF-Smart Factory",
+      "url": "allModules/35905_M_SFFACTORY.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44217,
+      "kuerzel": "M_IKSS_p",
+      "bezeichnung": "Ski-Nation Schweiz",
+      "url": "allModules/44217_M_IKSS_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 65023,
+      "kuerzel": "M_IKSS",
+      "bezeichnung": "Ski-Nation Schweiz",
+      "url": "allModules/65023_M_IKSS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44145,
+      "kuerzel": "M_IKSH",
+      "bezeichnung": "Social and Human Robotic ",
+      "url": "allModules/44145_M_IKSH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57354,
+      "kuerzel": "M_idks.IKSH",
+      "bezeichnung": "Social and Human Robotic  SG",
+      "url": "allModules/57354_M_idks.IKSH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56461,
+      "kuerzel": "M_SOZPS",
+      "bezeichnung": "Sozialpsychologie",
+      "url": "allModules/56461_M_SOZPS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10149,
+          "kuerzel": "W-KOKU",
+          "bezeichnung": "Kommunikation & Kultur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 35904,
+      "kuerzel": "M_SPDATASC",
+      "bezeichnung": "SP-Data Science",
+      "url": "allModules/35904_M_SPDATASC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 35903,
+      "kuerzel": "M_SPPRODUCTS",
+      "bezeichnung": "SP-Smart Products",
+      "url": "allModules/35903_M_SPPRODUCTS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44148,
+      "kuerzel": "M_IKSW",
+      "bezeichnung": "Stadt der kurzen Wege ",
+      "url": "allModules/44148_M_IKSW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65029,
+      "kuerzel": "M_IKSW_p",
+      "bezeichnung": "Stadt der kurzen Wege",
+      "url": "allModules/65029_M_IKSW_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65026,
+      "kuerzel": "M_IKST_p",
+      "bezeichnung": "Starkes Ich – Starkes Team",
+      "url": "allModules/65026_M_IKST_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65252,
+      "kuerzel": "M_IKST_RJ",
+      "bezeichnung": "Starkes Ich – Starkes Team",
+      "url": "allModules/65252_M_IKST_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65240,
+      "kuerzel": "M_IKST_p_RJ",
+      "bezeichnung": "Starkes Ich – Starkes Team",
+      "url": "allModules/65240_M_IKST_p_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57673,
+      "kuerzel": "M_IKST",
+      "bezeichnung": "Starkes Ich – Starkes Team",
+      "url": "allModules/57673_M_IKST.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65231,
+      "kuerzel": "M_IKSU_p_BU",
+      "bezeichnung": "Startup - Weg zur Gründung",
+      "url": "allModules/65231_M_IKSU_p_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44253,
+      "kuerzel": "M_IKSU",
+      "bezeichnung": "Startup - Weg zur Gründung",
+      "url": "allModules/44253_M_IKSU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44256,
+      "kuerzel": "M_IKSU_p",
+      "bezeichnung": "Startup - Weg zur Gründung",
+      "url": "allModules/44256_M_IKSU_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 65298,
+      "kuerzel": "M_IKSU_p_RJ",
+      "bezeichnung": "Startup - Weg zur Gründung Kopie",
+      "url": "allModules/65298_M_IKSU_p_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 61152,
+      "kuerzel": "M_STATIRJ",
+      "bezeichnung": "Statistik",
+      "url": "allModules/61152_M_STATIRJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57253,
+      "kuerzel": "M_STATI",
+      "bezeichnung": "Statistik",
+      "url": "allModules/57253_M_STATI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56031,
+      "kuerzel": "M_boek.STTA",
+      "bezeichnung": "Strategic Thinking and Acting",
+      "url": "allModules/56031_M_boek.STTA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 42755,
+      "kuerzel": "M_STTA",
+      "bezeichnung": "Strategic Thinking and Acting",
+      "url": "allModules/42755_M_STTA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 40887,
+      "kuerzel": "M_STWA",
+      "bezeichnung": "Strategie und Wachstum",
+      "url": "allModules/40887_M_STWA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 64980,
+      "kuerzel": "M_IKSE",
+      "bezeichnung": "Strategie-Entwicklung und -Umsetzung für NPOs",
+      "url": "allModules/64980_M_IKSE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43902,
+      "kuerzel": "M_boek.STMG",
+      "bezeichnung": "Strategisches Management",
+      "url": "allModules/43902_M_boek.STMG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44208,
+      "kuerzel": "M_IKSM_p",
+      "bezeichnung": "Strategisches Management von Naturgefahren",
+      "url": "allModules/44208_M_IKSM_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44205,
+      "kuerzel": "M_IKSM",
+      "bezeichnung": "Strategisches Management von Naturgefahren",
+      "url": "allModules/44205_M_IKSM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64950,
+      "kuerzel": "M_IKSR",
+      "bezeichnung": "Strategisches Risikomanagement von Naturgefahren",
+      "url": "allModules/64950_M_IKSR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64953,
+      "kuerzel": "M_IKSR_p",
+      "bezeichnung": "Strategisches Risikomanagement von Naturgefahren",
+      "url": "allModules/64953_M_IKSR_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56426,
+      "kuerzel": "M_SYDD1",
+      "bezeichnung": "Systemdenken und Systemdynamik 1",
+      "url": "allModules/56426_M_SYDD1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57575,
+      "kuerzel": "M_SYDD2",
+      "bezeichnung": "Systemdenken und Systemdynamik 2",
+      "url": "allModules/57575_M_SYDD2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 39421,
+      "kuerzel": "M_SYDD2",
+      "bezeichnung": "Systemdenken und Systemdynamik 2",
+      "url": "allModules/39421_M_SYDD2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56422,
+      "kuerzel": "M_SYMAN",
+      "bezeichnung": "Systemisches Management",
+      "url": "allModules/56422_M_SYMAN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57414,
+      "kuerzel": "M_SYMAN_v1",
+      "bezeichnung": "Systemisches Management SG",
+      "url": "allModules/57414_M_SYMAN_v1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 64968,
+      "kuerzel": "M_IKTR",
+      "bezeichnung": "Teaming rocks! Zusammenarbeit verstehen & Selbstführung stärken",
+      "url": "allModules/64968_M_IKTR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64448,
+      "kuerzel": "M_Kat_TPLI",
+      "bezeichnung": "Technik, Produktion, Logistik und IT",
+      "url": "allModules/64448_M_Kat_TPLI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": -1,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 64545,
+      "kuerzel": "M_Kat_TPLI1",
+      "bezeichnung": "Technik, Produktion, Logistik und IT 1",
+      "url": "allModules/64545_M_Kat_TPLI1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": -1,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 24608,
+      "kuerzel": "M_TG",
+      "bezeichnung": "Technikgeschichte",
+      "url": "allModules/24608_M_TG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10149,
+          "kuerzel": "W-KOKU",
+          "bezeichnung": "Kommunikation & Kultur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56852,
+      "kuerzel": "M_TMECH",
+      "bezeichnung": "Technische Mechanik (WING)",
+      "url": "allModules/56852_M_TMECH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44343,
+      "kuerzel": "M_IKTE_p",
+      "bezeichnung": "The Internet of Everything",
+      "url": "allModules/44343_M_IKTE_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44340,
+      "kuerzel": "M_IKTE",
+      "bezeichnung": "The Internet of Everything",
+      "url": "allModules/44340_M_IKTE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44160,
+      "kuerzel": "M_IKUG",
+      "bezeichnung": "Umwelt und Gesundheit ",
+      "url": "allModules/44160_M_IKUG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44163,
+      "kuerzel": "M_IKUG_p",
+      "bezeichnung": "Umwelt und Gesundheit",
+      "url": "allModules/44163_M_IKUG_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56466,
+      "kuerzel": "M_KatUntMan",
+      "bezeichnung": "Unternehmensführung & Management",
+      "url": "allModules/56466_M_KatUntMan.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": -1,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 56483,
+      "kuerzel": "M_KatUntMan2",
+      "bezeichnung": "Unternehmensführung & Management2",
+      "url": "allModules/56483_M_KatUntMan2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": -1,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 57708,
+      "kuerzel": "M_UFIN_SG",
+      "bezeichnung": "Unternehmungsfinanzierung und Investitionsrechnung",
+      "url": "allModules/57708_M_UFIN_SG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57114,
+      "kuerzel": "M_boek.JUSP",
+      "bezeichnung": "USA Consulting Project",
+      "url": "allModules/57114_M_boek.JUSP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10149,
+          "kuerzel": "W-KOKU",
+          "bezeichnung": "Kommunikation & Kultur",
+          "kreditpunkte": 9
+        }
+      ]
+    },
+    {
+      "id": 43662,
+      "kuerzel": "M_VekGM",
+      "bezeichnung": "Vektorgeometrie (M-I)",
+      "url": "allModules/43662_M_VekGM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10146,
+          "kuerzel": "W-MANA",
+          "bezeichnung": "Mathematik & Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64944,
+      "kuerzel": "M_IKVW",
+      "bezeichnung": "Verantwortungsvoll Wirtschaften: Unternehmen auf dem Prüfstand",
+      "url": "allModules/64944_M_IKVW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64947,
+      "kuerzel": "M_IKVW_p",
+      "bezeichnung": "Verantwortungsvoll Wirtschaften: Unternehmen auf dem Prüfstand",
+      "url": "allModules/64947_M_IKVW_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44480,
+      "kuerzel": "M_KT2V",
+      "bezeichnung": "Verarbeitung von Kunststoffen: Kunststofftechnik 2",
+      "url": "allModules/44480_M_KT2V.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45722,
+      "kuerzel": "M_winf.ITIN",
+      "bezeichnung": "Verlässliche IT-Infrastruktur",
+      "url": "allModules/45722_M_winf.ITIN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 65038,
+      "kuerzel": "M_IKVK_p",
+      "bezeichnung": "Vielfalt, Chancengleichheit und Inklusion im KI-Zeitalter",
+      "url": "allModules/65038_M_IKVK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65035,
+      "kuerzel": "M_IKVK",
+      "bezeichnung": "Vielfalt, Chancengleichheit und Inklusion im KI-Zeitalter ",
+      "url": "allModules/65035_M_IKVK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57360,
+      "kuerzel": "M_idks.IKVR",
+      "bezeichnung": "Virtual and Augmented Reality",
+      "url": "allModules/57360_M_idks.IKVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65032,
+      "kuerzel": "M_IKVA_p",
+      "bezeichnung": "Virtual Reality für gesundes Leben und Altern",
+      "url": "allModules/65032_M_IKVA_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44172,
+      "kuerzel": "M_IKVA",
+      "bezeichnung": "Virtual Reality für gesundes Leben und Altern",
+      "url": "allModules/44172_M_IKVA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65261,
+      "kuerzel": "M_IKVA_p_BU",
+      "bezeichnung": "Virtual Reality für gesundes Leben und Altern Kopie",
+      "url": "allModules/65261_M_IKVA_p_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65255,
+      "kuerzel": "M_IKVR_RJ",
+      "bezeichnung": "Virtual Reality für Klima und Energie",
+      "url": "allModules/65255_M_IKVR_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65043,
+      "kuerzel": "M_IKVR",
+      "bezeichnung": "Virtual Reality für Klima und Energie ",
+      "url": "allModules/65043_M_IKVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44181,
+      "kuerzel": "M_IKVR_p",
+      "bezeichnung": "Virtual Reality für Klima und Energie",
+      "url": "allModules/44181_M_IKVR_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65295,
+      "kuerzel": "M_IKVR_p_BU",
+      "bezeichnung": "Virtual Reality für Klima und Energie Kopie",
+      "url": "allModules/65295_M_IKVR_p_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44675,
+      "kuerzel": "M_VNADDMAN",
+      "bezeichnung": "VN-Additive Manufacturing",
+      "url": "allModules/44675_M_VNADDMAN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 35907,
+      "kuerzel": "M_VNVALCHAIN",
+      "bezeichnung": "VN-Value Chain Networks",
+      "url": "allModules/35907_M_VNVALCHAIN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44199,
+      "kuerzel": "M_IKNB",
+      "bezeichnung": "Wasser und Klima: Nachhaltige Wasserbewirtschaftung auf Gemeindeebene",
+      "url": "allModules/44199_M_IKNB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57170,
+      "kuerzel": "M_IKNB_p",
+      "bezeichnung": "Wasser und Klima: Nachhaltige Wasserbewirtschaftung auf Gemeindeebene",
+      "url": "allModules/57170_M_IKNB_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56359,
+      "kuerzel": "M_WSTOF",
+      "bezeichnung": "Werkstoffe (WING)",
+      "url": "allModules/56359_M_WSTOF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57429,
+      "kuerzel": "M_WSTOF_v2",
+      "bezeichnung": "Werkstoffe (WING) SG",
+      "url": "allModules/57429_M_WSTOF_v2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 32766,
+      "kuerzel": "M_WSLS",
+      "bezeichnung": "Workshop \"Lern-Support an der OST\"",
+      "url": "allModules/32766_M_WSLS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "id": 40346,
+  "kuerzel": "M_AnStat",
+  "bezeichnung": "Angewandte Baustatik im Brücken- und Hochbau",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n<li>Kompetenz in der praxisgerechten Modellierung und Bestimmung von Schnittkr&auml;ften und Verformungen mittels FEM-Software von typischen Tragwerken aus Bereichen Hochbau und Br&uuml;ckenbau</li>\n<li>Sicherheit in der Interpretation von Berechnungsergebnissen und F&auml;higkeit zur Plausibilit&auml;tskontrolle mit Verformungsmethode (FEM und Drehwinkelverfahren) als Basis</li>\n</ul>",
+  "vorausgKenntnisse": "<p>keine</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 40347,
+      "kuerzel": "FEM_B",
+      "bezeichnung": "Finite Elemente Methode ",
+      "lernziele": "<ul>\n<li>Verstehen der Grundbegriffe</li>\n<li>Einblick in Arbeitsweise und Anwendung der Finite Elemente (FE) -Methode</li>\n<li>Einsicht in M&ouml;glichkeiten und Grenzen der FE-Simulationen</li>\n<li>&Uuml;bersicht &uuml;ber die strukturmechanischen Eigenschaften typischer Tragwerke (Balken, St&auml;be, Platten, Schalen, Membranen&nbsp; &nbsp; etc.) bzw. entsprechender Finiter Elemente</li>\n<li>F&auml;higkeit einer aufgabengerechten Modellbildung und Idealisierung</li>\n<li>F&auml;higkeit ein FE-Programm bei praktischen baustatischen Problemstellungen anzuwenden</li>\n<li>Beherrschen der Schritte einer erfolgreichen Simulation sowie der Auswertung, Darstellung und kritischen Interpretation der Ergebnisse</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Grundlagen</li>\n<li>Diskussion von Fallbeispielen</li>\n<li>Modellierungsprozess</li>\n<li>Finite Elemente als Ersatz f&uuml;r elastische Strukturelemente</li>\n<li>Drehwinkelverfahren</li>\n<li>Ursachen von Fehlern bei der Modellierung und Berechnung</li>\n<li>M&ouml;glichkeiten zur &Uuml;berpr&uuml;fung und Interpretation der Ergebnisse</li>\n<li>&Uuml;bungen:<br />&nbsp; &nbsp;o Stabstatik, Platten, Flachdecken, Scheiben, Simulation von Unterz&uuml;gen, Gelenklinien etc.<br />&nbsp; &nbsp;o Handrechnungen, typische Lastfallkombinationen, Berechnung &ldquo;von oben nach unten&ldquo;, Bewehrung</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 40348,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Finite Elemente Methode "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Finite Element Method"
+        }
+      ]
+    },
+    {
+      "id": 40352,
+      "kuerzel": "StaBr",
+      "bezeichnung": "Baustatik von Brückenbauten",
+      "lernziele": "<ul>\n<li>Verst&auml;ndnis und Kompetenz in Modellierung von Br&uuml;ckenbauten mit FEM-Software</li>\n<li>Verst&auml;ndnis und Kompetenz in Bestimmung der Schnittkr&auml;fte infolge Einwirkungen gem&auml;ss SIA 261 mit FEM-Software und Plausibilisierung der Schnittkr&auml;fte</li>\n<li>Statisch unbestimmte Stabtragwerke k&ouml;nnen mit dem Drehwinkelverfahren einfach von Hand gel&ouml;st werden</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Anwendung des Drehwinkelverfahrens an verschiedenen Beispielen</li>\n<li>Modellierung einer neuen Fussg&auml;ngerbr&uuml;cke mit FEM-Software und Bestimmung der Schnittkr&auml;fte infolge Einwirkungen gem&auml;ss SIA 261 und Plausibilisierung der Schnittkr&auml;fte</li>\n<li>Modellierung einer bestehenden Strassenbr&uuml;cke mit FEM-Software und Bestimmung der Schnittkr&auml;fte infolge Einwirkungen gem&auml;ss SIA 261, anschliessend Plausibilisierung der Schnittkr&auml;fte (gem&auml;ss FEM-Software) von Hand mit dem Drehwinkelverfahren</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 40353,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 40354,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Baustatik von Brückenbauten"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Structural Analysis of Bridge Constructions"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10197,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10197_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10234,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10234_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5010785,
+      "name": "Marković",
+      "vorname": "Ivan"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 26876,
+      "kuerzel": "M_Beton2",
+      "bezeichnung": "Betonbau 2: Gebrauchstauglichkeit, Platten und Decken",
+      "url": "allModules/26876_M_Beton2.json"
+    },
+    {
+      "id": 28471,
+      "kuerzel": "M_Baustat3",
+      "bezeichnung": "Baustatik 3",
+      "url": "allModules/28471_M_Baustat3.json"
+    },
+    {
+      "id": 37664,
+      "kuerzel": "M_Beton1",
+      "bezeichnung": "Betonbau 1",
+      "url": "allModules/37664_M_Beton1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Angewandte Baustatik im Brücken- und Hochbau"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Structural Analysis in Bridge- and Highbuilding"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2022,
+    "beginSemester": "FS",
+    "endJahr": 2023,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 37951,
+    "kuerzel": "M_Baustat4",
+    "bezeichnung": "Baustatik 4",
+    "url": "allModules/37951_M_Baustat4.json"
+  },
+  "nachfolger": {
+    "id": 40346,
+    "kuerzel": "M_AnStat",
+    "bezeichnung": "Angewandte Baustatik im Brücken- und Hochbau",
+    "url": "allModules/40346_M_AnStat.json"
+  }
+}

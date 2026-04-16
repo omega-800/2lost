@@ -1,0 +1,187 @@
+{
+  "id": 30407,
+  "kuerzel": "M_Bsys1",
+  "bezeichnung": "Betriebssysteme 1",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden verstehen die grundlegende Funktionsweise moderner Computer und die Rolle des Betriebssystems im Gesamtsystem. Sie k&ouml;nnen einfache C-Programme entwerfen, die direkt mit dem Betriebssystem kommunizieren, und kennen wesentliche Kommandozeilen-Werkzeuge zur Systemverwaltung.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 30408,
+      "kuerzel": "Bsys1",
+      "bezeichnung": "Betriebssysteme 1 ",
+      "planinhalt": "<ul>\n    <li>Einf&uuml;hrung (Zweck, Definition, Einordnung im Computersystem, Betriebssystemarten) </li>\n    <li>Einf&uuml;hrung in die Grundlagen der Programmiersprache C, wie sie zur Nutzung der Programmnierschnittstelle verbreiteter Betriebssysteme ben&ouml;tigt werden</li>\n    <li>Grundlagen der Programmausf&uuml;hrung (Rechner- und Prozessorgrundlagen, Adressraum, Unterprogrammmechanismen) </li>\n    <li>Grundlagen der Systemprogrammierung (Systemprogrammierschnittstellen, Unterprogrammtechniken) </li>\n    <li>Prozesse und Threads (Parallelverarbeitung, Prozessmodell, Threads, CPU-Scheduling) </li>\n    <li>Synchronisation von Prozessen &amp; Threads (Synchronisationsbedarfe und L&ouml;sungsans&auml;tze, Semaphore und ihre Anwendung, Unix-Signale, Verklemmungsproblematik) </li>\n    <li>Kommunikation von Prozessen &amp; Threads (Ueberblick, allgemeine Aspekte, nachrichtenbasierte Verfahren anhand Unix-Pipes) </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 30409,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 126,
+          "harteGrenze": true
+        },
+        {
+          "id": 30410,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Betriebssysteme 1 "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Operating Systems 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5013437,
+      "name": "Richter",
+      "vorname": "Stefan"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 30407,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Betriebssysteme 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Operating Systems 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2017,
+    "beginSemester": "HS",
+    "endJahr": 2018,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 23472,
+    "kuerzel": "M_Bsys1",
+    "bezeichnung": "Betriebssysteme 1",
+    "url": "allModules/23472_M_Bsys1.json"
+  },
+  "nachfolger": {
+    "id": 30407,
+    "kuerzel": "M_Bsys1",
+    "bezeichnung": "Betriebssysteme 1",
+    "url": "allModules/30407_M_Bsys1.json"
+  }
+}

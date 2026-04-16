@@ -1,0 +1,249 @@
+{
+  "id": 20686,
+  "kuerzel": "M_ElMa",
+  "bezeichnung": "Elektrische Maschinen",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Grundlegendes Verst&auml;ndnis der&nbsp;elektrischen Maschinen und elektromechanischen Energiewandlung, Kenntnisse &uuml;ber Zuordnung zwischen Maschine und Anwendung.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 20692,
+      "kuerzel": "ElMa",
+      "bezeichnung": "Elektrische Maschinen",
+      "planinhalt": "<p><strong>Einleitung</strong></p>\n<ol>\n    <li>Elektrodynamische Grundgesetze (Kr&auml;fte, Felder, Energieumwandlung)</li>\n    <li>Magnetkreis-Begriffe, Permanentmagnet, Reluktanzkraft</li>\n</ol>\n<p><strong>Elektrische Maschinen</strong></p>\n<ol>\n    <li>Gleichstrommaschine&nbsp; </li>\n    <li>Schrittmotor</li>\n    <li>Dreiphasenwechselstrom, Drehfelderzeugung</li>\n    <li>Synchronmaschine</li>\n    <li>Asynchronmaschine</li>\n</ol>\n<p><strong>Anwendung</strong></p>\n<ol>\n    <li>Elektrische Maschinen im Vergleich</li>\n    <li>Zuordnung von Maschine und Anwendung</li>\n</ol>\n<p>&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 20693,
+          "art": "Praktikum",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        },
+        {
+          "id": 20694,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 20695,
+          "art": "Uebung",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrische Maschinen"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electrical Machines"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10118,
+      "bezeichnung": "Betrieb- und Instandhaltung",
+      "kuerzel": "M-I-BI",
+      "url": "allStudies/10118_M-I-BI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10081,
+      "bezeichnung": "Betrieb- und Instandhaltung",
+      "kuerzel": "M-I-BI",
+      "url": "allStudies/10081_M-I-BI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10079,
+      "bezeichnung": "Automation und Robotik",
+      "kuerzel": "M-I-AR",
+      "url": "allStudies/10079_M-I-AR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10117,
+      "bezeichnung": "Automation und Robotik",
+      "kuerzel": "M-I-AR",
+      "url": "allStudies/10117_M-I-AR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 540047,
+      "name": "Smajic",
+      "vorname": "Jasmin"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 19228,
+      "kuerzel": "M_FouLap2EC",
+      "bezeichnung": "Fourier- und Laplacetransformation (2 ECTS-Punkte)",
+      "url": "allModules/19228_M_FouLap2EC.json"
+    },
+    {
+      "id": 20106,
+      "kuerzel": "M_An2M",
+      "bezeichnung": "Analysis 2 (M-I)",
+      "url": "allModules/20106_M_An2M.json"
+    },
+    {
+      "id": 20580,
+      "kuerzel": "M_WRechM",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung (M-I)",
+      "url": "allModules/20580_M_WRechM.json"
+    },
+    {
+      "id": 22028,
+      "kuerzel": "M_An1M",
+      "bezeichnung": "Analysis 1 (M-I)",
+      "url": "allModules/22028_M_An1M.json"
+    },
+    {
+      "id": 22397,
+      "kuerzel": "M_AutoT2",
+      "bezeichnung": "Automation 2",
+      "url": "allModules/22397_M_AutoT2.json"
+    },
+    {
+      "id": 23353,
+      "kuerzel": "M_DiffGlM",
+      "bezeichnung": "Differentialgleichungen (M-I)",
+      "url": "allModules/23353_M_DiffGlM.json"
+    },
+    {
+      "id": 23817,
+      "kuerzel": "M_ElektrGL",
+      "bezeichnung": "Elektrotechnik: Grundlagen",
+      "url": "allModules/23817_M_ElektrGL.json"
+    },
+    {
+      "id": 24051,
+      "kuerzel": "M_FuVar2EC",
+      "bezeichnung": "Funktionen mehrerer Variablen (2 ECTS-Punkte)",
+      "url": "allModules/24051_M_FuVar2EC.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 20686,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Abgabe von 2 Laborberichten mit Bewertung &gt;= 4.0<br /></p> <p>&nbsp;</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Elektrische Maschinen"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electrical Machines"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "FS",
+    "endJahr": 2014,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 20686,
+    "kuerzel": "M_ElMa",
+    "bezeichnung": "Elektrische Maschinen",
+    "url": "allModules/20686_M_ElMa.json"
+  }
+}

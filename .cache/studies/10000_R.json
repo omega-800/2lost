@@ -1,0 +1,1861 @@
+{
+  "id": 10000,
+  "kuerzel": "R",
+  "bezeichnung": "Raumplanung",
+  "versionKuerzel": "STD_05",
+  "typ": "Bachelor",
+  "art": "Studiengang",
+  "form": "Vollzeit",
+  "kredits": [
+    {
+      "id": 10069,
+      "minKredits": 44,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung"
+        }
+      ]
+    },
+    {
+      "id": 10075,
+      "minKredits": 22,
+      "kategorien": [
+        {
+          "id": 10025,
+          "kuerzel": "R-s",
+          "bezeichnung": "Städtebau"
+        }
+      ]
+    },
+    {
+      "id": 10078,
+      "minKredits": 10,
+      "kategorien": [
+        {
+          "id": 10026,
+          "kuerzel": "R-nl",
+          "bezeichnung": "Natur und Landschaft"
+        }
+      ]
+    },
+    {
+      "id": 10072,
+      "minKredits": 26,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt"
+        }
+      ]
+    },
+    {
+      "id": 10081,
+      "minKredits": 12,
+      "kategorien": [
+        {
+          "id": 10027,
+          "kuerzel": "R-vk",
+          "bezeichnung": "Visuelle Kommunikation"
+        }
+      ]
+    },
+    {
+      "id": 10084,
+      "minKredits": 12,
+      "kategorien": [
+        {
+          "id": 10028,
+          "kuerzel": "R-p",
+          "bezeichnung": "Projekte "
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "minKredits": 14,
+      "kategorien": [
+        {
+          "id": 10037,
+          "kuerzel": "R-ks",
+          "bezeichnung": "Kommunikation und Sprache"
+        }
+      ]
+    },
+    {
+      "id": 10108,
+      "minKredits": 16,
+      "kategorien": [
+        {
+          "id": 10036,
+          "kuerzel": "R-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht"
+        }
+      ]
+    },
+    {
+      "id": 10249,
+      "minKredits": 12,
+      "kategorien": [
+        {
+          "id": 10087,
+          "kuerzel": "R-BA",
+          "bezeichnung": "Bachelor-Arbeit Raumplanung"
+        }
+      ]
+    }
+  ],
+  "studienberater": {
+    "id": 247,
+    "name": "Matta",
+    "vorname": "Thomas"
+  },
+  "zuordnungen": [
+    {
+      "id": 29794,
+      "kuerzel": "M_BAR",
+      "bezeichnung": "Bachelor-Arbeit Raumplanung",
+      "url": "allModules/29794_M_BAR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10087,
+          "kuerzel": "R-BA",
+          "bezeichnung": "Bachelor-Arbeit Raumplanung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 55597,
+      "kuerzel": "M_TecBEC",
+      "bezeichnung": "English Beyond Borders: Navigating Academic & Professional Success with IELTS",
+      "url": "allModules/55597_M_TecBEC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10037,
+          "kuerzel": "R-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56496,
+      "kuerzel": "M_EnglHTw",
+      "bezeichnung": "English: How Things work",
+      "url": "allModules/56496_M_EnglHTw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10037,
+          "kuerzel": "R-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45661,
+      "kuerzel": "M_SelTec",
+      "bezeichnung": "English: Selling Technology",
+      "url": "allModules/45661_M_SelTec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10037,
+          "kuerzel": "R-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28071,
+      "kuerzel": "M_EnglScience",
+      "bezeichnung": "English: The World of Science",
+      "url": "allModules/28071_M_EnglScience.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10037,
+          "kuerzel": "R-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 24422,
+      "kuerzel": "M_Franz1",
+      "bezeichnung": "Französisch 1",
+      "url": "allModules/24422_M_Franz1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10037,
+          "kuerzel": "R-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28084,
+      "kuerzel": "M_Franz2",
+      "bezeichnung": "Französisch 2",
+      "url": "allModules/28084_M_Franz2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10037,
+          "kuerzel": "R-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15602,
+      "kuerzel": "M_KatGWR1",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+      "url": "allModules/15602_M_KatGWR1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10036,
+          "kuerzel": "R-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 38418,
+      "kuerzel": "M_KatGWR",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+      "url": "allModules/38418_M_KatGWR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10036,
+          "kuerzel": "R-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 17152,
+      "kuerzel": "M_KatGWR2",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht 2",
+      "url": "allModules/17152_M_KatGWR2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10036,
+          "kuerzel": "R-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 17161,
+      "kuerzel": "M_KatGWR3",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht 3",
+      "url": "allModules/17161_M_KatGWR3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10036,
+          "kuerzel": "R-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 25171,
+      "kuerzel": "M_KatGWR4",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht 4",
+      "url": "allModules/25171_M_KatGWR4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10036,
+          "kuerzel": "R-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 25173,
+      "kuerzel": "M_KatGWR5",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht 5",
+      "url": "allModules/25173_M_KatGWR5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10036,
+          "kuerzel": "R-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 24463,
+      "kuerzel": "M_Ital1",
+      "bezeichnung": "Italienisch 1",
+      "url": "allModules/24463_M_Ital1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10037,
+          "kuerzel": "R-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 19691,
+      "kuerzel": "M_Ital2",
+      "bezeichnung": "Italienisch 2",
+      "url": "allModules/19691_M_Ital2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10037,
+          "kuerzel": "R-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28088,
+      "kuerzel": "M_Jap1",
+      "bezeichnung": "Japanisch 1",
+      "url": "allModules/28088_M_Jap1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10037,
+          "kuerzel": "R-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 28093,
+      "kuerzel": "M_Jap2",
+      "bezeichnung": "Japanisch 2",
+      "url": "allModules/28093_M_Jap2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10037,
+          "kuerzel": "R-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11145,
+      "kuerzel": "M_KomPla1",
+      "bezeichnung": "Kommunikation 1 für PlanerInnen",
+      "url": "allModules/11145_M_KomPla1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10037,
+          "kuerzel": "R-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10949,
+      "kuerzel": "M_KomPla2",
+      "bezeichnung": "Kommunikation 2 für PlanerInnen",
+      "url": "allModules/10949_M_KomPla2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10037,
+          "kuerzel": "R-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 65111,
+      "kuerzel": "M_KoTeKu",
+      "bezeichnung": "Kommunikation im Team und zwischen Kulturen",
+      "url": "allModules/65111_M_KoTeKu.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10037,
+          "kuerzel": "R-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 31794,
+      "kuerzel": "M_KatKoSpra",
+      "bezeichnung": "Kommunikation und Sprache",
+      "url": "allModules/31794_M_KatKoSpra.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10037,
+          "kuerzel": "R-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 41497,
+      "kuerzel": "M_KatKoSpra",
+      "bezeichnung": "Kommunikation und Sprache EEU",
+      "url": "allModules/41497_M_KatKoSpra.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10037,
+          "kuerzel": "R-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11167,
+      "kuerzel": "M_KgsArch",
+      "bezeichnung": "Kulturgeschichte: Architektur- und Stadtbaugeschichte",
+      "url": "allModules/11167_M_KgsArch.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10036,
+          "kuerzel": "R-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11023,
+      "kuerzel": "M_LpFpSp1",
+      "bezeichnung": "Landschafts-; Freiraum-; Städteplanung 1",
+      "url": "allModules/11023_M_LpFpSp1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10025,
+          "kuerzel": "R-s",
+          "bezeichnung": "Städtebau",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10026,
+          "kuerzel": "R-nl",
+          "bezeichnung": "Natur und Landschaft",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11024,
+      "kuerzel": "M_LpFpSp2",
+      "bezeichnung": "Landschafts-; Freiraum-; Städteplanung 2",
+      "url": "allModules/11024_M_LpFpSp2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10025,
+          "kuerzel": "R-s",
+          "bezeichnung": "Städtebau",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10026,
+          "kuerzel": "R-nl",
+          "bezeichnung": "Natur und Landschaft",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43466,
+      "kuerzel": "M_Le3PJL",
+      "bezeichnung": "Landschaftsentwicklung 3 / Projekt Landschaft",
+      "url": "allModules/43466_M_Le3PJL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10028,
+          "kuerzel": "R-p",
+          "bezeichnung": "Projekte ",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 16337,
+      "kuerzel": "M_Lp1",
+      "bezeichnung": "Landschaftsplanung 1",
+      "url": "allModules/16337_M_Lp1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10026,
+          "kuerzel": "R-nl",
+          "bezeichnung": "Natur und Landschaft",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 24288,
+      "kuerzel": "M_Lp2",
+      "bezeichnung": "Landschaftsplanung 2",
+      "url": "allModules/24288_M_Lp2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10026,
+          "kuerzel": "R-nl",
+          "bezeichnung": "Natur und Landschaft",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 18787,
+      "kuerzel": "M_Lp5",
+      "bezeichnung": "Landschaftsplanung 5 (Interdisziplinäres Projekt L und R)",
+      "url": "allModules/18787_M_Lp5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10028,
+          "kuerzel": "R-p",
+          "bezeichnung": "Projekte ",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 20260,
+      "kuerzel": "M_LTec",
+      "bezeichnung": "Lerntechnik",
+      "url": "allModules/20260_M_LTec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 16623,
+      "kuerzel": "M_NaEntw_e",
+      "bezeichnung": "Nachhaltige Entwicklung - Blended Learning",
+      "url": "allModules/16623_M_NaEntw_e.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 22118,
+      "kuerzel": "M_NL1",
+      "bezeichnung": "Natur und Landschaft 1",
+      "url": "allModules/22118_M_NL1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10026,
+          "kuerzel": "R-nl",
+          "bezeichnung": "Natur und Landschaft",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 16217,
+      "kuerzel": "M_NL2",
+      "bezeichnung": "Natur und Landschaft 2",
+      "url": "allModules/16217_M_NL2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10026,
+          "kuerzel": "R-nl",
+          "bezeichnung": "Natur und Landschaft",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 18517,
+      "kuerzel": "M_NT",
+      "bezeichnung": "Naturnaher Tourismus",
+      "url": "allModules/18517_M_NT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 23843,
+      "kuerzel": "M_Öko1",
+      "bezeichnung": "Ökologie 1",
+      "url": "allModules/23843_M_Öko1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 23850,
+      "kuerzel": "M_Öko2",
+      "bezeichnung": "Ökologie 2",
+      "url": "allModules/23850_M_Öko2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 23857,
+      "kuerzel": "M_Öko3",
+      "bezeichnung": "Ökologie 3",
+      "url": "allModules/23857_M_Öko3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 23862,
+      "kuerzel": "M_Öko4",
+      "bezeichnung": "Ökologie 4",
+      "url": "allModules/23862_M_Öko4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 21321,
+      "kuerzel": "M_OOSchutz",
+      "bezeichnung": "Ortsbild- und Objektschutz",
+      "url": "allModules/21321_M_OOSchutz.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10036,
+          "kuerzel": "R-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 20257,
+      "kuerzel": "M_PersLP",
+      "bezeichnung": "Persönliche Lernplanung",
+      "url": "allModules/20257_M_PersLP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 18412,
+      "kuerzel": "M_PG1VK1",
+      "bezeichnung": "Planungsgrundlagen 1 / Verkehr 1",
+      "url": "allModules/18412_M_PG1VK1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 21523,
+      "kuerzel": "M_PG2",
+      "bezeichnung": "Planungsgrundlagen 2",
+      "url": "allModules/21523_M_PG2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 21531,
+      "kuerzel": "M_PG3",
+      "bezeichnung": "Planungsgrundlagen 3",
+      "url": "allModules/21531_M_PG3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 26208,
+      "kuerzel": "M_PIM1",
+      "bezeichnung": "Planungsinstrumente und Methodik 1",
+      "url": "allModules/26208_M_PIM1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 18450,
+      "kuerzel": "M_PIM2",
+      "bezeichnung": "Planungsinstrumente und Methodik 2",
+      "url": "allModules/18450_M_PIM2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 26216,
+      "kuerzel": "M_PIM3",
+      "bezeichnung": "Planungsinstrumente und Methodik 3",
+      "url": "allModules/26216_M_PIM3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 23250,
+      "kuerzel": "M_PIM4",
+      "bezeichnung": "Planungsinstrumente und Methodik 4",
+      "url": "allModules/23250_M_PIM4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 23243,
+      "kuerzel": "M_PIM5",
+      "bezeichnung": "Planungsinstrumente und Methodik 5",
+      "url": "allModules/23243_M_PIM5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10027,
+          "kuerzel": "R-vk",
+          "bezeichnung": "Visuelle Kommunikation",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 18468,
+      "kuerzel": "M_PIM6",
+      "bezeichnung": "Planungsinstrumente und Methodik 6",
+      "url": "allModules/18468_M_PIM6.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 15854,
+      "kuerzel": "M_KatProjekte",
+      "bezeichnung": "Projekte",
+      "url": "allModules/15854_M_KatProjekte.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10028,
+          "kuerzel": "R-p",
+          "bezeichnung": "Projekte ",
+          "kreditpunkte": 22
+        }
+      ]
+    },
+    {
+      "id": 25168,
+      "kuerzel": "M_KatProjekteII",
+      "bezeichnung": "Projekte II",
+      "url": "allModules/25168_M_KatProjekteII.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10028,
+          "kuerzel": "R-p",
+          "bezeichnung": "Projekte ",
+          "kreditpunkte": 22
+        }
+      ]
+    },
+    {
+      "id": 25169,
+      "kuerzel": "M_KatProjekteIII",
+      "bezeichnung": "Projekte III",
+      "url": "allModules/25169_M_KatProjekteIII.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10028,
+          "kuerzel": "R-p",
+          "bezeichnung": "Projekte ",
+          "kreditpunkte": 22
+        }
+      ]
+    },
+    {
+      "id": 15781,
+      "kuerzel": "M_KatRP",
+      "bezeichnung": "Raumplanung",
+      "url": "allModules/15781_M_KatRP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung",
+          "kreditpunkte": 44
+        }
+      ]
+    },
+    {
+      "id": 17207,
+      "kuerzel": "M_RP7",
+      "bezeichnung": "Raumplanung 7",
+      "url": "allModules/17207_M_RP7.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11160,
+      "kuerzel": "M_RP7",
+      "bezeichnung": "Raumplanung 7",
+      "url": "allModules/11160_M_RP7.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 38766,
+      "kuerzel": "M_ReKgs",
+      "bezeichnung": "Recht 1 und Kulturgeschichte",
+      "url": "allModules/38766_M_ReKgs.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10036,
+          "kuerzel": "R-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 18509,
+      "kuerzel": "M_RE2",
+      "bezeichnung": "Recht 2",
+      "url": "allModules/18509_M_RE2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10036,
+          "kuerzel": "R-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 18472,
+      "kuerzel": "M_RE3",
+      "bezeichnung": "Recht 3",
+      "url": "allModules/18472_M_RE3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10036,
+          "kuerzel": "R-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 21432,
+      "kuerzel": "M_RE3",
+      "bezeichnung": "Recht 3",
+      "url": "allModules/21432_M_RE3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10036,
+          "kuerzel": "R-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 18260,
+      "kuerzel": "M_RE4",
+      "bezeichnung": "Recht 4",
+      "url": "allModules/18260_M_RE4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10036,
+          "kuerzel": "R-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11104,
+      "kuerzel": "M_ReUPB2SP",
+      "bezeichnung": "Recht und Standortpolitik",
+      "url": "allModules/11104_M_ReUPB2SP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10036,
+          "kuerzel": "R-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 18266,
+      "kuerzel": "M_REStaP",
+      "bezeichnung": "Regionalentwicklung und Standortpolitik",
+      "url": "allModules/18266_M_REStaP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10036,
+          "kuerzel": "R-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 60981,
+      "kuerzel": "M_RheKo",
+      "bezeichnung": "Rhetorische Kommunikation für PlanerInnen",
+      "url": "allModules/60981_M_RheKo.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10037,
+          "kuerzel": "R-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28097,
+      "kuerzel": "M_Span1",
+      "bezeichnung": "Spanisch 1",
+      "url": "allModules/28097_M_Span1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10037,
+          "kuerzel": "R-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44428,
+      "kuerzel": "M_Span2",
+      "bezeichnung": "Spanisch 2",
+      "url": "allModules/44428_M_Span2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10037,
+          "kuerzel": "R-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 16741,
+      "kuerzel": "M_KatStB",
+      "bezeichnung": "Städtebau",
+      "url": "allModules/16741_M_KatStB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10025,
+          "kuerzel": "R-s",
+          "bezeichnung": "Städtebau",
+          "kreditpunkte": 22
+        }
+      ]
+    },
+    {
+      "id": 21591,
+      "kuerzel": "M_St1",
+      "bezeichnung": "Städtebau 1",
+      "url": "allModules/21591_M_St1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10025,
+          "kuerzel": "R-s",
+          "bezeichnung": "Städtebau",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 22365,
+      "kuerzel": "M_St2",
+      "bezeichnung": "Städtebau 2",
+      "url": "allModules/22365_M_St2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10025,
+          "kuerzel": "R-s",
+          "bezeichnung": "Städtebau",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 21611,
+      "kuerzel": "M_St3Fp1",
+      "bezeichnung": "Städtebau 3 / Freiraumplanung 1",
+      "url": "allModules/21611_M_St3Fp1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10025,
+          "kuerzel": "R-s",
+          "bezeichnung": "Städtebau",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15692,
+      "kuerzel": "M_ST4",
+      "bezeichnung": "Städtebau 4",
+      "url": "allModules/15692_M_ST4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10025,
+          "kuerzel": "R-s",
+          "bezeichnung": "Städtebau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11169,
+      "kuerzel": "M_ST4",
+      "bezeichnung": "Städtebau 4",
+      "url": "allModules/11169_M_ST4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10025,
+          "kuerzel": "R-s",
+          "bezeichnung": "Städtebau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 24333,
+      "kuerzel": "M_St4Fp2",
+      "bezeichnung": "Städtebau 4 / Freiraumplanung 2",
+      "url": "allModules/24333_M_St4Fp2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10025,
+          "kuerzel": "R-s",
+          "bezeichnung": "Städtebau",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 21618,
+      "kuerzel": "M_St5",
+      "bezeichnung": "Städtebau 5",
+      "url": "allModules/21618_M_St5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10025,
+          "kuerzel": "R-s",
+          "bezeichnung": "Städtebau",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 21587,
+      "kuerzel": "M_St7Fp5",
+      "bezeichnung": "Städtebau 7 / Freiraumplanung 5",
+      "url": "allModules/21587_M_St7Fp5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10028,
+          "kuerzel": "R-p",
+          "bezeichnung": "Projekte ",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 36048,
+      "kuerzel": "M_SB7FP6",
+      "bezeichnung": "Städtebau 7 / Freiraumplanung 6",
+      "url": "allModules/36048_M_SB7FP6.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10025,
+          "kuerzel": "R-s",
+          "bezeichnung": "Städtebau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 17061,
+      "kuerzel": "M_StReiseR",
+      "bezeichnung": "Studienreise R",
+      "url": "allModules/17061_M_StReiseR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 25170,
+      "kuerzel": "M_KatUOe",
+      "bezeichnung": "Umwelt  und Ökologie",
+      "url": "allModules/25170_M_KatUOe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10025,
+          "kuerzel": "R-s",
+          "bezeichnung": "Städtebau",
+          "kreditpunkte": 22
+        }
+      ]
+    },
+    {
+      "id": 11127,
+      "kuerzel": "M_UmwTour",
+      "bezeichnung": "Umwelt und Tourismus",
+      "url": "allModules/11127_M_UmwTour.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 18569,
+      "kuerzel": "M_VKCAD",
+      "bezeichnung": "Verkehr  und CAD",
+      "url": "allModules/18569_M_VKCAD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10027,
+          "kuerzel": "R-vk",
+          "bezeichnung": "Visuelle Kommunikation",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 18195,
+      "kuerzel": "M_VK2",
+      "bezeichnung": "Verkehr 2",
+      "url": "allModules/18195_M_VK2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 18213,
+      "kuerzel": "M_VK3",
+      "bezeichnung": "Verkehr 3",
+      "url": "allModules/18213_M_VK3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 18237,
+      "kuerzel": "M_VK4",
+      "bezeichnung": "Verkehr 4",
+      "url": "allModules/18237_M_VK4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 18253,
+      "kuerzel": "M_VK5",
+      "bezeichnung": "Verkehr 5",
+      "url": "allModules/18253_M_VK5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 18514,
+      "kuerzel": "M_VK6",
+      "bezeichnung": "Verkehr 6",
+      "url": "allModules/18514_M_VK6.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10028,
+          "kuerzel": "R-p",
+          "bezeichnung": "Projekte ",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 11102,
+      "kuerzel": "M_VU1",
+      "bezeichnung": "Verkehr und Umwelt 1",
+      "url": "allModules/11102_M_VU1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 16222,
+      "kuerzel": "M_VU2",
+      "bezeichnung": "Verkehr und Umwelt 2",
+      "url": "allModules/16222_M_VU2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 11107,
+      "kuerzel": "M_VU3",
+      "bezeichnung": "Verkehr und Umwelt 3",
+      "url": "allModules/11107_M_VU3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 11112,
+      "kuerzel": "M_VU4",
+      "bezeichnung": "Verkehr und Umwelt 4",
+      "url": "allModules/11112_M_VU4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 15778,
+      "kuerzel": "M_KatVuU",
+      "bezeichnung": "Verkehrsplanung",
+      "url": "allModules/15778_M_KatVuU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 26
+        }
+      ]
+    },
+    {
+      "id": 16742,
+      "kuerzel": "M_KatVK",
+      "bezeichnung": "Visuelle Kommunikation",
+      "url": "allModules/16742_M_KatVK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10027,
+          "kuerzel": "R-vk",
+          "bezeichnung": "Visuelle Kommunikation",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 11077,
+      "kuerzel": "M_VisKom1",
+      "bezeichnung": "Visuelle Kommunikation 1",
+      "url": "allModules/11077_M_VisKom1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10027,
+          "kuerzel": "R-vk",
+          "bezeichnung": "Visuelle Kommunikation",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11088,
+      "kuerzel": "M_VisKom2",
+      "bezeichnung": "Visuelle Kommunikation 2",
+      "url": "allModules/11088_M_VisKom2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10027,
+          "kuerzel": "R-vk",
+          "bezeichnung": "Visuelle Kommunikation",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10970,
+      "kuerzel": "M_VisKom3",
+      "bezeichnung": "Visuelle Kommunikation 3",
+      "url": "allModules/10970_M_VisKom3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10027,
+          "kuerzel": "R-vk",
+          "bezeichnung": "Visuelle Kommunikation",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 17448,
+      "kuerzel": "M_VisKom3",
+      "bezeichnung": "Visuelle Kommunikation 3",
+      "url": "allModules/17448_M_VisKom3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10027,
+          "kuerzel": "R-vk",
+          "bezeichnung": "Visuelle Kommunikation",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10947,
+      "kuerzel": "M_Wasser1",
+      "bezeichnung": "Wasser 1",
+      "url": "allModules/10947_M_Wasser1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 18532,
+      "kuerzel": "M_WiFi",
+      "bezeichnung": "Wirtschaft und öffentliche Finanzen",
+      "url": "allModules/18532_M_WiFi.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10036,
+          "kuerzel": "R-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11097,
+      "kuerzel": "M_WoeF",
+      "bezeichnung": "Wirtschaft, öffentliche Finanzen und Raumplanung",
+      "url": "allModules/11097_M_WoeF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10036,
+          "kuerzel": "R-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ]
+}

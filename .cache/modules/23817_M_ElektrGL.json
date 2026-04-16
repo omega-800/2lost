@@ -1,0 +1,275 @@
+{
+  "id": 23817,
+  "kuerzel": "M_ElektrGL",
+  "bezeichnung": "Elektrotechnik: Grundlagen",
+  "kreditpunkte": 4,
+  "lernziele": "Kenntnis der Grundlagen der Elektrotechnik und elektrischen Messtechnik",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 23818,
+      "kuerzel": "PhysElek",
+      "bezeichnung": "Physik / Elektrizität ",
+      "lernziele": "<p>Das Hauptgewicht liegt auf dem Verst&#228;ndnis der grundlegenden Eigenschaften von elektrischen und magnetischen <br />Erscheinungen. Es k&#246;nnen einfache Berechnungen mit elektrischen Bauteilen (Widerstand, Kondensator etc.) durchgef&#252;hrt werden</p> <p>&nbsp;</p>",
+      "planinhalt": "<p>Einf&#252;hrung: Begriff der Ladung, Coulombsches Gesetz </p>\n<p>Elektrisches Feld: Entstehung des E-Feldes, Energie und Energiedichte des E-Feldes, elektrische Spannung und Potential, Feld und Potentialberechnungen f&#252;r einfache Geometrien. </p>\n<p>Materie im E-Feld: Dielektrikum, Kondensator. </p>\n<p>Elektrischer Strom: Transportmechanismen in Halbleitern, Metallen und Elektrolyten, Ohmsches Gesetz und Schaltungen von Widerst&#228;nden, RC-Kreise, Joulsche W&#228;rme. </p>\n<p>Magnetostatik: Begriff des Magnetfeldes, Energiedichte des Magnetfeldes, Entstehung von B-Feldern und magnetische Kr&#228;fte, Feldberechnungen bei einfachen Geometrien. </p>\n<p>Elektrodynamik: Induktionsgesetz, Induktivit&#228;ten, Transformator, Schwingkreise</p>",
+      "kurselemente": [
+        {
+          "id": 23819,
+          "art": "Vorlesung",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 23820,
+          "art": "Uebung",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Physik / Elektrizität "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Physics / Electricity"
+        }
+      ]
+    },
+    {
+      "id": 23822,
+      "kuerzel": "ElektrT1",
+      "bezeichnung": "Elektrotechnik 1",
+      "lernziele": "<ul>\n<li>Grundlagen und Berechnungsverfahren der Gleichstrom und Wechselstromtechnik</li>\n<li>Grundlegende Analyse und Auslegung von elektrischen Schaltungen und Netzen</li>\n<li>Grundlegende Analyse und Auslegung von elektronischen Schaltungen</li>\n<li>Messen elektrischer Gr&ouml;ssen&nbsp;</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Sicherheit im Umgang mit der Elektrizit&auml;t (Personenschutz, Anlagenschutz, Vorschriften)</li>\n<li>Elektrische Bauteile</li>\n<li>Elektronische Bauteile (passiv und aktiv)</li>\n<li>Gleichstromtechnik\n<ul>\n<li>Einf&uuml;hrung und Grundbegriffe gleichf&ouml;rmig bewegter Ladungen, einfache Netzwerkberechnungen mit Kirchoffregeln</li>\n<li>Leistung im Gleichstromkreis</li>\n<li>Elektronische Schaltkreise (Gleichrichter, Verst&auml;rker, Schalter, Transistoren)</li>\n</ul>\n</li>\n<li>Wechselstromtechnik\n<ul>\n<li>Grundbegriffe: Periodendauer und Frequenz, Mittel-, Scheitel- und Effektivwerte</li>\n</ul>\n</li>\n<li>Phasenverschiebung, Formfaktoren\n<ul>\n<li>Darstellung von Wechselgr&ouml;ssen: Liniendiagramme, Zeigerdiagramme, Frequenzgang</li>\n<li>Komplexe Berechnung von Wechselgr&ouml;ssen</li>\n<li>Verbraucher im Wechselstromnetz: Berechnung</li>\n<li>Leistungen im Wechselstromsystem</li>\n</ul>\n</li>\n<li>Drehstromsystemtechnik\n<ul>\n<li>Entstehung, Begr&uuml;ndung, Eigenschaften</li>\n<li>Verketten der Str&ouml;me bzw. Spannungen</li>\n<li>Drei- und Vierleiternetze</li>\n<li>Anwendung der Stern- und Dreieckschaltung</li>\n<li>Leistungen im Drehstromsystem&nbsp;</li>\n</ul>\n</li>\n</ul>",
+      "bibliographie": "<p>Zastrow, D. (2018). Elektrotechnik : ein Grundlagenlehrbuch. Wiesbaden: Vieweg + Teubner. ISBN: 978-3-658-19306-5 D.</p>\n<p>Zastrow, D. (2017), \"Elektronik\", ISBN: 978-3-658-19315-7&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 23823,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 23824,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrotechnik 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electrical Engineering 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10015,
+          "kuerzel": "M-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10015,
+          "kuerzel": "M-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10015,
+          "kuerzel": "M-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10015,
+          "kuerzel": "M-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10015,
+          "kuerzel": "M-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5015523,
+      "name": "Šeatović",
+      "vorname": "Dejan"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 23817,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "zulassungsBedingung": "",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Elektrotechnik: Grundlagen"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electrical Engineering: Basics"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2015,
+    "beginSemester": "FS",
+    "endJahr": 2024,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 11114,
+    "kuerzel": "M_ElektrGL",
+    "bezeichnung": "Elektrotechnik: Grundlagen",
+    "url": "allModules/11114_M_ElektrGL.json"
+  },
+  "nachfolger": {
+    "id": 23817,
+    "kuerzel": "M_ElektrGL",
+    "bezeichnung": "Elektrotechnik: Grundlagen",
+    "url": "allModules/23817_M_ElektrGL.json"
+  }
+}

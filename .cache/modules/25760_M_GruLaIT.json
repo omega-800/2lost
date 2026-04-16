@@ -1,0 +1,135 @@
+{
+  "id": 25760,
+  "kuerzel": "M_GruLaIT",
+  "bezeichnung": "Grundlagen Informations-Technologien",
+  "kreditpunkte": 2,
+  "lernziele": "<ul>\n    <li>Grundverst&auml;ndnis IT Systeme im Maschinenbau</li>\n    <li>Verstehen der grundlegenden Konzepte der Objektorientierung</li>\n    <li>Modellierung von Sachverhalten mit Hilfe von UML Klassendiagrammen</li>\n    <li>Erstellung von Programmen mit Hilfe der Programmiersprache Java</li>\n    <li>Grundverst&auml;ndnis f&uuml;r Webtechnologien</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 25761,
+      "kuerzel": "GruLaIT",
+      "bezeichnung": "Grundlagen Informations-Technologien",
+      "planinhalt": "<ul>\n    <li>Objektorientierung: Klassen, Attribute, Methoden, Objekte und deren Zusammenh&auml;nge.</li>\n    <li>Modellierung: Wesentliche Elemente der UML Klassendiagramme</li>\n    <li>Java: Grundlegende Sprachelemente, Klassen, Packages, wichtige Klassen der Java Standardbibliothek</li>\n    <li>Webtechnologien: Grundlagen des HTTP Protokolls, Webserver, Webservices, Mobile Applikationen.<br /></li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 25762,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 25763,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Grundlagen Informations-Technologien"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Information Technologies - Fundamentals"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 539814,
+      "name": "Nyffenegger",
+      "vorname": "Felix"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 25127,
+      "kuerzel": "M_ProgEinf",
+      "bezeichnung": "Einführung Programmierung",
+      "url": "allModules/25127_M_ProgEinf.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 25760,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Grundlagen Informations-Technologien"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Information Technologies - Fundamentals"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2015,
+    "beginSemester": "FS",
+    "endJahr": 2015,
+    "endSemester": "FS"
+  }
+}

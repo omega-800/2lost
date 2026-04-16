@@ -1,0 +1,232 @@
+{
+  "id": 17910,
+  "kuerzel": "M_GeoMess",
+  "bezeichnung": "Geodätische Messtechnik",
+  "kreditpunkte": 4,
+  "lernziele": "<p>F&#228;higkeit zur Ausf&#252;hrung von geod&#228;tischen Messungen im Baubereich</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 17911,
+      "kuerzel": "GeoMess",
+      "bezeichnung": "Geodätische Messtechnik",
+      "lernziele": "<p>Kenntnis der Grundlagen</p>",
+      "planinhalt": "<p>&#8226; Instrumentenkunde <br />&#8226; L&#228;ngen- und H&#246;henmessungen <br />&#8226; Lage- und H&#246;henbestimmungen <br />&#8226; Aufnahmen und Absteckungen <br />&#8226; Berechnungen </p>",
+      "kurselemente": [
+        {
+          "id": 17912,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Geodätische Messtechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Geodetic Metrology Fundamentals"
+        }
+      ]
+    },
+    {
+      "id": 17914,
+      "kuerzel": "GeoMessP",
+      "bezeichnung": "Geodätische Messtechnik, Feldkurs",
+      "lernziele": "<p>&#8226; Umsetzen der erworbenen Kenntnisse in praxisnahen &#220;bungen</p>",
+      "planinhalt": "<p><strong>1 Woche Projektarbeit</strong></p>\n<p>&bull; Praktische Arbeiten: Aufnahmen, Absteckungen, Berechnungen</p>",
+      "kurselemente": [
+        {
+          "id": 17915,
+          "art": "Projekt",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Geodätische Messtechnik, Feldkurs"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Geodetic Metrology Fundamentals"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10005,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10005_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10011,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10011_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10109,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10109_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10131,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10131_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10017,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10017_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 190,
+      "name": "Hardegger",
+      "vorname": "Paul"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 22033,
+      "kuerzel": "M_An1B",
+      "bezeichnung": "Analysis 1 für Bauingenieurwesen",
+      "url": "allModules/22033_M_An1B.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 17910,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<ul> <li>&nbsp;Teilnahmen an Projektarbeit </li> <li>&nbsp;Abgabe eines Kursberichtes </li> </ul>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Geodätische Messtechnik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Geodetic Metrology Fundamentals"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2009,
+    "beginSemester": "FS",
+    "endJahr": 2019,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 10948,
+    "kuerzel": "M_GeoMess",
+    "bezeichnung": "Geodätische Messtechnik",
+    "url": "allModules/10948_M_GeoMess.json"
+  }
+}

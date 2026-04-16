@@ -1,0 +1,262 @@
+{
+  "id": 49963,
+  "kuerzel": "M_IuK_IV",
+  "bezeichnung": "Informations- und Kommunikationssysteme IV",
+  "kreditpunkte": 10,
+  "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen die Architektur von IT-Infrastrukturen skizzieren und beschreiben.</li><li>k&ouml;nnen Projekte zur Evaluation und Beschaffung von IT-Ausr&uuml;stungen durchf&uuml;hren.</li><li>verstehen data link-Protokolle und k&ouml;nnen Router und Switches konfigurieren und Fehler beheben.</li><li>k&ouml;nnen IPSec und virtual private network (VPN) in komplexen Netzwerken implementieren.&nbsp;&nbsp; &nbsp;</li><li>verstehen die Konzepte von aktuellen Multimedia Kommunikationssystemen.</li><li>verstehen die Grundkonzepte von verteilten Systemen und k&ouml;nnen verteilte Anwendungen mit Nebenl&auml;ufigkeit implementieren.</li><li>kennen die wichtigsten Kommunikationsprotokolle f&uuml;r verteilte Anwendungen (RMI, REST, SOAP, usw.).</li></ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 49964,
+      "kuerzel": "IuK_IV_W",
+      "bezeichnung": "Webbasierte Multimediakommunikation",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>verstehen die Konzepte von aktuellen Multimedia Kommunikationssystemen.</li><li>verstehen die Konzepte der Sprach&uuml;bertragung &uuml;ber IP-Netze mit dem Real-time Transport Protocol RTP und k&ouml;nnen derartige Sprach&uuml;bertragungen mit dem Programm Wireshark aufzeichnen und analysieren.</li><li>kennen die Fehler, die bei der Sprach&uuml;bertragung mit RTP &uuml;ber IP-Netze auftreten k&ouml;nnen und wissen, welche Massnahmen in Endger&auml;ten getroffen werden k&ouml;nnen, um die Auswirkungen dieser Fehler auf die Sprachqualit&auml;t zu verringern; sie k&ouml;nnen dieses Wissen anwenden, um Endger&auml;te aufgrund ihrer Spezifikationen zu beurteilen.</li><li>verstehen die Konzepte des Session Initiation Protocol SIP f&uuml;r den Aufbau und die Steuerung von Multimedia-Kommunikationsverbindungen und k&ouml;nnen mit dem Programm Wireshark entsprechende Protokollsequenzen aufzeichnen, analysieren und kommentieren.</li><li>verstehen Streaming-Angebote wie Video-on-Demand oder IPTV und dazugeh&ouml;rige Content Delivery Netzworks</li><li>k&ouml;nnen auf dem W3C WebRTC API aufbauende, in JavaScript programmierte Audio/Video-Echtzeitapplikationen nachvollziehen.</li></ul>",
+      "planinhalt": "<ul><li>Real-time Transport Protocol RTP</li><li>Session Initiation Protocol SIP</li><li>Streaming (&uuml;ber HTTP), CDN f&uuml;r Video-on-Demand und IPTV</li><li>Voice-over-IP-Systeme</li><li>W3C WebRTC</li></ul><p>&nbsp;</p>",
+      "empfLehrmittel": "Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen, Fallstudien",
+      "leistungsnachweis": "<p>W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Computernetzwerke III, &nbsp;IT-Infrastrukturen und Virtualisierung sowie Verteile Systeme statt.</p>",
+      "kurselemente": [
+        {
+          "id": 49965,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001549,
+          "name": "Wenk",
+          "vorname": "Bruno"
+        }
+      ]
+    },
+    {
+      "id": 49966,
+      "kuerzel": "IuK_IV_I",
+      "bezeichnung": "IT-Infrastrukturen und Virtualisierung",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen die Architektur von IT-Infrastrukturen skizzieren und beschreiben.</li><li>verstehen die Unterschiede und Einsatzgebiete verschiedener Speicher-Systeme.</li><li>verstehen den Nutzen und Einsatz verschiedener Virtualisierungstechniken.</li><li>k&ouml;nnen mit Hilfe von Management-Tools Systeme automatisieren.</li><li>k&ouml;nnen in Projekten zur Evaluation und Beschaffung von IT-Ausr&uuml;stungen mitwirken.</li></ul>",
+      "planinhalt": "<ul><li>Evaluation von Hard- und Software</li><li>Grundlagen von Speichersystemen (DAS, NAS, SAN,RAID, iSCSI, FcoE, FC)</li><li>Virtualisierung (KVM, OpenStack, Vagrant, Docker)</li><li>System Management (Puppet, Chef)</li><li>Backup, Archivierung&nbsp;</li></ul>",
+      "empfLehrmittel": "Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen, Fallstudien",
+      "leistungsnachweis": "<p>W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Computernetwerke III, Verteile Systeme sowie Webbasierte&nbsp;Multimediakommunikation&nbsp;statt.</p>",
+      "kurselemente": [
+        {
+          "id": 49967,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002973,
+          "name": "Toggenburger",
+          "vorname": "Lukas"
+        }
+      ]
+    },
+    {
+      "id": 49968,
+      "kuerzel": "IuK_IV_C",
+      "bezeichnung": "Computernetzwerke III",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>verstehen und beschreiben verschiedene WAN-Technologien und ihre Vorteile.</li>\n    <li>verstehen und beschreiben die Vorg&auml;nge und Vorteile von Virtual Private Networks (VPNs) und Tunnelbau.</li>\n    <li>verstehen die Konfiguration und Fehlerbehebung serieller Verbindungen.</li>\n    <li>verstehen die Konfiguration und Fehlerbehebung von Breitbandverbindungen.</li>\n    <li>verstehen die Konfiguration und Fehlerbehebung von Tunnellingmechanismen.</li>\n    <li>&Uuml;berwachung und Fehlerbehebung im Netzwerkbetrieb mit Syslog, SNMP, NetFlow.<br />&nbsp; </li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>WAN Technologien (PPP, Frame Relay, MPLS, Metro Ethernet)</li>\n    <li>VPN Technologien (GRE, IPsec site-to-site)</li>\n    <li>Breitbandtechnologien (DOCSIS, DSL, FTTH, 3G, 4G)</li>\n    <li>Netzwerkmanagementtechnologien (Syslog, SNMP, NetFlow)</li>\n    <li>Netzwerktroubleshootingmethodik</li>\n</ul>",
+      "bibliographie": "Literaturangaben:<br />\n<ul>\n    <li>Cisco Networking Academy: <span style=\"font-style: italic;\">CCNA Routing and Switching: Connecting Networks</span>. Online-Kurs.</li>\n</ul>",
+      "empfLehrmittel": "Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen, Fallstudien",
+      "leistungsnachweis": "<p>W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen IT-Infrastrukturen und Virtualisierung, Verteile Systeme sowie Webbasierte&nbsp;Multimediakommunikation&nbsp;statt.</p>",
+      "kurselemente": [
+        {
+          "id": 49969,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001551,
+          "name": "Bigger",
+          "vorname": "Beat"
+        }
+      ]
+    },
+    {
+      "id": 49970,
+      "kuerzel": "IuK_IV_V",
+      "bezeichnung": "Verteilte Systeme",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>verstehen die Grundkonzepte von verteilten Systemen.</li><li>k&ouml;nnen die Konzepte von Threads in Java-Programmen anwenden.</li><li>k&ouml;nnen verteilte Anwendungen mit Sockets und RMI&nbsp;in Java programmieren.</li><li>k&ouml;nnen Rest-Services realisieren.</li></ul>",
+      "planinhalt": "<ul><li>Grundlagen verteilter Systeme</li><li>Nebenl&auml;ufigkeit (Threads)</li><li>Client/Server-Anwendungen mit Sockets</li><li>Remote Method Invocation (RMI)</li><li>REST-Services</li></ul>",
+      "bibliographie": "<p>Tim Kindberg, George Coulouris: Distributed Systems: Concepts and Design 4ed. 2009th Aufl. Pearson; 2009</p>",
+      "empfLehrmittel": "<p>Lehrgespr&auml;ch, Selbststudium, &Uuml;bungen, Rechner&uuml;bungen</p>",
+      "leistungsnachweis": "<p>W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Computernetwerke III, IT-Infrastrukturen und Virtualisierung sowie Webbasierte&nbsp;Multimediakommunikation&nbsp;statt.</p>",
+      "kurselemente": [
+        {
+          "id": 49971,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001547,
+          "name": "Hauser",
+          "vorname": "Ulrich"
+        }
+      ]
+    },
+    {
+      "id": 49972,
+      "kuerzel": "IuK_IV_P",
+      "bezeichnung": "Computernetwerke (Semesterprojekt)",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen eine grobe Anforderungsdefinition f&uuml;r das lokale Netzwerk eines kleinen Unternehmens analysieren und selbst&auml;ndig detaillieren.</li><li>k&ouml;nnen aus der detaillierten Anforderungsdefinition ein geeignetes Netzwerkkonzept ableiten.</li><li>sind in der Lage, die zur Realisierung n&ouml;tigen Komponenten fachgerecht zu konfigurieren und miteinander zu einem funktionierenden System zusammenzuf&uuml;gen.</li><li>k&ouml;nnen ihre &Uuml;berlegungen und ausgef&uuml;hrten Arbeiten sachlich, knapp und verst&auml;ndlich&nbsp;dokumentieren und reflektieren.</li></ul>",
+      "planinhalt": "<ul><li>Planung und&nbsp; Inbetriebnahme von lokalen Netzwerken</li><li>Konfiguration von Routers und Switches</li><li>Verwaltung von Netzwerken</li><li>Inbetriebnahme von VPNs (Virtual Private Networks)</li></ul>",
+      "bibliographie": "<p>Zu jeder Praktikumsaufgabe steht auf der Lehr-/Lernplattform moodle eine Anleitung zur Verf&uuml;gung.</p>",
+      "empfLehrmittel": "<p>Selbstst&auml;ndige Bearbeitung eines Entwicklungsprojektes in Gruppen.</p>",
+      "leistungsnachweis": "<p>W&auml;hrend der Unterrichtsphase wird ein Projekt bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 49973,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001551,
+          "name": "Bigger",
+          "vorname": "Beat"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 10378,
+      "bezeichnung": "Informations- und Kommunikationssysteme",
+      "kuerzel": "IKS",
+      "url": "allStudies/10378_IKS.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 8
+    },
+    {
+      "id": 10380,
+      "bezeichnung": "Informations- und Kommunikationssysteme",
+      "kuerzel": "IKS",
+      "url": "allStudies/10380_IKS.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2001551,
+      "name": "Bigger",
+      "vorname": "Beat"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 49952,
+      "kuerzel": "M_IuK_III",
+      "bezeichnung": "Informations- und Kommunikationssysteme III",
+      "url": "allModules/49952_M_IuK_III.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 3,
+      "kuerzel": "CH",
+      "bezeichnung": "Chur",
+      "ort": "Chur"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 49963,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Am Ende des Semesters findet eine abgesetzte Modulschlusspr&uuml;fung in vier Teilen statt. Die Kurse Computernetzwerke&nbsp; III, IT-Infrastrukturen und Virtualisierung, Verteile Systeme sowie Webbasierte&nbsp;Multimediakommunikation bilden je einen Teil der abgesetzten Modulschlusspr&uuml;fung.</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Information and Communication Systems IV"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2017,
+    "beginSemester": "FS",
+    "endJahr": 2017,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 48535,
+    "kuerzel": "M_IuK_IV",
+    "bezeichnung": "Informations- und Kommunikationssysteme IV",
+    "url": "allModules/48535_M_IuK_IV.json"
+  },
+  "nachfolger": {
+    "id": 49963,
+    "kuerzel": "M_IuK_IV",
+    "bezeichnung": "Informations- und Kommunikationssysteme IV",
+    "url": "allModules/49963_M_IuK_IV.json"
+  }
+}

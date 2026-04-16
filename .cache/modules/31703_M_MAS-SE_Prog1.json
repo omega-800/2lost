@@ -1,0 +1,126 @@
+{
+  "id": 31703,
+  "kuerzel": "M_MAS-SE_Prog1",
+  "bezeichnung": "Programmieren 1",
+  "kreditpunkte": 4,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 31704,
+      "kuerzel": "MAS-SE_ProgJava1",
+      "bezeichnung": "Programmieren Java 1",
+      "lernziele": "<p><strong>Ziele</strong></p><p>Grundkenntnisse der Programmiersprache Java.</p><p><strong>Anforderungen / Vorausgesetzte Kenntnisse</strong></p><p>Grundkenntnisse der Programmiersprache Java (entsprechend dem Kursblock &bdquo;Einf&uuml;hrung in objektorientierte Softwareentwicklung&ldquo;).</p><p><strong>Vermittelte Kompetenz</strong></p><p>Der Teilnehmer besitzt eine &Uuml;bersicht &uuml;ber die Konzepte und Eigenschaften der Programmiersprache Java, der dazugeh&ouml;renden Bibliotheken und Anwendungsumgebung. Er ist in der Lage abzusch&auml;tzen, wo Java sinnvoll eingesetzt werden kann. Er verf&uuml;gt &uuml;ber Grundkenntnisse in der Java-Programmierung, die es ihm erm&ouml;glichen, selbst&auml;ndig eine Java-Applikation zu entwickeln. Der Teilnehmer kennt die wichtigsten Konzepte und Klassen des Kerns der Klassenbibliothek. Er besitzt eine &Uuml;bersicht &uuml;ber die umfangreiche Klassenbibliothek von Java.</p>",
+      "planinhalt": "<ul><li>Einf&uuml;hrung in die Programmiersprache Java</li><li>Lexikalische Konventionen</li><li>Datentypen und Variablen</li><li>Ausdr&uuml;cke und Operatoren</li><li>Kontrollstrukturen</li><li>Bl&ouml;cke und Methoden</li><li>Klassen und Objekte</li><li>Vererbung und Polymorphie</li><li>Pakete</li><li>Ausnahmebehandlung - Exception Handling</li><li>Schnittstellen</li><li>Geschachtelte Klassen</li><li>Ein-/Ausgabe und Streams</li><li>Collections</li><li>Threads</li><li>Die Architektur der virtuellen Maschine</li><li>Beans</li></ul>",
+      "bibliographie": "<p><strong>Lehrmittel</strong></p><p>Skript und Buch: Cornelia Heinisch, Frank M&uuml;ller, Joachim Goll<br />Java als erste Programmiersprache; Verlag: Teubner (wird zu Beginn des Kurses abgegeben)</p><p>&nbsp;</p><p><strong>Literaturhinweise</strong></p><ul><li>David Flanagan; Java in a Nutshell; Verlag: O&#39;Reilly (gibt es auch als deutsche &Uuml;bersetzung)</li><li>Ken Arnold, James Gosling, David Holmes; The Java Programming Lanuage; Verlag: Addison-Wesley (gibt es auch als deutsche &Uuml;bersetzung)</li></ul><p><strong>Internetlinks</strong></p><ul><li>http://www.oracle.com/technetwork/java<br />Java-Homepage.</li><li>http://www.javabuch.de<br />Online-Buch &uuml;ber Java.</li><li>http://www.cis.upenn.edu/~matuszek/General/JavaSyntax/index.html<br />Zusammenfassung der Syntax von Java.</li></ul><p><strong>Tools</strong></p><ul><li>Java-Entwicklungsumgebung<br />http://www.oracle.com/technetwork/java<br />(wird zu Beginn des Kurses auf USB-Stick abgegeben)</li><li>Eclipse<br />http://eclipse.org<br />(wird zu Beginn des Kurses auf USB-Stick abgegeben)</li></ul>",
+      "empfLehrmittel": "<p>Vorlesung mit &Uuml;bungen</p>",
+      "leistungsnachweis": "<p>Schriftliche Pr&uuml;fung (open book)</p><p>Dauer: 45 Minuten</p>",
+      "kurselemente": [
+        {
+          "id": 31711,
+          "art": "Blockkurs",
+          "anzLektionen": 5,
+          "maxTeilnehmer": 45,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 221,
+          "name": "Letsch",
+          "vorname": "Thomas"
+        }
+      ]
+    },
+    {
+      "id": 31705,
+      "kuerzel": "MAS-SE_ProgC++",
+      "bezeichnung": "Programmieren in C++",
+      "lernziele": "<p><strong>Ziele</strong></p><p>Kenntnisse der Programmiersprache C++.</p><p><strong>Anforderungen / Vorausgesetzte Kenntnisse</strong></p><p>Gute Grundkenntnisse der Programmiersprache C</p><p>&nbsp;</p><p>Vermittelte Kompetenz</p><ul><li>Der Teilnehmer besitzt eine &Uuml;bersicht &uuml;ber die Konzepte und Eigenschaften der Programmiersprache C++, der dazugeh&ouml;renden Bibliotheken. Er ist in der Lage abzusch&auml;tzen, wo C++ sinnvoll eingesetzt werden kann.</li><li>Er verf&uuml;gt &uuml;ber Grundkenntnisse in der C++-Programmierung, die es ihm erm&ouml;glichen, selbst&auml;ndig eine einfache&nbsp; C++-Applikation zu entwickeln.</li><li>Der Teilnehmer kennt die wichtigsten Konzepte und Klassen des Kerns der Klassenbibliothek.<br />Er besitzt eine &Uuml;bersicht &uuml;ber die umfangreiche Klassenbibliothek von C++.</li></ul>",
+      "planinhalt": "<ul><li>Datentypen,&nbsp; nullptr, Unicode, Automatische Typ-Herleitung (auto),&nbsp; Initialisierungen, Anweisungen, Bl&ouml;cke und Kontrollstrukturen, Move-Semantik, rvalue, Lambda</li><li>Funktionen, Mechanismen der Parameter&uuml;bergabe</li><li>Overloading</li><li>Operatoren</li><li>Klassen und Friends</li><li>Vererbung, Virtuelle Funktionen, Mehrfachvererbung</li><li>Templates, Variadic, Meta-Programmierung</li><li>Namespaces</li><li>Runtime-Type-Information RTTI</li><li>Exception-Handling</li><li>Input und Output</li><li>Klassenbibliotheken (Standard Library, STL, Boost)</li><li>Container/Range-Loops</li><li>Smart-Pointers (unique_ptr, shared_ptr, weak_ptr)</li><li>Concurrency</li></ul>",
+      "bibliographie": "<p>Skript</p><p>&nbsp;</p><p><strong>Literaturhinweise</strong></p><ul><li>Ulrich Breymann; Der C++-Programmierer; Verlag: Hanser</li><li>Ulrich Breymann; C++ - Eine Einf&uuml;hrung; Verlag: Hanser</li><li>Stanley Lippman; C++ Primer; Verlag: Addison-Wesley (gibt es auch als deutsche &Uuml;bersetzung)</li><li>Bjarne Stroustrup; The C++ Programming Language; Verlag: Addison-Wesley (gibt es auch als deutsche &Uuml;bersetzung)</li></ul><p><strong>Internetlinks</strong></p><ul><li>C++ Resources Network<br />http://cplusplus.com</li><li>C++ Reference<br />http://www.cppreference.com</li><li>Buch C++: Der C++ Programmieren<br />http://www.cppbuch.de</li><li>Buch C++: Einf&uuml;hrung<br />http://highscore.de/cpp/einfuehrung/index.html</li><li>Buch C++: Aufbau<br />http://highscore.de/cpp/aufbau/index.html</li><li>Peter Sommerlad: Was ist neu in C++11&nbsp; f&uuml;r Embedded Enwickler<br />http://wiki.hsr.ch/PeterSommerlad/ESE2011CPlusPLus0XWhatsNewForEmbedded</li><li>C++ DIN Arbeitskreis<br />http://www.josuttis.de/cpp.html</li><li>ISO/IEC JTC1/SC22/WG21 - C++<br />http://www.open-std.org/jtc1/sc22/wg21</li></ul><p><strong>Tools</strong></p><p>CDT: C++ PlugIn f&uuml;r Eclipse<br />http://www.eclipse.org/cdt<br /><br />C++-Kompiler zum Beispiel:</p><ul><li>MS Visual C++</li><li>Gnu g++</li></ul>",
+      "empfLehrmittel": "<p>Vorlesung mit &Uuml;bungen</p>",
+      "leistungsnachweis": "<p>Schriftliche Pr&uuml;fung (open book)</p><p>Dauer: 35 Minuten</p>",
+      "kurselemente": [
+        {
+          "id": 31709,
+          "art": "Blockkurs",
+          "anzLektionen": 5,
+          "maxTeilnehmer": 45,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 221,
+          "name": "Letsch",
+          "vorname": "Thomas"
+        }
+      ]
+    },
+    {
+      "id": 31706,
+      "kuerzel": "MAS-SE_AlgDstrukt",
+      "bezeichnung": "Algorithmen und Datenstrukturen",
+      "lernziele": "<p><strong>Ziele</strong></p><ul><li>Die Teilnehmer kennen einige der wichtigsten Datenstrukturen und Algorithmen.</li><li>Im Weiteren kennen sie die wichtigsten Prinzipien der Collection-Klassen von Java und k&ouml;nnen diese anwenden.</li><li>Die Teilnehmer verstehen die O-Notation.</li></ul><p><strong>Anforderungen / Vorausgesetzte Kenntnisse</strong></p><ul><li>Gute Grundkenntnisse der Programmiersprache Java.</li></ul><p><strong>Vermittelte Kompetenz</strong></p><ul><li>Kenntnisse &uuml;ber die wichtsten Datenstrukturen und Algorithmen im Allgemeinen.</li><li>Aufbau der Collection-Klassen von Java.</li><li>Definition und Anwendung der O-Notation.</li></ul>",
+      "planinhalt": "<ul><li>Analyse von Algorithmen anhand der O-Notation.</li><li>Verschiedene Sortier-Algorithmen (unter Anwendung der O-Notation).</li><li>Collection-Klassen in Java.</li><li>Listen, Maps, Dictionaries.</li><li>B&auml;ume.</li><li>Hash-Table.</li><li>Graphen.</li><li>Tiefen- und Breitensuche auf Graphen.</li><li>K&uuml;rzeste Pfade in Graphen.</li></ul>",
+      "bibliographie": "<p><strong>Lehrmittel</strong></p><p>&nbsp;Skript</p><p><strong>Literaturhinweise</strong></p><ul><li>Michael T. Goodrich, Roberto Tamassia<br />Data Structures &amp; Algorithms in JAVA<br />Verlag: Wiley</li><li>Heinemann, Pollice, Selkow<br />Algorithms in a Nutshell<br />Verlag: O&#39;Reilly</li><li>Thomas Ottmann, Peter Widmayer<br />Algorithmen und Datenstrukturen<br />Verlag: Dpunkt</li></ul><p><strong>Internetlinks</strong></p><p>http://java.datastructures.net</p><p><strong>Tools</strong></p><p>Eclipse und Java-JDK.</p>",
+      "empfLehrmittel": "<p>Vorlesung mit &Uuml;bungen</p>",
+      "leistungsnachweis": "<p>Schriftliche Pr&uuml;fung (open book)<br />Dauer: 35 Minuten</p>",
+      "kurselemente": [
+        {
+          "id": 31707,
+          "art": "Blockkurs",
+          "anzLektionen": 5,
+          "maxTeilnehmer": 45,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 221,
+          "name": "Letsch",
+          "vorname": "Thomas"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10068,
+      "bezeichnung": "MAS SW Engineering",
+      "kuerzel": "MAS-SE",
+      "url": "allStudies/10068_MAS-SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 10162,
+      "bezeichnung": "CAS Foundation",
+      "kuerzel": "MAS-SE_Fou",
+      "url": "allStudies/10162_MAS-SE_Fou.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 541091,
+      "name": "Bläser",
+      "vorname": "Luc"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ]
+}

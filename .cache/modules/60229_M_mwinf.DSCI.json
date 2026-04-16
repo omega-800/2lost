@@ -1,0 +1,99 @@
+{
+  "id": 60229,
+  "kuerzel": "M_mwinf.DSCI",
+  "bezeichnung": "Data Science",
+  "kreditpunkte": 6,
+  "lernziele": "<p>Die wertvollste &ouml;konomische Ressource sind heutzutage Daten. Im Zeitalter der Digitalisierung werden Daten praktisch in allen Lebensbereichen generiert, u.a. bei der Nutzung des Internets, in Lieferketten, in Prozessen oder durch Sensoren aller Art (In-ternet of Things). Der gr&ouml;sste Nutzen entsteht nicht durch die Daten selber, sondern ergibt sich durch ihre Auswertung mit Hilfe von Data Mining. Dadurch k&ouml;nnen u.a.</p>\n<ul>\n<li>Muster und strukturelle Zusammenh&auml;nge sichtbar werden (z.B. welche Waren typischerweise gemeinsam gekauft werden),</li>\n<li>Objekte nach vorgegebenen Kriterien klassifiziert werden (z.B. dass eine Email Spam ist),</li>\n<li>Vorhersagen zuk&uuml;nftiger Ereignisse generiert werden (z.B. dass eine Maschine in K&uuml;rze einen Defekt haben wird).</li>\n</ul>\n<p>In diesem Modul werden anhand von typischen Anwendungsf&auml;llen grundlegende Methoden der Datenanalyse sowohl f&uuml;r strukturierte als auch f&uuml;r unstrukturierte Daten eingef&uuml;hrt. Es wird ein Verst&auml;ndnis vermittelt, welche Methoden f&uuml;r welche Arten von Problemstellungen angemessen sind, und wie man in einem Datenanalyse-Projekt vorgeht.</p>",
+  "vorausgKenntnisse": "<p>Die Studierenden bringen in den folgenden Bereichen Grundwissen und -kenntnisse mit:</p>\n<ul>\n<li>Prinzipien des Data Mining sowie exemplarische Verfahren f&uuml;r Klassifikation und Clustering;</li>\n<li>Typische Ablaufschritte eines Data Mining Prozesses (CRISP o.&auml;.);</li>\n<li>Grundlegende Erfahrung in der Verwendung von Data Mining Werkzeugen wie R, Rapid Miner o.&auml;.</li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 60230,
+      "kuerzel": "mwinf.DSCI",
+      "bezeichnung": "Data Science",
+      "kreditpunkte": 0,
+      "lernziele": "<p><strong>Ausgangskompetenzen / Grobziele</strong></p>\n<p>Die Studierenden...</p>\n<ul>\n<li>Sind in der Lage, ein gegebenes Data Mining Problem methodisch begr&uuml;ndet anzugehen, die resultierende L&ouml;sung angemessen zu evaluieren und iterativ zu verbessern.<br>Ziele</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Fachkompetenz</strong></p>\n<p>Die Studierenden...</p>\n<ul>\n<li>Verstehen, welche Massnahmen in den einzelnen Schritten des Data Mining Prozesses welche Auswirkungen auf die G&uuml;te des Ergebnisses haben k&ouml;nnen (z.B. Formulierung des Lernproblems, Sampling, Feature Engineering, Hyperparameter, verwendete Evaluationsmasse);</li>\n<li>K&ouml;nnen je nach gegebener Data Mining Aufgabe einen daf&uuml;r angemessenen Algorithmus ausw&auml;hlen (z.B. entsprechend des Typs der Aufgabe, Art der Daten, Gr&ouml;sse des Samples, Menge und Art der Features);</li>\n<li>K&ouml;nnen die Begriffe &laquo;Data Mining&raquo;, &laquo;Text Mining&raquo; (TM) und &laquo;Information Extraction from Texts&raquo; (IE) von-einander abgrenzen;</li>\n<li>Kennen die verschiedenen Aufgabentypen sowie exemplarisch zugeh&ouml;rige Algorithmen im Kontext von TM/IE;</li>\n<li>Kennen die spezifische Vorgehensweisen f&uuml;r die Analyse von unstrukturierten Daten (Text, Multimedia- und Sensordaten);</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Methodenkompetenz</strong></p>\n<p>Die Studierenden...</p>\n<ul>\n<li>K&ouml;nnen eine Data Mining Pipeline aufbauen, schrittweise verbessern und ihr Vorgehen begr&uuml;nden;</li>\n<li>K&ouml;nnen nach Ver&auml;nderung einer Pipeline beobachtete Effekte erkl&auml;ren (z.B. Auswahl eines anderen Klassifikationsalgorithmus, Setzen anderer Werte von Hyperparametern, Feature Engineering Massnahmen, Ver&auml;nderung des Trainings-Sample);</li>\n<li>K&ouml;nnen Texte und Multimedia-Daten in einer angemessenen Weise vorverarbeiten, so dass weitere Analyseschritte m&ouml;glich werden;</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Grundlagen Klassifikation: Entscheidungsb&auml;ume, Evaluation, Over-/Underfitting, Sampling, Feature Engineering</li>\n<li>Klassifikation &ndash; Algorithmen: Bayes Classifier, Support Vector Machines, Ensemble Techniken, Regelinduktion</li>\n<li>Klassifikation auf Multimedia- und Sensordaten: Features f&uuml;r Multimedia- und Sensordaten, Neuronale Netze, Deep Learning</li>\n<li>Unsupervised Learning: Clustering, Outlier Detection</li>\n<li>Big Data: Federated Learning, Stream Learning, Inkrementelles Lernen,</li>\n<li>Data Mining auf Texten: Features f&uuml;r Text, Topic Modeling, Distributional Semantics, Information Extraction, Text Clustering, Text Klassifikation, Text Mining</li>\n</ul>",
+      "bibliographie": "<p><strong>Empfohlene Literatur</strong></p>\n<ul>\n<li>P.-N. Tan, M. Steinbach, A. Karpatne, V. Kumar: Introduction to Data Mining. Second Edition. Pearson, 2020.</li>\n<li>M. R. Berthold, Ch. Borgelt, F. H&ouml;ppner, F. Klawonn, R. Silipo: Guide to Intel-ligent Data Science. Second Edition. Springer, 2020.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Erg&auml;nzende Literatur</strong></p>\n<ul>\n<li>C.C. Aggarwal: Data Mining. Springer, 2015.</li>\n<li>C.C. Aggarwal: Machine Learning for Text. Springer, 2018.</li>\n<li>C.M. Bishop: Pattern Recognition and Machine Learning. Springer, 2006.</li>\n<li>R. Rojas: Neural Networks. Springer, 1996.</li>\n</ul>",
+      "empfLehrmittel": "<p><strong>Kontaktstudium</strong></p>\n<ul>\n<li>Dialogorientierter Unterricht mit integrierten Gruppen&uuml;bungen (Papier&uuml;bungen sowie &Uuml;bungen mit einem Data Mining Werkzeug)</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Begleitetes Selbststudium</strong></p>\n<ul>\n<li>&Uuml;bungsaufgaben mit einem Data Mining Werkzeug (als Gruppen&uuml;bung)</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 60231,
+          "art": "Vorlesung",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Data Science"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10477,
+      "bezeichnung": "MSc Wirtschaftsinformatik",
+      "kuerzel": "MScWINF",
+      "url": "allStudies/10477_MScWINF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10200,
+          "kuerzel": "MScWINF_KM",
+          "bezeichnung": "Kernmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 87941,
+      "name": "Tödtli",
+      "vorname": "Beat"
+    }
+  ],
+  "orte": [
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 60229,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>open book</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Data Science"
+    }
+  ],
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2026,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  }
+}

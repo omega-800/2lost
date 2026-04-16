@@ -1,0 +1,55 @@
+{
+  "id": 10302,
+  "kuerzel": "ZuQual",
+  "bezeichnung": "Zusatzqualifikation",
+  "versionKuerzel": "STD_05",
+  "art": "Zusatzqualifikation",
+  "parent": {
+    "id": 10280,
+    "kuerzel": "ST_VZ",
+    "bezeichnung": "Systemtechnik VZ",
+    "url": "allStudies/10280_ST_VZ.json"
+  },
+  "zuordnungen": [
+    {
+      "id": 52701,
+      "kuerzel": "M_PE",
+      "bezeichnung": "Produktentwicklung",
+      "url": "allModules/52701_M_PE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 53554,
+      "kuerzel": "M_PM_I",
+      "bezeichnung": "Projektmanagement I",
+      "url": "allModules/53554_M_PM_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 52687,
+      "kuerzel": "M_PM_I",
+      "bezeichnung": "Projektmanagement I",
+      "url": "allModules/52687_M_PM_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 54177,
+      "kuerzel": "M_PM_II",
+      "bezeichnung": "Projektmanagement II",
+      "url": "allModules/54177_M_PM_II.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0
+    }
+  ]
+}

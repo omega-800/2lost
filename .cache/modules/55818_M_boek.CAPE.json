@@ -1,0 +1,118 @@
+{
+  "id": 55818,
+  "kuerzel": "M_boek.CAPE",
+  "bezeichnung": "Capstone",
+  "kreditpunkte": 3,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 55819,
+      "kuerzel": "boek.CAPE",
+      "bezeichnung": "Capstone International Management",
+      "kreditpunkte": 0,
+      "kurselemente": [
+        {
+          "id": 55820,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Capstone International Management"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10437,
+      "bezeichnung": "International Management",
+      "kuerzel": "BOEK_IM",
+      "url": "allStudies/10437_BOEK_IM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10468,
+      "bezeichnung": "International Management",
+      "kuerzel": "BOEK_IM",
+      "url": "allStudies/10468_BOEK_IM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10195,
+          "kuerzel": "PAA_Mod_WI",
+          "bezeichnung": "PflichtAusserhalbAssessment",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10435,
+      "bezeichnung": "Betriebsökonomie VZ",
+      "kuerzel": "BOEK_VZ",
+      "url": "allStudies/10435_BOEK_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 10466,
+      "bezeichnung": "Betriebsökonomie TZ",
+      "kuerzel": "BOEK_TZ",
+      "url": "allStudies/10466_BOEK_TZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1426,
+      "name": "Mauchle",
+      "vorname": "Urs"
+    }
+  ],
+  "orte": [
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Capstone"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Capstone"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

@@ -1,0 +1,195 @@
+{
+  "id": 54289,
+  "kuerzel": "M_TuIT_EVA_1068",
+  "bezeichnung": "Computational science and engineering applied to intelligent energy buildings",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Buildings are responsible for about 40 % of the energy consumption and CO<sub>2</sub>&nbsp;emissions. The course develops computational skills in Python for modelling and problem solving of coupled heat transfer with special applications to optimize energy consumption for indoor climate control.</p>",
+  "vorausgKenntnisse": "",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 54290,
+      "kuerzel": "TuIT_EVA_1068",
+      "bezeichnung": "Computational science and engineering applied to intelligent energy buildings",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Buildings are responsible for about 40 % of the energy consumption and CO<sub>2</sub>&nbsp;emissions. The course develops computational skills in Python for modelling and problem solving of coupled heat transfer with special applications to optimize energy consumption for indoor climate control.</p>",
+      "planinhalt": "<p>Face to face</p>\n<p>Lecture module 1</p>\n<p>&middot; &nbsp; &nbsp; thermal transfer: conduction, convection, and radiation</p>\n<p>&nbsp;</p>\n<p>Lecture module 2</p>\n<p>&middot; &nbsp; &nbsp; continuous and discrete models</p>\n<p>&middot; &nbsp; &nbsp; thermal networks</p>\n<p>&middot; &nbsp; &nbsp; transforming the thermal networks into state-space and transfer functions</p>\n<p>&middot; &nbsp; &nbsp; coupling the models</p>\n<p>&nbsp;</p>\n<p>Tutorial 1: Read weather data and calculate solar radiation:</p>\n<p>1) &nbsp; &nbsp;introduction to linear algebra and tools (Python, Numpy, Matplotlib);</p>\n<p>2) &nbsp; &nbsp;use Pyhton for reading (weather) data</p>\n<p>3) &nbsp; &nbsp;calculating the solar load</p>\n<p>&nbsp;</p>\n<p>Tutorial 2: Simple wall</p>\n<p>1) &nbsp; &nbsp;physical analysis and mathematical models</p>\n<p>2) &nbsp; &nbsp;discretization of mathematical models</p>\n<p>3) &nbsp; &nbsp;numerical stability</p>\n<p>4) &nbsp; &nbsp;implementation</p>\n<p>&nbsp;</p>\n<p>Tutorial 3: Simple building in free-running: controlled natural ventilation</p>\n<p>1) &nbsp; &nbsp;physical analysis and mathematical models</p>\n<p>2) &nbsp; &nbsp;discussion of examples</p>\n<p>3) &nbsp; &nbsp;implementation</p>\n<p>&nbsp;</p>\n<p>Tutorial 4: Simple building controlled by an HVAC system</p>\n<p>1) &nbsp; &nbsp;physical analysis and mathematical models</p>\n<p>2) &nbsp; &nbsp;discussion of examples</p>\n<p>3) &nbsp; &nbsp;implementation</p>\n<p>&nbsp;</p>\n<p>Accompanied individual mini-project:</p>\n<p>Intelligent control of a single zone building</p>\n<p>&nbsp;</p>\n<p>Autonomous group project:</p>\n<p>Students define their own subject on indoor climate control, for example:</p>\n<p>- dynamic insulation,</p>\n<p>- dynamic solar protection,</p>\n<p>- control of floor-heating and fan coils,</p>\n<p>- influence of set-point setback,</p>\n<p>- control of intermittently heated buildings,</p>\n<p>- model predictive control.</p>",
+      "bibliographie": "<p>The course is self-contained: all teaching materials are provided as PDF (bibliography, supporting materials, slides for lectures, and tutorials in Python).</p>\n<p>&nbsp;</p>\n<p>Bibliography</p>\n<p>&middot; &nbsp; &nbsp; &nbsp;G. Strang (2007) Computational Science and Engineering, Wellesley-Cambridge Press, ISBN-10 0-9614088-1-2</p>\n<p>&middot; &nbsp; &nbsp; &nbsp;J.A. Clarke (2001) Energy Simulation in Building Design, 2nd edition, Butterworth Heinemann, ISBN 0 7506 5082 6</p>\n<p>&middot; &nbsp; &nbsp; &nbsp;C. Ghiaus (2013) Causality issue in the heat balance method for calculating the design heating and cooling load, Energy, vol. 50, pp. 292-301</p>\n<p>&middot; &nbsp; &nbsp; &nbsp;Ghiaus, C., &amp; Ahmad, N. (2020). Thermal circuits assembling and state-space extraction for modelling heat transfer in buildings. Energy, 195, 117019</p>\n<p>&middot; &nbsp; &nbsp; &nbsp;The Pyhton Tutorial https://docs.python.org/3/tutorial/</p>\n<p>&middot; &nbsp; &nbsp; &nbsp;Ghiaus, C. (2022). Dynamic models for building energy management,</p>\n<p>https://github.com/cghiaus/dm4bem</p>",
+      "empfLehrmittel": "",
+      "leistungsnachweis": "<p><span lang=\"en-gb\" xml:lang=\"en-gb\">33.3% Written 1h, w/o documents on 8/12/2023</span></p>\n<p><span lang=\"en-gb\" xml:lang=\"en-gb\">33.3% Written report of group work due on 6/12/2023</span></p>\n<p><span lang=\"en-gb\" xml:lang=\"en-gb\">33.3% Oral presentation of group work on 8/12/2023</span></p>",
+      "kurselemente": [
+        {
+          "id": 54291,
+          "art": "Ergänzende Veranstaltung",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2202182,
+          "name": "Scholer",
+          "vorname": "Matthias"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2202182,
+      "name": "Scholer",
+      "vorname": "Matthias"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Computerwissenschaft und -technik werden auf intelligente Energiegebäude angewendet"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2023,
+    "beginSemester": "HS",
+    "endJahr": 2023,
+    "endSemester": "HS"
+  }
+}

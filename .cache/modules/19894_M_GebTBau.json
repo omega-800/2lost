@@ -1,0 +1,172 @@
+{
+  "id": 19894,
+  "kuerzel": "M_GebTBau",
+  "bezeichnung": "Gebäudetechnik, Bauphysik",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Kenntnis des Geb&auml;udebestandes der Schweiz und der energetischen Situation</p>\n<p>Kenntnis der relevanten Normen und Vorschriften</p>\n<p>F&auml;higkeit, g&auml;ngige Energieberechnungstools anzuwenden</p>\n<p>Kenntnis der Systemtechnik&nbsp;f&uuml;r&nbsp;Heizung, Warmwasser,&nbsp;L&uuml;ftung, Klima, K&auml;lte</p>\n<p>F&auml;higkeit, energetische Zusammenh&auml;nge auf die Geb&auml;udetechnik anzuwenden</p>\n<p>Kenntnis moderner Geb&auml;udetechnik und angewandter Planungstools</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 19895,
+      "kuerzel": "GebTBau",
+      "bezeichnung": "Gebäudetechnik, Bauphysik",
+      "lernziele": "siehe Modulbeschreibung",
+      "planinhalt": "<p>1. Energie im Bauwesen</p>\n<p>2. Energiestr&ouml;me, Stoffstr&ouml;me (Diffusion)</p>\n<p>3. Bautechnische Grundlagen</p>\n<p>4. Energieverbrauch und Geb&auml;udetyp Warmwasser</p>\n<p>5. Vorschriften und Normen</p>\n<p>6.&nbsp;Systemtechnik Heizung, L&uuml;ftung, Klima, K&auml;lte</p>\n<p>7. Planungsvorgang und Planungstools</p>",
+      "kurselemente": [
+        {
+          "id": 20206,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 120,
+          "harteGrenze": true
+        },
+        {
+          "id": 20207,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Gebäudetechnik, Bauphysik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Building Technology, Building Physics"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10104,
+          "kuerzel": "EEU-vet",
+          "bezeichnung": "Vertiefungsmodule Energietechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10104,
+          "kuerzel": "EEU-vet",
+          "bezeichnung": "Vertiefungsmodule Energietechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 541725,
+      "name": "Wemhöner",
+      "vorname": "Carsten"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 19812,
+      "kuerzel": "M_TFD1EU",
+      "bezeichnung": "Thermo- und Fluiddynamik 1 (EEU)",
+      "url": "allModules/19812_M_TFD1EU.json"
+    },
+    {
+      "id": 19820,
+      "kuerzel": "M_TFD2EU",
+      "bezeichnung": "Thermo- und Fluiddynamik 2 (EEU)",
+      "url": "allModules/19820_M_TFD2EU.json"
+    },
+    {
+      "id": 19850,
+      "kuerzel": "M_VT2",
+      "bezeichnung": "Verfahrenstechnik 2",
+      "url": "allModules/19850_M_VT2.json"
+    },
+    {
+      "id": 22009,
+      "kuerzel": "M_Ph2EU",
+      "bezeichnung": "Physik 2 (EEU)",
+      "url": "allModules/22009_M_Ph2EU.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 19894,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Gebäudetechnik, Bauphysik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Building Technology, Building Physics"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2012,
+    "beginSemester": "HS",
+    "endJahr": 2015,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 19894,
+    "kuerzel": "M_GebTBau",
+    "bezeichnung": "Gebäudetechnik, Bauphysik",
+    "url": "allModules/19894_M_GebTBau.json"
+  }
+}

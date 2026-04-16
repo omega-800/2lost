@@ -1,0 +1,134 @@
+{
+  "id": 15157,
+  "kuerzel": "U_Baustat1",
+  "bezeichnung": "Baustatik 1 - Übergangsmodul",
+  "kreditpunkte": 4,
+  "lernziele": "F&auml;higkeit zur Berechnung von Reaktionen und Schnittkr&auml;ften an statisch bestimmten Systemen.",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 15158,
+      "kuerzel": "uBaustat1",
+      "bezeichnung": "Baustatik 1 - Übergang",
+      "lernziele": "<ul>\n    <li>F&auml;higkeit zur Formulierung der Gleichgewichtsbedingungen </li>\n    <li>Sicherheit in der Beurteilung von Gleichgewichtszust&auml;nden </li>\n</ul>",
+      "planinhalt": "<p>&bull; Aufgabe der Baustatik beim Entwerfen und Bemessen von Tragwerken <br />&bull; Definitionen, Zusammensetzung und Zerlegung von Kr&auml;ften <br />&bull; Formulierung der Gleichgewichtsbedingungen in der Ebene und im Raum <br />&bull; Definition der Schnittkr&auml;fte (Querkr&auml;fte, Normalkr&auml;fte, Biegemomente, Torsionsmomente) <br />&bull; Einfacher Balken, Gerbertr&auml;ger, Dreigelenkbogen, Dreigelenkrahmen <br />&bull; Schnittkraftberechnung bei gekr&uuml;mmten Stabachsen, Drucklinienbogen <br />&bull; Ebene und r&auml;umliche Fachwerke, verst&auml;rkte Balken mit Zwischengelenk <br /></p>",
+      "kurselemente": [
+        {
+          "id": 15159,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 15160,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Baustatik 1 - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Structural Analysis 1 - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10011,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10011_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10017,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10017_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10056,
+          "kuerzel": "K_U1B",
+          "bezeichnung": "Übergangsmodule Bauingenieurwesen 1 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9988,
+      "name": "ZZZ Dozent LB",
+      "vorname": "Planung"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 15157,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Baustatik 1 - Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Structural Analysis 1 - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2005,
+    "endSemester": "WS"
+  }
+}

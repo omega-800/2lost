@@ -1,0 +1,123 @@
+{
+  "id": 61633,
+  "kuerzel": "M_sa_sp.HS_BA",
+  "bezeichnung": "Bachelorarbeit Soziale Arbeit",
+  "kreditpunkte": 10,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 61634,
+      "kuerzel": "sa_sp.HS_BA_DGA",
+      "bezeichnung": "Bachelorarbeit (Drittgutachten)",
+      "kreditpunkte": 0,
+      "kurselemente": [
+        {
+          "id": 61635,
+          "art": "Vorlesung",
+          "anzLektionen": 7,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Bachelorarbeit (Drittgutachten)"
+        }
+      ]
+    },
+    {
+      "id": 61636,
+      "kuerzel": "sa_sp.HS_BA_EGA",
+      "bezeichnung": "Bachelorarbeit (Erstgutachten)",
+      "kreditpunkte": 0,
+      "kurselemente": [
+        {
+          "id": 61637,
+          "art": "Vorlesung",
+          "anzLektionen": 7,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Bachelorarbeit (Erstgutachten)"
+        }
+      ]
+    },
+    {
+      "id": 61638,
+      "kuerzel": "sa_sp.HS_BA_ZGA",
+      "bezeichnung": "Bachelorarbeit (Zweitgutachten)",
+      "kreditpunkte": 0,
+      "kurselemente": [
+        {
+          "id": 61639,
+          "art": "Vorlesung",
+          "anzLektionen": 7,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Bachelorarbeit (Zweitgutachten)"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10480,
+      "bezeichnung": "Soziale Arbeit",
+      "kuerzel": "SA",
+      "url": "allStudies/10480_SA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10203,
+          "kuerzel": "P_SA",
+          "bezeichnung": "Pflichtmodule",
+          "kreditpunkte": 10
+        },
+        {
+          "id": 10206,
+          "kuerzel": "P_HS_SA",
+          "bezeichnung": "Pflichtmodule Hauptstudium Soziale Arbeit",
+          "kreditpunkte": 10
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1959,
+      "name": "Hahn",
+      "vorname": "Gabi"
+    }
+  ],
+  "orte": [
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Bachelorarbeit Soziale Arbeit"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

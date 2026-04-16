@@ -1,0 +1,248 @@
+{
+  "id": 49130,
+  "kuerzel": "M_EuR_I",
+  "bezeichnung": "Elektronik und Regelungstechnik I",
+  "kreditpunkte": 12,
+  "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>kennen die Vorgehensweise bei der Schaltungsentwicklung. </li>\n    <li>kennen die physikalischen Prinzipien in der Halbleitertheorie. </li>\n    <li>kennen die Funktionsweisen der analogen Standardbauteile. </li>\n    <li>k&ouml;nnen Schaltungen mit den analogen Standardbauteilen entwerfen. </li>\n    <li>k&ouml;nnen Kippschaltungen entwerfen.&nbsp; </li>\n</ul>\n<p>&nbsp;</p>\n<ul>\n    <li>kennen die Eigenschaften der Halbleitertechnologien. </li>\n    <li>k&ouml;nnen die logischen Grundschaltungen in Anwendungen einsetzen. </li>\n    <li>k&ouml;nnen Boolesche Funktionen aufstellen und vereinfachen. </li>\n    <li>k&ouml;nnen Schaltungen mit kombinatorischer Logik einsetzen. </li>\n    <li>k&ouml;nnen Schaltungen mit sequentieller Logik anwenden. </li>\n    <li>k&ouml;nnen Zustandsautomaten realisieren. </li>\n    <li>kennen grundlegende Kodierungsverfahren zur Fehlersicherung&nbsp;(Blocksicherung, gewichtete Codes, CRC-Codierung). </li>\n    <li>kennen die Funktionsweisen und Eigenschaften von Halbleiterspeichern. &nbsp; </li>\n</ul>\n<p>&nbsp;</p>\n<ul>\n    <li>k&ouml;nnen grafische Benutzeroberfl&auml;chen bauen. </li>\n    <li>kennen das MVC-Paradigma (Model View Controller)&nbsp;und setzen es beim Entwurf ein. </li>\n    <li>k&ouml;nnen Ausnahmef&auml;lle in Programmen erkennen und behandeln. </li>\n    <li>k&ouml;nnen kleine Applikationen entwerfen und implementieren. </li>\n</ul>\n<p>&nbsp;</p>\n<ul>\n    <li>k&ouml;nnen gedruckte Schaltungen mit einem EDA-Tool erstellen. </li>\n    <li>k&ouml;nnen analoge Schaltungen nach einem Lastenheft entwickeln. </li>\n</ul>",
+  "vorausgKenntnisse": "<p>Vorausgesetzt sind die beiden Module Elektrotechnik &amp; Lineare Algebra I sowie Elektrotechnik &amp; Lineare Algebra II.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 49131,
+      "kuerzel": "EuR_I_S",
+      "bezeichnung": "Analoge Schaltungstechnik",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>kennen die Vorgehensweise bei der Schaltungsentwicklung.</li><li>kennen die physikalischen Prinzipien in der Halbleitertheorie.</li><li>kennen die Funktionsweisen der analogen Standardbauteile.</li><li>können Schaltungen mit den analogen Standardbauteilen entwerfen.</li><li>können Kippschaltungen entwerfen.</li></ul>",
+      "planinhalt": "<ul>\n    <li>Vorgehensweise bei der Schaltungsentwicklung</li>\n    <li>Einf&uuml;hrung in die Halbleitertheorie</li>\n    <li>Grundlagen der elektrischen Eigenschaften von analogen Standardbauteilen der Elektronik (Diode, Halbleiterdioden mit speziellen Eigenschaften, Bipolartransistor, Feldeffekttransistor)</li>\n    <li>Lineare aktive Schaltungen mit Transistoren, Differenzverst&auml;rkern, Operationsverst&auml;rkern, Oszillatoren, Leistungsstufen</li>\n    <li>Entwicklung eines Operationsverst&auml;rkers mit Printlayout</li>\n    <li>Transistor als Schalter, Kippschaltungen, Schmitttrigger, Multivibrator</li>\n</ul>",
+      "bibliographie": "<p>Skript</p>\n<p>Tietze, Schenk: Halbleiterschaltungen</p>\n<p>Datenbl&auml;tter und Applikationsbeschreibung von Bauelementen</p>\n<p>Softwarewerkzeuge SPICE und EDA-Tool</p>",
+      "empfLehrmittel": "Vorlesung, Selbststudium, Übungen, Gruppenarbeit",
+      "bemerkungKurs": "Die Unterrichtssprache ist Deutsch, die Unterrichtsunterlagen sind jedoch zum Teil auf Englisch.",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Digitaltechnik&nbsp;und Konzepte der Programmierung statt.",
+      "kurselemente": [
+        {
+          "id": 49132,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001529,
+          "name": "Piai",
+          "vorname": "Guido"
+        }
+      ]
+    },
+    {
+      "id": 49133,
+      "kuerzel": "EuR_I_P",
+      "bezeichnung": "Projekt Entwicklung von Analogschaltungen",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>können gedruckte Schaltungen mit einem EDA-Tool erstellen.</li><li>können analoge Schaltungen nach einem Lastenheft entwickeln.</li></ul>",
+      "planinhalt": "<ul><li>Einführung in ein EDA-Tool</li><li>Entwicklung einer analogen Schaltung mit Mikrocontroller</li></ul>",
+      "bibliographie": "<p>Lastenheft, EDA-Tool Manuals, Bauteildatenblätter</p><p>Softwarewerkzeug EDA-Tool</p>",
+      "empfLehrmittel": "Projekt",
+      "bemerkungKurs": "Die Unterrichtssprache ist Deutsch, die Unterrichtsunterlagen sind jedoch zum Teil auf Englisch.",
+      "leistungsnachweis": "Es wird ein Projekt bewertet.",
+      "kurselemente": [
+        {
+          "id": 49134,
+          "art": "Projekt",
+          "anzLektionen": 0,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001529,
+          "name": "Piai",
+          "vorname": "Guido"
+        }
+      ]
+    },
+    {
+      "id": 49135,
+      "kuerzel": "EuR_I_K",
+      "bezeichnung": "Konzepte der Programmierung",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen grafische Benutzeroberfl&auml;chen bauen.</li>\n    <li>kennen das MVC-Paradigma (Model View Controller)&nbsp;und setzen es beim Entwurf ein.</li>\n    <li>k&ouml;nnen Ausnahmef&auml;lle in Programmen erkennen und behandeln.</li>\n    <li>k&ouml;nnen kleine Applikationen entwerfen und implementieren.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Swing: Von der Komponente &uuml;ber LayoutManager bis hin zu JTree / JTable</li>\n    <li>Model View Controller</li>\n    <li>Reflection</li>\n    <li>Generische Datentypen</li>\n    <li>Collections</li>\n    <li>Pakete</li>\n    <li>Javadoc</li>\n    <li>Ausnahmebehandlung</li>\n    <li>Entwurf im Kleinen</li>\n</ul>",
+      "bibliographie": "<p>M&ouml;ssenb&ouml;ck: Sprechen Sie Java</p>\n<p>&nbsp;</p>",
+      "empfLehrmittel": "Unterricht im Klassenverband, &Uuml;bungen, Selbststudium",
+      "bemerkungKurs": "Die Unterrichtssprache ist Deutsch, die Unterrichtsunterlagen sind jedoch zum Teil auf Englisch.",
+      "leistungsnachweis": "Es findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Digitaltechnik&nbsp;und Analoge Schaltungstechnik statt.",
+      "kurselemente": [
+        {
+          "id": 49136,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000258,
+          "name": "Grun",
+          "vorname": "Rolf"
+        }
+      ]
+    },
+    {
+      "id": 49137,
+      "kuerzel": "EuR_I_D",
+      "bezeichnung": "Digitaltechnik",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>kennen die Eigenschaften der Halbleitertechnologien. </li>\n    <li>k&ouml;nnen die logischen Grundschaltungen in Anwendungen einsetzen. </li>\n    <li>k&ouml;nnen Boolesche Funktionen aufstellen und vereinfachen. </li>\n    <li>k&ouml;nnen Schaltungen mit kombinatorischer Logik einsetzen. </li>\n    <li>k&ouml;nnen Schaltungen mit sequentieller Logik anwenden. </li>\n    <li>k&ouml;nnen Zustandsautomaten realisieren. </li>\n    <li>kennen grundlegende Kodierungsverfahren zur Fehlersicherung&nbsp;(Blocksicherung, gewichtete Codes, CRC-Codierung). </li>\n    <li>kennen die Funktionsweisen und Eigenschaften von Halbleiterspeichern. </li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Halbleitertechnologien in der Digitaltechnik </li>\n    <li>Logische Grundschaltungen: Gate Logik, Flip-Flop, Boolesche Algebra </li>\n    <li>Kombinatorische Logik: Decoder, Multiplexer, Demultiplexer, Addierer, Subtrahierer, Komparator </li>\n    <li>Sequentielle Logik: Flip-Flop, Dualz&auml;hler, Asynchron und Synchron, Schieberegister, Schaltwerke, Zustandsautomaten </li>\n    <li>Programmierbare Logik </li>\n    <li>Halbleiterspeicher&nbsp;(statisch und dynamisch RAM, ROM, PROM, EPROM, FLASH), Adressdekodierung und DMA-Funktionen </li>\n    <li>Gemischte Schaltungen analog-digital, AD- und DA-Wandler </li>\n    <li>Kodierungsverfahren zur Fehlersicherung (Blocksicherung, gewichtete Codes, CRC-Codierung) </li>\n</ul>",
+      "bibliographie": "<p>Skript und/oder ausgew&auml;hltes Begleitbuch</p>\n<p>Datenbl&auml;tter und Applikationsbeschreibung von Bauelementen</p>\n<p>EDA Softwarewerkzeuge</p>",
+      "empfLehrmittel": "Vorlesung, Selbststudium, &Uuml;bungen, Gruppenarbeit, Labor&uuml;bung",
+      "bemerkungKurs": "Die Unterrichtssprache ist Deutsch, die Unterrichtsunterlagen sind jedoch zum Teil auf Englisch.",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Analoge Schaltungstechnik&nbsp;und Konzepte der&nbsp;Programmierung statt.",
+      "kurselemente": [
+        {
+          "id": 49138,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001341,
+          "name": "Moser",
+          "vorname": "Urs"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10367,
+      "bezeichnung": "Elektronik und Regelungstechnik",
+      "kuerzel": "Elekt",
+      "url": "allStudies/10367_Elekt.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 10366,
+      "bezeichnung": "Elektronik und Regelungstechnik",
+      "kuerzel": "Elekt",
+      "url": "allStudies/10366_Elekt.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 3
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2001461,
+      "name": "Arato",
+      "vorname": "Laszlo"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 49139,
+      "kuerzel": "M_EuR_II",
+      "bezeichnung": "Elektronik und Regelungstechnik II",
+      "url": "allModules/49139_M_EuR_II.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 2,
+      "kuerzel": "WSG",
+      "bezeichnung": "Waldau St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 49130,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Am Ende des Semesters findet eine abgesetzte Modulschlusspr&uuml;fung in drei Teilen statt. Die Kurse Analoge Schaltungstechnik, Digitaltechnik sowie Konzepte der Programmierung bilden je einen Teil der abgesetzten Modulschlusspr&uuml;fung.</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electronics and Control Engineering I"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2015,
+    "beginSemester": "HS",
+    "endJahr": 2015,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 48448,
+    "kuerzel": "M_EuR_I",
+    "bezeichnung": "Elektronik und Regelungstechnik I",
+    "url": "allModules/48448_M_EuR_I.json"
+  },
+  "nachfolger": {
+    "id": 49130,
+    "kuerzel": "M_EuR_I",
+    "bezeichnung": "Elektronik und Regelungstechnik I",
+    "url": "allModules/49130_M_EuR_I.json"
+  }
+}

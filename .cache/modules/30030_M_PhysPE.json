@@ -1,0 +1,242 @@
+{
+  "id": 30030,
+  "kuerzel": "M_PhysPE",
+  "bezeichnung": "Physikpraktikum (Elektrotechnik)",
+  "kreditpunkte": 2,
+  "lernziele": "<p>siehe unten (Kurs Physikpraktikum)</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 30031,
+      "kuerzel": "PhysPE",
+      "bezeichnung": "Physikpraktikum (E)",
+      "lernziele": "<ul><li>Verstehen von modernen (opto)elektronischen Effekten, Anwendungen an praktischen Beispielen.</li><li>Arbeiten im Labor: Daten/Experiment beschreiben und dokumentieren, Fehlerrechnung und Beurteilung der Genauigkeit der Messresultate.</li></ul>",
+      "planinhalt": "<p>Jede Gruppe f&uuml;hrt je einen Versuch aus den folgende Themengruppen durch:</p><ol><li><strong>Mechanik</strong><br />Torsionsdrehwaage; Schwingungen; Massentr&auml;gheitsmoment.</li><li><strong>Thermodynamik</strong><br />kritsiche Temperatur; Temperaturstrahlung; W&auml;rmekapazit&auml;t.</li><li><strong>Optik</strong><br />Brennweite; Brechnung; optischer Doppler-Effekt</li><li><strong>Resonanzen</strong><br />Resonanz eines magnetischen Moments (NMR); Resonanz von Elektronen (ESR).</li><li><strong>Photonik</strong><br />Lasercharakterisierung; Einkopplung, Dispersion und D&auml;mpfung in einem Lichtwellenleiter.</li><li><strong>Materialien</strong><br />Dielektrizit&auml;tskonstante und Piezoeffekt; Halleffekt; Rastertunnelmikroskop (Oberfl&auml;chen).</li></ol>",
+      "kurselemente": [
+        {
+          "id": 30032,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 10,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Physikpraktikum"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Practical Physics"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10004,
+          "kuerzel": "E-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10004,
+          "kuerzel": "E-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10004,
+          "kuerzel": "E-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10004,
+          "kuerzel": "E-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5028278,
+      "name": "Dudle",
+      "vorname": "Gregor"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11043,
+      "kuerzel": "M_Ph1Mech",
+      "bezeichnung": "Physik 1 - Mechanik",
+      "url": "allModules/11043_M_Ph1Mech.json"
+    },
+    {
+      "id": 20825,
+      "kuerzel": "M_Ph3SWO",
+      "bezeichnung": "Physik 3 - Schwingungen und Wellen, Optik",
+      "url": "allModules/20825_M_Ph3SWO.json"
+    },
+    {
+      "id": 22021,
+      "kuerzel": "M_Ph2HAT",
+      "bezeichnung": "Physik 2 - Hydro-, Aero- und Thermodynamik",
+      "url": "allModules/22021_M_Ph2HAT.json"
+    }
+  ],
+  "mengen": [
+    {
+      "id": 26,
+      "name": "Aequivalenz",
+      "dModMengeArt": 5701,
+      "module": [
+        {
+          "id": 28726,
+          "kuerzel": "M_PhysP",
+          "bezeichnung": "Physikpraktikum",
+          "url": "allModules/28726_M_PhysP.json"
+        },
+        {
+          "id": 28732,
+          "kuerzel": "M_NwP",
+          "bezeichnung": "Naturwissenschaftliches Praktikum",
+          "url": "allModules/28732_M_NwP.json"
+        },
+        {
+          "id": 30030,
+          "kuerzel": "M_PhysPE",
+          "bezeichnung": "Physikpraktikum (Elektrotechnik)",
+          "url": "allModules/30030_M_PhysPE.json"
+        },
+        {
+          "id": 30035,
+          "kuerzel": "M_PhysPB",
+          "bezeichnung": "Physikpraktikum (Bauingenieurwesen)",
+          "url": "allModules/30035_M_PhysPB.json"
+        },
+        {
+          "id": 41772,
+          "kuerzel": "M_NwP",
+          "bezeichnung": "Naturwissenschaftliches Praktikum",
+          "url": "allModules/41772_M_NwP.json"
+        },
+        {
+          "id": 45138,
+          "kuerzel": "M_NwP",
+          "bezeichnung": "Naturwissenschaftliches Praktikum",
+          "url": "allModules/45138_M_NwP.json"
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Physikpraktikum"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Practical Physics"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2018,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 28726,
+    "kuerzel": "M_PhysP",
+    "bezeichnung": "Physikpraktikum",
+    "url": "allModules/28726_M_PhysP.json"
+  }
+}

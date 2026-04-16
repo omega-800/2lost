@@ -1,0 +1,3299 @@
+{
+  "id": 10152,
+  "kuerzel": "L",
+  "bezeichnung": "Landschaftsarchitektur",
+  "versionKuerzel": "STD_18",
+  "typ": "Bachelor",
+  "art": "Studiengang",
+  "form": "Vollzeit",
+  "kredits": [
+    {
+      "id": 10605,
+      "minKredits": 52,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur"
+        }
+      ]
+    },
+    {
+      "id": 10606,
+      "minKredits": 40,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur"
+        }
+      ]
+    },
+    {
+      "id": 10607,
+      "minKredits": 54,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur"
+        }
+      ]
+    },
+    {
+      "id": 10608,
+      "minKredits": 8,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache"
+        }
+      ]
+    },
+    {
+      "id": 10609,
+      "minKredits": 8,
+      "kategorien": [
+        {
+          "id": 10022,
+          "kuerzel": "L-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht"
+        }
+      ]
+    },
+    {
+      "id": 10610,
+      "minKredits": 12,
+      "kategorien": [
+        {
+          "id": 10085,
+          "kuerzel": "L-BA",
+          "bezeichnung": "Bachelor-Arbeit Landschaftsarchitektur"
+        }
+      ]
+    },
+    {
+      "id": 10845,
+      "minKredits": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS"
+        }
+      ]
+    }
+  ],
+  "spezialisierungen": [
+    {
+      "id": 10157,
+      "kuerzel": "L_PlaEw",
+      "bezeichnung": "Planung und Entwurf",
+      "url": "allStudies/10157_L_PlaEw.json"
+    },
+    {
+      "id": 10158,
+      "kuerzel": "L_LBMgmt",
+      "bezeichnung": "Landschaftsbau und Management",
+      "url": "allStudies/10158_L_LBMgmt.json"
+    },
+    {
+      "id": 10160,
+      "kuerzel": "L_LaEntw",
+      "bezeichnung": "Landschaftsentwicklung",
+      "url": "allStudies/10160_L_LaEntw.json"
+    }
+  ],
+  "studienberater": {
+    "id": 128,
+    "name": "Petschek",
+    "vorname": "Peter"
+  },
+  "zuordnungen": [
+    {
+      "id": 40820,
+      "kuerzel": "M_ArtInt",
+      "bezeichnung": "Artificial Intelligence",
+      "url": "allModules/40820_M_ArtInt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 31301,
+      "kuerzel": "M_BAL",
+      "bezeichnung": "Bachelor-Arbeit Landschaftsarchitektur",
+      "url": "allModules/31301_M_BAL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10085,
+          "kuerzel": "L-BA",
+          "bezeichnung": "Bachelor-Arbeit Landschaftsarchitektur",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 37659,
+      "kuerzel": "M_BPMan",
+      "bezeichnung": "Bauplanungs-Management 1",
+      "url": "allModules/37659_M_BPMan.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10022,
+          "kuerzel": "L-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 42257,
+      "kuerzel": "M_BPMan2",
+      "bezeichnung": "Bauplanungs-Management 2",
+      "url": "allModules/42257_M_BPMan2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 11015,
+      "kuerzel": "M_BuPl",
+      "bezeichnung": "Business Plan 1 für Landschaftsarchitektur",
+      "url": "allModules/11015_M_BuPl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10022,
+          "kuerzel": "L-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 19374,
+      "kuerzel": "M_Chin1",
+      "bezeichnung": "Chinesisch 1",
+      "url": "allModules/19374_M_Chin1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 19683,
+      "kuerzel": "M_Chin2",
+      "bezeichnung": "Chinesisch 2",
+      "url": "allModules/19683_M_Chin2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56496,
+      "kuerzel": "M_EnglHTw",
+      "bezeichnung": "English: How Things work",
+      "url": "allModules/56496_M_EnglHTw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45661,
+      "kuerzel": "M_SelTec",
+      "bezeichnung": "English: Selling Technology",
+      "url": "allModules/45661_M_SelTec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 22135,
+      "kuerzel": "M_EnglScience",
+      "bezeichnung": "English: The World of Science",
+      "url": "allModules/22135_M_EnglScience.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 23435,
+      "kuerzel": "M_Entw1",
+      "bezeichnung": "Entwurf 1",
+      "url": "allModules/23435_M_Entw1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 38772,
+      "kuerzel": "M_Entwu1",
+      "bezeichnung": "Entwurf 1",
+      "url": "allModules/38772_M_Entwu1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 36083,
+      "kuerzel": "M_Entwu1",
+      "bezeichnung": "Entwurf 1",
+      "url": "allModules/36083_M_Entwu1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 18659,
+      "kuerzel": "M_Entw2",
+      "bezeichnung": "Entwurf 2",
+      "url": "allModules/18659_M_Entw2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 31448,
+      "kuerzel": "M_Ewu2",
+      "bezeichnung": "Entwurf 2 (2018)",
+      "url": "allModules/31448_M_Ewu2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 23441,
+      "kuerzel": "M_Entwu3",
+      "bezeichnung": "Entwurf 3",
+      "url": "allModules/23441_M_Entwu3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 18723,
+      "kuerzel": "M_Entw3",
+      "bezeichnung": "Entwurf 3",
+      "url": "allModules/18723_M_Entw3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 41431,
+      "kuerzel": "M_Enwu3",
+      "bezeichnung": "Entwurf 3",
+      "url": "allModules/41431_M_Enwu3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 31464,
+      "kuerzel": "M_Ewu3",
+      "bezeichnung": "Entwurf 3 (2018)",
+      "url": "allModules/31464_M_Ewu3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 18728,
+      "kuerzel": "M_Entw4",
+      "bezeichnung": "Entwurf 4",
+      "url": "allModules/18728_M_Entw4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 36079,
+      "kuerzel": "M_Ewu4",
+      "bezeichnung": "Entwurf 4 (2018)",
+      "url": "allModules/36079_M_Ewu4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 38779,
+      "kuerzel": "M_Ewu4",
+      "bezeichnung": "Entwurf 4 (2021)",
+      "url": "allModules/38779_M_Ewu4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 38701,
+      "kuerzel": "M_Ewu4",
+      "bezeichnung": "Entwurf 4 (2021)",
+      "url": "allModules/38701_M_Ewu4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 41617,
+      "kuerzel": "M_Ewu5",
+      "bezeichnung": "Entwurf 5",
+      "url": "allModules/41617_M_Ewu5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 18733,
+      "kuerzel": "M_Entw5",
+      "bezeichnung": "Entwurf 5",
+      "url": "allModules/18733_M_Entw5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 31479,
+      "kuerzel": "M_Ewu5",
+      "bezeichnung": "Entwurf 5 (2018)",
+      "url": "allModules/31479_M_Ewu5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 32562,
+      "kuerzel": "M_Ewu6",
+      "bezeichnung": "Entwurf 6",
+      "url": "allModules/32562_M_Ewu6.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 30421,
+      "kuerzel": "M_EM",
+      "bezeichnung": "Entwurfsmethodik",
+      "url": "allModules/30421_M_EM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 18272,
+      "kuerzel": "M_EM",
+      "bezeichnung": "Entwurfsmethodik",
+      "url": "allModules/18272_M_EM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11198,
+      "kuerzel": "M_AlpExk",
+      "bezeichnung": "Exkursion Alpenvegetation",
+      "url": "allModules/11198_M_AlpExk.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 39067,
+      "kuerzel": "M_ExkLa",
+      "bezeichnung": "Exkursion Landschaftsarchitektur",
+      "url": "allModules/39067_M_ExkLa.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 19687,
+      "kuerzel": "M_Franz2",
+      "bezeichnung": "Französisch 2",
+      "url": "allModules/19687_M_Franz2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 36421,
+      "kuerzel": "M_FranzKomm",
+      "bezeichnung": "Französisch Kommunikation ",
+      "url": "allModules/36421_M_FranzKomm.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 18614,
+      "kuerzel": "M_FZ1",
+      "bezeichnung": "Freihandzeichnen",
+      "url": "allModules/18614_M_FZ1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11090,
+      "kuerzel": "M_FrEntw1",
+      "bezeichnung": "Freiraumentwurf  1",
+      "url": "allModules/11090_M_FrEntw1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 11019,
+      "kuerzel": "M_Fp3",
+      "bezeichnung": "Freiraumplanung 3",
+      "url": "allModules/11019_M_Fp3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 29912,
+      "kuerzel": "M_FP3",
+      "bezeichnung": "Freiraumplanung 3",
+      "url": "allModules/29912_M_FP3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 30077,
+      "kuerzel": "M_FP4_e",
+      "bezeichnung": "Freiraumplanung 4",
+      "url": "allModules/30077_M_FP4_e.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 38717,
+      "kuerzel": "M_FP4_e",
+      "bezeichnung": "Freiraumplanung 4",
+      "url": "allModules/38717_M_FP4_e.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 30071,
+      "kuerzel": "M_FP5",
+      "bezeichnung": "Freiraumplanung 5",
+      "url": "allModules/30071_M_FP5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 15681,
+      "kuerzel": "M_FPGK_e",
+      "bezeichnung": "Freiraumplanung und Gartenkultur - Blended Learning",
+      "url": "allModules/15681_M_FPGK_e.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 16283,
+      "kuerzel": "M_GaLaBau1",
+      "bezeichnung": "Garten- & Landschaftsbau 1",
+      "url": "allModules/16283_M_GaLaBau1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 31456,
+      "kuerzel": "M_GaLaB1",
+      "bezeichnung": "Garten- & Landschaftsbau 1",
+      "url": "allModules/31456_M_GaLaB1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 31492,
+      "kuerzel": "M_GaLaB2",
+      "bezeichnung": "Garten- & Landschaftsbau 2",
+      "url": "allModules/31492_M_GaLaB2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 22196,
+      "kuerzel": "M_GaLaB2",
+      "bezeichnung": "Garten- & Landschaftsbau 2",
+      "url": "allModules/22196_M_GaLaB2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15960,
+      "kuerzel": "M_GaLaBau2",
+      "bezeichnung": "Garten- & Landschaftsbau 2",
+      "url": "allModules/15960_M_GaLaBau2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 38734,
+      "kuerzel": "M_GaLaB2",
+      "bezeichnung": "Garten- & Landschaftsbau 2",
+      "url": "allModules/38734_M_GaLaB2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 18286,
+      "kuerzel": "M_GaLaB3",
+      "bezeichnung": "Garten- & Landschaftsbau 3",
+      "url": "allModules/18286_M_GaLaB3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 31525,
+      "kuerzel": "M_GaBau3",
+      "bezeichnung": "Garten- & Landschaftsbau 3 (2018)",
+      "url": "allModules/31525_M_GaBau3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 38755,
+      "kuerzel": "M_GaLaB4",
+      "bezeichnung": "Garten- & Landschaftsbau 4",
+      "url": "allModules/38755_M_GaLaB4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 23452,
+      "kuerzel": "M_GaLaB5",
+      "bezeichnung": "Garten- & Landschaftsbau 5",
+      "url": "allModules/23452_M_GaLaB5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 41092,
+      "kuerzel": "M_GaLaB6",
+      "bezeichnung": "Garten- & Landschaftsbau 6",
+      "url": "allModules/41092_M_GaLaB6.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 42192,
+      "kuerzel": "M_GaLaBau6",
+      "bezeichnung": "Garten- & Landschaftsbau 6",
+      "url": "allModules/42192_M_GaLaBau6.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 32552,
+      "kuerzel": "M_GaLB7",
+      "bezeichnung": "Garten- & Landschaftsbau 7",
+      "url": "allModules/32552_M_GaLB7.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 18851,
+      "kuerzel": "M_GaLaB7",
+      "bezeichnung": "Garten- & Landschaftsbau 7",
+      "url": "allModules/18851_M_GaLaB7.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 15971,
+      "kuerzel": "M_GaLaBau4",
+      "bezeichnung": "Garten- und Landschaftsbau 4",
+      "url": "allModules/15971_M_GaLaBau4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 18807,
+      "kuerzel": "M_GDP",
+      "bezeichnung": "Gartendenkmalpflege",
+      "url": "allModules/18807_M_GDP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 41694,
+      "kuerzel": "M_GeoGIS1",
+      "bezeichnung": "Geodaten und GIS 1",
+      "url": "allModules/41694_M_GeoGIS1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56257,
+      "kuerzel": "M_GP",
+      "bezeichnung": "Gestalten mit Pflanzen",
+      "url": "allModules/56257_M_GP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 29983,
+      "kuerzel": "U_GIS1",
+      "bezeichnung": "GIS 1 (Übergang)",
+      "url": "allModules/29983_U_GIS1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43494,
+      "kuerzel": "M_GuV2",
+      "bezeichnung": "GIS und Visualisierung 2",
+      "url": "allModules/43494_M_GuV2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 11086,
+      "kuerzel": "M_GrEntw2",
+      "bezeichnung": "Grundlagen für den landschaftsarchitektonischen Entwurf 2",
+      "url": "allModules/11086_M_GrEntw2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 17093,
+      "kuerzel": "M_KatGrLa",
+      "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+      "url": "allModules/17093_M_KatGrLa.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 36278,
+      "kuerzel": "M_KatGrLa2",
+      "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+      "url": "allModules/36278_M_KatGrLa2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 31542,
+      "kuerzel": "M_IVP",
+      "bezeichnung": "Individuelles Vertiefungsprojekt",
+      "url": "allModules/31542_M_IVP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 36015,
+      "kuerzel": "M_Ital1",
+      "bezeichnung": "Italienisch 1",
+      "url": "allModules/36015_M_Ital1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 36011,
+      "kuerzel": "M_Ital2",
+      "bezeichnung": "Italienisch 2",
+      "url": "allModules/36011_M_Ital2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 21442,
+      "kuerzel": "M_Jap1",
+      "bezeichnung": "Japanisch 1",
+      "url": "allModules/21442_M_Jap1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 21438,
+      "kuerzel": "M_Jap2",
+      "bezeichnung": "Japanisch 2",
+      "url": "allModules/21438_M_Jap2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 22163,
+      "kuerzel": "M_KatKernLa2 ",
+      "bezeichnung": "Kernmodule Landschaftsarchitektur",
+      "url": "allModules/22163_M_KatKernLa2 .json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 25861,
+      "kuerzel": "M_KatKernLa3",
+      "bezeichnung": "Kernmodule Landschaftsarchitektur",
+      "url": "allModules/25861_M_KatKernLa3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 17179,
+      "kuerzel": "M_KatKernLa",
+      "bezeichnung": "Kernmodule Landschaftsarchitektur",
+      "url": "allModules/17179_M_KatKernLa.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 57489,
+      "kuerzel": "M_KatKernLa4",
+      "bezeichnung": "Kernmodule Landschaftsarchitektur",
+      "url": "allModules/57489_M_KatKernLa4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 65180,
+      "kuerzel": "M_IKGS_p",
+      "bezeichnung": "Knowhow und Technologien für nachhaltige Entwicklung im globalen Süden ",
+      "url": "allModules/65180_M_IKGS_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 65046,
+      "kuerzel": "M_IKGS",
+      "bezeichnung": "Knowhow und Technologien für nachhaltige Entwicklung im globalen Süden ",
+      "url": "allModules/65046_M_IKGS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65111,
+      "kuerzel": "M_KoTeKu",
+      "bezeichnung": "Kommunikation im Team und zwischen Kulturen",
+      "url": "allModules/65111_M_KoTeKu.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 40469,
+      "kuerzel": "M_KatKOENG1",
+      "bezeichnung": "Kommunikation und Englisch",
+      "url": "allModules/40469_M_KatKOENG1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 56762,
+      "kuerzel": "M_KatKOENG1_",
+      "bezeichnung": "Kommunikation und Englisch1",
+      "url": "allModules/56762_M_KatKOENG1_.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 40263,
+      "kuerzel": "M_KatKoSpra5",
+      "bezeichnung": "Kommunikation und Sprache",
+      "url": "allModules/40263_M_KatKoSpra5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 31797,
+      "kuerzel": "M_KatKoSpra",
+      "bezeichnung": "Kommunikation und Sprache",
+      "url": "allModules/31797_M_KatKoSpra.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 31904,
+      "kuerzel": "M_KatKoSpra2",
+      "bezeichnung": "Kommunikation und Sprache 2",
+      "url": "allModules/31904_M_KatKoSpra2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 36312,
+      "kuerzel": "M_KatKoSpra4",
+      "bezeichnung": "Kommunikation und Sprache 4",
+      "url": "allModules/36312_M_KatKoSpra4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 41497,
+      "kuerzel": "M_KatKoSpra",
+      "bezeichnung": "Kommunikation und Sprache EEU",
+      "url": "allModules/41497_M_KatKoSpra.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 37275,
+      "kuerzel": "M_KE",
+      "bezeichnung": "Konstruktives Entwerfen",
+      "url": "allModules/37275_M_KE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 61205,
+      "kuerzel": "M_KE",
+      "bezeichnung": "Konstruktives Entwerfen",
+      "url": "allModules/61205_M_KE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 40482,
+      "kuerzel": "M_KgsArch",
+      "bezeichnung": "Kulturgeschichte",
+      "url": "allModules/40482_M_KgsArch.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10022,
+          "kuerzel": "L-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 37284,
+      "kuerzel": "M_KgGk",
+      "bezeichnung": "Kulturgeschichte: Gartenkultur",
+      "url": "allModules/37284_M_KgGk.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10022,
+          "kuerzel": "L-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 27214,
+      "kuerzel": "M_KgsGk",
+      "bezeichnung": "Kulturgeschichte: Gartenkultur",
+      "url": "allModules/27214_M_KgsGk.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10022,
+          "kuerzel": "L-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 18670,
+      "kuerzel": "M_LaWi",
+      "bezeichnung": "Land- und Waldwirtschaft",
+      "url": "allModules/18670_M_LaWi.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 41668,
+      "kuerzel": "M_Land1",
+      "bezeichnung": "Landschaft 1",
+      "url": "allModules/41668_M_Land1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 38721,
+      "kuerzel": "M_La1",
+      "bezeichnung": "Landschaft 1",
+      "url": "allModules/38721_M_La1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 38706,
+      "kuerzel": "M_La2",
+      "bezeichnung": "Landschaft 2",
+      "url": "allModules/38706_M_La2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 29934,
+      "kuerzel": "M_La2",
+      "bezeichnung": "Landschaft 2",
+      "url": "allModules/29934_M_La2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 19346,
+      "kuerzel": "M_LG",
+      "bezeichnung": "Landschaft und Gesellschaft",
+      "url": "allModules/19346_M_LG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11023,
+      "kuerzel": "M_LpFpSp1",
+      "bezeichnung": "Landschafts-; Freiraum-; Städteplanung 1",
+      "url": "allModules/11023_M_LpFpSp1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 11024,
+      "kuerzel": "M_LpFpSp2",
+      "bezeichnung": "Landschafts-; Freiraum-; Städteplanung 2",
+      "url": "allModules/11024_M_LpFpSp2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 29949,
+      "kuerzel": "M_Le1",
+      "bezeichnung": "Landschaftsentwicklung 1",
+      "url": "allModules/29949_M_Le1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 38974,
+      "kuerzel": "M_Le1",
+      "bezeichnung": "Landschaftsentwicklung 1",
+      "url": "allModules/38974_M_Le1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 41646,
+      "kuerzel": "M_Le1",
+      "bezeichnung": "Landschaftsentwicklung 1",
+      "url": "allModules/41646_M_Le1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 43462,
+      "kuerzel": "M_Le2",
+      "bezeichnung": "Landschaftsentwicklung 2",
+      "url": "allModules/43462_M_Le2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 38711,
+      "kuerzel": "M_Le2",
+      "bezeichnung": "Landschaftsentwicklung 2",
+      "url": "allModules/38711_M_Le2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 43466,
+      "kuerzel": "M_Le3PJL",
+      "bezeichnung": "Landschaftsentwicklung 3 / Projekt Landschaft",
+      "url": "allModules/43466_M_Le3PJL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 31304,
+      "kuerzel": "M_LaGes1",
+      "bezeichnung": "Landschaftsgestaltung 1 ",
+      "url": "allModules/31304_M_LaGes1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11004,
+      "kuerzel": "M_LGest1",
+      "bezeichnung": "Landschaftsgestaltung 1",
+      "url": "allModules/11004_M_LGest1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 11002,
+      "kuerzel": "M_LGest2",
+      "bezeichnung": "Landschaftsgestaltung 2",
+      "url": "allModules/11002_M_LGest2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 31499,
+      "kuerzel": "M_LaGes2",
+      "bezeichnung": "Landschaftsgestaltung 2",
+      "url": "allModules/31499_M_LaGes2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 31505,
+      "kuerzel": "M_LaGes3",
+      "bezeichnung": "Landschaftsgestaltung 3",
+      "url": "allModules/31505_M_LaGes3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 38694,
+      "kuerzel": "M_LaGest3",
+      "bezeichnung": "Landschaftsgestaltung 3",
+      "url": "allModules/38694_M_LaGest3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 37278,
+      "kuerzel": "M_LGes4",
+      "bezeichnung": "Landschaftsgestaltung 4",
+      "url": "allModules/37278_M_LGes4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 31326,
+      "kuerzel": "M_LaGes4",
+      "bezeichnung": "Landschaftsgestaltung 4",
+      "url": "allModules/31326_M_LaGes4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 19662,
+      "kuerzel": "M_LÖ1",
+      "bezeichnung": "Landschaftsökologie 1",
+      "url": "allModules/19662_M_LÖ1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 18747,
+      "kuerzel": "M_LÖk1",
+      "bezeichnung": "Landschaftsökologie 1",
+      "url": "allModules/18747_M_LÖk1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 36055,
+      "kuerzel": "M_LÖ1a",
+      "bezeichnung": "Landschaftsökologie 1a",
+      "url": "allModules/36055_M_LÖ1a.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 22526,
+      "kuerzel": "M_LÖ1b",
+      "bezeichnung": "Landschaftsökologie 1b",
+      "url": "allModules/22526_M_LÖ1b.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 18759,
+      "kuerzel": "M_LÖk2",
+      "bezeichnung": "Landschaftsökologie 2",
+      "url": "allModules/18759_M_LÖk2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 36068,
+      "kuerzel": "M_LÖk2a",
+      "bezeichnung": "Landschaftsökologie 2a",
+      "url": "allModules/36068_M_LÖk2a.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 22558,
+      "kuerzel": "M_LÖk2b",
+      "bezeichnung": "Landschaftsökologie 2b",
+      "url": "allModules/22558_M_LÖk2b.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 31518,
+      "kuerzel": "M_LÖk2b",
+      "bezeichnung": "Landschaftsökologie 2b",
+      "url": "allModules/31518_M_LÖk2b.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 31511,
+      "kuerzel": "M_LÖK3",
+      "bezeichnung": "Landschaftsökologie 3",
+      "url": "allModules/31511_M_LÖK3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 18771,
+      "kuerzel": "M_LÖk4",
+      "bezeichnung": "Landschaftsökologie 4",
+      "url": "allModules/18771_M_LÖk4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 36695,
+      "kuerzel": "M_LÖ5",
+      "bezeichnung": "Landschaftsökologie 5",
+      "url": "allModules/36695_M_LÖ5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 18702,
+      "kuerzel": "M_LaP",
+      "bezeichnung": "Landschaftspflege",
+      "url": "allModules/18702_M_LaP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11000,
+      "kuerzel": "M_LaPflege",
+      "bezeichnung": "Landschaftspflege",
+      "url": "allModules/11000_M_LaPflege.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 28136,
+      "kuerzel": "M_La1",
+      "bezeichnung": "Landschaftsplanung 1 - Landschaftpflege und Landschaftsplanung verstehen",
+      "url": "allModules/28136_M_La1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 18787,
+      "kuerzel": "M_Lp5",
+      "bezeichnung": "Landschaftsplanung 5 (Interdisziplinäres Projekt L und R)",
+      "url": "allModules/18787_M_Lp5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 31241,
+      "kuerzel": "M_LeRaPfla",
+      "bezeichnung": "Lebensräume und Pflanzen",
+      "url": "allModules/31241_M_LeRaPfla.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 20260,
+      "kuerzel": "M_LTec",
+      "bezeichnung": "Lerntechnik",
+      "url": "allModules/20260_M_LTec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10988,
+      "kuerzel": "M_ManNat",
+      "bezeichnung": "Management von Naturschutzgebieten",
+      "url": "allModules/10988_M_ManNat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 16623,
+      "kuerzel": "M_NaEntw_e",
+      "bezeichnung": "Nachhaltige Entwicklung - Blended Learning",
+      "url": "allModules/16623_M_NaEntw_e.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 31361,
+      "kuerzel": "M_NatLa1",
+      "bezeichnung": "Natur- und Landschaftspflege 1",
+      "url": "allModules/31361_M_NatLa1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 41642,
+      "kuerzel": "M_NatLa2",
+      "bezeichnung": "Natur- und Landschaftspflege 2",
+      "url": "allModules/41642_M_NatLa2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 41662,
+      "kuerzel": "M_NaTour",
+      "bezeichnung": "Naturnaher Tourismus",
+      "url": "allModules/41662_M_NaTour.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 39268,
+      "kuerzel": "M_NT",
+      "bezeichnung": "Naturnaher Tourismus",
+      "url": "allModules/39268_M_NT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 20257,
+      "kuerzel": "M_PersLP",
+      "bezeichnung": "Persönliche Lernplanung",
+      "url": "allModules/20257_M_PersLP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 25908,
+      "kuerzel": "M_PK1",
+      "bezeichnung": "Pflanzenkenntnisse 1",
+      "url": "allModules/25908_M_PK1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 27219,
+      "kuerzel": "M_PK2",
+      "bezeichnung": "Pflanzenkenntnisse 2",
+      "url": "allModules/27219_M_PK2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 17180,
+      "kuerzel": "M_KatProfLa",
+      "bezeichnung": "Profilmodule Landschaftsarchitektur",
+      "url": "allModules/17180_M_KatProfLa.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 40269,
+      "kuerzel": "M_KatProfLa5",
+      "bezeichnung": "Profilmodule Landschaftsarchitektur",
+      "url": "allModules/40269_M_KatProfLa5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 40266,
+      "kuerzel": "M_KatProfLa6",
+      "bezeichnung": "Profilmodule Landschaftsarchitektur",
+      "url": "allModules/40266_M_KatProfLa6.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 40281,
+      "kuerzel": "M_KatProfLa10",
+      "bezeichnung": "Profilmodule Landschaftsarchitektur",
+      "url": "allModules/40281_M_KatProfLa10.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 40275,
+      "kuerzel": "M_KatProfLa8",
+      "bezeichnung": "Profilmodule Landschaftsarchitektur",
+      "url": "allModules/40275_M_KatProfLa8.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 40272,
+      "kuerzel": "M_KatProfLa7",
+      "bezeichnung": "Profilmodule Landschaftsarchitektur",
+      "url": "allModules/40272_M_KatProfLa7.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 23550,
+      "kuerzel": "M_KatProfLa2",
+      "bezeichnung": "Profilmodule Landschaftsarchitektur 2",
+      "url": "allModules/23550_M_KatProfLa2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 25148,
+      "kuerzel": "M_KatProfLa3",
+      "bezeichnung": "Profilmodule Landschaftsarchitektur 3",
+      "url": "allModules/25148_M_KatProfLa3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 25149,
+      "kuerzel": "M_KatProfLa4",
+      "bezeichnung": "Profilmodule Landschaftsarchitektur 4",
+      "url": "allModules/25149_M_KatProfLa4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 40278,
+      "kuerzel": "M_KatProfLa9",
+      "bezeichnung": "Profilmodule Landschaftsarchitektur 9",
+      "url": "allModules/40278_M_KatProfLa9.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 31377,
+      "kuerzel": "M_ProjReal1",
+      "bezeichnung": "Projektrealisierung 1",
+      "url": "allModules/31377_M_ProjReal1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 31397,
+      "kuerzel": "M_ProjReal2",
+      "bezeichnung": "Projektrealisierung 2",
+      "url": "allModules/31397_M_ProjReal2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11119,
+      "kuerzel": "M_RPuV",
+      "bezeichnung": "Raumplanung und Verkehr: Grundlagen",
+      "url": "allModules/11119_M_RPuV.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 38766,
+      "kuerzel": "M_ReKgs",
+      "bezeichnung": "Recht 1 und Kulturgeschichte",
+      "url": "allModules/38766_M_ReKgs.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10022,
+          "kuerzel": "L-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 18509,
+      "kuerzel": "M_RE2",
+      "bezeichnung": "Recht 2",
+      "url": "allModules/18509_M_RE2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10022,
+          "kuerzel": "L-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 41565,
+      "kuerzel": "M_Renat",
+      "bezeichnung": "Renaturierung und ökologische Aufwertung",
+      "url": "allModules/41565_M_Renat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 31916,
+      "kuerzel": "M_RheKoP",
+      "bezeichnung": "Rhetorische Kommunikation für PlanerInnen",
+      "url": "allModules/31916_M_RheKoP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 60981,
+      "kuerzel": "M_RheKo",
+      "bezeichnung": "Rhetorische Kommunikation für PlanerInnen",
+      "url": "allModules/60981_M_RheKo.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 24432,
+      "kuerzel": "M_Span1",
+      "bezeichnung": "Spanisch 1",
+      "url": "allModules/24432_M_Span1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 19701,
+      "kuerzel": "M_Span2",
+      "bezeichnung": "Spanisch 2",
+      "url": "allModules/19701_M_Span2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10021,
+          "kuerzel": "L-ks",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 41836,
+      "kuerzel": "M_SBpFP7",
+      "bezeichnung": "Städtebau - Projekt / Freiraumplanung 7",
+      "url": "allModules/41836_M_SBpFP7.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 29137,
+      "kuerzel": "M_SB2FP1L",
+      "bezeichnung": "Städtebau 2 / Freiraumplanung 1",
+      "url": "allModules/29137_M_SB2FP1L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 21611,
+      "kuerzel": "M_St3Fp1",
+      "bezeichnung": "Städtebau 3 / Freiraumplanung 1",
+      "url": "allModules/21611_M_St3Fp1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15692,
+      "kuerzel": "M_ST4",
+      "bezeichnung": "Städtebau 4",
+      "url": "allModules/15692_M_ST4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 11169,
+      "kuerzel": "M_ST4",
+      "bezeichnung": "Städtebau 4",
+      "url": "allModules/11169_M_ST4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 29131,
+      "kuerzel": "M_SB4Fp2",
+      "bezeichnung": "Städtebau 4 / Freiraumplanung 2",
+      "url": "allModules/29131_M_SB4Fp2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 17064,
+      "kuerzel": "M_St6Fp3",
+      "bezeichnung": "Städtebau 6 / Freiraumplanung 3",
+      "url": "allModules/17064_M_St6Fp3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 16435,
+      "kuerzel": "M_St7Fp4",
+      "bezeichnung": "Städtebau 7 / Freiraumplanung 4",
+      "url": "allModules/16435_M_St7Fp4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 36048,
+      "kuerzel": "M_SB7FP6",
+      "bezeichnung": "Städtebau 7 / Freiraumplanung 6",
+      "url": "allModules/36048_M_SB7FP6.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 18368,
+      "kuerzel": "M_UG",
+      "bezeichnung": "Umwelt und Gesellschaft",
+      "url": "allModules/18368_M_UG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 11127,
+      "kuerzel": "M_UmwTour",
+      "bezeichnung": "Umwelt und Tourismus",
+      "url": "allModules/11127_M_UmwTour.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 18920,
+      "kuerzel": "M_UVNatLa",
+      "bezeichnung": "Umweltverträglichkeit, Natur und Landschaft",
+      "url": "allModules/18920_M_UVNatLa.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 31422,
+      "kuerzel": "M_UF1",
+      "bezeichnung": "Unternehmensführung 1",
+      "url": "allModules/31422_M_UF1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 61275,
+      "kuerzel": "M_UF1n",
+      "bezeichnung": "Unternehmensführung 1",
+      "url": "allModules/61275_M_UF1n.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 18358,
+      "kuerzel": "M_UF1",
+      "bezeichnung": "Unternehmensführung 1 (Profil)",
+      "url": "allModules/18358_M_UF1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 31391,
+      "kuerzel": "M_UnF2",
+      "bezeichnung": "Unternehmensführung 2 (2018)",
+      "url": "allModules/31391_M_UnF2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 18385,
+      "kuerzel": "M_UF2",
+      "bezeichnung": "Unternehmensführung 2 (Profil)",
+      "url": "allModules/18385_M_UF2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 23406,
+      "kuerzel": "M_UF3",
+      "bezeichnung": "Unternehmensführung 3",
+      "url": "allModules/23406_M_UF3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 29846,
+      "kuerzel": "M_VisKom1",
+      "bezeichnung": "Visuelle Kommunikation 1",
+      "url": "allModules/29846_M_VisKom1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 29837,
+      "kuerzel": "M_VisKom2",
+      "bezeichnung": "Visuelle Kommunikation 2",
+      "url": "allModules/29837_M_VisKom2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 17448,
+      "kuerzel": "M_VisKom3",
+      "bezeichnung": "Visuelle Kommunikation 3",
+      "url": "allModules/17448_M_VisKom3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10970,
+      "kuerzel": "M_VisKom3",
+      "bezeichnung": "Visuelle Kommunikation 3",
+      "url": "allModules/10970_M_VisKom3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 32766,
+      "kuerzel": "M_WSLS",
+      "bezeichnung": "Workshop \"Lern-Support an der OST\"",
+      "url": "allModules/32766_M_WSLS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 38691,
+      "kuerzel": "M_ZeiWo",
+      "bezeichnung": "Zeichenwoche",
+      "url": "allModules/38691_M_ZeiWo.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ]
+}

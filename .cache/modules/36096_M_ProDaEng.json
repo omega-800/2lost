@@ -1,0 +1,230 @@
+{
+  "id": 36096,
+  "kuerzel": "M_ProDaEng",
+  "bezeichnung": "Product Data Engineering",
+  "kreditpunkte": 4,
+  "lernziele": "<ul><li>Gesamtbild der Produktdaten &uuml;ber den gesamten Lebenszyklus erarbeiten</li><li>Verstehen der Zusammenh&auml;nge in einem mechatronischen / IoT-Produkt</li><li>Kennenlernen von verschiedenen Kommunikationstechnologien &uuml;ber den IoT-Stack (Vertikale Integration)</li><li>Kennenlernen von verschiedenen Kommunikationstechnologien zwischen Enterprise Systemen entlang der Wertsch&ouml;pfungskette und entlang des Lebenszyklus (Horizontale Integration)</li><li>Bef&auml;higung, w&auml;hrend der Entwicklung eines Produktes den Mehrwert der Produktdaten (Stammdaten, Felddaten) zu ber&uuml;cksichtigen und damit verbundene Entscheide zu treffen bez&uuml;glich:<ul><li>Datenarchitektur</li><li>Modularisierung</li><li>Mechanische vs. Software-basierte L&ouml;sungsans&auml;tze</li><li>Kommunikationstechnologien / - Protokolle</li></ul></li><li>Hands-on Erfahrung sammeln</li></ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 36097,
+      "kuerzel": "ProDaEng",
+      "bezeichnung": "Product Data Engineering",
+      "lernziele": "siehe Modulziele",
+      "planinhalt": "<p>Aufgabe: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />Entwicklung und Inbetriebnahme eines IoT Produktes / Modules &nbsp;(Physisches Produkt wie auch Digitales Produkt), das diverse Schnittstellen (mechanisch, elektrisch, software-technische) zu einem bestehenden System erf&uuml;llen muss.<br />Das Produkt umfasst die folgenden Aspekte:</p><ul><li>Mechatronisches System: Mech. Struktur, Aktor(en), Sensor(en), Microprozessor (Embedded Software)</li><li>Closed-Loop: Messen der eigenen Performance, R&uuml;ckmeldung via Cloud ins PLM</li><li>Cloud-Kommunikation: Datenerfassung im Feld, Daten&uuml;bermittlung, Datenspeicherung, End User App / &bdquo;Digital Twin&ldquo;, Auswertung der Feld-Daten &uuml;ber viele Teams</li></ul><p>Ablauf:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />Das Produkt wird in vorgegebenen Entwicklungs-Sprints mit jeweils einer Zwischenpr&auml;sentation entwickelt.</p>",
+      "kurselemente": [
+        {
+          "id": 36098,
+          "art": "Uebung",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 20,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Product Data Engineering"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Product Data Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 10083,
+      "bezeichnung": "Maschinenbau-Informatik",
+      "kuerzel": "M-I-MI",
+      "url": "allStudies/10083_M-I-MI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10120,
+      "bezeichnung": "Maschinenbau-Informatik",
+      "kuerzel": "M-I-MI",
+      "url": "allStudies/10120_M-I-MI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10209,
+      "bezeichnung": "Digitalisierung",
+      "kuerzel": "M-I-DIG",
+      "url": "allStudies/10209_M-I-DIG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 539814,
+      "name": "Nyffenegger",
+      "vorname": "Felix"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 20813,
+      "kuerzel": "M_Dbs1",
+      "bezeichnung": "Datenbanksysteme 1",
+      "url": "allModules/20813_M_Dbs1.json"
+    },
+    {
+      "id": 24072,
+      "kuerzel": "M_Inno1",
+      "bezeichnung": "Innovation 1",
+      "url": "allModules/24072_M_Inno1.json"
+    },
+    {
+      "id": 26335,
+      "kuerzel": "M_JavaC",
+      "bezeichnung": "Java für C++ Programmierer",
+      "url": "allModules/26335_M_JavaC.json"
+    },
+    {
+      "id": 28001,
+      "kuerzel": "M_GruIT",
+      "bezeichnung": "Grundlagen Informations-Technologien",
+      "url": "allModules/28001_M_GruIT.json"
+    },
+    {
+      "id": 28208,
+      "kuerzel": "M_Inno4",
+      "bezeichnung": "Innovation 4",
+      "url": "allModules/28208_M_Inno4.json"
+    },
+    {
+      "id": 28366,
+      "kuerzel": "M_ProgC",
+      "bezeichnung": "Programmieren in C",
+      "url": "allModules/28366_M_ProgC.json"
+    },
+    {
+      "id": 28375,
+      "kuerzel": "M_ProgCPP",
+      "bezeichnung": "Programmieren in C++",
+      "url": "allModules/28375_M_ProgCPP.json"
+    },
+    {
+      "id": 31619,
+      "kuerzel": "M_VE2",
+      "bezeichnung": "Virtuelles Entwickeln 2",
+      "url": "allModules/31619_M_VE2.json"
+    },
+    {
+      "id": 37320,
+      "kuerzel": "M_ProgEinf",
+      "bezeichnung": "Einführung Programmierung",
+      "url": "allModules/37320_M_ProgEinf.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Product Data Engineering"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Product Data Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2020,
+    "beginSemester": "FS",
+    "endJahr": 2025,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 23617,
+    "kuerzel": "M_PLM_Sys",
+    "bezeichnung": "Product Lifecycle Management System",
+    "url": "allModules/23617_M_PLM_Sys.json"
+  }
+}

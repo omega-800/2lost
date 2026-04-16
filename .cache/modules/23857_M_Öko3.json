@@ -1,0 +1,145 @@
+{
+  "id": 23857,
+  "kuerzel": "M_Öko3",
+  "bezeichnung": "Ökologie 3",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Die Studierenden verstehen die Grundprinzipien der Nachhaltigen Entwicklung mit den drei Dimensionen Umwelt, Wirtschaft und Gesellschaft. Sie k&ouml;nnen Siedlungen hinsichtlich Nachhaltigkeit beurteilen und bei Defiziten in den Bereich Boden, Wasser und Artenvielfalt Verbesserungsmassnahmen formulieren.<br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 23858,
+      "kuerzel": "Sök",
+      "bezeichnung": "Siedlungsökologie",
+      "lernziele": "<p>Die Studierenden verstehen die Grundprinzipien der Nachhaltigen Entwicklung mit den drei Dimensionen Umwelt, Wirtschaft und Gesellschaft. Sie k&ouml;nnen Siedlungen hinsichtlich Nachhaltigkeit beurteilen und bei Defiziten in den Bereich Boden, Wasser und Artenvielfalt Verbesserungsmassnahmen formulieren.<br /></p>",
+      "planinhalt": "<ul>\n    <li>Grundlagen der Siedlungs&ouml;kologie </li>\n    <li>Prinzipien der Nachhaltigen Entwicklung </li>\n    <li>Schutz des Bodens und Umgang mit Altlasten </li>\n    <li>Schutz und Gestaltung der Gew&auml;sser im Siedlungsraum </li>\n    <li>F&ouml;rderung von Natur und Artenvielfalt im Siedlungsraum </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 23859,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Siedlungsökologie"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Urban Ecology"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10000,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10000_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10041,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10041_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10097,
+          "kuerzel": "R_uö",
+          "bezeichnung": "Umwelt und Ökologie",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10123,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10123_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10097,
+          "kuerzel": "R_uö",
+          "bezeichnung": "Umwelt und Ökologie",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5000886,
+      "name": "Stapfer",
+      "vorname": "André"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 23857,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Ökologie 3"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Ecology 3"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2014,
+    "beginSemester": "HS",
+    "endJahr": 2016,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 18222,
+    "kuerzel": "M_Öko3",
+    "bezeichnung": "Ökologie 3",
+    "url": "allModules/18222_M_Öko3.json"
+  }
+}

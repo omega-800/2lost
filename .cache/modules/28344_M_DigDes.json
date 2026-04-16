@@ -1,0 +1,184 @@
+{
+  "id": 28344,
+  "kuerzel": "M_DigDes",
+  "bezeichnung": "Digital Design",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Die Studierenden lernen auf systematische Art und Weise, digitale Schaltungen auf der Basis von VHDL zu entwerfen, zu simulieren und zu realisieren.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 28345,
+      "kuerzel": "DigDes",
+      "bezeichnung": "Digital Design",
+      "planinhalt": "<ul>\n<li>Designbeschreibung f&uuml;r digitale Systeme mit VHDL\n<ul>\n<li>Simulation und Test digitaler Schaltungen mit VHDL (Simulationsaufbau, zeitliches Verhalten, Ablaufstrukturen, Simulationsablauf)&nbsp;</li>\n</ul>\n</li>\n<li>Schaltungsbeschreibung und Schaltungssynthese sequentieller Systeme mit VHDL\n<ul>\n<li>Spezielle sequentielle Baubl&ouml;cke (Register/Speicher, Z&auml;hler, Flankendetektor, Pulsdetektor,&nbsp; etc.)</li>\n</ul>\n</li>\n<li>Realisierung digitaler Schaltungen auf FPGA</li>\n</ul>\n<p>&nbsp;</p>\n<p>&Auml;nderungen vorbehalten</p>",
+      "kurselemente": [
+        {
+          "id": 28346,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        },
+        {
+          "id": 28347,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Digital Design"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Digital Design"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 537055,
+      "name": "Zbinden",
+      "vorname": "Paul"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 25993,
+      "kuerzel": "M_DigT",
+      "bezeichnung": "Digitaltechnik",
+      "url": "allModules/25993_M_DigT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 28344,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat (Praktikum)</p>\n<p>&nbsp;</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Digital Design"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Digital Design"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2017,
+    "beginSemester": "FS",
+    "endJahr": 2022,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 22405,
+    "kuerzel": "M_DT2",
+    "bezeichnung": "Digitaltechnik 2",
+    "url": "allModules/22405_M_DT2.json"
+  },
+  "nachfolger": {
+    "id": 28344,
+    "kuerzel": "M_DigDes",
+    "bezeichnung": "Digital Design",
+    "url": "allModules/28344_M_DigDes.json"
+  }
+}

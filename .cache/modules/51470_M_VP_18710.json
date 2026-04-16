@@ -1,0 +1,211 @@
+{
+  "id": 51470,
+  "kuerzel": "M_VP_18710",
+  "bezeichnung": "Eingebettete Systeme I e",
+  "kreditpunkte": 15,
+  "lernziele": "<p>Fachkompetenz:<br />Die Studierenden</p><ul><li>kennen unterschiedliche Debugging Architekturen.</li><li>wissen wie g&auml;ngige Techniken (Breakpoints, Variablen) in Hard- und Software umgesetzt werden.</li><li>kennen die Anforderungen an einen Debugger und die notwendige Debuginformation.</li><li>verstehen wie der Compiliervorgang abl&auml;uft, kennen die verschiedenen Zwischenstufen und &ndash;formate.</li><li>k&ouml;nnen daraus ein passendes Programm innerhalb eines gegebenen Frameworks entwickeln.</li></ul><p>Methodenkompetenz<br />Die Studierenden</p><ul><li>demonstrieren F&auml;higkeit zu Analyse, Kreativit&auml;t, vernetztes Denken.</li><li>k&ouml;nnen ein bestehendes Konzepte analysieren und auf erweiterte Anforderungen anpassen.</li></ul><p>Sozialkompetenz</p><ul><li>Kommunikations- und Kooperationsf&auml;higkeit</li></ul><p>Selbstkompetenz</p><ul><li>Selbst&auml;ndigkeit, Verantwortlichkeit</li></ul>",
+  "vorausgKenntnisse": "Bachelor of Science in Systemtechnik",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 51471,
+      "kuerzel": "VP_1871001",
+      "bezeichnung": "deep Debugging with DWARFFPGA",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Fachkompetenz:<br />Die Studierenden</p><ul><li>kennen die Anforderungen an einen Debugger und die notwendige Debuginformation.</li><li>Verstehen wie der Compiliervorgang abl&auml;uft, kennen die verschiedenen Zwischenstufen und &ndash;formate.</li><li>k&ouml;nnen daraus ein passendes Programm innerhalb eines gegebenen Frameworks entwickeln.</li></ul><p>Methodenkompetenz:<br />Die Studierenden</p><ul><li>demonstrieren F&auml;higkeit zu Analyse, Kreativit&auml;t, vernetztes Denken.</li><li>k&ouml;nnen ein bestehendes Konzept analysieren und auf erweiterte Anforderungen anpassen.</li></ul><p>Sozialkompetenz</p><ul><li>Kommunikations- und Kooperationsf&auml;higkeit</li></ul><p>Selbstkompetenz</p><ul><li>Selbst&auml;ndigkeit, Verantwortlichkeit</li></ul>",
+      "planinhalt": "<p>deep ist ein von uns entwickelter Crosscompiler f&uuml;r Java f&uuml;r eingebettete Systeme. Wir m&ouml;chten GDB als universell einsetzbaren Debugger mit Integration in die Entwicklungsumgebung eclipse einsetzen. Dazu soll das erzeugte ausf&uuml;hrbare Programm die notwendige Debuginformation im DWARF Format beinhalten. Diese Informationen sollen erzeugt, dargestellt und extrahiert werden k&ouml;nnen. Auf die &Uuml;bersetzungszeit und die Laufzeit sollen keine Auswirkungen sichtbar werden.<br />Erstellen eines detaillierten Projektplans mit Meilensteinen, regelm&auml;ssige Information bez&uuml;glich Projektstand, Selbstverantwortung.<br />Lieferobjekte: Projekt, Bericht, Schlusspr&auml;sentation.</p>",
+      "bibliographie": "<p>www.deepjava.org</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "bemerkungKurs": "<p>Unterrichtssprache Englisch (teilweise in Deutsch)</p>",
+      "leistungsnachweis": "Das zu bearbeitende Projekt wird mittels Projektarbeit, Bericht und einer Schlusspr&auml;sentation mit Pr&uuml;fungsgespr&auml;ch bewertet.",
+      "kurselemente": [
+        {
+          "id": 51472,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000080,
+          "name": "Graf",
+          "vorname": "Urs"
+        }
+      ]
+    },
+    {
+      "id": 51473,
+      "kuerzel": "VP_181002",
+      "bezeichnung": "Debugging Architekturen",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>kennen unterschiedliche Debugging Architekturen.</li><li>wissen wie g&auml;ngige Techniken (Breakpoints, Variablen) in Hard- und Software umgesetzt werden.</li><li>erwerben Fachkompetenzen (Faktenwissen, Methodenwissen und Systemdenken) und Methodenkompetenzen.</li></ul>",
+      "planinhalt": "<p>Unterschiedliche Debugging-Architekturen, Hardwarevoraussetzungen, GDB, OpenOCD, BDI, OnChip-Debugger</p>",
+      "bibliographie": "<p>Fachb&uuml;cher aus dem Bereich Embedded Systems Architecture, online Dokumentation von ARM, PPC, GDB</p>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "bemerkungKurs": "<p>Unterrichtssprache Englisch (teilweise in Deutsch)</p>",
+      "leistungsnachweis": "<p>Der Kurs wird mittels Schlusspr&auml;sentation mit Pr&uuml;fungsgespr&auml;ch bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 51474,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000080,
+          "name": "Graf",
+          "vorname": "Urs"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000080,
+      "name": "Graf",
+      "vorname": "Urs"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Embedded Systems I e"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2018,
+    "beginSemester": "HS",
+    "endJahr": 2018,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 51470,
+    "kuerzel": "M_VP_18710",
+    "bezeichnung": "Eingebettete Systeme I e",
+    "url": "allModules/51470_M_VP_18710.json"
+  }
+}

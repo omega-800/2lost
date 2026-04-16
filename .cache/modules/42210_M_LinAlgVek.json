@@ -1,0 +1,166 @@
+{
+  "id": 42210,
+  "kuerzel": "M_LinAlgVek",
+  "bezeichnung": "Lineare Algebra / Vektorgeometrie (Bauingenieurwesen)",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n<li>Die TeilnehmerInnen verstehen die Vektorgeometrie als ein Werkzeug, um geometrische Problemstellungen rechnerisch zu l&ouml;sen. Sie erfahren die Lineare Algebra als Fortf&uuml;hrung und Verallgemeinerung der Vektorgeometrie, auch in h&ouml;here Dimensionen.</li>\n<li>Die TeilnehmerInnen k&ouml;nnen geometrische Probleme im Zusammenhang mit Geraden und Ebenen (gegenseitige Lage, Schnitte, Abstand) l&ouml;sen. Sie k&ouml;nnen Winkel mit dem Skalarprodukt, Fl&auml;cheninhalte mit dem Vektorprodukt und Volumina mit dem Spatprodukt berechnen.</li>\n<li>Die TeilnehmerInnen k&ouml;nnen Vektoren bez&uuml;glich unterschiedlicher Basen darstellen. Sie beherrschen das Rechnen mit Matrizen und verstehen den Zusammenhang zwischen linearen Abbildungen und Matrizen.</li>\n<li>Die TeilnehmerInnen k&ouml;nnen lineare Gleichungssysteme mit dem Gauss-Algorithmus l&ouml;sen.</li>\n<li>Die TeilnehmerInnen k&ouml;nnen eine Mathematiksoftware einsetzen, um Probleme aus der Vektorgeometrie und aus der Linearen Algebra zu l&ouml;sen.&nbsp;</li>\n</ul>",
+  "vorausgKenntnisse": "Mathematikkenntnisse gem&auml;ss Rahmenlehrplan f&uuml;r die technische Berufsmaturit&auml;t.",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 42211,
+      "kuerzel": "LinAlgVek",
+      "bezeichnung": "Lineare Algebra / Vektorgeometrie",
+      "lernziele": "<ul>\n<li>Die TeilnehmerInnen verstehen die Vektorgeometrie als ein Werkzeug, um geometrische Problemstellungen rechnerisch zu l&ouml;sen. Sie erfahren die Lineare Algebra als Fortf&uuml;hrung und Verallgemeinerung der Vektorgeometrie, auch in h&ouml;here Dimensionen.</li>\n<li>Die TeilnehmerInnen k&ouml;nnen geometrische Probleme im Zusammenhang mit Geraden und Ebenen (gegenseitige Lage, Schnitte, Abstand) l&ouml;sen. Sie k&ouml;nnen Winkel mit dem Skalarprodukt, Fl&auml;cheninhalte mit dem Vektorprodukt und Volumina mit dem Spatprodukt berechnen.</li>\n<li>Die TeilnehmerInnen k&ouml;nnen Vektoren bez&uuml;glich unterschiedlicher Basen darstellen. Sie beherrschen das Rechnen mit Matrizen und verstehen den Zusammenhang zwischen linearen Abbildungen und Matrizen.</li>\n<li>Die TeilnehmerInnen k&ouml;nnen lineare Gleichungssysteme mit dem Gauss-Algorithmus l&ouml;sen.</li>\n<li>Die TeilnehmerInnen k&ouml;nnen eine Mathematiksoftware einsetzen, um Probleme aus der Vektorgeometrie und aus der Linearen Algebra zu l&ouml;sen.&nbsp;</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>&nbsp;Geraden und Ebenen</li>\n<li>Skalarprodukt und dessen Verwendung zur Berechnung von L&auml;nge, Abstand und Winkel (inklusive Orthogonalit&auml;t) sowie zur Projektion eines Vektors auf einen anderen Vektor</li>\n<li>Vektorprodukt und dessen Verwendung zur Konstruktion eines zu einer Ebene orthogonalen Vektors und zur Berechnung von Fl&auml;cheninhalten.</li>\n<li>Spatprodukt und dessen Verwendung zur Berechnung von Volumina.</li>\n<li>Lineare Gleichungssysteme und Gauss-Algorithmus</li>\n<li>Linearkombination von Vektoren und lineare Unabh&auml;ngigkeit</li>\n<li>Matrixrechnung; Determinante</li>\n<li>Basis und Basiswechsel</li>\n<li>Lineare Abbildungen und ihre Darstellung mit Hilfe einer Matrix</li>\n<li>Eigenwerte und Eigenvektoren einer Matrix</li>\n<li>Einsatz einer Mathematiksoftware (Matlab bzw. Octave)&nbsp;</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 42213,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 42358,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Lineare Algebra / Vektorgeometrie"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Linear Algebra / Vector Geometry"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10197,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10197_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10234,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10234_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10261,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10261_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5019972,
+      "name": "Bichsel",
+      "vorname": "Manuel"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 42210,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Lineare Algebra / Vektorgeometrie (Bauingenieurwesen)"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Linear Algebra / Vector Geometry (Civil Engineering)"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2023,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  }
+}

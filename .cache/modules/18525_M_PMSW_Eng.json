@@ -1,0 +1,228 @@
+{
+  "id": 18525,
+  "kuerzel": "M_PMSW_Eng",
+  "bezeichnung": "Projektmanagement und Software Engineering",
+  "kreditpunkte": 3,
+  "lernziele": "<ul>\n    <li>Werkzeuge und Techniken professioneller Software-Entwicklung kennen und anwenden k&ouml;nnen.</li>\n    <li>C++ Programme mit graphischer Benutzerschnittstelle (GUI-Programme) erstellen k&ouml;nnen.<br /></li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 18526,
+      "kuerzel": "PMSwEng",
+      "bezeichnung": "Projektmanagement und Software Engineering",
+      "planinhalt": "<p>Werkzeuge und Techniken</p>\n<ul>\n    <li>Versionsverwaltung mit Subversion</li>\n    <li>Unit-Testing mit CPPUnit</li>\n    <li>Generierung der Dokumentation aus dem Source-Code mit Hilfe von Doxygen</li>\n    <li>Erstellen von GUI-Programmen mit Hilfe der qt-Library.</li>\n</ul>\n<p>Software Entwicklung</p>\n<ul>\n    <li>Vorgehensmodelle</li>\n    <li>Software Projektmanagement</li>\n    <li>Testen von Software (u.a. Unit-Testing)</li>\n    <li>Refactoring (&Uuml;berarbeitung, Verbesserung bestehender Software)</li>\n    <li>Allgemeine Entwurfsprinzipien: Design by Contract, defensives Programmieren</li>\n    <li>Ereignisbasierte Programmierung, Entwurf von GUI-Programmen</li>\n</ul>\n<p>(&Auml;nderungen vorbehalten)</p>",
+      "kurselemente": [
+        {
+          "id": 18527,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 18528,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Projektmanagement und Software Engineering"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Project Management and Software Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10083,
+      "bezeichnung": "Maschinenbau-Informatik",
+      "kuerzel": "M-I-MI",
+      "url": "allStudies/10083_M-I-MI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10120,
+      "bezeichnung": "Maschinenbau-Informatik",
+      "kuerzel": "M-I-MI",
+      "url": "allStudies/10120_M-I-MI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 140,
+      "name": "Pletscher",
+      "vorname": "Hans Heinrich"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 17283,
+      "kuerzel": "M_OOProg",
+      "bezeichnung": "OO-Programmierkonzepte",
+      "url": "allModules/17283_M_OOProg.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 18525,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "Testat",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Projektmanagement und Software Engineering"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Project Management and Software Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2010,
+    "beginSemester": "FS",
+    "endJahr": 2016,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 18525,
+    "kuerzel": "M_PMSW_Eng",
+    "bezeichnung": "Projektmanagement und Software Engineering",
+    "url": "allModules/18525_M_PMSW_Eng.json"
+  }
+}

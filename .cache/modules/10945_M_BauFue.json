@@ -1,0 +1,156 @@
+{
+  "id": 10945,
+  "kuerzel": "M_BauFue",
+  "bezeichnung": "Bauausführung",
+  "kreditpunkte": 4,
+  "lernziele": "<p>&bull; Kenntnis der Organisationsformen der Bauausf&uuml;hrung, der Grundlagen der Kalkulation und der Devisierung, des Vertrags- und Versicherungswesens, der Arbeitsweise und der Einsatzm&ouml;glichkeiten der Baumaschinen und -ger&auml;te (inkl. Strassen- und Schienenfahrzeuge), sowie der wichtigsten Baumethoden. <br />&bull; Erkennen der Ausf&uuml;hrungsprobleme eines Projekts und Absch&auml;tzen des erforderlichen Mitteleinsatzes (Maschinen, Arbeitskr&auml;fte). <br />&bull; F&auml;higkeit einen Auftrag zu analysieren, die Bauzeit zu sch&auml;tzen und einen Zeitplan zu erstellen. <br />&bull; Kenntnis der Vorschriften &uuml;ber Arbeitssicherheit und Umweltschutz.</p>",
+  "vorausgKenntnisse": "<p>keine</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10020,
+      "kuerzel": "BauFue1",
+      "bezeichnung": "Bauausführung 1",
+      "planinhalt": "<p>&bull; Beispiele aktueller Bauvorhaben: Organisation und Ablauf, Devisierung, Kalkulation, Offerte, Fakturierung <br />&bull; am Bau Beteiligte <br />&bull; Vertragsformen <br />&bull; SIA-Normen <br />&bull; Vorschriften &uuml;ber Unfallverh&uuml;tung <br />&bull; Vorschriften &uuml;ber Masse und Gewichte im Strassenverkehr <br />&bull; Typen, Leistungen und Leistungsberechnung von Baumaschinen <br />&bull; Vorstellung und Begleitung eines Bauobjekts im Raum Rapperswil (Kurzexkursion)</p>",
+      "kurselemente": [
+        {
+          "id": 10922,
+          "art": "Vorlesung",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Bauausführung 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Construction Methods 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10005,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10005_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10011,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10011_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10109,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10109_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10017,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10017_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 539,
+      "name": "Ramseier",
+      "vorname": "Hans Rudolf"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 10945,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testatbedingung: Pr&#228;sentation</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Bauausführung"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Construction Methods"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2010,
+    "endSemester": "HS"
+  }
+}

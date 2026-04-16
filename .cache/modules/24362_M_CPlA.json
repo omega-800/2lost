@@ -1,0 +1,220 @@
+{
+  "id": 24362,
+  "kuerzel": "M_CPlA",
+  "bezeichnung": "C++ Advanced",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Fortgeschrittene Techniken der Nutzung von Standard C++ und von wichtigen Bibliotheken<br /></p>",
+  "vorausgKenntnisse": "<p>Englisch<br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 24363,
+      "kuerzel": "CplA",
+      "bezeichnung": "C++ Advanced",
+      "lernziele": "<ul>\n    <li> Fortgeschrittene Konzepte und Sprachmittel von Standard C++ anwenden und verstehen </li>\n    <li> Funktionale und generische Programmierung zur Laufzeit und zur Compilezeit </li>\n    <li> Umgang mit Legacy C++ und Refactoring zu modernem C++ </li>\n    <li> Fortgeschrittene Bibliotheken Überblick und Nutzen, z.B. Boost Libraries </li>\n    <li> Einblick in die C++ Standardisierung, Ausblick auf zukünftige Standards </li>\n</ul>",
+      "planinhalt": "<p>Genaue Details werden zu Semesterstart bekannt gegeben. M&ouml;gliche Themen sind:</p><ul><li>Rekapitulation C++: Typen, Werte, Funktionen, Lambdas, Templates, Variablentemplates, SFINAE, Variadic-Templates mit Parameter-Packs</li><li>Eigene Iteratoren f&uuml;r die Algorithmen der Standardbibliothek definieren, Adaption von Standardcontainern, inklusive hashing</li><li>Resourcenmanagement - Lebensdauer, Referenzen (lvalue, rvalue), Move versus Copy f&uuml;r eigene Typen, Forwarding, Lambdas mit generalized Capture, Exception Safety und noexcept, Konstruktor-Desktruktor-Regeln im Detail (=default, =deleted)</li><li>Typdeduktion, Rvalue-Referenzen und Forward Referenzen im Detail, auto, decltype, declval, forward, move</li><li>Tuple, Pair, Integer-Sequence, Deduktionsregeln, Anwendung, Relationale Operatoren damit definieren f&uuml;r eigene Typen</li><li>Policy-based Design von Klassen, Parametrisierung zur Compile-Zeit, Umgang mit Allokatoren in der Standardbibliothek</li><li>Compile-Zeit Berechnungen von Werten, Sequenzen und Arrays mittels constexpr Funktionen und Templates</li><li>Meta-Programmierung mittels type_traits: z.B., true_type, false_type, traits, conditional</li><li>Optionale Schnittstellen von generischen Klassen, Overload-Resolution mittels enable_if und SFINAE</li><li>Neue und zuk&uuml;nftige Standardklassen: any, optional, variant, string_view und deren Anwendung</li><li>Multi-Threading Features der Standardbibliothek: async und futures, threads, atomics, locks, condition variables, Memory Model</li><li>Vergleich und Umgang mit C++ und C Code-Altlasten. Verstehen der Probleme von &quot;naked&quot; Pointern, Kapselung Refactoring</li><li>Standardisieren</li><li>Aktuelle Themen aus der C++ Standardisierung, Aufbau des Sprachstandards, Proposal-Prozess, Review aktueller Proposals</li></ul>",
+      "kurselemente": [
+        {
+          "id": 24364,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 120,
+          "harteGrenze": true
+        },
+        {
+          "id": 24365,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "C++ Advanced"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "C++ Advanced"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10108,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10108_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 525323,
+      "name": "Sommerlad",
+      "vorname": "Peter"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 23472,
+      "kuerzel": "M_Bsys1",
+      "bezeichnung": "Betriebssysteme 1",
+      "url": "allModules/23472_M_Bsys1.json"
+    },
+    {
+      "id": 24357,
+      "kuerzel": "M_CPl",
+      "bezeichnung": "C++",
+      "url": "allModules/24357_M_CPl.json"
+    },
+    {
+      "id": 24499,
+      "kuerzel": "M_OO",
+      "bezeichnung": "Objektorientierte Programmierung",
+      "url": "allModules/24499_M_OO.json"
+    },
+    {
+      "id": 28259,
+      "kuerzel": "M_AD1",
+      "bezeichnung": "Algorithmen und Datenstrukturen 1",
+      "url": "allModules/28259_M_AD1.json"
+    },
+    {
+      "id": 28266,
+      "kuerzel": "M_AD2",
+      "bezeichnung": "Algorithmen und Datenstrukturen 2",
+      "url": "allModules/28266_M_AD2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 24362,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Erfolgreiche Abgabe gel&ouml;ster Uebungsaufgaben nach Ank&uuml;ndigung</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "C++ Advanced"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "C++ Advanced"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2016,
+    "beginSemester": "FS",
+    "endJahr": 2016,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 24362,
+    "kuerzel": "M_CPlA",
+    "bezeichnung": "C++ Advanced",
+    "url": "allModules/24362_M_CPlA.json"
+  }
+}

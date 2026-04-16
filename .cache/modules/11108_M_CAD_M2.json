@@ -1,0 +1,153 @@
+{
+  "id": 11108,
+  "kuerzel": "M_CAD_M2",
+  "bezeichnung": "CAD M2",
+  "kreditpunkte": 2,
+  "lernziele": "<ul>\n    <li>kennen von komplexeren Anwendungsm&ouml;glichkeiten in der Produktentwicklung mit dem CAD-System Unigraphics&nbsp;</li>\n    <li>selbst&auml;ndiges Anwenden von Unigraphics f&uuml;r spezielle Anwendungen/Analysen in der Produktentwicklung </li>\n    <li>Geometrielinker und Freiformfl&auml;chen sinnvoll und situationsgerecht anwenden k&ouml;nnen </li>\n</ul>",
+  "vorausgKenntnisse": "gen&uuml;gende Note in Produktentwicklung 1",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10250,
+      "kuerzel": "CAD_M2",
+      "bezeichnung": "CAD M2",
+      "planinhalt": "<p>Expression im Part (Intelligente Bauteile), Bedingte Ausdr&uuml;cke, Visual Editor <br />Expression im Assembly (Interpart Expression), Interpart Modeling <br />Spreadsheet (Excel Tabellenkalkulation) <br />Analyse: Messen, Gewichte und Massentr&auml;gheitsmomente <br />Umfangreiche &Uuml;bung mit Spreadsheet (Goal analysis, Goal seek) <br />Geometrielinker (Methodik und &Uuml;bungen) <br />Freeform (Modellieren von Freiformfl&auml;chen) Theorie <br />Freeform (Modellieren von Freiformfl&auml;chen) Training mit diversen &Uuml;bungen <br />Freeform (Modellieren von Freiformfl&auml;chen) Tips und Tricks <br />Curve / Face Analysis <br /><br /></p>",
+      "kurselemente": [
+        {
+          "id": 11259,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 30,
+          "harteGrenze": true
+        },
+        {
+          "id": 11260,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 15,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "CAD M2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "CAD M2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 101730,
+      "name": "Sohrweide",
+      "vorname": "Anita"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 17213,
+      "kuerzel": "M_PE1",
+      "bezeichnung": "Produktentwicklung 1",
+      "url": "allModules/17213_M_PE1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11108,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>L&ouml;sen von 75 % der Uebungsaufgaben des Kurses CAD M2</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "CAD M2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "CAD M2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2011,
+    "endSemester": "FS"
+  }
+}

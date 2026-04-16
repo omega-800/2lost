@@ -1,0 +1,107 @@
+{
+  "id": 11345,
+  "kuerzel": "M_DAE",
+  "bezeichnung": "Diplomarbeit Elektrotechnik",
+  "kreditpunkte": 20,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 11231,
+      "kuerzel": "DAE",
+      "bezeichnung": "Diplomarbeit Elektrotechnik",
+      "kurselemente": [
+        {
+          "id": 11327,
+          "art": "Diplomarbeit",
+          "anzLektionen": 20,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Diplomarbeit Elektrotechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Diploma Thesis Electrical Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10077,
+          "kuerzel": "E-DA",
+          "bezeichnung": "Diplomarbeit Elektrotechnik",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10071,
+          "kuerzel": "K_DAE_U01",
+          "bezeichnung": "Diplomarbeit Elektrotechnik  (Übergang)",
+          "kreditpunkte": 20
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 147,
+      "name": "Prechtl",
+      "vorname": "Heiner"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Diplomarbeit Elektrotechnik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Diploma Thesis Electrical Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2010,
+    "endSemester": "FS"
+  }
+}

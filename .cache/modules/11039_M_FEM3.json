@@ -1,0 +1,164 @@
+{
+  "id": 11039,
+  "kuerzel": "M_FEM3",
+  "bezeichnung": "Finite Elemente Methode 3",
+  "kreditpunkte": 2,
+  "lernziele": "<ul>\n    <li>Kennt Methoden der L&ouml;sung spezieller Problemstellungen (Nichtlinearit&auml;t, Kontakt, Stabilit&auml;t, Optimierung)</li>\n    <li>Kann einfachere nicht-lineare Modelle l&ouml;sen, insb. Kontaktprobleme</li>\n    <li>Kennt die M&ouml;glichkeiten und Grenzen der Methode </li>\n    <li>Erwirbt sich dadurch eine Entscheider-Kompetenz&nbsp; <br /><br /><br /><br /></li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10139,
+      "kuerzel": "FEM3",
+      "bezeichnung": "Finite Element Methode 3 ",
+      "lernziele": "<li>Kennt Methoden der L&ouml;sung spezieller Problemstellungen (Nichtlinearit&auml;t, Kontakt, Stabilit&auml;t, Optimierung) </li>\n<li>Kann einfachere nicht-lineare Modelle l&ouml;sen, insb. Kontaktprobleme </li>\n<li>Kennt die M&ouml;glichkeiten und Grenzen der Methode </li>\n<li>Erwirbt sich dadurch eine Entscheider-Kompetenz&nbsp; <br /><br /></li>",
+      "planinhalt": "<ul>\n    <li>Nichtlinearit&auml;ten (Material, Eigenschwingungen, Kontakt, grosse Verschiebungen) </li>\n    <li>Stabilit&auml;t (Knicken, Beulen) </li>\n    <li>Einblick in Optimierung </li>\n    <li>spezielle Anwendungen </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 11249,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Finite Element Methode 3 "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Finite Element Method 3"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1261,
+      "name": "Gysin",
+      "vorname": "Hanspeter"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11027,
+      "kuerzel": "M_TechM1",
+      "bezeichnung": "Technische Mechanik 1",
+      "url": "allModules/11027_M_TechM1.json"
+    },
+    {
+      "id": 11028,
+      "kuerzel": "M_TechM2",
+      "bezeichnung": "Technische Mechanik 2",
+      "url": "allModules/11028_M_TechM2.json"
+    },
+    {
+      "id": 11029,
+      "kuerzel": "M_TechM3",
+      "bezeichnung": "Technische Mechanik 3",
+      "url": "allModules/11029_M_TechM3.json"
+    },
+    {
+      "id": 12363,
+      "kuerzel": "M_FEM1",
+      "bezeichnung": "Finite Elemente Methode 1",
+      "url": "allModules/12363_M_FEM1.json"
+    },
+    {
+      "id": 15471,
+      "kuerzel": "M_FEM2",
+      "bezeichnung": "Finite Elemente Methode 2",
+      "url": "allModules/15471_M_FEM2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Finite Elemente Methode 3"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Finite Element Method 3"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2011,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 11039,
+    "kuerzel": "M_FEM3",
+    "bezeichnung": "Finite Elemente Methode 3",
+    "url": "allModules/11039_M_FEM3.json"
+  }
+}

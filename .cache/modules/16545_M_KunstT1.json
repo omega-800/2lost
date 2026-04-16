@@ -1,0 +1,231 @@
+{
+  "id": 16545,
+  "kuerzel": "M_KunstT1",
+  "bezeichnung": "Kunststofftechnik 1",
+  "kreditpunkte": 4,
+  "lernziele": "<ul> <li>M&#246;glichkeiten und Grenzen der Kunststoffe als Konstruktionswerkstoffe kennen</li> <li>Werkstoffmechanisches Verhalten der Kunststoffe beschreiben k&#246;nnen</li> <li>Berechnungsgrunds&#228;tze f&#252;r Kunststoffkonstruktionen kennen und anwenden k&#246;nnen</li> <li>Grundlagen der Kunststoffverarbeitung und ihrer wichtigsten Verfahren kennen</li></ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 16546,
+      "kuerzel": "KunstT1",
+      "bezeichnung": "Kunststofftechnik 1",
+      "planinhalt": "<p>Konstruktionspraxis der Kunststoffe:</p>\n<ul>\n    <li>Kunststoffe als Konstruktionswerkstoffe: Bedeutung, Aufbau und Struktur, Charakterisierung der Polymerwerkstoffe, Spezielle Polymerwerkstoffe, Kunststoff-Eigenschaften </li>\n    <li>Konstruieren mit Kunststoffen: Kunststoffe im Konstruktionsprozess, Werkstoffauswahl, Masshaltigkeit von Kunststoffteilen, Kunststoffspezifische Konstruktionsprinzipien </li>\n    <li>Werkstoffmechanik der Kunststoffmechanik: Mechanisches Verhalten, Statische Belastung, Schwingende Belastung, Viskoelastizit&auml;tstheorie </li>\n    <li>Berechnung von Kunststoffkonstruktionen: Grundlagen, Spannungs- und Verformungsberechnung, Berechnungsbeispiele </li>\n</ul>\n<p>Einf&uuml;hrung in die Kunststoffverarbeitung:</p>\n<ul>\n    <li>&Uuml;bersicht &uuml;ber die wichtigsten Verarbeitungs- und Bearbeitungsverfahren </li>\n    <li>Urformtechnik: Plastifizierung, Extrusion, Spritzgiesstechnik, Blasformtechnik, Sch&auml;umen, Verfahren, Sonderverfahren, Maschinen, Werkzeuge </li>\n    <li>Umformtechnik: Thermoformen </li>\n    <li>F&uuml;gen und Verbinden: Schweissen, Kleben </li>\n    <li>Oberfl&auml;chentechnik </li>\n    <li>Aufbereitungstechnik, Recycling </li>\n    <li>Praktikum Spritzgiesstechnik </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 16547,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        },
+        {
+          "id": 16548,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 20,
+          "harteGrenze": true
+        },
+        {
+          "id": 16549,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 20,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Kunststofftechnik 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Plastics Technology 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10129,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10129_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10128,
+          "kuerzel": "W-STpl",
+          "bezeichnung": "Systemtechnik und ergänzende Fachmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 527139,
+      "name": "Ehrig",
+      "vorname": "Frank"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11027,
+      "kuerzel": "M_TechM1",
+      "bezeichnung": "Technische Mechanik 1",
+      "url": "allModules/11027_M_TechM1.json"
+    },
+    {
+      "id": 11028,
+      "kuerzel": "M_TechM2",
+      "bezeichnung": "Technische Mechanik 2",
+      "url": "allModules/11028_M_TechM2.json"
+    },
+    {
+      "id": 11029,
+      "kuerzel": "M_TechM3",
+      "bezeichnung": "Technische Mechanik 3",
+      "url": "allModules/11029_M_TechM3.json"
+    },
+    {
+      "id": 15743,
+      "kuerzel": "M_PE2",
+      "bezeichnung": "Produktentwicklung 2",
+      "url": "allModules/15743_M_PE2.json"
+    },
+    {
+      "id": 16551,
+      "kuerzel": "M_MaTechM1",
+      "bezeichnung": "Materialtechnologie 1 (M)",
+      "url": "allModules/16551_M_MaTechM1.json"
+    },
+    {
+      "id": 16561,
+      "kuerzel": "M_MaTechM2",
+      "bezeichnung": "Materialtechnologie 2 (M)",
+      "url": "allModules/16561_M_MaTechM2.json"
+    },
+    {
+      "id": 17213,
+      "kuerzel": "M_PE1",
+      "bezeichnung": "Produktentwicklung 1",
+      "url": "allModules/17213_M_PE1.json"
+    },
+    {
+      "id": 17294,
+      "kuerzel": "M_PE3",
+      "bezeichnung": "Produktentwicklung 3",
+      "url": "allModules/17294_M_PE3.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 16545,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Abgabe Praktikabericht der die Leistung &quot;gen&uuml;gend&quot; erzielt</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Kunststofftechnik 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Plastics Technology 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2007,
+    "beginSemester": "HS",
+    "endJahr": 2008,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 11011,
+    "kuerzel": "M_KunstT1",
+    "bezeichnung": "Kunststofftechnik 1",
+    "url": "allModules/11011_M_KunstT1.json"
+  },
+  "nachfolger": {
+    "id": 16545,
+    "kuerzel": "M_KunstT1",
+    "bezeichnung": "Kunststofftechnik 1",
+    "url": "allModules/16545_M_KunstT1.json"
+  }
+}

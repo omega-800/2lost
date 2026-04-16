@@ -1,0 +1,88 @@
+{
+  "id": 10928,
+  "kuerzel": "M_Info0",
+  "bezeichnung": "Informatik 0: Programmier-Einführungskurs",
+  "kreditpunkte": 0,
+  "lernziele": "<p>- Schaffen der Voraussetzungen f&#252;r den Besuch des Moduls Info1</p> <p>- Beherrschung einfacher &#220;bersetzungsvorg&#228;nge (Editieren, Kompilieren, Ausf&#252;hren)</p> <p>- Beherrschung der einfachsten Grundlagen der Sprache C++</p>",
+  "vorausgKenntnisse": "keine\n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10004,
+      "kuerzel": "Info0",
+      "bezeichnung": "Informatik 0: Programmier-Einführungskurs",
+      "planinhalt": "<p>Einfaches Vorgehensmodell; Algorithmen und Programme; Struktogramme; C++ Datentypen; Ausdr&#252;cke; Zuweisungen; Bedingungen; Schleifen; einfache Ein/Ausgabe; Funktionen; Fehlersuche.</p>\n<p>Viele &#220;bungsbeispiele.</p>\n<p>(Aenderungen vorbehalten)</p>",
+      "kurselemente": [
+        {
+          "id": 10913,
+          "art": "Blockkurs",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 25,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Informatik 0: Programmier-Einführungskurs"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Computer Science 0: Introductory Programming"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9989,
+      "name": "ZZZ Dozent HL",
+      "vorname": "Planung"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Informatik 0: Programmier-Einführungskurs"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Computer Science 0: Introductory Programming"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

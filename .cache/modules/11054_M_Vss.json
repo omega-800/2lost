@@ -1,0 +1,231 @@
+{
+  "id": 11054,
+  "kuerzel": "M_Vss",
+  "bezeichnung": "Verteilte SW-Systeme",
+  "kreditpunkte": 4,
+  "lernziele": "<ol> <li>Sie kennen die grundlegenden Fragestellungen betreffend verteilter Systeme und die formalen Ans&#228;tze </li> <li>Sie kennen unterschiedliche Systemarchitekturen und Patterns </li> <li>Sie k&#246;nnen RPC basierte Systeme entwerfen, implementieren und deployen </li> <li>Sie k&#246;nnen logische Zeiten definieren und anwenden (Lamport, Vektorzeiten) </li> <li>Sie kennen einige der grundlegenden verteilten Algorithmen (Auswahl, Ausschluss, Konsens) und k&#246;nnen diese einsetzen</li></ol>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10202,
+      "kuerzel": "Vss",
+      "bezeichnung": "Verteilte Systeme I ",
+      "planinhalt": "<p>Grundlagen <br />&#8226; Charakteristische Eigenschaften verteilter Systeme <br />&#8226; Systemmodelle (ISO/OSI RM-ODP, OMG MDA, C/S, Client/Multi-Server, Proxy, ThinClients, Agenten, Applets/Servlets) <br />&#8226; Netzwerke: kurze Wiederholung <br />&#8226; Interprozesskommunikation <br />&#8226; Betriebssystemunterst&#252;tzung : kurze Wiederholung <br />&#8226; Sicherheit : kurze Wiederholung <br />&#8226; Verteilte Dateisysteme <br />&#8226; Namensdienste <br /><br />Verteilte Algorithmen <br />&#8226; Koordination und &#220;bereinstimmung <br />&#8226; Transaktionen und Nebenl&#228;ufigkeitskontrolle <br />&#8226; Replikation </p>",
+      "kurselemente": [
+        {
+          "id": 11285,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 11286,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Verteilte Systeme I "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Distributed Systems I"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10229,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10229_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 860,
+      "name": "Joller",
+      "vorname": "Josef M."
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11093,
+      "kuerzel": "M_Math1I",
+      "bezeichnung": "Mathematische Grundlagen der Informatik 1",
+      "url": "allModules/11093_M_Math1I.json"
+    },
+    {
+      "id": 22288,
+      "kuerzel": "M_AD",
+      "bezeichnung": "Programmieren 2: Algorithmen und Datenstrukturen",
+      "url": "allModules/22288_M_AD.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11054,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Verteilte SW-Systeme"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Distributed Software Systems"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2013,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 11054,
+    "kuerzel": "M_Vss",
+    "bezeichnung": "Verteilte SW-Systeme",
+    "url": "allModules/11054_M_Vss.json"
+  }
+}

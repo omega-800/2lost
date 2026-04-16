@@ -1,0 +1,185 @@
+{
+  "id": 16753,
+  "kuerzel": "M_Bsys2",
+  "bezeichnung": "Betriebssysteme 2",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Der/die Studierende kennt die grundlegenden Mechanismen der Ein-/Ausgabe f&uuml;r allgemeine Peripherie und f&uuml;r systemnahe oder systemintegrierte grafische Bedienoberfl&auml;chen. Er/sie kann wesentliche Merkmale des Speicheraufbaus beschreiben und die wichtigsten Verfahren zur Speicherverwaltung unterscheiden. Die Sicherheitsstrategien verschiedener Systeme k&ouml;nnen aufgrund eines Schutzmodells qualifiziert werden. Systemnahe Entwicklungswerkzeuge werden beherrscht, Relokationsvorg&auml;nge in ihrer Funktion erkannt, und einfache Shell-Skripte k&ouml;nnen erstellt werden.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 16754,
+      "kuerzel": "Bsys2",
+      "bezeichnung": "Betriebssysteme 2 ",
+      "planinhalt": "<ul>\n    <li>Ein-/Ausgabe (Ueberblick, E/A-Abl&auml;ufe, E/A-Systemstruktur, systemnahe oder systemintegrierte Grundmechanismen von Fenstersystemen) </li>\n    <li>Speicherverwaltung (Speicherhierarchie, Funktionsweise Cache-Speicher, Verwaltungsgrundlagen, dynamische Speicherbereitstellung, Verwaltung von Prozessadressr&auml;umen, Realer Speicher, Virtueller Speicher, speicherabgebildete Dateien) </li>\n    <li>Programmentwicklung (Einf&uuml;hrung in systemnahe Software-Entwicklungswerkzeuge, Adressraumbelegung und Relokation, Skriptprogrammierung anhand Unix-Shell-Scripts) </li>\n    <li>Sicherheit (Schutzziele, Autorisierung und Zugriffskontrolle, Schutzdom&auml;nenkonzept, Strategien und Mechanismen, Realisierungsbeispiele) </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 16755,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 108,
+          "harteGrenze": true
+        },
+        {
+          "id": 16756,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Betriebssysteme 2 "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Operating Systems 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10229,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10229_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 173,
+      "name": "Glatz",
+      "vorname": "Eduard"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 16763,
+      "kuerzel": "M_Bsys1",
+      "bezeichnung": "Betriebssysteme 1",
+      "url": "allModules/16763_M_Bsys1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 16753,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Betriebssysteme 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Operating Systems 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2008,
+    "beginSemester": "FS",
+    "endJahr": 2013,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 10999,
+    "kuerzel": "M_Bsys2",
+    "bezeichnung": "Betriebssysteme 2",
+    "url": "allModules/10999_M_Bsys2.json"
+  },
+  "nachfolger": {
+    "id": 16753,
+    "kuerzel": "M_Bsys2",
+    "bezeichnung": "Betriebssysteme 2",
+    "url": "allModules/16753_M_Bsys2.json"
+  }
+}

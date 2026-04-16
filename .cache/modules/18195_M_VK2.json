@@ -1,0 +1,207 @@
+{
+  "id": 18195,
+  "kuerzel": "M_VK2",
+  "bezeichnung": "Verkehr 2",
+  "kreditpunkte": 6,
+  "lernziele": "<p>Vertiefte Grundlagen Verkehrsplanung<br /></p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 18196,
+      "kuerzel": "VP2",
+      "bezeichnung": "Verkehrsplanung 2",
+      "lernziele": "<p>Vertiefte Grundlagenvermittlung Verkehrsplanung, Verkehrstechnik und vertiefte Kenntnisse der Verkehrsraumgestaltung und Anwendung im Rahmen einer praxisbezogenen Semesterarbeit</p>",
+      "planinhalt": "<p>Ortsdurchfahrten, L&auml;ndliche Hauptstrassen<br />Velof&uuml;hrung auf Hauptstrassen<br />Anforderungen verschiedener Verkehrsteilnahmegruppen<br />Verkehrssicherheit<br />Knotenpunkte<br />Betriebskonzepte &Ouml;V (Grundlagen)<br /></p>",
+      "kurselemente": [
+        {
+          "id": 18197,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Verkehrsplanung 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Transport Planning 2"
+        }
+      ]
+    },
+    {
+      "id": 18203,
+      "kuerzel": "VP2a",
+      "bezeichnung": "Verkehrsplanung 2a",
+      "lernziele": "&nbsp;Anwendung des Strassenraum-Entwurfrepertoires anhand eines Praxisbeispiels",
+      "planinhalt": "&nbsp;Semesterarbeit zur Umgestaltung einer Hauptstrasse/Ortsdurchfahrt",
+      "kurselemente": [
+        {
+          "id": 18564,
+          "art": "Studienarbeit",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Verkehrsplanung 2a"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Transport Planning 2a"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10000,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10000_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10006,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10006_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10041,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10041_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10096,
+          "kuerzel": "R_vp",
+          "bezeichnung": "Verkehrsplanung",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10123,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10123_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10096,
+          "kuerzel": "R_vp",
+          "bezeichnung": "Verkehrsplanung",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10012,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10012_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 81,
+      "name": "Zweibrücken",
+      "vorname": "Klaus"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 18569,
+      "kuerzel": "M_VKCAD",
+      "bezeichnung": "Verkehr  und CAD",
+      "url": "allModules/18569_M_VKCAD.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 18195,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Verkehr 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Transport Planning 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2010,
+    "beginSemester": "FS",
+    "endJahr": 2017,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 18195,
+    "kuerzel": "M_VK2",
+    "bezeichnung": "Verkehr 2",
+    "url": "allModules/18195_M_VK2.json"
+  }
+}

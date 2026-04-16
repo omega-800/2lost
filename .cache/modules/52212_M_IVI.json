@@ -1,0 +1,105 @@
+{
+  "id": 52212,
+  "kuerzel": "M_IVI",
+  "bezeichnung": "Informationsvisualisierung für Ingenieure",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen Daten analysieren und f&uuml;r Visualisierungen f&uuml;r unterschiedliche Zielgruppen aufbereiten.</li><li>verstehen das Konzept der Abbildung von Daten auf visuelle Variablen.</li><li>kennen g&auml;ngige Formen der Visualisierung von Daten (z.B. Balkendiagramme, Tortendiagramme, kartografische Visualisierungen).</li><li>k&ouml;nnen mit Hilfe von Bibliotheken (z.B. d3.js, Leaflet) interaktive Grafiken f&uuml;r die Publikation auf Webseiten realisieren.</li><li>k&ouml;nnen Web-Schnittstellen (APIs) nutzen, um Daten zu erhalten und in eigenen Projekten zu nutzen.</li></ul>",
+  "vorausgKenntnisse": "<p>Zus&auml;tzlich vorasugesetzt ist das Modul Informatik.</p><p>Interesse an Programmierung, Datenverarbeitung, Grafischer Darstellung</p><p>Vorkenntnisse im Bereich Web-Technologien (HTML, CSS, JavaScript) m&uuml;ssen vorhanden sein oder w&auml;hrend des Kurses erarbeitet werden</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 52213,
+      "kuerzel": "IVI",
+      "bezeichnung": "Informationsvisualisierung für Ingenieure",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen Daten analysieren und f&uuml;r Visualisierungen f&uuml;r unterschiedliche Zielgruppen aufbereiten.</li><li>verstehen das Konzept der Abbildung von Daten auf visuelle Variablen.</li><li>kennen g&auml;ngige Formen der Visualisierung von Daten (z.B. Balkendiagramme, Tortendiagramme, kartografische Visualisierungen).</li><li>k&ouml;nnen mit Hilfe von Bibliotheken (z.B. d3.js, Leaflet) interaktive Grafiken f&uuml;r die Publikation auf Webseiten realisieren.</li><li>k&ouml;nnen Web-Schnittstellen (APIs) nutzen, um Daten zu erhalten und in eigenen Projekten zu nutzen.</li></ul>",
+      "planinhalt": "<p>Visualisierungen von Daten und Information sind zentrale Elemente der technischen Kommunikation: Bilder und Grafiken in Berichten, Blockdiagramme und grafische Darstellungen von Messwerten in Produktbeschreibungen, interaktive Grafiken und dreidimensionale Figuren auf Webseiten.<br />Damit solche Visualisierungen tats&auml;chlich &bdquo;mehr als tausend Worte&ldquo; sagen, das heisst, Einsicht in die zugrunde liegenden Daten gew&auml;hren, m&uuml;ssen sie bestimmte Merkmale aufweisen. Obwohl die Visualisierung von Daten und Information eine noch relativ junge Wissenschaft ist, kann man aus der Theorie Merkmale ableiten, die sich auch in der Praxis bew&auml;hren.</p>",
+      "empfLehrmittel": "<p>Vorlesung, &Uuml;bungen, Projekt</p>",
+      "leistungsnachweis": "<p>W&auml;hrend der Unterrichtsphase werden zwei Visualsierungs&uuml;bungen sowie eine komplexere Visualisierung als Hausarbeit bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 52214,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 25,
+          "harteGrenze": false
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10176,
+          "kuerzel": "WM",
+          "bezeichnung": "Wahlmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 52943,
+      "kuerzel": "M_IAR",
+      "bezeichnung": "Informatik & Autonome Roboter",
+      "url": "allModules/52943_M_IAR.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 3,
+      "kuerzel": "CH",
+      "bezeichnung": "Chur",
+      "ort": "Chur"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Data Visualization for Engineers"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2020,
+    "beginSemester": "HS",
+    "endJahr": 2020,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 51567,
+    "kuerzel": "M_IVI",
+    "bezeichnung": "Informationsvisualisierung für Ingenieure",
+    "url": "allModules/51567_M_IVI.json"
+  }
+}

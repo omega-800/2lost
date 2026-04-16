@@ -1,0 +1,203 @@
+{
+  "id": 26002,
+  "kuerzel": "M_ELT2",
+  "bezeichnung": "Elektrotechnik 2",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Der Studierende kennt die Grundlagen der Elektrotechnik bez&uuml;glich elektrostatischer und magnetischer Felder. Er versteht die Zusammenh&auml;nge und ist in der Lage, die entsprechenden Gesetze anzuwenden und Berechnungen durchzuf&uuml;hren. <br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 26003,
+      "kuerzel": "ELT2",
+      "bezeichnung": "Elektrotechnik 2",
+      "planinhalt": "<ul>\n<li><strong>Elektrostatik</strong>:<br />Gr&ouml;ssen im elektrostatischen Feld: Ladung, Feldst&auml;rke, Potential, Spannung, elektrischer Fluss<br />Gausssches Gesetz, Kirchhoffsche Gesetze<br />Elektrische Felder von Punktladungen und geladenen K&ouml;rpern, Influenz, Spiegelladungen<br />Dielektrika, Polarisation, Kapazit&auml;t<br />Energieerhaltung und Kr&auml;fte im elektrischen Feld</li>\n<li>Elektrostatik vs. station&auml;re Str&ouml;mungsfelder (aus ELT1)</li>\n<li><strong>Magnetostatik</strong>:<br />Magnetisches Feld bewegter Ladungen und stromf&uuml;hrender Leiter, Kraftwirkungen, magnetische Flussdichte<br />Durchflutungssatz und Biot-Savart, Induktivit&auml;t &amp; Gegeninduktivit&auml;t<br />Materie im magnetischen Feld, Dipolmoment, Magnetisierung &amp; Magnetisierungsarten, magnetische Feldst&auml;rke<br />Magnetischer Widerstand, Magnetische Kreise (linear &amp; nichtlinear), Permanentmagnete<br /><br /></li>\n</ul>\n<p>&Auml;nderungen vorbehalten</p>",
+      "kurselemente": [
+        {
+          "id": 26004,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 26005,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrotechnik 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electrical Engineering 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 527044,
+      "name": "Lang",
+      "vorname": "Hans-Dieter"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 25998,
+      "kuerzel": "M_ELT1",
+      "bezeichnung": "Elektrotechnik 1",
+      "url": "allModules/25998_M_ELT1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 26002,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>50% der Punkte bei allen Moodle-Tests erreicht</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Elektrotechnik 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electrical Engineering 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2016,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 20018,
+    "kuerzel": "M_ELT2",
+    "bezeichnung": "Elektrotechnik 2",
+    "url": "allModules/20018_M_ELT2.json"
+  }
+}

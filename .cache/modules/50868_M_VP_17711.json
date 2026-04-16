@@ -1,0 +1,221 @@
+{
+  "id": 50868,
+  "kuerzel": "M_VP_17711",
+  "bezeichnung": "Neuronale Netze und Deep Learning",
+  "kreditpunkte": 18,
+  "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen Daten in einem verteilten System auslesen, im Netzwerk &uuml;bertragen (z.B. Long Range Wide Area Network - LoRa), vorverarbeiten und (in einem Cloud-Dienst) speichern.</li><li>k&ouml;nnen die Grundprinzipien der beschreibenden Statistik Visualisierung und Vorverarbeitung realer r&auml;umlicher Daten (auf der Cloud) verwenden.</li><li>k&ouml;nnen eine reale Fragestellung als Klassifikations- bzw. Regressionsproblem formulieren.</li><li>k&ouml;nnen Klassifikationsprobleme mithilfe von Machine Learning Methoden (speziell mit neuronalen Netzen) modellieren.</li><li>k&ouml;nnen die wichtigsten Methoden der Modellvalidierung (Kreuzvalidierung, validation set Ansatz, Bootstrapping) einsetzen.</li><li>k&ouml;nnen (tiefe) neuronale Netze mit Python implementieren und auf einer Cloud-Plattform (z.B. MS Azure) ausf&uuml;hren.</li></ul>",
+  "vorausgKenntnisse": "<p>Bachelor of Science in Systemtechnik</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 50869,
+      "kuerzel": "VP_1771101",
+      "bezeichnung": "Neuronale Netze und Deep Learning: Realisierung eines Demonstrators",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>erstellen einen Demonstrator, der Daten ausliest, kabellos &uuml;bertr&auml;gt (z.B. mittels LoRa) vorverarbeitet und speichert.</li><li>erstellen Machine Learning Modelle (neuronale Netze) um die (r&auml;umlichen) Daten zu analysieren in Python.</li><li>stellen die n&ouml;tige Hardware aus existierenden Systemen (Sensoren, Raspberry Pi, Lora-Modulen) eigenst&auml;ndig zu.</li></ul>",
+      "planinhalt": "<ul><li>Neuronale Netze</li><li>Deep Learning</li><li>Fortgeschrittene Programmierung in Python</li><li>Demonstratorbau</li></ul>",
+      "bibliographie": "<p>D. Kriesel Neuronale Netze.<br />I. Goodfellow Deep Learning (2016)</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird mittels Bericht und Fachgespr&auml;ch bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 50870,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002957,
+          "name": "Frick",
+          "vorname": "Klaus"
+        }
+      ]
+    },
+    {
+      "id": 50871,
+      "kuerzel": "VP_1771102",
+      "bezeichnung": "Grundlagen Machine Learning: Theorie und Praxis mit Python",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>erlernen die Grundz&uuml;ge multivariater Statistik und deren Anwendung im maschinellen Lernen.</li><li>erlernen die Grundlagen der Programmiersprache Python.</li><li>realisieren ein einfaches Maschine Learning Projekt in Python.</li></ul>",
+      "planinhalt": "<p>Hydrodynamische Grundlagen</p><ul><li>Machine Learning</li><li>Python</li><li>Multivariate Statistik</li></ul>",
+      "bibliographie": "<p>S. Raschka Machine Learning mit Python (2016)<br />G. James Introduction to Statistical Learning (2015)</p>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "leistungsnachweis": "<p>Dieser Kurs wird mittels Fachgespr&auml;ch bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 50872,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002957,
+          "name": "Frick",
+          "vorname": "Klaus"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002957,
+      "name": "Frick",
+      "vorname": "Klaus"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Neural Networks and Deep Learning"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2017,
+    "beginSemester": "HS",
+    "endJahr": 2017,
+    "endSemester": "HS"
+  }
+}

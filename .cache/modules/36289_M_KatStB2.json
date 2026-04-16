@@ -1,0 +1,79 @@
+{
+  "id": 36289,
+  "kuerzel": "M_KatStB2",
+  "bezeichnung": "Städtebau",
+  "kreditpunkte": 2,
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 36290,
+      "kuerzel": "k_katstb",
+      "bezeichnung": "Städtebau",
+      "kurselemente": [
+        {
+          "id": 36291,
+          "art": "Blockkurs",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10123,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10123_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10025,
+          "kuerzel": "R-s",
+          "bezeichnung": "Städtebau",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10142,
+      "bezeichnung": "Stadt-, Verkehrs- und Raumplanung ",
+      "kuerzel": "SVR",
+      "url": "allStudies/10142_SVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10025,
+          "kuerzel": "R-s",
+          "bezeichnung": "Städtebau",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Städtebau"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

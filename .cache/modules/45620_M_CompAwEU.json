@@ -1,0 +1,100 @@
+{
+  "id": 45620,
+  "kuerzel": "M_CompAwEU",
+  "bezeichnung": "Computeranwendungen EEU",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Die Studierenden k&ouml;nnen die wichtigsten Computerprogramme anwenden, welche sie im sp&auml;teren Studium brauchen, um Ingenieurarbeiten effizient durchf&uuml;hren zu k&ouml;nnen.</p>",
+  "vorausgKenntnisse": "",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 45621,
+      "kuerzel": "CompAwEU",
+      "bezeichnung": "Computeranwendungen EEU",
+      "lernziele": "<p><strong>Fachkompetenzen:</strong><br />Die Studierenden k&ouml;nnen:<br />- Innerhalb der OST Informatikumgebung reibungslos arbeiten<br />- Die Berichtvorlage f&uuml;r eine Projektarbeit mit Verzeichnissen und Zitaten anwenden<br />- Berechnungen und Diagramme in einer Tabellenkalkulation erstellen<br />- Einfache Routinen zur Datenverarbeitung programmieren und die Ergebnisse grafisch darstellen<br />- Eine professionelle Pr&auml;sentation mit der OST-Vorlage erstellen<br />- Einen Projektplan mit Soll-Ist-Vergleich erstellen<br />- Bilder in einem Bildprogramm bearbeiten<br />- Fotorealistische Bilder und Animationen f&uuml;r Projektpr&auml;sentationen rendern<br />- Technische Strukturen und Abl&auml;ufe in einer Grafik darstellen</p>\n<p>&nbsp;</p>\n<p><strong>Selbstkompetenzen:</strong><br />Studierende wissen, wo sie sich bei weiterf&uuml;hrenden Problemen zus&auml;tzliches Wissen aneignen k&ouml;nnen</p>",
+      "planinhalt": "<ul>\n<li>OST-Infrastruktur: Datenablagen, kollaberatives Arbeiten, Moodle, Allgemeine ICT-Informationen</li>\n<li>Word: Marginalien, Properties, Formeln darstellen, Inhalts- Abbildungs- und Tabellenverzeichnis, Felder, Zitieren mit Citavi</li>\n<li>Excel: Wichtigste Funktionen f&uuml;r Ingenieure, Tabellen, Zellennamen, Diagramme, Formatierung nach Bedingungen, Einstieg in Makros und VBA, Solver</li>\n<li>Matlab: Durchf&uuml;hrung von einfachen Berechnungen, Umgang mit Variablen, Erstellen von Schleifen, Einlesen, Verarbeiten und Ausgeben von Datens&auml;tzen</li>\n<li>Powerpoint: Wichtigste Grunds&auml;tze zum Aufbau von Pr&auml;sentationen, Einbinden von 3D-Inhalten, Pr&auml;sentationstechnik</li>\n<li>MS Project: Erstellen von Gantt-Diagrammen, Abh&auml;ngigkeiten von Tasks, Meilensteine, Timeline, Soll-Ist-Vergleich und kritischer Pfad darstellen</li>\n<li>Gimp: Retouchieren, Freistellen, Arbeit mit Layern</li>\n<li>Keyshot: CAD-Files fotorealistisch rendern und animieren, Texturen, Beleuchtung, Umgebungsbilder</li>\n<li>Draw.io: Erstellung von Diagrammen, kollaboratives Arbeiten</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 45622,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Computeranwendungen"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Computer Applications"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10259,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10259_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 524611,
+      "name": "Eichenberger",
+      "vorname": "Peter"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Computeranwendungen"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Computer Applications"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 1,
+    "beginJahr": 2024,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 43783,
+    "kuerzel": "M_CompAwEU",
+    "bezeichnung": "Computeranwendungen EEU",
+    "url": "allModules/43783_M_CompAwEU.json"
+  }
+}

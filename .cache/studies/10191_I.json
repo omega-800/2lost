@@ -1,0 +1,3773 @@
+{
+  "id": 10191,
+  "kuerzel": "I",
+  "bezeichnung": "Informatik",
+  "versionKuerzel": "STD_21",
+  "typ": "Bachelor",
+  "art": "Studiengang",
+  "form": "Vollzeit",
+  "kredits": [
+    {
+      "id": 10832,
+      "minKredits": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS"
+        }
+      ]
+    },
+    {
+      "id": 10645,
+      "minKredits": 12,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht"
+        }
+      ]
+    },
+    {
+      "id": 10653,
+      "minKredits": 12,
+      "kategorien": [
+        {
+          "id": 10142,
+          "kuerzel": "I_KomEng",
+          "bezeichnung": "Kommunikation und Englisch"
+        }
+      ]
+    },
+    {
+      "id": 10651,
+      "minKredits": 16,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik"
+        }
+      ]
+    },
+    {
+      "id": 10648,
+      "minKredits": 46,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung"
+        }
+      ]
+    },
+    {
+      "id": 10652,
+      "minKredits": 48,
+      "kategorien": [
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau"
+        }
+      ]
+    },
+    {
+      "id": 10650,
+      "minKredits": 12,
+      "kategorien": [
+        {
+          "id": 10138,
+          "kuerzel": "I_EP",
+          "bezeichnung": "Engineering Practice"
+        }
+      ]
+    },
+    {
+      "id": 10654,
+      "minKredits": 20,
+      "kategorien": [
+        {
+          "id": 10143,
+          "kuerzel": "I_SaBa",
+          "bezeichnung": "Studien- Bachelorarbeit"
+        }
+      ]
+    },
+    {
+      "id": 10649,
+      "minKredits": 136,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik"
+        }
+      ]
+    }
+  ],
+  "spezialisierungen": [
+    {
+      "id": 10192,
+      "kuerzel": "SE",
+      "bezeichnung": "Software Engineering",
+      "url": "allStudies/10192_SE.json"
+    },
+    {
+      "id": 10193,
+      "kuerzel": "FrEng",
+      "bezeichnung": "Frontend Engineering",
+      "url": "allStudies/10193_FrEng.json"
+    },
+    {
+      "id": 10194,
+      "kuerzel": "CySec",
+      "bezeichnung": "Cybersecurity",
+      "url": "allStudies/10194_CySec.json"
+    },
+    {
+      "id": 10195,
+      "kuerzel": "NetCloud",
+      "bezeichnung": "Network and Cloud Infrastructure",
+      "url": "allStudies/10195_NetCloud.json"
+    },
+    {
+      "id": 10196,
+      "kuerzel": "DaEnMaIn",
+      "bezeichnung": "Data Science",
+      "url": "allStudies/10196_DaEnMaIn.json"
+    }
+  ],
+  "studienberater": {
+    "id": 5000761,
+    "name": "Kapferer",
+    "vorname": "Stefan"
+  },
+  "zuordnungen": [
+    {
+      "id": 37247,
+      "kuerzel": "M_MsTe",
+      "bezeichnung": ".Net Technologien",
+      "url": "allModules/37247_M_MsTe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 40870,
+      "kuerzel": "M_AIAp",
+      "bezeichnung": "AI Applications",
+      "url": "allModules/40870_M_AIAp.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 40866,
+      "kuerzel": "M_AIFo",
+      "bezeichnung": "AI Foundations",
+      "url": "allModules/40866_M_AIFo.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 38881,
+      "kuerzel": "M_AlgDat",
+      "bezeichnung": "Algorithmen und Datenstrukturen",
+      "url": "allModules/38881_M_AlgDat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28151,
+      "kuerzel": "M_An1I",
+      "bezeichnung": "Analysis 1 für Informatik",
+      "url": "allModules/28151_M_An1I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28156,
+      "kuerzel": "M_An2I",
+      "bezeichnung": "Analysis 2 für Informatik",
+      "url": "allModules/28156_M_An2I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28236,
+      "kuerzel": "M_AppArch",
+      "bezeichnung": "Application Architecture",
+      "url": "allModules/28236_M_AppArch.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44202,
+      "kuerzel": "M_IKAA",
+      "bezeichnung": "Applied AI",
+      "url": "allModules/44202_M_IKAA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57381,
+      "kuerzel": "M_IKAA",
+      "bezeichnung": "Applied AI SG",
+      "url": "allModules/57381_M_IKAA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57207,
+      "kuerzel": "M_AADL",
+      "bezeichnung": "Applied AI with Deep Learning",
+      "url": "allModules/57207_M_AADL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57128,
+      "kuerzel": "M_AJwn",
+      "bezeichnung": "Auf Jobsuche, was nun?",
+      "url": "allModules/57128_M_AJwn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 61186,
+      "kuerzel": "M_AJwn",
+      "bezeichnung": "Auf Jobsuche, was nun?",
+      "url": "allModules/61186_M_AJwn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 20356,
+      "kuerzel": "M_KatAufbauInf3",
+      "bezeichnung": "Aufbau Informatik",
+      "url": "allModules/20356_M_KatAufbauInf3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 20354,
+      "kuerzel": "M_KatAufbauInf2",
+      "bezeichnung": "Aufbau Informatik",
+      "url": "allModules/20354_M_KatAufbauInf2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 17014,
+      "kuerzel": "M_KatAufbauInf",
+      "bezeichnung": "Aufbau Informatik",
+      "url": "allModules/17014_M_KatAufbauInf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 24404,
+      "kuerzel": "M_AutoSpr",
+      "bezeichnung": "Automaten und Sprachen",
+      "url": "allModules/24404_M_AutoSpr.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 38879,
+      "kuerzel": "M_AutPy",
+      "bezeichnung": "Automatisierung mit Python",
+      "url": "allModules/38879_M_AutPy.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 41626,
+      "kuerzel": "M_BAI21",
+      "bezeichnung": "Bachelor-Arbeit Informatik",
+      "url": "allModules/41626_M_BAI21.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 12
+        },
+        {
+          "id": 10143,
+          "kuerzel": "I_SaBa",
+          "bezeichnung": "Studien- Bachelorarbeit",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 56919,
+      "kuerzel": "M_IKBH",
+      "bezeichnung": "Behavioral Design  ",
+      "url": "allModules/56919_M_IKBH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 39080,
+      "kuerzel": "M_Bsys1",
+      "bezeichnung": "Betriebssysteme 1",
+      "url": "allModules/39080_M_Bsys1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 37903,
+      "kuerzel": "M_Bsys2",
+      "bezeichnung": "Betriebssysteme 2",
+      "url": "allModules/37903_M_Bsys2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44040,
+      "kuerzel": "M_IKBW",
+      "bezeichnung": "Blickwechsel",
+      "url": "allModules/44040_M_IKBW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57357,
+      "kuerzel": "M_idks.IKBW",
+      "bezeichnung": "Blickwechsel",
+      "url": "allModules/57357_M_idks.IKBW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 39041,
+      "kuerzel": "M_BlCh",
+      "bezeichnung": "Blockchain",
+      "url": "allModules/39041_M_BlCh.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 40825,
+      "kuerzel": "M_BuPro",
+      "bezeichnung": "Business Processes für Informatik",
+      "url": "allModules/40825_M_BuPro.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57174,
+      "kuerzel": "M_WI2",
+      "bezeichnung": "Business Processes für Informatik",
+      "url": "allModules/57174_M_WI2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 20780,
+      "kuerzel": "M_BuRe1",
+      "bezeichnung": "Business und Recht 1",
+      "url": "allModules/20780_M_BuRe1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45604,
+      "kuerzel": "M_BuRe2a",
+      "bezeichnung": "Business und Recht 2 (a)",
+      "url": "allModules/45604_M_BuRe2a.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 24357,
+      "kuerzel": "M_CPl",
+      "bezeichnung": "C++",
+      "url": "allModules/24357_M_CPl.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28684,
+      "kuerzel": "M_CPlA",
+      "bezeichnung": "C++ Advanced",
+      "url": "allModules/28684_M_CPlA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28063,
+      "kuerzel": "M_Chin1",
+      "bezeichnung": "Chinesisch 1",
+      "url": "allModules/28063_M_Chin1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 36024,
+      "kuerzel": "M_Chinese2",
+      "bezeichnung": "Chinesisch 2",
+      "url": "allModules/36024_M_Chinese2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 29855,
+      "kuerzel": "M_CldInf",
+      "bezeichnung": "Cloud Infrastructure",
+      "url": "allModules/29855_M_CldInf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 55074,
+      "kuerzel": "M_CldOp",
+      "bezeichnung": "Cloud Operations",
+      "url": "allModules/55074_M_CldOp.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 37167,
+      "kuerzel": "M_CldSol",
+      "bezeichnung": "Cloud Solutions",
+      "url": "allModules/37167_M_CldSol.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 40663,
+      "kuerzel": "M_CoBau",
+      "bezeichnung": "Compilerbau",
+      "url": "allModules/40663_M_CoBau.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 25232,
+      "kuerzel": "M_ComEng1",
+      "bezeichnung": "Computer Engineering 1",
+      "url": "allModules/25232_M_ComEng1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 23345,
+      "kuerzel": "M_ComEng2",
+      "bezeichnung": "Computer Engineering 2",
+      "url": "allModules/23345_M_ComEng2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 43801,
+      "kuerzel": "M_ComGra",
+      "bezeichnung": "Computer Grafik",
+      "url": "allModules/43801_M_ComGra.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 39084,
+      "kuerzel": "M_CN1",
+      "bezeichnung": "Computernetze 1",
+      "url": "allModules/39084_M_CN1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 23311,
+      "kuerzel": "M_CN2",
+      "bezeichnung": "Computernetze 2",
+      "url": "allModules/23311_M_CN2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 61129,
+      "kuerzel": "M_CRY",
+      "bezeichnung": "Cryptography ",
+      "url": "allModules/61129_M_CRY.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 38551,
+      "kuerzel": "M_CyDef",
+      "bezeichnung": "Cyber Defense",
+      "url": "allModules/38551_M_CyDef.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 36478,
+      "kuerzel": "M_CySec",
+      "bezeichnung": "Cyber Security Foundations",
+      "url": "allModules/36478_M_CySec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 36034,
+      "kuerzel": "M_DatAna",
+      "bezeichnung": "Data Analytics",
+      "url": "allModules/36034_M_DatAna.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 36038,
+      "kuerzel": "M_DatEng",
+      "bezeichnung": "Data Engineering",
+      "url": "allModules/36038_M_DatEng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 39093,
+      "kuerzel": "M_Dbs1",
+      "bezeichnung": "Datenbanksysteme 1",
+      "url": "allModules/39093_M_Dbs1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 31834,
+      "kuerzel": "M_DL",
+      "bezeichnung": "Deep Learning",
+      "url": "allModules/31834_M_DL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44043,
+      "kuerzel": "M_IKDK",
+      "bezeichnung": "Demokratie im Zeitalter von KI",
+      "url": "allModules/44043_M_IKDK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 40316,
+      "kuerzel": "M_DigBusI",
+      "bezeichnung": "Digital Business für Informatik",
+      "url": "allModules/40316_M_DigBusI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 40680,
+      "kuerzel": "M_DigDes",
+      "bezeichnung": "Digital Design",
+      "url": "allModules/40680_M_DigDes.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 38920,
+      "kuerzel": "M_DigCod",
+      "bezeichnung": "Digitale Codierungen",
+      "url": "allModules/38920_M_DigCod.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 24442,
+      "kuerzel": "M_DMI",
+      "bezeichnung": "Diskrete Mathematik für Informatik ",
+      "url": "allModules/24442_M_DMI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 39054,
+      "kuerzel": "M_DSy",
+      "bezeichnung": "Distributed Systems",
+      "url": "allModules/39054_M_DSy.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 22062,
+      "kuerzel": "M_EmbSys1",
+      "bezeichnung": "Embedded Systems 1",
+      "url": "allModules/22062_M_EmbSys1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 22068,
+      "kuerzel": "M_EmbSys2",
+      "bezeichnung": "Embedded Systems 2",
+      "url": "allModules/22068_M_EmbSys2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 55597,
+      "kuerzel": "M_TecBEC",
+      "bezeichnung": "English Beyond Borders: Navigating Academic & Professional Success with IELTS",
+      "url": "allModules/55597_M_TecBEC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10142,
+          "kuerzel": "I_KomEng",
+          "bezeichnung": "Kommunikation und Englisch",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56496,
+      "kuerzel": "M_EnglHTw",
+      "bezeichnung": "English: How Things work",
+      "url": "allModules/56496_M_EnglHTw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10142,
+          "kuerzel": "I_KomEng",
+          "bezeichnung": "Kommunikation und Englisch",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45661,
+      "kuerzel": "M_SelTec",
+      "bezeichnung": "English: Selling Technology",
+      "url": "allModules/45661_M_SelTec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10142,
+          "kuerzel": "I_KomEng",
+          "bezeichnung": "Kommunikation und Englisch",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56504,
+      "kuerzel": "M_EnglScience",
+      "bezeichnung": "English: The World of Science",
+      "url": "allModules/56504_M_EnglScience.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10142,
+          "kuerzel": "I_KomEng",
+          "bezeichnung": "Kommunikation und Englisch",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44049,
+      "kuerzel": "M_IKEK",
+      "bezeichnung": "Ethik & KI",
+      "url": "allModules/44049_M_IKEK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 24381,
+      "kuerzel": "M_ExEv",
+      "bezeichnung": "Experimentieren und Evaluieren für Informatik",
+      "url": "allModules/24381_M_ExEv.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 36421,
+      "kuerzel": "M_FranzKomm",
+      "bezeichnung": "Französisch Kommunikation ",
+      "url": "allModules/36421_M_FranzKomm.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 38868,
+      "kuerzel": "M_FranzKomm2",
+      "bezeichnung": "Französisch Kommunikation 2",
+      "url": "allModules/38868_M_FranzKomm2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 24427,
+      "kuerzel": "M_FKIA",
+      "bezeichnung": "Führungskommunikation im internationalen Arbeitsmarkt",
+      "url": "allModules/24427_M_FKIA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10142,
+          "kuerzel": "I_KomEng",
+          "bezeichnung": "Kommunikation und Englisch",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 39143,
+      "kuerzel": "M_FP",
+      "bezeichnung": "Functional Programming ",
+      "url": "allModules/39143_M_FP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 38928,
+      "kuerzel": "M_FunProg",
+      "bezeichnung": "Funktionale Programmierung",
+      "url": "allModules/38928_M_FunProg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10942,
+      "kuerzel": "M_FuVar",
+      "bezeichnung": "Funktionen mehrerer Variablen",
+      "url": "allModules/10942_M_FuVar.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 65051,
+      "kuerzel": "M_IKLD_p",
+      "bezeichnung": "Future Life Design: Den eigenen Lebensweg erfolgreich gestalten",
+      "url": "allModules/65051_M_IKLD_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 43809,
+      "kuerzel": "M_GenAI",
+      "bezeichnung": "Generative AI",
+      "url": "allModules/43809_M_GenAI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 38418,
+      "kuerzel": "M_KatGWR",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+      "url": "allModules/38418_M_KatGWR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 17152,
+      "kuerzel": "M_KatGWR2",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht 2",
+      "url": "allModules/17152_M_KatGWR2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 17161,
+      "kuerzel": "M_KatGWR3",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht 3",
+      "url": "allModules/17161_M_KatGWR3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 0
+        }
+      ]
+    },
+    {
+      "id": 44061,
+      "kuerzel": "M_IKGL",
+      "bezeichnung": "Gesund leben und Langlebigkeit ",
+      "url": "allModules/44061_M_IKGL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44064,
+      "kuerzel": "M_IKAK",
+      "bezeichnung": "Gesundes Altern mit Hilfe von künstlicher Intelligenz ",
+      "url": "allModules/44064_M_IKAK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44067,
+      "kuerzel": "M_IKAK_p",
+      "bezeichnung": "Gesundes Altern mit Hilfe von künstlicher Intelligenz",
+      "url": "allModules/44067_M_IKAK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57384,
+      "kuerzel": "M_IKAK",
+      "bezeichnung": "Gesundes Altern mit Hilfe von künstlicher Intelligenz  SG",
+      "url": "allModules/57384_M_IKAK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57387,
+      "kuerzel": "M_IKAK_p",
+      "bezeichnung": "Gesundes Altern mit Hilfe von künstlicher Intelligenz SG",
+      "url": "allModules/57387_M_IKAK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 36457,
+      "kuerzel": "M_HackL",
+      "bezeichnung": "Hacking Lab",
+      "url": "allModules/36457_M_HackL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 61049,
+      "kuerzel": "M_HoC",
+      "bezeichnung": "Hands-on Chatbots",
+      "url": "allModules/61049_M_HoC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 36264,
+      "kuerzel": "M_IPCV1",
+      "bezeichnung": "Image Processing and Computer Vision 1",
+      "url": "allModules/36264_M_IPCV1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 36269,
+      "kuerzel": "M_IPCV2",
+      "bezeichnung": "Image Processing and Computer Vision 2",
+      "url": "allModules/36269_M_IPCV2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 36473,
+      "kuerzel": "M_IncResp",
+      "bezeichnung": "Incident Response",
+      "url": "allModules/36473_M_IncResp.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 20110,
+      "kuerzel": "M_Inno2",
+      "bezeichnung": "Innovation 2",
+      "url": "allModules/20110_M_Inno2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 57703,
+      "kuerzel": "M_Inno_2",
+      "bezeichnung": "Innovation 2: Operatives Innovationsmanagement",
+      "url": "allModules/57703_M_Inno_2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 61226,
+      "kuerzel": "M_IntTra",
+      "bezeichnung": "Integraltransformationen",
+      "url": "allModules/61226_M_IntTra.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57056,
+      "kuerzel": "M_IBN",
+      "bezeichnung": "Intent-Based Networking",
+      "url": "allModules/57056_M_IBN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 65049,
+      "kuerzel": "M_IKIS",
+      "bezeichnung": "International Summer School for Sustainability",
+      "url": "allModules/65049_M_IKIS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 36015,
+      "kuerzel": "M_Ital1",
+      "bezeichnung": "Italienisch 1",
+      "url": "allModules/36015_M_Ital1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 36011,
+      "kuerzel": "M_Ital2",
+      "bezeichnung": "Italienisch 2",
+      "url": "allModules/36011_M_Ital2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 28088,
+      "kuerzel": "M_Jap1",
+      "bezeichnung": "Japanisch 1",
+      "url": "allModules/28088_M_Jap1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 28093,
+      "kuerzel": "M_Jap2",
+      "bezeichnung": "Japanisch 2",
+      "url": "allModules/28093_M_Jap2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 40597,
+      "kuerzel": "M_KatAufInf",
+      "bezeichnung": "Kat_AufbauInformatik",
+      "url": "allModules/40597_M_KatAufInf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 12
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 41364,
+      "kuerzel": "M_KatAufInf",
+      "bezeichnung": "Kat_AufbauInformatik2",
+      "url": "allModules/41364_M_KatAufInf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 12
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 41365,
+      "kuerzel": "M_KatAufInf3",
+      "bezeichnung": "Kat_AufbauInformatik3",
+      "url": "allModules/41365_M_KatAufInf3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 12
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 61094,
+      "kuerzel": "M_KatAufInf3",
+      "bezeichnung": "Kat_AufbauInformatik4",
+      "url": "allModules/61094_M_KatAufInf3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 12
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 61095,
+      "kuerzel": "M_KatAufInf3",
+      "bezeichnung": "Kat_AufbauInformatik5",
+      "url": "allModules/61095_M_KatAufInf3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 12
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 61096,
+      "kuerzel": "M_KatAufInf3",
+      "bezeichnung": "Kat_AufbauInformatik6",
+      "url": "allModules/61096_M_KatAufInf3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 12
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 60078,
+      "kuerzel": "M_KatInf",
+      "bezeichnung": "Kat_Informatik",
+      "url": "allModules/60078_M_KatInf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 60079,
+      "kuerzel": "M_KatInf2",
+      "bezeichnung": "Kat_Informatik2",
+      "url": "allModules/60079_M_KatInf2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 60080,
+      "kuerzel": "M_KatInf3",
+      "bezeichnung": "Kat_Informatik3",
+      "url": "allModules/60080_M_KatInf3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 60081,
+      "kuerzel": "M_KatInf4",
+      "bezeichnung": "Kat_Informatik4",
+      "url": "allModules/60081_M_KatInf4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 20396,
+      "kuerzel": "M_KatKaLos",
+      "bezeichnung": "Kategorielos",
+      "url": "allModules/20396_M_KatKaLos.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 61396,
+      "kuerzel": "M_IKKP",
+      "bezeichnung": "Klimakrise: Kann die Politik die Welt noch retten?",
+      "url": "allModules/61396_M_IKKP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 61404,
+      "kuerzel": "M_IKKP_p",
+      "bezeichnung": "Klimakrise: Kann die Politik die Welt noch retten?",
+      "url": "allModules/61404_M_IKKP_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65292,
+      "kuerzel": "M_IKKP_p_RJ",
+      "bezeichnung": "Klimakrise: Kann die Politik die Welt noch retten? Kopie",
+      "url": "allModules/65292_M_IKKP_p_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 37397,
+      "kuerzel": "M_KommIng2",
+      "bezeichnung": "Kommunikation 2 für IngenieurInnen  (Teamkommunikation)",
+      "url": "allModules/37397_M_KommIng2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10142,
+          "kuerzel": "I_KomEng",
+          "bezeichnung": "Kommunikation und Englisch",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 40469,
+      "kuerzel": "M_KatKOENG1",
+      "bezeichnung": "Kommunikation und Englisch",
+      "url": "allModules/40469_M_KatKOENG1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10142,
+          "kuerzel": "I_KomEng",
+          "bezeichnung": "Kommunikation und Englisch",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 56762,
+      "kuerzel": "M_KatKOENG1_",
+      "bezeichnung": "Kommunikation und Englisch1",
+      "url": "allModules/56762_M_KatKOENG1_.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10142,
+          "kuerzel": "I_KomEng",
+          "bezeichnung": "Kommunikation und Englisch",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 31904,
+      "kuerzel": "M_KatKoSpra2",
+      "bezeichnung": "Kommunikation und Sprache 2",
+      "url": "allModules/31904_M_KatKoSpra2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10142,
+          "kuerzel": "I_KomEng",
+          "bezeichnung": "Kommunikation und Englisch",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 15546,
+      "kuerzel": "M_KomFou1",
+      "bezeichnung": "Komplexe Zahlen und Fourierreihen",
+      "url": "allModules/15546_M_KomFou1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 41732,
+      "kuerzel": "M_LLDIG",
+      "bezeichnung": "Lernlabor \"Digitalisieren Hands-on\"",
+      "url": "allModules/41732_M_LLDIG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44232,
+      "kuerzel": "M_IKDH_p",
+      "bezeichnung": "Lernlabor «Digitalisieren Hands-on»",
+      "url": "allModules/44232_M_IKDH_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44235,
+      "kuerzel": "M_IKDH",
+      "bezeichnung": "Lernlabor «Digitalisieren Hands-on»",
+      "url": "allModules/44235_M_IKDH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65243,
+      "kuerzel": "M_IKDH_p_RJ",
+      "bezeichnung": "Lernlabor «Digitalisieren Hands-on»",
+      "url": "allModules/65243_M_IKDH_p_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 31614,
+      "kuerzel": "M_MathFML",
+      "bezeichnung": "Mathematical Foundations for Machine Learning",
+      "url": "allModules/31614_M_MathFML.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 39799,
+      "kuerzel": "M_KatMaPhys",
+      "bezeichnung": "Mathematik und Physik",
+      "url": "allModules/39799_M_KatMaPhys.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 40451,
+      "kuerzel": "M_KatMaPhys2",
+      "bezeichnung": "Mathematik und Physik 2",
+      "url": "allModules/40451_M_KatMaPhys2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 40687,
+      "kuerzel": "M_KatMaPhys3",
+      "bezeichnung": "Mathematik und Physik 3",
+      "url": "allModules/40687_M_KatMaPhys3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 45131,
+      "kuerzel": "M_MathSem1",
+      "bezeichnung": "Mathematisches Seminar 1",
+      "url": "allModules/45131_M_MathSem1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 24089,
+      "kuerzel": "M_MathSem2",
+      "bezeichnung": "Mathematisches Seminar 2",
+      "url": "allModules/24089_M_MathSem2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 64983,
+      "kuerzel": "M_IKMI",
+      "bezeichnung": "Medien- und Informationskompetenz in Zeiten von KI ",
+      "url": "allModules/64983_M_IKMI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 40139,
+      "kuerzel": "M_MOSIM",
+      "bezeichnung": "Modellbildung und Simulation",
+      "url": "allModules/40139_M_MOSIM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45138,
+      "kuerzel": "M_NwP",
+      "bezeichnung": "Naturwissenschaftliches Praktikum",
+      "url": "allModules/45138_M_NwP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 42231,
+      "kuerzel": "M_NIoSec",
+      "bezeichnung": "Network and IoT Security",
+      "url": "allModules/42231_M_NIoSec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56252,
+      "kuerzel": "M_NetAut",
+      "bezeichnung": "Network Automation",
+      "url": "allModules/56252_M_NetAut.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 43813,
+      "kuerzel": "M_OOP1",
+      "bezeichnung": "Objektorientierte Programmierung 1",
+      "url": "allModules/43813_M_OOP1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 38910,
+      "kuerzel": "M_OOP2",
+      "bezeichnung": "Objektorientierte Programmierung 2",
+      "url": "allModules/38910_M_OOP2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 41462,
+      "kuerzel": "M_ParProg",
+      "bezeichnung": "Parallele Programmierung",
+      "url": "allModules/41462_M_ParProg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 39045,
+      "kuerzel": "M_PF",
+      "bezeichnung": "Patterns und Frameworks",
+      "url": "allModules/39045_M_PF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45143,
+      "kuerzel": "M_Ph1Mech",
+      "bezeichnung": "Physik 1 - Mechanik",
+      "url": "allModules/45143_M_Ph1Mech.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 22021,
+      "kuerzel": "M_Ph2HAT",
+      "bezeichnung": "Physik 2 - Hydro-, Aero- und Thermodynamik",
+      "url": "allModules/22021_M_Ph2HAT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45153,
+      "kuerzel": "M_Ph3SWO",
+      "bezeichnung": "Physik 3 - Schwingungen und Wellen, Optik",
+      "url": "allModules/45153_M_Ph3SWO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 43544,
+      "kuerzel": "M_PhAI",
+      "bezeichnung": "Physik Anwendungen für Informatik",
+      "url": "allModules/43544_M_PhAI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 61026,
+      "kuerzel": "M_PlFSec",
+      "bezeichnung": "Platform Security",
+      "url": "allModules/61026_M_PlFSec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57180,
+      "kuerzel": "M_PWWD",
+      "bezeichnung": "Praxiswoche Webdesign",
+      "url": "allModules/57180_M_PWWD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 28231,
+      "kuerzel": "M_PmQm",
+      "bezeichnung": "Projekt- und Qualitätsmanagement",
+      "url": "allModules/28231_M_PmQm.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44133,
+      "kuerzel": "M_IKPS",
+      "bezeichnung": "Prototyping für Startup-Ideen",
+      "url": "allModules/44133_M_IKPS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 41489,
+      "kuerzel": "M_Python",
+      "bezeichnung": "Python",
+      "url": "allModules/41489_M_Python.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 61209,
+      "kuerzel": "M_PML",
+      "bezeichnung": "Python für ML",
+      "url": "allModules/61209_M_PML.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 40619,
+      "kuerzel": "M_KatRahmenInf",
+      "bezeichnung": "Rahmen Informatik",
+      "url": "allModules/40619_M_KatRahmenInf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 41607,
+      "kuerzel": "M_KatRahmenInf2",
+      "bezeichnung": "Rahmen Informatik 2",
+      "url": "allModules/41607_M_KatRahmenInf2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44142,
+      "kuerzel": "M_IKRE",
+      "bezeichnung": "Resilienz: Schlüsselkompetenz für innere Stärke ",
+      "url": "allModules/44142_M_IKRE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43277,
+      "kuerzel": "M_RheKoI",
+      "bezeichnung": "Rhetorische Kommunikation für IngenieurInnen",
+      "url": "allModules/43277_M_RheKoI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10142,
+          "kuerzel": "I_KomEng",
+          "bezeichnung": "Kommunikation und Englisch",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 25661,
+      "kuerzel": "M_RKI",
+      "bezeichnung": "Rhetorische Kommunikation für IngenieurInnen",
+      "url": "allModules/25661_M_RKI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10142,
+          "kuerzel": "I_KomEng",
+          "bezeichnung": "Kommunikation und Englisch",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 31909,
+      "kuerzel": "M_RheKI",
+      "bezeichnung": "Rhetorische Kommunikation für IngenieurInnen",
+      "url": "allModules/31909_M_RheKI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10142,
+          "kuerzel": "I_KomEng",
+          "bezeichnung": "Kommunikation und Englisch",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 39203,
+      "kuerzel": "M_SEP1",
+      "bezeichnung": "SE Practices 1",
+      "url": "allModules/39203_M_SEP1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10138,
+          "kuerzel": "I_EP",
+          "bezeichnung": "Engineering Practice",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57233,
+      "kuerzel": "M_SEP2",
+      "bezeichnung": "SE Practices 2",
+      "url": "allModules/57233_M_SEP2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10138,
+          "kuerzel": "I_EP",
+          "bezeichnung": "Engineering Practice",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 43712,
+      "kuerzel": "M_SEProj",
+      "bezeichnung": "SE Project",
+      "url": "allModules/43712_M_SEProj.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10138,
+          "kuerzel": "I_EP",
+          "bezeichnung": "Engineering Practice",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 40311,
+      "kuerzel": "M_SecSoW",
+      "bezeichnung": "Secure Software",
+      "url": "allModules/40311_M_SecSoW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 36488,
+      "kuerzel": "M_SecSW",
+      "bezeichnung": "Secure Software",
+      "url": "allModules/36488_M_SecSW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 37171,
+      "kuerzel": "M_ServDev",
+      "bezeichnung": "Service Development (ITIL)",
+      "url": "allModules/37171_M_ServDev.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44217,
+      "kuerzel": "M_IKSS_p",
+      "bezeichnung": "Ski-Nation Schweiz",
+      "url": "allModules/44217_M_IKSS_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 37893,
+      "kuerzel": "M_SE1",
+      "bezeichnung": "Software-Engineering 1",
+      "url": "allModules/37893_M_SE1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10138,
+          "kuerzel": "I_EP",
+          "bezeichnung": "Engineering Practice",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 37191,
+      "kuerzel": "M_SE2",
+      "bezeichnung": "Software-Engineering 2",
+      "url": "allModules/37191_M_SE2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10138,
+          "kuerzel": "I_EP",
+          "bezeichnung": "Engineering Practice",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 35903,
+      "kuerzel": "M_SPPRODUCTS",
+      "bezeichnung": "SP-Smart Products",
+      "url": "allModules/35903_M_SPPRODUCTS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 28097,
+      "kuerzel": "M_Span1",
+      "bezeichnung": "Spanisch 1",
+      "url": "allModules/28097_M_Span1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 44428,
+      "kuerzel": "M_Span2",
+      "bezeichnung": "Spanisch 2",
+      "url": "allModules/44428_M_Span2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 65029,
+      "kuerzel": "M_IKSW_p",
+      "bezeichnung": "Stadt der kurzen Wege",
+      "url": "allModules/65029_M_IKSW_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65026,
+      "kuerzel": "M_IKST_p",
+      "bezeichnung": "Starkes Ich – Starkes Team",
+      "url": "allModules/65026_M_IKST_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65240,
+      "kuerzel": "M_IKST_p_RJ",
+      "bezeichnung": "Starkes Ich – Starkes Team",
+      "url": "allModules/65240_M_IKST_p_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 31838,
+      "kuerzel": "M_ML",
+      "bezeichnung": "Statistical Machine Learning",
+      "url": "allModules/31838_M_ML.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 40906,
+      "kuerzel": "M_SAI21",
+      "bezeichnung": "Studienarbeit Informatik",
+      "url": "allModules/40906_M_SAI21.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10143,
+          "kuerzel": "I_SaBa",
+          "bezeichnung": "Studien- Bachelorarbeit",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 38938,
+      "kuerzel": "M_SModSim",
+      "bezeichnung": "System Modeling and Simulation",
+      "url": "allModules/38938_M_SModSim.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56946,
+      "kuerzel": "M_UIP",
+      "bezeichnung": "UI Patterns and Frameworks",
+      "url": "allModules/56946_M_UIP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 41106,
+      "kuerzel": "M_UX",
+      "bezeichnung": "User Experience",
+      "url": "allModules/41106_M_UX.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 65035,
+      "kuerzel": "M_IKVK",
+      "bezeichnung": "Vielfalt, Chancengleichheit und Inklusion im KI-Zeitalter ",
+      "url": "allModules/65035_M_IKVK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57360,
+      "kuerzel": "M_idks.IKVR",
+      "bezeichnung": "Virtual and Augmented Reality",
+      "url": "allModules/57360_M_idks.IKVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65032,
+      "kuerzel": "M_IKVA_p",
+      "bezeichnung": "Virtual Reality für gesundes Leben und Altern",
+      "url": "allModules/65032_M_IKVA_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44172,
+      "kuerzel": "M_IKVA",
+      "bezeichnung": "Virtual Reality für gesundes Leben und Altern",
+      "url": "allModules/44172_M_IKVA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65261,
+      "kuerzel": "M_IKVA_p_BU",
+      "bezeichnung": "Virtual Reality für gesundes Leben und Altern Kopie",
+      "url": "allModules/65261_M_IKVA_p_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65255,
+      "kuerzel": "M_IKVR_RJ",
+      "bezeichnung": "Virtual Reality für Klima und Energie",
+      "url": "allModules/65255_M_IKVR_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65043,
+      "kuerzel": "M_IKVR",
+      "bezeichnung": "Virtual Reality für Klima und Energie ",
+      "url": "allModules/65043_M_IKVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44181,
+      "kuerzel": "M_IKVR_p",
+      "bezeichnung": "Virtual Reality für Klima und Energie",
+      "url": "allModules/44181_M_IKVR_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65295,
+      "kuerzel": "M_IKVR_p_BU",
+      "bezeichnung": "Virtual Reality für Klima und Energie Kopie",
+      "url": "allModules/65295_M_IKVR_p_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10153,
+          "kuerzel": "IKTS-help",
+          "bezeichnung": "IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 42760,
+      "kuerzel": "M_VwlTg",
+      "bezeichnung": "Volkswirtschaft und Technikgeschichte",
+      "url": "allModules/42760_M_VwlTg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 24489,
+      "kuerzel": "M_WrStat",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung und Statistik",
+      "url": "allModules/24489_M_WrStat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 38891,
+      "kuerzel": "M_WE1",
+      "bezeichnung": "Web Engineering 1",
+      "url": "allModules/38891_M_WE1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 38945,
+      "kuerzel": "M_WE2",
+      "bezeichnung": "Web Engineering 2",
+      "url": "allModules/38945_M_WE2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 65059,
+      "kuerzel": "M_WE3",
+      "bezeichnung": "Web Engineering 3",
+      "url": "allModules/65059_M_WE3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 40038,
+      "kuerzel": "M_WsoT",
+      "bezeichnung": "Wireless and IoT",
+      "url": "allModules/40038_M_WsoT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 37157,
+      "kuerzel": "M_WIoT",
+      "bezeichnung": "Wireless and IoT",
+      "url": "allModules/37157_M_WIoT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 32766,
+      "kuerzel": "M_WSLS",
+      "bezeichnung": "Workshop \"Lern-Support an der OST\"",
+      "url": "allModules/32766_M_WSLS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ]
+}

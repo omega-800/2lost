@@ -1,0 +1,119 @@
+{
+  "id": 17889,
+  "kuerzel": "M_CADB",
+  "bezeichnung": "CAD für Bauingenieure - Einführung",
+  "kreditpunkte": 0,
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 17890,
+      "kuerzel": "CADB",
+      "bezeichnung": "CAD für Bauingenieure - Einführung",
+      "lernziele": "<p>Einf&uuml;hrung in die 3D Konstruktion als Grundlage f&uuml;r die digitale Projektbearbeitung im Bauingenieurwesen</p>",
+      "planinhalt": "<ul><li>Einf&uuml;hrung in die 3D Konstruktion (Revit)</li></ul>",
+      "kurselemente": [
+        {
+          "id": 17891,
+          "art": "Praktikum",
+          "anzLektionen": 1.7,
+          "maxTeilnehmer": 15,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "CAD für Bauingenieure - Einführung"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "CAD for Civil Engineering - Introduction"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10131,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10131_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10005,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10005_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10109,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10109_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 128,
+      "name": "Petschek",
+      "vorname": "Peter"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "CAD für Bauingenieure - Einführung"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "CAD for Civil Engineering - Introduction"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2008,
+    "beginSemester": "HS",
+    "endJahr": 2019,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 15799,
+    "kuerzel": "M_CADB",
+    "bezeichnung": "CAD für Bauingenieure - Einführung",
+    "url": "allModules/15799_M_CADB.json"
+  }
+}

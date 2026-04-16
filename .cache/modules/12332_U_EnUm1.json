@@ -1,0 +1,146 @@
+{
+  "id": 12332,
+  "kuerzel": "U_EnUm1",
+  "bezeichnung": "Energietechnik 1 - Übergangsmodul",
+  "kreditpunkte": 4,
+  "lernziele": "<p>- Kennt die energetischen Zusammenh&#228;nge in der Schweiz.<br />- Kann Energiesysteme bilanzieren.</p>\n<p>------------------</p>\n<p>- Kennt, berechnet und konstruiert W&#228;rmeaustauscher inklusive Verdampfer und Kondensatoren<br /></p>",
+  "vorausgKenntnisse": "<p>Technische Mechanik 1&nbsp;- 3<br />Physik 2&nbsp; <br /></p>\n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 12256,
+      "kuerzel": "uEnSzCH",
+      "bezeichnung": "Energieszene Schweiz - Übergang",
+      "lernziele": "<p>- Kennt die Energietr&#228;ger und deren Anwendung in der Schweiz.<br />- Kennt die Aspekte der regenerativen Energie inkl. Wasserkraft.<br />- Kennt die Vorg&#228;nge in einem Kernkraftwerk: atomare<br />&nbsp;&nbsp;Energieerzeugung, Reaktorsteuerung und Strahlenschutz.</p>",
+      "planinhalt": "<p><strong>Einf&#252;hrung:</strong>&nbsp; <br />Physikalische Arten von Energie, Energie-Umwandlungen und deren Wirkungsgrade, <br />W&#228;rme-Kraft-Koppelungen; <br />Prim&#228;renergie, Endenergie, Nutzenergie. <br />Einflussdiagramm der Schweiz und historische Entwickung der Energiesituation der Schweiz.</p>\n<p><strong>Energiesektoren:<br /></strong>1. Fossile Brennstoffe: Gewinnung und Aufbereitung, Verteilungssysteme, CO2-Problematik</p>\n<p>2. Kerntechnik: Kernspaltung, Kernreaktor-Systeme, Strahlungsschutz, Abfallproblematik</p>\n<p>3. Regenerative Energien: Wasserkraft, Solarthermie, Photovoltaik, Wind, Holz<br /><br /></p>",
+      "kurselemente": [
+        {
+          "id": 12293,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Energieszene Schweiz - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Status of Energy Situation in Switzerland/ Technologies of energy in Switzerland - Transition"
+        }
+      ]
+    },
+    {
+      "id": 12257,
+      "kuerzel": "uEntApp1",
+      "bezeichnung": "Energietechnische Apparate und Anlagen 1 - Übergang",
+      "lernziele": "<p>- Kennt, berechnet und konstruiert W&#228;rmetauscher inklusive Verdampfer und Kondensatoren</p>",
+      "planinhalt": "<p>- Energiebilanz eines W&#228;rmetauschers, Grundgleichungen<br />- W&#228;rmetauscherarten, Aspekte der Konstruktion<br />- Schaltungen der W&#228;rmetauscher, NTU-P1/P2-Methode<br />- Berechnung des W&#228;rmedurchganges, dimensionslose Gleichungen<br />- Verdampfer und Kondensatoren, Rippenrohre<br />- Analogie zum Stoffaustausch</p>",
+      "kurselemente": [
+        {
+          "id": 12294,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Energietechnische Apparate und Anlagen 1 - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Equipment Design in Energy Technology 1 - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 251,
+      "name": "Kopp",
+      "vorname": "Thomas"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 12332,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Energietechnik 1 - Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Energy Technology 1 - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2006,
+    "endSemester": "WS"
+  }
+}

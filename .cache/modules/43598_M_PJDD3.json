@@ -1,0 +1,95 @@
+{
+  "id": 43598,
+  "kuerzel": "M_PJDD3",
+  "bezeichnung": "Projekt 3",
+  "kreditpunkte": 6,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 43599,
+      "kuerzel": "PJDD3",
+      "bezeichnung": "Projekt 3",
+      "planinhalt": "",
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Projekt 3"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Project 3"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10260,
+      "bezeichnung": "Digital Design",
+      "kuerzel": "DD",
+      "url": "allStudies/10260_DD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10160,
+          "kuerzel": "DD-IF",
+          "bezeichnung": "Ideation und Facilitation",
+          "kreditpunkte": 6
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9989,
+      "name": "ZZZ Dozent HL",
+      "vorname": "Planung"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 43572,
+      "kuerzel": "M_PJDD1",
+      "bezeichnung": "Projekt 1 ",
+      "url": "allModules/43572_M_PJDD1.json"
+    },
+    {
+      "id": 43586,
+      "kuerzel": "M_PJDD2",
+      "bezeichnung": "Projekt 2",
+      "url": "allModules/43586_M_PJDD2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Projekt 3"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Project 3"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "nachfolger": {
+    "id": 43598,
+    "kuerzel": "M_PJDD3",
+    "bezeichnung": "Projekt 3",
+    "url": "allModules/43598_M_PJDD3.json"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "id": 23862,
+  "kuerzel": "M_Öko4",
+  "bezeichnung": "Ökologie 4",
+  "kreditpunkte": 2,
+  "lernziele": "<font size=\"3\"><font face=\"Calibri\">\n<p>Die Studierenden verstehen die Grunds&auml;tze von Abfallwirtschaft und urbanem Stoffhaushalt und k&ouml;nnen die Wirkung von Massnahmen der &ouml;ffentlichen Hand in diesem Bereich absch&auml;tzen und vor dem Hintergrund umweltpolitischer Leitbilder beurteilen. Sie verf&uuml;gen &uuml;ber ingenieurwissenschaftliche Grundkenntnisse zu besonders raumplanungsrelevanten Frage wie Altlasten und Deponieplanung . Sie verstehen wie L&auml;rm die Siedlungsentwicklung beeinflusst (z.B. auch Flugl&auml;rm) und kennen sowohl die g&auml;ngigen Massnahmen zum L&auml;rmschutz wie auch die damit verbundenen Planungsinstrumente. </p>\n</font></font>\n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 23863,
+      "kuerzel": "TUs3",
+      "bezeichnung": "Technischer Umweltschutz 3",
+      "planinhalt": "<ul>\n    <li>Stoffhaushalte/Stoffstr&ouml;me mit Fokus Abfallwirtschaft und Abfallplanung </li>\n    <li>Altlasten, Deponieplanung </li>\n    <li>Umweltvertr&auml;glichkeitspr&uuml;fung </li>\n    <li>L&auml;rm und Raumplanung: Einfluss des L&auml;rms auf die Siedlungsentwicklung </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 23864,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Technischer Umweltschutz 3"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Environmental Technology 3"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10000,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10000_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10041,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10041_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10097,
+          "kuerzel": "R_uö",
+          "bezeichnung": "Umwelt und Ökologie",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10123,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10123_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10097,
+          "kuerzel": "R_uö",
+          "bezeichnung": "Umwelt und Ökologie",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 529046,
+      "name": "Kytzia",
+      "vorname": "Susanne"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 23862,
+      "art": "Note von 1 - 6",
+      "pruefungMue": true,
+      "dauerPrfMue": 20,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Ökologie 4"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Ecology 4"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2014,
+    "beginSemester": "FS",
+    "endJahr": 2017,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 18246,
+    "kuerzel": "M_Öko4",
+    "bezeichnung": "Ökologie 4",
+    "url": "allModules/18246_M_Öko4.json"
+  },
+  "nachfolger": {
+    "id": 23862,
+    "kuerzel": "M_Öko4",
+    "bezeichnung": "Ökologie 4",
+    "url": "allModules/23862_M_Öko4.json"
+  }
+}

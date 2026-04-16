@@ -1,0 +1,270 @@
+{
+  "id": 53832,
+  "kuerzel": "M_EuR_IV",
+  "bezeichnung": "Elektronik und Regelungstechnik IV",
+  "kreditpunkte": 10,
+  "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>k&ouml;nnen ein komplexes digitales System in einer programmierbaren Logik entwerfen.</li>\n<li>k&ouml;nnen synchrone Schaltungen entwerfen.</li>\n<li>k&ouml;nnen ein komplexes System bestehend aus einem Controller mit Peripheriebausteinen auf einer programmierbaren Logik realisieren (System on Chip).</li>\n</ul>\n<p>&nbsp;</p>\n<ul>\n<li>kennen die Grundlagen von zeitdiskreten Signalen und Systemen.</li>\n<li>k&ouml;nnen SC-Filter einsetzen.</li>\n<li>kennen die Grundlagen der digitalen Filter.</li>\n<li>k&ouml;nnen digitale Filter auslegen.</li>\n<li>kennen den Einfluss endlicher Wortl&auml;nge auf die Implementierung digitaler Filter.</li>\n<li>kennen die Grundlagen der Multirate-Signalverarbeitung.</li>\n<li>kennen die Funktionsweise von PLLs.</li>\n</ul>\n<p>&nbsp;</p>\n<ul>\n<li>k&ouml;nnen Mikrocontroller f&uuml;r komplexe Regelungsaufgaben einsetzen.</li>\n<li>k&ouml;nnen ein einfaches Echtzeitbetriebssystem anwenden.</li>\n<li>kennen den Aufbau eines digitalen Signalprozessors (DSP) und seinen Einsatz in einer regelungstechnischen Aufgabe.</li>\n<li>k&ouml;nnen digitale Filter realisieren.</li>\n</ul>\n<p>&nbsp;</p>\n<ul>\n<li>verstehen die Fach&uuml;bergreifende Natur der Sensorsysteme.</li>\n<li>k&ouml;nnen die Teile eines Messsystems in das Konzept des modellbasierten Messens einordnen.</li>\n<li>k&ouml;nnen nichtlineare Kennlinien von Sensorelementen linearisieren.</li>\n<li>k&ouml;nnen die erreichbare Aufl&ouml;sung von nichtlinearen Sensorelementen berechnen.</li>\n<li>verstehen die Wirkungsweise von Kalman-Filtern und k&ouml;nnen diese f&uuml;r einfache Anwendungen entwerfen.</li>\n<li>kennen Beispiele von integrierten Sensorsystemen in unterschiedlichen Anwendungen.</li>\n<li>k&ouml;nnen die Bedeutung der unterschiedlichen Fachdisziplinen zur Realisierung von komplexen Sensorsystemen bewerten.</li>\n</ul>\n<p>&nbsp;</p>\n<ul>\n<li>kennen die Zustandsraumdarstellung zur Modellierung linearer dynamischer Systeme im Zeitbereich.</li>\n<li>k&ouml;nnen lineare dynamische Systeme im Zustandsraum darstellen.</li>\n<li>k&ouml;nnen &uuml;berpr&uuml;fen, ob ein in Zustandsraumdarstellung gegebenes System steuerbar bzw. beobachtbar ist.</li>\n<li>k&ouml;nnen f&uuml;r lineare dynamische Systeme einen Zustandsregler entwerfen.</li>\n<li>k&ouml;nnen mittels eines Beobachters nichtmessbare St&ouml;r- und Zustandsgr&ouml;ssen zug&auml;nglich machen.</li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 53833,
+      "kuerzel": "EuR_IV_F",
+      "bezeichnung": "Digitale Filter",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>kennen die Grundlagen von zeitdiskreten&nbsp;Signalen und Systemen.</li>\n<li>k&ouml;nnen SC-Filter einsetzen.</li>\n<li>kennen die Grundlagen der digitalen Filter.</li>\n<li>k&ouml;nnen digitale Filter auslegen.</li>\n<li>kennen den Einfluss endlicher Wortl&auml;nge auf die Implementierung digitaler Filter.</li>\n<li>kennen die Grundlagen der Multirate-Signalverarbeitung.</li>\n<li>kennen die Funktionsweise von PLLs.</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>SC-Filter</li>\n<li>Theoretische Grundlagen digitaler Filter&nbsp;</li>\n<li>Digitale Filter (FIR/IIR)</li>\n<li>Grundlagen der PLLs (Phase Locked Loops)</li>\n</ul>",
+      "bibliographie": "<p>Skript</p><p>Tietze, Schenk: Halbleiterschaltungen</p><p>Datenblätter und Applikationsbeschreibung von Bauelementen</p><p>Softwarewerkzeuge: SPICE, MATLAB</p>",
+      "empfLehrmittel": "Vorlesung, Selbststudium, Übungen, Gruppenarbeit, Laborübung",
+      "bemerkungKurs": "<p>Die Unterrichtssprache ist Deutsch und/oder Englisch. Der Kurs k&ouml;nnte Hybrid oder online durchgef&uuml;hrt werden.</p>",
+      "leistungsnachweis": "<p>W&auml;hrend der Unterrichtsphase findet eine Zwischenpr&uuml;fung statt. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Digitale Systeme, Zustandsregler und Beobachter, Mikrocontroller in der Mess- und Regelungstechnik sowie Sensorsysteme statt.</p>",
+      "kurselemente": [
+        {
+          "id": 53834,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001529,
+          "name": "Piai",
+          "vorname": "Guido"
+        }
+      ]
+    },
+    {
+      "id": 53835,
+      "kuerzel": "EuR_IV_Z",
+      "bezeichnung": "Zustandsregler und Beobachter",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>kennen die Zustandsraumdarstellung zur Modellierung linearer dynamischer Systeme im Zeitbereich.</li>\n    <li>k&ouml;nnen lineare dynamische Systeme im Zustandsraum darstellen.</li>\n    <li>k&ouml;nnen &uuml;berpr&uuml;fen, ob ein in Zustandsraumdarstellung gegebenes System steuerbar bzw. beobachtbar ist.</li>\n    <li>k&ouml;nnen f&uuml;r lineare dynamische Systeme einen Zustandsregler entwerfen.</li>\n    <li>k&ouml;nnen mittels eines Beobachters nichtmessbare St&ouml;r- und Zustandsgr&ouml;ssen zug&auml;nglich machen.</li>\n</ul>",
+      "planinhalt": "<p style=\"MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: \" class=\"MsoNormal\"><span style=\"COLOR: #376092; mso-fareast-language: DE-CH\"><font size=\"3\"><font face=\"Calibri\"></font></font></span></p>\n<ul>\n    <li>\n    <div style=\"MARGIN: 0cm 0cm 0pt\" class=\"MsoNormal\">Zustandsraumdarstellung von linearen dynamischen Systemen aus der Differentialgleichung bzw. aus dem Blockschaltbild herleiten</div>\n    </li>\n    <li>\n    <div style=\"MARGIN: 0cm 0cm 0pt\" class=\"MsoNormal\">Steuerbarkeit und Beobachtbarkeit eines in Zustandsraumdarstellung gegebenen Systems &uuml;berpr&uuml;fen</div>\n    </li>\n    <li>\n    <div style=\"MARGIN: 0cm 0cm 0pt\" class=\"MsoNormal\">Entwurf eines Zustandsreglers (Verfahren der Polvorgabe und LQR-Entwurf, &uuml;berlagerter PI-Regler)</div>\n    </li>\n    <li>\n    <div style=\"MARGIN: 0cm 0cm 0pt\" class=\"MsoNormal\">Entwurf eines Beobachters zur Rekonstruktion nichtmessbarer St&ouml;r- und Zustandsgr&ouml;ssen</div>\n    </li>\n    <li>\n    <div style=\"MARGIN: 0cm 0cm 0pt\" class=\"MsoNormal\">praktische Realisierung verschiedener Regelkonzepte mit einem Mikrocontroller f&uuml;r die Drehzahl und Lagerregelung eines DC-Motors</div>\n    </li>\n    <li>\n    <div style=\"MARGIN: 0cm 0cm 0pt\" class=\"MsoNormal\">Anwendung von MATLAB / Simulink im Zusammenhang mit der Zustandsraumdarstellung und dem Reglerentwurf.<br /></div>\n    </li>\n</ul>",
+      "bibliographie": "<p>Skript</p><p>Lutz: Taschenbuch der Regelungstechnik</p><p>Softwarewerkzeuge: MATLAB/Simulink</p>",
+      "empfLehrmittel": "Vorlesung, Selbststudium, Übungen, Gruppenarbeit, Laborübung",
+      "bemerkungKurs": "Die Unterrichtssprache ist Deutsch, die Unterrichtsunterlagen sind jedoch zum Teil auf Englisch.",
+      "leistungsnachweis": "<p>W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Digitale Filter, Digitale Systeme, Mikrocontroller in der Mess- und Regelungstechnik sowie Sensorsysteme statt.</p>",
+      "kurselemente": [
+        {
+          "id": 53836,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000919,
+          "name": "Pickhardt",
+          "vorname": "Rainer"
+        }
+      ]
+    },
+    {
+      "id": 53837,
+      "kuerzel": "EuR_IV_M",
+      "bezeichnung": "Mikrocontroller in der Mess- und Regelungstechnik",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>können Mikrocontroller für komplexe Regelungsaufgaben einsetzen.</li><li>können ein einfaches Echtzeitbetriebssystem anwenden.</li><li>kennen den Aufbau eines digitalen Signalprozessors (DSP) und seinen Einsatz in einer regelungstechnischen Aufgabe.</li><li>können digitale Filter realisieren.</li></ul>",
+      "planinhalt": "<ul><li>High-End Controller</li><li>Anwendung in regelungstechnischen Fragestellungen</li><li>Digitaler Signalprozessor (DSP), Codec</li><li>Foreground- / Background-System</li><li>Echtzeitbetriebssysteme</li><li>Low-Power Strategien</li><li>Anwendung in messtechnischen Fragestellungen</li><li>Digitale Filter</li></ul>",
+      "bibliographie": "Vorlesungsunterlagen, Manual",
+      "empfLehrmittel": "Vorlesung, Selbststudium, Übungen, Gruppenarbeit, Laborübung",
+      "bemerkungKurs": "Die Unterrichtssprache ist Deutsch, die Unterrichtsunterlagen sind jedoch zum Teil auf Englisch.",
+      "leistungsnachweis": "<p>W&auml;hrend der Unterrichtsphase wird eine Pr&uuml;fung geschrieben. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Digitale Filter, Digitale Systeme, Zustandsregler und Beobachter sowie Sensorsysteme statt.</p>",
+      "kurselemente": [
+        {
+          "id": 53838,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000080,
+          "name": "Graf",
+          "vorname": "Urs"
+        }
+      ]
+    },
+    {
+      "id": 53839,
+      "kuerzel": "EuR_IV_S",
+      "bezeichnung": "Sensorsysteme",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>verstehen die Fach&uuml;bergreifende Natur der Sensorsysteme.</li>\n<li>k&ouml;nnen die Teile eines Messsystems in das Konzept des modellbasierten Messens einordnen.</li>\n<li>k&ouml;nnen nichtlineare Kennlinien von Sensorelementen linearisieren.</li>\n<li>k&ouml;nnen die erreichbare Aufl&ouml;sung von nichtlinearen Sensorelementen berechnen.</li>\n<li>verstehen die Wirkungsweise von Kalman-Filtern und k&ouml;nnen diese f&uuml;r einfache Anwendungen entwerfen.</li>\n<li>kennen Beispiele von integrierten Sensorsystemen in unterschiedlichen Anwendungen.</li>\n<li>k&ouml;nnen die Bedeutung der unterschiedlichen Fachdisziplinen zur Realisierung von komplexen Sensorsystemen bewerten.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Modellbasiertes Messen, Rekonstruktion, Kalibrierung </li>\n    <li>Gauss-Markov Sch&auml;tzer </li>\n    <li>Beobachter </li>\n    <li>Kalman-Filter </li>\n    <li>Korrelation </li>\n    <li>Moderne Sensorsysteme </li>\n    <li>Intelligente Sensoren (Integrierte Messelektronik, Mikrosystemtechnik-Sensoren) </li>\n</ul>",
+      "bibliographie": "Skript",
+      "empfLehrmittel": "Vorlesung, Selbststudium, Übungen, Gruppenarbeit, Laborübung",
+      "bemerkungKurs": "<p>Die Unterrichtssprache ist Deutsch und/oder Englisch.</p>",
+      "leistungsnachweis": "<p>Es wird eine Studienarbeit bewertet. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Digitale Filter, Digitale Systeme, Zustandsregler und Beobachter sowie Mikrocontroller in der Mess- und Regelungstechnik statt.</p>",
+      "kurselemente": [
+        {
+          "id": 53840,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002822,
+          "name": "Weitnauer",
+          "vorname": "Adrian"
+        }
+      ]
+    },
+    {
+      "id": 53841,
+      "kuerzel": "EuR_IV_D",
+      "bezeichnung": "Digitale Systeme",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen ein komplexes digitales System in einer programmierbaren Logik entwerfen.</li><li>k&ouml;nnen synchrone Schaltungen entwerfen.</li><li>k&ouml;nnen ein komplexes System bestehend aus einem&nbsp;Controller mit Peripheriebausteinen auf einer&nbsp;programmierbaren Logik realisieren (System on Chip).</li></ul>",
+      "planinhalt": "<ul><li>Digitale Signale</li><li>Programmierbare Logik</li><li>System on Chip</li><li>Synchronisation</li></ul>",
+      "bibliographie": "<p>Vorlesungsunterlagen, Tutorial, Manuals</p>",
+      "empfLehrmittel": "<p>Vorlesung, Selbststudium, &Uuml;bungen, Gruppenarbeit, Labor&uuml;bung</p>",
+      "bemerkungKurs": "<p>Die Unterrichtssprache ist Deutsch und/oder Englisch.<br />&nbsp;</p>",
+      "leistungsnachweis": "<p>Es findet eine Modulschlusspr&uuml;fung zusammen mit den Kursen Digitale Filter, Zustandsregler und Beobachter, Mikrocontroller in der Mess- und Regelungstechnik sowie Sensorsysteme statt.</p>",
+      "kurselemente": [
+        {
+          "id": 53842,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001461,
+          "name": "Arato",
+          "vorname": "Laszlo"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 8,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 10366,
+      "bezeichnung": "Elektronik und Regelungstechnik",
+      "kuerzel": "Elekt",
+      "url": "allStudies/10366_Elekt.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 10367,
+      "bezeichnung": "Elektronik und Regelungstechnik",
+      "kuerzel": "Elekt",
+      "url": "allStudies/10367_Elekt.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 8
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002822,
+      "name": "Weitnauer",
+      "vorname": "Adrian"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 53843,
+      "kuerzel": "M_EuR_III",
+      "bezeichnung": "Elektronik und Regelungstechnik III",
+      "url": "allModules/53843_M_EuR_III.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 2,
+      "kuerzel": "WSG",
+      "bezeichnung": "Waldau St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 53832,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Am Ende des Semesters findet eine abgesetzte Modulschlusspr&uuml;fung in f&uuml;nf Teilen statt. Die Kurse Digitale Filter, Digitale Systeme, Mikrocontroller in der Mess- und Regelungstechnik, Sensorsysteme sowie Zustandsregler und Beobachter bilden je einen Teil der abgesetzten Modulschlusspr&uuml;fung.</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electronics and Control Engineering IV"
+    }
+  ],
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2023,
+    "beginSemester": "FS",
+    "endJahr": 2026,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 52896,
+    "kuerzel": "M_EuR_IV",
+    "bezeichnung": "Elektronik und Regelungstechnik IV",
+    "url": "allModules/52896_M_EuR_IV.json"
+  }
+}

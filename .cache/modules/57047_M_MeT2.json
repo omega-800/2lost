@@ -1,0 +1,308 @@
+{
+  "id": 57047,
+  "kuerzel": "M_MeT2",
+  "bezeichnung": "Mechatronik 2",
+  "kreditpunkte": 10,
+  "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>kennen die grunds&auml;tzlichen Arten des Machine Learnings, insbesondere supervised learning, unsupervised learning und reinforcement learning (K1).&nbsp;</li>\n<li>kennen die Bedeutung der Datenvorverarbeitung und k&ouml;nnen Transformationen zur Vorverarbeitung der Merkmale ausw&auml;hlen und anwenden (K3). &nbsp;</li>\n<li>verstehen den Bias-Variance-Tradeoff und k&ouml;nnen diesen mittels Regularisierungstechniken optimieren (K3)&nbsp;<br />k&ouml;nnen Modelle effizient trainieren und die Hyperparameter der Modelle &uuml;ber kreuzvalidierte Gittersuchen optimieren (K3).</li>\n<li>k&ouml;nnen Klassifikations- und Regressionsprobleme modellieren, geeignete Methoden ausw&auml;hlen und l&ouml;sen.&nbsp;<br />Verstehen die Funktionsweise von Entscheidungsb&auml;umen und das Konzept der Ensemble Learner (Random Forest, bagging).</li>\n<li>kennen das Grundprinzip der k&uuml;nstlichen neuronalen Netze und k&ouml;nnen einfache Netzarchitekturen mittels Gradientenabstiegsverfahren trainieren (K3).&nbsp;</li>\n<li>verstehen das Konzept von Faltungskernen und k&ouml;nnen CNN-Architekturen f&uuml;r die Bildklassifizierung erstellen, trainieren oder fine-tunen.&nbsp;</li>\n<li>verstehen das Konzept von rekurrenten neuronale Netzwerken (RNN) und k&ouml;nnen diese &nbsp;f&uuml;r die Regression oder Klassifizierung auf Zeitreihendaten trainieren und optimieren.&nbsp;</li>\n<li>kennen den Unterschied zwischen diskriminativen und generativen Modellen.</li>\n<li>verstehen die Wichtigkeit von Erkl&auml;rbarkeit und Interpretierbarkeit von black-box-Modellen wie DNNs und kennen modell-spezifische wie Modell-agnostische Methoden f&uuml;r XAI.&nbsp;</li>\n<li>k&ouml;nnen praktische Probleme mit geeigneten Software-Paketen l&ouml;sen.&nbsp;</li>\n</ul>\n<p>&nbsp;</p>\n<ul>\n<li>k&ouml;nnen Anforderungen an Regelkreise beschreiben und spezifizieren.&nbsp;</li>\n<li>k&ouml;nnen das dynamische Verhalten von Systemen im Bildbereich analysieren.&nbsp;</li>\n<li>kennen den Standardregelkreis und seine wesentlichen Elemente (Regler, Strecke, Mess- und Stellglieder).&nbsp;</li>\n<li>k&ouml;nnen dynamische Systeme und Regelkreise mit geeigneten Werkzeugen modellieren und simulieren.&nbsp;</li>\n<li>k&ouml;nnen die Simulation im Rahmen des Reglerentwurfs sinnvoll einsetzen.&nbsp;</li>\n<li>k&ouml;nnen das Verhalten des geschlossenen Regelkreises mit G&uuml;tekriterien bewerten.&nbsp;</li>\n<li>kennen die Stabilit&auml;tskriterien von dynamischen Systemen.&nbsp;</li>\n<li>k&ouml;nnen f&uuml;r ein gegebenes System einen geeigneten Regler w&auml;hlen und parametrieren.&nbsp;</li>\n<li>k&ouml;nnen digitale Regler (Abtastregler) implementieren und in Betrieb nehmen.&nbsp;</li>\n<li>k&ouml;nnen das Konzept der Vorsteuerung anwenden, um das F&uuml;hrungsverhalten von Kaskadenregelungen zu verbessen.&nbsp;</li>\n<li>k&ouml;nnen f&uuml;r einfache mechatronische Systeme (z.B. Antriebsstrang mit DC-Motor) eine Regelung entwerfen.&nbsp;</li>\n</ul>\n<p>&nbsp;</p>\n<ul>\n<li>verstehen die Eigenschaften der Abtastung im Zeitbereich und Frequenzbereich.</li>\n<li>verstehen die DFT als Anwendung der Korrelation.</li>\n<li>kennen die Eigenschaften der FFT-Analyse in der Praxis.</li>\n<li>k&ouml;nnen die FFT zur Analyse von Signalen anwenden.</li>\n<li>k&ouml;nnen lineare und diskretisierte Zustandsraummodelle von Systemen angeben.</li>\n<li>verstehen die Struktur von Beobachter-Systemen.</li>\n<li>verstehen die Wirkungsweise von K&aacute;lm&aacute;n-Filtern und k&ouml;nnen diese f&uuml;r einfache Anwendungen entwerfen.&nbsp;</li>\n</ul>\n<p>&nbsp;</p>\n<ul>\n<li>kennen die physikalischen Grundlagen von Leistung und Energie sowie deren Relevanz f&uuml;r mechatronische Systeme.&nbsp;</li>\n<li>k&ouml;nnen eine geeignete Systemarchitektur entwerfen und verschiedene Konzepte der Spannungsversorgung analysieren.&nbsp;</li>\n<li>sind in der Lage, verschiedene Energiespeichertechnologien sowie deren Vor- und Nachteile f&uuml;r unterschiedliche Anwendungen zu beurteilen.&nbsp;</li>\n<li>verstehen die Prinzipien von Linear- und Schaltreglern sowie deren Einsatz in mechatronischen Systemen.&nbsp;</li>\n<li>k&ouml;nnen Sicherheitsanforderungen identifizieren und entsprechende Schutzelemente (z. B. &Uuml;berspannungs- und &Uuml;berstromschutz) in ihre Systeme integrieren.&nbsp;</li>\n<li>kennen die Grundlagen der EMV und k&ouml;nnen Entst&ouml;rma&szlig;nahmen sowie gezielte Leitungsf&uuml;hrung zur Minimierung von St&ouml;rungen anwenden.&nbsp;</li>\n</ul>",
+  "vorausgKenntnisse": "<p>Ebenfalls sollten die beiden Module ELA1&nbsp; und ELA 2 besucht worden sein.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 57048,
+      "kuerzel": "MeT2_M",
+      "bezeichnung": "Machine Learning",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Machine Learning (ML) ist eine zentrale Technologie in der modernen Mechatronik und erm&ouml;glicht die datengetriebene Modellierung, Vorhersage und Optimierung komplexer Systeme. In diesem Kurs erhalten Studierende eine fundierte Einf&uuml;hrung in die Konzepte, Methoden und Anwendungen des Machine Learnings mit besonderem Fokus auf ingenieurwissenschaftliche Fragestellungen.&nbsp;<br />Der Kurs behandelt die grundlegenden Arten des Machine Learnings: Supervised Learning, Unsupervised Learning und Reinforcement Learning. Die Studierenden erlernen Techniken zur Datenvorverarbeitung, um die Qualit&auml;t der Eingabedaten zu optimieren, und verstehen den Bias-Variance-Tradeoff sowie Regularisierungsmethoden zur Verbesserung der Generalisierungsf&auml;higkeit von Modellen. Sie werden bef&auml;higt, Modelle effizient zu trainieren und Hyperparameter mittels kreuzvalidierter Gittersuchen zu optimieren.&nbsp;<br />Ein weiterer Schwerpunkt liegt auf der Modellierung und L&ouml;sung von Klassifikations- und Regressionsproblemen. Dabei werden Entscheidungsb&auml;ume und Ensemble-Methoden (Random Forest, Bagging) detailliert behandelt. Die Studierenden erlernen zudem die Grundlagen k&uuml;nstlicher neuronaler Netze und deren Training mit Gradientenabstiegsverfahren. Fortgeschrittene Architekturen wie Faltungsnetzwerke (CNNs) zur Bildklassifikation sowie Rekurrente Neuronale Netze (RNNs) f&uuml;r Zeitreihendaten werden praxisnah vermittelt.&nbsp;&nbsp;</p>\n<p>&nbsp;</p>\n<p>Die Studierenden</p>\n<ul>\n<li>kennen die grunds&auml;tzlichen Arten des Machine Learnings, insbesondere supervised learning, unsupervised learning und reinforcement learning (K1).&nbsp;</li>\n<li>kennen die Bedeutung der Datenvorverarbeitung und k&ouml;nnen Transformationen zur Vorverarbeitung der Merkmale ausw&auml;hlen und anwenden (K3). &nbsp;</li>\n<li>verstehen den Bias-Variance-Tradeoff und k&ouml;nnen diesen mittels Regularisierungstechniken optimieren (K3)&nbsp;<br />k&ouml;nnen Modelle effizient trainieren und die Hyperparameter der Modelle &uuml;ber kreuzvalidierte Gittersuchen optimieren (K3).</li>\n<li>k&ouml;nnen Klassifikations- und Regressionsprobleme modellieren, geeignete Methoden ausw&auml;hlen und l&ouml;sen.&nbsp;<br />Verstehen die Funktionsweise von Entscheidungsb&auml;umen und das Konzept der Ensemble Learner (Random Forest, bagging).</li>\n<li>kennen das Grundprinzip der k&uuml;nstlichen neuronalen Netze und k&ouml;nnen einfache Netzarchitekturen mittels Gradientenabstiegsverfahren trainieren (K3).&nbsp;</li>\n<li>verstehen das Konzept von Faltungskernen und k&ouml;nnen CNN-Architekturen f&uuml;r die Bildklassifizierung erstellen, trainieren oder fine-tunen.&nbsp;</li>\n<li>verstehen das Konzept von rekurrenten neuronale Netzwerken (RNN) und k&ouml;nnen diese &nbsp;f&uuml;r die Regression oder Klassifizierung auf Zeitreihendaten trainieren und optimieren.&nbsp;</li>\n<li>kennen den Unterschied zwischen diskriminativen und generativen Modellen.</li>\n<li>verstehen die Wichtigkeit von Erkl&auml;rbarkeit und Interpretierbarkeit von black-box-Modellen wie DNNs und kennen modell-spezifische wie Modell-agnostische Methoden f&uuml;r XAI.&nbsp;</li>\n<li>k&ouml;nnen praktische Probleme mit geeigneten Software-Paketen l&ouml;sen.&nbsp;</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>The Machine Learning Landscape&nbsp;</li>\n<li>Explorative Datenanalyse (EDA)&nbsp;</li>\n<li>Klassifizieren mit dem kNN, Metriken&nbsp;</li>\n<li>Lineare und multivariate Regression&nbsp;</li>\n<li>Logistische Regression + Gradient Descent&nbsp;</li>\n<li>Bias-Variance-Tradeoff und Regularisierung&nbsp;</li>\n<li>Decision Tree und Ensemble Methoden, Random Forests, Bagging&nbsp;</li>\n<li>vom Neuron zum Multilayer Perceptron&nbsp;</li>\n<li>NN Trainieren (Lernkurven, Regularisierung, backpropagation)&nbsp;</li>\n<li>Bilddaten: Faltungsnetzwerke (CNNs)&nbsp;</li>\n<li>Sequentielle Daten (Zeitreihen) und Rekursive Neuronale Netzwerke (RNNs)&nbsp;</li>\n<li>Generative Modelle&nbsp;</li>\n<li>Explainable AI (XAI)</li>\n</ul>",
+      "bibliographie": "<ol>\n<li>Aur&eacute;lion G&eacute;ron: Praxiseinstieg Machine Learning mit Scikit-Learn, Keras und Tensorflow.&nbsp;</li>\n<li>Sebastian Raschka, Yuxi Liu, Vahid Mirjalili: Machine Learning with PyTorch and Scikit-Learn, Februar 2022, Packt Publishing, ISBN: 9781801819312&nbsp;</li>\n<li>Fran&ccedil;ois Chollet and Matthew Watson: Deep Learning with Python, Third Edition,&nbsp;<br />ISBN 9781633436589 &nbsp;</li>\n</ol>",
+      "empfLehrmittel": "<p><span class=\"TextRun SCXW1893823 BCX8\" lang=\"DE-CH\" xml:lang=\"DE-CH\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW1893823 BCX8\">Klassenunterricht&nbsp;</span><span class=\"NormalTextRun SCXW1893823 BCX8\">mit &Uuml;bungen</span><span class=\"NormalTextRun SCXW1893823 BCX8\"> und Selbststudium</span></span><span class=\"EOP SCXW1893823 BCX8\" data-ccp-props=\"{}\">&nbsp;</span></p>",
+      "bemerkungKurs": "<p>Unterrichtssprache ist Deutsch, teilweise sind die Unterlagen auf Englisch</p>",
+      "leistungsnachweis": "<p>Modulschlusspr&uuml;fung</p>",
+      "kurselemente": [
+        {
+          "id": 57049,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002668,
+          "name": "Würsch",
+          "vorname": "Christoph"
+        }
+      ]
+    },
+    {
+      "id": 57050,
+      "kuerzel": "MeT2_R",
+      "bezeichnung": "Regelung mechatronischer Systeme",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>k&ouml;nnen Anforderungen an Regelkreise beschreiben und spezifizieren.&nbsp;</li>\n<li>k&ouml;nnen das dynamische Verhalten von Systemen im Bildbereich analysieren.&nbsp;</li>\n<li>kennen den Standardregelkreis und seine wesentlichen Elemente (Regler, Strecke, Mess- und Stellglieder).&nbsp;</li>\n<li>k&ouml;nnen dynamische Systeme und Regelkreise mit geeigneten Werkzeugen modellieren und simulieren.&nbsp;</li>\n<li>k&ouml;nnen die Simulation im Rahmen des Reglerentwurfs sinnvoll einsetzen.&nbsp;</li>\n<li>k&ouml;nnen das Verhalten des geschlossenen Regelkreises mit G&uuml;tekriterien bewerten.&nbsp;</li>\n<li>kennen die Stabilit&auml;tskriterien von dynamischen Systemen.&nbsp;</li>\n<li>k&ouml;nnen f&uuml;r ein gegebenes System einen geeigneten Regler w&auml;hlen und parametrieren.&nbsp;</li>\n<li>k&ouml;nnen digitale Regler (Abtastregler) implementieren und in Betrieb nehmen.&nbsp;</li>\n<li>k&ouml;nnen das Konzept der Vorsteuerung anwenden, um das F&uuml;hrungsverhalten von Kaskadenregelungen zu verbessen.&nbsp;</li>\n<li>k&ouml;nnen f&uuml;r einfache mechatronische Systeme (z.B. Antriebsstrang mit DC-Motor) eine Regelung entwerfen.&nbsp;</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Darstellung von &Uuml;bertragungsgliedern im Bildbereich (Anwendung Laplace-Transformation)&nbsp;</li>\n<li>Beeinflussung von Regelstrecken mittels Korrekturgliedern&nbsp;</li>\n<li>Offene Regelkette und Standardregelkreis&nbsp;</li>\n<li>Wahl von geeigneten Reglern und deren Parametrierung&nbsp;</li>\n<li>Pol- / Nullstellenkompensation &nbsp;</li>\n<li>Phasen- / Amplitudenrand &nbsp;</li>\n<li>Kaskadierte Regelung mit Vorsteuerung&nbsp;</li>\n<li>Implementierung digitaler Regler&nbsp;</li>\n<li>Wahl der Abtastzeit f&uuml;r Digitalregler &nbsp;</li>\n<li>Stellgr&ouml;ssenbegrenzung / Integrator-Anti-Windup&nbsp;</li>\n</ul>",
+      "bibliographie": "<p><span class=\"TextRun SCXW230988184 BCX8\" lang=\"DE-CH\" xml:lang=\"DE-CH\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW230988184 BCX8\">W. Haager, Regelungstechnik. H</span><span class=\"NormalTextRun SCXW230988184 BCX8\">PT-Verlag</span><span class=\"NormalTextRun SCXW230988184 BCX8\">,</span><span class=\"NormalTextRun SCXW230988184 BCX8\"> 2017</span></span><span class=\"EOP SCXW230988184 BCX8\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\">&nbsp;</span></p>",
+      "empfLehrmittel": "<p><span class=\"TextRun SCXW262235760 BCX8\" lang=\"DE-CH\" xml:lang=\"DE-CH\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW262235760 BCX8\">Lehrvortrag, Le</span><span class=\"NormalTextRun SCXW262235760 BCX8\">hr</span><span class=\"NormalTextRun SCXW262235760 BCX8\">gespr&auml;ch, &Uuml;bungen und Selbststudium</span><span class=\"NormalTextRun SCXW262235760 BCX8\">, Labor&uuml;bungen</span></span><span class=\"EOP SCXW262235760 BCX8\" data-ccp-props=\"{}\">&nbsp;</span></p>",
+      "bemerkungKurs": "<p>&nbsp;</p>\n<p>&nbsp;</p>",
+      "leistungsnachweis": "<p>Projekt und Modulschlusspr&uuml;fung</p>",
+      "kurselemente": [
+        {
+          "id": 57051,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002897,
+          "name": "Christen",
+          "vorname": "Rouven"
+        }
+      ]
+    },
+    {
+      "id": 57052,
+      "kuerzel": "MeT2_Si",
+      "bezeichnung": "Signale und Systeme",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>verstehen die Eigenschaften der Abtastung im Zeitbereich und Frequenzbereich.</li>\n<li>verstehen die DFT als Anwendung der Korrelation.</li>\n<li>kennen die Eigenschaften der FFT-Analyse in der Praxis.</li>\n<li>k&ouml;nnen die FFT zur Analyse von Signalen anwenden.</li>\n<li>k&ouml;nnen lineare und diskretisierte Zustandsraummodelle von Systemen angeben.</li>\n<li>verstehen die Struktur von Beobachter-Systemen.</li>\n<li>verstehen die Wirkungsweise von K&aacute;lm&aacute;n-Filtern und k&ouml;nnen diese f&uuml;r einfache Anwendungen entwerfen.&nbsp;</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Praktische Aspekte analoger und diskreter LTI- Systeme &nbsp;</li>\n<li>Betrachtung linearer zeitunabh&auml;ngiger Systeme im Zeit- und Frequenzbereich&nbsp;</li>\n<li>Korrelation und Faltung, DFT und FFT, IFFT&nbsp;</li>\n<li>Messen mit Beobachter: Zustandsraum-Modell &nbsp;</li>\n<li>offener und geschlossener Beobachter, Einf&uuml;hrung in den K&aacute;lm&aacute;n-Filter&nbsp;</li>\n</ul>",
+      "bibliographie": "",
+      "empfLehrmittel": "<p><span class=\"NormalTextRun SCXW102168164 BCX8\">Lehrvortrag</span><span class=\"NormalTextRun SCXW102168164 BCX8\">, Lehrgespr&auml;ch, &Uuml;bungen und Selbststudium, Labor&uuml;bungen</span></p>",
+      "leistungsnachweis": "<p>Modulschlusspr&uuml;fung</p>",
+      "kurselemente": [
+        {
+          "id": 57053,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002822,
+          "name": "Weitnauer",
+          "vorname": "Adrian"
+        }
+      ]
+    },
+    {
+      "id": 57054,
+      "kuerzel": "MeT2_Sy",
+      "bezeichnung": "Systemauslegung",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>kennen die physikalischen Grundlagen von Leistung und Energie sowie deren Relevanz f&uuml;r mechatronische Systeme.&nbsp;</li>\n<li>k&ouml;nnen eine geeignete Systemarchitektur entwerfen und verschiedene Konzepte der Spannungsversorgung analysieren.&nbsp;</li>\n<li>sind in der Lage, verschiedene Energiespeichertechnologien sowie deren Vor- und Nachteile f&uuml;r unterschiedliche Anwendungen zu beurteilen.&nbsp;</li>\n<li>verstehen die Prinzipien von Linear- und Schaltreglern sowie deren Einsatz in mechatronischen Systemen.&nbsp;</li>\n<li>k&ouml;nnen Sicherheitsanforderungen identifizieren und entsprechende Schutzelemente (z. B. &Uuml;berspannungs- und &Uuml;berstromschutz) in ihre Systeme integrieren.&nbsp;</li>\n<li>kennen die Grundlagen der EMV und k&ouml;nnen Entst&ouml;rma&szlig;nahmen sowie gezielte Leitungsf&uuml;hrung zur Minimierung von St&ouml;rungen anwenden.&nbsp;</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Einf&uuml;hrung in Leistung und Energie: Grundlagen der elektrischen Leistung, Energie&uuml;bertragung und deren Bedeutung f&uuml;r mechatronische Systeme.&nbsp;</li>\n<li>Systemarchitektur und Spannungsversorgung: Entwurf geeigneter Architekturen, Analyse verschiedener Versorgungskonzepte und deren Anwendung.&nbsp;</li>\n<li>Energiespeicher und Reglertechnologien: Bewertung unterschiedlicher Energiespeicher, Grundlagen von Linear- und Schaltreglern sowie deren Einsatz.&nbsp;</li>\n<li>Sicherheits- und EMV-Aspekte: Identifikation von Sicherheitsanforderungen, Integration von Schutzma&szlig;nahmen und Anwendung von EMV-Entst&ouml;rtechniken.&nbsp;</li>\n</ul>",
+      "bibliographie": "",
+      "empfLehrmittel": "<p><span class=\"TextRun SCXW207935614 BCX8\" lang=\"DE-CH\" xml:lang=\"DE-CH\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW207935614 BCX8\">Vorlesung, Lehrgespr&auml;ch, &Uuml;bungen, begleitetes Selbststudium, Selbststudium</span></span></p>",
+      "leistungsnachweis": "<p>Modulschlusspr&uuml;fung</p>",
+      "kurselemente": [
+        {
+          "id": 57055,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001261,
+          "name": "Nigsch",
+          "vorname": "Simon"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 10284,
+      "bezeichnung": "Mechatronik BB",
+      "kuerzel": "MT_BB",
+      "url": "allStudies/10284_MT_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    },
+    {
+      "id": 10285,
+      "bezeichnung": "Mechatronik VZ",
+      "kuerzel": "MT_VZ",
+      "url": "allStudies/10285_MT_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 10
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000010,
+      "name": "Bach",
+      "vorname": "Carlo"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 54530,
+      "kuerzel": "M_Ana1",
+      "bezeichnung": "Analysis 1: Differentialrechnung",
+      "url": "allModules/54530_M_Ana1.json"
+    },
+    {
+      "id": 54533,
+      "kuerzel": "M_Ana2",
+      "bezeichnung": "Analysis 2: Integralrechnung & ODE",
+      "url": "allModules/54533_M_Ana2.json"
+    },
+    {
+      "id": 54536,
+      "kuerzel": "M_Phy1",
+      "bezeichnung": "Physik 1: Mechanik und Wärme",
+      "url": "allModules/54536_M_Phy1.json"
+    },
+    {
+      "id": 54539,
+      "kuerzel": "M_Phy2",
+      "bezeichnung": "Physik 2: Elektromagnetismus und Schwingungen",
+      "url": "allModules/54539_M_Phy2.json"
+    },
+    {
+      "id": 54561,
+      "kuerzel": "M_Inf2",
+      "bezeichnung": "Informatik 2: Softwareengineering",
+      "url": "allModules/54561_M_Inf2.json"
+    },
+    {
+      "id": 54564,
+      "kuerzel": "M_MMD_1",
+      "bezeichnung": "Materials & Mechanical Design 1",
+      "url": "allModules/54564_M_MMD_1.json"
+    },
+    {
+      "id": 54570,
+      "kuerzel": "M_MMD_2",
+      "bezeichnung": "Materials & Mechanical Design 2",
+      "url": "allModules/54570_M_MMD_2.json"
+    },
+    {
+      "id": 56317,
+      "kuerzel": "M_Inf1",
+      "bezeichnung": "Informatik 1: Einführung in die Programmierung",
+      "url": "allModules/56317_M_Inf1.json"
+    },
+    {
+      "id": 56990,
+      "kuerzel": "M_SuS",
+      "bezeichnung": "Statistik und Sensoren",
+      "url": "allModules/56990_M_SuS.json"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 57037,
+      "kuerzel": "M_MeT1",
+      "bezeichnung": "Mechatronik 1",
+      "url": "allModules/57037_M_MeT1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 11,
+      "kuerzel": "LSG",
+      "bezeichnung": "Lerchenfeld St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 57047,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 240,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Die Modulschlusspr&uuml;fung findet in vier Teilen statt. Die Kurse Machine Learning, Regelung mechatronischer Systeme, Signale und Systeme sowie Systemauslegung bilden je einen Teil der Modulschlusspr&uuml;fung. Alle Teile dauern je 60 Minuten.&nbsp;&nbsp;</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Mechatronics 2"
+    }
+  ],
+  "durchfuehrungen": {
+    "count": 8,
+    "beginJahr": 2026,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  }
+}

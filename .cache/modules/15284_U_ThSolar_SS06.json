@@ -1,0 +1,154 @@
+{
+  "id": 15284,
+  "kuerzel": "U_ThSolar_SS06",
+  "bezeichnung": "Thermische Solartechnik - Übergangsmodul SS 06",
+  "kreditpunkte": 2,
+  "lernziele": "Der Absolvent lernt die Grundlagen, das Potential und die technischen M&ouml;glichkeiten zur Nutzung der Sonnenenergie kennen",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 15286,
+      "kuerzel": "uThSolar_S6",
+      "bezeichnung": "Thermische Solartechnik - Übergang SS06",
+      "planinhalt": "<p>1. Sonnenenergie: Grundlagen<br />- Die Sonne als Strahlungsquelle und Zeitreferenz (Strahlungsbilanz, Spektrum, Sonnenbahn und Sonnenzeit. <br />- Meteorologie und Simulation der Einstrahung. </p>\n<p>2. Solarthermie<br />- Geschichte und Entwicklung der Solarthermie <br />- Thermodynamische und optische Grundlagen <br />-Technische Komponenten, Konzepte und Systeme <br />- Weltweite Anwendungen, Engineering, Leistungsberechnungen inkl. Simulation <br />- Wirtschaftlichkeitsbetrachtungen, Weltmarkt <br />- Ausblick: Sonne, Wasser, Wasserstoff. </p>\n<p>3. Biomasse<br />- Situation der globalen Biomassenutzung<br />- Konzepte und Technologien<br />- Produktion von festen, fl&uuml;ssigen und gasf&ouml;rmigen Bioenergiestoffen (Brenn- und Treibstoffe inkl. Wasserstoff)<br />- Logistische, &ouml;kologische, ern&auml;hrungswissenschaftliche und wirtschaftliche Herausforderung der Biomassenutzung.</p>",
+      "kurselemente": [
+        {
+          "id": 15287,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Thermische Solartechnik - Übergang SS06"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Thermal Solar Technology - Transition SS06"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10066,
+          "kuerzel": "K_U2M",
+          "bezeichnung": "Übergangsmodule Maschinentechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 147,
+      "name": "Prechtl",
+      "vorname": "Heiner"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 15284,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 75,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Thermische Solartechnik - Übergangsmodul SS 06"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Thermal Solar Technology - Bridging Module SS 06"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2006,
+    "endSemester": "SS"
+  }
+}

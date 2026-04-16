@@ -1,0 +1,212 @@
+{
+  "id": 28177,
+  "kuerzel": "M_DigSig1Engl",
+  "bezeichnung": "Digital Signal Processing 1",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Digital Signal Processing 1 and Digital Signal Processing 2 form together a one-year introductory sequence into modern digital signal processing</p>",
+  "vorausgKenntnisse": "<ul><li>Fundamental knowledge of calculus</li><li>Fundamental knowledge of Fourier analysis</li><li>Fundamental knowledge of probability theory</li><li>Fundamental knowledge of linear algebra</li><li>Solid command of the English language, since the lectures are in English</li></ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 28178,
+      "kuerzel": "DigSig1Engl",
+      "bezeichnung": "Digital Signal Processing 1",
+      "lernziele": "<p>At the end of the module the students are expected to understand the following concepts and be able to apply them to real world signal processing problems:</p><ul><li>Sampling and Reconstruction</li><li>Quantization</li><li>Discrete-Time Systems</li><li>FIR Filtering and Convolution</li><li>z-Transform</li><li>Transfer Functions</li></ul>",
+      "planinhalt": "<p>The module is structured as follows:</p>\n<ul>\n<li>Sampling and Reconstruction</li>\n<li>Quantization</li>\n<li>Discrete-Time Systems</li>\n<li>FIR Filtering and Convolution</li>\n<li>z-Transform</li>\n<li>Transfer Functions</li>\n</ul>\n<p>The lecture is based on the excellent and freely available book \"Introduction to Signal Processing\" by Sophocles J. Orfanidis. This book also has a useful website: http://eceweb1.rutgers.edu/~orfanidi/intro2sp/</p>",
+      "kurselemente": [
+        {
+          "id": 28179,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        },
+        {
+          "id": 28180,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Digital Signal Processing 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Digital Signal Processing 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 963,
+      "name": "Mathis",
+      "vorname": "Heinz"
+    }
+  ],
+  "mengen": [
+    {
+      "id": 19,
+      "name": "Aequivalenz",
+      "dModMengeArt": 5701,
+      "module": [
+        {
+          "id": 21891,
+          "kuerzel": "M_DigSig1",
+          "bezeichnung": "Digital Signal Processing 1",
+          "url": "allModules/21891_M_DigSig1.json"
+        },
+        {
+          "id": 28177,
+          "kuerzel": "M_DigSig1Engl",
+          "bezeichnung": "Digital Signal Processing 1",
+          "url": "allModules/28177_M_DigSig1Engl.json"
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 28177,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>75% der Praktika besucht</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Digital Signal Processing 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Digital Signal Processing 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2016,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  }
+}

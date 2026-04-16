@@ -1,0 +1,228 @@
+{
+  "id": 51582,
+  "kuerzel": "M_VP_19803",
+  "bezeichnung": "Erkennung von Featrures aus 3D Punktewolken",
+  "kreditpunkte": 15,
+  "lernziele": "<p>Evaluieren und Anwenden von Algorithmen zur Segmentierung und Registrierung von Punktwolken, sowie Objekt Detektion und Klassifizierung.</p>",
+  "vorausgKenntnisse": "<p>Visual Computing, Computer Graphics or an equivalent class. Basic knowledge of machine learning.</p><p>Good command of an imperative programming language, basic knowledge of Python.</p><p>Basic knowledge of probability, statistics, linear algebra (vectors, matrices).</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 51583,
+      "kuerzel": "VP_1980302",
+      "bezeichnung": "Machine Learning in Computer Vision",
+      "kreditpunkte": 0,
+      "lernziele": "<ul><li>Students know how images and 3D data are represented and manipulated by software.</li><li>Students know the most important problems related to image analysis: e.g. image classification, segmentation and object detection and tracking.</li><li>Students can apply machine learning and deep learning techniques to solve image-related problems, and deal with practical issues arising in the field (dataset engineering, data augmentation, data normalization).</li><li>Students have seen different examples of image analysis problems and common solution techniques, and are able to acquire additional expert knowledge from the scientific literature and online resources.</li></ul>",
+      "planinhalt": "<p>Basic image processing methods applied to document processing:</p><ul><li>applications to OCR: handcrafted features; convolutional neural networks.</li><li>Image classification with small datasets: data augmentation techniques;</li></ul><p>Segmentation</p><ul><li>applications to medical images (2D, 3D)</li><li>fully convolutional networks for semantic segmentation.</li></ul><p>Object detection</p><ul><li>face and pedestrian detection with cascading classifiers</li><li>object tracking in videos.</li></ul><p>Generative models and Image Synthesis</p><ul><li>Applications to Image Inpainting</li></ul>",
+      "bibliographie": "<p>Computer Vision: Algorithms and Applications, Richard Szeliski, 2010<br />Deep Learning with Python, Francois Chollet, early 2018<br />Sections 5, 8.3, 8.5 [978-1-568-81426-1]</p>",
+      "empfLehrmittel": "<p>Zentrales MSE Modul</p>",
+      "leistungsnachweis": "<p>Dieser Kurs wird mittels einer Pr&uuml;fung bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 51584,
+          "art": "Seminar",
+          "maxTeilnehmer": 36,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000823,
+          "name": "Frei",
+          "vorname": "Norbert"
+        }
+      ]
+    },
+    {
+      "id": 51585,
+      "kuerzel": "VP_1980301",
+      "bezeichnung": "Erkennung von Features aus 3D Punktewolken",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Evaluieren und Anwenden von Algorithmen zur Segmentierung und Registrierung von Punktwolken, sowie Objekt Detektion und Klassifizierung.</p>",
+      "planinhalt": "<p>Verarbeitung von 3D-Punktwolken mit traditionellen Methoden sowie Techniken des Machine Learning</p>",
+      "empfLehrmittel": "<p>Projektarbeit</p>",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird mittels Bericht und Pr&auml;sentation bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 51586,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000823,
+          "name": "Frei",
+          "vorname": "Norbert"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000823,
+      "name": "Frei",
+      "vorname": "Norbert"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 2,
+      "kuerzel": "WSG",
+      "bezeichnung": "Waldau St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Feature Recognition in 3D Point Clouds"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2019,
+    "beginSemester": "FS",
+    "endJahr": 2019,
+    "endSemester": "FS"
+  }
+}

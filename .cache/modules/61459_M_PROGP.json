@@ -1,0 +1,98 @@
+{
+  "id": 61459,
+  "kuerzel": "M_PROGP",
+  "bezeichnung": "Programming in Python",
+  "kreditpunkte": 4,
+  "lernziele": "<p><strong>Leitidee:</strong> Dieses Modul gibt Studierenden ohne Vorkentnisse im Bereich der Programmierung eine erste Einf&uuml;hrung in die Konzepte einer Programmiersprache (Python).</p>\n<p>&nbsp;</p>\n<p><strong>Ausbildungsziel:</strong> Die Studierenden sollen nach Besuch des Moduls in der Lage sein, einfachen Python Code lesen, verstehen und Fehler im Code erkennen zu k&ouml;nnen. Sie sind in der Lage, die korrekte Funktionsweise von Code mit Hilfe von Unittests &uuml;berp&uuml;fen zu k&ouml;nnen und AI Tools bei der Entwicklung von Code gewinnbringend einzusetzen.</p>\n<p>&nbsp;</p>\n<p><strong>Vision: </strong>Die Vision des Moduls ist es, Studierende zu bef&auml;higen,&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 61460,
+      "kuerzel": "PROGP",
+      "bezeichnung": "Programming in Python",
+      "lernziele": "<p><strong>Fachkompetenzen:</strong><br>Grundlegende Programmierkonzepte verstehen und einsetzen/anwenden k&ouml;nnen<br>Vorgehen bei Probleml&ouml;sung; aufteilen in Teilprobleme<br>Python Programmcode lesen, verstehen und testen k&ouml;nnen<br>Mit integrierter Entwicklungsumgebung arbeiten k&ouml;nnen</p>\n<p>&nbsp;</p>\n<p><strong>Methodenkompetenzen:</strong><br>Einfache Programmieraufgaben mit geeignetem Werkzeug selbstst&auml;ndig l&ouml;sen<br>Einfache Schleifen und Bedingungen zielorientiert einsetzen, um Daten einzulesen und zu verarbeiten</p>\n<p>&nbsp;</p>\n<p><strong>Selbstkompetenzen:</strong><br>AI Tools zur Erzeugung von Code nutzen,<br>Generierter Code lesen, verstehen / korrigieren und testen k&ouml;nnen<br>Beurteilen, wann der Einsatz von Cod</p>\n<p>&nbsp;</p>\n<p><strong>Sozialkompetenzen:</strong><br>Sinnvolle Aufteilung der Aufgaben im Team<br>Konfliktl&ouml;sungen im Team, Teamf&auml;higkeit<br>Diskussion der Problemstellung</p>",
+      "planinhalt": "<p>- Variablen: Datentypen, Variablennamen, Sichtbarkeit<br>- Funktionen: Funktionsnamen, Funktionsparameter, Signaturen, Funktionenaufrufe, R&uuml;ckgabewerte, Default Werte<br>- Kontrollstrukturen &amp; Statements: if, else, for, while, break, continue<br>- Unittests: Entwicklung von Tests zur Formulierung von Erwartungen z.B. an Funktionen<br>- Programmierwerkzeuge: Umgang und Einsatz von IDEs, Einsatz von Code-Versionierungs-Systemen (Git/Github)<br>- Bibliotheken, Dependency Management</p>",
+      "kurselemente": [
+        {
+          "id": 61523,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 108,
+          "harteGrenze": true
+        },
+        {
+          "id": 61524,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Programming in Python"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Programming in Python"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10479,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10479_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9989,
+      "name": "ZZZ Dozent HL",
+      "vorname": "Planung"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Programming in Python"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Programming in Python"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2026,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  }
+}

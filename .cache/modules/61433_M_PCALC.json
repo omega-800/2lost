@@ -1,0 +1,109 @@
+{
+  "id": 61433,
+  "kuerzel": "M_PCALC",
+  "bezeichnung": "Probability Calculus",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Wir f&uuml;hren den Begriff Wahrscheinlichkeit ganz niederschwellig und anwendungsorientiert ein und verwenden Monte Carlo Simulation um Wahrscheinlichkeiten beliebig genau zu approximieren.<br>Ganz zentral ist weiter die Vermittlung eines klaren Verst&auml;ndnis f&uuml;r Verteliungen, (Ko-) Varianzen&nbsp;<br>und bedingte Wahrscheinlichkeiten.</p>\n<p>- Wenn m&ouml;glich wird die Theorie anhand konkreter Beispiele aus Technik und Wirtschaft illustriert.&nbsp;<br>- Fokus liegt auf Verst&auml;ndnis und korrekte Interpretation, Mathematik Vorkenntnisse sind nicht n&ouml;tig.<br>- Wir setzen Software (Python) ein, dort wo m&ouml;glich und sinnvoll.<br>- Es werden nur Inhalte vermittelt, die mit hoher Wahrscheinlichkeit sp&auml;ter im Studium oder im Beruf ben&ouml;tigt werden.&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 61434,
+      "kuerzel": "PCALC",
+      "bezeichnung": "Probability Calculus",
+      "lernziele": "<p><strong>Fachkompetenzen:</strong><br>Studierende k&ouml;nnen<br>- Verteilungen und Dichten korrekt interpretiern.<br>- Varianz korrekt interpretieren und sind sich der grossen Bedeutung der Varianz in einem Prozess bewusst.<br>- Bedingte Wahrscheinlichkeiten korrent interpretieren und sind sich die Gefahren in der Kommunikation mit bedingten Wahrscheinlichkeiten bewusst. &nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Methodenkompetenzen:</strong><br>Studierende k&ouml;nnen<br>- eine Monte Carlo Simulation programmieren, um damit (komplexe) Wahrscheinlichkeiten beliebig genau zu approximieren.<br>- einfache Wahrscheinlichkeiten analytisch berechnen.</p>\n<p>&nbsp;</p>\n<p><strong>Selbstkompetenzen:</strong></p>\n<p>Studierende k&ouml;nnen<br>- ihre Intuition im Umgang mit Wahrscheinlichkeiten beurteilen, validieren und weiterentwickeln.<br>- Selbstverstrauen, Mut und Kreativit&auml;t gewinnen in der Arbeit mit datenbasierten Methoden.</p>\n<p>&nbsp;</p>\n<p><strong>Sozialkompetenzen:</strong><br>Studiernende k&ouml;nnen<br>- bei der L&ouml;sung der &Uuml;bungsaufgaben mit dem Computer effektiv in Zweierteams zusammenarbeiten und im richtigen Moment, Dozierende um Unterst&uuml;tzung bitten.</p>",
+      "planinhalt": "<p><strong>Einf&uuml;hrung</strong><br>- Was ist eine Wahrscheinlichkeit?<br>- Zufallszahlen, Benutzung U(0,1) Zufallszahlengenerator<br>- Bernoulli Verteilung, Geometrische Verteilung<br>- Monte Carlo Simulation zur Berechnung von Wahrscheinlichkeiten</p>\n<p>&nbsp;</p>\n<p><strong>Dichten und Verteilungen</strong><br>- (Visuelle) Interpretation und Umgang mit Dichten und Verteilungen<br>- diskrete Vereilung: Bernoulli Verteilung, Geometrische Verteilung, Binomialverteilung<br>- kontinuierliche Verteilungen: Uniformverteilung, Normalverteilung<br>- Erwartungswert &amp; Varianz: Fokus auf Interpretation und Bedeutung; Berechnung prim&auml;r &uuml;ber Software</p>\n<p>&nbsp;</p>\n<p><strong>Bedingte Wahrscheinlichkeit</strong><br>- Interpretation und Umgang mit bedingten Wahrscheinlichkeiten<br>- Satz von Bayes, Ziegenproblem, &laquo;False Positives&raquo; in der medizinischen Diagnostik</p>\n<p>&nbsp;</p>\n<p><strong>Kombinatorik</strong><br>- Kombinatorik, n Fakult&auml;t, n &uuml;ber k<br>- Berechnungen mit der Binomialverteilung</p>\n<p>&nbsp;</p>\n<p><strong>Korrelation</strong><br>- Qualitativ: Interpretation und BedeutungUnabh&auml;ngigkeit, Korrelation, Kovarianz<br>- Empirische Verteilungen / Sampling (u.a. um Korrelation in Input Daten abzufangen).</p>\n<p>&nbsp;</p>\n<p><strong>Anwendungen der Wahrscheinlichkeitsrechnung (Auszug)</strong><br>- Ermittlung Lebensdauerverteiung redundanter Systeme<br>- Ermittlung ben&ouml;tigter Vorhalteleistung in Services</p>",
+      "kurselemente": [
+        {
+          "id": 61517,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 108,
+          "harteGrenze": true
+        },
+        {
+          "id": 61518,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Probability Calculus"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Probability Calculus"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10479,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10479_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 1
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 69025,
+      "name": "Tiemessen",
+      "vorname": "Harold"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 61433,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Probability Calculus"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Probability Calculus"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2026,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  }
+}

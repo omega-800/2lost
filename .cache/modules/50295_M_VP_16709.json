@@ -1,0 +1,238 @@
+{
+  "id": 50295,
+  "kuerzel": "M_VP_16709",
+  "bezeichnung": "Automatisches Design und Optimierung von Kühlstrukturen",
+  "kreditpunkte": 18,
+  "lernziele": "<p>Die Studierenden</p><ul><li>verstehen die Grundlagen der Str&ouml;mungsmechanik und der W&auml;rmeleitung.</li><li>verstehen die Methode der finiten Volumen und k&ouml;nnen str&ouml;mungsmechanische Probleme mit OpenFOAM l&ouml;sen.</li><li>k&ouml;nnen Algorithmen zur Generierung von konformen, parametrisierbaren K&uuml;hlstrukturen entwickeln, testen und beurteilen.</li><li>sind in der Lage, Simulation (Vorw&auml;rtsmodell) und Optimierung (R&uuml;ckw&auml;rtsmodell) zu koppeln, um so ein automatisches Design zu erreichen.</li></ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 50296,
+      "kuerzel": "VP_1670901",
+      "bezeichnung": "Generierung und Optimierung von Kühlstrukturen",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>sind in der Lage, einen Finite-Volumen-Code (OpenFOAM) zur Berechnung von Aufgaben aus der Str&ouml;mungsmechanik und der W&auml;rmeleitung anzuwenden.</li><li>sind in der Lage, Str&ouml;mung und W&auml;rmetransport zu koppeln.</li><li>k&ouml;nnen die Ergebnisse der Simulation bewerten.</li><li>sind in der Lage, Algorithmen zur Konstruktion von konformen, parametrisierten K&uuml;hlfl&auml;chen zu entwickeln, testen und beurteilen.</li></ul>",
+      "planinhalt": "<ul><li>OpenFOAM: Finite-Volumen-Code zur Berechnung von str&ouml;mungsmechanischen Aufgaben<br />-&nbsp;Grundlagen der Methode<br />-&nbsp;Geometrie-Erzeugung<br />-&nbsp;Vernetzung<br />-&nbsp;Setzen von Randbedingungen<br />-&nbsp;Ergebnisauswertung</li><li>Automatisches, parametrisiertes Design mit ClassCAD (CAx)</li><li>Gradientenbasierte Optimierung der K&uuml;hlstrukturen mittels MATLAB</li></ul>",
+      "bibliographie": "<p>OpenFOAM User Guide:<br />http://foam.sourceforge.net/docs/Guides-a4/UserGuide.pdf</p><p>OpenFOAM Programmers Guide:<br />http://foam.sourceforge.net/docs/Guides-a4/ProgrammersGuide.pdf</p><p>Optimierung:<br />http://actu.epfl.ch/news/new-book-optimization-principles-and-algorithms/</p><p>Konforme K&uuml;hlung:</p><p>[1.]&nbsp;X. Xu, E. Sachs, S. Allen: The design of conformal cooling channels in injection molding tooling, Polym Eng Sci, 41 (7) (2001), pp. 1265&ndash;1279<br />[2.]&nbsp;H.S. Park, N.H. Pham: Design of conformal cooling channels for an automotive part, Int J Automot Technol, 10 (1) (2009), pp. 87&ndash;93<br />[3.]&nbsp;C.L. Li: A feature-based approach to injection mould cooling system design, Comput-Aided Des, 33 (14) (2001), pp. 1073&ndash;1090<br />[4.]&nbsp;Y. Wang, K.-M. Yu, C.C.L. Wang, Y. Zhang: Automatic design of conformal cooling circuit for rapid tooling, Comput-Aided Des, 43 (8) (2011), pp. 1001&ndash;1010<br />[5.]&nbsp;Yu Wang, Kai-Min Yu, Charlie C.L. Wang, Spiral and conformal cooling in plastic injection molding, Computer-Aided Design, Volume 63, June 2015, Pages 1-11, ISSN 0010-4485, http://dx.doi.org/10.1016/j.cad.2014.11.012</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird mittels Bericht und Pr&auml;sentation bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 50297,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002668,
+          "name": "Würsch",
+          "vorname": "Christoph"
+        }
+      ]
+    },
+    {
+      "id": 50298,
+      "kuerzel": "VP_1670902",
+      "bezeichnung": "Strömungsmechanik",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>verstehen die Grundlagen der Str&ouml;mungsmechanik.</li><li>sind in der Lage, einfache Str&ouml;mungssituationen mit Hilfe von partiellen Differentialgleichungen zu formulieren und zu l&ouml;sen.</li><li>sind in der Lage, reduzierte Str&ouml;mungswiderst&auml;nde von Rohrstr&ouml;mungselementen vom laminaren bis zum turbulenten Str&ouml;mungsregime zu berechnen und die G&uuml;ltigkeit von reduzierten Modellen aus der technischen Str&ouml;mungslehre zu bewerten.</li><li>k&ouml;nnen den Str&ouml;mungswiderstandsbeiwert von Rohrleitungssystemen berechnen und mit Literaturwerten vergleichen.</li></ul>",
+      "planinhalt": "<p>Hydrodynamische Grundlagen</p><ul><li>Potentialstr&ouml;mungen, ebene Wirblestr&ouml;mungen</li><li>Viskose Str&ouml;mungen, Navier-Stokes-Gleichung</li><li>Grundlagen Grenzschichttheorie</li><li>Turbulente Str&ouml;mungen, Reynolds Averaged NS-Gleichung</li><li>Knotenmodelle von Str&ouml;mungselementen (Rohrstr&ouml;mungen, Ventile, Blenden)</li><li>Kopplung von Str&ouml;mung und W&auml;rmetransport</li></ul>",
+      "bibliographie": "<ul><li>Hendrik Kuhlmann: Str&ouml;mungsmechanik, Eine kompakte Einf&uuml;hrung f&uuml;r Physiker und Ingenieure,&nbsp; ISBN: 978-3-8689-4253-8,&nbsp; 304 Seiten, 2014</li><li>Frank White: Fluid Mechanics, Series: McGraw-Hill Series in Mechanical Engineering, McGraw-Hill Science/Engineering/Math; 7 edition, 2010, ISBN-10: 0077422414</li><li>Willi Bohl, W. Elmendorf: Technische Str&ouml;mungslehre, Vogel Buchverlag, ISBN: 978-3-8343-3329-2</li></ul>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>Dieser Kurs wird mittels Bericht und Pr&auml;sentation bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 50299,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002668,
+          "name": "Würsch",
+          "vorname": "Christoph"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002668,
+      "name": "Würsch",
+      "vorname": "Christoph"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 49681,
+      "kuerzel": "M_VP_16819",
+      "bezeichnung": "Multiphysik-Modellierung und Simulation",
+      "url": "allModules/49681_M_VP_16819.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Automatic Design and Optimization of Cooling Structures"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2016,
+    "beginSemester": "HS",
+    "endJahr": 2016,
+    "endSemester": "HS"
+  }
+}

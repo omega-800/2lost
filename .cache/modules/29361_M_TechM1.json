@@ -1,0 +1,207 @@
+{
+  "id": 29361,
+  "kuerzel": "M_TechM1",
+  "bezeichnung": "Technische Mechanik 1",
+  "kreditpunkte": 4,
+  "lernziele": "<p>&nbsp;</p><ul></ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 29362,
+      "kuerzel": "Statik",
+      "bezeichnung": "Statik",
+      "lernziele": "<ul><li>Grundgesetze der Statik der starren K&ouml;rper und der wichtigsten L&ouml;sungsmethoden kennen</li><li>Problemstellungen der Statik analysieren und den Hauptgebieten zuordnen k&ouml;nnen</li><li>R&auml;umliche Kr&auml;ftesysteme mit den Gesetzen der Statik analysieren k&ouml;nnen</li><li>Gesetze der inneren Kr&auml;fte, der Reibung und Bewegungswiderst&auml;nde kennen und anwenden k&ouml;nnen</li><li>Relevante L&ouml;sungsmethoden kennen und auf einfachere Problemstellungen anwenden k&ouml;nnen&nbsp;&nbsp;</li></ul>",
+      "planinhalt": "<ul><li>Zentrale Kraftsysteme in der Ebene</li><li>Zentrale Kraftsysteme im Raum</li><li>Allgemeine Kraftsysteme</li><li>Gruppe paralleler Kr&auml;fte, K&ouml;rper</li><li>Fl&auml;chen, Linien, Guldinsche Regeln</li><li>Einfache und mehrteilige ebene Tragwerke, &Uuml;berlagerung</li><li>Ebene Fachwerke</li><li>R&auml;umiche Tragwerke</li><li>Ebene, gerade Balken</li><li>Rahmen und Bogen</li><li>R&auml;umliche Balken</li><li>Seilstatik</li><li>Haftung und Reibung</li></ul>",
+      "kurselemente": [
+        {
+          "id": 29363,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 108,
+          "harteGrenze": true
+        },
+        {
+          "id": 29364,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 29365,
+          "art": "Seminar",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Statik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Statics"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10245,
+      "bezeichnung": "Simulationstechnik",
+      "kuerzel": "M-I-SI",
+      "url": "allStudies/10245_M-I-SI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 527138,
+      "name": "Henne",
+      "vorname": "Markus"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 22028,
+      "kuerzel": "M_An1M",
+      "bezeichnung": "Analysis 1 (M-I)",
+      "url": "allModules/22028_M_An1M.json"
+    },
+    {
+      "id": 23370,
+      "kuerzel": "M_VekGM",
+      "bezeichnung": "Vektorgeometrie (M-I)",
+      "url": "allModules/23370_M_VekGM.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 29361,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Technische Mechanik 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Engineering Mechanics 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2017,
+    "beginSemester": "FS",
+    "endJahr": 2024,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 26184,
+    "kuerzel": "M_TechM1",
+    "bezeichnung": "Technische Mechanik 1",
+    "url": "allModules/26184_M_TechM1.json"
+  },
+  "nachfolger": {
+    "id": 29361,
+    "kuerzel": "M_TechM1",
+    "bezeichnung": "Technische Mechanik 1",
+    "url": "allModules/29361_M_TechM1.json"
+  }
+}

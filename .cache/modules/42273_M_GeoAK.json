@@ -1,0 +1,283 @@
+{
+  "id": 42273,
+  "kuerzel": "M_GeoAK",
+  "bezeichnung": "Geotechnik AK: Naturgefahren und Stoffgesetze",
+  "kreditpunkte": 2,
+  "lernziele": "<ul>\n<li>Verst&auml;ndnis f&uuml;r den Umgang mit Naturgefahren in der Schweiz erlernen.</li>\n<li>Erkennen ab wann Bauingenieur/innen in der Projektierung Naturgefahrenspezialist/innen beiziehen sollen.</li>\n<li>Die Grundlagen der numerischen Analyse in der Geotechnik lernen.</li>\n<li>Die M&ouml;glichkeiten und Grenzen einer numerischen Simulation verstehen.</li>\n<li>Mit finiten Elemente Programmen in der Geotechnik bewusst umgehen.</li>\n</ul>",
+  "vorausgKenntnisse": "<p>Grundkenntnisse &uuml;ber Differentialgleichungen und Mechanik</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 42274,
+      "kuerzel": "GeoAKNat",
+      "bezeichnung": "Naturgefahren Geotechnik",
+      "planinhalt": "<ul>\n<li>Einf&uuml;hrung in das Thema Naturgefahren:</li>\n<li>Prozessverst&auml;ndnis</li>\n<li>Umgang mit Naturgefahren in der Schweiz</li>\n<li>Integrales Risikomanagement</li>\n<li>Naturgefahrencheck: Sind Naturgefahren f&uuml;r mein Projekt relevant? Wo<br>finde ich Infos zu Naturgefahren</li>\n<li>Charakterisierung von Massenbewegungen</li>\n<li>Einf&uuml;hrung in unges&auml;ttigte Bodenmechanik mit theoretischen Grundlagen,<br>aufbauend auf der den Studierenden bekannten ges&auml;ttigten/trockenen<br>Bodenmechanik</li>\n<li>Effektive Spannungen (suction stress), Durchl&auml;ssigkeit und<br>Scherfestigkeitsans&auml;tze in unges&auml;ttigten B&ouml;den</li>\n<li>Spezielle Laborversuche f&uuml;r unges&auml;ttigte B&ouml;den in Theorie: SWCC,<br>Durchl&auml;ssigkeit, Direktscherversuche und Triaxversuche</li>\n<li>Absch&auml;tzung / Berechnung von Infiltration und Evapotranspiration unter<br>wechselnden klimatischen Einfl&uuml;ssen</li>\n<li>Analysen von klimatisch bedingten Hangrutschungen und Massnahmen zur<br>Verh&uuml;tung von Rutschungen</li>\n<li>&Uuml;bungen mit praktischer Anwendung des Lehrstoffes</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 42275,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Naturgefahren Geotechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Geotechnical Natural Risks"
+        }
+      ]
+    },
+    {
+      "id": 42276,
+      "kuerzel": "GeoAKSto",
+      "bezeichnung": "Stoffgesetze in der Geotechnik",
+      "lernziele": "",
+      "planinhalt": "<p><strong>Einf&uuml;hrung in die Kontinuum Mechanik:</strong></p>\n<ul>\n<li>Spannung und Dehnungstensoren, Referenzsysteme, Transformationen, Invarianten</li>\n<li>Geotechnischer Triaxialer Spannungs- Dehnungsraum, geotechnische Invarianten p und q</li>\n</ul>\n<p><strong>Stoffgesetze:&nbsp;</strong></p>\n<ul>\n<li>Lineare Elastizit&auml;t</li>\n<li>Mohr Coulomb Stoffgesetz: Fliessfl&auml;che und plastisches Potential, Dilatanz</li>\n<li>Hardening Sol Stoffgesetz: Verfestigung Gesetz, nicht lineare elastische und plastische Eigenschaften</li>\n<li>Nachbildung Laborversuche mit dem Programm PLAXIS (Soiltest)</li>\n<li>Berechnung von Flachfundamente und Pfahlfundationen mit PLAXIS</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 42277,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Stoffgesetze in der Geotechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Substance Laws in Geotechnics"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10005,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10005_B.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10109,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10109_B.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10131,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10131_B.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10197,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10197_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10234,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10234_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10261,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10261_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5011290,
+      "name": "Rabaiotti",
+      "vorname": "Carlo"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 16987,
+      "kuerzel": "M_BuF1",
+      "bezeichnung": "Boden und Fels 1",
+      "url": "allModules/16987_M_BuF1.json"
+    },
+    {
+      "id": 26835,
+      "kuerzel": "M_BF3",
+      "bezeichnung": "Boden und Fels 3",
+      "url": "allModules/26835_M_BF3.json"
+    },
+    {
+      "id": 26923,
+      "kuerzel": "M_ModeBau",
+      "bezeichnung": "Modellierungen Bauingenieurwesen",
+      "url": "allModules/26923_M_ModeBau.json"
+    },
+    {
+      "id": 28393,
+      "kuerzel": "M_BuF2",
+      "bezeichnung": "Boden und Fels 2",
+      "url": "allModules/28393_M_BuF2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 42273,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat gem&auml;ss Semesterplan</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Geotechnik AK: Naturgefahren und Stoffgesetze"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Geotechnical Engineering: Natural hazards and material laws"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2023,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 29358,
+    "kuerzel": "M_GT",
+    "bezeichnung": "Geotechnik AK",
+    "url": "allModules/29358_M_GT.json"
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "id": 47187,
+  "kuerzel": "M_VP_11706",
+  "bezeichnung": "Elektronische Systeme III",
+  "kreditpunkte": 12,
+  "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen eine elektronische Schaltung nach Funktionen entwerfen.</li>\n    <li>k&ouml;nnen die Funktion einer Schaltung verifizieren.</li>\n    <li>k&ouml;nnen die Funktion einer Schaltung durch Simulation absichern.</li>\n    <li>k&ouml;nnen die Architektur der eingebettete Software entwerfen.</li>\n    <li>k&ouml;nnen die Architektur der eingebetteten Software implementieren.</li>\n    <li>kennen verschiedene Sensorprinzipien, Auswerteschaltungen und Messverst&auml;rker.</li>\n    <li>kennen wichtige messtechnische Aufgaben und Sensoren.</li>\n    <li>kennen die Einsatzgebiete der Sensoren in der Automatisierungstechnik, Robotik und Handlings-Technik.</li>\n    <li>k&ouml;nnen die verschiedenen Methoden der Signalverarbeitung (z-Transformation, Fourier-Transformation und kont. / zeitdiskrete Filter) anwenden.</li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 47188,
+      "kuerzel": "VP_1170601",
+      "bezeichnung": "Design von elektronischen Schaltungen",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen eine elektronische Schaltung nach Funktionen entwerfen.</li>\n    <li>k&ouml;nnen die Funktion einer Schaltung verifizieren.</li>\n    <li>k&ouml;nnen die Funktion einer Schaltung durch Simulation absichern.</li>\n    <li>k&ouml;nnen die Architektur der eingebettete Software entwerfen.</li>\n    <li>k&ouml;nnen die Architektur der eingebetteten Software implementieren.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Hardwareentwicklung </li>\n    <li>Softwareentwicklung</li>\n</ul>",
+      "bibliographie": "<p>Lastenheft / Spezifikation,<br />Datenbl&auml;tter, Application Notes und <br />Fachliteratur</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>W&auml;hrend des Semesters wird das Projekt mittels des technischen Berichts mit eventueller Ver&ouml;ffentlichung oder Mitarbeit an Ver&ouml;ffentlichungen bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 47189,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000096,
+          "name": "Heinzelmann",
+          "vorname": "Andreas"
+        }
+      ]
+    },
+    {
+      "id": 47190,
+      "kuerzel": "VP_1170602",
+      "bezeichnung": "Sensorik - Vertiefung Messtechnik, ensoren und Signalverarbeitung",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>kennen verschiedene Sensorprinzipien, Auswerteschaltungen und Messverst&auml;rker.</li>\n    <li>kennen wichtige messtechnische Aufgaben und Sensoren.</li>\n    <li>kennen die Einsatzgebiete der Sensoren in der Automatisierungstechnik, Robotik und Handlings-Technik.</li>\n    <li>k&ouml;nnen die verschiedenen Methoden der Signalverarbeitung (z-Transformation, Fourier-Transformation und kont. / zeitdiskrete Filter) anwenden.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Grundlagen Messtechnik und Sensorik</li>\n    <li>Wichtige messtechnische Aufgaben und Sensoren bei der Entwicklung mechatronischer Produkte</li>\n    <li>Sensoren in der Automatisierungstechnik</li>\n    <li>Signalverarbeitung</li>\n</ul>",
+      "bibliographie": "<p>Skript,</p>\n<p>weitere Modulunterlagen</p>",
+      "empfLehrmittel": "<p>Vorlesung</p>\n<p>&Uuml;bungen</p>",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>W&auml;hrend des Semesters wir eine Pr&uuml;fung durchgef&uuml;hrt.</p>",
+      "kurselemente": [
+        {
+          "id": 47191,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000825,
+          "name": "Nagel",
+          "vorname": "Günter"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000096,
+      "name": "Heinzelmann",
+      "vorname": "Andreas"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electronic Systems III"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2011,
+    "beginSemester": "HS",
+    "endJahr": 2011,
+    "endSemester": "HS"
+  }
+}

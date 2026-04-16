@@ -1,0 +1,4300 @@
+{
+  "id": 10259,
+  "kuerzel": "EEU",
+  "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+  "versionKuerzel": "STD_24",
+  "typ": "Bachelor",
+  "art": "Studiengang",
+  "form": "Vollzeit",
+  "kredits": [
+    {
+      "id": 10826,
+      "minKredits": 6,
+      "kategorien": [
+        {
+          "id": 10167,
+          "kuerzel": "EEU-m1",
+          "bezeichnung": "Mathematik 1"
+        }
+      ]
+    },
+    {
+      "id": 10827,
+      "minKredits": 14,
+      "kategorien": [
+        {
+          "id": 10168,
+          "kuerzel": "EEU-m2",
+          "bezeichnung": "Mathematik 2"
+        }
+      ]
+    },
+    {
+      "id": 10770,
+      "minKredits": 56,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU"
+        }
+      ]
+    },
+    {
+      "id": 10846,
+      "minKredits": 40,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU"
+        }
+      ]
+    },
+    {
+      "id": 10774,
+      "minKredits": 18,
+      "kategorien": [
+        {
+          "id": 10103,
+          "kuerzel": "EEU-n",
+          "bezeichnung": "Naturwissenschaften"
+        }
+      ]
+    },
+    {
+      "id": 10776,
+      "minKredits": 10,
+      "kategorien": [
+        {
+          "id": 10152,
+          "kuerzel": "EEU-KOM",
+          "bezeichnung": "Kommunikation und Sprache"
+        }
+      ]
+    },
+    {
+      "id": 10777,
+      "minKredits": 7,
+      "kategorien": [
+        {
+          "id": 10102,
+          "kuerzel": "EEU-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft, Recht"
+        }
+      ]
+    },
+    {
+      "id": 10778,
+      "minKredits": 8,
+      "kategorien": [
+        {
+          "id": 10112,
+          "kuerzel": "EEU-SA",
+          "bezeichnung": "Studienarbeit"
+        }
+      ]
+    },
+    {
+      "id": 10779,
+      "minKredits": 12,
+      "kategorien": [
+        {
+          "id": 10105,
+          "kuerzel": "EEU-BA",
+          "bezeichnung": "Bachelor-Arbeit"
+        }
+      ]
+    },
+    {
+      "id": 10840,
+      "minKredits": 3,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)"
+        }
+      ]
+    }
+  ],
+  "studienberater": {
+    "id": 541725,
+    "name": "Wemhöner",
+    "vorname": "Carsten"
+  },
+  "zuordnungen": [
+    {
+      "id": 44974,
+      "kuerzel": "M_AbfRec",
+      "bezeichnung": "Abfallaufbereitung und Recycling",
+      "url": "allModules/44974_M_AbfRec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 61220,
+      "kuerzel": "M_AbfRec",
+      "bezeichnung": "Abfallaufbereitung und Recycling",
+      "url": "allModules/61220_M_AbfRec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45236,
+      "kuerzel": "M_AbfTec",
+      "bezeichnung": "Abfallwirtschaft und -technologien",
+      "url": "allModules/45236_M_AbfTec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45711,
+      "kuerzel": "M_AMTEU",
+      "bezeichnung": "Advanced Materials & Technologies (EEU)",
+      "url": "allModules/45711_M_AMTEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 64986,
+      "kuerzel": "M_IKAG",
+      "bezeichnung": "Alternde Gesellschaften ",
+      "url": "allModules/64986_M_IKAG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65286,
+      "kuerzel": "M_IKAG_RJ",
+      "bezeichnung": "Alternde Gesellschaften",
+      "url": "allModules/65286_M_IKAG_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44501,
+      "kuerzel": "M_An1EU",
+      "bezeichnung": "Analysis 1 (EEU)",
+      "url": "allModules/44501_M_An1EU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10167,
+          "kuerzel": "EEU-m1",
+          "bezeichnung": "Mathematik 1",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 45245,
+      "kuerzel": "M_An2EU",
+      "bezeichnung": "Analysis 2 (EEU)",
+      "url": "allModules/45245_M_An2EU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10168,
+          "kuerzel": "EEU-m2",
+          "bezeichnung": "Mathematik 2",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 43764,
+      "kuerzel": "M_AnIntEU",
+      "bezeichnung": "Analysis Intensiv (EEU)",
+      "url": "allModules/43764_M_AnIntEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10167,
+          "kuerzel": "EEU-m1",
+          "bezeichnung": "Mathematik 1",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 45583,
+      "kuerzel": "M_ABPM1",
+      "bezeichnung": "Anlagenbau und Projektmanagement 1",
+      "url": "allModules/45583_M_ABPM1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45586,
+      "kuerzel": "M_ABPM2",
+      "bezeichnung": "Anlagenbau und Projektmanagement 2",
+      "url": "allModules/45586_M_ABPM2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45589,
+      "kuerzel": "M_ABPM3",
+      "bezeichnung": "Anlagenbau und Projektmanagement 3",
+      "url": "allModules/45589_M_ABPM3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45592,
+      "kuerzel": "M_AST",
+      "bezeichnung": "Antriebs- und Steuerungstechnik",
+      "url": "allModules/45592_M_AST.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44202,
+      "kuerzel": "M_IKAA",
+      "bezeichnung": "Applied AI",
+      "url": "allModules/44202_M_IKAA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44196,
+      "kuerzel": "M_IKAA_p",
+      "bezeichnung": "Applied AI",
+      "url": "allModules/44196_M_IKAA_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57378,
+      "kuerzel": "M_IKAA_p",
+      "bezeichnung": "Applied AI SG",
+      "url": "allModules/57378_M_IKAA_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57381,
+      "kuerzel": "M_IKAA",
+      "bezeichnung": "Applied AI SG",
+      "url": "allModules/57381_M_IKAA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56734,
+      "kuerzel": "M_IKFD",
+      "bezeichnung": "Applied Frugal Design: Einfach gestalten, gesund leben",
+      "url": "allModules/56734_M_IKFD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56737,
+      "kuerzel": "M_IKFD_p",
+      "bezeichnung": "Applied Frugal Design: Einfach gestalten, gesund leben",
+      "url": "allModules/56737_M_IKFD_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 19853,
+      "kuerzel": "M_BAEU",
+      "bezeichnung": "Bachelor-Arbeit EEU",
+      "url": "allModules/19853_M_BAEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10105,
+          "kuerzel": "EEU-BA",
+          "bezeichnung": "Bachelor-Arbeit",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 56919,
+      "kuerzel": "M_IKBH",
+      "bezeichnung": "Behavioral Design  ",
+      "url": "allModules/56919_M_IKBH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56486,
+      "kuerzel": "M_BV1",
+      "bezeichnung": "Biologische Verfahren 1",
+      "url": "allModules/56486_M_BV1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 61317,
+      "kuerzel": "M_BV2",
+      "bezeichnung": "Biologische Verfahren 2",
+      "url": "allModules/61317_M_BV2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45597,
+      "kuerzel": "M_BmBg",
+      "bezeichnung": "Biomasse und Biogas",
+      "url": "allModules/45597_M_BmBg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44040,
+      "kuerzel": "M_IKBW",
+      "bezeichnung": "Blickwechsel",
+      "url": "allModules/44040_M_IKBW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57357,
+      "kuerzel": "M_idks.IKBW",
+      "bezeichnung": "Blickwechsel",
+      "url": "allModules/57357_M_idks.IKBW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57183,
+      "kuerzel": "M_GebTBau",
+      "bezeichnung": "Building system technologies, Building physics",
+      "url": "allModules/57183_M_GebTBau.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 20780,
+      "kuerzel": "M_BuRe1",
+      "bezeichnung": "Business und Recht 1",
+      "url": "allModules/20780_M_BuRe1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10102,
+          "kuerzel": "EEU-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft, Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 20794,
+      "kuerzel": "M_BuRe2a",
+      "bezeichnung": "Business und Recht 2 (a)",
+      "url": "allModules/20794_M_BuRe2a.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10102,
+          "kuerzel": "EEU-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft, Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28476,
+      "kuerzel": "M_BuRe2b",
+      "bezeichnung": "Business und Recht 2 (EEU)",
+      "url": "allModules/28476_M_BuRe2b.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10102,
+          "kuerzel": "EEU-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft, Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45654,
+      "kuerzel": "M_CADEU",
+      "bezeichnung": "CAD (EEU)",
+      "url": "allModules/45654_M_CADEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 61300,
+      "kuerzel": "M_Chem1EU",
+      "bezeichnung": "Chemie 1 (EEU)",
+      "url": "allModules/61300_M_Chem1EU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10103,
+          "kuerzel": "EEU-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45616,
+      "kuerzel": "M_Chem2EU",
+      "bezeichnung": "Chemie 2 (EEU)",
+      "url": "allModules/45616_M_Chem2EU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10103,
+          "kuerzel": "EEU-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44094,
+      "kuerzel": "M_IKKL",
+      "bezeichnung": "Circular Economy",
+      "url": "allModules/44094_M_IKKL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44097,
+      "kuerzel": "M_IKKL_p",
+      "bezeichnung": "Circular Economy",
+      "url": "allModules/44097_M_IKKL_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56710,
+      "kuerzel": "M_IKCC",
+      "bezeichnung": "Co-Creation und Inclusive Design Methoden",
+      "url": "allModules/56710_M_IKCC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56713,
+      "kuerzel": "M_IKCC_p",
+      "bezeichnung": "Co-Creation und Inclusive Design Methoden",
+      "url": "allModules/56713_M_IKCC_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 37304,
+      "kuerzel": "M_CompAw",
+      "bezeichnung": "Computeranwendungen",
+      "url": "allModules/37304_M_CompAw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 45620,
+      "kuerzel": "M_CompAwEU",
+      "bezeichnung": "Computeranwendungen EEU",
+      "url": "allModules/45620_M_CompAwEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56716,
+      "kuerzel": "M_IKCG",
+      "bezeichnung": "Corporate Governance and Sustainability",
+      "url": "allModules/56716_M_IKCG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57443,
+      "kuerzel": "M_idks.IKCC",
+      "bezeichnung": "Creative Capability",
+      "url": "allModules/57443_M_idks.IKCC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44043,
+      "kuerzel": "M_IKDK",
+      "bezeichnung": "Demokratie im Zeitalter von KI",
+      "url": "allModules/44043_M_IKDK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44046,
+      "kuerzel": "M_IKDK_p",
+      "bezeichnung": "Demokratie im Zeitalter von KI",
+      "url": "allModules/44046_M_IKDK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65301,
+      "kuerzel": "M_IKDK_p_SG",
+      "bezeichnung": "Demokratie im Zeitalter von KI Kopie",
+      "url": "allModules/65301_M_IKDK_p_SG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57681,
+      "kuerzel": "M_IKNW_p",
+      "bezeichnung": "Die Nachhaltigkeitswoche: Eventfabrik und Zukunftsworkshops",
+      "url": "allModules/57681_M_IKNW_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56802,
+      "kuerzel": "M_IKNW",
+      "bezeichnung": "Die Nachhaltigkeitswoche: Eventfabrik und Zukunftsworkshops",
+      "url": "allModules/56802_M_IKNW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45623,
+      "kuerzel": "M_DiffGEU",
+      "bezeichnung": "Differentialgleichungen (EEU)",
+      "url": "allModules/45623_M_DiffGEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10168,
+          "kuerzel": "EEU-m2",
+          "bezeichnung": "Mathematik 2",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57339,
+      "kuerzel": "M_IKDL_BU",
+      "bezeichnung": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen",
+      "url": "allModules/57339_M_IKDL_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 61146,
+      "kuerzel": "M_IKDL",
+      "bezeichnung": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen",
+      "url": "allModules/61146_M_IKDL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64989,
+      "kuerzel": "M_IKDL_p",
+      "bezeichnung": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen",
+      "url": "allModules/64989_M_IKDL_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65274,
+      "kuerzel": "M_IKDL_p_BU",
+      "bezeichnung": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen Kopie",
+      "url": "allModules/65274_M_IKDL_p_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44241,
+      "kuerzel": "M_IKDM_A",
+      "bezeichnung": "Dream Team - Mentoringprogramm für die nächste Generation Teil A",
+      "url": "allModules/44241_M_IKDM_A.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44244,
+      "kuerzel": "M_IKDM_B",
+      "bezeichnung": "Dream Team - Mentoringprogramm für die nächste Generation Teil B",
+      "url": "allModules/44244_M_IKDM_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56720,
+      "kuerzel": "M_IKEI",
+      "bezeichnung": "Einsamkeit erforschen - wirtschaftliche, gesellschaftliche und private Dimensionen",
+      "url": "allModules/56720_M_IKEI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56731,
+      "kuerzel": "M_IKEI_p",
+      "bezeichnung": "Einsamkeit erforschen - wirtschaftliche, gesellschaftliche und private Dimensionen",
+      "url": "allModules/56731_M_IKEI_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 45627,
+      "kuerzel": "M_ElSolT",
+      "bezeichnung": "Electrical Solar Technology",
+      "url": "allModules/45627_M_ElSolT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57697,
+      "kuerzel": "M_EEN",
+      "bezeichnung": "Elektrische Energienetze",
+      "url": "allModules/57697_M_EEN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45640,
+      "kuerzel": "M_EET",
+      "bezeichnung": "Elektrische Energietechnik",
+      "url": "allModules/45640_M_EET.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45645,
+      "kuerzel": "M_ETEU",
+      "bezeichnung": "Elektrotechnik (EEU)",
+      "url": "allModules/45645_M_ETEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45066,
+      "kuerzel": "M_EUCH",
+      "bezeichnung": "Energie- und Umweltszene Schweiz",
+      "url": "allModules/45066_M_EUCH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45071,
+      "kuerzel": "M_UWP",
+      "bezeichnung": "Energie- und Umwelttechnik in der Praxis",
+      "url": "allModules/45071_M_UWP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45076,
+      "kuerzel": "M_EnSp",
+      "bezeichnung": "Energiespeicher",
+      "url": "allModules/45076_M_EnSp.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 55597,
+      "kuerzel": "M_TecBEC",
+      "bezeichnung": "English Beyond Borders: Navigating Academic & Professional Success with IELTS",
+      "url": "allModules/55597_M_TecBEC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10152,
+          "kuerzel": "EEU-KOM",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56496,
+      "kuerzel": "M_EnglHTw",
+      "bezeichnung": "English: How Things work",
+      "url": "allModules/56496_M_EnglHTw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 45661,
+      "kuerzel": "M_SelTec",
+      "bezeichnung": "English: Selling Technology",
+      "url": "allModules/45661_M_SelTec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    },
+    {
+      "id": 56504,
+      "kuerzel": "M_EnglScience",
+      "bezeichnung": "English: The World of Science",
+      "url": "allModules/56504_M_EnglScience.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 57448,
+      "kuerzel": "M_idks.IKMO",
+      "bezeichnung": "Enkeltauglich?! - Gemeinde und Städte im Morgenland",
+      "url": "allModules/57448_M_idks.IKMO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 19948,
+      "kuerzel": "M_ErPa",
+      "bezeichnung": "Erfinden und Patentieren (EEU)",
+      "url": "allModules/19948_M_ErPa.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10102,
+          "kuerzel": "EEU-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft, Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44049,
+      "kuerzel": "M_IKEK",
+      "bezeichnung": "Ethik & KI",
+      "url": "allModules/44049_M_IKEK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44052,
+      "kuerzel": "M_IKEK_p",
+      "bezeichnung": "Ethik & KI",
+      "url": "allModules/44052_M_IKEK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 19957,
+      "kuerzel": "M_FKIEU",
+      "bezeichnung": "Führungskommunikation für IngenieurInnen",
+      "url": "allModules/19957_M_FKIEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10152,
+          "kuerzel": "EEU-KOM",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65051,
+      "kuerzel": "M_IKLD_p",
+      "bezeichnung": "Future Life Design: Den eigenen Lebensweg erfolgreich gestalten",
+      "url": "allModules/65051_M_IKLD_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56925,
+      "kuerzel": "M_IKLD",
+      "bezeichnung": "Future Life Design: Den eigenen Lebensweg erfolgreich gestalten",
+      "url": "allModules/56925_M_IKLD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56740,
+      "kuerzel": "M_IKFL",
+      "bezeichnung": "Future Life Design: Successfully shaping your own life path",
+      "url": "allModules/56740_M_IKFL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56743,
+      "kuerzel": "M_IKFL_p",
+      "bezeichnung": "Future Life Design: Successfully shaping your own life path",
+      "url": "allModules/56743_M_IKFL_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64956,
+      "kuerzel": "M_IKGD",
+      "bezeichnung": "Geheimnisse der Datensicherheit: Die CIA-Trias in der Praxis",
+      "url": "allModules/64956_M_IKGD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65004,
+      "kuerzel": "M_IKMO_p",
+      "bezeichnung": "Gemeinden & Städte von morgen. So gelingt nachhaltige Gemeindeentwicklung",
+      "url": "allModules/65004_M_IKMO_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44055,
+      "kuerzel": "M_IKMO",
+      "bezeichnung": "Gemeinden & Städte von morgen. So gelingt nachhaltige Gemeindeentwicklung",
+      "url": "allModules/44055_M_IKMO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44214,
+      "kuerzel": "M_IKGA_p",
+      "bezeichnung": "Generative AI in der Planung",
+      "url": "allModules/44214_M_IKGA_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64992,
+      "kuerzel": "M_IKGA",
+      "bezeichnung": "Generative AI in der Planung",
+      "url": "allModules/64992_M_IKGA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15602,
+      "kuerzel": "M_KatGWR1",
+      "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+      "url": "allModules/15602_M_KatGWR1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10102,
+          "kuerzel": "EEU-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft, Recht",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 44061,
+      "kuerzel": "M_IKGL",
+      "bezeichnung": "Gesund leben und Langlebigkeit ",
+      "url": "allModules/44061_M_IKGL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44067,
+      "kuerzel": "M_IKAK_p",
+      "bezeichnung": "Gesundes Altern mit Hilfe von künstlicher Intelligenz",
+      "url": "allModules/44067_M_IKAK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44064,
+      "kuerzel": "M_IKAK",
+      "bezeichnung": "Gesundes Altern mit Hilfe von künstlicher Intelligenz ",
+      "url": "allModules/44064_M_IKAK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57384,
+      "kuerzel": "M_IKAK",
+      "bezeichnung": "Gesundes Altern mit Hilfe von künstlicher Intelligenz  SG",
+      "url": "allModules/57384_M_IKAK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57387,
+      "kuerzel": "M_IKAK_p",
+      "bezeichnung": "Gesundes Altern mit Hilfe von künstlicher Intelligenz SG",
+      "url": "allModules/57387_M_IKAK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 60948,
+      "kuerzel": "M_GZET",
+      "bezeichnung": "Grundzüge Energietechnik",
+      "url": "allModules/60948_M_GZET.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 65154,
+      "kuerzel": "M_GZUKU",
+      "bezeichnung": "Grundzüge Klima und Umwelt",
+      "url": "allModules/65154_M_GZUKU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44070,
+      "kuerzel": "M_IKNN",
+      "bezeichnung": "Hackathon zu \"Netto-null in Gebäuden und Verkehr\"  ",
+      "url": "allModules/44070_M_IKNN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44073,
+      "kuerzel": "M_IKII",
+      "bezeichnung": "Ideen Inkubator Klimawende ",
+      "url": "allModules/44073_M_IKII.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44076,
+      "kuerzel": "M_IKII_p",
+      "bezeichnung": "Ideen Inkubator Klimawende",
+      "url": "allModules/44076_M_IKII_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64967,
+      "kuerzel": "M_IKTSV2",
+      "bezeichnung": "IKTS_Vorlage 2ECTS",
+      "url": "allModules/64967_M_IKTSV2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43910,
+      "kuerzel": "M_IKTSV3",
+      "bezeichnung": "IKTS_Vorlage 3ECTS",
+      "url": "allModules/43910_M_IKTSV3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 43911,
+      "kuerzel": "M_IKTSV4",
+      "bezeichnung": "IKTS_Vorlage 4ECTS",
+      "url": "allModules/43911_M_IKTSV4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44079,
+      "kuerzel": "M_IKIE",
+      "bezeichnung": "Interdisziplinär entwickeln - gerüstet für die technikbasierte Arbeitswelt",
+      "url": "allModules/44079_M_IKIE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 23220,
+      "kuerzel": "M_IntKomm",
+      "bezeichnung": "Interkulturelle Kommunikation ",
+      "url": "allModules/23220_M_IntKomm.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10152,
+          "kuerzel": "EEU-KOM",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56444,
+      "kuerzel": "M_INTKO",
+      "bezeichnung": "Interkulturelle Kommunikation",
+      "url": "allModules/56444_M_INTKO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10152,
+          "kuerzel": "EEU-KOM",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56866,
+      "kuerzel": "M_IKIS_p",
+      "bezeichnung": "International Summer School for Sustainability",
+      "url": "allModules/56866_M_IKIS_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65049,
+      "kuerzel": "M_IKIS",
+      "bezeichnung": "International Summer School for Sustainability",
+      "url": "allModules/65049_M_IKIS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44082,
+      "kuerzel": "M_IKLE",
+      "bezeichnung": "IZM-Projekt",
+      "url": "allModules/44082_M_IKLE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44085,
+      "kuerzel": "M_IKLE_p",
+      "bezeichnung": "IZM-Projekt",
+      "url": "allModules/44085_M_IKLE_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 23110,
+      "kuerzel": "M_Kat_GruLaEU",
+      "bezeichnung": "Kategorie Grundlagen EEU",
+      "url": "allModules/23110_M_Kat_GruLaEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 56959,
+      "kuerzel": "M_Kat_IKTS",
+      "bezeichnung": "Kategorie IKTS",
+      "url": "allModules/56959_M_Kat_IKTS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 64548,
+      "kuerzel": "M_Kat_VTEEU",
+      "bezeichnung": "Kategorie Vertiefungsmodule EEU",
+      "url": "allModules/64548_M_Kat_VTEEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 44088,
+      "kuerzel": "M_IKGE",
+      "bezeichnung": "Klimagerechte Stadt- und Gemeindeentwicklung ",
+      "url": "allModules/44088_M_IKGE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44091,
+      "kuerzel": "M_IKGE_p",
+      "bezeichnung": "Klimagerechte Stadt- und Gemeindeentwicklung ",
+      "url": "allModules/44091_M_IKGE_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 61404,
+      "kuerzel": "M_IKKP_p",
+      "bezeichnung": "Klimakrise: Kann die Politik die Welt noch retten?",
+      "url": "allModules/61404_M_IKKP_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 61396,
+      "kuerzel": "M_IKKP",
+      "bezeichnung": "Klimakrise: Kann die Politik die Welt noch retten?",
+      "url": "allModules/61396_M_IKKP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65292,
+      "kuerzel": "M_IKKP_p_RJ",
+      "bezeichnung": "Klimakrise: Kann die Politik die Welt noch retten? Kopie",
+      "url": "allModules/65292_M_IKKP_p_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65046,
+      "kuerzel": "M_IKGS",
+      "bezeichnung": "Knowhow und Technologien für nachhaltige Entwicklung im globalen Süden ",
+      "url": "allModules/65046_M_IKGS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65180,
+      "kuerzel": "M_IKGS_p",
+      "bezeichnung": "Knowhow und Technologien für nachhaltige Entwicklung im globalen Süden ",
+      "url": "allModules/65180_M_IKGS_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44187,
+      "kuerzel": "M_IKKK_p",
+      "bezeichnung": "Kommunale Klimawende",
+      "url": "allModules/44187_M_IKKK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44184,
+      "kuerzel": "M_IKKK",
+      "bezeichnung": "Kommunale Klimawende",
+      "url": "allModules/44184_M_IKKK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 37397,
+      "kuerzel": "M_KommIng2",
+      "bezeichnung": "Kommunikation 2 für IngenieurInnen  (Teamkommunikation)",
+      "url": "allModules/37397_M_KommIng2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10152,
+          "kuerzel": "EEU-KOM",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 40263,
+      "kuerzel": "M_KatKoSpra5",
+      "bezeichnung": "Kommunikation und Sprache",
+      "url": "allModules/40263_M_KatKoSpra5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10152,
+          "kuerzel": "EEU-KOM",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 31794,
+      "kuerzel": "M_KatKoSpra",
+      "bezeichnung": "Kommunikation und Sprache",
+      "url": "allModules/31794_M_KatKoSpra.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10152,
+          "kuerzel": "EEU-KOM",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45092,
+      "kuerzel": "M_Konst1EU",
+      "bezeichnung": "Konstruktion 1 (EEU)",
+      "url": "allModules/45092_M_Konst1EU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 61363,
+      "kuerzel": "M_Konst1EUn",
+      "bezeichnung": "Konstruktion 1 (EEU)",
+      "url": "allModules/61363_M_Konst1EUn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 61371,
+      "kuerzel": "M_Konst2EUn",
+      "bezeichnung": "Konstruktion 2 (EEU)",
+      "url": "allModules/61371_M_Konst2EUn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 45099,
+      "kuerzel": "M_Konst2EU",
+      "bezeichnung": "Konstruktion 2 (EEU)",
+      "url": "allModules/45099_M_Konst2EU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 25516,
+      "kuerzel": "M_Kons2EU",
+      "bezeichnung": "Konstruktion 2 (EEU)",
+      "url": "allModules/25516_M_Kons2EU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 64995,
+      "kuerzel": "M_IKLF",
+      "bezeichnung": "Lernfähigkeit und Gedächtnis",
+      "url": "allModules/64995_M_IKLF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65243,
+      "kuerzel": "M_IKDH_p_RJ",
+      "bezeichnung": "Lernlabor «Digitalisieren Hands-on»",
+      "url": "allModules/65243_M_IKDH_p_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44232,
+      "kuerzel": "M_IKDH_p",
+      "bezeichnung": "Lernlabor «Digitalisieren Hands-on»",
+      "url": "allModules/44232_M_IKDH_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44235,
+      "kuerzel": "M_IKDH",
+      "bezeichnung": "Lernlabor «Digitalisieren Hands-on»",
+      "url": "allModules/44235_M_IKDH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45103,
+      "kuerzel": "M_LinAlg1EU",
+      "bezeichnung": "Lineare Algebra 1 (EEU)",
+      "url": "allModules/45103_M_LinAlg1EU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10168,
+          "kuerzel": "EEU-m2",
+          "bezeichnung": "Mathematik 2",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45107,
+      "kuerzel": "M_LinAlg2EU",
+      "bezeichnung": "Lineare Algebra 2 (EEU)",
+      "url": "allModules/45107_M_LinAlg2EU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10168,
+          "kuerzel": "EEU-m2",
+          "bezeichnung": "Mathematik 2",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44103,
+      "kuerzel": "M_IKLK",
+      "bezeichnung": "Lösungsorientierte Kommunikation für dynamische Arbeitswelten ",
+      "url": "allModules/44103_M_IKLK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45111,
+      "kuerzel": "M_Luft1",
+      "bezeichnung": "Luftreinhaltung 1",
+      "url": "allModules/45111_M_Luft1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45114,
+      "kuerzel": "M_Luft2",
+      "bezeichnung": "Luftreinhaltung 2",
+      "url": "allModules/45114_M_Luft2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56176,
+      "kuerzel": "M_MLDS",
+      "bezeichnung": "Machine Learning and Data Science (EEU)",
+      "url": "allModules/56176_M_MLDS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45121,
+      "kuerzel": "M_MatT1EU",
+      "bezeichnung": "Materialtechnologie 1 (EEU)",
+      "url": "allModules/45121_M_MatT1EU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 45125,
+      "kuerzel": "M_MatT2EU",
+      "bezeichnung": "Materialtechnologie 2 (EEU)",
+      "url": "allModules/45125_M_MatT2EU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 61384,
+      "kuerzel": "M_MatT2EUn",
+      "bezeichnung": "Materialtechnologie 2 (EEU)",
+      "url": "allModules/61384_M_MatT2EUn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 45131,
+      "kuerzel": "M_MathSem1",
+      "bezeichnung": "Mathematisches Seminar 1",
+      "url": "allModules/45131_M_MathSem1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10168,
+          "kuerzel": "EEU-m2",
+          "bezeichnung": "Mathematik 2",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44112,
+      "kuerzel": "M_IKMI_p",
+      "bezeichnung": "Medien- und Informationskompetenz in Zeiten von KI",
+      "url": "allModules/44112_M_IKMI_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64983,
+      "kuerzel": "M_IKMI",
+      "bezeichnung": "Medien- und Informationskompetenz in Zeiten von KI ",
+      "url": "allModules/64983_M_IKMI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56875,
+      "kuerzel": "M_IKME_p",
+      "bezeichnung": "Messbar gesund",
+      "url": "allModules/56875_M_IKME_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44115,
+      "kuerzel": "M_IKME",
+      "bezeichnung": "Messbar gesund",
+      "url": "allModules/44115_M_IKME.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45134,
+      "kuerzel": "M_MessTDat",
+      "bezeichnung": "Messtechnik und Datenerfassung",
+      "url": "allModules/45134_M_MessTDat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57372,
+      "kuerzel": "M_idks.IKBD",
+      "bezeichnung": "My Data - Big Data",
+      "url": "allModules/57372_M_idks.IKBD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65054,
+      "kuerzel": "M_IKNE",
+      "bezeichnung": "Nachhaltige Ernährung für Körper, Geist und Klima",
+      "url": "allModules/65054_M_IKNE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56795,
+      "kuerzel": "M_IKNE_p",
+      "bezeichnung": "Nachhaltige Ernährung für Körper, Geist und Klima",
+      "url": "allModules/56795_M_IKNE_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65146,
+      "kuerzel": "M_NaUnt",
+      "bezeichnung": "Nachhaltigkeit in Unternehmen",
+      "url": "allModules/65146_M_NaUnt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64977,
+      "kuerzel": "M_IKNP_p",
+      "bezeichnung": "Nachhaltigkeit politisch umsetzen",
+      "url": "allModules/64977_M_IKNP_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64974,
+      "kuerzel": "M_IKNP",
+      "bezeichnung": "Nachhaltigkeit politisch umsetzen",
+      "url": "allModules/64974_M_IKNP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44223,
+      "kuerzel": "M_IKKA",
+      "bezeichnung": "Nachhaltigkeit und Klimaschutz angewandt",
+      "url": "allModules/44223_M_IKKA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45138,
+      "kuerzel": "M_NwP",
+      "bezeichnung": "Naturwissenschaftliches Praktikum",
+      "url": "allModules/45138_M_NwP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10103,
+          "kuerzel": "EEU-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44124,
+      "kuerzel": "M_IKNG_p",
+      "bezeichnung": "Neue Narrative für eine nachhaltige Gesellschaft",
+      "url": "allModules/44124_M_IKNG_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65007,
+      "kuerzel": "M_IKNG",
+      "bezeichnung": "Neue Narrative für eine nachhaltige Gesellschaft ",
+      "url": "allModules/65007_M_IKNG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65013,
+      "kuerzel": "M_IKNK",
+      "bezeichnung": "New Work & KI",
+      "url": "allModules/65013_M_IKNK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65016,
+      "kuerzel": "M_IKNK_p",
+      "bezeichnung": "New Work & KI",
+      "url": "allModules/65016_M_IKNK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65234,
+      "kuerzel": "M_IKNK_p_RJ",
+      "bezeichnung": "New Work & KI",
+      "url": "allModules/65234_M_IKNK_p_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65237,
+      "kuerzel": "M_IKNK_p_SG",
+      "bezeichnung": "New Work & KI",
+      "url": "allModules/65237_M_IKNK_p_SG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64962,
+      "kuerzel": "M_IKOR_p",
+      "bezeichnung": "Öffentliche Ringvorlesung: Verantwortung heute - zwischen Verpflichtung und Ablehnung",
+      "url": "allModules/64962_M_IKOR_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64959,
+      "kuerzel": "M_IKOR",
+      "bezeichnung": "Öffentliche Ringvorlesung: Verantwortung heute - zwischen Verpflichtung und Ablehnung",
+      "url": "allModules/64959_M_IKOR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 41629,
+      "kuerzel": "M_OeMod",
+      "bezeichnung": "Öffentlichkeitsarbeit und Moderation",
+      "url": "allModules/41629_M_OeMod.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10152,
+          "kuerzel": "EEU-KOM",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 65019,
+      "kuerzel": "M_IKOW_p",
+      "bezeichnung": "Offgrid Wasser und Sonne: Hands on",
+      "url": "allModules/65019_M_IKOW_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56805,
+      "kuerzel": "M_IKOW",
+      "bezeichnung": "Offgrid Wasser und Sonne: Hands on",
+      "url": "allModules/56805_M_IKOW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65149,
+      "kuerzel": "M_NaBew",
+      "bezeichnung": "Ökologische Nachhaltigkeitsbewertung",
+      "url": "allModules/65149_M_NaBew.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45143,
+      "kuerzel": "M_Ph1Mech",
+      "bezeichnung": "Physik 1 - Mechanik",
+      "url": "allModules/45143_M_Ph1Mech.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10103,
+          "kuerzel": "EEU-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45148,
+      "kuerzel": "M_Ph2EU",
+      "bezeichnung": "Physik 2 (EEU)",
+      "url": "allModules/45148_M_Ph2EU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10103,
+          "kuerzel": "EEU-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45153,
+      "kuerzel": "M_Ph3SWO",
+      "bezeichnung": "Physik 3 - Schwingungen und Wellen, Optik",
+      "url": "allModules/45153_M_Ph3SWO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10103,
+          "kuerzel": "EEU-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45159,
+      "kuerzel": "M_Ph4EU",
+      "bezeichnung": "Physik 4 (EEU)",
+      "url": "allModules/45159_M_Ph4EU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10103,
+          "kuerzel": "EEU-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45165,
+      "kuerzel": "M_CFD_FEM",
+      "bezeichnung": "Process and Product Simulations",
+      "url": "allModules/45165_M_CFD_FEM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 60978,
+      "kuerzel": "M_ProgEU",
+      "bezeichnung": "Programmieren (EEU)",
+      "url": "allModules/60978_M_ProgEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64856,
+      "kuerzel": "M_IKPI",
+      "bezeichnung": "Projekte intedisziplinär weiterführen",
+      "url": "allModules/64856_M_IKPI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64860,
+      "kuerzel": "M_IKPI_p",
+      "bezeichnung": "Projekte intedisziplinär weiterführen",
+      "url": "allModules/64860_M_IKPI_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 65246,
+      "kuerzel": "M_IKPS_p_BU",
+      "bezeichnung": "Prototyping für Startup-Ideen",
+      "url": "allModules/65246_M_IKPS_p_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44133,
+      "kuerzel": "M_IKPS",
+      "bezeichnung": "Prototyping für Startup-Ideen",
+      "url": "allModules/44133_M_IKPS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44136,
+      "kuerzel": "M_IKPS_p",
+      "bezeichnung": "Prototyping für Startup-Ideen",
+      "url": "allModules/44136_M_IKPS_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 65021,
+      "kuerzel": "M_IKPH",
+      "bezeichnung": "Prototyping für Startup-Ideen beim Hackathon",
+      "url": "allModules/65021_M_IKPH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65056,
+      "kuerzel": "M_IKPE",
+      "bezeichnung": "Psychologisches Empowerment in Veränderungs- und Wandlungsprozessen",
+      "url": "allModules/65056_M_IKPE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45172,
+      "kuerzel": "M_RegTechEU",
+      "bezeichnung": "Regelungstechnik (EEU)",
+      "url": "allModules/45172_M_RegTechEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44142,
+      "kuerzel": "M_IKRE",
+      "bezeichnung": "Resilienz: Schlüsselkompetenz für innere Stärke ",
+      "url": "allModules/44142_M_IKRE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43277,
+      "kuerzel": "M_RheKoI",
+      "bezeichnung": "Rhetorische Kommunikation für IngenieurInnen",
+      "url": "allModules/43277_M_RheKoI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10152,
+          "kuerzel": "EEU-KOM",
+          "bezeichnung": "Kommunikation und Sprache",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56707,
+      "kuerzel": "M_IKBF",
+      "bezeichnung": "Selbststeuerung im Beruf",
+      "url": "allModules/56707_M_IKBF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43909,
+      "kuerzel": "M_IKSO",
+      "bezeichnung": "Serious Game zur Unterstützung der Transformation sozialer und wirtschaftlich orientierter Systeme",
+      "url": "allModules/43909_M_IKSO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64971,
+      "kuerzel": "M_IKSI",
+      "bezeichnung": "Serious Game zur Unterstützung der Transformation von Infrastruktursystemen",
+      "url": "allModules/64971_M_IKSI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65023,
+      "kuerzel": "M_IKSS",
+      "bezeichnung": "Ski-Nation Schweiz",
+      "url": "allModules/65023_M_IKSS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44217,
+      "kuerzel": "M_IKSS_p",
+      "bezeichnung": "Ski-Nation Schweiz",
+      "url": "allModules/44217_M_IKSS_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44145,
+      "kuerzel": "M_IKSH",
+      "bezeichnung": "Social and Human Robotic ",
+      "url": "allModules/44145_M_IKSH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57354,
+      "kuerzel": "M_idks.IKSH",
+      "bezeichnung": "Social and Human Robotic  SG",
+      "url": "allModules/57354_M_idks.IKSH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45179,
+      "kuerzel": "M_SHC",
+      "bezeichnung": "Solares Heizen und Kühlen",
+      "url": "allModules/45179_M_SHC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44148,
+      "kuerzel": "M_IKSW",
+      "bezeichnung": "Stadt der kurzen Wege ",
+      "url": "allModules/44148_M_IKSW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65029,
+      "kuerzel": "M_IKSW_p",
+      "bezeichnung": "Stadt der kurzen Wege",
+      "url": "allModules/65029_M_IKSW_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65026,
+      "kuerzel": "M_IKST_p",
+      "bezeichnung": "Starkes Ich – Starkes Team",
+      "url": "allModules/65026_M_IKST_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65252,
+      "kuerzel": "M_IKST_RJ",
+      "bezeichnung": "Starkes Ich – Starkes Team",
+      "url": "allModules/65252_M_IKST_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65240,
+      "kuerzel": "M_IKST_p_RJ",
+      "bezeichnung": "Starkes Ich – Starkes Team",
+      "url": "allModules/65240_M_IKST_p_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57673,
+      "kuerzel": "M_IKST",
+      "bezeichnung": "Starkes Ich – Starkes Team",
+      "url": "allModules/57673_M_IKST.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65231,
+      "kuerzel": "M_IKSU_p_BU",
+      "bezeichnung": "Startup - Weg zur Gründung",
+      "url": "allModules/65231_M_IKSU_p_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44253,
+      "kuerzel": "M_IKSU",
+      "bezeichnung": "Startup - Weg zur Gründung",
+      "url": "allModules/44253_M_IKSU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44256,
+      "kuerzel": "M_IKSU_p",
+      "bezeichnung": "Startup - Weg zur Gründung",
+      "url": "allModules/44256_M_IKSU_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 65298,
+      "kuerzel": "M_IKSU_p_RJ",
+      "bezeichnung": "Startup - Weg zur Gründung Kopie",
+      "url": "allModules/65298_M_IKSU_p_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45182,
+      "kuerzel": "M_StatDA",
+      "bezeichnung": "Statistische Datenanalyse",
+      "url": "allModules/45182_M_StatDA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10168,
+          "kuerzel": "EEU-m2",
+          "bezeichnung": "Mathematik 2",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64980,
+      "kuerzel": "M_IKSE",
+      "bezeichnung": "Strategie-Entwicklung und -Umsetzung für NPOs",
+      "url": "allModules/64980_M_IKSE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44205,
+      "kuerzel": "M_IKSM",
+      "bezeichnung": "Strategisches Management von Naturgefahren",
+      "url": "allModules/44205_M_IKSM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44208,
+      "kuerzel": "M_IKSM_p",
+      "bezeichnung": "Strategisches Management von Naturgefahren",
+      "url": "allModules/44208_M_IKSM_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64953,
+      "kuerzel": "M_IKSR_p",
+      "bezeichnung": "Strategisches Risikomanagement von Naturgefahren",
+      "url": "allModules/64953_M_IKSR_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64950,
+      "kuerzel": "M_IKSR",
+      "bezeichnung": "Strategisches Risikomanagement von Naturgefahren",
+      "url": "allModules/64950_M_IKSR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 19856,
+      "kuerzel": "M_SAEU",
+      "bezeichnung": "Studienarbeit EEU",
+      "url": "allModules/19856_M_SAEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10112,
+          "kuerzel": "EEU-SA",
+          "bezeichnung": "Studienarbeit",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 64968,
+      "kuerzel": "M_IKTR",
+      "bezeichnung": "Teaming rocks! Zusammenarbeit verstehen & Selbstführung stärken",
+      "url": "allModules/64968_M_IKTR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65143,
+      "kuerzel": "M_Tech-Z",
+      "bezeichnung": "Technisches Zeichnen",
+      "url": "allModules/65143_M_Tech-Z.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44340,
+      "kuerzel": "M_IKTE",
+      "bezeichnung": "The Internet of Everything",
+      "url": "allModules/44340_M_IKTE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44343,
+      "kuerzel": "M_IKTE_p",
+      "bezeichnung": "The Internet of Everything",
+      "url": "allModules/44343_M_IKTE_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 45186,
+      "kuerzel": "M_ThFlD1EU",
+      "bezeichnung": "Thermo- und Fluiddynamik 1 (EEU)",
+      "url": "allModules/45186_M_ThFlD1EU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45191,
+      "kuerzel": "M_TFD2EU",
+      "bezeichnung": "Thermo- und Fluiddynamik 2 (EEU)",
+      "url": "allModules/45191_M_TFD2EU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44160,
+      "kuerzel": "M_IKUG",
+      "bezeichnung": "Umwelt und Gesundheit ",
+      "url": "allModules/44160_M_IKUG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44163,
+      "kuerzel": "M_IKUG_p",
+      "bezeichnung": "Umwelt und Gesundheit",
+      "url": "allModules/44163_M_IKUG_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 45196,
+      "kuerzel": "M_UmRes",
+      "bezeichnung": "Umwelt und Ressourcen (EEU)",
+      "url": "allModules/45196_M_UmRes.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45202,
+      "kuerzel": "M_UMin",
+      "bezeichnung": "Urban Mining",
+      "url": "allModules/45202_M_UMin.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64947,
+      "kuerzel": "M_IKVW_p",
+      "bezeichnung": "Verantwortungsvoll Wirtschaften: Unternehmen auf dem Prüfstand",
+      "url": "allModules/64947_M_IKVW_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 64944,
+      "kuerzel": "M_IKVW",
+      "bezeichnung": "Verantwortungsvoll Wirtschaften: Unternehmen auf dem Prüfstand",
+      "url": "allModules/64944_M_IKVW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45205,
+      "kuerzel": "M_VT1",
+      "bezeichnung": "Verfahrenstechnik 1",
+      "url": "allModules/45205_M_VT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45209,
+      "kuerzel": "M_VTe2",
+      "bezeichnung": "Verfahrenstechnik 2",
+      "url": "allModules/45209_M_VTe2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 65035,
+      "kuerzel": "M_IKVK",
+      "bezeichnung": "Vielfalt, Chancengleichheit und Inklusion im KI-Zeitalter ",
+      "url": "allModules/65035_M_IKVK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65038,
+      "kuerzel": "M_IKVK_p",
+      "bezeichnung": "Vielfalt, Chancengleichheit und Inklusion im KI-Zeitalter",
+      "url": "allModules/65038_M_IKVK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57360,
+      "kuerzel": "M_idks.IKVR",
+      "bezeichnung": "Virtual and Augmented Reality",
+      "url": "allModules/57360_M_idks.IKVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65032,
+      "kuerzel": "M_IKVA_p",
+      "bezeichnung": "Virtual Reality für gesundes Leben und Altern",
+      "url": "allModules/65032_M_IKVA_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44172,
+      "kuerzel": "M_IKVA",
+      "bezeichnung": "Virtual Reality für gesundes Leben und Altern",
+      "url": "allModules/44172_M_IKVA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65261,
+      "kuerzel": "M_IKVA_p_BU",
+      "bezeichnung": "Virtual Reality für gesundes Leben und Altern Kopie",
+      "url": "allModules/65261_M_IKVA_p_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65255,
+      "kuerzel": "M_IKVR_RJ",
+      "bezeichnung": "Virtual Reality für Klima und Energie",
+      "url": "allModules/65255_M_IKVR_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65043,
+      "kuerzel": "M_IKVR",
+      "bezeichnung": "Virtual Reality für Klima und Energie ",
+      "url": "allModules/65043_M_IKVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44181,
+      "kuerzel": "M_IKVR_p",
+      "bezeichnung": "Virtual Reality für Klima und Energie",
+      "url": "allModules/44181_M_IKVR_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65295,
+      "kuerzel": "M_IKVR_p_BU",
+      "bezeichnung": "Virtual Reality für Klima und Energie Kopie",
+      "url": "allModules/65295_M_IKVR_p_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 42760,
+      "kuerzel": "M_VwlTg",
+      "bezeichnung": "Volkswirtschaft und Technikgeschichte",
+      "url": "allModules/42760_M_VwlTg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10102,
+          "kuerzel": "EEU-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft, Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45214,
+      "kuerzel": "M_WrStatEU",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung und Statistik (EEU)",
+      "url": "allModules/45214_M_WrStatEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10168,
+          "kuerzel": "EEU-m2",
+          "bezeichnung": "Mathematik 2",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45229,
+      "kuerzel": "M_WpGt",
+      "bezeichnung": "Wärmepumpen, Geothermie",
+      "url": "allModules/45229_M_WpGt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44199,
+      "kuerzel": "M_IKNB",
+      "bezeichnung": "Wasser und Klima: Nachhaltige Wasserbewirtschaftung auf Gemeindeebene",
+      "url": "allModules/44199_M_IKNB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57170,
+      "kuerzel": "M_IKNB_p",
+      "bezeichnung": "Wasser und Klima: Nachhaltige Wasserbewirtschaftung auf Gemeindeebene",
+      "url": "allModules/57170_M_IKNB_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10170,
+          "kuerzel": "IKTS",
+          "bezeichnung": "Interdisziplinäres Kontextstudium (IKTS)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 55782,
+      "kuerzel": "M_WaBe1",
+      "bezeichnung": "Wasseraufbereitung 1",
+      "url": "allModules/55782_M_WaBe1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45222,
+      "kuerzel": "M_WaBe2",
+      "bezeichnung": "Wasseraufbereitung 2",
+      "url": "allModules/45222_M_WaBe2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45226,
+      "kuerzel": "M_ET8EU",
+      "bezeichnung": "Wasserkraft",
+      "url": "allModules/45226_M_ET8EU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 32766,
+      "kuerzel": "M_WSLS",
+      "bezeichnung": "Workshop \"Lern-Support an der OST\"",
+      "url": "allModules/32766_M_WSLS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ]
+}

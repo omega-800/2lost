@@ -1,0 +1,179 @@
+{
+  "id": 22375,
+  "kuerzel": "M_Konstr4",
+  "bezeichnung": "Konstruktion 4",
+  "kreditpunkte": 4,
+  "lernziele": "<p>&#8226; F&#228;higkeit zur Bemessung verformungsempfindlicher Bauteile nach Theorie 2. Ordnung <br />&#8226; Kompetenz in der Wahl der zutreffenden Berechnungsannahmen und der geeigneten statischen Modelle. <br />&#8226; Kenntnis der einschl&#228;gigen Normen und F&#228;higkeit zur Interpretation der einschl&#228;gigen Vorschriften </p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 22376,
+      "kuerzel": "StBau3",
+      "bezeichnung": "Stahlbau 3",
+      "lernziele": "<ul>\n    <li>F&auml;higkeit zur Bemessung von Kranbahntr&auml;gern und Fachwerktr&auml;gern</li>\n    <li>F&auml;higkeit zur Bemessung von Verbundkonstruktionen im Stahlbau</li>\n    <li>F&auml;higkeit zur Bemessung von Krafteinleitungen</li>\n    <li>F&auml;higkeit zur Durchf&uuml;hrung einer Kalkulation</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Kranbahntr&auml;ger </li>\n    <li>Fachwerktr&auml;ger </li>\n    <li>Verbundst&uuml;tzen (Stahl mit Beton) </li>\n    <li>Verbundtr&auml;ger (Stahl mit Beton </li>\n    <li>Krafteinleitung </li>\n    <li>Auflager / St&uuml;tzf&uuml;sse </li>\n    <li>Kalkulation </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 22377,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Stahlbau 3"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Steel Construction 3"
+        }
+      ]
+    },
+    {
+      "id": 22378,
+      "kuerzel": "StBeton4",
+      "bezeichnung": "Stahlbeton 4",
+      "lernziele": "<p>&#8226; F&#228;higkeit zur Bemessung von schlanken St&#252;tzen und St&#252;tzensystemen <br />&#8226; F&#228;higkeit Stabilit&#228;tsprobleme zu erkennen und die statische, konstruktive und ausf&#252;hrungstechnische Sicherheit einer L&#246;sung zu pr&#252;fen. </p>",
+      "planinhalt": "<p>&#8226; Statische Berechnung nach Theorie 2. Ordnung. <br />&#8226; Bemessung, Stabilit&#228;ts-Nachweise und konstruktive Durchbildung von schlanken St&#252;tzen und St&#252;tzensystemen. <br />&#8226; Bemessung von Scheiben </p>",
+      "kurselemente": [
+        {
+          "id": 22379,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Stahlbeton 4"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Reinforced Concrete 4"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10005,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10005_B.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10109,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10109_B.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10131,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10131_B.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5010785,
+      "name": "Marković",
+      "vorname": "Ivan"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11064,
+      "kuerzel": "M_FlTrWe",
+      "bezeichnung": "Flächentragwerke",
+      "url": "allModules/11064_M_FlTrWe.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 22375,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Konstruktion 4"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Structural Engineering 4"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2012,
+    "beginSemester": "HS",
+    "endJahr": 2016,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 11060,
+    "kuerzel": "M_Konstr4",
+    "bezeichnung": "Konstruktion 4",
+    "url": "allModules/11060_M_Konstr4.json"
+  }
+}

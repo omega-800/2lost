@@ -1,0 +1,189 @@
+{
+  "id": 12363,
+  "kuerzel": "M_FEM1",
+  "bezeichnung": "Finite Elemente Methode 1",
+  "kreditpunkte": 3,
+  "lernziele": "<ul>\n    <li>Grundz&uuml;ge der FEM-Anwendungen verstehen </li>\n    <li>Linearelastische Problemstellungen mit FEM l&ouml;sen k&ouml;nnen </li>\n    <li>Vorgehen zur sinnvollen Anwendung der FEM kennen erlernen</li>\n    <li>Erlernen des Verfassens technischer Berichte</li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 12346,
+      "kuerzel": "FEM1",
+      "bezeichnung": "Finite Elemente Methode 1",
+      "lernziele": "<p>Anwenderkompetenz: </p>\n<ul>\n    <li>Grundz&uuml;ge der FEM-Anwendungen verstehen </li>\n    <li>Linearelastische Problemstellungen mit FEM l&ouml;sen k&ouml;nnen </li>\n    <li>Vorgehen zur sinnvollen Anwendung der FEM erlernen</li>\n    <li>Erlernen des Verfassens technischer Berichte</li>\n</ul>",
+      "planinhalt": "<p>Grundlagen </p>\n<ul>\n    <li>Programmbeschreibung </li>\n    <li>Preprocessing: Elementtypen, Netzgenerierung, Strukturmodellierung, Dateneingabe </li>\n    <li>Processcontrolling </li>\n    <li>Postprocessing: Darstellung und Auswertung der Resultate </li>\n    <li>Probleml&ouml;sungsstrategien/Modellierungsproblematik erfahren und beschreiben&nbsp;</li>\n    <li>&Uuml;bungen mit abschliessend frei gew&auml;hlter Aufgabe</li>\n    <li>Verfassen technischer Berichte zu den Uebungsaufgaben<br /></li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 12349,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 20,
+          "harteGrenze": true
+        },
+        {
+          "id": 15532,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 10,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Finite Elemente Methode 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Finite Element Method 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1261,
+      "name": "Gysin",
+      "vorname": "Hanspeter"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11027,
+      "kuerzel": "M_TechM1",
+      "bezeichnung": "Technische Mechanik 1",
+      "url": "allModules/11027_M_TechM1.json"
+    },
+    {
+      "id": 11028,
+      "kuerzel": "M_TechM2",
+      "bezeichnung": "Technische Mechanik 2",
+      "url": "allModules/11028_M_TechM2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Finite Elemente Methode 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Finite Element Method 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2011,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 12363,
+    "kuerzel": "M_FEM1",
+    "bezeichnung": "Finite Elemente Methode 1",
+    "url": "allModules/12363_M_FEM1.json"
+  }
+}

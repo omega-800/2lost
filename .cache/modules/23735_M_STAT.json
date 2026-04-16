@@ -1,0 +1,182 @@
+{
+  "id": 23735,
+  "kuerzel": "M_STAT",
+  "bezeichnung": "Statistik (WING)",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Fachkompetenzen:</p>\n<p>Die Teilnehmenden k&ouml;nnen:</p>\n<p>&bull;&nbsp;(mathematische) Grundelemente der deskriptiven Statistik, der Wahrscheinlichkeitsrechnung sowie der induktiven Statistik darstellen, verwenden sowie zugeh&ouml;rige Aufgaben und Probleme l&ouml;sen.</p>\n<p>&nbsp;</p>\n<p>Methodenkompetenzen:</p>\n<p>Die Teilnehmenden k&ouml;nnen:</p>\n<p>&bull;&nbsp;die Grundprinzipien der Sch&auml;tz- und Testtheorie darstellen, verwenden sowie zugeh&ouml;rige Aufgaben und Probleme l&ouml;sen.</p>\n<p>&bull;&nbsp;mit Hilfe der Statistik-Software R Daten grafisch darstellen, statistische Gr&ouml;ssen berechnen und einfache Analysen durchf&uuml;hren.</p>\n<p>&nbsp;</p>\n<p>Selbstkompetenzen:</p>\n<p>Die Teilnehmenden k&ouml;nnen:</p>\n<p>&bull;&nbsp;sich selbst&auml;ndig und eigenverantwortlich mit statistischen Inhalten und Fragestellungen auseinandersetzen</p>\n<p>&bull;&nbsp;erkennen, wann sie die Hilfe von Fachpersonen in Anspruch nehmen m&uuml;ssen.</p>\n<p>&nbsp;</p>\n<p>Sozialkompetenzen:</p>\n<p>Die Teilnehmenden k&ouml;nnen:</p>\n<p>&bull;&nbsp;statistische Inhalte pr&auml;zise, stringent und adressatengerecht kommunizieren</p>\n<p>&bull;&nbsp;statistische Fragestellungen pr&auml;zise formulieren</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 23782,
+      "kuerzel": "Stat",
+      "bezeichnung": "Statistik",
+      "lernziele": "Die Studierenden sollen bef&auml;higt werden<br />&bull;&nbsp;kleine statistische Anwendungsprobleme mit<br />eigenen Daten selbst zu l&ouml;sen<br />&bull;&nbsp;bei gr&ouml;&szlig;eren Problemen sinnvoll mit Statistiker/innen<br />zusammen zu arbeiten<br />&bull;&nbsp;die Statistik in anderen wissenschaftlichen Arbeiten<br />(wenigstens in den Grundz&uuml;gen) zu verstehen<br />&bull;&nbsp;Missbr&auml;uche und Fehler leichter zu durchschauen und selbstst&auml;ndig zu beurteilen",
+      "planinhalt": "<p>Themen-/Lernblock: Deskriptive Statistik<br />1 Wozu Statistik<br />Big Picture, Einf&uuml;hrende Beispiele<br />2.1 Grundbegriffe<br />Merkmalstr&auml;ger, Merkmale, Merkmalsauspr&auml;gungen, qualitativ/quantitativ, diskret/stetig, Grundgesamtheit/Stichprobe<br />2.2 Eindimensionale H&auml;ufigkeitsverteilungen<br />absolute/relative H&auml;ufigkeiten, klassierte/unklassierte H&auml;ufigkeitstabelle, klassierte/unklassierte H&auml;ufigkeitsverteilung, Stabdiagramm, Histogramm<br />2.3 Kumulierte H&auml;ufigkeiten und empirische Verteilungsfunktion<br />kumulierte absolute/relative H&auml;ufigkeiten, empirische Verteilungsfunktion F(x),<br />p-Quantile<br />2.4 Lageparameter<br />Arithmetisches Mittel, Zentralwert (Median), Modalwert (Modus), geometrisches Mittel, Wachstumsfaktor/Wachstumsrate<br />2.5 Streuungsparameter<br />Spannweite, Quartilsabstand, empirische Varianz, Standardabweichung, Variationskoeffizient, Boxplot<br />2.6 Zweidimensionale H&auml;ufigkeitsverteilung<br />Kontingenztafel, Randh&auml;ufigkeiten, Streudiagramm, empirische Kovarianz<br />2.7 Korrelationsrechnung<br />Korrelationskoeffizient, Rangkorrelationskoeffizient, Korrelation und Kausalit&auml;t, Scheinkorrelationen, Beurteilung/Interpretation<br />2.8 Regressionsrechnung<br />Was ist ein Modell, Methode der kleinsten Quadrate, Regressionsgerade, Residuum, Beurteilung/Interpretation</p>\n<p><br />Themen-/Lernblock: Kombinatorik/Wahrscheinlichkeitsrechnung<br />3.1 Kombinatorische Grundlagen<br />Fakult&auml;ten, Binomialkoeffizienten<br />3.2 Zufall, Ereignisalgebra<br />Zufallsexperiment, Elementarereignis, Ergebnisraum, Ereignis, disjunkte/komplement&auml;re Ereignisse<br />3.3 Wahrscheinlichkeit und Satz von Laplace<br />Axiome der Wahrscheinlichkeitsrechnung, Additionssatz, Satz von Laplace<br />3.4 Unabh&auml;ngige Ereignisse und bedingte Wahrscheinlichkeit<br />unabh&auml;ngige/abh&auml;ngige Ereignisse, bedingte Wahrscheinlichkeit, Multiplikationssatz, Wahrscheinlichkeitsbaum, Satz der totalen Wahrscheinlichkeit, Satz von Bayes<br />3.5 Zuf&auml;llige Variable und Wahrscheinlichkeitsverteilung<br />Zufallsvariable, Realisationen, diskrete Zufallsvariable: Wahrscheinlichkeitsfunktion f(x), Verteilungsfunktion F(x), stetige Zufallsvariable: Dichtefunktion f(x), Verteilungsfunktion F(x), diskrete/stetige Gleichverteilung<br />3.6 Erwartungswert und Varianz einer Verteilung<br />Erwartungswert, unabh&auml;ngige/abh&auml;ngige Zufallsvariablen, Gesetz der grossen Zahlen<br />3.7 Wichtige diskrete Verteilungen<br />Binomialverteilung, POISSON-Verteilung, hypergeometrische Verteilung<br />3.8 Die Normalverteilung<br />GAUSS&lsquo;sche Glockenkurve, Standardnormalverteilung, Zentraler Grenzwertsatz, Grenzwertsatz von de MOIVRE und LAPLACE (Stetigkeitskorrektur)<br />3.9 Die Lognormalverteilung (ZUSATZ)<br />Lognormalverteilung, Life ist log-normal!</p>\n<p><br />Themen-/Lernblock: Induktive Statistik<br />4.1 Problemstellung, Zufallsstichproben<br />Grundgesamtheit und Zufallsstichprobe, Sch&auml;tzprinzip<br />4.2 Punktsch&auml;tzungen<br />Sch&auml;tzfunktion/Sch&auml;tzer, Stichprobenmittel, Stichprobenvarianz, Anteilssatz, Erwartungstreue, Konsistenz, Angabe von Unsicherheiten beim Messen, Steigung der Regressionsgeraden<br />4.3 Intervallsch&auml;tzungen<br />Konfidenzintervall f&uuml;r den Erwartungswert  bzw. den Vergleich zweier Erwartungs-werte, Konfidenzintervall f&uuml;r eine Wahrscheinlichkeit p bzw. den Vergleich zweier Wahrscheinlichkeiten, Konfidenzintervall f&uuml;r die Steigung der Regressionsgeraden, Konfidenzintervall f&uuml;r die Varianz 2<br />4.4 Hypothesentests<br />Prinzip eines Hypothesentests, Signifikanzniveau, Fehler 1. und 2. Art, Ablehnungsbereich bzw. kritische Werte, zweiseitige/einseitige Fragestellung, Einstichprobentest (t-Test), Zweistichprobentests (t-Test, 2-Anpassungstest)<br />4.5 Angewandte Statistik (ZUSATZ)<br />Wissenschaftliches Arbeiten, Beispiele aus der Praxis</p>",
+      "kurselemente": [
+        {
+          "id": 24580,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 24581,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Statistik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Statistic"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10104,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10104_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10125,
+          "kuerzel": "W_IKpl",
+          "bezeichnung": "Ingenieurkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10129,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10129_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10125,
+          "kuerzel": "W_IKpl",
+          "bezeichnung": "Ingenieurkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10130,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10130_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10125,
+          "kuerzel": "W_IKpl",
+          "bezeichnung": "Ingenieurkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10169,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10169_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 263,
+      "name": "Müller",
+      "vorname": "Andreas"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 23735,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Statistik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Statistic"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2015,
+    "beginSemester": "FS",
+    "endJahr": 2018,
+    "endSemester": "FS"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "id": 11016,
+  "kuerzel": "M_DigSig1",
+  "bezeichnung": "Digitale Signalverarbeitung 1",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Dieses Modul&nbsp;ist eine Einf&uuml;hrung in die digitale Signalverarbeitung.&nbsp;</p>\n<p>Dieses Modul konzentriert sich auf die fundamentalen Konzepte, welche ben&ouml;tigt werden, um die digitale Signalverarbeitung in der Praxis einzusetzen.&nbsp; </p>",
+  "vorausgKenntnisse": "<ul>\n    <li>Grundlegende Kenntnisse in Analysis, Fourieranalyse </li>\n    <li>Basiswissen &uuml;ber C/C++</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10323,
+      "kuerzel": "DigSig1",
+      "bezeichnung": "Digitale Signalverarbeitung 1",
+      "lernziele": "<p>Am Ende dieses Kurses sollte der Student/Studentin die folgenden Konzepte verstehen:</p>\n<ul>\n    <li>Analog/Digital und Digital/Analog Wandlung </li>\n    <li>Die diskrete Fouriertransformation und schnelle Implementationen (FFT) </li>\n    <li>Die&nbsp;verschiedenen Designverfahren f&uuml;r&nbsp;FIR und IIRFilter&nbsp;&nbsp;</li>\n</ul>",
+      "planinhalt": "<p>Der Aufbau ist in etwa wie folgt: </p>\n<ul>\n    <li>Abtasten - Rekonstruieren </li>\n    <li>Diskrete Fouriertransformation </li>\n    <li>Finite Impulsantwort Filter (FIR)</li>\n    <li>Infinite Impulsantwort Filter (IIR)</li>\n</ul>\n<p>&Auml;nderungen sind aber jederzeit m&ouml;glich <br /></p>",
+      "kurselemente": [
+        {
+          "id": 10793,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        },
+        {
+          "id": 10794,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Digitale Signalverarbeitung 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Digital Signal Processing 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 670,
+      "name": "Schuster",
+      "vorname": "Guido"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11016,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Digitale Signalverarbeitung 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Digital Signal Processing 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2011,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 11016,
+    "kuerzel": "M_DigSig1",
+    "bezeichnung": "Digitale Signalverarbeitung 1",
+    "url": "allModules/11016_M_DigSig1.json"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "id": 23834,
+  "kuerzel": "M_MAR3",
+  "bezeichnung": "Mess-/Antriebs-/Regeltechnik 3",
+  "kreditpunkte": 6,
+  "lernziele": "<p>Siehe Lernziele Kurse</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 23835,
+      "kuerzel": "RegTech",
+      "bezeichnung": "Regelungstechnik",
+      "lernziele": "<ul>\n    <li>Verstehen von dynamischen Vorg&auml;ngen in Systemen</li>\n    <li>Kenntnis der Beschreibungsm&ouml;glichkeiten f&uuml;r dynamische und r&uuml;ckgekoppelte Systeme</li>\n    <li>Beherrschen der Auslegung einfacher Regelkreise&nbsp;</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Analyse dynamischer Systeme/Regelstrecken</li>\n    <li>Beschreibungsmittel f&uuml;r dynamische Systeme (Antwortfunktionen, Differentialgleichungen, Signalfussbild, Frequenzgang)</li>\n    <li>Modellbildung, Identifikation</li>\n    <li>Elemente des Regelkreises</li>\n    <li>Standardregier</li>\n    <li>Auslegung von Regelkreisen</li>\n    <li>Praktische Beispiele (Labor)</li>\n    <li>Simulation r&uuml;ckgekoppelter Systeme&nbsp;</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 23836,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 120,
+          "harteGrenze": true
+        },
+        {
+          "id": 23837,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 23838,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Regelungstechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Control Engineering"
+        }
+      ]
+    },
+    {
+      "id": 23839,
+      "kuerzel": "EleT2",
+      "bezeichnung": "Elektrotechnik 2 (EEU)",
+      "lernziele": "<ul>\n    <li>Verstehen des Aufbaus und der Funktionsweise elektrischer Antriebe</li>\n    <li>Kennen der Einsatzbereiche</li>\n    <li>F&auml;higkeit zur Auswahl elektrischer Antriebe</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Allgemeine Kennzeichen und Merkmale elektrischer Maschinen</li>\n    <li>Gleichstrommaschinen</li>\n    <li>Synchronmaschinen</li>\n    <li>Drehstrom-Asynchronmaschinen</li>\n    <li>Aufbau und Funktionsweise</li>\n    <li>Leistungssteller</li>\n    <li>Betriebseigenschaften und Einsatzbereiche</li>\n    <li>Dimensionierung und Projektierung elektrischer Antriebe</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 23840,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 120,
+          "harteGrenze": true
+        },
+        {
+          "id": 23841,
+          "art": "Uebung",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 23842,
+          "art": "Praktikum",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrotechnik 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electrical Engineering 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 6
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 540047,
+      "name": "Smajic",
+      "vorname": "Jasmin"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 19833,
+      "kuerzel": "M_MAR1",
+      "bezeichnung": "Mess-/Antriebs-/Regeltechnik 1",
+      "url": "allModules/19833_M_MAR1.json"
+    },
+    {
+      "id": 19943,
+      "kuerzel": "M_An2EU",
+      "bezeichnung": "Analysis 2 (EEU)",
+      "url": "allModules/19943_M_An2EU.json"
+    },
+    {
+      "id": 19977,
+      "kuerzel": "M_LinAlgEU",
+      "bezeichnung": "Lineare Algebra (EEU)",
+      "url": "allModules/19977_M_LinAlgEU.json"
+    },
+    {
+      "id": 22001,
+      "kuerzel": "M_An1EU",
+      "bezeichnung": "Analysis 1 (EEU)",
+      "url": "allModules/22001_M_An1EU.json"
+    },
+    {
+      "id": 23349,
+      "kuerzel": "M_DiffGEU",
+      "bezeichnung": "Differentialgleichungen (EEU)",
+      "url": "allModules/23349_M_DiffGEU.json"
+    },
+    {
+      "id": 23366,
+      "kuerzel": "M_VekGEU",
+      "bezeichnung": "Vektorgeometrie (EEU)",
+      "url": "allModules/23366_M_VekGEU.json"
+    },
+    {
+      "id": 23827,
+      "kuerzel": "M_MAR2",
+      "bezeichnung": "Mess-/Antriebs-/Regeltechnik 2",
+      "url": "allModules/23827_M_MAR2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 23834,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": true,
+      "zulassungsBedingung": "<ul> <li>Kurs Elektrotechnik 2: Mind. 75 % (aufgerundet) der &Uuml;bungslektionen und der Praktika besucht.</li> <li>Kurs Regelungstechnik:&nbsp; Mind. 75 % (aufgerundet) der &Uuml;bungslektionen und der Praktika besucht.</li> </ul>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Mess-/Antriebs-/Regeltechnik 3"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Measurement and Control  Engineering 3"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2014,
+    "beginSemester": "HS",
+    "endJahr": 2015,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 21071,
+    "kuerzel": "M_MAR3",
+    "bezeichnung": "Mess-/Antriebs-/Regeltechnik 3",
+    "url": "allModules/21071_M_MAR3.json"
+  }
+}

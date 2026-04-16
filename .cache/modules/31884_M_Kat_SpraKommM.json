@@ -1,0 +1,78 @@
+{
+  "id": 31884,
+  "kuerzel": "M_Kat_SpraKommM",
+  "bezeichnung": "Kategorie Sprachen und Kommunikation",
+  "kreditpunkte": 8,
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 31885,
+      "kuerzel": "k_sprakommM",
+      "bezeichnung": "Kategorie Kommunikation EEU",
+      "kurselemente": [
+        {
+          "id": 31886,
+          "art": "Blockkurs",
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10110,
+          "kuerzel": "M-sk",
+          "bezeichnung": "Sprachen und Kommunikation",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10110,
+          "kuerzel": "M-sk",
+          "bezeichnung": "Sprachen und Kommunikation",
+          "kreditpunkte": 8
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9989,
+      "name": "ZZZ Dozent HL",
+      "vorname": "Planung"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

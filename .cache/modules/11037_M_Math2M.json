@@ -1,0 +1,193 @@
+{
+  "id": 11037,
+  "kuerzel": "M_Math2M",
+  "bezeichnung": "Mathematik für Maschinentechnik 2",
+  "kreditpunkte": 8,
+  "lernziele": "<ul> <li>Beherrschung der grundlegenden Integrationsregeln und ge&#252;bter Umgang mit komplexen Zahlen, um entsprechende Herleitungen in Schriften und Vorlesungen verstehen zu k&#246;nnen, die in der Maschinentechnik grundlegend sind. </li> <li>F&#228;higkeit, entsprechende Fragestellungen mit Hilfe der Differential- und Integralrechnung zu bearbeiten <br /></li></ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10135,
+      "kuerzel": "Math2M",
+      "bezeichnung": "Mathematik für Maschinentechnik 2",
+      "planinhalt": "<ul>\n<li>Integralrechnung 2.Teil: Integrationsregeln. Anwendungen der Integralrechnung </li>\n<li>Polynome und&nbsp;gebrochen rationale Funktionen </li>\n<li>Differentialrechnung 2.Teil: Anwendungen wie Kurvendiskussion bzw. Funktionsanalyse, Extremwertprobleme, Nullstellenbestimmung nach Newton und mit der Bisektionsmethode. </li>\n<li>Komplexe Zahlen </li>\n<li>Regelm&#228;ssiger Einsatz eines Computeralgebrasystems <br /></li></ul>",
+      "kurselemente": [
+        {
+          "id": 10548,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 10549,
+          "art": "Vorlesung",
+          "anzLektionen": 6,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Mathematik für Maschinentechnik 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Mathematics 2 for Mechanical Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 534797,
+      "name": "Tietje",
+      "vorname": "Olaf"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 15792,
+      "kuerzel": "M_An1M",
+      "bezeichnung": "Analysis 1 für Maschinentechnik",
+      "url": "allModules/15792_M_An1M.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11037,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Mathematik für Maschinentechnik 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Mathematics 2 for Mechanical Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2010,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 11037,
+    "kuerzel": "M_Math2M",
+    "bezeichnung": "Mathematik für Maschinentechnik 2",
+    "url": "allModules/11037_M_Math2M.json"
+  }
+}

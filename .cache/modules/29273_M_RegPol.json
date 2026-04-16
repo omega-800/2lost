@@ -1,0 +1,151 @@
+{
+  "id": 29273,
+  "kuerzel": "M_RegPol",
+  "bezeichnung": "Regionalentwicklung und Standortpolitik FS18",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Die Studierenden</p><ul><li>kennen die Grundlage der Regional&ouml;konomie zur Regionalentwicklung und -politik,</li><li>verstehen die Bedeutung der Raumplanung f&uuml;r die Regionalwirtschaft,</li><li>k&ouml;nnen grundlegende Zusammenh&auml;nge zwischen Standortpolitik und Standortwahl von Unternehmen in einem raummplanerischen Kontext erkl&auml;ren,</li><li>k&ouml;nnen grundlegende Zusammenh&auml;nge von Strukturwandel, Strukturpolitik und Regionalentwicklung beschreiben,</li><li>verstehen die Wechselwirkungen zwischen Raumplanung sowie politischen und unternehmerischen Rahmenbedingungen.</li></ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 29274,
+      "kuerzel": "RegPol",
+      "bezeichnung": "Regionalentwicklung und Standortpolitik",
+      "lernziele": "<p>Siehe oben.</p>",
+      "planinhalt": "<p>Einf&uuml;hrung: Standortwahl von Unternehmen</p><ul><li>Theoretische Modelle zur Standortwahl</li><li>Empirische Befunde und Fallbeispiele</li><li>Instrumente der Standortpolitik</li></ul><p>Regional&ouml;konomie</p><ul><li>&ouml;konomische Theorien zur regionalen Entwicklung</li><li>empirische Befunde und Fallbeispiele</li><li>Grundlagen regionaler Wirtschaftspolitik</li></ul><p>Regionalpolitik</p><ul><li>Divergenz und Konvergenz als Ziele der regionalen Wirtschafsentwicklung</li><li>Indikatoren zur Beschreibung regionaler Unterschiede</li><li>Entwicklung der Regionalpolitik in der Schweiz und der Europ&auml;ischen Union</li></ul><p>Instrumente der Regionalpolitik in der Schweiz</p><ul><li>Neue Regionalpolitik</li><li>Regionalplanung</li><li>Finanzausgleich</li></ul>",
+      "kurselemente": [
+        {
+          "id": 29275,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Regionalentwicklung und Standortpolitik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Regional Economic Policy and Promotion"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10041,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10041_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10036,
+          "kuerzel": "R-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10123,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10123_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10036,
+          "kuerzel": "R-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 529046,
+      "name": "Kytzia",
+      "vorname": "Susanne"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 29158,
+      "kuerzel": "M_VWLR",
+      "bezeichnung": "Volkswirtschaft",
+      "url": "allModules/29158_M_VWLR.json"
+    }
+  ],
+  "mengen": [
+    {
+      "id": 35,
+      "name": "Aequivalenz",
+      "dModMengeArt": 5701,
+      "module": [
+        {
+          "id": 26237,
+          "kuerzel": "M_REStaP",
+          "bezeichnung": "Regionalpolitik",
+          "url": "allModules/26237_M_REStaP.json"
+        },
+        {
+          "id": 29273,
+          "kuerzel": "M_RegPol",
+          "bezeichnung": "Regionalentwicklung und Standortpolitik FS18",
+          "url": "allModules/29273_M_RegPol.json"
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 29273,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": true,
+      "zulassungsBedingung": "<p><br /></p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Regionalentwicklung und Standortpolitik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Regional Economic Policy"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2018,
+    "beginSemester": "FS",
+    "endJahr": 2018,
+    "endSemester": "FS"
+  }
+}

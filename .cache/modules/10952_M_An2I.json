@@ -1,0 +1,169 @@
+{
+  "id": 10952,
+  "kuerzel": "M_An2I",
+  "bezeichnung": "Analysis 2 für Informatiker",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Kenntnis&nbsp;der weiterf&uuml;hrenden Begriffe und Verfahren der Lehre von den reellen Funktionen </li>\n    <li>F&auml;higkeit, einfache Probleme von Hand zu bearbeiten </li>\n    <li>F&auml;higkeit, aufw&auml;ndigere Probleme mit dem Computer zu bearbeiten. </li>\n    <li>Verst&auml;ndnis wichtiger Anwendungen aus der Mathematik, den Naturwissenschaften und der Technik </li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10029,
+      "kuerzel": "An2I",
+      "bezeichnung": "Analysis 2 für Informatiker ",
+      "planinhalt": "<ul>\n    <li>Begriff des bestimmten Integrals </li>\n    <li>Hauptsatz der Infinitesimalrechnung </li>\n    <li>Begriff des unbestimmten Integrals </li>\n    <li>Fourierentwicklung </li>\n    <li>Differentialgleichungen </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 10390,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 10391,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Analysis 2 für Informatiker "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Analysis 2 for Computer Science"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 538489,
+      "name": "Augenstein",
+      "vorname": "Oliver"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 10951,
+      "kuerzel": "M_An1I",
+      "bezeichnung": "Analysis 1 für Informatiker",
+      "url": "allModules/10951_M_An1I.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 10952,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Analysis 2 für Informatiker"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Analysis 2 for Computer Science"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2014,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 10952,
+    "kuerzel": "M_An2I",
+    "bezeichnung": "Analysis 2 für Informatiker",
+    "url": "allModules/10952_M_An2I.json"
+  }
+}

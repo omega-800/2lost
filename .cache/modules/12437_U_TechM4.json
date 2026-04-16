@@ -1,0 +1,160 @@
+{
+  "id": 12437,
+  "kuerzel": "U_TechM4",
+  "bezeichnung": "Technische Mechanik 4 - Übergangsmodul",
+  "kreditpunkte": 5,
+  "lernziele": "<p>Technische Mechanik 4:</p>\n<p>Drallsatz, Gesetze der mechanischen Schwingungen, Gesetze der statisch unbestimmten Probleme (Elastostatik)</p>\n<p>Festigketislehre 2:</p>\n<p>Methoden der Festigkeitslehre kennen und auf einfachere Problemstellungen anwenden k&ouml;nnen <br />Besonderheiten spezieller Kapitel der Festigkeitslehre kennen und die relevanten L&ouml;sungsans&auml;tze auf einfachere Problemstellungen anwenden k&ouml;nnen </p>",
+  "vorausgKenntnisse": "<p>Technische Mechanik 1, 2, 3</p>\n<p>Festigkeitslehre 1</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 12421,
+      "kuerzel": "uMech4",
+      "bezeichnung": "Mechanik 4 - Übergang",
+      "lernziele": "<p>Drallsatz auf beliebige K&ouml;rper anwenden <br /><br />Gesetze der mechanischen Schwingungen kennen <br /><br />Gesetze der statisch unbestimmten Probleme (Elastostatik) kennen <br /><br />Relevante L&ouml;sungsmethoden kennen und auf einfachere Problemstellungenanwenden k&ouml;nnen </p>",
+      "planinhalt": "<p>Dynamik des Kreisels / Eulersche Gleichungen <br /><br />Freie unged&auml;mpfte und ged&auml;mpfte Schwingungen <br /><br />Erzwungene Schwingungen <br /><br />Technische Anwendungen der Schwingungslehre : Biege- und torsionskritische Drehzahlen <br /><br />Schwingungsabwehr / aktive und passive Schwingungsisolation <br /><br />Schwinger mit 2 Freiheitsgraden / Schwingungstilger <br /><br />Statisch unbestimmte Systeme: Deformationsmethode, Integrationsmethode, Ueberlagerungsmethode, Verfahren von Castigliano <br /></p>",
+      "kurselemente": [
+        {
+          "id": 12433,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 15082,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Mechanik 4 - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Mechanics 4 - Transition"
+        }
+      ]
+    },
+    {
+      "id": 12422,
+      "kuerzel": "uFestl2",
+      "bezeichnung": "Festigkeitslehre 2 - Übergang",
+      "lernziele": "<p>Methoden der Festigkeitslehre kennen und auf einfachere Problemstellungen anwenden k&#246;nnen <br />Besonderheiten spezieller Kapitel der Festigkeitslehre kennen und die relevanten L&#246;sungsans&#228;tze auf einfachere Problemstellungen anwenden k&#246;nnen </p>",
+      "planinhalt": "<p>Torsion: Torsions-Grundgleichung, Rotationssymmetrische und allgemeine Querschnitte, Physikalische Analogien, Form&#228;nderungsenergie bei Torsion, Torsion gekr&#252;mmter St&#228;be <br />Schwingende Belastung: Dauer- und Zeitschwingfestigkeit <br />Kerbwirkung bei ruhender und schwingender Belastung <br />Thermoelastizit&#228;t: W&#228;rmedehnungen, W&#228;rmespannungen <br />Stabilit&#228;tsprobleme: Knicken, Beulen <br />Kontaktprobleme (Hertzsche Pressung) <br />Bruchmechanik <br />Ausgew&#228;hlte Bauelemente: Rohre inkl. Press- und Schrumpfverbindungen, Scheiben, Platten, Schicht-Verbundelemente</p>",
+      "kurselemente": [
+        {
+          "id": 12431,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 12432,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Festigkeitslehre 2 - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Strength of Materials 2 - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 5
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 527138,
+      "name": "Henne",
+      "vorname": "Markus"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 12437,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 150,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Technische Mechanik 4 - Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Engineering Mechanics 4 - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2006,
+    "endSemester": "SS"
+  }
+}

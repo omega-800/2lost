@@ -1,0 +1,196 @@
+{
+  "id": 20699,
+  "kuerzel": "M_VE7",
+  "bezeichnung": "Virtuelles Entwickeln 7",
+  "kreditpunkte": 2,
+  "lernziele": "<ul>\n    <li>Kennt die wesentlichen theoretischen Grundlagen von CFD</li>\n    <li>kann laminare CFD-Analysen durchf&uuml;hren</li>\n    <li>kennt die Anforderungen an Analysen von turbulenten Str&ouml;mungen</li>\n    <li>hat Einblick in die Kopplung Fluid-Struktur und Fluid-Thermik<br /><br /></li>\n</ul>",
+  "vorausgKenntnisse": "gleichzeitiger Besuch von Thermo- und Fluiddynamik 2 sowie von <br />Virtuelles Entwickeln 6 (FEM 3)",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 20700,
+      "kuerzel": "CFD",
+      "bezeichnung": "Computational Fluid Dynamics (CFD)",
+      "lernziele": "siehe Lernziele des Moduls",
+      "planinhalt": "<ul>\n    <li>Einf&uuml;hrung in ein Tool f&uuml;r CFD-Analysen </li>\n    <li>theoretischer Hintergrund aus Fluid- und Thermodynamik </li>\n    <li>Modellbildung (Annahmen, Voraussetzungen, Randbedingungen, Gittergenerierung) </li>\n    <li>Qualit&auml;t von CFD-Analyse: Resultatinterpretation und Validierung </li>\n    <li>Aspekte von: Turbulenz, Fluid-Struktur-Interaktion, Kopplung von Thermodynamik und Str&ouml;mung </li>\n    <li>Uebung an einfachen Beispielen </li>\n</ul>\n<p>&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 20701,
+          "art": "Vorlesung",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 20702,
+          "art": "Uebung",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Computational Fluid Dynamics (CFD)"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Computational Fluid Dynamics (CFD)"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10085,
+      "bezeichnung": "Simulationstechnik",
+      "kuerzel": "M-I-SI",
+      "url": "allStudies/10085_M-I-SI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10081,
+      "bezeichnung": "Betrieb- und Instandhaltung",
+      "kuerzel": "M-I-BI",
+      "url": "allStudies/10081_M-I-BI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10118,
+      "bezeichnung": "Betrieb- und Instandhaltung",
+      "kuerzel": "M-I-BI",
+      "url": "allStudies/10118_M-I-BI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10122,
+      "bezeichnung": "Simulationstechnik",
+      "kuerzel": "M-I-SI",
+      "url": "allStudies/10122_M-I-SI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 538897,
+      "name": "Friedl",
+      "vorname": "Markus"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 20880,
+      "kuerzel": "M_VE5",
+      "bezeichnung": "Virtuelles Entwickeln 5",
+      "url": "allModules/20880_M_VE5.json"
+    },
+    {
+      "id": 22360,
+      "kuerzel": "M_TFD1MI",
+      "bezeichnung": "Thermo- und Fluiddynamik 1 (M-I)",
+      "url": "allModules/22360_M_TFD1MI.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Virtuelles Entwickeln 7"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Virtual Design 7"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "FS",
+    "endJahr": 2013,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 20699,
+    "kuerzel": "M_VE7",
+    "bezeichnung": "Virtuelles Entwickeln 7",
+    "url": "allModules/20699_M_VE7.json"
+  }
+}

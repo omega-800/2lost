@@ -1,0 +1,302 @@
+{
+  "id": 52921,
+  "kuerzel": "M_ELA_II",
+  "bezeichnung": "Elektrotechnik & Lineare Algebra II",
+  "kreditpunkte": 7,
+  "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>k&ouml;nnen die komplexen elektrischen Gr&ouml;ssen angeben inkl. Zeigerdiagramm Darstellung.</li>\n<li>k&ouml;nnen die Strom-/Spannungsbeziehungen der Grundzweipole angeben und deren Frequenzabh&auml;ngigkeit mit dem Bodediagramm veranschaulichen.</li>\n<li>k&ouml;nnen die komplexe Leistung berechnen.</li>\n<li>k&ouml;nnen lineare Wechselstromnetze berechnen.</li>\n<li>k&ouml;nnen unter Anwendung der komplexen Rechnung Tief- und Hochpassfilter berechnen und messtechnisch charakterisieren.</li>\n</ul>\n<p>&nbsp;</p>\n<ul>\n<li>k&ouml;nnen Grundschaltungen mit nichtinvertierenden und invertierenden Operationsverst&auml;rkern berechnen und aufbauen.</li>\n<li>k&ouml;nnen das Dreiphasensystem beschreiben.</li>\n<li>k&ouml;nnen die Strom-, Spannungs- und Leistungsaufteilung im Drehstromnetz berechnen.</li>\n</ul>\n<p>&nbsp;</p>\n<ul>\n<li>k&ouml;nnen einfache praktische Probleme in mathematische Sprache &uuml;bertragen, anschliessend analysieren und l&ouml;sen.</li>\n<li>k&ouml;nnen mit mathematischen Fachbegriffen umgehen und Sachverhalte im mathematisch-technischen Umfeld korrekt formulieren.</li>\n<li>k&ouml;nnen harmonische Schwingungen mit Zeigerdarstellung &uuml;berlagern.</li>\n<li>k&ouml;nnen die wichtigsten Probleme aus der angewandten analytischen Geometrie l&ouml;sen.</li>\n<li>k&ouml;nnen mit Matrizen rechnen und verstehen die Darstellung linearer Abbildungen durch Matrizen.</li>\n<li>kennen orthogonale Matrizen.</li>\n<li>setzen MATLAB oder CAS ein, um Matrizenrechnungen durchzuf&uuml;hren.</li>\n<li>besitzen Probleml&ouml;sungs- und Umsetzungskompetenz.</li>\n<li>k&ouml;nnen modellieren, abstrahieren, strukturieren, analysieren und synthetisieren.</li>\n<li>besitzen eine fachsprachliche Ausdrucksf&auml;higkeit und k&ouml;nnen pr&auml;zise formulieren.</li>\n<li>verf&uuml;gen &uuml;ber Selbstdisziplin, Leistungsbereitschaft und die F&auml;higkeit, analytisch und l&ouml;sungsbezogen zu denken.</li>\n<li>verf&uuml;gen &uuml;ber fachsprachliche Ausdrucksf&auml;higkeit und k&ouml;nnen pr&auml;zise formulieren.</li>\n</ul>",
+  "vorausgKenntnisse": "<p>Vorausgesetzt ist das Modul Elektrotechnik &amp; Lineare Algebra I.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 52922,
+      "kuerzel": "ELA_II_W",
+      "bezeichnung": "Wechselstromlehre",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>k&ouml;nnen die komplexen elektrischen Gr&ouml;ssen angeben inkl. Zeigerdiagramm Darstellung.</li>\n<li>k&ouml;nnen die Strom-/Spannungsbeziehungen der Grundzweipole angeben und deren Frequenzabh&auml;ngigkeit mit dem Bodediagramm veranschaulichen.</li>\n<li>k&ouml;nnen die komplexe Leistung berechnen.</li>\n<li>k&ouml;nnen lineare Wechselstromnetze berechnen.</li>\n<li>k&ouml;nnen unter Anwendung der komplexen Rechnung Tief- und Hochpassfilter berechnen und messtechnisch charakterisieren.</li>\n</ul>",
+      "planinhalt": "<p>Behandlung von linearen Netzwerken mit der komplexen Rechnung:</p><ul><li>Beschreibung von Wechselgrössen: komplex, Zeitgleichung</li><li>Zweipole</li><li>Berechung linearer Netzwerke bei Wechselstrom </li><li>Hoch- und Tiefpassberechnungen</li><li>Bodediagramm</li></ul>",
+      "bibliographie": "Hagmann, Gert: Grundlagen der Elektrotechnik",
+      "empfLehrmittel": "Lerngespräch mit Übungen im Klassenverband, Laborübung, Selbststudium",
+      "leistungsnachweis": "Eine Prüfung während der Unterrichtsphase und eine abgesetzte Modulschlussprüfung zusammen mit den Kursen Lineare Abbildungen und Drehstromsystem und Anwendungen elektronischer Bauelemente.",
+      "kurselemente": [
+        {
+          "id": 52923,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000117,
+          "name": "Keller",
+          "vorname": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": 52924,
+      "kuerzel": "ELA_II_D",
+      "bezeichnung": "Drehstromsystem und Anwendungen elektronischer Bauelemente",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen Grundschaltungen mit nichtinvertierenden und invertierenden Operationsverst&auml;rkern berechnen und aufbauen.</li>\n    <li>k&ouml;nnen das Dreiphasensystem beschreiben.</li>\n    <li>k&ouml;nnen die Strom-, Spannungs- und Leistungsaufteilung im Drehstromnetz berechnen.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Operationsverst&auml;rker Schaltungen</li>\n    <li>Filter</li>\n    <li>Messung und Berechnung Bodediagramm</li>\n    <li>Drehstrom: Zeigerdarstellung und Leistungen</li>\n</ul>",
+      "bibliographie": "Skript",
+      "empfLehrmittel": "Selbststudium und Laborübungen",
+      "leistungsnachweis": "Demonstration der Funktion der Hardware im Labor und Kurzbericht mit abschliessendem Fachgespräch (Termin nach Absprache). Zusätzlich findet eine abgesetzte Modulschlussprüfung zusammen mit den Kursen Lineare Abbildungen und Wechselstromlehre statt.",
+      "kurselemente": [
+        {
+          "id": 52925,
+          "art": "Selbststudium",
+          "anzLektionen": 0,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000117,
+          "name": "Keller",
+          "vorname": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": 52926,
+      "kuerzel": "ELA_II_L",
+      "bezeichnung": "Lineare Abbildungen",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen einfache praktische Probleme in mathematische Sprache &uuml;bertragen, anschliessend analysieren und l&ouml;sen.</li>\n    <li>k&ouml;nnen mit mathematischen Fachbegriffen umgehen und Sachverhalte im mathematisch-technischen Umfeld korrekt formulieren. </li>\n    <li>k&ouml;nnen harmonische Schwingungen mit Zeigerdarstellung &uuml;berlagern.</li>\n    <li>k&ouml;nnen die wichtigsten Probleme aus der angewandten analytischen Geometrie l&ouml;sen.</li>\n    <li>k&ouml;nnen mit Matrizen rechnen und verstehen die Darstellung linearer Abbildungen durch Matrizen.</li>\n    <li>kennen orthogonale Matrizen.</li>\n    <li>setzen MATLAB oder CAS ein, um Matrizenrechnungen und Koordinatentransformationen durchzuf&uuml;hren.</li>\n    <li>besitzen Probleml&ouml;sungs- und Umsetzungskompetenz. </li>\n    <li>k&ouml;nnen modellieren, abstrahieren, strukturieren, analysieren und synthetisieren.</li>\n    <li>besitzen eine fachsprachliche Ausdrucksf&auml;higkeit und k&ouml;nnen pr&auml;zise formulieren.</li>\n    <li>verf&uuml;gen &uuml;ber Selbstdisziplin, Leistungsbereitschaft und die F&auml;higkeit, analytisch und l&ouml;sungsbezogen zu denken.</li>\n</ul>",
+      "planinhalt": "<ul><li>Mathematische Modellbildung</li><li>Mathematische Fachsprache</li><li>Überlagerung von Schwingungen</li><li>Analytische Geometrie</li><li>Matrizen und lineare Abbildungen</li><li>Koordinatentransformationen</li></ul>",
+      "bibliographie": "Papula Formelsammlung",
+      "empfLehrmittel": "Unterrichtsgespräch im Klassenverband, Selbststudium (Übungsaufgaben, Vor- und Nachbereitung der Fachinhalte  sowie das selbstständige Erarbeiten von Sachverhalten)",
+      "leistungsnachweis": "Eine Prüfung während der Unterrichtsphase und eine abgesetzte Modulschlussprüfung zusammen mit den Kursen Wechselstromlehre und Drehstromsystem und Anwendungen elektronischer Bauelemente.",
+      "kurselemente": [
+        {
+          "id": 52927,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000192,
+          "name": "Schreiner",
+          "vorname": "Michael"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 7
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 7
+        },
+        {
+          "id": 10182,
+          "kuerzel": "GLM-G4",
+          "bezeichnung": "Grundlagenmodule Gruppe 4",
+          "kreditpunkte": 7
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 7
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 7
+        },
+        {
+          "id": 10182,
+          "kuerzel": "GLM-G4",
+          "bezeichnung": "Grundlagenmodule Gruppe 4",
+          "kreditpunkte": 7
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002846,
+      "name": "Pittorino",
+      "vorname": "Tindaro"
+    }
+  ],
+  "mengen": [
+    {
+      "id": 54,
+      "name": "Ela2",
+      "dModMengeArt": 5701,
+      "module": [
+        {
+          "id": 45749,
+          "kuerzel": "M_ELA_II",
+          "bezeichnung": "Elektrotechnik & Lineare Algebra II",
+          "url": "allModules/45749_M_ELA_II.json"
+        },
+        {
+          "id": 46163,
+          "kuerzel": "M_ELA_II_bb",
+          "bezeichnung": "Elektrotechnik & Lineare Algebra II (bb)",
+          "url": "allModules/46163_M_ELA_II_bb.json"
+        },
+        {
+          "id": 47834,
+          "kuerzel": "M_ELA_II",
+          "bezeichnung": "Elektrotechnik & Lineare Algebra II",
+          "url": "allModules/47834_M_ELA_II.json"
+        },
+        {
+          "id": 47841,
+          "kuerzel": "M_ELA_II_bb",
+          "bezeichnung": "Elektrotechnik & Lineare Algebra II (bb)",
+          "url": "allModules/47841_M_ELA_II_bb.json"
+        },
+        {
+          "id": 49175,
+          "kuerzel": "M_ELA_II",
+          "bezeichnung": "Elektrotechnik & Lineare Algebra II",
+          "url": "allModules/49175_M_ELA_II.json"
+        },
+        {
+          "id": 49182,
+          "kuerzel": "M_ELA_II_bb",
+          "bezeichnung": "Elektrotechnik & Lineare Algebra II (bb)",
+          "url": "allModules/49182_M_ELA_II_bb.json"
+        },
+        {
+          "id": 50680,
+          "kuerzel": "M_ELA_II",
+          "bezeichnung": "Elektrotechnik & Lineare Algebra II",
+          "url": "allModules/50680_M_ELA_II.json"
+        },
+        {
+          "id": 50687,
+          "kuerzel": "M_ELA_II_bb",
+          "bezeichnung": "Elektrotechnik & Lineare Algebra II (bb)",
+          "url": "allModules/50687_M_ELA_II_bb.json"
+        },
+        {
+          "id": 52921,
+          "kuerzel": "M_ELA_II",
+          "bezeichnung": "Elektrotechnik & Lineare Algebra II",
+          "url": "allModules/52921_M_ELA_II.json"
+        },
+        {
+          "id": 52928,
+          "kuerzel": "M_ELA_II_bb",
+          "bezeichnung": "Elektrotechnik & Lineare Algebra II (bb)",
+          "url": "allModules/52928_M_ELA_II_bb.json"
+        },
+        {
+          "id": 54132,
+          "kuerzel": "M_ELA_II",
+          "bezeichnung": "Elektrotechnik & Lineare Algebra II",
+          "url": "allModules/54132_M_ELA_II.json"
+        },
+        {
+          "id": 54139,
+          "kuerzel": "M_ELA_II_bb",
+          "bezeichnung": "Elektrotechnik & Lineare Algebra II (bb)",
+          "url": "allModules/54139_M_ELA_II_bb.json"
+        }
+      ]
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 52865,
+      "kuerzel": "M_EuR_I",
+      "bezeichnung": "Elektronik und Regelungstechnik I",
+      "url": "allModules/52865_M_EuR_I.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 2,
+      "kuerzel": "WSG",
+      "bezeichnung": "Waldau St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 52921,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Am Ende des Semesters findet eine abgesetzte Modulschlusspr&uuml;fung in zwei Teilen statt. Der Kurs lineare Abbildungen bildet eine Teil der abgesetzten Modulschlusspr&uuml;fung. Die beiden Kurse Wechselstromlehre sowie Drehstrom und Anwendungen elektronischer Bauelemente bilden zusammen eine Teil der abgesetzten Modulschlusspr&uuml;fung.</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electrical Engineering & Linear Algebra II"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2022,
+    "beginSemester": "FS",
+    "endJahr": 2023,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 50680,
+    "kuerzel": "M_ELA_II",
+    "bezeichnung": "Elektrotechnik & Lineare Algebra II",
+    "url": "allModules/50680_M_ELA_II.json"
+  },
+  "nachfolger": {
+    "id": 52921,
+    "kuerzel": "M_ELA_II",
+    "bezeichnung": "Elektrotechnik & Lineare Algebra II",
+    "url": "allModules/52921_M_ELA_II.json"
+  }
+}

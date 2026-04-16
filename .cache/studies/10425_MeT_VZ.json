@@ -1,0 +1,55 @@
+{
+  "id": 10425,
+  "kuerzel": "MeT_VZ",
+  "bezeichnung": "Mechatronik",
+  "versionKuerzel": "STD_05",
+  "art": "Profil",
+  "parent": {
+    "id": 10280,
+    "kuerzel": "ST_VZ",
+    "bezeichnung": "Systemtechnik VZ",
+    "url": "allStudies/10280_ST_VZ.json"
+  },
+  "zuordnungen": [
+    {
+      "id": 54731,
+      "kuerzel": "M_MeT_I",
+      "bezeichnung": "Mechatronik I",
+      "url": "allModules/54731_M_MeT_I.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 54742,
+      "kuerzel": "M_MeT_II",
+      "bezeichnung": "Mechatronik II",
+      "url": "allModules/54742_M_MeT_II.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 54691,
+      "kuerzel": "M_SYS_A_(Me)",
+      "bezeichnung": "Systemtechnik A (Mechatronik)",
+      "url": "allModules/54691_M_SYS_A_(Me).json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 54697,
+      "kuerzel": "M_SYS_B_(Me)",
+      "bezeichnung": "Systemtechnik B (Mechatronik)",
+      "url": "allModules/54697_M_SYS_B_(Me).json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 4
+    }
+  ]
+}

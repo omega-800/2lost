@@ -1,0 +1,205 @@
+{
+  "id": 38872,
+  "kuerzel": "M_OOP1",
+  "bezeichnung": "Objektorientierte Programmierung 1",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden k&ouml;nnen:</p>\n<ul>\n<li>Systematisch objekt-orientiert in Java programmieren</li>\n<li>Grundlagen der objektorientierten Programmierung wiedergeben</li>\n<li>Konzepte der Programmiersprache Java erl&auml;utern und anwenden</li>\n<li>Programme entwerfen, in Java entwickeln und verifizieren</li>\n<li>Vorgegebene kleinere Problemstellungen mit eigenen Programmen l&ouml;sen</li>\n</ul>",
+  "vorausgKenntnisse": "<p>Grundlegende Programmierkenntnisse im Niveau Informatikerlehre oder Vorkurs des Studiengangs Informatik.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 38960,
+      "kuerzel": "OOP1",
+      "bezeichnung": "Objektorientierte Programmierung 1",
+      "lernziele": "<p>Siehe Lernziele der Modulbeschreibung</p>",
+      "planinhalt": "<p>- Einf&uuml;hrung<br />&nbsp; &nbsp; - Was ist ein Algorithmus?<br />&nbsp; &nbsp; - Programmiersprache, etc.<br />&nbsp; &nbsp; - Abstraktion<br />- Imperative Programmierung<br />&nbsp; &nbsp; - Ausdr&uuml;cke<br />&nbsp; &nbsp; - Statements<br />&nbsp; &nbsp; - Datentypen&nbsp;<br />&nbsp; &nbsp; - Referenzen<br />- Prozedurale Programmierung<br />&nbsp; &nbsp; - Methoden&nbsp;<br />&nbsp; &nbsp; - Overloading<br />- Objektorientierte Programmierung<br />&nbsp; &nbsp; - Klassen und Objekte<br />&nbsp; &nbsp; - Vererbung und Interfaces<br />&nbsp; &nbsp; - Polymorphismus, Dynamic Dispatch<br />- Fortgeschrittene Sprachkonzepte<br />&nbsp; &nbsp; - Exceptions<br />&nbsp; &nbsp; - Lambdas<br />- Modulare Programmierung<br />&nbsp; &nbsp; - Packages und Module<br />&nbsp; &nbsp; - Java API<br />&nbsp; &nbsp; - Collections<br />&nbsp; &nbsp; - Stream API<br />- SW-Disziplinen (wenig Theorie)<br />&nbsp; &nbsp; - Testen <br />&nbsp; &nbsp; - Design<br />&nbsp; &nbsp; - Modellieren</p>",
+      "kurselemente": [
+        {
+          "id": 39077,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        },
+        {
+          "id": 39078,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Objektorientierte Programmierung 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Object-Oriented Programming 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10191,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10191_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10246,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10246_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10260,
+      "bezeichnung": "Digital Design",
+      "kuerzel": "DD",
+      "url": "allStudies/10260_DD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10159,
+          "kuerzel": "DD-WE",
+          "bezeichnung": "Webengineering",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 102555,
+      "name": "Stocker",
+      "vorname": "Mirko"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 10,
+      "kuerzel": "SG",
+      "bezeichnung": "St.Gallen (Informatik Raster)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 38872,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Objektorientierte Programmierung 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Object-Oriented Programming 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2021,
+    "beginSemester": "HS",
+    "endJahr": 2023,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 38872,
+    "kuerzel": "M_OOP1",
+    "bezeichnung": "Objektorientierte Programmierung 1",
+    "url": "allModules/38872_M_OOP1.json"
+  }
+}

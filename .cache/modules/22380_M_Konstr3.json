@@ -1,0 +1,185 @@
+{
+  "id": 22380,
+  "kuerzel": "M_Konstr3",
+  "bezeichnung": "Konstruktion 3",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>F&auml;higkeit zum Entwerfen und Gestalten von Bauteilen des Stahlbaus und Holzbaus sowie deren Verbindungen</li>\n    <li>Kompetenz in der Wahl der zutreffenden Berechnungsannahmen und der geeigneten statischen Modelle</li>\n    <li>Kenntnis der einschl&auml;gigen Normen und F&auml;higkeit zur Interpretation der einschl&auml;gigen Vorschriften </li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 22381,
+      "kuerzel": "StBau2",
+      "bezeichnung": "Stahlbau 2",
+      "lernziele": "<ul>\n    <li>F&auml;higkeit zur Bemessung schlanken St&uuml;tzen und Tr&auml;gern sowie Rahmensystemen</li>\n    <li>F&auml;higkeit zur Erkennung und L&ouml;sung von Stabilit&auml;tsproblemen</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Bemessung von St&uuml;tzen (Knicken, Theorie 2. Ordnung) </li>\n    <li>Bemessung von Biegetr&auml;gern (Kippen, Beulen) </li>\n    <li>Bemessung von Rahmensystemen </li>\n    <li>Gesamtstabilit&auml;t (Aussteifung von Tragwerken, Verb&auml;nde) </li>\n    <li>Praxisbeispiel Hallendimensionierung </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 22382,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Stahlbau 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Steel Construction 2"
+        }
+      ]
+    },
+    {
+      "id": 22384,
+      "kuerzel": "HoBau",
+      "bezeichnung": "Holzbau",
+      "lernziele": "<p>F&auml;higkeit zum Entwerfen und Gestalten von Bauteilen des Holzbaus unter Ber&uuml;cksichtigung der Stabilit&auml;tsprobleme und der statischen, konstruktiven und ausf&uuml;hrungstechnischen Anforderungen an die Verbindungen</p>",
+      "planinhalt": "<ul>\n    <li>Grundlagen der Bemessung im Holzbau</li>\n    <li>Bemessung von geraden Bauteilen aus Vollholz und Brettschichtholz</li>\n    <li>Bemessung von Holzverbindungen</li>\n    <li>Druck mit Biegung</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 22385,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Holzbau"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Timber Construction"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10005,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10005_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10109,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10109_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10131,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10131_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533883,
+      "name": "Wenk",
+      "vorname": "Felix"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 10944,
+      "kuerzel": "M_Baustat3",
+      "bezeichnung": "Baustatik 3",
+      "url": "allModules/10944_M_Baustat3.json"
+    },
+    {
+      "id": 21472,
+      "kuerzel": "M_Kons2",
+      "bezeichnung": "Konstruktion 2",
+      "url": "allModules/21472_M_Kons2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 22380,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Konstruktion 3"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Structural Engineering 3"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "FS",
+    "endJahr": 2016,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 21482,
+    "kuerzel": "M_Konstr3",
+    "bezeichnung": "Konstruktion 3",
+    "url": "allModules/21482_M_Konstr3.json"
+  }
+}

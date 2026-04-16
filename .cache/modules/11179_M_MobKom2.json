@@ -1,0 +1,212 @@
+{
+  "id": 11179,
+  "kuerzel": "M_MobKom2",
+  "bezeichnung": "Mobilkommunikation 2",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Verstehen der Komponenten in einem Mobilfunksystem. Vertieftes Verst&#228;ndnis des Physical Layers von aktuellen Funksystemen <br />Kenntnisse in den Disziplinen, die in modernen Mobilfunksystemen involviert sind: u.a. Wellenausbreitung.&nbsp;Regeln und Tools f&#252;r das Design von Funksystemen anhand von aktuellen Beispielen: GPS, GSM, UMTS, WLAN, Bluetooth <br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10349,
+      "kuerzel": "MobKom2",
+      "bezeichnung": "Mobilkommunikation 2",
+      "lernziele": "<p><br /><br /><br />&nbsp;</p>",
+      "planinhalt": "<p>&#183; Wellenausbreitung (Link Budget, Streuung, AWGN, Schwundkan&#228;le) <br />&#183; GPS<br />&#183; GSM, UMTS <br />&#183; weitere Themen<br /><br /></p>\n<p>&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 10829,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 48,
+          "harteGrenze": true
+        },
+        {
+          "id": 10830,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Mobilkommunikation 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Mobile Communication 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 963,
+      "name": "Mathis",
+      "vorname": "Heinz"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11174,
+      "kuerzel": "M_NaT1",
+      "bezeichnung": "Nachrichtentechnik 1",
+      "url": "allModules/11174_M_NaT1.json"
+    },
+    {
+      "id": 11175,
+      "kuerzel": "M_NaT2",
+      "bezeichnung": "Nachrichtentechnik 2",
+      "url": "allModules/11175_M_NaT2.json"
+    },
+    {
+      "id": 11176,
+      "kuerzel": "M_SigSys1",
+      "bezeichnung": "Signale und Systeme 1",
+      "url": "allModules/11176_M_SigSys1.json"
+    },
+    {
+      "id": 11177,
+      "kuerzel": "M_SigSys2",
+      "bezeichnung": "Signale und Systeme 2",
+      "url": "allModules/11177_M_SigSys2.json"
+    },
+    {
+      "id": 11178,
+      "kuerzel": "M_MobKom1",
+      "bezeichnung": "Mobilkommunikation 1",
+      "url": "allModules/11178_M_MobKom1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11179,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Mobilkommunikation 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Mobile Communication 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2006,
+    "endSemester": "SS"
+  },
+  "nachfolger": {
+    "id": 11179,
+    "kuerzel": "M_MobKom2",
+    "bezeichnung": "Mobilkommunikation 2",
+    "url": "allModules/11179_M_MobKom2.json"
+  }
+}

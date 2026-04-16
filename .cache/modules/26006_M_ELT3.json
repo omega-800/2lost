@@ -1,0 +1,203 @@
+{
+  "id": 26006,
+  "kuerzel": "M_ELT3",
+  "bezeichnung": "Elektrotechnik 3",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Der Studierende kennt die Grundlagen der Elektrotechnik, kann sie anwenden und versteht Zusammenh&auml;nge. Bereiche: Ausgleichsprobleme, Verschiebungsstrom, Magnetische Induktion, Verluste, Integralgesetze, Wechselstromrechnung, Wellen.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 26007,
+      "kuerzel": "ELT3",
+      "bezeichnung": "Elektrotechnik 3",
+      "planinhalt": "<ul>\n<li><strong>Dynamik des elektrischen Felds:</strong> Laden/Entladen von Kondensatoren (inkl. Differentialgleichungen, Analogien), Verschiebungsstromdichte</li>\n<li><strong>Dynamik des magnetischen Felds:</strong> Induktion (Ruhe-, Bewegungs-, Selbst- und Gegeninduktion), Transformatoren, Magnetisierungsverluste, Wirbelstr&ouml;me, Skin-Effekt.</li>\n<li><strong>Netzwerke bei Wechselstrom:</strong><br />Allgemeine zeitabh&auml;ngige Gr&ouml;ssen, Netzwerk-/Differentialgleichungen<br />Sinusf&ouml;rmige Vorg&auml;nge im eingeschwungenen Zustand: Reelle und komplexe Darstellungen, Zeigerdiagramme, Impedanz &amp; Admittanz, komplexe Leistungen &amp; Energien, Leistungsanpassung und Blindleistungskompensation.<br />Systematische Schaltungsanalyse mit Netzwerkumwandlungen, Netzwerkgleichungen und -matrizen</li>\n<li><strong>Dynamik des elektromagnetischen Felds:</strong> Poynting-Theorem, Retardierung, Wellen (Einf&uuml;hrung)</li>\n</ul>\n<p><br />&Auml;nderungen vorbehalten</p>",
+      "kurselemente": [
+        {
+          "id": 26008,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 26009,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrotechnik 3"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electtrical Engineering 3"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 527044,
+      "name": "Lang",
+      "vorname": "Hans-Dieter"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 26002,
+      "kuerzel": "M_ELT2",
+      "bezeichnung": "Elektrotechnik 2",
+      "url": "allModules/26002_M_ELT2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 26006,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>50% der Punkte bei allen Moodle-Tests erreicht</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Elektrotechnik 3"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electrical Engineering 3"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2015,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 20022,
+    "kuerzel": "M_ELT3",
+    "bezeichnung": "Elektrotechnik 3",
+    "url": "allModules/20022_M_ELT3.json"
+  }
+}

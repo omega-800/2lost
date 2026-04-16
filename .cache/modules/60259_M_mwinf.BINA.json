@@ -1,0 +1,100 @@
+{
+  "id": 60259,
+  "kuerzel": "M_mwinf.BINA",
+  "bezeichnung": "Business Intelligence & Analytics",
+  "kreditpunkte": 6,
+  "lernziele": "<p>Aufgaben, M&ouml;glichkeiten und Grenzen von Business Intelligence (BI) und Business Analytics (BA) zur Unterst&uuml;tzung betrieblicher Prozesse und von betrieblichen Entscheidungen.</p>",
+  "vorausgKenntnisse": "<p>Die Studierenden bringen folgende Kenntnisse mit:</p>\n<ul>\n<li>Abgangskompetenzen Bachelor Wirtschaftsinformatik, Betriebs&ouml;konomie, Informatik, Wirtschaftsingenieur oder eines verwandten Studiengangs</li>\n<li>Module des 1. Semesters MSc WI</li>\n<li>Grundkenntnisse in Python Programmierung</li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 60260,
+      "kuerzel": "mwinf.BINA",
+      "bezeichnung": "Business Intelligence & Analytics",
+      "kreditpunkte": 0,
+      "lernziele": "<p><strong>Ausgangskompetenzen / Grobziele</strong></p>\n<p>Die Studierenden&hellip;</p>\n<ul>\n<li>Haben fachliche Mitsprachekompetenz im Kontext von BI und BA.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Fachkompetenz</strong></p>\n<p>Die Studierenden&hellip;</p>\n<ul>\n<li>Kennen die Grundlagen und Prinzipien moderner Datenauswertung auf Basis analytischer Informationssysteme und Verfahren des Data Mining.</li>\n<li>Kennen den neuesten Stand ausgew&auml;hlter Konzepte und Technologien moderner Business Intelligence Seite 2/4 Business Intelligence and Business Analytics (BINA) / V5 (BI) Systeme und verstehen deren Nutzungs- und Einsatzm&ouml;glichkeiten. Sie sind weiter in der Lage, diese Kenntnisse auf ausgew&auml;hlte Fragstellungen der modernen Managementunterst&uuml;tzung (bspw. im Kontext von Data Driven Enterprises) anzuwenden.</li>\n<li>Die Studierenden gewinnen ein vertieftes Verst&auml;ndnis f&uuml;r den idealtypischen Aufbau einer Data Warehouse (DWH) L&ouml;sung, f&uuml;r das Zusammenspiel der einzelnen Komponenten und der dabei notwendigen Datenaufbereitungsschritte (ETL). Sie gewinnen zudem ein vertieftes Verst&auml;ndnis der modernen Erweiterungen im Kontext von Big Data, NoSQL und hybriden Architekturen (Data Lakes).</li>\n<li>Im Bereich der deskriptiven und diagnostischen Analytik kennen und verstehen die Studierenden exemplarische Vertreter der grundlegenden algorithmischen Verfahren zu Clustering/Classification, zu Time Series, zu Process Mining (bspw. bei Business Prozessen), zu Recommender Systems (bspw. bei eCommerce Plattformen), zu Web Analytics (User Profiling/Tracking) und Network/Graph Analytics (bspw. bei Social Media Network).</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Methodenkompetenz</strong></p>\n<p>Die Studierenden&hellip;</p>\n<ul>\n<li>Sind in der Lage, komplexe Probleme einer ad&auml;quaten Entscheidungsunterst&uuml;tzung mit Hilfe von Business Analytik Tools und Techniken geeignet anzugehen (bspw. Reporting und Visualisierung). Sie kennen die einschl&auml;gigen Reporting und Visualisierungsstandards (bspw. IBCS).</li>\n<li>Die Studierenden vertiefen ihr Verst&auml;ndnis f&uuml;r das Knowledge-Discovery-in-Databases (KDD) anhand des CRISP Data Mining Prozesses u.a.</li>\n<li>Sind des Weiteren in der Lage, analytische Verfahren zu typisieren (temporal bzw. algorithmisch) und verstehen Konzepte und Entwicklungsschritte hin zu einem analytischen Modell (Machine Learning/Model Training &amp; Evaluation)</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Sozial- und Selbstkompetenz</strong></p>\n<p>Die Studierenden&hellip;</p>\n<ul>\n<li>K&ouml;nnen Sachverhalte, Anforderungen und Resultate/Analysen im Bereich Business Intelligence zielpublikumsgerecht kommunizieren</li>\n</ul>",
+      "planinhalt": "<p><strong>Schwerpunkt 1: </strong>Grundlagen und Konzepte</p>\n<ul>\n<li>Begriffe und Definitionen</li>\n<li>BI/BA in modernen Organisationen, Data Driven Enterprises, Performance Management (KPIs)</li>\n<li>BI/BA Strategie, Organisation &amp; Governance, Compliance &amp; Regulations</li>\n<li>Reporting und Visualisierung, Standards</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Schwerpunkt 2: </strong>Architekturen und Technologien</p>\n<ul>\n<li>Data Warehouse Architektur, Prozesse und Komponenten</li>\n<li>Poly-strukturierte Datenhaltung: RDBMS, NoSQL, NewSQL</li>\n<li>Verteilte Datenhaltung/-verarbeitung, Big Data</li>\n<li>Data Lake und hybride Architekturen, Cloud Plattformen und Infrastrukturen</li>\n<li>Stream und Complex Event Processing</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Schwerpunkt 3:&nbsp;</strong>Knowledge Discovery in Databases/Data Mining</p>\n<ul>\n<li>Data Mining Prozess/Verfahren (CRISP-DM u.a.)</li>\n<li>Data Extraction, Data Cleaning, Data Quality</li>\n<li>Data Ingestion&amp;Transformation, ETL/ELT</li>\n<li>Descriptive Statistics und Data Visualization</li>\n<li>Process Mining<br><br></li>\n</ul>\n<p><strong>Schwerpunkt 4:</strong> Business Analytics</p>\n<ul>\n<li>Machine Learning Basics: Supervised, Unsupervised, Reinforced Learning</li>\n<li>Model Training, Testing &amp; Evaluation, Deployment</li>\n<li>Feature Engineering</li>\n<li>Descriptive &amp; Diagnostic Analytics</li>\n<li>Machine Learning: , Clustering/Classification, Regression Techniques and Time Series, Assoziationsanalysen (Recommender Systems/eCommerce), Web Analytics (Clickstream Analytics, User Tracking/Profiling), Graph/Network Analytics (Social Media)</li>\n</ul>",
+      "bibliographie": "<ul>\n<li>Grossmann, W.; Rinderle-Ma, Stefanie; &ldquo;Fundamentals of Business Intelligence&ldquo;, Springer (2015)</li>\n<li>Kemper, H-G., Baars, H., Mehanna, W.; &bdquo;Business Intelligence &ndash; Grundla-gen und praktische Anwendungen&ldquo;, Vieweg (2010)</li>\n<li>Runkler, T.A.; &ldquo;Data Mining. Methoden und Algorithmen intelligenter Da-tenanalyse&ldquo;, Vieweg (2016)</li>\n<li>Gansor, T.; Totok, A.; Stock, S. (2010); &ldquo;Von der Strategie zum Business Intelligence Competency Center (BICC)&rdquo;, Hanser/TDWI (2015)</li>\n<li>Kimball/Ross; &ldquo;The Data Warehouse Toolkit: The Definitive Guide To Dimensional Modeling&rdquo;; Wiley 2013</li>\n<li>Provost/Fawcett; &ldquo;Data Science for Business: What you need to know about Data Mining and Data Analytic Thinking&rdquo;; O&rsquo;Reilly 2013</li>\n<li>Sherman, Rick; &ldquo;Business Intelligence Guidebook: From Data Integration to Analytics&rdquo;; Morgan 2014 Seite 4/4 Business Intelligence and Business Analytics (BINA) / V5</li>\n<li>King, S.; \"Big Data - Potential und Barrieren der Nutzung im Unternehmenskontext\"; Springer Berlin, 2014</li>\n<li>Davenport, T. H.; \"big data @ work: Chancen erkennen, Risiken verstehen\"; Valen 2014/ Harvard Business Review Press 2014</li>\n<li>Wong, D.M.; &ldquo;The Wall Street Journal Guide To Information Graphics: The Dos And Don&rsquo;ts of Presenting Data, Facts, And Figures&rdquo;; Norton &amp; Com-pany, 2010</li>\n<li>Hichert, R.; Faisst, J.; &ldquo;Gef&uuml;llt,gerahmt, schraffiert: Wie visuelle Einheitlichkeit die Kommunikation mit Berichten, Pr&auml;sentationen und Dashboards verbessert&ldquo;; Vahlen (2019)</li>\n</ul>",
+      "empfLehrmittel": "<p><strong>Kontaktstudium</strong></p>\n<ul>\n<li>Dialogorientierter Unterricht mit integrierten &Uuml;bungen</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Selbststudium </strong></p>\n<ul>\n<li>Werkstatt/&Uuml;bungen</li>\n<li>Papers/Videos zur Vertiefung und Anwendung der erlernten Theorie</li>\n<li>Einzel- oder Gruppenarbeit (z.B. Fallstudien) zur Vertiefung des Lerninhaltes und zur selbst&auml;ndigen Erarbeitung neuer Inhalte</li>\n<li>Sample Scripts and Code Snippets (Python/Jupyter und diverse Libraries)</li>\n</ul>",
+      "bemerkungKurs": "<p>Eine allf&auml;llige Pr&auml;senzpflicht wird anfangs Semester bekannt gegeben.</p>",
+      "kurselemente": [
+        {
+          "id": 60261,
+          "art": "Vorlesung",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Business Intelligence & Analytics"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10477,
+      "bezeichnung": "MSc Wirtschaftsinformatik",
+      "kuerzel": "MScWINF",
+      "url": "allStudies/10477_MScWINF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10200,
+          "kuerzel": "MScWINF_KM",
+          "bezeichnung": "Kernmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9989,
+      "name": "ZZZ Dozent HL",
+      "vorname": "Planung"
+    }
+  ],
+  "orte": [
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 60259,
+      "art": "Note von 1 - 6",
+      "pruefungMue": true,
+      "dauerPrfMue": 15,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Dauer der m&uuml;ndlichen Modulpr&uuml;fung: 10-15 min</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Business Intelligence & Analytics"
+    }
+  ],
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2027,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  }
+}

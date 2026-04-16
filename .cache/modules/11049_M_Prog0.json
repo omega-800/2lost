@@ -1,0 +1,105 @@
+{
+  "id": 11049,
+  "kuerzel": "M_Prog0",
+  "bezeichnung": "Programmieren 0",
+  "kreditpunkte": 0,
+  "lernziele": "<p>Sie kennen </p> <ol> <li>ein methodisches Vorgehensmodell f&#252;r die L&#246;sung von Problemen </li> <li>die wichtigsten Basisdatentypen (int, char, double)</li> <li>Kontrollstrukturen (do, while, for)</li> <li>IO Konzepte (Streams, Reader/Writer)<br /><br />und k&#246;nnen diese an einfachen Beispielaufgaben einsetzen. <br /></li></ol>",
+  "vorausgKenntnisse": "Elementare Informatikkenntnisse (Umgang mit dem Computer)\n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10194,
+      "kuerzel": "Prog0",
+      "bezeichnung": "Programmieren 0",
+      "planinhalt": "<p>Crashkurs eine Woche: <br /><br />Arbeitsumgebung (Eclipse) <br />Probleml&#246;sung <br />Algorithmus, Anweisungen, Variablen <br />Operatoren, Ausdr&#252;cke, Zuweisungen <br />Kontrollstrukturen <br />Basisdatentypen <br />Felder, Strings <br />Ein- und Ausgabe <br /></p>",
+      "kurselemente": [
+        {
+          "id": 10620,
+          "art": "Blockkurs",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 100,
+          "harteGrenze": true
+        },
+        {
+          "id": 10891,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Programmieren 0"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Programming Basics"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 386,
+      "name": "Bühler",
+      "vorname": "Peter"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Programmieren 0"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Programming Basics"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

@@ -1,0 +1,236 @@
+{
+  "id": 50989,
+  "kuerzel": "M_VP_18813",
+  "bezeichnung": "Solarstrahlung",
+  "kreditpunkte": 18,
+  "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen auf geeignete Wetterdaten und &ndash;modelle zugreifen und geeignet transformieren, speichern etc.</li><li>k&ouml;nnen eine SkyCam in Betrieb nehmen und die Daten geeignet weiterverarbeiten.</li><li>k&ouml;nnen SkyCam Bilder und Sattelitenaufnahmen registrieren.</li><li>k&ouml;nnen mittels SkyCam Bilder und Wetterdaten/modellen eine exakte Kurzzeitprognose (20 min) f&uuml;r die Sonnenstrahlung erstellen und validieren.</li></ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 50990,
+      "kuerzel": "VP_1881301",
+      "bezeichnung": "Kurzzeitprognose von Solarstrahlung ",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>k&ouml;nnen auf geeignete Wetterdaten und &ndash;modelle zugreifen und geeignet transformieren, speichern etc.</li><li>k&ouml;nnen eine SkyCam in Betrieb nehmen und die Daten geeignet weiterverarbeiten.</li><li>k&ouml;nnen SkyCam Bilder und Sattelitenaufnahmen registrieren.</li><li>k&ouml;nnen mittels SkyCam Bildern und Wetterdaten / modelle eine exakte Kurzzeitprognose (20 min) f&uuml;r die Sonnenstrahlung erstellen und validieren.</li></ul>",
+      "planinhalt": "<ul><li>Inbetriebnahme einer SkyCam</li><li>Zugriff auf, Umgang mit und Interpretation von Wetterdaten und &ndash;modellen</li><li>Fusion von SkyCam- und Sattelitenbildern</li><li>Leistungsprognosen f&uuml;r Photovoltaik</li></ul>",
+      "bibliographie": "<p>J. Antonanzas et al. Review of photovoltaic power forecasting (2016)</p><p>A,Tuohy et al. Solar Forecasting (2015)</p><p>R. St&ouml;ckli The HelioMont Surface Solar Radiation Processing (2014)</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird mittels Bericht und Fachgespr&auml;ch bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 50991,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002957,
+          "name": "Frick",
+          "vorname": "Klaus"
+        }
+      ]
+    },
+    {
+      "id": 50992,
+      "kuerzel": "VP_1881302",
+      "bezeichnung": "Grundlagen der Photovoltaik",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>kennen den Aufbau des Solarspektrums und die Energiemeteorologie.</li><li>kennen die elektrische Modellierung von Solarzellen und Modulen.</li><li>kennen den Aufbau und Wirkungsweise unterschiedlicher Zellen.</li></ul>",
+      "planinhalt": "<ul><li>Vermittlung der Solarstrahlungsphysik</li><li>Erkl&auml;rung zur Energiemeteorologie und deren Wirkung</li><li>Erstellen von Modellen zur Berechnung und Simulation von Photovoltaik-Anlagen</li></ul>",
+      "bibliographie": "<p>M. Markstaler Photovoltaik f&uuml;r Ingenieure (2018)</p>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "leistungsnachweis": "<p>Dieser Kurs wird mittels Fachgespr&auml;ch bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 50993,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002957,
+          "name": "Frick",
+          "vorname": "Klaus"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002957,
+      "name": "Frick",
+      "vorname": "Klaus"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 50868,
+      "kuerzel": "M_VP_17711",
+      "bezeichnung": "Neuronale Netze und Deep Learning",
+      "url": "allModules/50868_M_VP_17711.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Solar Radiation"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2018,
+    "beginSemester": "FS",
+    "endJahr": 2018,
+    "endSemester": "HS"
+  }
+}

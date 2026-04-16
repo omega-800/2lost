@@ -1,0 +1,117 @@
+{
+  "id": 57221,
+  "kuerzel": "M_ProgPy",
+  "bezeichnung": "Programmieren mit Python",
+  "kreditpunkte": 4,
+  "lernziele": "<p><span style=\"white-space: pre-wrap;\">Die Programmiersprache Python ist f&uuml;r viele Anwendungen im Digital Design wichtig. Das Modul konzentriert sich auf die Funktionen von Python, die f&uuml;r die Auswertung und Darstellung von Daten, die z.B. durch User Research oder Usability Tests gewonnen wurden, relevant sind.</span></p>\n<p>&nbsp;</p>\n<p><strong><span style=\"white-space: pre-wrap;\">Fachkompetenzen</span></strong></p>\n<ul class=\"Lexical__ul\">\n<li class=\"Lexical__listItem\" value=\"1\"><span style=\"white-space: pre-wrap;\">Sie k&ouml;nnen die grundlegenden Funktionen und Bibliotheken von Python in Anwendungen im Rahmen des Studiums einsetzen.</span></li>\n<li class=\"Lexical__listItem\" value=\"2\"><span style=\"white-space: pre-wrap;\">Sie k&ouml;nnen Formate zur Speicherung von Daten (z.B. JSON, CSV) beschreiben und geeignete Formate f&uuml;r Anwendungen im Rahmen des Studiums ausw&auml;hlen.</span></li>\n<li class=\"Lexical__listItem\" value=\"3\"><span style=\"white-space: pre-wrap;\">Sie k&ouml;nnen die Funktionen von Python zum Umgang mit textbasierten Datenformaten beschreiben und anwenden.</span></li>\n<li class=\"Lexical__listItem\" value=\"4\"><span style=\"white-space: pre-wrap;\">Sie k&ouml;nnen einfache Anwendungen in der statistischen Datenanalyse entwickeln und mit Python implementieren.</span></li>\n<li class=\"Lexical__listItem\" value=\"5\"><span style=\"white-space: pre-wrap;\">Sie k&ouml;nnen die Grundlagen der Datenvisualisierung beschreiben und einfache Anwendungen mit Python realisieren.</span></li>\n<li class=\"Lexical__listItem\" value=\"6\"><span style=\"white-space: pre-wrap;\">Sie k&ouml;nnen die Funktionsweise moderner Versionskontrollsysteme (Git) beschreiben und Versionskontrollsysteme in eigenen Projekten einsetzen.</span></li>\n</ul>\n<p>&nbsp;</p>\n<p><strong><span style=\"white-space: pre-wrap;\">Methodenkompetenzen</span></strong></p>\n<ul class=\"Lexical__ul\">\n<li class=\"Lexical__listItem\" value=\"1\"><span style=\"white-space: pre-wrap;\">Sie k&ouml;nnen Anwendungen zur Datenanalyse nach vorgegebenen Anforderungen entwerfen und implementieren.</span></li>\n</ul>\n<p>&nbsp;</p>\n<p><strong><span style=\"white-space: pre-wrap;\">Sozial- und Selbstkompetenzen</span></strong></p>\n<ul class=\"Lexical__ul\">\n<li class=\"Lexical__listItem\" value=\"1\"><span style=\"white-space: pre-wrap;\">Sie k&ouml;nnen die f&uuml;r eine Anwendung ben&ouml;tigten Bibliotheken identifizieren und sich diese mit der verf&uuml;gbaren Dokumentation aneignen.</span></li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 57222,
+      "kuerzel": "ProgPy",
+      "bezeichnung": "Programmieren mit Python",
+      "lernziele": "",
+      "kurselemente": [
+        {
+          "id": 57223,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 100,
+          "harteGrenze": true
+        },
+        {
+          "id": 57224,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Programmieren mit Python"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Programming with Python"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10260,
+      "bezeichnung": "Digital Design",
+      "kuerzel": "DD",
+      "url": "allStudies/10260_DD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10159,
+          "kuerzel": "DD-WE",
+          "bezeichnung": "Webengineering",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2143132,
+      "name": "Lohan",
+      "vorname": "Katrin"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 57221,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Alle Testatabgaben wurden erfolgreich bestanden</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Programmieren mit Python"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Programming with Python"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2026,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 43733,
+    "kuerzel": "M_ProgPy",
+    "bezeichnung": "Programmieren mit Python",
+    "url": "allModules/43733_M_ProgPy.json"
+  }
+}

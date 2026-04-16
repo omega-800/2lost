@@ -1,0 +1,255 @@
+{
+  "id": 47253,
+  "kuerzel": "M_VP_11718",
+  "bezeichnung": "Visuelle Gebäudeerfassung mittels Flugroboter",
+  "kreditpunkte": 15,
+  "lernziele": "<p>Vertiefte Kenntnisse in </p>\n<ul>\n    <li>Computer Vision</li>\n    <li>Image Analysis</li>\n    <li>Autonome Systeme</li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 47254,
+      "kuerzel": "VP_1171801-1",
+      "bezeichnung": "Visuelle Gebäudeerfassung mittels eines teilautonomen Flugroboters",
+      "kreditpunkte": 1,
+      "lernziele": "<p>Vertiefte Kenntnisse in Embedded Systeme und Programmierung (teil-)autonomer Systeme</p>",
+      "planinhalt": "<ul>\n    <li>Entwicklung eines teilautonomen Flugroboters </li>\n    <li>Visuelle Geb&auml;udeerfassung </li>\n    <li>Anwendung optischer Navigation (z.B. optischer Fluss) </li>\n    <li>Daten&uuml;bertragung und Fernsteuerung eines Flugroboter &uuml;ber 2.4 GHz Funktechnik </li>\n    <li>Softwareentwicklung f&uuml;r Mikrocontroller </li>\n    <li>Softwareentwicklung zur Steuerung von Mikrokontroller (PC-Software) </li>\n</ul>",
+      "bibliographie": "<p>Siegwart, Roland; Nourbakhsh, Illah R. : &ldquo;Introduction to Autonomous Mobile Robots&rdquo;<br />Aufzeichnungen der ETH-Vorlesung &ldquo;Autonomous Mobile Robots&ldquo; zu finden unter: <a href=\"http://www.multimedia.ethz.ch/lectures/mavt/2011/spring/151-0854-00L\">http://www.multimedia.ethz.ch/lectures/mavt/2011/spring/151-0854-00L</a></p>",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird mittels Projektarbeit, Projektdokumentation und Projektpr&auml;sentation bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 47255,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000823,
+          "name": "Frei",
+          "vorname": "Norbert"
+        }
+      ]
+    },
+    {
+      "id": 47256,
+      "kuerzel": "VP_1171802",
+      "bezeichnung": "Image Analysis and Computer Vision",
+      "kreditpunkte": 6,
+      "lernziele": "<p>Overview of the most important concepts of image formation, perception and analysis, and Computer Vision. Gaining own experience through practical computer and programming exercises.</p>",
+      "planinhalt": "<p>The first part of the course starts off from an overview of existing and emerging applications that need computer vision. It shows that the realm of image processing is no longer restricted to the factory floor, but is entering several fields of our daily life. First it is investigated how the parameters of the electromagnetic waves are related to our perception. Also the interaction of light with matter is considered. The most important hardware components of technical vision systems, such as cameras, optical devices and illumination sources are discussed. The course then turns to the steps that are necessary to arrive at the discrete images that serve as input to algorithms. The next part describes necessary preprocessing steps of image analysis, that enhance image quality and/or detect specific features. Linear and non-linear filters are introduced for that purpose. The course will continue by analyzing procedures allowing to extract additional types of basic information from multiple images, with motion and depth as two important examples. The estimation of image velocities (optical flow) will get due attention and methods for object tracking will be presented. Several techniques are discussed to extract three-dimensional information about objects and scenes. Finally, approaches for the recognition of specific objects as well as object classes will be discussed and analyzed.</p>",
+      "bibliographie": "Skript",
+      "empfLehrmittel": "<p>Vorlesung</p>\n<p>&Uuml;bungen</p>",
+      "bemerkungKurs": "Vorlesung an der ETH Z&uuml;rich",
+      "leistungsnachweis": "<p>W&auml;hrend dem Semester wird ein Fachbericht bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 47257,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000823,
+          "name": "Frei",
+          "vorname": "Norbert"
+        }
+      ]
+    },
+    {
+      "id": 47258,
+      "kuerzel": "VP_1171801-2",
+      "bezeichnung": "Visuelle Gebäudeerfassung mittels eines teilautonomen Flugroboters",
+      "kreditpunkte": 8,
+      "lernziele": "siehe VP_1171801-1",
+      "planinhalt": "siehe VP_1171801-1",
+      "bibliographie": "siehe VP_1171801-1",
+      "empfLehrmittel": "siehe VP_1171801-1",
+      "leistungsnachweis": "siehe VP_1171801-1",
+      "kurselemente": [
+        {
+          "id": 47259,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000823,
+          "name": "Frei",
+          "vorname": "Norbert"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000823,
+      "name": "Frei",
+      "vorname": "Norbert"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 2,
+      "kuerzel": "WSG",
+      "bezeichnung": "Waldau St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Visual Building Mapping Using Aerial Robots"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2011,
+    "beginSemester": "HS",
+    "endJahr": 2012,
+    "endSemester": "FS"
+  }
+}

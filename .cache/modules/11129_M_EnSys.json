@@ -1,0 +1,202 @@
+{
+  "id": 11129,
+  "kuerzel": "M_EnSys",
+  "bezeichnung": "Energiesysteme",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Der Absolvent kennt die Techniken zur Erzeugung elektrischer Energie, die dazu erforderlichen Maschinen und deren Betriebsverhalten. Er kennt auch die f&uuml;r&nbsp;Stromtransport und -verteilung erforderlichen Betriebsmittel und deren Betriebsverhalten. <br />Er kann Versorgungsleitungen zu den Lasten dimensionieren und durch entsprechende Schutzeinrichtungen absichern. Er kann die regeltechnischen Prinzipien beschreiben, nach denen der Betrieb elektrischer Netze funktioniert. Er weiss, wie man energietechnische Betriebsmittel wirtschaftlich einsetzt und deren Kosten bestimmt. </p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10273,
+      "kuerzel": "EnSys",
+      "bezeichnung": "Energiesysteme",
+      "planinhalt": "<ul>\n    <li>Der elektrische Strom als Energietr&auml;ger; Energiebilanz Schweiz </li>\n    <li>Technische Stromerzeugung <br />* Energiewandler und ihr Entwicklungspotential <br />* Kraftwerkstypen f&uuml;r grosstechnischen und dezentralen Einsatz <br />* Generatoren f&uuml;r Gleich-, Wechsel- und Drehstrom </li>\n    <li>Netzbetrieb: Frequenz-Leistungs- und Spannungs-Blindleistungsregelung </li>\n    <li>Stromtransport und -verteilung: Elektrische Netze, Dimensionierung und Betrieb </li>\n    <li>Transformatoren und Schaltanlagen </li>\n    <li>Energiespeicherung </li>\n    <li>Schutzeinrichtungen f&uuml;r Mensch und Maschine</li>\n    <li>Elektrizit&auml;tswirtschaft: &Ouml;konomischer Einsatz von Betriebsmitteln, Kostenrechnung&nbsp;</li>\n</ul>\n<p>Aenderung vorbehalten.<br /></p>",
+      "kurselemente": [
+        {
+          "id": 10721,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        },
+        {
+          "id": 10722,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Energiesysteme"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Energy Systems"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 147,
+      "name": "Prechtl",
+      "vorname": "Heiner"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11122,
+      "kuerzel": "M_WS_DST",
+      "bezeichnung": "Wechsel- und Drehstromtechnik",
+      "url": "allModules/11122_M_WS_DST.json"
+    },
+    {
+      "id": 11125,
+      "kuerzel": "M_ElMasch",
+      "bezeichnung": "Elektrische Maschinen (E)",
+      "url": "allModules/11125_M_ElMasch.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11129,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": true,
+      "zulassungsBedingung": "Testat",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Energiesysteme"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Energy Systems"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2012,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 11129,
+    "kuerzel": "M_EnSys",
+    "bezeichnung": "Energiesysteme",
+    "url": "allModules/11129_M_EnSys.json"
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "id": 28223,
+  "kuerzel": "M_ComBau",
+  "bezeichnung": "Compilerbau",
+  "kreditpunkte": 4,
+  "lernziele": "<ul><li>Die Konzepte und Techniken der Compiler und Laufzeitsysteme f&uuml;r moderne objekte-orientierte Programmiersprachen verstehen.</li><li>Eigene vollst&auml;ndige Compiler und Laufzeitsysteme f&uuml;r objektorientierte Programmiersprachen auf aktuellen Prozessor-Plattformen entwickeln k&ouml;nnen.</li><li>Die Syntax und Semantik von modernen Programmiersprachen genauestens verstehen und auch spezifizieren k&ouml;nnen.</li></ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 28224,
+      "kuerzel": "ComBau",
+      "bezeichnung": "Compilerbau",
+      "lernziele": "<p>Siehe oben</p>",
+      "planinhalt": "<ul><li><p>Programmiersprachspezifikation: Syntax und Semantik</p></li><li><p>Architektur von Compilern und Laufzeitsystemen</p></li><li><p>Lexer/Scanner</p></li><li><p>Parser (LL vs. LR), inkl. Diskussion von Generator-Tools</p></li><li><p>Zwischendarstellung (Symbol Table, Abstract Syntax Tree)</p></li><li><p>Semantic Analysis: Symbolaufl&ouml;sung, Type Checking, Semantic Rules</p></li><li><p>Code Generierung (f&uuml;r Zwischensprache und Intel 64 Prozessor)</p></li><li><p>Zwischensprachen (stack-basiert)</p></li><li><p>Virtuelle Maschine mit Loader und Interpreter</p></li><li><p>Just-In-Time Compiler (JITer) f&uuml;r Intel 64 Prozessoren</p></li><li><p>Elementare Laufzeitunterst&uuml;tzung: Stack und Heap Management</p></li><li><p>OO-Laufzeitunterst&uuml;tzung: Vererbung und Type Tests, Virtual Tables und Dynamic Dispatch</p></li><li><p>Garbage Collecton: Mark And Sweep, Root Set, Diskusson fortgeschrittener GCs (Copy Collector, Incremental GC, Generational/Partitoned GC)</p></li><li><p>Statische Analyse und Optimierung: Datenfluss-Analyse (je nach verf&uuml;gbaren Vorlesungswochen im Semester)</p></li></ul><p>Im Rahmen der &Uuml;bungen entwickeln die Teilnehmer einen Compiler und eine Virtual Machine f&uuml;r eine C#-&auml;hnliche Programmiersprache, inkl. Unterst&uuml;tzung der Objekt-Orientierung und Implementation eines GCs und Just-In-Time-Compilers.</p><p>Ben&ouml;tigte Technologien: .NET/C#, Intel 64 Assembler, Unmanaged .NET (evtl. auch C/C++)</p>",
+      "kurselemente": [
+        {
+          "id": 28225,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 126,
+          "harteGrenze": true
+        },
+        {
+          "id": 28226,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Compilerbau"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Compiler Construction"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 541091,
+      "name": "Bläser",
+      "vorname": "Luc"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 27089,
+      "kuerzel": "M_SE2",
+      "bezeichnung": "Software-Engineering 2",
+      "url": "allModules/27089_M_SE2.json"
+    },
+    {
+      "id": 31170,
+      "kuerzel": "M_OO",
+      "bezeichnung": "Objektorientierte Programmierung",
+      "url": "allModules/31170_M_OO.json"
+    },
+    {
+      "id": 32613,
+      "kuerzel": "M_Bsys1",
+      "bezeichnung": "Betriebssysteme 1",
+      "url": "allModules/32613_M_Bsys1.json"
+    },
+    {
+      "id": 32617,
+      "kuerzel": "M_MsTe",
+      "bezeichnung": ".Net Technologien",
+      "url": "allModules/32617_M_MsTe.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Compilerbau"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Compiler Design"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2017,
+    "beginSemester": "FS",
+    "endJahr": 2020,
+    "endSemester": "FS"
+  }
+}

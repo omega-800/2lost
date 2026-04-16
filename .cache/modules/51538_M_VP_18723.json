@@ -1,0 +1,223 @@
+{
+  "id": 51538,
+  "kuerzel": "M_VP_18723",
+  "bezeichnung": "Strömungsmechanik - Theorie und Simulation",
+  "kreditpunkte": 18,
+  "lernziele": "<p>Die Studierenden</p><ul><li>verstehen die Grundlagen der Str&ouml;mungsmechanik.</li><li>sind in der Lage, einfache Str&ouml;mungssituationen mit Hilfe von partiellen Differentialgleichungen zu formulieren und zu l&ouml;sen.</li><li>verstehen die Methode der finiten Volumen, und k&ouml;nnen str&ouml;mungsmechanische Probleme mit Ansys CFX bzw. OpenFOAM l&ouml;sen.</li></ul>",
+  "vorausgKenntnisse": "<p>Bachelor of Science in Systemtechnik.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 51539,
+      "kuerzel": "VP_1872301",
+      "bezeichnung": "Strömungsmechanik",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>verstehen die Grundlagen der Str&ouml;mungsmechanik.</li><li>sind in der Lage, einfache Str&ouml;mungssituationen mit Hilfe von partiellen Differentialgleichungen zu formulieren und zu l&ouml;sen.</li></ul>",
+      "planinhalt": "<ul><li>Hydrodynamische Grundlagen</li><li>Potentialstr&ouml;mungen, ebene Wirblestr&ouml;mungen</li><li>Viskose Str&ouml;mungen, Navier-Stokes-Gleichung</li><li>Grundlagen Grenzschichttheorie</li><li>Turbulente Str&ouml;mungen, Reynolds Averaged NS-Gleichung</li></ul>",
+      "bibliographie": "<p>Kuhlmann: Str&ouml;mungsmechanik<br />White: Fluid Mechanics<br />Bird, Stewart, Lightfood: Transport Phenomena</p>",
+      "empfLehrmittel": "<p>Projektarbeit</p>\n<p>Literaturstudium</p>\n<p>Selbststudium</p>",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird mittels Bericht und Pr&auml;sentation bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 51540,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000192,
+          "name": "Schreiner",
+          "vorname": "Michael"
+        }
+      ]
+    },
+    {
+      "id": 51541,
+      "kuerzel": "VP_1872302",
+      "bezeichnung": "Numerische Strömungsmechanik",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>verstehen die Methode der finiten Volumen.</li><li>k&ouml;nnen str&ouml;mungsmechanische Probleme mit Ansys CFX bzw. OpenFOAM l&ouml;sen</li></ul>",
+      "planinhalt": "<ul><li>Finite Volumen Methode</li><li>Str&ouml;mungssimulation mit Ansys CFX nzw. OpenFOAM</li></ul>",
+      "bibliographie": "<p>Versteeg, Malalasekera: An Introduction to Computational Fluid Dynamics<br />Lecheler: Numerische Str&ouml;mungsberechnung<br />Manuals</p>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>Dieser Kurs wird mittels Fachgespr&auml;ch mit Diskussion und Pr&uuml;fungsfragen bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 51542,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000192,
+          "name": "Schreiner",
+          "vorname": "Michael"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000192,
+      "name": "Schreiner",
+      "vorname": "Michael"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Theory and Simulation of Fluid Mechanics"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2018,
+    "beginSemester": "HS",
+    "endJahr": 2018,
+    "endSemester": "HS"
+  }
+}

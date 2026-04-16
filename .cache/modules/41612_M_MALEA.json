@@ -1,0 +1,197 @@
+{
+  "id": 41612,
+  "kuerzel": "M_MALEA",
+  "bezeichnung": "Machine Learning (WING)",
+  "kreditpunkte": 4,
+  "lernziele": "<p>\"K&uuml;nstliche Intelligenz\" ist derzeit ein dynamisches Gebiet, dem eine hohe Auswirkung auf fast alle<br />Lebensbereiche und insbesondere Branchen der Wirtschaft zugesprochen wird. Von mehr praktischer<br />Relevanz ist das Teilgebiet Machine Learning- jene Disziplin, in der automatisierbare statistische Mittel<br />entwickelt werden, um aus Data Mining zu betreiben, d.h. aus Daten Informationen zu gewinnen. Seit einiger Zeit sind Large Language Models (LLMs) allgemein bekannt und werden vermehrt auch von Leuten eingesetzt, welche keine Programmierkenntnisse haben. In diesem Modul geht es darum, wichtige Konzepte des Machine Learning (ML) nicht nur kennenzulernen, sondern aktiv anzuwenden. Die M&ouml;glichkeiten von Large Language Models wie chatGPT geh&ouml;ren da ebenso dazu wie Neuronale Netze (\"Deep Learning\") im Allgemeinen oder traditionellere ML-Instrumente wie Entscheidungsb&auml;ume. Neben diesen statistischen Modellen im engeren Sinne geht es in diesem Modul haupts&auml;chlich um die Entwicklung praxisnahen Kompetenzen, um Muster in Daten zu erkennen, Modelle zu trainieren (oder ein prompt Engineering durchzuf&uuml;hren) und deren Performanz im Hinblick auf einen konkreten Anwendungsfall zu evaluieren. \"Praxisnah\" bedeutet, dass in einer gemeinsamen Projektarbeit alle wichtigen Aspekte eines Machine Learning Projekts durchgespielt werden: Nach einer Schilderung der Problemsituation und des L&ouml;sungsansatzes (Business Understanding) erarbeiten wir dann (individuell oder im Kollektiv) &uuml;ber 13 Wochen eine L&ouml;sung (Modelling). Abschliessend stellen wir unsere Ergebnisse gemeinsam und in (bewerteten) Einzelpr&auml;sentationen dem Kunden vor (Evaluation).<br />Es besteht Raum f&uuml;r unterschiedliche Niveaus von Programmier-Vorkenntnissen: Ein Basiscode f&uuml;r Bilderkennung in Python ist bereits weit entwickelt und kann auch fast ohne Programmierkenntnisse verwendet werden, auch f&uuml;r LLM-Anwendungen sind Vorlagen vorhanden. Es besteht viel Raum f&uuml;r die individuelle Weiterentwicklung von Programmierkenntnissen aber auch f&uuml;r prompt Engineering sowie f&uuml;r &nbsp;Management-Level Projekt- und Kommunikationsarbeit.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 41613,
+      "kuerzel": "MALEA",
+      "bezeichnung": "Machine Learning (WING)",
+      "lernziele": "<p>Fachkompetenzen:</p>\n<p>Die Teilnehmenden k&ouml;nnen:<br />&bull; Das methodische Vorgehen bei Machine Learning/Knowledge Discovery in Databases (KDD-) Projekten aus eigener Erfahrung erkl&auml;ren.<br />&bull; in allen Phasen eines KDD-Projekts Entscheidungsoptionen nennen und an Hand eigener Erfahrung erl&auml;utern welche Auswirkungen diese haben.&nbsp;<br />&bull; Die Grundz&uuml;ge der wichtigen Klassen von statistischen Verfahren erkl&auml;ren, und intuitiv begr&uuml;ndete Entwicklungsentscheide beim Prototypenbau f&auml;llen</p>\n<p>&nbsp;</p>\n<p>Methodenkompetenzen:</p>\n<p>Die Teilnehmenden k&ouml;nnen:<br />&bull; angeleitet Programmieren und die wichtige Softwareengineeringaufgaben selbst&auml;ndig durchf&uuml;hren<br />&bull; Anforderungen eines Kunden in Anforderungen und Massnahmen f&uuml;r ein KDD-Projekt &uuml;bersetzen<br />&bull; Die Zweckm&auml;ssigkeit von Methoden der Textanalyse und -klassifikationen in konkreten Situationen beurteilen</p>\n<p>&nbsp;</p>\n<p>Selbstkompetenzen:</p>\n<p>Die Teilnehmenden k&ouml;nnen:&nbsp;<br />&bull; den aktuellen Stand eines KDD-Projekts beurteilen und daraus individuelle Massnahmen f&uuml;r das weitere Vorgehen ableiten.&nbsp;<br />&bull; Verantwortung &uuml;bernehmen f&uuml;r Teilfunktionalit&auml;ten in der Erarbeitung einer Data Mining-Software f&uuml;r einen Kunden<br />&bull; eine Deadline zur Produktfinalisierung einhalten</p>\n<p>&nbsp;</p>\n<p>Sozialkompetenzen:</p>\n<p>Die Teilnehmenden k&ouml;nnen:&nbsp;<br />&bull; sich mit Mitstudierenden Abstimmen im Hinblick auf ein gemeinsames Entwicklungsziel<br />&bull; kritisch die Leistung einer Data Mining-L&ouml;sung beurteilen und angemessen (vereinfacht) dem Kunden gegen&uuml;ber darlegen.</p>",
+      "planinhalt": "<p>Die Durchf&uuml;hrung von Machine Learning bzw. KDD-Projekte erfordert nebst fachlichem Wissens und Programmierf&auml;higkeiten mit Data Mining-Werkzeugen insbesondere die F&auml;higkeit, in einem l&auml;ngeren Entwicklungsprozess laufend datenbasiert Kleinstentscheide zu f&auml;llen. Iterativ erstellte Machine Learning Projekte m&uuml;ssen laufend auf die aktuelle Eignung des bestehenden Prototyps, die Ursache eines Programmfehlers oder die Unangemessenheit eines Feature Engineeringentscheids, der Wahl eines Hyperparameterwerts oder der Bedeutung einer Performanzvisualisierung hin analysiert werden, um daraus einen Entscheid f&uuml;r das weitere Vorgehen zu treffen.</p>\n<p>Dieses Modul spielt mit den Studierenden einen Anwendungsfall der Stadt St.Gallen durch, um m&ouml;glichst viele dieser Kleinstkompetenzen im Gesamtkontext eines KDD-Projekts zu beleuchten. Dabei liegt, ausgehend von dem Vorwissen der Studierenden, ein Schwerpunkt auf dem Erwerb von F&auml;higkeiten in der Nutzung von Programmier- und Softwareentwicklungswerkzeugen (Python, git, virtualenv), ein zweiter auf den konzeptionellen Themen des maschinellen Lernens (statistisches Lernen, Overfitting, Spezifika der Phasen des KDD-Prozesses)</p>",
+      "bibliographie": "<p>Pflichtliteratur wie Skript, B&uuml;cher:</p>\n<p>Aur&eacute;lien G&eacute;ron, Praxiseinstieg Machine Learning mit Scikit-Learn, Keras und Tensorflow, O'Reilly, 2020</p>\n<p>&nbsp;</p>\n<p>Weiterf&uuml;hrende Literatur (Empfehlung an Studierende)</p>\n<p>Annalyn Ng, Kenneth Soo, Data Science- was ist das eigentlich?! Springer, 2018</p>",
+      "kurselemente": [
+        {
+          "id": 41614,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 108,
+          "harteGrenze": true
+        },
+        {
+          "id": 41615,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Machine Learning (WING)"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Machine Learning"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10202,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10202_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10272,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10272_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10151,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10151_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 10277,
+      "bezeichnung": "Data Science",
+      "kuerzel": "WING_DaSc",
+      "url": "allStudies/10277_WING_DaSc.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10129,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10129_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 10169,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10169_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 10224,
+      "bezeichnung": "Data Science",
+      "kuerzel": "WING_DaSc",
+      "url": "allStudies/10224_WING_DaSc.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 87941,
+      "name": "Tödtli",
+      "vorname": "Beat"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 39221,
+      "kuerzel": "M_MATH1",
+      "bezeichnung": "Mathematik 1",
+      "url": "allModules/39221_M_MATH1.json"
+    },
+    {
+      "id": 39243,
+      "kuerzel": "M_MATH2",
+      "bezeichnung": "Mathematik 2 ",
+      "url": "allModules/39243_M_MATH2.json"
+    },
+    {
+      "id": 41950,
+      "kuerzel": "M_STATI",
+      "bezeichnung": "Statistik",
+      "url": "allModules/41950_M_STATI.json"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 40020,
+      "kuerzel": "M_APROG",
+      "bezeichnung": "Angewandte Programmierung",
+      "url": "allModules/40020_M_APROG.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Machine Learning (WING)"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Machine Learning (WING)"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2026,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  }
+}

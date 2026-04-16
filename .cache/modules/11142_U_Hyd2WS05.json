@@ -1,0 +1,128 @@
+{
+  "id": 11142,
+  "kuerzel": "U_Hyd2WS05",
+  "bezeichnung": "Hydraulik 2 – Übergangsmodul WS05/06",
+  "kreditpunkte": 2,
+  "lernziele": "<p>&#8226; Bef&#228;higung zur L&#246;sung von hydrodynamischen Problemen</p>",
+  "vorausgKenntnisse": "<p>Hydraulik 1</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10294,
+      "kuerzel": "uHyd2WS5",
+      "bezeichnung": "Hydraulik 2 - Übergang",
+      "lernziele": "<p>&#8226; Verstehen der Grundlagen der Hydrodynamik <br />&#8226; F&#228;higkeit Probleme im Bereich der Gerinnehydraulik zu l&#246;sen. </p>",
+      "planinhalt": "<p>&#8226; Gerinnehydraulik: station&#228;r gleichf&#246;rmiger und ungleichf&#246;rmiger Abfluss, instation&#228;re Str&#246;mungen in offenen Gerinnen, Ausfluss, &#220;berfall und Durchfluss</p>",
+      "kurselemente": [
+        {
+          "id": 10745,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 12393,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Hydraulik 2 - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Hydraulics 2 - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10011,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10011_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10017,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10017_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1031,
+      "name": "Speerli",
+      "vorname": "Jürg"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11142,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Teilnahme an den Labor&#252;bungen und Abgabe eines Laborberichts</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Hydraulik 2 – Übergangsmodul WS05/06"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Hydraulics 2 - Bridging Module WS05/06"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2005,
+    "endSemester": "WS"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "id": 20022,
+  "kuerzel": "M_ELT3",
+  "bezeichnung": "Elektrotechnik 3",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Der Absolvent kennt die Grundlagen der Elektrotechnik&nbsp;und kann sie anwenden. Er ist in der Lage,&nbsp;Wechselstromnetzwerke in ihrem Frequenz- und Schwingverhalten zu berechnen.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 20023,
+      "kuerzel": "ELT3",
+      "bezeichnung": "Elektrotechnik 3",
+      "planinhalt": "<ul>\n    <li>Netzwerke / Schaltelemente unter allgemein zeitabh&auml;ngigen Str&ouml;men und&nbsp;Spannungen: Merkmale, Berechnungsmethoden </li>\n    <li>Netzwerke / Schaltelemente unter sinusoidale Str&ouml;men und Spannungen: komplexe Strom- und Spannungs-Zeigerdiagramme&nbsp;<br />Frequenzverhalten linearer Netzwerke: Impedanz / Admittanz, Betrag und Phase, Ortskurven, Produktform der Frequenzfunktion, einfache / doppelt logarithmische Darstellung, Normierung</li>\n    <li>Schwingverhalten linearer Netzwerke: ohne Anregung mit gespeicherter Energie, mit Anregung zeitabh&auml;ngig und zeitunabh&auml;ngig&nbsp; </li>\n    <li>&nbsp;Resonanzkreise Parallel-Schwingkreis,&nbsp;Serien-Schwingkreis, physikalische Bedeutung der Kreisg&uuml;te, Bandbreite, Verstimmung </li>\n    <li>Reale Bauelemente und ihre Ersatzschaltungen: Widerstand, Kondensator, Spule; G&uuml;te realer Serien- und Parallelschaltungen </li>\n    <li>Filtertechnik: Filtermethoden, LC-Filter, Spezialfilter</li>\n</ul>\n<p>Aenderung vorbehalten<br /></p>",
+      "kurselemente": [
+        {
+          "id": 20024,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 20025,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrotechnik 3"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electtrical Engineering 3"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 139,
+      "name": "Ebneter",
+      "vorname": "Josef"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 20018,
+      "kuerzel": "M_ELT2",
+      "bezeichnung": "Elektrotechnik 2",
+      "url": "allModules/20018_M_ELT2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 20022,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "Testat",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Elektrotechnik 3"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electrical Engineering 3"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2010,
+    "beginSemester": "HS",
+    "endJahr": 2014,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 11116,
+    "kuerzel": "M_EL3",
+    "bezeichnung": "Elektrizitätslehre 3",
+    "url": "allModules/11116_M_EL3.json"
+  },
+  "nachfolger": {
+    "id": 20022,
+    "kuerzel": "M_ELT3",
+    "bezeichnung": "Elektrotechnik 3",
+    "url": "allModules/20022_M_ELT3.json"
+  }
+}

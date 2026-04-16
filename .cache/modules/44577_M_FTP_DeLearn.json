@@ -1,0 +1,131 @@
+{
+  "id": 44577,
+  "kuerzel": "M_FTP_DeLearn",
+  "bezeichnung": "Deep Learning",
+  "kreditpunkte": 3,
+  "lernziele": "siehe: <a href=\"http://www.msengineering.ch/\">http://www.msengineering.ch/</a>&nbsp;",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 44578,
+      "kuerzel": "FTP_DeLearn",
+      "bezeichnung": "Deep Learning",
+      "kurselemente": [
+        {
+          "id": 44579,
+          "art": "Blockkurs",
+          "maxTeilnehmer": 999,
+          "harteGrenze": false
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Deep Learning"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Deep Learning"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10136,
+          "kuerzel": "MSE-ZentMo",
+          "bezeichnung": "MSE Zentrale Module",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10182,
+      "bezeichnung": "Bau und Planung",
+      "kuerzel": "BuP",
+      "url": "allStudies/10182_BuP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10136,
+          "kuerzel": "MSE-ZentMo",
+          "bezeichnung": "MSE Zentrale Module",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9983,
+      "name": "ZZZ Dozent Zentral",
+      "vorname": "Planung"
+    }
+  ],
+  "orte": [
+    {
+      "id": 5,
+      "kuerzel": "MSE-Z",
+      "bezeichnung": "MSE Zürich",
+      "ort": "Zürich"
+    },
+    {
+      "id": 7,
+      "kuerzel": "MSE_Lau",
+      "bezeichnung": "MSE Lausanne",
+      "ort": "Lausanne"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Deep Learning"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Deep Learning"
+    }
+  ],
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2025,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 32037,
+    "kuerzel": "M_TSM_DeLearn",
+    "bezeichnung": "Deep Learning",
+    "url": "allModules/32037_M_TSM_DeLearn.json"
+  }
+}

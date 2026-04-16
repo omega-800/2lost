@@ -1,0 +1,154 @@
+{
+  "id": 14103,
+  "kuerzel": "U_LaPflege",
+  "bezeichnung": "Landschaftspflege - Übergangsmodul",
+  "kreditpunkte": 4,
+  "vorausgKenntnisse": "<p>Lgest1</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 14097,
+      "kuerzel": "uLaPfleg2",
+      "bezeichnung": "Landschaftspflege 2",
+      "lernziele": "<p>- Kenntnis der Verfahren und Projektabl&#228;ufe bei Renaturierungsprojekten<br />- Abstimmung der Konzeption von Baumassnahmen auf Schutz- und<br />&nbsp; Pflegekonzepten kennen lernen</p>",
+      "planinhalt": "<p>Landschaftspflege und Biotopmanagement<br />Verfahren und Kommunikation</p>",
+      "kurselemente": [
+        {
+          "id": 14102,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 14099,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Landschaftspflege 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Landscape Maintenance 2"
+        }
+      ]
+    },
+    {
+      "id": 14098,
+      "kuerzel": "uLaBau2",
+      "bezeichnung": "Technik im Landschaftsbau 2",
+      "lernziele": "<p>- Einsatz landschaftbaulicher Technik im Kontext mit Renaturierungsmassnahmen<br />- Umgang mit Bauweisen und Materialien im Landchaftsbau kennen lernen</p>",
+      "planinhalt": "<p>Projektierung von Ausgleichs- und Ersatzmassnahmen; gestalterische, <br />technische und bauliche Umsetzung der &#246;kologischen Ziele<br />Spezielle Pflanzenverwendung bei Renaturierungsmassnahmen,<br />insbesondere unter dem Gesichtspunkt der Sukkzession<br />Grundz&#252;ge von Ausschreibungen bei Renaturierungsprojekten<br />Anwendung von Bauweisen und deren Abstimmung auf die <br />Schutzgebiet bezogenen Anforderungen (z.B. Abdichtungen,<br />Saaten, Ingenieurbiologie, etc.)</p>",
+      "kurselemente": [
+        {
+          "id": 14100,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 14101,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Technik im Landschaftsbau 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Engineering in Landscape Construction 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10008,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10008_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10019,
+          "kuerzel": "L-p",
+          "bezeichnung": "Profilmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10014,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10014_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 246,
+      "name": "Kleiner",
+      "vorname": "Joachim"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 14103,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 80,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testate der &#220;bungen</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Landschaftspflege - Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Landscape Maintenance - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2005,
+    "endSemester": "WS"
+  }
+}

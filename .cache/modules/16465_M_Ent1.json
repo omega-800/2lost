@@ -1,0 +1,190 @@
+{
+  "id": 16465,
+  "kuerzel": "M_Ent1",
+  "bezeichnung": "Energietechnik 1",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Kennt die energetischen Zusammenh&auml;nge in der Schweiz.</li>\n    <li>Kann Energiesysteme bilanzieren.</li>\n</ul>\n<p>------------------</p>\n<ul>\n    <li>Kennt, berechnet und konstruiert W&auml;rmeaustauscher inklusive Verdampfer und Kondensatoren<br /></li>\n</ul>",
+  "vorausgKenntnisse": "<p>Technische Mechanik 1&nbsp;- 3<br />Physik 2&nbsp; <br /></p>\n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 16466,
+      "kuerzel": "EnSzCH",
+      "bezeichnung": "Energieszene Schweiz",
+      "lernziele": "<p>- Kennt die Energietr&#228;ger und deren Anwendung in der Schweiz.<br />- Kennt die Aspekte der regenerativen Energie inkl. Wasserkraft.<br />- Kennt die Vorg&#228;nge in einem Kernkraftwerk: atomare<br />&nbsp;&nbsp;Energieerzeugung, Reaktorsteuerung und Strahlenschutz.</p>",
+      "planinhalt": "<p><strong>Einf&uuml;hrung:</strong>&nbsp; <br />Physikalische Arten von Energie, Energie-Umwandlungen und deren Wirkungsgrade, <br />W&auml;rme-Kraft-Koppelungen; <br />Prim&auml;renergie, Endenergie, Nutzenergie. <br />Energieflussdiagramm der Schweiz und historische Entwickung der Energiesituation der Schweiz.</p>\n<p><strong>Energiesektoren:</strong></p>\n<ol>\n    <li>Fossile Brennstoffe: Gewinnung und Aufbereitung, Verteilungssysteme, CO2-Problematik, Ressourcensituation</li>\n    <li>Kerntechnik: Kernspaltung, Kernreaktor-Systeme, Strahlungsschutz, Abfallproblematik</li>\n    <li>Regenerative Energien: Wasserkraft, Biomasse, Geothermie, Solarthermie, Photovoltaik, Wind<br /><br /></li>\n</ol>",
+      "kurselemente": [
+        {
+          "id": 16467,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Energieszene Schweiz"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Status of Energy Situation in Switzerland/ Technologies of energy in Switzerland"
+        }
+      ]
+    },
+    {
+      "id": 16469,
+      "kuerzel": "EntApp",
+      "bezeichnung": "Energietechnische Apparate und Anlagen",
+      "lernziele": "<ul>\n    <li>Kennt, berechnet und konstruiert W&auml;rmetauscher inklusive Verdampfer und Kondensatoren </li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Energiebilanz eines W&auml;rmetauschers, Grundgleichungen </li>\n    <li>W&auml;rmetauscherarten, Aspekte der Konstruktion </li>\n    <li>Schaltungen der W&auml;rmetauscher, NTU-P1/P2-Methode </li>\n    <li>Berechnung des W&auml;rmedurchganges, dimensionslose Gleichungen </li>\n    <li>Verdampfer und Kondensatoren, Rippenrohre </li>\n    <li>Armaturen zum Betrieb, Regelung </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 16470,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Energietechnische Apparate und Anlagen"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Equipment Design in Energy Technology "
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 251,
+      "name": "Kopp",
+      "vorname": "Thomas"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 16465,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Energietechnik 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Energy Engineering 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2007,
+    "beginSemester": "HS",
+    "endJahr": 2011,
+    "endSemester": "HS"
+  }
+}

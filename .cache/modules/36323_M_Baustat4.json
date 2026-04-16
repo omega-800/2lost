@@ -1,0 +1,217 @@
+{
+  "id": 36323,
+  "kuerzel": "M_Baustat4",
+  "bezeichnung": "Baustatik 4",
+  "kreditpunkte": 4,
+  "lernziele": "<ul><li>Sichere Anwendung der Verformungsmethode</li><li>Kompetenz in der praxisgerechten Modellierung bautypischer Tragwerke</li><li>Sicherheit in der Interpretation von Berechnungsergebnissen und F&auml;higkeit zur Plausibilit&auml;tskontrolle</li></ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 36319,
+      "kuerzel": "DreWi",
+      "bezeichnung": "Drehwinkelverfahren",
+      "lernziele": "<p>Einfache, statisch unbestimmte Stabtragwerke k&ouml;nnen mit der Verformungsmethode gel&ouml;st werden</p>",
+      "planinhalt": "<ul><li>Herleitung der Element-Steifigkeitsbeziehungen (Steifigkeitsmatrix)</li><li>Anwendung der Verformungsmethode an verschiedenen Beispielen</li></ul>",
+      "kurselemente": [
+        {
+          "id": 36317,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 36318,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Drehwinkelverfahren"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Rotation Angel Method"
+        }
+      ]
+    },
+    {
+      "id": 36322,
+      "kuerzel": "FEM_B",
+      "bezeichnung": "Finite Elemente Methode ",
+      "lernziele": "<p>&#8226; Verstehen der Grundbegriffe <br />&#8226; Einblick in Arbeitsweise und Anwendung der Finite Elemente (FE) -Methode <br />&#8226; Einsicht in M&#246;glichkeiten und Grenzen der FE-Simulationen <br />&#8226; &#220;bersicht &#252;ber die strukturmechanischen Eigenschaften typischer Tragwerke (Balken, St&#228;be, Platten, Schalen, Membranen etc.) bzw. entsprechender Finiter Elemente <br />&#8226; F&#228;higkeit einer aufgabengerechten Modellbildung und Idealisierung <br />&#8226; F&#228;higkeit ein FE-Programm bei praktischen baustatischen Problemstellungen anzuwenden <br />&#8226; Beherrschen der Schritte einer erfolgreichen Simulation sowie der Auswertung, Darstellung und kritischen Interpretation der Ergebnisse </p>",
+      "planinhalt": "<p>&bull; &Uuml;bersicht<br />&bull; Grundlagen<br />&bull; Diskussion von Fallbeispielen<br />&bull; Modellierungsprozess<br />&bull; Finite Elemente als Ersatz f&uuml;r elastische Strukturelemente<br />&bull; Drehwinkelverfahren<br />&bull; Ursachen von Fehlern bei der Modellierung und Berechnung<br />&bull; M&ouml;glichkeiten zur &Uuml;berpr&uuml;fung und Interpretation der Ergebnisse<br />&bull; &Uuml;bungen:<br />&nbsp;&nbsp; o Stabstatik, Platten, Flachdecken, Scheiben, Simulation von Unterz&uuml;gen, Gelenklinien etc.<br />&nbsp;&nbsp; o Handrechnungen, typische Lastfallkombinationen, Berechnung &ldquo;von oben nach unten&ldquo;, Bewehrung</p>",
+      "kurselemente": [
+        {
+          "id": 36321,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Finite Elemente Methode "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Finite Element Method"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10005,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10005_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10109,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10109_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10131,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10131_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5010785,
+      "name": "Marković",
+      "vorname": "Ivan"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 26876,
+      "kuerzel": "M_Beton2",
+      "bezeichnung": "Betonbau 2: Gebrauchstauglichkeit, Platten und Decken",
+      "url": "allModules/26876_M_Beton2.json"
+    },
+    {
+      "id": 28471,
+      "kuerzel": "M_Baustat3",
+      "bezeichnung": "Baustatik 3",
+      "url": "allModules/28471_M_Baustat3.json"
+    },
+    {
+      "id": 37664,
+      "kuerzel": "M_Beton1",
+      "bezeichnung": "Betonbau 1",
+      "url": "allModules/37664_M_Beton1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 36323,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat gem&auml;ss Semesterplan</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Baustatik 4"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Structural Analysis 4"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2020,
+    "beginSemester": "FS",
+    "endJahr": 2020,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 26868,
+    "kuerzel": "M_Baustat4",
+    "bezeichnung": "Baustatik 4",
+    "url": "allModules/26868_M_Baustat4.json"
+  }
+}

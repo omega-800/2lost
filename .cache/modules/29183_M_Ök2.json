@@ -1,0 +1,161 @@
+{
+  "id": 29183,
+  "kuerzel": "M_Ök2",
+  "bezeichnung": "Ökologie 2",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Lernziele Siedlungs&ouml;kologie:<br />F&auml;higkeit zur Absch&auml;tzung des Energiebedarfs f&uuml;r Bauten und Quartiere sowie zur Beurteilung von Haustechnikkonzepten; Grundlagen im Bereich der Luftreinhaltung. </p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 29184,
+      "kuerzel": "EU2",
+      "bezeichnung": "Energie und Umwelt 2",
+      "lernziele": "<p>F&auml;higkeit zur Absch&auml;tzung des Energiebedarfs f&uuml;r Bauten und Quartiere sowie zur Beurteilung von Haustechnikkonzepten; F&auml;higkeit zur Umsetzung energetischer Anliegen mit Instrumenten der Raumplanung</p>",
+      "planinhalt": "<p>Grundlagen Haustechnik, Heizungsdimensionierungen <br />K&uuml;nftige Entwicklungen im Geb&auml;udebereich <br />Energieversorgung M&ouml;glichkeiten und Grenzen <br />Energieversorgung im Quartier <br />Energieversorgung in der Gemeinde <br />Eidgen&ouml;ssisches und kantonales Energierecht, energetische Nachweise im Rahmen des Baubewilligungsverfahrens <br />Energie und Mobilit&auml;t<br />Energieplanung f&uuml;r Gemeinden und Regionen<br />Energie und Raumplanung</p>",
+      "kurselemente": [
+        {
+          "id": 29185,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Energie und Umwelt 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Energy and Environment"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10041,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10041_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10097,
+          "kuerzel": "R_uö",
+          "bezeichnung": "Umwelt und Ökologie",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10123,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10123_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10097,
+          "kuerzel": "R_uö",
+          "bezeichnung": "Umwelt und Ökologie",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10142,
+      "bezeichnung": "Stadt-, Verkehrs- und Raumplanung ",
+      "kuerzel": "SVR",
+      "url": "allStudies/10142_SVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10097,
+          "kuerzel": "R_uö",
+          "bezeichnung": "Umwelt und Ökologie",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10201,
+      "bezeichnung": "Stadt-, Verkehrs- und Raumplanung",
+      "kuerzel": "SVR",
+      "url": "allStudies/10201_SVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 529046,
+      "name": "Kytzia",
+      "vorname": "Susanne"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 29183,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Ökologie 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Ecology 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2017,
+    "beginSemester": "HS",
+    "endJahr": 2020,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 23850,
+    "kuerzel": "M_Öko2",
+    "bezeichnung": "Ökologie 2",
+    "url": "allModules/23850_M_Öko2.json"
+  },
+  "nachfolger": {
+    "id": 29183,
+    "kuerzel": "M_Ök2",
+    "bezeichnung": "Ökologie 2",
+    "url": "allModules/29183_M_Ök2.json"
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "id": 20045,
+  "kuerzel": "M_MaTecM1",
+  "bezeichnung": "Materialtechnologie 1",
+  "kreditpunkte": 5,
+  "lernziele": "<p>Kenntnisse: <br />- des Grundaufbaus der verschiedenen Werkstoffearten <br />- Grundeigenschaften im &Uuml;berblick der verschiedenen Werkstoffarten <br />- Selbst&auml;ndiges Durchf&uuml;hren der wichtigsten mechanischen Werkstoffpr&uuml;fungen:&nbsp;<br />&nbsp; der wichtigsten Eigenschaften der Werkstoffarten <br />&nbsp; der W&auml;rmebehandlung der St&auml;hle&nbsp;</p>\n<p>Kompetenz:<br />F&auml;higkeit einer sachbezogenen Werkstoffwahl </p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 20046,
+      "kuerzel": "Werks1",
+      "bezeichnung": "Werkstoffkunde 1",
+      "lernziele": "<p>Kenntnisse:<br />- des Aufbaus der verschiedenen Werkstoffarten<br />- Eigennschaften im &Uuml;berblick der verschiedenen Werkstoffarten<br />- Selbst&auml;ndiges Durchf&uuml;hren der wichtigsten mechanischen Werkstoffpr&uuml;fungen:<br />&nbsp; der wichtigsten Eigenschaften der Metalle&nbsp;<br />&nbsp; der W&auml;rmebehandlung der St&auml;hle <br />- wichtiger Oberfl&auml;chenbehandlungen metallischer Werkstoffe<br />- zur Schadensanalytik: Korrosion, Verschleiss- und Bruchmechanismen<br /></p>",
+      "planinhalt": "<p>Struktureller Aufbau der Werkstoffe<br />Legierungskunde der Metalle</p>\n<p>Verhalten und Eigenschaften der verschiedenen Metalle<br />Mechanische Eigenschaften und mechanische Werkstoffpr&uuml;fung<br />St&auml;hle / Nichteisenmetalle<br />Spezifische Verarbeitungsmerkmale der metallischen Werkstoffe<br />Oberfl&auml;chenbehandlung metallischer Werkstoffe<br />Schadensanalyse, Schadensmechanismen, Schadenverh&uuml;tung</p>",
+      "kurselemente": [
+        {
+          "id": 20047,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        },
+        {
+          "id": 20048,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Werkstoffkunde 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Materials Science 1"
+        }
+      ]
+    },
+    {
+      "id": 20052,
+      "kuerzel": "FerVer",
+      "bezeichnung": "Fertigungsverfahren ",
+      "lernziele": "&Uuml;berblick &uuml;ber die Fertigungsverfahren als Grundlage f&uuml;r Entscheidungen und die Auswahl im&nbsp;Entwicklungsalltag und im Einkauf&nbsp;",
+      "planinhalt": "<p>Urformen:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Giessen, Sintern<br />Umformen:&nbsp;&nbsp;&nbsp;&nbsp; Biegen, Pressen, Schmieden, Tiefziehen<br />Trennen:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stanzen, Nibbeln, Schneiden (Wasser, Plasma, Laser)<br />Verbinden:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schweissen, Kleben, L&ouml;ten<br />Zerspanen:&nbsp;&nbsp;&nbsp;&nbsp; Bohren, Drehen, Fr&auml;sen, Schleifen<br />Beschichten:&nbsp;&nbsp; Eloxieren, Verzinken<br />Kunststoffe:&nbsp;&nbsp;&nbsp;Spritzgiessen, Niederdruckteile, faserverst&auml;rkte Teile, Sch&auml;umen</p>\n<p>Konstruktive Grundlagen und M&ouml;glichkeiten der&nbsp;einzelnen Verfahren<br />Prototyping<br />Kalkulation</p>\n&nbsp;",
+      "kurselemente": [
+        {
+          "id": 20053,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Fertigungsverfahren"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Production Process"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 10242,
+      "bezeichnung": "Kunststofftechnik",
+      "kuerzel": "M-I-KS",
+      "url": "allStudies/10242_M-I-KS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 537056,
+      "name": "Schwendemann",
+      "vorname": "Daniel"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 20045,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 150,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>E-Learning-Modul zur Vor- und Nachbereitung der Praktika bestanden</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Materialtechnologie 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Materials Technology 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2010,
+    "beginSemester": "HS",
+    "endJahr": 2023,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 20045,
+    "kuerzel": "M_MaTecM1",
+    "bezeichnung": "Materialtechnologie 1",
+    "url": "allModules/20045_M_MaTecM1.json"
+  }
+}

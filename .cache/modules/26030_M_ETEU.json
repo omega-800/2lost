@@ -1,0 +1,154 @@
+{
+  "id": 26030,
+  "kuerzel": "M_ETEU",
+  "bezeichnung": "Elektrotechnik (EEU)",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Grundlagen und Berechnungsverfahren der Gleich-, Wechsel- und Drehstromtechnik</li>\n    <li>Analyse und Auslegung von elektrischen Schaltungen und Netzen</li>\n    <li>Messen elektrischer Gr&ouml;ssen</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 26034,
+      "kuerzel": "ETEU",
+      "bezeichnung": "Grundlagen Elektrotechnik",
+      "lernziele": "<ul>\n    <li>Grundlagen und Berechnungsverfahren der Gleich-, Wechsel- und Drehstromtechnik </li>\n    <li>Analyse und Auslegung von elektrischen Schaltungen und Netzen </li>\n    <li>Messen elektrischer Gr&ouml;ssen </li>\n</ul>",
+      "planinhalt": "<ol>\n    <li>Sicherheit im Umgang mit der Elektrizit&auml;t (Personenschutz, Anlagenschutz, Vorschriften) </li>\n    <li>Gleichstromtechnik&nbsp;&nbsp;&nbsp; <br />- Grundbegriffe: elektrischer Strom und elektrische Spannung, elektrischer <br />&nbsp; Widerstand,&nbsp;&nbsp;elektrische Leistung<br />- Kondensator und Induktivit&auml;t, Schaltvorg&auml;nge&nbsp;&nbsp;&nbsp; <br />- Kirchhoff'sche Gesetze und Berechnungsverfahren der Gleichstromschaltungen </li>\n    <li>Wechselstromtechnik&nbsp;&nbsp;&nbsp; <br />- Grundbegriffe: Periodendauer und Frequenz, Mittel-, Scheitel- und Effektivwerte,&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;Phasenverschiebungen, Formfaktoren&nbsp;&nbsp;&nbsp; <br />- Darstellung von Wechselgr&ouml;ssen: Liniendiagramme, Zeigerdiagramme, <br />&nbsp; Frequenzgang&nbsp;&nbsp;&nbsp; <br />- Komplexe Berechnung von Wechselgr&ouml;ssen&nbsp;&nbsp;&nbsp;<br />- Verbraucher im Wechselstromnetz: Berechnung, Schaltung und Kompensation&nbsp;&nbsp;&nbsp; <br />- Leistungen im Wechselstromsystem </li>\n    <li>Drehstromsystem&nbsp;&nbsp;&nbsp;<br />- Entstehung, Begr&uuml;ndung, Eigenschaften&nbsp;&nbsp;&nbsp; <br />- Verketten der Str&ouml;me bzw. Spannungen&nbsp;&nbsp;&nbsp; <br />- Drei- und Vierleiternetze&nbsp;&nbsp;&nbsp; <br />- Anwendungen der Stern- und Dreieckschaltung&nbsp;&nbsp;&nbsp; <br />- Leistungen im Drehstromsystem&nbsp;&nbsp;&nbsp; <br />- Blindstromkompensation im Drehstromnetz </li>\n</ol>\n<p>&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 26035,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 120,
+          "harteGrenze": true
+        },
+        {
+          "id": 26036,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 26037,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Grundlagen Elektrotechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electrical Engineering Basics"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 540047,
+      "name": "Smajic",
+      "vorname": "Jasmin"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 26030,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "Teilnahme und erfolgreiche Bearbeitung von 5 von 6 Praktikumsversuchen (Testat)",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Elektrotechnik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electrical Engineering 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2015,
+    "beginSemester": "HS",
+    "endJahr": 2015,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 26030,
+    "kuerzel": "M_ETEU",
+    "bezeichnung": "Elektrotechnik (EEU)",
+    "url": "allModules/26030_M_ETEU.json"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "id": 47478,
+  "kuerzel": "M_VP_12809",
+  "bezeichnung": "Elektronische Systeme II b",
+  "kreditpunkte": 15,
+  "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen eine elektronische Schaltung nach Funktionen entwerfen.</li>\n    <li>k&ouml;nnen die Funktion einer Schaltung verifizieren.</li>\n    <li>k&ouml;nnen die Funktion einer Schaltung durch Simulation absichern.</li>\n    <li>k&ouml;nnen die Architektur der eingebettete Software entwerfen.</li>\n    <li>k&ouml;nnen die Architektur der eingebetteten Software implementieren.</li>\n    <li>kennen die wesentlichen EMV-Grundlagen und -Prinzipien.</li>\n    <li>kennen der wirksamsten Massnahmen und Grundregeln beim Schaltungsdesign und der Grenzen ihrer Wirkung.</li>\n    <li>k&ouml;nnen das Gelernten auf praktische Probleme anwenden.</li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 47479,
+      "kuerzel": "VP_1280901",
+      "bezeichnung": "Design von elektronischen Schaltungen",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen eine elektronische Schaltung nach Funktionen entwerfen.</li>\n    <li>k&ouml;nnen die Funktion einer Schaltung verifizieren.</li>\n    <li>k&ouml;nnen die Funktion einer Schaltung durch Simulation absichern.</li>\n    <li>k&ouml;nnen die Architektur der eingebettete Software entwerfen.</li>\n    <li>k&ouml;nnen die Architektur der eingebetteten Software implementieren.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Hardwareentwicklung </li>\n    <li>Softwareentwicklung </li>\n</ul>",
+      "bibliographie": "<p>Lastenheft / Spezifikation,<br />Datenbl&auml;tter, Application Notes und <br />Fachliteratur</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>W&auml;hrend des Semesters wird das Projekt mittels des technischen Berichts mit eventueller Ver&ouml;ffentlichung oder Mitarbeit an Ver&ouml;ffentlichungen bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 47480,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000096,
+          "name": "Heinzelmann",
+          "vorname": "Andreas"
+        }
+      ]
+    },
+    {
+      "id": 47481,
+      "kuerzel": "VP_1280902",
+      "bezeichnung": "Elektromagnetische Verträglichkeit",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>kennen die wesentlichen EMV-Grundlagen und -Prinzipien.</li>\n    <li>kennen der wirksamsten Massnahmen und Grundregeln beim Schaltungsdesign und der Grenzen ihrer Wirkung.</li>\n    <li>k&ouml;nnen das Gelernten auf praktische Probleme anwenden.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>EMV-Grundlagen (Frequenz und Zeitbetrachtungen, Kopplungsmechanismen)</li>\n    <li>St&ouml;rquellen: relevante Gr&ouml;ssen der St&ouml;rquellen</li>\n    <li>EMV-Massnahmen (Mechanismen, praktische Grenzen): Abschirmung, Filter, Entkopplung, Blitz- und &Uuml;berspannungsschutz</li>\n    <li>Designmassnahmen: EMV-Schaltungsdesign, Entflechtung, Platzierung, Stromf&uuml;hrung, Schaltungselemente und kritische Diskussion der Massnahmen</li>\n    <li>EMV-Messtechnik: Normengerechte Messungen, alternative Messmethoden und deren Bedeutung und Grenzen</li>\n    <li>Fallstudien</li>\n    <li>Ausblick auf verwandte Gebiete wie Bioelektromagnetismus und Informatiksicherheit</li>\n</ul>",
+      "bibliographie": "<p>Fachliteratur</p>",
+      "empfLehrmittel": "<p>Vorlesung</p>\n<p>&Uuml;bungen</p>\n<p>Selbststudium</p>",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>W&auml;hrend des Semesters wir eine Pr&uuml;fung durchgef&uuml;hrt.</p>",
+      "kurselemente": [
+        {
+          "id": 47482,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000096,
+          "name": "Heinzelmann",
+          "vorname": "Andreas"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000096,
+      "name": "Heinzelmann",
+      "vorname": "Andreas"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 47182,
+      "kuerzel": "M_VP_11705",
+      "bezeichnung": "Elektronische Systeme II a",
+      "url": "allModules/47182_M_VP_11705.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 2,
+      "kuerzel": "WSG",
+      "bezeichnung": "Waldau St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electronic Systems II b"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2012,
+    "beginSemester": "FS",
+    "endJahr": 2012,
+    "endSemester": "FS"
+  }
+}

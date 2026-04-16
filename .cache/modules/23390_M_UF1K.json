@@ -1,0 +1,160 @@
+{
+  "id": 23390,
+  "kuerzel": "M_UF1K",
+  "bezeichnung": "Unternehmensführung 1 (Kern)",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>&nbsp;Vermittlung von Grundwissen zur Betriebswirtschaft</li>\n</ul>",
+  "vorausgKenntnisse": "keine",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 23391,
+      "kuerzel": "BWLK_L",
+      "bezeichnung": "Betriebswirtschaftslehre",
+      "lernziele": "<ul>\n    <li>haben grundlegende Kenntnisse aus den Bereichen: Strategie/Organisation/Personalwesen/F&uuml;hrung/Haftung (Baugarantie)/Bauhandwerkerpfandrecht/Finanzierung</li>\n    <li>kennen die Zusammenh&auml;nge der dopppelten Buchf&uuml;hrung und der Bilanierung; k&ouml;nnen diese am konkreten Beispiel korrekt anwenden</li>\n    <li>k&ouml;nnen einen Investitionsrechnung korrekt durchf&uuml;hren</li>\n    <li>k&ouml;nnen die Finanz- und Liquidit&auml;tsplanung korrekt durchf&uuml;hren</li>\n</ul>",
+      "planinhalt": "<ol>\n    <li>Einleitung: Branche/Struktur/Unternehmen als komplexes System (ganzheitlicher Ansatz)</li>\n    <li>Strategie: Definition/Strategieentwicklung/Vision/Leitbild/Markt- und Wettbewerbsstrategie</li>\n    <li>Organisation: Definition/Sichtweisen/Aufbau- und Ablauforganisation/Aufgabe-Kompetenz-Verantwortung/Stellenbeshcreibung/Qualit&auml;t und Prozessverbesserung/KVP/Organisationsgestaltung</li>\n    <li>Personalwesen: EAV/GAV/ArbG/UVG/Lohnregulativ/Sozialversicherungen</li>\n    <li>F&uuml;hrung: Definition/Aufgaben/Ebenen/F&uuml;hren und Macht/F&uuml;hrungsperson/Menschenbild/F&uuml;hrungserfolg/Stile/Management by..Konzepte/Motive und Anreize</li>\n    <li>Haftung und Baugarantie: Haftungsgr&uuml;nde/Rechtsfolgen/Baugarantie/SIA 118; Hinweis Nr. 12</li>\n    <li>Bauhandwerkerpfandrecht</li>\n    <li>Finanzierung: Innen-/Aussenfinanzierung/Leasing vs. Miete/Kauf/Debitorenmanagement</li>\n    <li>Einf&uuml;hrung in das Finanzielle Rechnungswesen: Bilanz und Erfolgsrechnung</li>\n    <li>System der Doppelten Buchf&uuml;phrung: Kontenrahmen/Kontenplan</li>\n    <li>Zahluingsverkehr, Warn- und Materialkonten; Eigenkaptialkonten</li>\n    <li>Jahresabschluss/Bilanz- und Erfolgsanalyse</li>\n    <li>Investitionsrechnung</li>\n    <li>Finanz- und Liquidit&auml;tsplanung</li>\n</ol>",
+      "kurselemente": [
+        {
+          "id": 23392,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 23393,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Betriebswirtschaftslehre"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Business Management"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10002,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10002_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10073,
+      "bezeichnung": "Landschaftsbau- und Management",
+      "kuerzel": "LaBau",
+      "url": "allStudies/10073_LaBau.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 32,
+      "name": "Stadelwieser",
+      "vorname": "Jürg"
+    }
+  ],
+  "mengen": [
+    {
+      "id": 5,
+      "name": "Aequivalenz",
+      "dModMengeArt": 5701,
+      "module": [
+        {
+          "id": 18358,
+          "kuerzel": "M_UF1",
+          "bezeichnung": "Unternehmensführung 1 (Profil)",
+          "url": "allModules/18358_M_UF1.json"
+        },
+        {
+          "id": 22643,
+          "kuerzel": "M_UF1K",
+          "bezeichnung": "Unternehmensführung 1 (Kern)",
+          "url": "allModules/22643_M_UF1K.json"
+        },
+        {
+          "id": 23390,
+          "kuerzel": "M_UF1K",
+          "bezeichnung": "Unternehmensführung 1 (Kern)",
+          "url": "allModules/23390_M_UF1K.json"
+        },
+        {
+          "id": 23394,
+          "kuerzel": "M_UF1",
+          "bezeichnung": "Unternehmensführung 1",
+          "url": "allModules/23394_M_UF1.json"
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 23390,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Unternehmensführung 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Management 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2014,
+    "beginSemester": "FS",
+    "endJahr": 2015,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 22643,
+    "kuerzel": "M_UF1K",
+    "bezeichnung": "Unternehmensführung 1 (Kern)",
+    "url": "allModules/22643_M_UF1K.json"
+  }
+}

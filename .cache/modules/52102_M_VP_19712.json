@@ -1,0 +1,229 @@
+{
+  "id": 52102,
+  "kuerzel": "M_VP_19712",
+  "bezeichnung": "Multiphysik-Modellierung und Simulation",
+  "kreditpunkte": 18,
+  "lernziele": "<p>Die Studierenden</p><ul><li>sind in der Lage statische und transiente Strukturmechanik-Probleme mit eine FEM-Sovler (z.B. Ansys) durchzuf&uuml;hren und auszuwerten.</li><li>sind in der Lage die Dynamik von Mehrk&ouml;rpersystemen mit Hilfe der Methode der virtuellen Arbeit zu modellieren, d.h. die Steifigkeits-, Masse- und D&auml;mpfungsmatrizen f&uuml;r gekoppelte Systeme herzuleiten.</li><li>sind in der Lage die Schwingungsgleichung von Mehrk&ouml;rpersystemen (ohne Kontaktprobleme) numerisch f&uuml;r verschiedene Anfangs- und Randbedingungen zu integrieren und die Resultate mit einem Mehrk&ouml;rper-Solver wie z.B. Simpack zu vergleichen.</li><li>k&ouml;nnen Mehrk&ouml;rpersysteme und nicht-lineare, Feder-D&auml;mpfer-Modelle als Knotenmodelle an das FEM-Modell koppeln und diese Modelle berechnen.</li><li>sind in der Lage, verschiedene Untergrundmodelle f&uuml;r die Modellierung von Bahntrassen in ANSYS zu implementieren, deren Einfluss auf die Schwellenbewegung und die vertikale Auslenkung der Schiene zu berechnen.</li><li>sind in der Lage, englische Fachpublikationen und Paper zu lesen, deren Inhalte nachzuvollziehen und umzusetzen.</li></ul>",
+  "vorausgKenntnisse": "<p>Bachelor of Science in Systemtechnik</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 52103,
+      "kuerzel": "VP_1971201",
+      "bezeichnung": "Multiphysik-Modellierung und Simulation",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>sind in der Lage statische und transiente Strukturmechanik-Probleme mit eine FEM-Sovler (z.B. Ansys) durchzuf&uuml;hren und auszuwerten.</li><li>sind in der Lage die Dynamik von Mehrk&ouml;rpersystemen mit Hilfe der Methode der virtuellen Arbeit zu modellieren, d.h. die Steifigkeits-, Masse- und D&auml;mpfungsmatrizen f&uuml;r gekoppelte Systeme herzuleiten.</li><li>sind in der Lage die Schwingungsgleichung von Mehrk&ouml;rpersystemen (ohne Kontaktprobleme) numerisch f&uuml;r verschiedene Anfangs- und Randbedingungen zu integrieren und die Resultate mit einem Mehrk&ouml;rper-Solver wie z.B. Simpack zu vergleichen.</li><li>k&ouml;nnen Mehrk&ouml;rpersysteme und nicht-lineare, Feder-D&auml;mpfer-Modelle als Knotenmodelle an das FEM-Modell koppeln und diese Modelle berechnen.</li><li>sind in der Lage, verschiedene Untergrundmodelle f&uuml;r die Modellierung von Bahntrassen in ANSYS zu implementieren, deren Einfluss auf die Schwellenbewegung und die vertikale Auslenkung der Schiene zu berechnen.</li><li>sind in der Lage, englische Fachpublikationen und Paper zu lesen, deren Inhalte nachzuvollziehen und umzusetzen.</li></ul>",
+      "planinhalt": "<p>Die obigen Ziele werden anhand von praktischen Aufgabenstellungen erarbeitet, beispielsweise:</p><ul><li>Entwickeln eines 3D-FEM-Modells zur Berechnung der Schwellen- und Schienenbewegung.</li><li>Implementieren von nicht-linearen und viskoelastischen Feder-D&auml;mpfer-Elementen als Untergrundmodelle.</li><li>Modellierung eines Mehrk&ouml;rpersystems f&uuml;r einen Bahnwaggon und numerische Integration der Bewegungsgleichungen f&uuml;r verschiedene Anfangs- und Randbedingungen.</li><li>Validierung des Modells mittels Simpack.<br />&nbsp;</li></ul>",
+      "bibliographie": "<p>[1.]&nbsp;Nguyen K. et al.: Comparison of dynamic effects of high-speed traffic load on ballasted track using a simplified two-dimensional and full three-dimensional model, Proc IMechE Part F:J Rail and Rapid Transit 2014, Vol 228(2) 128&ndash;142<br />[2.]&nbsp;Geoffry A. Hunt: Dynamic Analysis of Railway vehicle/track interaction forces, Doctoral Thesis, Loughborough University of Technology, June 1986<br />[3.]&nbsp;Xiaoyan Lei: High Speed Railway Dynamics, Models, Algorithms and Applications, Springer Nature Singapore, ISBN 978-981-10-2039-1, (2017)<br />[4.]&nbsp;Renguang Dong: Vertical Dynamics of Railway Vehicle Track System, Thesis, Dep. Of Mechanical Engineering, Concordia University, Montreal, Quebec, Canada (1994)<br />[5.]&nbsp;Renguang Dong et al.: A finite element model of railway track and its application to the wheel flat problem, Proc. Instn Mech Engrs, Vol 208 (1994)<br />[6.]&nbsp;L. Auersch: Dynamic interaction of various beams with the underlying soil - finite and infinite, half-space and Winkler models, European Journal of Mechanics A/Solids 27 (2008) 933&ndash;958<br />[7.]&nbsp;P. Galvin et al.: Fully three-dimensional analysis of high-speed train&ndash;track&ndash;soil-structure dynamic interaction, Journal of Sound and Vibration 329 (2010) 5147&ndash;5163<br />[8.]&nbsp;Dinh-Van Nguyen et al.: Simulation procedure for vehicle &ndash; substructure dynamic interactions and wheel movements using linearized wheel&ndash;rail interfaces, Finite Elements in Analysis and Design 45 (2009) 341-356.</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>Der Kurs &quot;Multiphysik-Modellierung und Simulation&ldquo; sowie der Kurs &quot;Fortgeschrittene Python Programmierung&ldquo; werden gemeinsam mittels Bericht und einer Pr&auml;sentation bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 52104,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002668,
+          "name": "Würsch",
+          "vorname": "Christoph"
+        }
+      ]
+    },
+    {
+      "id": 52105,
+      "kuerzel": "VP_1971202",
+      "bezeichnung": "Fortgeschrittene Python Programmierung",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>sind in der Lage, rechenintensive wissenschaftliche Berechnungen in Python effizient und sauber strukturiert (objektorientiert) zu programmieren.</li><li>sind in der Lage, einen Code zu debuggen und eine Testsuite f&uuml;r diesen Code zu schreiben (Unit-Tests).</li><li>sind in der Lage, Python Code effizient und sauber zu dokumentieren.</li><li>sind in der Lage, die G&uuml;ltigkeit der simulierten Ergebnisse zu beurteilen.</li><li>sind in der Lage, die simulierten Ergebnisse mit Messdaten zu vergleichen, abzugleichen (Parameter-Fit) und zu beurteilen.</li></ul>",
+      "planinhalt": "<p>Die obigen Ziele werden anhand von praktischen Aufgabenstellungen erarbeitet, beispielsweise:</p><ul><li>Implementierung und L&ouml;sung des statischen Randwertproblems (RWP) f&uuml;r die vertikale Bewegung der Schiene als Bernoulli- oder Timoshenko-Beam auf einem nicht-linearen, kontinuierlichen Untergrund (Winkler-Support, linear, nicht-linear, viskoelastisch) in Python.</li><li>Implementierung verschiedener Untergrundmodelle f&uuml;r die Modellierung von Bahntrassen in Python</li><li>Aufbereitung der der Messdaten (Integration der Beschleunigungsdaten der Schwellen und Auswertung der Hochgeschwindigkeitskamera-Aufnahmen, MATLAB)</li><li>Vergleich mit Messdaten und Schlussfolgerung</li></ul>",
+      "bibliographie": "<p>Brett Slatkin: Effective Python: 59 Specific Ways to Write Better Python. Prentice Hall; Auflage: 01 (26. Februar 2015), ISBN-10: 9780134034287, ISBN-13: 978-0134034287</p>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>Der Kurs &quot;Multiphysik-Modellierung und Simulation&ldquo; sowie der Kurs &quot;Fortgeschrittene Python Programmierung&ldquo; werden gemeinsam mittels Bericht und einer Pr&auml;sentation bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 52106,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002668,
+          "name": "Würsch",
+          "vorname": "Christoph"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002668,
+      "name": "Würsch",
+      "vorname": "Christoph"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Multiphysics Modelling and Simulation"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2019,
+    "beginSemester": "HS",
+    "endJahr": 2019,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 49681,
+    "kuerzel": "M_VP_16819",
+    "bezeichnung": "Multiphysik-Modellierung und Simulation",
+    "url": "allModules/49681_M_VP_16819.json"
+  }
+}

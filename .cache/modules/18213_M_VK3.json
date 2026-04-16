@@ -1,0 +1,213 @@
+{
+  "id": 18213,
+  "kuerzel": "M_VK3",
+  "bezeichnung": "Verkehr 3",
+  "kreditpunkte": 6,
+  "lernziele": "<p>Lernziele Verkehrsplanung:<br />Kenntnisse des Aufbaues kommunaler Verkehrsplanungen; Grundlagenwissen von Spezialgebieten der Verkehrsplanung; Praktische Anwendung von Fachwissen im Rahmen einer&nbsp;Semesterarbeit zu einem Teilthema der Verkehrsplanung</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 18214,
+      "kuerzel": "VP3",
+      "bezeichnung": "Verkehrsplanung 3",
+      "lernziele": "<p>Kenntnisse des Aufbaues kommunaler Verkehrsplanungen;&nbsp;Grundlagenwissen zu Spezialthemen der Verkehrsplanung. <br /></p>",
+      "planinhalt": "<p>Kommunale Gesamtverkehrskonzepte<br />Konzepte f&uuml;r den Fuss- und Radverkehr<br />Verkehrsentwicklungsplanung<br />Parkierung<br />G&uuml;terverkehr<br />Spezielle Verkehrsteilnahmegruppen<br />Ausgew&auml;hlte Spezialthemen</p>",
+      "kurselemente": [
+        {
+          "id": 18576,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Verkehrsplanung 3"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Transport Planning 3"
+        }
+      ]
+    },
+    {
+      "id": 18218,
+      "kuerzel": "VP3a",
+      "bezeichnung": "Verkehrsplanung 3a",
+      "lernziele": "<p>Anwendung der erworbenen Fachkenntnisse in einem Teilgebiet der Verkehrsplanung anhand einer praxisbezogenen Semesterarbeit.</p>",
+      "planinhalt": "<p>Semesterarbeit aus dem Themenfeld &quot;kommunale Verkehrsplanung&quot;</p>",
+      "kurselemente": [
+        {
+          "id": 18565,
+          "art": "Studienarbeit",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Verkehrsplanung 3a"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Transport Planning 3a"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10000,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10000_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10006,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10006_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10041,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10041_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10096,
+          "kuerzel": "R_vp",
+          "bezeichnung": "Verkehrsplanung",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10123,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10123_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10096,
+          "kuerzel": "R_vp",
+          "bezeichnung": "Verkehrsplanung",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10012,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10012_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 541306,
+      "name": "Hagedorn",
+      "vorname": "Carsten"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 18195,
+      "kuerzel": "M_VK2",
+      "bezeichnung": "Verkehr 2",
+      "url": "allModules/18195_M_VK2.json"
+    },
+    {
+      "id": 18569,
+      "kuerzel": "M_VKCAD",
+      "bezeichnung": "Verkehr  und CAD",
+      "url": "allModules/18569_M_VKCAD.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 18213,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Verkehr 3"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Transport Planning 3"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2009,
+    "beginSemester": "HS",
+    "endJahr": 2016,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 18213,
+    "kuerzel": "M_VK3",
+    "bezeichnung": "Verkehr 3",
+    "url": "allModules/18213_M_VK3.json"
+  }
+}

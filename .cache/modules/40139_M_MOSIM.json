@@ -1,0 +1,398 @@
+{
+  "id": 40139,
+  "kuerzel": "M_MOSIM",
+  "bezeichnung": "Modellbildung und Simulation",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Eine der gr&ouml;ssten Herausforderungen in der Analyse von komplexen Systemen ist die Bildung ad&auml;quater Modelle. In vielen F&auml;llen ist es nicht m&ouml;glich (oder schlicht zu teuer) Experimente am Originalsystem auszuf&uuml;hren.&nbsp;<br />Modelle sind Abbilder des realen Systems (digitale Zwillinge). Sie f&ouml;rdern das Systemverst&auml;ndnis und bieten die M&ouml;glichkeit f&uuml;r frei w&auml;hlbare Szenarien das Systemverhalten sicher und kosteng&uuml;nstig zu simulieren und zu verbessern.&nbsp;<br />Die Studierende lernen die wichtigsten Modellierungs- und Simulationsans&auml;tze kennen und f&uuml;hren selbstst&auml;ndig in gef&uuml;hrten Teams ein realit&auml;tsnahes Simulationexperiment mit einer professionellen Simulationssoftware (Simio) durch.</p>",
+  "vorausgKenntnisse": "",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 40140,
+      "kuerzel": "MOSIM",
+      "bezeichnung": "Modellbildung und Simulation",
+      "lernziele": "<p><strong>Fachkompetenzen</strong></p>\n<p>Die Teilnehmenden:</p>\n<ul>\n<li>k&ouml;nnen Systeme analysieren und modellieren</li>\n<li>k&ouml;nnen mit Modellen experimentieren und Szenario-Analysen und/oder Optimierungen durchf&uuml;hren</li>\n<li>k&ouml;nnen Simulationsergebnisse statistisch untersuchen, auswerten und interpretieren</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Methodenkompetenzen</strong></p>\n<p>Die Teilnehmenden:</p>\n<ul>\n<li>kennen die Vor- und Nachteile der wichtigsten Modellierungs- und Simulationsparadigmen und k&ouml;nnen f&uuml;r eine konkrete Aufgabenstellung eine passende Modellklasse bestimmen</li>\n<li>k&ouml;nnen Modelle validieren</li>\n</ul>\n<p><strong>Selbstkompetenzen</strong></p>\n<p>Die Teilnehmenden:</p>\n<ul>\n<li>k&ouml;nnen Aufwand, Kosten und Nutzen von Simulationen einsch&auml;tzen</li>\n<li>k&ouml;nnen die eigenen St&auml;rken und Schw&auml;chen im Simulationsprozess erkennen</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Sozialkompetenzen</strong>&nbsp;</p>\n<p>Die Teilnehmenden:</p>\n<ul>\n<li>k&ouml;nnen im Rahmen der Projektarbeit effektiv zusammenarbeiten</li>\n<li>k&ouml;nnen durch gezieltes Nachfragen aus unvollst&auml;ndigen Angaben und vagen Zielvorstellungen eine ad&auml;quate Aufgabenstellung herleiten</li>\n</ul>",
+      "planinhalt": "<p><strong>Thmenblock Systemanalyse</strong></p>\n<ul>\n<li>System versus Modell; Experiment versus Simulation</li>\n<li>&Uuml;bersicht Modellandschaft</li>\n</ul>\n<p><strong>Thememblock Modellbildung<br /></strong></p>\n<ul>\n<li>Determinstische Modelle</li>\n<li>Stochastische Modelle</li>\n</ul>\n<p><strong>Themenblock Simulation</strong></p>\n<ul>\n<li>Monte Carlo Simulation</li>\n<li>Diskrete Ereignissimulation</li>\n<li>Gruppenarbeit / Simulationsprojekt</li>\n</ul>\n<p>&nbsp;</p>",
+      "bibliographie": "<p><strong>Pflichtliteratur wie Skript, B&uuml;cher</strong></p>\n<ul>\n<li>Folienskript</li>\n<li>Zusammengestellte Unterlagen</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Weiterf&uuml;hrende Literatur (Empfehlung an Studierende)&nbsp;</strong></p>\n<ul>\n<li>Hedtst&uuml;ck, U. (2013). Simulation diskreter Prozesse: Methoden und Anwendungen; Springer. ISBN 978-3-642-34871-6</li>\n<li>Duda, R., Hart, P., Stork, E. (2000). Pattern Classification; Wiley &amp; Sons. ISBN 978-0-471-05669-0</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 40141,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 108,
+          "harteGrenze": true
+        },
+        {
+          "id": 40142,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Modellbildung und Simulation"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Modelling and Simulation"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10129,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10129_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10125,
+          "kuerzel": "W_IKpl",
+          "bezeichnung": "Ingenieurkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10130,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10130_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10117,
+          "kuerzel": "W-ST",
+          "bezeichnung": "Systemtechnik",
+          "kreditpunkte": 1
+        },
+        {
+          "id": 10125,
+          "kuerzel": "W_IKpl",
+          "bezeichnung": "Ingenieurkompetenzen und ergänzende Fachmodule",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10128,
+          "kuerzel": "W-STpl",
+          "bezeichnung": "Systemtechnik und ergänzende Fachmodule",
+          "kreditpunkte": 1
+        }
+      ]
+    },
+    {
+      "id": 10151,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10151_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10169,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10169_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10116,
+          "kuerzel": "W-IK",
+          "bezeichnung": "Ingenieurkompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10191,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10191_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10202,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10202_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10246,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10246_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10272,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10272_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10148,
+          "kuerzel": "W-UNMA",
+          "bezeichnung": "Unternehmensführung & Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10224,
+      "bezeichnung": "Data Science",
+      "kuerzel": "WING_DaSc",
+      "url": "allStudies/10224_WING_DaSc.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10167,
+      "bezeichnung": "Smart Factories and Robotics",
+      "kuerzel": "WING_Fact",
+      "url": "allStudies/10167_WING_Fact.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10170,
+      "bezeichnung": "Smart Factories and Robotics",
+      "kuerzel": "WING_Fact",
+      "url": "allStudies/10170_WING_Fact.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10274,
+      "bezeichnung": "Smart Factories",
+      "kuerzel": "WING_Fact",
+      "url": "allStudies/10274_WING_Fact.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10217,
+      "bezeichnung": "Smart Factories",
+      "kuerzel": "WING_Fact",
+      "url": "allStudies/10217_WING_Fact.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10277,
+      "bezeichnung": "Data Science",
+      "kuerzel": "WING_DaSc",
+      "url": "allStudies/10277_WING_DaSc.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 69025,
+      "name": "Tiemessen",
+      "vorname": "Harold"
+    }
+  ],
+  "mengen": [
+    {
+      "id": 51,
+      "name": "Aequivalenz",
+      "dModMengeArt": 5701,
+      "module": [
+        {
+          "id": 38938,
+          "kuerzel": "M_SModSim",
+          "bezeichnung": "System Modeling and Simulation",
+          "url": "allModules/38938_M_SModSim.json"
+        },
+        {
+          "id": 40139,
+          "kuerzel": "M_MOSIM",
+          "bezeichnung": "Modellbildung und Simulation",
+          "url": "allModules/40139_M_MOSIM.json"
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 40139,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Modellbildung und Simulation"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Modelling and Simulation"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2022,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 28054,
+    "kuerzel": "M_SIMUL",
+    "bezeichnung": "Modellbildung und Simulation",
+    "url": "allModules/28054_M_SIMUL.json"
+  },
+  "nachfolger": {
+    "id": 40139,
+    "kuerzel": "M_MOSIM",
+    "bezeichnung": "Modellbildung und Simulation",
+    "url": "allModules/40139_M_MOSIM.json"
+  }
+}

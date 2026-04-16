@@ -1,0 +1,219 @@
+{
+  "id": 47677,
+  "kuerzel": "M_VP_12721",
+  "bezeichnung": "Eingebettete Systeme I a",
+  "kreditpunkte": 15,
+  "lernziele": "<p>Fachkompetenz:</p>\n<ul>\n    <li>Kinematik, Dynamik, Modellbildung und Regelung von erdgebundenen oder fliegenden Robotern und autonomen Systemen. </li>\n    <li>Die Studierenden verstehen die Kinematik, Dynamik und Regelung von Roboter und autonomen Systemen und k&ouml;nnen sie berechnen und auslegen. </li>\n</ul>\n<p>Methodenkompetenz:</p>\n<ul>\n    <li>Analyse, Kreativit&auml;t, vernetztes Denken. </li>\n    <li>Die Studierenden k&ouml;nnen physikalische Effekte in mathematische Modelle umwandeln und aus diesen neue Konzepte erschaffen und technisch umsetzen. </li>\n</ul>\n<p>Sozialkompetenz:<br /></p>\n<ul>\n    <li>Kommunikations- und Kooperationsf&auml;higkeit </li>\n</ul>\n<p>Selbstkompetenz:</p>\n<ul>\n    <li>Selbst&auml;ndigkeit, Verantwortlichkeit<br /></li>\n</ul>",
+  "vorausgKenntnisse": "Bachelor of Science in Systemtechnik",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 47678,
+      "kuerzel": "VP_1272101",
+      "bezeichnung": "Steife Positionsregelung mit aerodynamischen Aktuatoren und Konzeption eines Flugroboters",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Fachkompetenz:</p>\n<ul>\n    <li>Kinematik, Dynamik, Modellbildung und Regelung von erdgebundenen oder fliegenden Robotern und autonomen Systemen. </li>\n    <li>Die Studierenden verstehen die Kinematik, Dynamik und Regelung von Roboter und autonomen Systemen und k&ouml;nnen sie berechnen und auslegen. </li>\n</ul>\n<p>Methodenkompetenz:</p>\n<ul>\n    <li>Analyse, Kreativit&auml;t, vernetztes Denken. </li>\n    <li>Die Studierenden k&ouml;nnen physikalische Effekte in mathematische Modelle umwandeln und aus diesen neue Konzepte erschaffen und technisch umsetzen. </li>\n</ul>\n<p>Sozialkompetenz:<br /></p>\n<ul>\n    <li>Kommunikations- und Kooperationsf&auml;higkeit </li>\n</ul>\n<p>Selbstkompetenz:</p>\n<ul>\n    <li>Selbst&auml;ndigkeit, Verantwortlichkeit</li>\n</ul>",
+      "planinhalt": "<p>Regelung eines fluiddynamischen Aktuators, geeignet f&uuml;r den Bau eines fliegenden Roboters. Das System dient dem Erforschen und Ausprobieren von Aktuatoren, Sensoren und Algorithmen f&uuml;r steif geregelte fliegende Robotern. Aufbau des Konzeptes f&uuml;r einen fliegenden Roboter und Simulation des dynamischen Verhaltens.<br />Aufgabe: T&auml;tigkeit im Team, erstellen eines detaillierten Projektplans mit Meilensteinen, regelm&auml;ssige Information bez&uuml;glich Projektstand, &Uuml;bernahme einer Teilaufgabe in vollst&auml;ndiger Selbstverantwortung.<br />Lieferobjekte: Projekt, Bericht, Schlusspr&auml;sentation.</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "Das zu bearbeitende Projekt wird mittels Bericht und Schlusspr&auml;sentation bewertet.",
+      "kurselemente": [
+        {
+          "id": 47679,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000823,
+          "name": "Frei",
+          "vorname": "Norbert"
+        }
+      ]
+    },
+    {
+      "id": 47680,
+      "kuerzel": "VP_1272102",
+      "bezeichnung": "Kontinuierliche und diskrete Regelsysteme",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen dynamische Systeme in ihren Eigenschaften analysieren und daf&uuml;r einen passenden kontinuierlichen Regler so entwerfen, dass der geschlossene Regelkreis vorgegebene&nbsp;Anforderungen erf&uuml;llt.</li>\n    <li>k&ouml;nnen die g&auml;ngigen Reglertypen schaltungstechnisch auslegen und implementieren.</li>\n    <li>kennen die Grundlagen der mathematischen Beschreibung von Abtastsystemen&nbsp;(insbesondere die z-Transformation).</li>\n    <li>k&ouml;nnen diskrete Regler in einem Zielsystem implementieren.</li>\n    <li>k&ouml;nnen diskrete Regler im z-Bereich auslegen und optimieren.</li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>kontinuierliche Regler, Reglerentwurf nach dem symmetrischen Optimum, schaltende Regler, PID-Regler mit Modifikationen, Kompensationsregler, Smith-Pr&auml;dikator, Wurzelortskurvenverfahren</li>\n    <li>Systemanalyse, Identifikation im Zeitbereich</li>\n    <li>erweiterte Modellbildung f&uuml;r DC-Motoren</li>\n    <li>Optimierungskriterien von Regelkreisen, Integralkriterien</li>\n    <li>Behandlung von Abtastsystemen, Einf&uuml;hrung der z-Transformation</li>\n    <li>Beschreibung diskreter Systeme durch Differenzengleichungen</li>\n    <li>diskreter Regler (s/z) mit Anwendung</li>\n    <li>Stabilit&auml;t diskreter Systeme</li>\n    <li>Auslegung eines Deadbeat-Reglers</li>\n</ul>",
+      "empfLehrmittel": "<p>Vorlesung, Selbststudium, &Uuml;bungen, Gruppenarbeit, Labor&uuml;bungen</p>",
+      "leistungsnachweis": "Der Kurs wird mittels Zusammenfassung bewertet.",
+      "kurselemente": [
+        {
+          "id": 47681,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000823,
+          "name": "Frei",
+          "vorname": "Norbert"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000823,
+      "name": "Frei",
+      "vorname": "Norbert"
+    }
+  ],
+  "orte": [
+    {
+      "id": 2,
+      "kuerzel": "WSG",
+      "bezeichnung": "Waldau St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Embeddeed Systems I a"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2012,
+    "beginSemester": "HS",
+    "endJahr": 2012,
+    "endSemester": "HS"
+  }
+}

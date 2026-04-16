@@ -1,0 +1,67 @@
+{
+  "id": 65212,
+  "kuerzel": "M_march.MTV1",
+  "bezeichnung": "Master-Vertiefung I",
+  "kreditpunkte": 5,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 65213,
+      "kuerzel": "march.MTV1",
+      "bezeichnung": "Master-Vertiefung I",
+      "kreditpunkte": 0,
+      "kurselemente": [
+        {
+          "id": 65214,
+          "art": "Vorlesung",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Master-Vertiefung I"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10492,
+      "bezeichnung": "MA Architektur",
+      "kuerzel": "MAARCH",
+      "url": "allStudies/10492_MAARCH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10219,
+          "kuerzel": "MA_A_ABLR",
+          "bezeichnung": "ABLR",
+          "kreditpunkte": 5
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Master-Vertiefung I"
+    }
+  ]
+}

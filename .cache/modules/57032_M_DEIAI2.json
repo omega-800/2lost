@@ -1,0 +1,207 @@
+{
+  "id": 57032,
+  "kuerzel": "M_DEIAI2",
+  "bezeichnung": "Data Engineering and Industrial Artificial Intelligence 2",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Kurse Data Analytics and Predictive Modelling vermittelt essenzielle Methoden der datengetriebenen Analyse und Modellierung und kombiniert damit zentrale Konzepte der Statistik, maschinellen Lernens und Datenvisualisierung. Die Studierenden erwerben ein umfassendes Verst&auml;ndnis f&uuml;r die Analyse, Aufbereitung und Interpretation von Daten sowie f&uuml;r die Entwicklung probabilistischer und deterministischer Modelle zur Vorhersage und Entscheidungsunterst&uuml;tzung.&nbsp;</p>\n<p>Der Kurs Data Analytics &amp; Visualization legt den Fokus auf grundlegende Analysetechniken, Dimensionsreduktion und die Visualisierung komplexer Daten. Studierende lernen, gro&szlig;e und heterogene Datens&auml;tze zu verarbeiten, geeignete Analyseverfahren wie Regressions- und Clusteranalyse anzuwenden und durch interaktive Visualisierungen datengetriebene Entscheidungen zu unterst&uuml;tzen.&nbsp;</p>\n<p>Parallel vermittelt Predictive Modelling die mathematischen und statistischen Grundlagen probabilistischer Modellierung sowie fortgeschrittene Techniken zur Vorhersage von Systemverhalten. Studierende vertiefen ihr Wissen in der Wahrscheinlichkeitsrechnung, lernen Regularisierungsverfahren f&uuml;r Regressionsmodelle sowie probabilistische Klassifikatoren und Clustering-Methoden wie Gaussian Mixture Models kennen. Dar&uuml;ber hinaus werden Bayes&rsquo;sche Methoden und Sampling-Techniken zur Unsicherheitsquantifizierung behandelt.&nbsp;</p>\n<p>Die enge Verkn&uuml;pfung beider Kurse erm&ouml;glicht es den Studierenden, datenbasierte Zusammenh&auml;nge zu erkennen, fundierte Vorhersagemodelle zu entwickeln und die gewonnenen Erkenntnisse durch Visualisierungen effektiv zu kommunizieren. Der praktische Bezug wird durch anwendungsorientierte &Uuml;bungen und Implementierungen mit modernen Software-Tools verst&auml;rkt, insbesondere im Kontext industrieller und mechatronischer Anwendungen.</p>",
+  "vorausgKenntnisse": "<p>Es sollte das Modul Analysis 3 besucht worden sein oder parallel dazu besucht werden.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 57033,
+      "kuerzel": "DEIAI2_D",
+      "bezeichnung": "Data Analytics & Visualization",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Der Kurs Data Analytics &amp; Visualization vermittelt die wichtigsten Methoden der Datenanalyse und Visualisierung sowie deren praktische Anwendung. Die Studierenden lernen, verschiedene Datentypen aufzubereiten, g&auml;ngige Python-Bibliotheken einzusetzen und zentrale Analysetechniken wie Regressionsanalyse, Clusteranalyse und Zeitreihenanalyse anzuwenden. Sie entwickeln Kompetenzen zur Interpretation von Datens&auml;tzen, um fundierte Entscheidungen zu treffen.&nbsp;<br />Ein besonderer Fokus liegt auf der Erstellung und Bewertung von Visualisierungen, einschlie&szlig;lich interaktiver Dashboards. Zudem erwerben die Studierenden Kenntnisse in der Dimensionsreduktion und der Modellinterpretation mittels SHAP-Values. Abschlie&szlig;end wird der praktische Einsatz der erlernten Methoden in industriellen und mechatronischen Anwendungen behandelt.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Die Studierenden</p>\n<ul>\n<li>kennen die unterschiedlichen Data Analytics Teilbereiche/Methoden, deren Relevanz und Anwendungen.&nbsp;</li>\n<li>k&ouml;nnen mit unterschiedlichen Datens&auml;tzen umgehen (Datentypen, Fileformate) und k&ouml;nnen die Daten entsprechend f&uuml;r weitere Analysen aufbereiten.&nbsp;</li>\n<li>kennen die g&auml;ngigen Python Data Analytics Bibliotheken und k&ouml;nnen diese auf individuelle Datens&auml;tze anwenden. &nbsp;</li>\n<li>verstehen das Prinzip der wichtigsten Data Analytics Techniken wie Regressionsanalyse, Monte-Carlo-Simulation, Statistische Methoden, Faktorenanalyse, Kohortenanalyse, Clusteranalyse, Zeitreihenanalyse und k&ouml;nnen diese anwenden.&nbsp;</li>\n<li>k&ouml;nnen anhand der Data Analytics Techniken Datens&auml;tze interpretieren und beurteilen und daraus Entscheidungen zu treffen.&nbsp;</li>\n<li>kennen die Bedeutung von Visualisierungen und sind in der Lage f&uuml;r einen gegebenen Datensatz und einer Zielsetzung eine geeignete Visualisierung zu erstellen.&nbsp;</li>\n<li>kennen die g&auml;ngigen Python Visualisierungs-Bibliotheken und k&ouml;nnen diese anwenden.&nbsp;</li>\n<li>k&ouml;nnen interaktive Visualisierungen und Dashboards erstellen.</li>\n<li>sind in der Lage Visualisierungen zu interpretieren und zu beurteilen daraus Entscheidungen zutreffen.&nbsp;</li>\n<li>kennen und verstehen Methoden der Dimensionsreduktion f&uuml;r Data Analytics und Visualisierung.&nbsp;</li>\n<li>verstehen die Anwendung von SHAP-Values zur Interpretierbarkeit von Machine-Learning-Modellen und k&ouml;nnen diese z.B. zur Feature-Importance-Analyse, Modelltransparenz, Fairnessbewertung, Identifikation von Feature-Interaktionen sowie zur Modelloptimierung gezielt einsetzen.&nbsp;</li>\n<li>kennen den praktischen Zusammenhang der gelernten Methoden und k&ouml;nnen diese auf industriellen und mechatronischen Problemstellungen anwenden.&nbsp;</li>\n</ul>",
+      "planinhalt": "<ol>\n<li>Data Analytics Theorie I&nbsp;<br />a. Einf&uuml;hrung &amp; Grundlagen&nbsp;<br />b. Was ist Data Analytics?&nbsp;<br />c. Methoden und Technik&nbsp;</li>\n<li>Data Analytics Theorie II&nbsp;<br />a. Datenquellen<br />b. Datentypen<br />c. Datenaufbereitung&nbsp;</li>\n<li>Data Analytics Werkzeuge I&nbsp;<br />a. Pandas (hdf5, pickles, parquet)&nbsp;<br />b. Numpy</li>\n<li>Data Analytics Theorie III&nbsp;<br />a. Techniken&nbsp;<br />b. Regression&nbsp;<br />c. Statistik &lt;<br />d. Clustering<br />e. Zeitreihen<br />f. Feature Analysis<br />g. Dimensionsreduktion&nbsp;</li>\n<li>Data Analytics Werkzeuge II&nbsp;<br />a. Scipy<br />b.Statsmodels<br />c. Scikit-Learn&nbsp;</li>\n<li>Data Visualization Theorie I&nbsp;<br />a. Einf&uuml;hrung &amp; Grundlagen<br />b. Visualisierungsprinzipien (Grundlagen, Design, ...)&nbsp;</li>\n<li>Data Visualization Werkzeuge I&nbsp;<br />a. Python (Matplotlib, Plotly, Seaborn)&nbsp;<br />b. Interaktive Plots&nbsp;</li>\n<li>Data Visualization Werkzeuge II&nbsp;<br />a. Python&nbsp;<br />b. Dashboards&nbsp;<br />c. PowerBI&nbsp;<br />d. Tableau&nbsp;<br />e. Qluick&nbsp;</li>\n<li>Data Visualization Theorie II&nbsp;<br />a. Dimensionsreduktion f&uuml;r die Visualisierung&nbsp;</li>\n<li>Anwendungsbeispiele/&Uuml;bungen/Begleitendes Projekt&nbsp;<br />a. Praktische Anwendungen (Marketing, Finanzen, Gesundheit, Industrie, Mechatronik, &hellip;)&nbsp;<br />b. Analyse von Datens&auml;tzen, Erstellung von Diagrammen und Dashboard&nbsp;</li>\n</ol>",
+      "bibliographie": "<p>Vorlesungsskript&nbsp;<br />&nbsp;</p>\n<ol>\n<li>Handbuch Data Science mit Python: Grundlegende Tools f&uuml;r die Arbeit mit Daten, 2. Auflage, Jake VanderPlas&nbsp;</li>\n<li>Python Data Visualization Cookbook, Second Edition, Igor Milovanivic</li>\n<li>Statistics and Data Visualization with Python, Second Edition, Jesus Rogel-Salazar&nbsp;</li>\n<li>Data Analysis from Scratch with Python, Peters Morgan&nbsp;</li>\n<li>Python for Data Analysis: Data Wrangling with pandas, Numpy &amp; Jupyter, Third Edition, Wes McKinney&nbsp;</li>\n</ol>",
+      "empfLehrmittel": "<p>Vorlesung, Selbststudium, &Uuml;bungen&nbsp;<br />Der Praxisteil umfasst ein Projekt zur praxisorientierten Anwendung der in der Theorie erarbeiteten Inhalte.&nbsp;</p>",
+      "bemerkungKurs": "<p><span class=\"TextRun SCXW98584307 BCX8\" lang=\"DE-DE\" xml:lang=\"DE-DE\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW98584307 BCX8\">Unterrichtssprache Deutsch (Fachbegriffe und Material teilweise auf Englisch)</span></span><span class=\"EOP SCXW98584307 BCX8\" data-ccp-props=\"{}\">&nbsp;</span></p>",
+      "leistungsnachweis": "<p>Projektarbeit und Modulschlusspr&uuml;fung</p>",
+      "kurselemente": [
+        {
+          "id": 57034,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2109402,
+          "name": "Trémuel",
+          "vorname": "Philipp Gerard"
+        }
+      ]
+    },
+    {
+      "id": 57035,
+      "kuerzel": "DEIAI2_P",
+      "bezeichnung": "Predictive Modelling",
+      "lernziele": "<p>Der Kurs Predictive Modelling vermittelt Studierenden des Bachelorstudiengangs Mechatronik grundlegende und fortgeschrittene Techniken zur Entwicklung datengetriebener Modelle. Im Kurs werden zun&auml;chst die Grundlagen der Wahrscheinlichkeitsrechnung, Wahrscheinlichkeits-verteilungen und Sampling-Techniken behandelt, um ein fundiertes mathematisches Verst&auml;ndnis f&uuml;r probabilistische Modellierung zu schaffen. Aufbauend darauf lernen die Studierenden verschiedene Modellierungsans&auml;tze, darunter die Maximum-Likelihood-Sch&auml;tzung f&uuml;r Regression, Regularisierungsmethoden (L1, L2) sowie multivariate lineare und logistische Regression. Die Methoden werden mit praxisnahen Anwendungen in der Mechatronik verkn&uuml;pft.&nbsp;</p>\n<p>Ein weiterer Schwerpunkt des Kurses liegt auf probabilistischen Klassifikatoren wie dem Na&iuml;ve Bayes Classifier sowie z.B. Gaussian Mixture Models (GMM) f&uuml;r Clustering-Aufgaben. Dar&uuml;ber hinaus wird die Bayes&rsquo;sche Statistik vertieft, einschliesslich MAP-Sch&auml;tzung, Bootstrapping und der Implementierung probabilistischer Modelle.&nbsp;</p>\n<p>Neben theoretischen Konzepten stehen praktische Implementierungen im Vordergrund, sodass Studierende reale Probleme mit modernen Software-Paketen l&ouml;sen k&ouml;nnen. Durch die Kombination aus mathematischen Grundlagen, statistischen Verfahren und maschinellen Lernalgorithmen erhalten die Studierenden eine praxisnahe und interdisziplin&auml;re Ausbildung in Predictive Modelling, die sie auf vielf&auml;ltige Anwendungen in der Mechatronik vorbereitet. &nbsp;</p>\n<p>&nbsp;</p>\n<p>Die Studierenden</p>\n<ul>\n<li>kennen grundlegende Gesetze und Konzepte der Wahrscheinlichkeitsrechnung, Zufallszahlen und Wahrscheinlichkeitsverteilungen.&nbsp;</li>\n<li>verstehen Monte-Carlo-Methoden, Importance Sampling und Markov Chain Monte Carlo (MCMC) und k&ouml;nnen diese zur Sch&auml;tzung von Erwartungswerten und deren Varianz anwenden (K3).&nbsp;</li>\n<li>k&ouml;nnen Transformationen von Wahrscheinlichkeiten berechnen und anwenden (K3).&nbsp;</li>\n<li>kennen das Bayes&rsquo;sche Theorem und verschiedene probabilistische Modellierungsans&auml;tze.</li>\n<li>verstehen die mathematischen Grundlagen der Maximum-Likelihood-Sch&auml;tzung f&uuml;r die Regression und Klassifizierung (mse, Kreuzentropie) .</li>\n<li>nutzen Na&iuml;ve Bayes Classifier und z.B. Gaussian Na&iuml;ve Bayes zur Klassifikation.&nbsp;</li>\n<li>sind in der Lage, multivariate lineare Regression mit Feature Engineering und Feature Selection zu implementieren.&nbsp;</li>\n<li>sind in der Lage, die Performance von Klassifikations- und Regressionsmodellen mithilfe geeigneter Metriken zu analysieren und die Auswirkungen verschiedener Wahrscheinlichkeitsverteilungen auf Modellierungsergebnisse zu untersuchen (K4).&nbsp;</li>\n<li>entwickeln pr&auml;diktive Modelle f&uuml;r reale Datenprobleme unter Ber&uuml;cksichtigung probabilistischer Modellierungstechniken.&nbsp;<br />konzipieren Machine-Learning-Pipelines mit Methoden der Wahrscheinlichkeitsrechnung und Bayes&rsquo;schen Modellierung.&nbsp;</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Zufallszahlen und Einf&uuml;hrung in Wahrscheinlichkeitsrechnung&nbsp;</li>\n<li>Wahrscheinlichkeitsverteilungen und Sampling, Transformation von W'keiten&nbsp;</li>\n<li>Monte Carlo, Importance Sampling, MCMC,&nbsp;</li>\n<li>Wahrscheinlichkeitstheorie, Gesetze der Wahrscheinlichkeitsrechnung&nbsp;</li>\n<li>Probabilistische Modelle, Bayes' Theorem&nbsp;</li>\n<li>Na&iuml;ve Bayes Classifier, Gaussian Na&iuml;ve Bayes&nbsp;</li>\n<li>Maximum Likelihood Approach f&uuml;r Regression&nbsp;</li>\n<li>Multivariate lineare Regression, Feature Engineering, Feature Selection&nbsp;</li>\n<li>Regularisierung (L1, L2)&nbsp;</li>\n<li>Logistische Regression und Kreuzentropie (ML Sch&auml;tzung)&nbsp;</li>\n<li>Multivariate Gauss-Verteilung und Gauss'sche Regression&nbsp;</li>\n<li>Gaussian Mixture Models (GMM), Clustering&nbsp;</li>\n<li>MAP-Sch&auml;tzung, Bayes (II) und, Bootstrapping, PyMC&nbsp;</li>\n<li>selected topics&nbsp;</li>\n</ul>",
+      "bibliographie": "<ol>\n<li>ISL Introduction to Statistical Learning (Tibshirani, https://www.statlearning.com/ )&nbsp;</li>\n<li>Christopher Bishop: Pattern Recognition and Machine Learning&nbsp;</li>\n<li>Kevin Patrick Murphy: Probabilisic Machine Learning: An Introduction&nbsp;</li>\n<li>David Barber: Bayesian Reasoning and Machine Learning&nbsp;</li>\n</ol>",
+      "empfLehrmittel": "<p>Vorlesung, Selbststudium, &Uuml;bungen</p>",
+      "bemerkungKurs": "<p>Unterrichtsprache ist Deutsch (<span class=\"TextRun SCXW89983111 BCX8\" lang=\"DE-DE\" xml:lang=\"DE-DE\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW89983111 BCX8\">Fachbegriffe und Material teilweise auf Englisch)</span></span><span class=\"EOP SCXW89983111 BCX8\" data-ccp-props=\"{}\">&nbsp;</span></p>\n<p>&nbsp;</p>",
+      "leistungsnachweis": "<p>Modulschlusspr&uuml;fung</p>",
+      "kurselemente": [
+        {
+          "id": 57036,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002668,
+          "name": "Würsch",
+          "vorname": "Christoph"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10284,
+      "bezeichnung": "Mechatronik BB",
+      "kuerzel": "MT_BB",
+      "url": "allStudies/10284_MT_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10188,
+          "kuerzel": "Kat_VT_MT",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10285,
+      "bezeichnung": "Mechatronik VZ",
+      "kuerzel": "MT_VZ",
+      "url": "allStudies/10285_MT_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10188,
+          "kuerzel": "Kat_VT_MT",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002668,
+      "name": "Würsch",
+      "vorname": "Christoph"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 54530,
+      "kuerzel": "M_Ana1",
+      "bezeichnung": "Analysis 1: Differentialrechnung",
+      "url": "allModules/54530_M_Ana1.json"
+    },
+    {
+      "id": 54533,
+      "kuerzel": "M_Ana2",
+      "bezeichnung": "Analysis 2: Integralrechnung & ODE",
+      "url": "allModules/54533_M_Ana2.json"
+    },
+    {
+      "id": 54536,
+      "kuerzel": "M_Phy1",
+      "bezeichnung": "Physik 1: Mechanik und Wärme",
+      "url": "allModules/54536_M_Phy1.json"
+    },
+    {
+      "id": 54539,
+      "kuerzel": "M_Phy2",
+      "bezeichnung": "Physik 2: Elektromagnetismus und Schwingungen",
+      "url": "allModules/54539_M_Phy2.json"
+    },
+    {
+      "id": 54561,
+      "kuerzel": "M_Inf2",
+      "bezeichnung": "Informatik 2: Softwareengineering",
+      "url": "allModules/54561_M_Inf2.json"
+    },
+    {
+      "id": 56317,
+      "kuerzel": "M_Inf1",
+      "bezeichnung": "Informatik 1: Einführung in die Programmierung",
+      "url": "allModules/56317_M_Inf1.json"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 57027,
+      "kuerzel": "M_DEIAI1",
+      "bezeichnung": "Data Engineering and Industrial Artificial Intelligence 1",
+      "url": "allModules/57027_M_DEIAI1.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 64083,
+      "kuerzel": "M_DEIAI3",
+      "bezeichnung": "Data Engineering and Industrial Artificial Intelligence 3",
+      "url": "allModules/64083_M_DEIAI3.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 11,
+      "kuerzel": "LSG",
+      "bezeichnung": "Lerchenfeld St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 57032,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Die Modulschlusspr&uuml;fung findet in zwei Teilen statt. Der erste Teil umfasst den Kurs <span class=\"TextRun SCXW168648546 BCX8\" lang=\"DE-CH\" xml:lang=\"DE-CH\" data-contrast=\"auto\"><span class=\"NormalTextRun SpellingErrorV2Themed SpellingErrorHighlight SCXW168648546 BCX8\">Predictive</span><span class=\"NormalTextRun SCXW168648546 BCX8\"> Modelling</span></span><span class=\"EOP SCXW168648546 BCX8\" data-ccp-props=\"{}\">&nbsp;</span> und der zweite Teil umfasst den Kurs <span class=\"TextRun SCXW146728598 BCX8\" lang=\"DE-CH\" xml:lang=\"DE-CH\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW146728598 BCX8\">Data Analytics &amp; </span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW146728598 BCX8\">Visualization</span></span>. Beide Teile dauern je 60 Minuten.&nbsp;&nbsp;</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Data Engineering & Industrial Artificial Intelligence 2"
+    }
+  ],
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2026,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  }
+}

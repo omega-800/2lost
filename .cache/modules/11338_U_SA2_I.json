@@ -1,0 +1,110 @@
+{
+  "id": 11338,
+  "kuerzel": "U_SA2_I",
+  "bezeichnung": "Studienarbeit 2 Informatik - Übergangsmodul",
+  "kreditpunkte": 8,
+  "lernziele": "<p>Ein komplexes Informatikkprojekt selbstst&#228;ndig in einem Team l&#246;sen k&#246;nnen.</p>",
+  "vorausgKenntnisse": "<p>Erfolgreicher Besuch der Studienarbeit 1.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 11223,
+      "kuerzel": "uSA2_I",
+      "bezeichnung": "Studienarbeit 2  Informatik - Übergang",
+      "planinhalt": "<p>Die Studienarbeiten werden in 2-er Teams bearbeitet und von einem Dozent betreut. <br />Die Studienarbeit dauert ca. 14 Wochen. Von den Studenten wird ein Arbeitseinsatz von durchschnittlich 14 Stunden pro Woche erwartet. <br />Das Thema der Arbeit kann von einer externen Firma, vom Dozenten oder von den Studenten vorgeschlagen werden. Die definitive Aufgabenstellung stellt der betreuende Dozent. <br /><br />In der Regel wird ein Software-Projekt bearbeitet mit den folgenden Teilaufgaben <br />- Einarbeitung in eine neue Aufgabenstellung <br />- Planung des Projektes <br />- Analyse der Anforderungen <br />- Entwurf und Realisation der L&ouml;sung <br />- Test der L&ouml;sung <br />- Bewertung und Ausblick</p>",
+      "kurselemente": [
+        {
+          "id": 11314,
+          "art": "Studienarbeit",
+          "anzLektionen": 8,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Studienarbeit 2  Informatik - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Project 2 Computer Science - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10064,
+          "kuerzel": "K_U2I",
+          "bezeichnung": "Übergangsmodule Informatik 2 (Jahrgang 2001)",
+          "kreditpunkte": 8
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 869,
+      "name": "Huser",
+      "vorname": "Hansjörg"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Studienarbeit 2 Informatik - Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Project 2 Computer Science - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2011,
+    "endSemester": "FS"
+  }
+}

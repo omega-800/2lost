@@ -1,0 +1,181 @@
+{
+  "id": 53405,
+  "kuerzel": "M_TuIT_EVA_1011",
+  "bezeichnung": "Explainable AI",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Machinelles Lernen und speziell Deep Learning sind inh&auml;rente Bestandteile nahezu aller Bereiche unseres Alltags. Smartphones, (autonome) Fahrzeuge, medizinische Diagnostik, B&ouml;rsenprognosen, Epidemiologie, Produktionsanlagen, Roboter-Mensch Interaktion u.v.m. sind abh&auml;ngig von Entscheidungen, die durch Machine Learning Algorithmen getroffen werden. Typischerweise fokussiert sich die Forschung bzw. die universit&auml;re Ausbildung auf das Training und hier insbesondere auf die &nbsp;Genauigkeit (accuracy) der Vorhersagen von solchen Modellen. Explainable AI (XAI) ist ein junges Forschungsgebiet, das der Frage nach geht: &laquo;Warum wurde diese Entscheidung vom Modell getroffen?&raquo; XAI ist die Grundlage f&uuml;r Erkl&auml;rbarkeit (explainability) und Interpretierbarkeit (interpretability) von Machine Learning Modellen und erm&ouml;glicht somit den Schritt von blossen Vorhersagen (predictions) zur Wissenserzeugung aus Daten (knowledge discovery).</p>",
+  "vorausgKenntnisse": "<p>Grundlagen der Linearen Algebra und der Analysis.&nbsp;<br />Grundlagen der Statistik bzw. des Maschinellen Lernens: Lineare Modelle, Logistische Regression und Entscheidungsb&auml;ume.&nbsp;<br />Kenntnisse &uuml;ber neuronale Netze/Deep Learning von Vorteil aber nicht notwendig.&nbsp;</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 53406,
+      "kuerzel": "TuIT_EVA_1011",
+      "bezeichnung": "Explainable AI",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Machinelles Lernen und speziell Deep Learning sind inh&auml;rente Bestandteile nahezu aller Bereiche unseres Alltags. Smartphones, (autonome) Fahrzeuge, medizinische Diagnostik, B&ouml;rsenprognosen, Epidemiologie, Produktionsanlagen, Roboter-Mensch Interaktion u.v.m. sind abh&auml;ngig von Entscheidungen, die durch Machine Learning Algorithmen getroffen werden. Typischerweise fokussiert sich die Forschung bzw. die universit&auml;re Ausbildung auf das Training und hier insbesondere auf die &nbsp;Genauigkeit (accuracy) der Vorhersagen von solchen Modellen. Explainable AI (XAI) ist ein junges Forschungsgebiet, das der Frage nach geht: &laquo;Warum wurde diese Entscheidung vom Modell getroffen?&raquo; XAI ist die Grundlage f&uuml;r Erkl&auml;rbarkeit (explainability) und Interpretierbarkeit (interpretability) von Machine Learning Modellen und erm&ouml;glicht somit den Schritt von blossen Vorhersagen (predictions) zur Wissenserzeugung aus Daten (knowledge discovery).</p>",
+      "planinhalt": "<p>In diesem Seminar f&uuml;hren wir eine genaue Begriffsdefinition von XAI durch und lernen die grundlegendenden Ans&auml;tze:</p>\n<p>1) &nbsp; &nbsp;Einf&uuml;hrung, Begriffskl&auml;rung und Beispiele zu XAI<br />2) &nbsp; &nbsp;Intrinsisch erkl&auml;rbare Methoden: Allgemeine lineare Modelle, Entscheidungsb&auml;ume &amp; Co<br />3) &nbsp; &nbsp;Model-agnostische Ans&auml;tze f&uuml;r XAI: Partial Dependence Plots, LIME, SHAP<br />4) &nbsp; &nbsp;XAI und Deep Learning: Activation Atlas, CAM,&nbsp;</p>",
+      "bibliographie": "<p>L. Gianfagna and A. Di Cecco: Explainable AI with Python. Springer 20213</p>",
+      "empfLehrmittel": "<p>Dies ist eine interaktive Buchdiskussionsrunde, welche sich jede Woche im Semester f&uuml;r zwei Stunden trifft. W&auml;hrend dieser Treffen wird &uuml;ber vorgegebene Abschnitte im Buch diskutiert. Die Aufgabe der Teilnehmer ist es, diese Abschnitte vorg&auml;ngig gelesen und verstanden zu haben, so dass sie an der Diskussion aktiv teilnehmen k&ouml;nnen. Neben diesem theoretischen Teil gibt es auch einen praktischen, wo die Teilnehmer die gelesene und diskutierte Theorie mit Python &Uuml;bungen vertiefen. &Uuml;berdies gibt es theoretische &Uuml;bungen, welche die Studierenden selbst&auml;ndig zu l&ouml;sen haben, um zu zeigen, dass der Stoff verstanden wurde.&nbsp;</p>\n<p>Die w&ouml;chentlichen Diskussionen finden online/hybrid via MS Teams statt und k&ouml;nnen von Studierenden aller drei Standorte besucht werden.&nbsp;</p>",
+      "leistungsnachweis": "<p><span style=\"display: inline !important; float: none; background-color: transparent; color: #000000; cursor: text; font-family: 'Frutiger_web',Arial,Helvetica,sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;\">Dieses Modul wird mittels Pr&uuml;fung bewertet.</span></p>",
+      "kurselemente": [
+        {
+          "id": 53407,
+          "art": "Ergänzende Veranstaltung",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002957,
+      "name": "Frick",
+      "vorname": "Klaus"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2021,
+    "beginSemester": "HS",
+    "endJahr": 2022,
+    "endSemester": "HS"
+  }
+}

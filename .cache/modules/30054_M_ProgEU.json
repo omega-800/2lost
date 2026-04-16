@@ -1,0 +1,196 @@
+{
+  "id": 30054,
+  "kuerzel": "M_ProgEU",
+  "bezeichnung": "Programmieren (EEU)",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Die Studierenden k&ouml;nnen</p>\n<ul>\n    <li>Algorithmen und Datenstrukturen programmieren,</li>\n    <li>verschiedene Datentypen und Zahlensysteme verstehen,</li>\n    <li>grundlegende Programmierkonzepte anwenden,</li>\n    <li>Daten mit bestehenden Funktionen von MATLAB verarbeiten.</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 30055,
+      "kuerzel": "MATLAB",
+      "bezeichnung": "Matlab",
+      "lernziele": "<p>Die Studierenden k&ouml;nnen</p>\n<ul>\n    <li>Algorithmen und Datenstrukturen programmieren, </li>\n    <li>verschiedene Datentypen und Zahlensysteme verstehen, </li>\n    <li>grundlegende Programmierkonzepte anwenden, </li>\n    <li>Daten mit bestehenden Funktionen von&nbsp;MATLAB verarbeiten. </li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Einf&uuml;hrung </li>\n    <li>Datenein- / ausgabe, interne Datenstrukturen </li>\n    <li>Kontrollstrukturen (Schleifen, Verzweigungen, ...) </li>\n    <li>Automatische Datenverarbeitung mittels Funktionen und Skripten </li>\n    <li>Programmierkonzepte und Algorithmen-Design </li>\n    <li>Algorithmen: Suchen, Sortieren, Numerik </li>\n    <li>Fehlersuche (Debugging) </li>\n    <li>Grafische Systemprogrammierung und Signalverarbeitung mit Simulink </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 30056,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Matlab"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Matlab"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10219,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10219_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 538896,
+      "name": "Nordborg",
+      "vorname": "Henrik"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 19943,
+      "kuerzel": "M_An2EU",
+      "bezeichnung": "Analysis 2 (EEU)",
+      "url": "allModules/19943_M_An2EU.json"
+    },
+    {
+      "id": 19977,
+      "kuerzel": "M_LinAlgEU",
+      "bezeichnung": "Lineare Algebra (EEU)",
+      "url": "allModules/19977_M_LinAlgEU.json"
+    },
+    {
+      "id": 22001,
+      "kuerzel": "M_An1EU",
+      "bezeichnung": "Analysis 1 (EEU)",
+      "url": "allModules/22001_M_An1EU.json"
+    },
+    {
+      "id": 23366,
+      "kuerzel": "M_VekGEU",
+      "bezeichnung": "Vektorgeometrie (EEU)",
+      "url": "allModules/23366_M_VekGEU.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 30054,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": true,
+      "zulassungsBedingung": "Testat",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Programmieren"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Scientific Computing"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2017,
+    "beginSemester": "HS",
+    "endJahr": 2021,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 26042,
+    "kuerzel": "M_ProgEU",
+    "bezeichnung": "Programmieren (EEU)",
+    "url": "allModules/26042_M_ProgEU.json"
+  },
+  "nachfolger": {
+    "id": 30054,
+    "kuerzel": "M_ProgEU",
+    "bezeichnung": "Programmieren (EEU)",
+    "url": "allModules/30054_M_ProgEU.json"
+  }
+}

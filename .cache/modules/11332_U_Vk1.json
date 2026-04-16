@@ -1,0 +1,144 @@
+{
+  "id": 11332,
+  "kuerzel": "U_Vk1",
+  "bezeichnung": "Verkehr 1 - Übergangsmodul",
+  "kreditpunkte": 14,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 11214,
+      "kuerzel": "uVk1",
+      "bezeichnung": "Verkehr - Übergang",
+      "lernziele": "<p>F&auml;higkeit zur verkehrstechnischen Dimensionierung und Optimierung von Strassenverkehrsanlagen </p>\n<p>Grundkenntnisse zur Projektierung und bautechnischer Ausf&uuml;hrung von Untertagbauten im Lockergestein und <br />Fels (Stollen, Tunnel, Kavernen, Sch&auml;chte) </p>\n<p><br /></p>",
+      "planinhalt": "<p>Verkehrstechnik <br />- Theorie des Verkehrsablaufes, Kinematik <br />- Konfliktpunkte an Knoten <br />- Knotenentwurf und Knotengestaltung, Knotenformen, Einsatzkriterien <br />- Dimensionierung und Betrieb von Knoten ohne LSA, Geometrie, Leistungsf&auml;higkeit <br />- Kreisverkehrspl&auml;tze <br />- Kreiselberechnung <br />- Dimensionierung und Betrieb von Knoten mit LSA, Geometrie, Koordinierung von LSA <br />- Lichtsignalberechnung <br />- Lichtsignalprogramme <br />- Fahrdynamik von &Ouml;V-Fahrzeugen <br />- Lichtsignalbeeinflussung <br />- Staumanagement <br /><br />Untertagbau <br />- Einf&uuml;hrung in den Untertagbau <br />- Grunds&auml;tze der Projektierung <br />- Bauweisen <br /><br />Nachhaltigkeit im Verkehr, Mobilit&auml;t und Raumentwicklung <br />Raumwirksamkeit von verkehrsplanerischen und verkehrspolitischen Massnahmen <br />Schifffahrt und H&auml;fen, Personenschifffahrt, Schiffsg&uuml;terverkehr, Schiffahrtsbetriebe <br />Projektablauf und Management von Verkehrsprojekten; <br />Komplexe Verkehrsplanungen <br />Verkehrsgutachten Stadtverkehr <br />Neue Technologien, Einf&uuml;hrung in die Telematik <br /><br />Verkehrsplanung und Verkehrspolitik im Ausland/EU <br />Bahnh&ouml;fe&nbsp;<br /><br /><br /><br /></p>",
+      "kurselemente": [
+        {
+          "id": 11297,
+          "art": "Vorlesung",
+          "anzLektionen": 6,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Verkehr - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Transport - Transition"
+        }
+      ]
+    },
+    {
+      "id": 11215,
+      "kuerzel": "uVk_P",
+      "bezeichnung": "Projekt Verkehr - Übergang",
+      "lernziele": "<p>Projektbearbeitung aus dem Vertiefungsbereich, Einzel- oder Gruppenarbeit <br />Interdisziplin&#228;res Arbeiten</p>",
+      "planinhalt": "<p>H&#228;ngt von der jeweiligen Aufgabenstellung f&#252;r das Projekt ab <br /><br /><br /><br /><br /></p>",
+      "kurselemente": [
+        {
+          "id": 11299,
+          "art": "Projekt",
+          "anzLektionen": 8,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Projekt Verkehr - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Project Transport - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10006,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10006_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10024,
+          "kuerzel": "R-vu",
+          "bezeichnung": "Verkehr und Umwelt",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10028,
+          "kuerzel": "R-p",
+          "bezeichnung": "Projekte ",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10012,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10012_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 81,
+      "name": "Zweibrücken",
+      "vorname": "Klaus"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11332,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Verkehr 1 - Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Transport 1 - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2006,
+    "endSemester": "WS"
+  }
+}

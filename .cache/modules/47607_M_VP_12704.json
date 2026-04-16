@@ -1,0 +1,236 @@
+{
+  "id": 47607,
+  "kuerzel": "M_VP_12704",
+  "bezeichnung": "Anisotrope Materialparameter für die Simulation von Kaltumformprozessen",
+  "kreditpunkte": 15,
+  "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen geeignete Zugversuche zur Ermittlung von anisotropen Materialparametern definieren und durchf&uuml;hren.</li>\n    <li>k&ouml;nnen daraus durch Abgleich von Theorie und Versuch anisotrope Materialparameter ermitteln.</li>\n    <li>k&ouml;nnen ein optimales Fliessgesetz f&uuml;r den Kaltumformprozess bestimmen. </li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 47608,
+      "kuerzel": "VP_1270401",
+      "bezeichnung": "Anisotrope Materialparameter für die Simulation von Kaltumformprozessen",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>k&ouml;nnen geeignete Zugversuche zur Ermittlung von anisotropen Materialparametern definieren und durchf&uuml;hren.</li>\n    <li>k&ouml;nnen daraus durch Abgleich von Theorie und Versuch anisotrope Materialparameter ermitteln.</li>\n    <li>k&ouml;nnen ein optimales Fliessgesetz f&uuml;r den Kaltumformprozess bestimmen. </li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Nichtlineare Materialgesetze f&uuml;r Umformst&auml;hle</li>\n    <li>Nichtlineare Simulation von Umformprozessen</li>\n    <li>Materialparameter</li>\n    <li>Fliessgesetz</li>\n</ul>",
+      "bibliographie": "<p>Rust, W.: Nichtlineare Finite-Elemente-Berechnungen<br />Reichner, J.: Umformtechnik<br />Lange, H.: Handbuch der Umformtechnik</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "leistungsnachweis": "Das zu bearbeitende Projekt wird mittels m&uuml;ndlicher Pr&uuml;fung nach Projektabschluss bewertet.",
+      "kurselemente": [
+        {
+          "id": 47609,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001060,
+          "name": "Althaus",
+          "vorname": "Josef"
+        }
+      ]
+    },
+    {
+      "id": 47610,
+      "kuerzel": "VP_1270402",
+      "bezeichnung": "Nichtlineare Finite-Elemente-Berechnungen",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>kennen verschiedene Nichtlinearit&auml;ten bei Finite-Elemente-Simulationen.</li>\n    <li>k&ouml;nnen die wichtigsten nichtlinearen Effekte bei Finite-Elemente-Simulationen, insbesondere bei Materialgesetzen modellieren und mit Hilfe einer FE-Software simulieren. </li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Geometrische Nichtlinearit&auml;ten</li>\n    <li>Numerische L&ouml;sungsverfahren</li>\n    <li>Nichtlineare Materialmodelle (z.B. Visko-Elastizit&auml;t, Kriechen, Elasto-Plastizit&auml;t)</li>\n    <li>Kontakte <br /></li>\n</ul>",
+      "bibliographie": "<p>Rust, W.: Nichtlineare Finite-Elemente-Berechnungen<br />Reichner, J.: Umformtechnik<br />Lange, H.: Handbuch der Umformtechnik</p>",
+      "empfLehrmittel": "<p>Puzzle Methode</p>",
+      "leistungsnachweis": "Dieser Kurs wird mittels eines Fachvortrages bewertet.",
+      "kurselemente": [
+        {
+          "id": 47611,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2001060,
+          "name": "Althaus",
+          "vorname": "Josef"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2001060,
+      "name": "Althaus",
+      "vorname": "Josef"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 47165,
+      "kuerzel": "M_VP_11702",
+      "bezeichnung": "Dynamik mechanischer Systeme I",
+      "url": "allModules/47165_M_VP_11702.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Anisotropic Material Parameters for Simulating Cold Forming Processes"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2012,
+    "beginSemester": "HS",
+    "endJahr": 2012,
+    "endSemester": "HS"
+  }
+}

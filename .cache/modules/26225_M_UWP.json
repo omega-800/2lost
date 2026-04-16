@@ -1,0 +1,147 @@
+{
+  "id": 26225,
+  "kuerzel": "M_UWP",
+  "bezeichnung": "Umwelttechnik in der Praxis",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Die Studierenden erhalten Einblick&nbsp;in die&nbsp;Anwendung von innovativen Verfahren und Technologien in der Praxis,&nbsp;zur Behandlung von Abf&auml;llen, Abwasser und&nbsp;Luft.</p>",
+  "semesterBewertung": "besucht / nicht besucht",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 26226,
+      "kuerzel": "UTP",
+      "bezeichnung": "Umwelttechnik in der Praxis",
+      "lernziele": "Siehe Modulbeschreibung",
+      "planinhalt": "<ul><li>Seminare durch Referenten aus Industrie, Verb&auml;nden, Beh&ouml;rden und Forschung zu ausgew&auml;hlten Themen der Umwelttechnik</li><li>Exkursion zu ausgew&auml;hlten Umwelttechnikbetrieben</li><li>4-t&auml;gige Exkursion in der unterrichtsfreien Zeit (KW25). Die Kosten gehen zu Lasten der Studierenden. Eine budgetfreundliche Umsetzung ist vorgesehen.</li></ul>",
+      "kurselemente": [
+        {
+          "id": 26227,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 120,
+          "harteGrenze": true
+        },
+        {
+          "id": 26228,
+          "art": "Exkursion",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 20,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Umwelttechnik in der Praxis"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Environmental Engineering in Practise"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10108,
+          "kuerzel": "EEU-veu",
+          "bezeichnung": "Vertiefungsmodule Umwelttechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10104,
+          "kuerzel": "EEU-vet",
+          "bezeichnung": "Vertiefungsmodule Energietechnik",
+          "kreditpunkte": 1
+        },
+        {
+          "id": 10108,
+          "kuerzel": "EEU-veu",
+          "bezeichnung": "Vertiefungsmodule Umwelttechnik",
+          "kreditpunkte": 1
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 535732,
+      "name": "Burkhardt",
+      "vorname": "Michael"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Umwelttechnik in der Praxis"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Environmental Engineering in Practise"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2016,
+    "beginSemester": "FS",
+    "endJahr": 2016,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 24812,
+    "kuerzel": "M_UWP",
+    "bezeichnung": "Umwelttechnik in der Praxis",
+    "url": "allModules/24812_M_UWP.json"
+  },
+  "nachfolger": {
+    "id": 26225,
+    "kuerzel": "M_UWP",
+    "bezeichnung": "Umwelttechnik in der Praxis",
+    "url": "allModules/26225_M_UWP.json"
+  }
+}

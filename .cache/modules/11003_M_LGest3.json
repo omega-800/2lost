@@ -1,0 +1,198 @@
+{
+  "id": 11003,
+  "kuerzel": "M_LGest3",
+  "bezeichnung": "Landschaftsgestaltung 3",
+  "kreditpunkte": 6,
+  "lernziele": "<ul>\n    <li>Mit der fachlichen Komplexit&auml;t von landschaftsgestalterischen Aufgabenstellungen umgehen k&ouml;nnen<br /></li>\n    <li>Kenntnisse der Technik im Landschaftsbau am Projekt anwenden </li>\n    <li>LBP/Landschaftspflegerische Begleitplanung systematisch anwenden <br /></li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10098,
+      "kuerzel": "LGest3",
+      "bezeichnung": "Gestalten im landschaftlichen Kontext 3 ",
+      "lernziele": "<ul>\n    <li>Grunds&auml;tze des Entwerfens im nicht bebauten Landschaftsraum kennen lernen</li>\n    <li>Landschaftspflegerische Begleitplanung als Teil des Gesamtprojekts verstehen lernen <br /></li>\n</ul>",
+      "planinhalt": "<p>Gestalten im Kontext von Landschaftseingriffen; <br />Entwerfen von Modellierungen und/oder Kunstbauten; <br />Gestalten von Wegen, Gew&auml;ssern u.a.m; <br />Gestalten mit Vegetation <br /></p>",
+      "kurselemente": [
+        {
+          "id": 10888,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 12360,
+          "art": "Projekt",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Gestalten im landschaftlichen Kontext 3 "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Design in Landscape Context 3"
+        }
+      ]
+    },
+    {
+      "id": 10099,
+      "kuerzel": "LaBau3",
+      "bezeichnung": "Technik im Landschaftsbau 3",
+      "lernziele": "<ul>\n    <li>Einsatz landschaftsbaulicher Technik im Kontext mit Landschaftseingriffen </li>\n    <li>Umgang mit Bauweisen und Materialien im Landschaftsbau kennen lernen <br /></li>\n</ul>",
+      "planinhalt": "<p>Gestalterische und technische Umsetzung des landschaftsgestalterischen Entwurfs; <br />Spezielle Pflanzenverwendung bei grossen Landschaftseingriffen; <br />Ingenieurbiologie als Teil der Tiefbaumassnahmen; <br />Projektierung von Gestaltungs-, Ausgleichs- und Ersatzmassnahmen; <br />Grundz&uuml;ge von Ausschreibung und Projektablaufplanung bei Landschaftseingriffen <br /></p>",
+      "kurselemente": [
+        {
+          "id": 12361,
+          "art": "Projekt",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 10887,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Technik im Landschaftsbau 3"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Engineering in Landscape Construction 3"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10002,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10002_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10008,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10008_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10014,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10014_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 246,
+      "name": "Kleiner",
+      "vorname": "Joachim"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11002,
+      "kuerzel": "M_LGest2",
+      "bezeichnung": "Landschaftsgestaltung 2",
+      "url": "allModules/11002_M_LGest2.json"
+    },
+    {
+      "id": 18702,
+      "kuerzel": "M_LaP",
+      "bezeichnung": "Landschaftspflege",
+      "url": "allModules/18702_M_LaP.json"
+    },
+    {
+      "id": 18823,
+      "kuerzel": "M_LaGest1",
+      "bezeichnung": "Landschaftsgestaltung 1 ",
+      "url": "allModules/18823_M_LaGest1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11003,
+      "art": "Note von 1 - 6",
+      "pruefungMue": true,
+      "dauerPrfMue": 20,
+      "pruefungSchr": false,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Teilnahme an Projektarbeit</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Landschaftsgestaltung 3"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Landscape Design 3"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2007,
+    "beginSemester": "SS",
+    "endJahr": 2012,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 11003,
+    "kuerzel": "M_LGest3",
+    "bezeichnung": "Landschaftsgestaltung 3",
+    "url": "allModules/11003_M_LGest3.json"
+  }
+}

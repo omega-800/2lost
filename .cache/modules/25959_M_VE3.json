@@ -1,0 +1,207 @@
+{
+  "id": 25959,
+  "kuerzel": "M_VE3",
+  "bezeichnung": "Virtuelles Entwickeln 3",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Die Studierenden lernen Konzepte von mechanischen und mechatronischen Systemen im virtuellen Raum zu verifizieren.&nbsp;<br />Dabei lieg der Fokus auf komplexen Bewegungsabl&auml;ufen, dynamischen Kr&auml;ften, einfachen Steuerungsabl&auml;ufen wie auch einfache Spannungsbetrachtungen im Bauteil. Die gewonnenen Erkenntnisse aus der Simulation helfen bei der Dimensionierung von Bauteilen, der Auslegung von Antrieben, wie auch der Optimierung des Systems.</p>",
+  "vorausgKenntnisse": "<p>Virtuelles Entwickeln 1: CAD M1<br />Virtuelles Entwickeln 2: CAD M2<br />Oder Vorkenntnisse mit Siemens NX</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 25960,
+      "kuerzel": "MKS",
+      "bezeichnung": "Mehrkörpersimulation",
+      "lernziele": "<p>Die Studierenden lernen Konzepte von mechanischen und mechatronischen Systemen im virtuellen Raum zu verifizieren.&nbsp;<br />Dabei lieg der Fokus auf komplexen Bewegungsabl&auml;ufen, dynamischen Kr&auml;ften, einfachen Steuerungsabl&auml;ufen wie auch einfache Spannungsbetrachtungen im Bauteil. Die gewonnenen Erkenntnisse aus der Simulation helfen bei der Dimensionierung von Bauteilen, der Auslegung von Antrieben, wie auch der Optimierung des Systems.</p>\n<p>&nbsp;</p>\n<p><strong>Fachkompetenzen</strong></p>\n<p>Die Studierenden k&ouml;nnen:<br />- die notwendigen Gelenke f&uuml;r einen Mechanismus bestimmen und korrekt einbauen<br />- Lasten und &Uuml;bertragungselemente in einer Simulation anwenden<br />- Simulationsergebnisse auswerten und interpretieren<br />- eine Simulation mit FEM koppeln und Spannungen + Verformungen anzeigen<br />- eine virtuelle Steuerungslogik im CAD erstellen</p>\n<p>&nbsp;</p>\n<p><strong>Methodenkompetenzen</strong></p>\n<p>Die Studierenden kennen Methoden zur Verifikation des Systemverhaltens an einem virtuellen Prototyp.<br />Die Studierenden k&ouml;nnen absch&auml;tzen, welche Ergebnisse sie von einer Simulation erwarten k&ouml;nnen.</p>\n<p>&nbsp;</p>\n<p><strong>Selbstkompetenzen</strong></p>\n<p>Die Studierenden wissen, wie sie sich vertiefende Kompetenzen aneignen k&ouml;nnen</p>",
+      "planinhalt": "<p>Mehrk&ouml;rpersimulation:<br />- K&ouml;rper, Gelenke, Treiber, Kr&auml;fte, Drehmomente, &Uuml;bertragungselemente definieren<br />- Solver, Solvereinstellungen<br />- Grafen, Spurkurven, Auswertungstools<br />- 2D- und 3D-Kontakte</p>\n<p>&nbsp;</p>\n<p>Kopplung mit FEM:<br />- Darstellungsoptionen f&uuml;r Spannungen und Deformationen</p>\n<p>&nbsp;</p>\n<p>Mechatronische Systemsimulation:<br />- K&ouml;rper, Gelenke, Aktoren, Sensoren, Greifer, Signalerstellung und Verkn&uuml;pfung, Kollisionsk&ouml;rper<br />- Steuerungslogik: Zeitgesteuerte-, Eventgesteuerte- und Positionsgesteuerte Ablaufsteuerung, Logikverkn&uuml;pfungen, interne- und externe Ansteuerung</p>",
+      "kurselemente": [
+        {
+          "id": 25961,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Mehrkörpersimulation"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Multy Body Simulation"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10245,
+      "bezeichnung": "Simulationstechnik",
+      "kuerzel": "M-I-SI",
+      "url": "allStudies/10245_M-I-SI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 524611,
+      "name": "Eichenberger",
+      "vorname": "Peter"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 24072,
+      "kuerzel": "M_Inno1",
+      "bezeichnung": "Innovation 1",
+      "url": "allModules/24072_M_Inno1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 25959,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Erf&uuml;llte Testate</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Virtuelles Entwickeln 3"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Virtual Design 3"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2015,
+    "beginSemester": "HS",
+    "endJahr": 2023,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 20872,
+    "kuerzel": "M_VE3",
+    "bezeichnung": "Virtuelles Entwickeln 3",
+    "url": "allModules/20872_M_VE3.json"
+  },
+  "nachfolger": {
+    "id": 25959,
+    "kuerzel": "M_VE3",
+    "bezeichnung": "Virtuelles Entwickeln 3",
+    "url": "allModules/25959_M_VE3.json"
+  }
+}

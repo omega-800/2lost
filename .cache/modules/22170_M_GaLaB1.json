@@ -1,0 +1,178 @@
+{
+  "id": 22170,
+  "kuerzel": "M_GaLaB1",
+  "bezeichnung": "Garten- & Landschaftsbau 1",
+  "kreditpunkte": 6,
+  "lernziele": "<ul>\n    <li>Vermittlung von Kenntnissen in Ausf&uuml;hrung und CAD, die f&uuml;r die T&auml;tigkeit in der Landschaftsarchitektur notwendig sind </li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 22171,
+      "kuerzel": "Afü1",
+      "bezeichnung": "Ausführungsplanung 1",
+      "lernziele": "<ul><li>Vermittlung von Kenntnissen in der Ausf&uuml;hrungsplanung und von Baumaterialien, die f&uuml;r die Realisierung eines Projektes in der Landschaftsarchitektur notwendig sind.</li></ul>",
+      "planinhalt": "Theorie in Gel&auml;ndemodellierung, Ausf&uuml;hrungsplanung, Liegenschaftsentw&auml;sserung, Normenwesen, Betonbau, Mauerbau, Treppenbau, Wegebau, Metallbau, Holzbau, Wasseranlagen, Spielplatzbau; Geotechnik;<br />&Uuml;bungen in Gel&auml;ndemodellierung; Erdmassenberechnung;&nbsp;Liegenschaftsentw&auml;sserung",
+      "kurselemente": [
+        {
+          "id": 22172,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 22173,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Ausführungsplanung 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Realisation Planning 1"
+        }
+      ]
+    },
+    {
+      "id": 22175,
+      "kuerzel": "CADL_1",
+      "bezeichnung": "CAD-1 ",
+      "lernziele": "<ul>\n    <li>Einf&uuml;hrung in CAD als Grundlage f&uuml;r die digitale Projektbearbeitung in der Landschaftsarchitektur<br /></li>\n</ul>",
+      "planinhalt": "<ul>     </ul>\n    Einf&uuml;hrung in die 2D CAD Konstruktion in der Landschaftsarchitektur (Civil 3D und Vectorworks);<br />Einf&uuml;hrung in die 3D CAD Konstruktion in der Landschaftsarchitektur (Civil 3D und Vectorworks);<br />Digitale Bauaufnahme\n    <ul>           </ul>\n        <ul>      </ul>",
+      "kurselemente": [
+        {
+          "id": 22176,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 15,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "CAD-1 "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "CAD-1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10002,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10002_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10061,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10061_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10112,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10112_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 6
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 128,
+      "name": "Petschek",
+      "vorname": "Peter"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 22170,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Garten- & Landschaftsbau 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Construction 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2010,
+    "beginSemester": "HS",
+    "endJahr": 2017,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 22170,
+    "kuerzel": "M_GaLaB1",
+    "bezeichnung": "Garten- & Landschaftsbau 1",
+    "url": "allModules/22170_M_GaLaB1.json"
+  }
+}

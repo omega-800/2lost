@@ -1,0 +1,131 @@
+{
+  "id": 40474,
+  "kuerzel": "M_ComT",
+  "bezeichnung": "Computational Thinking",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden k&ouml;nnen:</p>\n<ul>\n<li>Einfache Programme in einer prozeduralen Programmiersprache schreiben</li>\n<li>Linux als Betriebssystem nutzen und wichtige Shell-Befehle einsetzen</li>\n<li>Das Rechnermodell und die Funktionsweise der CPU und deren Steuerregister erkl&auml;ren</li>\n<li>Den Adressraum eines Prozesses beschreiben und Speicherinhalte korrekt interpretieren</li>\n<li>Den Aufbau des Stackframes bei Funktionsaufrufen erl&auml;utern</li>\n<li>Die Funktionsweise des Schedulers des Betriebssystems bei mehreren Prozessen resp. Threads beschreiben</li>\n<li>Die Komplexit&auml;t von Algorithmen bestimmen und verschiedene Such- und Sortierverfahren anwenden</li>\n<li>Das FAT32-Dateisystem erl&auml;utern und Dateien in Programmen lesen und schreiben</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 40475,
+      "kuerzel": "ComT",
+      "bezeichnung": "Computational Thinking",
+      "planinhalt": "<p>Siehe Modulbeschreibung</p>",
+      "kurselemente": [
+        {
+          "id": 40476,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        },
+        {
+          "id": 40477,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Computational Thinking"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Computational Thinking"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10165,
+      "bezeichnung": "Smart Products and Data Science",
+      "kuerzel": "WING_Prod",
+      "url": "allStudies/10165_WING_Prod.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10171,
+      "bezeichnung": "Smart Products and Data Science",
+      "kuerzel": "WING_Prod",
+      "url": "allStudies/10171_WING_Prod.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10151,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10151_WING.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10169,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10169_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 386,
+      "name": "Bühler",
+      "vorname": "Peter"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 40474,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Computational Thinking"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Computational Thinking"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "vorgaenger": {
+    "id": 31630,
+    "kuerzel": "M_ComT",
+    "bezeichnung": "Computational Thinking",
+    "url": "allModules/31630_M_ComT.json"
+  }
+}

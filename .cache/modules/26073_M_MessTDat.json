@@ -1,0 +1,228 @@
+{
+  "id": 26073,
+  "kuerzel": "M_MessTDat",
+  "bezeichnung": "Messtechnik und Datenerfassung",
+  "kreditpunkte": 4,
+  "lernziele": "<ul><li>Beherrschung und Verstehen von Verfahren und Systemen f&uuml;r die Erfassung von Prozesszust&auml;nden</li><li>Kenntnis von Messprinzipien und Messverfahren f&uuml;r den Bereich EEU</li><li>Planung und Durchf&uuml;hrung von Versuchen inkl. anwenden und programmieren von Datenerfassungssystemen im Speziellen mit LabVIEW</li><li>Verarbeitung von Messdaten anwenden: Beschreibung und &Uuml;bertragung von Abweichungen / Unsicherheiten, Signalfilterung</li><li>Korrekte Dateninterpretation und Darstellung</li></ul>",
+  "vorausgKenntnisse": "<p>Grundkenntnisse im Einsatz von Computern<br />Grundkenntnisse in Excel und Matlab (Diagramme, Mittelwertbildung, etc.)</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 26074,
+      "kuerzel": "MessTDat",
+      "bezeichnung": "Messtechnik und Datenerfassung",
+      "lernziele": "<p>siehe Modulbeschreibung</p>",
+      "planinhalt": "<ul><li>Untersuchung und Beschreibung des statischen und dynamischen Verhaltens von Systemen</li><li>Messabweichungen: Entstehung und Minderung, Beschreibungsmittel der Messabweichung</li><li>Sensoren und Messwandler f&uuml;r verschiedene Prozessgr&ouml;ssen mit Schwergewicht EEU (thermische Gr&ouml;ssen, Str&ouml;mungsgr&ouml;ssen, Konzentrationen, etc.)</li><li>Messdatenerfassung mit Digitalrechnern inklusive Abtastung-Aliasing</li><li>Datenaufbereitung: Unsicherheitsrechnung und Signalfilterung</li><li>Dateninterpretation und Darstellung: Signifikanz, Trendanalyse, etc.</li><li>Planung von Messungen und Messserien (DOE)</li><li>Praktische Beispiele (Labor)</li></ul>",
+      "kurselemente": [
+        {
+          "id": 26075,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 120,
+          "harteGrenze": true
+        },
+        {
+          "id": 26076,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Messtechnik und Datenerfassung"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Measurement Engineering and Data Acquisition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10219,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10219_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10259,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10259_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 526029,
+      "name": "Reber",
+      "vorname": "Andreas"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11043,
+      "kuerzel": "M_Ph1Mech",
+      "bezeichnung": "Physik 1 - Mechanik",
+      "url": "allModules/11043_M_Ph1Mech.json"
+    },
+    {
+      "id": 20825,
+      "kuerzel": "M_Ph3SWO",
+      "bezeichnung": "Physik 3 - Schwingungen und Wellen, Optik",
+      "url": "allModules/20825_M_Ph3SWO.json"
+    },
+    {
+      "id": 20970,
+      "kuerzel": "M_WrStatEU",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung und Statistik (EEU)",
+      "url": "allModules/20970_M_WrStatEU.json"
+    },
+    {
+      "id": 22021,
+      "kuerzel": "M_Ph2HAT",
+      "bezeichnung": "Physik 2 - Hydro-, Aero- und Thermodynamik",
+      "url": "allModules/22021_M_Ph2HAT.json"
+    },
+    {
+      "id": 30054,
+      "kuerzel": "M_ProgEU",
+      "bezeichnung": "Programmieren (EEU)",
+      "url": "allModules/30054_M_ProgEU.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 26073,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>In 2er oder 3er Teams:<br />a) Zu einem Laborthema aus ca. SW 04&ndash;08 einen gen&uuml;genden Laborbericht in Berichtform abgeben und dazu eine gen&uuml;gende \"elektronische Pr&auml;sentation\" (Video, max. 10 Min.) abgeben.<br />b) zu einem Laborthema, das sich &uuml;ber 2 - 3 Termine erstreckt (ca. SW 10&ndash;12), einen gen&uuml;genden Laborbericht in Berichtform&nbsp; abgeben.</p>\n<p>Details und Termine werden zu Semsterbeginn bekannt gegeben</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Messtechnik und Datenerfassung"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Measurement Engineering and Data Acquisition"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2016,
+    "beginSemester": "FS",
+    "endJahr": 2024,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 19833,
+    "kuerzel": "M_MAR1",
+    "bezeichnung": "Mess-/Antriebs-/Regeltechnik 1",
+    "url": "allModules/19833_M_MAR1.json"
+  },
+  "nachfolger": {
+    "id": 26073,
+    "kuerzel": "M_MessTDat",
+    "bezeichnung": "Messtechnik und Datenerfassung",
+    "url": "allModules/26073_M_MessTDat.json"
+  }
+}

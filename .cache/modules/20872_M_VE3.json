@@ -1,0 +1,159 @@
+{
+  "id": 20872,
+  "kuerzel": "M_VE3",
+  "bezeichnung": "Virtuelles Entwickeln 3",
+  "kreditpunkte": 2,
+  "lernziele": "<ul>\n    <li>kennt die Einsatzm&ouml;glichkeiten eines modernen M-CAD-Systems (Unigraphics) im Bereich von kinematischen Simulationen </li>\n    <li>kann mit Unigraphics einfache kinematische Aufgabenstellungen selbst&auml;ndig l&ouml;sen </li>\n    <li>kann Simulationsergebnisse interpretieren und auswerten <br /><br /><br /></li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 20873,
+      "kuerzel": "SimSys1",
+      "bezeichnung": "Simulation mechanischer Systeme 1",
+      "planinhalt": "<p>Grundlagen und Ziele der Simulation mechanischer Systeme <br /><br />Die Abstraktion der realen Geometrie durch eine \"Drahtgeometrie\" <br /><br />Anwenden der kinematischen Elemente auf die Drahtgeometrie und auf ausmodellierte Objekte: erstellen, editieren, l&#246;schen <br /><br />Definieren von \"Links\" (Verbindungen der Elemente) und \"Joints\" (relative Bewegungen und Antriebe) <br /><br />Simulation von Federn, D&#228;mpfer, externe Kr&#228;fte, usw. <br /><br />Resultate auswerten, interpretieren und verifizieren <br /><br />Einsatz von verschiedenen weiteren Analysemethoden <br /><br /></p>",
+      "kurselemente": [
+        {
+          "id": 20874,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Simulation mechanischer Systeme 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Simulation of mechanical Systems 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 101730,
+      "name": "Sohrweide",
+      "vorname": "Anita"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 24072,
+      "kuerzel": "M_Inno1",
+      "bezeichnung": "Innovation 1",
+      "url": "allModules/24072_M_Inno1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 20872,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>75 % der Uebungen erfolgreich absolviert (Testat)</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Virtuelles Entwickeln 3"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Virtual Design 3"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2011,
+    "beginSemester": "HS",
+    "endJahr": 2014,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 11196,
+    "kuerzel": "M_SimSys1",
+    "bezeichnung": "Simulation mechanischer Systeme 1",
+    "url": "allModules/11196_M_SimSys1.json"
+  },
+  "nachfolger": {
+    "id": 20872,
+    "kuerzel": "M_VE3",
+    "bezeichnung": "Virtuelles Entwickeln 3",
+    "url": "allModules/20872_M_VE3.json"
+  }
+}

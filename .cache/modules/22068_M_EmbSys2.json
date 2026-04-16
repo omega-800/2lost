@@ -1,0 +1,277 @@
+{
+  "id": 22068,
+  "kuerzel": "M_EmbSys2",
+  "bezeichnung": "Embedded Systems 2",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Das Modul behandelt fortgeschrittene Hardware- und Software-Komponenten und deren Schnittstellen bei komplexeren Rechnerplattformen f&uuml;r Echtzeit-Anwendungen und Artificial Intelligence (AI) in eingebetteten Systemen. Dabei fliessen aktuelle Technologie-Trends bzgl. Real-Time Operating Systems (RTOS), Programmiersprachen, Rechnerarchitekturen und AI-Frameworks aktiv in den Unterricht mit ein.</p>\n<p>Die Studierenden lernen, die Systemkomponenten unter dem Aspekt der System-Performance (Multiprozessor, Speicherverwaltung, Datendurchsatz, Hardware-Beschleunigung f&uuml;r AI, etc.) zu entwerfen, zu analysieren und auf einem entsprechenden Mikrocomputer-System umzusetzen.</p>",
+  "vorausgKenntnisse": "<ul>\n<li>Programmieren in C++, C und Python</li>\n<li>Software Engineering und OO-Analyse/Design</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 22069,
+      "kuerzel": "EmbSys2",
+      "bezeichnung": "Embedded Systems 2",
+      "lernziele": "<ul>\n<li>Die Studierenden k&ouml;nnen eingebettete Echtzeit-Systeme modellieren, analysieren, und auf einem Mikrocomputer in C++ implementieren.</li>\n<li>Sie k&ouml;nnen ein RTOS f&uuml;r die Event-getriebene nebenl&auml;ufige Datenverarbeitung auf dem Zielsystem verwenden.</li>\n<li>Sie k&ouml;nnen verschiedene Speicherbausteine entlang der Speicherhierarchie in einem Embedded System einsetzen und Speicher effizient und sicher verwalten.</li>\n<li>Sie k&ouml;nnen die unterschiedlichen Arten von Parallelit&auml;t in modernen Rechnerplattformen verstehen und auf Einprozessor- sowie auf Mehrprozessor-Systemen nutzen.</li>\n<li>Sie k&ouml;nnen grundlegende Deep Neural Networks (fully-connected DNN, CNN, RNN) auf einem Mikrocomputer unter Verwendung geeigneter Methoden und Tools umsetzen.&nbsp;</li>\n</ul>",
+      "planinhalt": "<p>Das Modul behandelt anhand von leistungsstarken Arm Cortex Mikrocomputern fortgeschrittene Bestandteile und Eigenschaften eines modernen eingebetteten Systems:</p>\n<ul>\n<li>Themenblock I \"Real-Time OS\": Concurrency, IPC/Locks (Mutex, Semaphore), Shared Resources, Message Passing, Context Switch/Multi-Tasking, Kernel/User Modes, Privilege Level.</li>\n<li>Themenblock II \"Memory Management\": Persistency, Flash/EEPROM, Protection, MPU, MMU, Virtualization, Tightly-Coupled Memory (TCM), Caching, Hashing, File Systems, Mass Storage via USB.</li>\n<li>Themenblock III \"Multi-Prozessor System\": Parallelism, Instruction-Level (Pipelining, VLIW), Data-Level (SIMD, VPU), Allocation, Distribution, homogen/heterogene (Co-)Prozessoren.</li>\n<li>Themenblock IV \"Embedded AI\": TinyML-Anwendungen (z.B. Machine Vision, Audio), Quantisierung und Pruning, Deep Learning Workflows f&uuml;r Edge Devices, HW-Support (z.B. NPU, TPU).</li>\n</ul>\n<p>&nbsp;</p>\n<p>Inhaltliche &Auml;nderungen und weitere Themen sind m&ouml;glich.</p>",
+      "kurselemente": [
+        {
+          "id": 22070,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        },
+        {
+          "id": 22071,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Embedded Systems 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Embedded Systems 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10191,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10191_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10246,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10246_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5026211,
+      "name": "Breitenmoser",
+      "vorname": "Andreas"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 22062,
+      "kuerzel": "M_EmbSys1",
+      "bezeichnung": "Embedded Systems 1",
+      "url": "allModules/22062_M_EmbSys1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 22068,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>75% der Praktika besucht</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Embedded Systems 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Embedded Systems 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2013,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 11188,
+    "kuerzel": "M_EmbSys2",
+    "bezeichnung": "Embedded Systems 2",
+    "url": "allModules/11188_M_EmbSys2.json"
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "id": 11051,
+  "kuerzel": "M_ModBau",
+  "bezeichnung": "Modellierungen im Bauingenieurwesen",
+  "kreditpunkte": 6,
+  "lernziele": "<p>&#8226; Die Studierenden k&#246;nnen verschiedene Modellierungstools selbstst&#228;ndig in praxisorientierten Fallstudien anwenden und die Fallstudien praxisgerecht dokumentieren. <br />&#8226; F&#228;higkeit selbst&#228;ndig eine Studienarbeit durchzuf&#252;hren, einen professionell technischen Bericht zu verfassen und diesen einem Fachpublikum zu pr&#228;sentieren. </p>",
+  "vorausgKenntnisse": "<p>Dem Themenbereich der verwendeten Modellierungstools entsprechende Aufbaumodule</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10155,
+      "kuerzel": "ModBau",
+      "bezeichnung": "Modellierungen im Bauingenieurwesen",
+      "lernziele": "<p>&#8226; Die Studierenden k&#246;nnen mit verschiedenen Modellierungstools des Bauingenieurwesens umgehen. <br />&#8226; Vertiefte Kenntnisse von mindestens zwei Modellierungstools aus den Profilierungsmodulen. <br />&#8226; Ber&#252;cksichtigung der Randbedingungen. <br />&#8226; F&#228;higkeit Eichung, Validierung, Plausibilit&#228;tsbetrachtungen und Visualisierung bei numerischen Simulationen durchzuf&#252;hren. <br />&#8226; &#220;bersicht &#252;ber Modellierungen in anderen Fachbereichen </p>",
+      "planinhalt": "<p>&bull; &Uuml;bersicht &uuml;ber numerische Modellierungstools aus den Profilierungsmodulen. <br />&bull; &Uuml;bersicht &uuml;ber physikalische Modellierungen im Bauingenieurwesen <br />&bull; Anwendung von mindestens zwei Modellierungstools bei Projektbeispielen <br />&bull; Randbedingungen und Validierung <br />&bull; Modellierungstools im Bauingenieurwesen: <br />&nbsp;&nbsp; o Konstruktion: Statik, Cedrus, Fagus, Pyrus, AxisVM <br />&nbsp;&nbsp; o Verkehr: Knobel, Knosimo, Kreisel <br />&nbsp;&nbsp; o Wasser: Hec-Ras, WaterCad, Hydraulic System, StormCad, SewerCad <br />&nbsp;&nbsp; o Geotechnik: Plaxis, Slope, PlaxFlow <br />&nbsp;&nbsp; o Umwelt: Immi, Spring, Hec-Hms <br />&bull; Bearbeitung von zwei Fallstudien </p>",
+      "kurselemente": [
+        {
+          "id": 10571,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 10572,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Modellierungen im Bauingenieurwesen"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Modelling in Civil Engineering"
+        }
+      ]
+    },
+    {
+      "id": 10156,
+      "kuerzel": "StudArb",
+      "bezeichnung": "Studienarbeit",
+      "lernziele": "<ul>\n    <li>Kenntnis der Projektprozesse im Bauingenieurwesen unter Einbezug der Umweltaspekte. </li>\n    <li>&nbsp;F&auml;higkeit, Ingenieuraufgaben selbst&auml;ndig zu bearbeiten, anhand der Fachliteratur L&ouml;sungsans&auml;tze zu finden und im Selbststudium zu vertiefen. </li>\n    <li>Vertiefung der Ausbildung in den Ingenieurf&auml;chern. </li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Es werden Projekte in den Fachbereichen Konstruktion, Geotechnik, Umwelt, Verkehr und Wasserbau&nbsp;bearbeitet.</li>\n    <li>Verfassen eines technischen Berichts. <br /></li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 10573,
+          "art": "Projekt",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Studienarbeit"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Project Work"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10005,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10005_B.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10011,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10011_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10017,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10017_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10062,
+          "kuerzel": "K_U2B",
+          "bezeichnung": "Übergangsmodule Bauingenieurwesen 2 (Jahrgang 2001)",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10109,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10109_B.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 6
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1031,
+      "name": "Speerli",
+      "vorname": "Jürg"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Modellierungen im Bauingenieurwesen"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Modelling in Civil Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2012,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 11051,
+    "kuerzel": "M_ModBau",
+    "bezeichnung": "Modellierungen im Bauingenieurwesen",
+    "url": "allModules/11051_M_ModBau.json"
+  }
+}

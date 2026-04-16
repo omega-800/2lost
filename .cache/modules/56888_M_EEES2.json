@@ -1,0 +1,225 @@
+{
+  "id": 56888,
+  "kuerzel": "M_EEES2",
+  "bezeichnung": "Electronic Engineering & Embedded Systems 2",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>\n<p>k&ouml;nnen eine Schaltung gem&auml;ss einer Aufgabenstellung entwickeln.</p>\n</li>\n<li>\n<p>k&ouml;nnen Schaltungen zur &Uuml;berpr&uuml;fung ihrer Funktionalit&auml;t berechnen und simulieren.</p>\n</li>\n<li>\n<p>k&ouml;nnen EMV gerechte Leiterplatten mit einem EDA-Tool layouten.</p>\n</li>\n<li>\n<p>k&ouml;nnen elektronische Schaltungen aufbauen und mit geeigneten Messmethoden und Werkzeugen testen und debuggen.</p>\n</li>\n<li>\n<p>kennen die grundlegende Funktion und den Aufbau eines einfachen Mikrocontrollers.</p>\n</li>\n<li>\n<p>haben eine &Uuml;bersicht &uuml;ber den Instruktionssatz und den Speicheraufbau.</p>\n</li>\n<li>\n<p>kennen Peripheriemodule eines Mikrocontrollers.</p>\n</li>\n<li>\n<p>k&ouml;nnen Anwendungen auf einem Mikrocontroller implementieren.</p>\n</li>\n<li>\n<p>lernen einfache Programme in Assembler und C zu implementieren.</p>\n</li>\n</ul>",
+  "vorausgKenntnisse": "<p>Ebenfalls sollten die beiden Module ELA1&nbsp; und ELA 2 besucht worden sein.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 56889,
+      "kuerzel": "EEES2_S",
+      "bezeichnung": "Schaltungsentwicklung",
+      "kreditpunkte": 0,
+      "lernziele": "<p>&nbsp;Die Studierenden</p>\n<ul>\n<li>k&ouml;nnen eine Schaltung gem&auml;ss einer Aufgabenstellung entwickeln.</li>\n<li>k&ouml;nnen Schaltungen zur &Uuml;berpr&uuml;fung ihrer Funktionalit&auml;t berechnen und simulieren.</li>\n<li>k&ouml;nnen EMV gerechte Leiterplatten mit einem EDA-Tool layouten.</li>\n<li>k&ouml;nnen elektronische Schaltungen aufbauen und mit geeigneten Messmethoden und Werkzeugen testen und debuggen.</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Entwicklung einer elektronischen Schaltung mittels Berechnung und Simulation</li>\n<li>Anwendung von elektronischen Grundschaltungen &nbsp;</li>\n<li>Einf&uuml;hrung in ein EDA-Tool (Schaltplan, Library, Layout)</li>\n<li>Grundlagen des EMV gerechten Designs</li>\n<li>Vorgehensweise bei der Realisierung und Inbetriebnahme</li>\n</ul>",
+      "bibliographie": "<p>Lastenheft, EDA-Tool Manuals, Bauteildatenbl&auml;tter<br />Softwarewerkzeug EDA-Tool und Simulationstool wie LTspice</p>",
+      "empfLehrmittel": "<p>&nbsp;Vorlesung, Selbststudium, Projektarbeit</p>",
+      "bemerkungKurs": "<p>Unterrichtsprache ist Deutsch, Literatur teilweise auf Englisch</p>",
+      "leistungsnachweis": "<p>Projektarbeit</p>",
+      "kurselemente": [
+        {
+          "id": 56890,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000608,
+          "name": "Grabher",
+          "vorname": "René"
+        }
+      ]
+    },
+    {
+      "id": 56891,
+      "kuerzel": "EEES2_H",
+      "bezeichnung": "Hardwarenahe Programmierung und Microcontroller",
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>kennen die grundlegende Funktion und den Aufbau eines einfachen Mikrocontrollers.</li>\n<li>haben eine &Uuml;bersicht &uuml;ber den Instruktionssatz und den Speicheraufbau.</li>\n<li>kennen Peripheriemodule eines Mikrocontrollers.</li>\n<li>k&ouml;nnen Anwendungen auf einem Mikrocontroller implementieren.</li>\n<li>lernen einfache Programme in Assembler und C zu implementieren.</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Aufbau von Mikrokontrollern</li>\n<li>Speicherorganisation</li>\n<li>Instruktionsformate</li>\n<li>IO-Ports, Timer, USB</li>\n<li>Treiber, Interrupt-Verarbeitung</li>\n<li>Assembler, Hochsprache (C)&nbsp;</li>\n</ul>",
+      "bibliographie": "<p>Vorlesungsunterlagen, Prozessor Manual</p>",
+      "empfLehrmittel": "<p>&nbsp;Vorlesung, Labor&uuml;bungen, Gruppenarbeiten, Selbststudium&nbsp;</p>",
+      "bemerkungKurs": "<p>&nbsp;</p>\n<p>&nbsp;</p>",
+      "leistungsnachweis": "<p>Modulschlusspr&uuml;fung</p>",
+      "kurselemente": [
+        {
+          "id": 56892,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000080,
+          "name": "Graf",
+          "vorname": "Urs"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10284,
+      "bezeichnung": "Mechatronik BB",
+      "kuerzel": "MT_BB",
+      "url": "allStudies/10284_MT_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10188,
+          "kuerzel": "Kat_VT_MT",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10285,
+      "bezeichnung": "Mechatronik VZ",
+      "kuerzel": "MT_VZ",
+      "url": "allStudies/10285_MT_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10188,
+          "kuerzel": "Kat_VT_MT",
+          "bezeichnung": "Vertiefungsmodule",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2001529,
+      "name": "Piai",
+      "vorname": "Guido"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 54530,
+      "kuerzel": "M_Ana1",
+      "bezeichnung": "Analysis 1: Differentialrechnung",
+      "url": "allModules/54530_M_Ana1.json"
+    },
+    {
+      "id": 54533,
+      "kuerzel": "M_Ana2",
+      "bezeichnung": "Analysis 2: Integralrechnung & ODE",
+      "url": "allModules/54533_M_Ana2.json"
+    },
+    {
+      "id": 54536,
+      "kuerzel": "M_Phy1",
+      "bezeichnung": "Physik 1: Mechanik und Wärme",
+      "url": "allModules/54536_M_Phy1.json"
+    },
+    {
+      "id": 54539,
+      "kuerzel": "M_Phy2",
+      "bezeichnung": "Physik 2: Elektromagnetismus und Schwingungen",
+      "url": "allModules/54539_M_Phy2.json"
+    },
+    {
+      "id": 54561,
+      "kuerzel": "M_Inf2",
+      "bezeichnung": "Informatik 2: Softwareengineering",
+      "url": "allModules/54561_M_Inf2.json"
+    },
+    {
+      "id": 56317,
+      "kuerzel": "M_Inf1",
+      "bezeichnung": "Informatik 1: Einführung in die Programmierung",
+      "url": "allModules/56317_M_Inf1.json"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 56880,
+      "kuerzel": "M_EEES1",
+      "bezeichnung": "Electronic Engineering & Embedded Systems 1",
+      "url": "allModules/56880_M_EEES1.json"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 64052,
+      "kuerzel": "M_EEES3",
+      "bezeichnung": "Electronic Engineering & Embedded Systems 3",
+      "url": "allModules/64052_M_EEES3.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 11,
+      "kuerzel": "LSG",
+      "bezeichnung": "Lerchenfeld St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 56888,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Die Modulschlusspr&uuml;fung umfasst den Kurs Hardwarenahe Programmierung und Microcontroller.</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electronic Engineering & Embedded Systems 2"
+    }
+  ],
+  "durchfuehrungen": {
+    "count": 8,
+    "beginJahr": 2026,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  }
+}

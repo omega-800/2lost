@@ -1,0 +1,173 @@
+{
+  "id": 23322,
+  "kuerzel": "M_EnCom",
+  "bezeichnung": "Enterprise Computing",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Sie lernen die Enterprise Sicht auf Informationssysteme kennen</p>\n<ul>\n    <li>Sie kennen die definierenden Merkmale von Unternehmensanwendungen (Einsatzszenarien, Anwendungstypen, funktionale&nbsp; und nichtfunktionale Anforderungen, technische und organisatorische Rahmenbedingungen in der Praxis, Architekturstile)</li>\n    <li>Sie k&ouml;nnen service-orientierte Architekturen musterorientiert entwerfen und als Web Services implementieren</li>\n    <li>Sie kennen die Java Enterprise Edition (JEE): Enterprise JavaBeans (EJBs), Messaging, Applikations-Management</li>\n    <li>Sie kennen die wichtigsten Enterprise Application Architecture Patterns</li>\n    <li>Sie besitzen erste Erfahrungen mit ausgew&auml;hlten Middleware-Produkten und Open Source Assets zum Bau von Unternehmensanwendungen</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 23323,
+      "kuerzel": "EnCom",
+      "bezeichnung": "Enterprise Computing",
+      "planinhalt": "<ol>\n    <li>Einf&uuml;hrung: Anwendungsszenarien, Praxisbeispiele, funktionale und nichtfunktionale Anforderungen, typische Architekturstile</li>\n    <li>Client, Middle und Backend Tier &ndash; Referenzmodelle, Technologien und Rollen</li>\n    <li>Architekturmuster im Enterprise Computing &ndash; Auffrischung bereits bekannter Muster, Einf&uuml;hrung dom&auml;nenspezifischer Muster</li>\n    <li>JEE-Konzepte und EJB-Technologie; weitere Containertechnologien</li>\n    <li>Message-Oriented Middleware (MOM) und Enterprise Integration (EAI) &ndash; Konzepte und Technologien</li>\n    <li>Prinzipien und Entwurfsmuster f&uuml;r Serviceorientierte Architekturen (SOA): Loose Kopplung, Service Contract, Enterprise Service Bus, Service Composition, Service Registry</li>\n    <li>kurze Einf&uuml;hrung/Wiederholung WSDL/SOAP Web Services (Implementierung der SOA-Muster)</li>\n    <li>Business Process Management (BPM) am Beispiel der Sprachen BPMN und BPEL</li>\n    <li>Beispiele f&uuml;r JEE-Applikationsserver&nbsp; und MOM-/EAI-Middleware &ndash; kommerziell erh&auml;ltliche Produkte, in der Praxis verwendete Open Source Assets; Ausblick auf Cloud Computing</li>\n    <li>Fallstudie aus der Praxis</li>\n</ol>",
+      "kurselemente": [
+        {
+          "id": 23324,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 23325,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Enterprise Computing"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Enterprise Computing"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10230,
+      "bezeichnung": "Frontend Engineering",
+      "kuerzel": "FrEng",
+      "url": "allStudies/10230_FrEng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10229,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10229_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5000585,
+      "name": "Zimmermann",
+      "vorname": "Olaf"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11054,
+      "kuerzel": "M_Vss",
+      "bezeichnung": "Verteilte SW-Systeme",
+      "url": "allModules/11054_M_Vss.json"
+    },
+    {
+      "id": 18558,
+      "kuerzel": "M_SE1",
+      "bezeichnung": "Software-Engineering 1",
+      "url": "allModules/18558_M_SE1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 23322,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Enterprise Computing"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Enterprise Computing"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "HS",
+    "endJahr": 2013,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 11068,
+    "kuerzel": "M_EnCom",
+    "bezeichnung": "Enterprise Computing",
+    "url": "allModules/11068_M_EnCom.json"
+  },
+  "nachfolger": {
+    "id": 23322,
+    "kuerzel": "M_EnCom",
+    "bezeichnung": "Enterprise Computing",
+    "url": "allModules/23322_M_EnCom.json"
+  }
+}

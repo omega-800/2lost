@@ -1,0 +1,91 @@
+{
+  "id": 55776,
+  "kuerzel": "M_wing.RENG",
+  "bezeichnung": "Requirements Engineering",
+  "kreditpunkte": 6,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 55777,
+      "kuerzel": "wing.RENG",
+      "bezeichnung": "Requirements Engineering",
+      "kreditpunkte": 0,
+      "kurselemente": [
+        {
+          "id": 55778,
+          "art": "Vorlesung",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Requirements Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10202,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10202_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10147,
+          "kuerzel": "W-TPLI",
+          "bezeichnung": "Technik, Produktion, Logistik und IT",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10220,
+      "bezeichnung": "Digital Business",
+      "kuerzel": "WING_DigBu",
+      "url": "allStudies/10220_WING_DigBu.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1054,
+      "name": "Tremp",
+      "vorname": "Hansruedi"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Requirements Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

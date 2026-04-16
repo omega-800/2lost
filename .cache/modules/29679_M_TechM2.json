@@ -1,0 +1,257 @@
+{
+  "id": 29679,
+  "kuerzel": "M_TechM2",
+  "bezeichnung": "Technische Mechanik 2",
+  "kreditpunkte": 6,
+  "lernziele": "<ul><li>Gesetze der Kinematik und der Kinetik des Massenpunktes und der starren K&ouml;rper kennen und anwenden k&ouml;nnen</li><li>Problemstellungen der Kinematik und der Kinetik analysieren und den Hauptgebieten zuordnen k&ouml;nnen</li><li>L&ouml;sungsmethoden der Kinematik und Kinetik kennen und auf einfachere Problemstellungen anwenden k&ouml;nnen.</li><li>Zusammenh&auml;nge zwischen Funktion, Gestalt, Abmessungen, Werkstoff, Belastung und rechnerischer Sicherheit kennen und mathematisch formulieren k&ouml;nnen.</li><li>Methoden der Festigkeitslehre kennen und auf einfachere Probleme mit ein- und mehrachsigen Spannungszust&auml;nden anwenden k&ouml;nnen</li></ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 29680,
+      "kuerzel": "Dyna1",
+      "bezeichnung": "Dynamik 1: Kinematik, Kinetik 1",
+      "lernziele": "<ul><li>Gesetze der Kinematik und der Kinetik des Massenpunktes und der starren K&ouml;rper kennen und anwenden k&ouml;nnen</li><li>Problemstellungen der Kinematik und der Kinetik analysieren und den Hauptgebieten zuordnen k&ouml;nnen</li><li>L&ouml;sungsmethoden der Kinematik und Kinetik kennen und auf einfachere Problemstellungen anwenden k&ouml;nnen</li></ul>",
+      "planinhalt": "<ul><li>Eindimensionale Bewegung</li><li>R&auml;umliche Bewegung</li><li>Kreisbewegung</li><li>Ebene Bewegung in Polarkoordinaten</li><li>Bewegungsgleichung</li><li>Arbeit und Energie</li><li>Impuls und Drall</li><li>Stossvorg&auml;nge</li><li>Grundlagen der ebenen Kinematik</li><li>Momentanpol, Analytische Kinematik</li></ul>",
+      "kurselemente": [
+        {
+          "id": 29681,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 29682,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Dynamik 1: Kinematik, Kinetik 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Dynamic 1: Kinematics, Kinetics 1"
+        }
+      ]
+    },
+    {
+      "id": 29683,
+      "kuerzel": "Festl1",
+      "bezeichnung": "Festigkeitslehre 1",
+      "lernziele": "<ul>\n    <li>Zusammenh&auml;nge zwischen Funktion, Gestalt, Abmessungen, Werkstoff, Belastung und rechnerischer Sicherheit kennen und mathematisch formulieren k&ouml;nnen </li>\n    <li>Methoden der Festigkeitslehre kennen und auf einfachere Probleme mit ein- und mehrachsigen Spannungszust&auml;nden anwenden k&ouml;nnen</li>\n</ul>",
+      "planinhalt": "<ul><li>Grundlagen</li><li>Elementare Festigkeitsrechnung: Zug/Druck, Ebene Fl&auml;chenpressung, Lochleibung, Abscheren</li><li>Spannungs- und Verformungszustand: Ein- zwei- und dreiachsige Spannungszust&auml;nde, Spannungskreis, Hauptspannungen, Verallgemeinertes Hookesches Gesetz, Nichtr&auml;umliche Verformungszust&auml;nde</li><li>Arbeit und Energie der Verformung: Form&auml;nderungs- und Verzerrungsarbeit, Volumen- und Gestalt&auml;nderungsarbeit, Schlagartige Belastung, Satz von Castigliano</li><li>Festigkeitshypothesen: Problemstellung, Normalspannungs-, Schubspannungs-, Gr&ouml;sstdehnungs- und Gestalt&auml;nderungsenergiehypothese</li><li>Biegung: Grundbegriffe, Biege-Grundgleichung, Fl&auml;chentr&auml;gheits- und Widerstandsmomente, Biegelinie, Biegung und Schub, Form&auml;nderungsenergie bei Biegung, Biegung gekr&uuml;mmter Tr&auml;ger, Biegung breiter Tr&auml;ger, Schiefe Biegung</li><li>Torsion: Torsions-Grundgleichung, Rotationssymmetrische und allgemeine Querschnitte, Physikalische Analogien, Form&auml;nderungsenergie bei Torsion, Torsion gekr&uuml;mmter St&auml;be</li></ul>",
+      "kurselemente": [
+        {
+          "id": 29684,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 29685,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Festigkeitslehre 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Strength of Materials 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10245,
+      "bezeichnung": "Simulationstechnik",
+      "kuerzel": "M-I-SI",
+      "url": "allStudies/10245_M-I-SI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 101860,
+      "name": "Studer",
+      "vorname": "Mario"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 20045,
+      "kuerzel": "M_MaTecM1",
+      "bezeichnung": "Materialtechnologie 1",
+      "url": "allModules/20045_M_MaTecM1.json"
+    },
+    {
+      "id": 20054,
+      "kuerzel": "M_MaTecM2",
+      "bezeichnung": "Materialtechnologie 2",
+      "url": "allModules/20054_M_MaTecM2.json"
+    },
+    {
+      "id": 29361,
+      "kuerzel": "M_TechM1",
+      "bezeichnung": "Technische Mechanik 1",
+      "url": "allModules/29361_M_TechM1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 29679,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Technische Mechanik 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Engineering Mechanics 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2017,
+    "beginSemester": "HS",
+    "endJahr": 2023,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 20836,
+    "kuerzel": "M_TechM2",
+    "bezeichnung": "Technische Mechanik 2",
+    "url": "allModules/20836_M_TechM2.json"
+  },
+  "nachfolger": {
+    "id": 29679,
+    "kuerzel": "M_TechM2",
+    "bezeichnung": "Technische Mechanik 2",
+    "url": "allModules/29679_M_TechM2.json"
+  }
+}

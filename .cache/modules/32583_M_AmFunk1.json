@@ -1,0 +1,167 @@
+{
+  "id": 32583,
+  "kuerzel": "M_AmFunk1",
+  "bezeichnung": "Amateurfunk-Praktikum 1 ",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Sie erwerben die im Amateurfunk notwendigen Kenntnisse in Elektronik, Hochfrequenztechnik sowie Antennentechnik erg&auml;nzend zu den Grundlagenvorlesungen. Zus&auml;tzlich machen sich die Studierenden mit den Regelungen des Amateurfunks vertraut und lernen ihre Rechte und Pflichten als zuk&uuml;nftige Lizenzinhaber kennen.</p><p>Sie lernen die im Amateurfunk genutzten Fachbegriffe kennen und machen sich mit dem Ablauf verschiedener Arten der Amateurfunkkommunikation (Sprache, Morse, Digital) vertraut. Nach Abschluss des Modules haben die Studierenden die M&ouml;glichkeit, die HB9-Lizenzpr&uuml;fung abzulegen. Dies erfolgt aber ausserhalb der HSR auf eigene Kosten und Initiative. Das Erlernen des Morse-Codes ist freiwillig. Begleitend dazu bauen die Teilnehmenden einen Amateurfunkempf&auml;nger selbst auf.</p><p>Sie legen die Grundlagen f&uuml;r das Amateurfunk-Praktikum 2.</p><p>&nbsp;</p>",
+  "semesterBewertung": "bestanden / nicht bestanden",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 32584,
+      "kuerzel": "AmFunk1",
+      "bezeichnung": "Amateurfunk-Praktikum 1",
+      "planinhalt": "<p>Grundlagen Elektrotechnik</p><p>Konzessionsvorschriften</p><p>QSO</p><p>Abk&uuml;rzungen</p><p>Bandbreiten und Sendearten</p><p>Frequenzbereiche</p><p>Schutzmassnahmen</p><p>Leitungen und Antennen</p><p>Wellenausbreitung</p><p>Sender und Empf&auml;nger</p><p>Messtechnik</p><p>&nbsp;</p><p>&Auml;nderungen vorbehalten</p>",
+      "kurselemente": [
+        {
+          "id": 32585,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Amateurfunk-Praktikum 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Radio Amateur Lab 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 529339,
+      "name": "Malacarne",
+      "vorname": "Selina Rea"
+    }
+  ],
+  "mengen": [
+    {
+      "id": 43,
+      "name": "Aequivalenz",
+      "dModMengeArt": 5701,
+      "module": [
+        {
+          "id": 11180,
+          "kuerzel": "M_EP1",
+          "bezeichnung": "Elektro-Praktikum 1",
+          "url": "allModules/11180_M_EP1.json"
+        },
+        {
+          "id": 32583,
+          "kuerzel": "M_AmFunk1",
+          "bezeichnung": "Amateurfunk-Praktikum 1 ",
+          "url": "allModules/32583_M_AmFunk1.json"
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Amateurfunk-Praktikum 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Radio Amateur Lab 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 1,
+    "beginJahr": 2019,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "id": 24310,
+  "kuerzel": "M_PK2",
+  "bezeichnung": "Pflanzenkenntnisse 2",
+  "kreditpunkte": 2,
+  "lernziele": "<ul>\n    <li>Vermittlung von Pflanzenkenntnisse, die f&uuml;r die T&auml;tigkeit in der Landschaftsarchitektur notwendig sind<br /></li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 24311,
+      "kuerzel": "PflKenn2",
+      "bezeichnung": "Pflanzenkenntnisse 2 ",
+      "lernziele": "<ul>\n    <li>Arten- und Sortenkenntnisse erweitern</li>\n</ul>",
+      "planinhalt": "<p>Stauden: Vermittlung von Arten- und Sortenkenntnissen zu Stauden und Geophyten <br /></p>\n<p>Geh&ouml;lze: Vermittlung von Arten- und Sortenkenntnissen zu&nbsp;Geh&ouml;lze und&nbsp;Kletterpflanzen;</p>\n<p>Technische Pflanzpl&auml;ne erstellen<br /></p>",
+      "kurselemente": [
+        {
+          "id": 24312,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 24313,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Pflanzenkenntnisse 2 "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Plant Knowledge 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10002,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10002_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10061,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10061_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10112,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10112_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10152,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10152_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10018,
+          "kuerzel": "L-g",
+          "bezeichnung": "Grundlagenmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5000525,
+      "name": "Krieger",
+      "vorname": "Mark"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 25908,
+      "kuerzel": "M_PK1",
+      "bezeichnung": "Pflanzenkenntnisse 1",
+      "url": "allModules/25908_M_PK1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 24310,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": true,
+      "zulassungsBedingung": "Testate (2 von 3 Testatpr&uuml;fungen gen&uuml;gend)",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Pflanzenkenntnisse 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Plant Knowledge 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2015,
+    "beginSemester": "FS",
+    "endJahr": 2015,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 22209,
+    "kuerzel": "M_PK2",
+    "bezeichnung": "Pflanzenkenntnisse 2",
+    "url": "allModules/22209_M_PK2.json"
+  },
+  "nachfolger": {
+    "id": 24310,
+    "kuerzel": "M_PK2",
+    "bezeichnung": "Pflanzenkenntnisse 2",
+    "url": "allModules/24310_M_PK2.json"
+  }
+}

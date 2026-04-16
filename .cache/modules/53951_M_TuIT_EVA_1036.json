@@ -1,0 +1,188 @@
+{
+  "id": 53951,
+  "kuerzel": "M_TuIT_EVA_1036",
+  "bezeichnung": "Embedded Software Development under Linux",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Networked embedded systems are used in most technical disciplines such as MedTech, IoT, mechatronics, electronics, data science, energy/environmental technology or photonics. They capture physical information, process it, pass it on and, if necessary, influence the environment. Basic knowledge of embedded software development processes is therefore essential for many engineers, and they need to master, at least to some extent, the creation and use of software for these purposes. Libraries exist for many devices, but one needs to know how to obtain, create, use and test software for different platforms.</p>\n<p>The course will focus on target-oriented examples of Linux based embedded software development. That starts with general question about software development, version control systems and basic operating systems concepts. Popular software languages such as C/C++ and Python will be touched together with translating them into various target platforms. Examples with useful libraries from different fields will be demonstrated and tried out. The most common tool used in system programming such as Make and CMake among others will be covered as well.&nbsp;</p>",
+  "vorausgKenntnisse": "<p>Programming: basic knowledge of C or any other structured programming language (e.g., Java, Python, C++)<br />Operating System: basic understanding of operating system concepts (file system)<br />Linux: Though not required, it&rsquo;s advantageous to have very basic knowledge about Linux, e.g. using a shell.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 53952,
+      "kuerzel": "TuIT_EVA_1036",
+      "bezeichnung": "Embedded Software Development under Linux",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Networked embedded systems are used in most technical disciplines such as MedTech, IoT, mechatronics, electronics, data science, energy/environmental technology or photonics. They capture physical information, process it, pass it on and, if necessary, influence the environment. Basic knowledge of embedded software development processes is therefore essential for many engineers, and they need to master, at least to some extent, the creation and use of software for these purposes. Libraries exist for many devices, but one needs to know how to obtain, create, use and test software for different platforms.</p>\n<p>The course will focus on target-oriented examples of Linux based embedded software development. That starts with general question about software development, version control systems and basic operating systems concepts. Popular software languages such as C/C++ and Python will be touched together with translating them into various target platforms. Examples with useful libraries from different fields will be demonstrated and tried out. The most common tool used in system programming such as Make and CMake among others will be covered as well.&nbsp;</p>",
+      "planinhalt": "<ul>\n<li>\n<p>Basic knowledge of Linux, shell</p>\n</li>\n<li>\n<p>Binutils, compiler, libraries</p>\n</li>\n<li>\n<p>Make, CMake</p>\n</li>\n<li>\n<p>Version control, git</p>\n</li>\n<li>\n<p>Native development versus cross development</p>\n</li>\n<li>\n<p>Basic programs in C/C++, Python?</p>\n</li>\n<li>\n<p>Networking, static and dynamic IP-Adresses, WLAN, UDP</p>\n</li>\n<li>\n<p>Bootloader, kernel, device tree, drivers</p>\n</li>\n<li>\n<p>Exemplary sensors</p>\n</li>\n<li>\n<p>Image processing, opencv</p>\n</li>\n</ul>",
+      "bibliographie": "<p>List of books and/or papers.</p>",
+      "empfLehrmittel": "<p>We will extensively use two different platforms such as RaspiPi and BeagleBone. Every topic will be theoretically introduced which will be followed by hand-on experiments on these platforms.</p>",
+      "leistungsnachweis": "<p><span style=\"display: inline !important; float: none; background-color: transparent; color: #000000; cursor: text; font-family: 'Frutiger_web',Arial,Helvetica,sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;\">Dieses Modul wird mittels m&uuml;ndlicher Pr&uuml;fung bewertet.</span></p>",
+      "kurselemente": [
+        {
+          "id": 53953,
+          "art": "Ergänzende Veranstaltung",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000080,
+          "name": "Graf",
+          "vorname": "Urs"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000080,
+      "name": "Graf",
+      "vorname": "Urs"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2022,
+    "beginSemester": "HS",
+    "endJahr": 2024,
+    "endSemester": "HS"
+  }
+}

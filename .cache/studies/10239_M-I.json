@@ -1,0 +1,4692 @@
+{
+  "id": 10239,
+  "kuerzel": "M-I",
+  "bezeichnung": "Maschinentechnik-Innovation",
+  "versionKuerzel": "STD_23",
+  "typ": "Bachelor",
+  "art": "Studiengang",
+  "form": "Vollzeit",
+  "kredits": [
+    {
+      "id": 10749,
+      "minKredits": 70,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation "
+        }
+      ]
+    },
+    {
+      "id": 10750,
+      "minKredits": 44,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation "
+        }
+      ]
+    },
+    {
+      "id": 10751,
+      "minKredits": 34,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften"
+        }
+      ]
+    },
+    {
+      "id": 10754,
+      "minKredits": 16,
+      "kategorien": [
+        {
+          "id": 10156,
+          "kuerzel": "M_KGM",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management"
+        }
+      ]
+    },
+    {
+      "id": 10764,
+      "minKredits": 12,
+      "kategorien": [
+        {
+          "id": 10111,
+          "kuerzel": "M-BAMI",
+          "bezeichnung": "Bachelor-Arbeit"
+        }
+      ]
+    },
+    {
+      "id": 10780,
+      "minKredits": 4,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS"
+        }
+      ]
+    }
+  ],
+  "spezialisierungen": [
+    {
+      "id": 10240,
+      "kuerzel": "M-I-AR",
+      "bezeichnung": "Automation und Robotik",
+      "url": "allStudies/10240_M-I-AR.json",
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Automation und Robotik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Automation and robotics"
+        }
+      ]
+    },
+    {
+      "id": 10242,
+      "kuerzel": "M-I-KS",
+      "bezeichnung": "Kunststofftechnik",
+      "url": "allStudies/10242_M-I-KS.json",
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Kunststofftechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Plastics technology"
+        }
+      ]
+    },
+    {
+      "id": 10243,
+      "kuerzel": "M-I-Dig",
+      "bezeichnung": "Digitalisierung",
+      "url": "allStudies/10243_M-I-Dig.json",
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Digitalisierung"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Digitalization"
+        }
+      ]
+    },
+    {
+      "id": 10244,
+      "kuerzel": "M-I-PE",
+      "bezeichnung": "Produktentwicklung",
+      "url": "allStudies/10244_M-I-PE.json",
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Produktentwicklung"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Product engineering"
+        }
+      ]
+    },
+    {
+      "id": 10245,
+      "kuerzel": "M-I-SI",
+      "bezeichnung": "Simulationstechnik",
+      "url": "allStudies/10245_M-I-SI.json",
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Simulationstechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Simulation technology"
+        }
+      ]
+    }
+  ],
+  "studienberater": {
+    "id": 5013438,
+    "name": "Rabiey",
+    "vorname": "Mohammad"
+  },
+  "zuordnungen": [
+    {
+      "id": 44310,
+      "kuerzel": "M_AddFert",
+      "bezeichnung": "Additive Fertigung",
+      "url": "allModules/44310_M_AddFert.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43626,
+      "kuerzel": "M_AMM",
+      "bezeichnung": "Advanced Metal Manufacturing",
+      "url": "allModules/43626_M_AMM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64986,
+      "kuerzel": "M_IKAG",
+      "bezeichnung": "Alternde Gesellschaften ",
+      "url": "allModules/64986_M_IKAG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65286,
+      "kuerzel": "M_IKAG_RJ",
+      "bezeichnung": "Alternde Gesellschaften",
+      "url": "allModules/65286_M_IKAG_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43573,
+      "kuerzel": "M_An1M",
+      "bezeichnung": "Analysis 1 (M-I)",
+      "url": "allModules/43573_M_An1M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 43682,
+      "kuerzel": "M_An2M",
+      "bezeichnung": "Analysis 2 (M-I)",
+      "url": "allModules/43682_M_An2M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 57612,
+      "kuerzel": "M_AT",
+      "bezeichnung": "Antriebstechnik",
+      "url": "allModules/57612_M_AT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44202,
+      "kuerzel": "M_IKAA",
+      "bezeichnung": "Applied AI",
+      "url": "allModules/44202_M_IKAA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44196,
+      "kuerzel": "M_IKAA_p",
+      "bezeichnung": "Applied AI",
+      "url": "allModules/44196_M_IKAA_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57378,
+      "kuerzel": "M_IKAA_p",
+      "bezeichnung": "Applied AI SG",
+      "url": "allModules/57378_M_IKAA_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57381,
+      "kuerzel": "M_IKAA",
+      "bezeichnung": "Applied AI SG",
+      "url": "allModules/57381_M_IKAA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56734,
+      "kuerzel": "M_IKFD",
+      "bezeichnung": "Applied Frugal Design: Einfach gestalten, gesund leben",
+      "url": "allModules/56734_M_IKFD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56737,
+      "kuerzel": "M_IKFD_p",
+      "bezeichnung": "Applied Frugal Design: Einfach gestalten, gesund leben",
+      "url": "allModules/56737_M_IKFD_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 40820,
+      "kuerzel": "M_ArtInt",
+      "bezeichnung": "Artificial Intelligence",
+      "url": "allModules/40820_M_ArtInt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44460,
+      "kuerzel": "M_KT3A",
+      "bezeichnung": "Auslegung von Kunststoffbauteilen: Kunststofftechnik 3",
+      "url": "allModules/44460_M_KT3A.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44645,
+      "kuerzel": "M_KT4",
+      "bezeichnung": "Auslegung von Leichtbaustrukturen: Kunststofftechnik 4",
+      "url": "allModules/44645_M_KT4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44314,
+      "kuerzel": "M_AutoMI",
+      "bezeichnung": "Automation",
+      "url": "allModules/44314_M_AutoMI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 57124,
+      "kuerzel": "M_AutoMoRo",
+      "bezeichnung": "Autonomous Mobile Robotics",
+      "url": "allModules/57124_M_AutoMoRo.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 19484,
+      "kuerzel": "M_BAM",
+      "bezeichnung": "Bachelor-Arbeit Maschinentechnik",
+      "url": "allModules/19484_M_BAM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10111,
+          "kuerzel": "M-BAMI",
+          "bezeichnung": "Bachelor-Arbeit",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 56919,
+      "kuerzel": "M_IKBH",
+      "bezeichnung": "Behavioral Design  ",
+      "url": "allModules/56919_M_IKBH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44598,
+      "kuerzel": "M_BTS",
+      "bezeichnung": "Betriebstechnik und Service",
+      "url": "allModules/44598_M_BTS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44040,
+      "kuerzel": "M_IKBW",
+      "bezeichnung": "Blickwechsel",
+      "url": "allModules/44040_M_IKBW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57357,
+      "kuerzel": "M_idks.IKBW",
+      "bezeichnung": "Blickwechsel",
+      "url": "allModules/57357_M_idks.IKBW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 20780,
+      "kuerzel": "M_BuRe1",
+      "bezeichnung": "Business und Recht 1",
+      "url": "allModules/20780_M_BuRe1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10156,
+          "kuerzel": "M_KGM",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45604,
+      "kuerzel": "M_BuRe2a",
+      "bezeichnung": "Business und Recht 2 (a)",
+      "url": "allModules/45604_M_BuRe2a.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10156,
+          "kuerzel": "M_KGM",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44657,
+      "kuerzel": "M_KT5",
+      "bezeichnung": "CAE in der Kunststofftechnik: Kunststofftechnik 5",
+      "url": "allModules/44657_M_KT5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 20332,
+      "kuerzel": "M_Chem1",
+      "bezeichnung": "Chemie 1",
+      "url": "allModules/20332_M_Chem1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28063,
+      "kuerzel": "M_Chin1",
+      "bezeichnung": "Chinesisch 1",
+      "url": "allModules/28063_M_Chin1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 36024,
+      "kuerzel": "M_Chinese2",
+      "bezeichnung": "Chinesisch 2",
+      "url": "allModules/36024_M_Chinese2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 43693,
+      "kuerzel": "M_CE",
+      "bezeichnung": "Circular Economy ",
+      "url": "allModules/43693_M_CE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44094,
+      "kuerzel": "M_IKKL",
+      "bezeichnung": "Circular Economy",
+      "url": "allModules/44094_M_IKKL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44097,
+      "kuerzel": "M_IKKL_p",
+      "bezeichnung": "Circular Economy",
+      "url": "allModules/44097_M_IKKL_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56710,
+      "kuerzel": "M_IKCC",
+      "bezeichnung": "Co-Creation und Inclusive Design Methoden",
+      "url": "allModules/56710_M_IKCC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56713,
+      "kuerzel": "M_IKCC_p",
+      "bezeichnung": "Co-Creation und Inclusive Design Methoden",
+      "url": "allModules/56713_M_IKCC_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 25232,
+      "kuerzel": "M_ComEng1",
+      "bezeichnung": "Computer Engineering 1",
+      "url": "allModules/25232_M_ComEng1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 23345,
+      "kuerzel": "M_ComEng2",
+      "bezeichnung": "Computer Engineering 2",
+      "url": "allModules/23345_M_ComEng2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 43947,
+      "kuerzel": "M_CompAw",
+      "bezeichnung": "Computeranwendungen",
+      "url": "allModules/43947_M_CompAw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 56716,
+      "kuerzel": "M_IKCG",
+      "bezeichnung": "Corporate Governance and Sustainability",
+      "url": "allModules/56716_M_IKCG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57443,
+      "kuerzel": "M_idks.IKCC",
+      "bezeichnung": "Creative Capability",
+      "url": "allModules/57443_M_idks.IKCC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 39093,
+      "kuerzel": "M_Dbs1",
+      "bezeichnung": "Datenbanksysteme 1",
+      "url": "allModules/39093_M_Dbs1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 31834,
+      "kuerzel": "M_DL",
+      "bezeichnung": "Deep Learning",
+      "url": "allModules/31834_M_DL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44043,
+      "kuerzel": "M_IKDK",
+      "bezeichnung": "Demokratie im Zeitalter von KI",
+      "url": "allModules/44043_M_IKDK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44046,
+      "kuerzel": "M_IKDK_p",
+      "bezeichnung": "Demokratie im Zeitalter von KI",
+      "url": "allModules/44046_M_IKDK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65301,
+      "kuerzel": "M_IKDK_p_SG",
+      "bezeichnung": "Demokratie im Zeitalter von KI Kopie",
+      "url": "allModules/65301_M_IKDK_p_SG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57681,
+      "kuerzel": "M_IKNW_p",
+      "bezeichnung": "Die Nachhaltigkeitswoche: Eventfabrik und Zukunftsworkshops",
+      "url": "allModules/57681_M_IKNW_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56802,
+      "kuerzel": "M_IKNW",
+      "bezeichnung": "Die Nachhaltigkeitswoche: Eventfabrik und Zukunftsworkshops",
+      "url": "allModules/56802_M_IKNW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43667,
+      "kuerzel": "M_DiffGlM",
+      "bezeichnung": "Differentialgleichungen (M-I)",
+      "url": "allModules/43667_M_DiffGlM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57339,
+      "kuerzel": "M_IKDL_BU",
+      "bezeichnung": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen",
+      "url": "allModules/57339_M_IKDL_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 61146,
+      "kuerzel": "M_IKDL",
+      "bezeichnung": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen",
+      "url": "allModules/61146_M_IKDL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64989,
+      "kuerzel": "M_IKDL_p",
+      "bezeichnung": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen",
+      "url": "allModules/64989_M_IKDL_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65274,
+      "kuerzel": "M_IKDL_p_BU",
+      "bezeichnung": "Digitalisieren mit Low Code: Einen AI Chatbot selber bauen Kopie",
+      "url": "allModules/65274_M_IKDL_p_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44241,
+      "kuerzel": "M_IKDM_A",
+      "bezeichnung": "Dream Team - Mentoringprogramm für die nächste Generation Teil A",
+      "url": "allModules/44241_M_IKDM_A.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44244,
+      "kuerzel": "M_IKDM_B",
+      "bezeichnung": "Dream Team - Mentoringprogramm für die nächste Generation Teil B",
+      "url": "allModules/44244_M_IKDM_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43942,
+      "kuerzel": "M_ProgEinf",
+      "bezeichnung": "Einführung Programmierung",
+      "url": "allModules/43942_M_ProgEinf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56720,
+      "kuerzel": "M_IKEI",
+      "bezeichnung": "Einsamkeit erforschen - wirtschaftliche, gesellschaftliche und private Dimensionen",
+      "url": "allModules/56720_M_IKEI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56731,
+      "kuerzel": "M_IKEI_p",
+      "bezeichnung": "Einsamkeit erforschen - wirtschaftliche, gesellschaftliche und private Dimensionen",
+      "url": "allModules/56731_M_IKEI_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 24564,
+      "kuerzel": "M_ElMa",
+      "bezeichnung": "Elektrische Maschinen",
+      "url": "allModules/24564_M_ElMa.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44331,
+      "kuerzel": "M_EmbMec",
+      "bezeichnung": "Embedded Mechatronics",
+      "url": "allModules/44331_M_EmbMec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 55597,
+      "kuerzel": "M_TecBEC",
+      "bezeichnung": "English Beyond Borders: Navigating Academic & Professional Success with IELTS",
+      "url": "allModules/55597_M_TecBEC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10156,
+          "kuerzel": "M_KGM",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56496,
+      "kuerzel": "M_EnglHTw",
+      "bezeichnung": "English: How Things work",
+      "url": "allModules/56496_M_EnglHTw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10156,
+          "kuerzel": "M_KGM",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45661,
+      "kuerzel": "M_SelTec",
+      "bezeichnung": "English: Selling Technology",
+      "url": "allModules/45661_M_SelTec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10156,
+          "kuerzel": "M_KGM",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56504,
+      "kuerzel": "M_EnglScience",
+      "bezeichnung": "English: The World of Science",
+      "url": "allModules/56504_M_EnglScience.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10156,
+          "kuerzel": "M_KGM",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 57448,
+      "kuerzel": "M_idks.IKMO",
+      "bezeichnung": "Enkeltauglich?! - Gemeinde und Städte im Morgenland",
+      "url": "allModules/57448_M_idks.IKMO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 61192,
+      "kuerzel": "M_EK1",
+      "bezeichnung": "Entwicklung und Konstruktion 1",
+      "url": "allModules/61192_M_EK1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 44007,
+      "kuerzel": "M_EK1",
+      "bezeichnung": "Entwicklung und Konstruktion 1",
+      "url": "allModules/44007_M_EK1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 44259,
+      "kuerzel": "M_EK2",
+      "bezeichnung": "Entwicklung und Konstruktion 2",
+      "url": "allModules/44259_M_EK2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44266,
+      "kuerzel": "M_Ewick1",
+      "bezeichnung": "Entwicklungsprojekt 1",
+      "url": "allModules/44266_M_Ewick1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 61291,
+      "kuerzel": "M_Ewickp2",
+      "bezeichnung": "Entwicklungsprojekt 2",
+      "url": "allModules/61291_M_Ewickp2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44049,
+      "kuerzel": "M_IKEK",
+      "bezeichnung": "Ethik & KI",
+      "url": "allModules/44049_M_IKEK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44052,
+      "kuerzel": "M_IKEK_p",
+      "bezeichnung": "Ethik & KI",
+      "url": "allModules/44052_M_IKEK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44299,
+      "kuerzel": "M_FEM1",
+      "bezeichnung": "Finite Elemente Methode 1 - Grundkurs",
+      "url": "allModules/44299_M_FEM1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44635,
+      "kuerzel": "M_FEM2n",
+      "bezeichnung": "Finite Elemente Methode 2 - Aufbaukurs",
+      "url": "allModules/44635_M_FEM2n.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44628,
+      "kuerzel": "M_FEM3n",
+      "bezeichnung": "Finite Elemente Methode 3 - Nichtlinearitäten",
+      "url": "allModules/44628_M_FEM3n.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 61230,
+      "kuerzel": "M_FouLap2EC",
+      "bezeichnung": "Fourier- und Laplacetransformation (2 ECTS-Punkte)",
+      "url": "allModules/61230_M_FouLap2EC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 36421,
+      "kuerzel": "M_FranzKomm",
+      "bezeichnung": "Französisch Kommunikation ",
+      "url": "allModules/36421_M_FranzKomm.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 38868,
+      "kuerzel": "M_FranzKomm2",
+      "bezeichnung": "Französisch Kommunikation 2",
+      "url": "allModules/38868_M_FranzKomm2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 24427,
+      "kuerzel": "M_FKIA",
+      "bezeichnung": "Führungskommunikation im internationalen Arbeitsmarkt",
+      "url": "allModules/24427_M_FKIA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10156,
+          "kuerzel": "M_KGM",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 43650,
+      "kuerzel": "M_FuVar2EC",
+      "bezeichnung": "Funktionen mehrerer Variablen (2 ECTS-Punkte)",
+      "url": "allModules/43650_M_FuVar2EC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65051,
+      "kuerzel": "M_IKLD_p",
+      "bezeichnung": "Future Life Design: Den eigenen Lebensweg erfolgreich gestalten",
+      "url": "allModules/65051_M_IKLD_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 56925,
+      "kuerzel": "M_IKLD",
+      "bezeichnung": "Future Life Design: Den eigenen Lebensweg erfolgreich gestalten",
+      "url": "allModules/56925_M_IKLD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56740,
+      "kuerzel": "M_IKFL",
+      "bezeichnung": "Future Life Design: Successfully shaping your own life path",
+      "url": "allModules/56740_M_IKFL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56743,
+      "kuerzel": "M_IKFL_p",
+      "bezeichnung": "Future Life Design: Successfully shaping your own life path",
+      "url": "allModules/56743_M_IKFL_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64956,
+      "kuerzel": "M_IKGD",
+      "bezeichnung": "Geheimnisse der Datensicherheit: Die CIA-Trias in der Praxis",
+      "url": "allModules/64956_M_IKGD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65004,
+      "kuerzel": "M_IKMO_p",
+      "bezeichnung": "Gemeinden & Städte von morgen. So gelingt nachhaltige Gemeindeentwicklung",
+      "url": "allModules/65004_M_IKMO_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44055,
+      "kuerzel": "M_IKMO",
+      "bezeichnung": "Gemeinden & Städte von morgen. So gelingt nachhaltige Gemeindeentwicklung",
+      "url": "allModules/44055_M_IKMO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44214,
+      "kuerzel": "M_IKGA_p",
+      "bezeichnung": "Generative AI in der Planung",
+      "url": "allModules/44214_M_IKGA_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64992,
+      "kuerzel": "M_IKGA",
+      "bezeichnung": "Generative AI in der Planung",
+      "url": "allModules/64992_M_IKGA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44061,
+      "kuerzel": "M_IKGL",
+      "bezeichnung": "Gesund leben und Langlebigkeit ",
+      "url": "allModules/44061_M_IKGL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44067,
+      "kuerzel": "M_IKAK_p",
+      "bezeichnung": "Gesundes Altern mit Hilfe von künstlicher Intelligenz",
+      "url": "allModules/44067_M_IKAK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44064,
+      "kuerzel": "M_IKAK",
+      "bezeichnung": "Gesundes Altern mit Hilfe von künstlicher Intelligenz ",
+      "url": "allModules/44064_M_IKAK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57384,
+      "kuerzel": "M_IKAK",
+      "bezeichnung": "Gesundes Altern mit Hilfe von künstlicher Intelligenz  SG",
+      "url": "allModules/57384_M_IKAK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57387,
+      "kuerzel": "M_IKAK_p",
+      "bezeichnung": "Gesundes Altern mit Hilfe von künstlicher Intelligenz SG",
+      "url": "allModules/57387_M_IKAK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 43750,
+      "kuerzel": "M_ElektrGL",
+      "bezeichnung": "Grundlagen der Elektrotechnik und elektrischen Messtechnik",
+      "url": "allModules/43750_M_ElektrGL.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56905,
+      "kuerzel": "M_GKT1",
+      "bezeichnung": "Grundlagen der Kunststofftechnik: Kunststofftechnik 1",
+      "url": "allModules/56905_M_GKT1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 43935,
+      "kuerzel": "M_GruLaIT",
+      "bezeichnung": "Grundlagen Informations-Technologien",
+      "url": "allModules/43935_M_GruLaIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 28001,
+      "kuerzel": "M_GruIT",
+      "bezeichnung": "Grundlagen Informations-Technologien",
+      "url": "allModules/28001_M_GruIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44602,
+      "kuerzel": "M_GruSGe",
+      "bezeichnung": "Grundlagen und Simulation von Getrieben",
+      "url": "allModules/44602_M_GruSGe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43912,
+      "kuerzel": "M_GZEU",
+      "bezeichnung": "Grundzüge EEU (M-I)",
+      "url": "allModules/43912_M_GZEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44070,
+      "kuerzel": "M_IKNN",
+      "bezeichnung": "Hackathon zu \"Netto-null in Gebäuden und Verkehr\"  ",
+      "url": "allModules/44070_M_IKNN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44073,
+      "kuerzel": "M_IKII",
+      "bezeichnung": "Ideen Inkubator Klimawende ",
+      "url": "allModules/44073_M_IKII.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44076,
+      "kuerzel": "M_IKII_p",
+      "bezeichnung": "Ideen Inkubator Klimawende",
+      "url": "allModules/44076_M_IKII_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64967,
+      "kuerzel": "M_IKTSV2",
+      "bezeichnung": "IKTS_Vorlage 2ECTS",
+      "url": "allModules/64967_M_IKTSV2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43910,
+      "kuerzel": "M_IKTSV3",
+      "bezeichnung": "IKTS_Vorlage 3ECTS",
+      "url": "allModules/43910_M_IKTSV3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 43911,
+      "kuerzel": "M_IKTSV4",
+      "bezeichnung": "IKTS_Vorlage 4ECTS",
+      "url": "allModules/43911_M_IKTSV4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44614,
+      "kuerzel": "M_IndMtronik",
+      "bezeichnung": "Industrielle Mechatronik",
+      "url": "allModules/44614_M_IndMtronik.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44609,
+      "kuerzel": "M_IndRob",
+      "bezeichnung": "Industrielle Robotik",
+      "url": "allModules/44609_M_IndRob.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 42039,
+      "kuerzel": "M_Inno1",
+      "bezeichnung": "Innovation 1",
+      "url": "allModules/42039_M_Inno1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 43991,
+      "kuerzel": "M_Inno1n",
+      "bezeichnung": "Innovation 1 - Produktentwicklungsmethodik",
+      "url": "allModules/43991_M_Inno1n.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57703,
+      "kuerzel": "M_Inno_2",
+      "bezeichnung": "Innovation 2: Operatives Innovationsmanagement",
+      "url": "allModules/57703_M_Inno_2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44631,
+      "kuerzel": "M_Inno3n",
+      "bezeichnung": "Innovation 3: Strategisches Innovationsmanagement",
+      "url": "allModules/44631_M_Inno3n.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 42248,
+      "kuerzel": "M_Inno4",
+      "bezeichnung": "Innovation 4",
+      "url": "allModules/42248_M_Inno4.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44595,
+      "kuerzel": "M_Inno4s",
+      "bezeichnung": "Innovation 4: Spezielle Aspekte des Innovationsmanagements ",
+      "url": "allModules/44595_M_Inno4s.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 42425,
+      "kuerzel": "M_Inno5",
+      "bezeichnung": "Innovation 5",
+      "url": "allModules/42425_M_Inno5.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44079,
+      "kuerzel": "M_IKIE",
+      "bezeichnung": "Interdisziplinär entwickeln - gerüstet für die technikbasierte Arbeitswelt",
+      "url": "allModules/44079_M_IKIE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65049,
+      "kuerzel": "M_IKIS",
+      "bezeichnung": "International Summer School for Sustainability",
+      "url": "allModules/65049_M_IKIS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56866,
+      "kuerzel": "M_IKIS_p",
+      "bezeichnung": "International Summer School for Sustainability",
+      "url": "allModules/56866_M_IKIS_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 36015,
+      "kuerzel": "M_Ital1",
+      "bezeichnung": "Italienisch 1",
+      "url": "allModules/36015_M_Ital1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 36011,
+      "kuerzel": "M_Ital2",
+      "bezeichnung": "Italienisch 2",
+      "url": "allModules/36011_M_Ital2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 44082,
+      "kuerzel": "M_IKLE",
+      "bezeichnung": "IZM-Projekt",
+      "url": "allModules/44082_M_IKLE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44085,
+      "kuerzel": "M_IKLE_p",
+      "bezeichnung": "IZM-Projekt",
+      "url": "allModules/44085_M_IKLE_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28088,
+      "kuerzel": "M_Jap1",
+      "bezeichnung": "Japanisch 1",
+      "url": "allModules/28088_M_Jap1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 28093,
+      "kuerzel": "M_Jap2",
+      "bezeichnung": "Japanisch 2",
+      "url": "allModules/28093_M_Jap2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 26335,
+      "kuerzel": "M_JavaC",
+      "bezeichnung": "Java für C++ Programmierer",
+      "url": "allModules/26335_M_JavaC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    },
+    {
+      "id": 56959,
+      "kuerzel": "M_Kat_IKTS",
+      "bezeichnung": "Kategorie IKTS",
+      "url": "allModules/56959_M_Kat_IKTS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56759,
+      "kuerzel": "M_KatMaTe",
+      "bezeichnung": "Kategorie Mathematik und Naturwissenschaften",
+      "url": "allModules/56759_M_KatMaTe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften",
+          "kreditpunkte": 50
+        }
+      ]
+    },
+    {
+      "id": 56768,
+      "kuerzel": "M_KatMaTe1",
+      "bezeichnung": "Kategorie Mathematik und Naturwissenschaften1",
+      "url": "allModules/56768_M_KatMaTe1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften",
+          "kreditpunkte": 50
+        }
+      ]
+    },
+    {
+      "id": 56771,
+      "kuerzel": "M_KatMaTe2",
+      "bezeichnung": "Kategorie Mathematik und Naturwissenschaften2",
+      "url": "allModules/56771_M_KatMaTe2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften",
+          "kreditpunkte": 50
+        }
+      ]
+    },
+    {
+      "id": 59909,
+      "kuerzel": "M_KatMaTe3",
+      "bezeichnung": "Kategorie Mathematik und Naturwissenschaften3",
+      "url": "allModules/59909_M_KatMaTe3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften",
+          "kreditpunkte": 50
+        }
+      ]
+    },
+    {
+      "id": 56893,
+      "kuerzel": "M_Kat_SpraKommM_",
+      "bezeichnung": "Kategorie Sprachen und Kommunikation_",
+      "url": "allModules/56893_M_Kat_SpraKommM_.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10156,
+          "kuerzel": "M_KGM",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 44088,
+      "kuerzel": "M_IKGE",
+      "bezeichnung": "Klimagerechte Stadt- und Gemeindeentwicklung ",
+      "url": "allModules/44088_M_IKGE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44091,
+      "kuerzel": "M_IKGE_p",
+      "bezeichnung": "Klimagerechte Stadt- und Gemeindeentwicklung ",
+      "url": "allModules/44091_M_IKGE_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 61404,
+      "kuerzel": "M_IKKP_p",
+      "bezeichnung": "Klimakrise: Kann die Politik die Welt noch retten?",
+      "url": "allModules/61404_M_IKKP_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 61396,
+      "kuerzel": "M_IKKP",
+      "bezeichnung": "Klimakrise: Kann die Politik die Welt noch retten?",
+      "url": "allModules/61396_M_IKKP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65292,
+      "kuerzel": "M_IKKP_p_RJ",
+      "bezeichnung": "Klimakrise: Kann die Politik die Welt noch retten? Kopie",
+      "url": "allModules/65292_M_IKKP_p_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65046,
+      "kuerzel": "M_IKGS",
+      "bezeichnung": "Knowhow und Technologien für nachhaltige Entwicklung im globalen Süden ",
+      "url": "allModules/65046_M_IKGS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65180,
+      "kuerzel": "M_IKGS_p",
+      "bezeichnung": "Knowhow und Technologien für nachhaltige Entwicklung im globalen Süden ",
+      "url": "allModules/65180_M_IKGS_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44187,
+      "kuerzel": "M_IKKK_p",
+      "bezeichnung": "Kommunale Klimawende",
+      "url": "allModules/44187_M_IKKK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44184,
+      "kuerzel": "M_IKKK",
+      "bezeichnung": "Kommunale Klimawende",
+      "url": "allModules/44184_M_IKKK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 55315,
+      "kuerzel": "M_KatKoGeMa",
+      "bezeichnung": "Kommunikation - Gesellschaft - Management",
+      "url": "allModules/55315_M_KatKoGeMa.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10156,
+          "kuerzel": "M_KGM",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management",
+          "kreditpunkte": 16
+        }
+      ]
+    },
+    {
+      "id": 37397,
+      "kuerzel": "M_KommIng2",
+      "bezeichnung": "Kommunikation 2 für IngenieurInnen  (Teamkommunikation)",
+      "url": "allModules/37397_M_KommIng2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10156,
+          "kuerzel": "M_KGM",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 64995,
+      "kuerzel": "M_IKLF",
+      "bezeichnung": "Lernfähigkeit und Gedächtnis",
+      "url": "allModules/64995_M_IKLF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65243,
+      "kuerzel": "M_IKDH_p_RJ",
+      "bezeichnung": "Lernlabor «Digitalisieren Hands-on»",
+      "url": "allModules/65243_M_IKDH_p_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44232,
+      "kuerzel": "M_IKDH_p",
+      "bezeichnung": "Lernlabor «Digitalisieren Hands-on»",
+      "url": "allModules/44232_M_IKDH_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44235,
+      "kuerzel": "M_IKDH",
+      "bezeichnung": "Lernlabor «Digitalisieren Hands-on»",
+      "url": "allModules/44235_M_IKDH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43505,
+      "kuerzel": "M_LinAlg2EC",
+      "bezeichnung": "Lineare Algebra (2 ECTS-Punkte)",
+      "url": "allModules/43505_M_LinAlg2EC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44103,
+      "kuerzel": "M_IKLK",
+      "bezeichnung": "Lösungsorientierte Kommunikation für dynamische Arbeitswelten ",
+      "url": "allModules/44103_M_IKLK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 15776,
+      "kuerzel": "M_KatMaTe",
+      "bezeichnung": "Maschinentechnik / Maschinentechnik:Innovation - Fachstudium 1",
+      "url": "allModules/15776_M_KatMaTe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 110
+        }
+      ]
+    },
+    {
+      "id": 19602,
+      "kuerzel": "M_KatMIGrus1",
+      "bezeichnung": "Maschinentechnik:Innovation - Grundstudium",
+      "url": "allModules/19602_M_KatMIGrus1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 50
+        }
+      ]
+    },
+    {
+      "id": 43965,
+      "kuerzel": "M_MaTecM1",
+      "bezeichnung": "Materialtechnologie 1",
+      "url": "allModules/43965_M_MaTecM1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 20054,
+      "kuerzel": "M_MaTecM2",
+      "bezeichnung": "Materialtechnologie 2",
+      "url": "allModules/20054_M_MaTecM2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 20897,
+      "kuerzel": "M_Mtronik1",
+      "bezeichnung": "Mechatronik 1",
+      "url": "allModules/20897_M_Mtronik1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44112,
+      "kuerzel": "M_IKMI_p",
+      "bezeichnung": "Medien- und Informationskompetenz in Zeiten von KI",
+      "url": "allModules/44112_M_IKMI_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64983,
+      "kuerzel": "M_IKMI",
+      "bezeichnung": "Medien- und Informationskompetenz in Zeiten von KI ",
+      "url": "allModules/64983_M_IKMI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43975,
+      "kuerzel": "M_MKS",
+      "bezeichnung": "Mehrkörpersimulation",
+      "url": "allModules/43975_M_MKS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44115,
+      "kuerzel": "M_IKME",
+      "bezeichnung": "Messbar gesund",
+      "url": "allModules/44115_M_IKME.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56875,
+      "kuerzel": "M_IKME_p",
+      "bezeichnung": "Messbar gesund",
+      "url": "allModules/56875_M_IKME_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57230,
+      "kuerzel": "M_KatFaVeSi",
+      "bezeichnung": "MI - Fachstudium 1 / Vertiefung Simulation",
+      "url": "allModules/57230_M_KatFaVeSi.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 30
+        }
+      ]
+    },
+    {
+      "id": 57372,
+      "kuerzel": "M_idks.IKBD",
+      "bezeichnung": "My Data - Big Data",
+      "url": "allModules/57372_M_idks.IKBD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65054,
+      "kuerzel": "M_IKNE",
+      "bezeichnung": "Nachhaltige Ernährung für Körper, Geist und Klima",
+      "url": "allModules/65054_M_IKNE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 56795,
+      "kuerzel": "M_IKNE_p",
+      "bezeichnung": "Nachhaltige Ernährung für Körper, Geist und Klima",
+      "url": "allModules/56795_M_IKNE_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64977,
+      "kuerzel": "M_IKNP_p",
+      "bezeichnung": "Nachhaltigkeit politisch umsetzen",
+      "url": "allModules/64977_M_IKNP_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64974,
+      "kuerzel": "M_IKNP",
+      "bezeichnung": "Nachhaltigkeit politisch umsetzen",
+      "url": "allModules/64974_M_IKNP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44223,
+      "kuerzel": "M_IKKA",
+      "bezeichnung": "Nachhaltigkeit und Klimaschutz angewandt",
+      "url": "allModules/44223_M_IKKA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 45138,
+      "kuerzel": "M_NwP",
+      "bezeichnung": "Naturwissenschaftliches Praktikum",
+      "url": "allModules/45138_M_NwP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44124,
+      "kuerzel": "M_IKNG_p",
+      "bezeichnung": "Neue Narrative für eine nachhaltige Gesellschaft",
+      "url": "allModules/44124_M_IKNG_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65007,
+      "kuerzel": "M_IKNG",
+      "bezeichnung": "Neue Narrative für eine nachhaltige Gesellschaft ",
+      "url": "allModules/65007_M_IKNG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65013,
+      "kuerzel": "M_IKNK",
+      "bezeichnung": "New Work & KI",
+      "url": "allModules/65013_M_IKNK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65016,
+      "kuerzel": "M_IKNK_p",
+      "bezeichnung": "New Work & KI",
+      "url": "allModules/65016_M_IKNK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65234,
+      "kuerzel": "M_IKNK_p_RJ",
+      "bezeichnung": "New Work & KI",
+      "url": "allModules/65234_M_IKNK_p_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65237,
+      "kuerzel": "M_IKNK_p_SG",
+      "bezeichnung": "New Work & KI",
+      "url": "allModules/65237_M_IKNK_p_SG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44605,
+      "kuerzel": "M_CFDn",
+      "bezeichnung": "Numerische Strömungssimulation",
+      "url": "allModules/44605_M_CFDn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64962,
+      "kuerzel": "M_IKOR_p",
+      "bezeichnung": "Öffentliche Ringvorlesung: Verantwortung heute - zwischen Verpflichtung und Ablehnung",
+      "url": "allModules/64962_M_IKOR_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64959,
+      "kuerzel": "M_IKOR",
+      "bezeichnung": "Öffentliche Ringvorlesung: Verantwortung heute - zwischen Verpflichtung und Ablehnung",
+      "url": "allModules/64959_M_IKOR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65019,
+      "kuerzel": "M_IKOW_p",
+      "bezeichnung": "Offgrid Wasser und Sonne: Hands on",
+      "url": "allModules/65019_M_IKOW_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56805,
+      "kuerzel": "M_IKOW",
+      "bezeichnung": "Offgrid Wasser und Sonne: Hands on",
+      "url": "allModules/56805_M_IKOW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 22021,
+      "kuerzel": "M_Ph2HAT",
+      "bezeichnung": "Physik 2 - Hydro-, Aero- und Thermodynamik",
+      "url": "allModules/22021_M_Ph2HAT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 45153,
+      "kuerzel": "M_Ph3SWO",
+      "bezeichnung": "Physik 3 - Schwingungen und Wellen, Optik",
+      "url": "allModules/45153_M_Ph3SWO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 36096,
+      "kuerzel": "M_ProDaEng",
+      "bezeichnung": "Product Data Engineering",
+      "url": "allModules/36096_M_ProDaEng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    },
+    {
+      "id": 55364,
+      "kuerzel": "M_ProdMan",
+      "bezeichnung": "Production management",
+      "url": "allModules/55364_M_ProdMan.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28366,
+      "kuerzel": "M_ProgC",
+      "bezeichnung": "Programmieren in C",
+      "url": "allModules/28366_M_ProgC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 28375,
+      "kuerzel": "M_ProgCPP",
+      "bezeichnung": "Programmieren in C++",
+      "url": "allModules/28375_M_ProgCPP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 64856,
+      "kuerzel": "M_IKPI",
+      "bezeichnung": "Projekte intedisziplinär weiterführen",
+      "url": "allModules/64856_M_IKPI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64860,
+      "kuerzel": "M_IKPI_p",
+      "bezeichnung": "Projekte intedisziplinär weiterführen",
+      "url": "allModules/64860_M_IKPI_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 65246,
+      "kuerzel": "M_IKPS_p_BU",
+      "bezeichnung": "Prototyping für Startup-Ideen",
+      "url": "allModules/65246_M_IKPS_p_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44133,
+      "kuerzel": "M_IKPS",
+      "bezeichnung": "Prototyping für Startup-Ideen",
+      "url": "allModules/44133_M_IKPS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44136,
+      "kuerzel": "M_IKPS_p",
+      "bezeichnung": "Prototyping für Startup-Ideen",
+      "url": "allModules/44136_M_IKPS_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 65021,
+      "kuerzel": "M_IKPH",
+      "bezeichnung": "Prototyping für Startup-Ideen beim Hackathon",
+      "url": "allModules/65021_M_IKPH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65056,
+      "kuerzel": "M_IKPE",
+      "bezeichnung": "Psychologisches Empowerment in Veränderungs- und Wandlungsprozessen",
+      "url": "allModules/65056_M_IKPE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 41489,
+      "kuerzel": "M_Python",
+      "bezeichnung": "Python",
+      "url": "allModules/41489_M_Python.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 43622,
+      "kuerzel": "M_PYTHON1",
+      "bezeichnung": "Python für Ingenieure",
+      "url": "allModules/43622_M_PYTHON1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 60987,
+      "kuerzel": "M_RegT1M",
+      "bezeichnung": "Regelungstechnik 1 (M)",
+      "url": "allModules/60987_M_RegT1M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 61004,
+      "kuerzel": "M_RegT2M",
+      "bezeichnung": "Regelungstechnik 2",
+      "url": "allModules/61004_M_RegT2M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 60994,
+      "kuerzel": "M_RegT3M",
+      "bezeichnung": "Regelungstechnik 3",
+      "url": "allModules/60994_M_RegT3M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44142,
+      "kuerzel": "M_IKRE",
+      "bezeichnung": "Resilienz: Schlüsselkompetenz für innere Stärke ",
+      "url": "allModules/44142_M_IKRE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43277,
+      "kuerzel": "M_RheKoI",
+      "bezeichnung": "Rhetorische Kommunikation für IngenieurInnen",
+      "url": "allModules/43277_M_RheKoI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10156,
+          "kuerzel": "M_KGM",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 31909,
+      "kuerzel": "M_RheKI",
+      "bezeichnung": "Rhetorische Kommunikation für IngenieurInnen",
+      "url": "allModules/31909_M_RheKI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10156,
+          "kuerzel": "M_KGM",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 56707,
+      "kuerzel": "M_IKBF",
+      "bezeichnung": "Selbststeuerung im Beruf",
+      "url": "allModules/56707_M_IKBF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 43909,
+      "kuerzel": "M_IKSO",
+      "bezeichnung": "Serious Game zur Unterstützung der Transformation sozialer und wirtschaftlich orientierter Systeme",
+      "url": "allModules/43909_M_IKSO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64971,
+      "kuerzel": "M_IKSI",
+      "bezeichnung": "Serious Game zur Unterstützung der Transformation von Infrastruktursystemen",
+      "url": "allModules/64971_M_IKSI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65023,
+      "kuerzel": "M_IKSS",
+      "bezeichnung": "Ski-Nation Schweiz",
+      "url": "allModules/65023_M_IKSS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44217,
+      "kuerzel": "M_IKSS_p",
+      "bezeichnung": "Ski-Nation Schweiz",
+      "url": "allModules/44217_M_IKSS_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44487,
+      "kuerzel": "M_SFact",
+      "bezeichnung": "Smart Factory",
+      "url": "allModules/44487_M_SFact.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44145,
+      "kuerzel": "M_IKSH",
+      "bezeichnung": "Social and Human Robotic ",
+      "url": "allModules/44145_M_IKSH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57354,
+      "kuerzel": "M_idks.IKSH",
+      "bezeichnung": "Social and Human Robotic  SG",
+      "url": "allModules/57354_M_idks.IKSH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65118,
+      "kuerzel": "M_SW_Eng",
+      "bezeichnung": "Software Engineering Fundamentals",
+      "url": "allModules/65118_M_SW_Eng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 28097,
+      "kuerzel": "M_Span1",
+      "bezeichnung": "Spanisch 1",
+      "url": "allModules/28097_M_Span1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 44428,
+      "kuerzel": "M_Span2",
+      "bezeichnung": "Spanisch 2",
+      "url": "allModules/44428_M_Span2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 44148,
+      "kuerzel": "M_IKSW",
+      "bezeichnung": "Stadt der kurzen Wege ",
+      "url": "allModules/44148_M_IKSW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65029,
+      "kuerzel": "M_IKSW_p",
+      "bezeichnung": "Stadt der kurzen Wege",
+      "url": "allModules/65029_M_IKSW_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65026,
+      "kuerzel": "M_IKST_p",
+      "bezeichnung": "Starkes Ich – Starkes Team",
+      "url": "allModules/65026_M_IKST_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65252,
+      "kuerzel": "M_IKST_RJ",
+      "bezeichnung": "Starkes Ich – Starkes Team",
+      "url": "allModules/65252_M_IKST_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65240,
+      "kuerzel": "M_IKST_p_RJ",
+      "bezeichnung": "Starkes Ich – Starkes Team",
+      "url": "allModules/65240_M_IKST_p_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57673,
+      "kuerzel": "M_IKST",
+      "bezeichnung": "Starkes Ich – Starkes Team",
+      "url": "allModules/57673_M_IKST.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65231,
+      "kuerzel": "M_IKSU_p_BU",
+      "bezeichnung": "Startup - Weg zur Gründung",
+      "url": "allModules/65231_M_IKSU_p_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44253,
+      "kuerzel": "M_IKSU",
+      "bezeichnung": "Startup - Weg zur Gründung",
+      "url": "allModules/44253_M_IKSU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44256,
+      "kuerzel": "M_IKSU_p",
+      "bezeichnung": "Startup - Weg zur Gründung",
+      "url": "allModules/44256_M_IKSU_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 65298,
+      "kuerzel": "M_IKSU_p_RJ",
+      "bezeichnung": "Startup - Weg zur Gründung Kopie",
+      "url": "allModules/65298_M_IKSU_p_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 31838,
+      "kuerzel": "M_ML",
+      "bezeichnung": "Statistical Machine Learning",
+      "url": "allModules/31838_M_ML.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 64980,
+      "kuerzel": "M_IKSE",
+      "bezeichnung": "Strategie-Entwicklung und -Umsetzung für NPOs",
+      "url": "allModules/64980_M_IKSE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44205,
+      "kuerzel": "M_IKSM",
+      "bezeichnung": "Strategisches Management von Naturgefahren",
+      "url": "allModules/44205_M_IKSM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44208,
+      "kuerzel": "M_IKSM_p",
+      "bezeichnung": "Strategisches Management von Naturgefahren",
+      "url": "allModules/44208_M_IKSM_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64953,
+      "kuerzel": "M_IKSR_p",
+      "bezeichnung": "Strategisches Risikomanagement von Naturgefahren",
+      "url": "allModules/64953_M_IKSR_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 64950,
+      "kuerzel": "M_IKSR",
+      "bezeichnung": "Strategisches Risikomanagement von Naturgefahren",
+      "url": "allModules/64950_M_IKSR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44582,
+      "kuerzel": "M_SAM",
+      "bezeichnung": "Studienarbeit Maschinentechnik",
+      "url": "allModules/44582_M_SAM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 64968,
+      "kuerzel": "M_IKTR",
+      "bezeichnung": "Teaming rocks! Zusammenarbeit verstehen & Selbstführung stärken",
+      "url": "allModules/64968_M_IKTR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 60115,
+      "kuerzel": "M_TeM1",
+      "bezeichnung": "Technische Mechanik 1",
+      "url": "allModules/60115_M_TeM1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 43928,
+      "kuerzel": "M_TeM2",
+      "bezeichnung": "Technische Mechanik 2",
+      "url": "allModules/43928_M_TeM2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 29373,
+      "kuerzel": "M_TechM3",
+      "bezeichnung": "Technische Mechanik 3",
+      "url": "allModules/29373_M_TechM3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 5
+        }
+      ]
+    },
+    {
+      "id": 60106,
+      "kuerzel": "M_TeM3",
+      "bezeichnung": "Technische Mechanik 3",
+      "url": "allModules/60106_M_TeM3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 44340,
+      "kuerzel": "M_IKTE",
+      "bezeichnung": "The Internet of Everything",
+      "url": "allModules/44340_M_IKTE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44343,
+      "kuerzel": "M_IKTE_p",
+      "bezeichnung": "The Internet of Everything",
+      "url": "allModules/44343_M_IKTE_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 22360,
+      "kuerzel": "M_TFD1MI",
+      "bezeichnung": "Thermo- und Fluiddynamik 1 (M-I)",
+      "url": "allModules/22360_M_TFD1MI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 21103,
+      "kuerzel": "M_TFD2MI",
+      "bezeichnung": "Thermo- und Fluiddynamik 2 (M-I)",
+      "url": "allModules/21103_M_TFD2MI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 44160,
+      "kuerzel": "M_IKUG",
+      "bezeichnung": "Umwelt und Gesundheit ",
+      "url": "allModules/44160_M_IKUG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44163,
+      "kuerzel": "M_IKUG_p",
+      "bezeichnung": "Umwelt und Gesundheit",
+      "url": "allModules/44163_M_IKUG_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 43662,
+      "kuerzel": "M_VekGM",
+      "bezeichnung": "Vektorgeometrie (M-I)",
+      "url": "allModules/43662_M_VekGM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 64947,
+      "kuerzel": "M_IKVW_p",
+      "bezeichnung": "Verantwortungsvoll Wirtschaften: Unternehmen auf dem Prüfstand",
+      "url": "allModules/64947_M_IKVW_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 64944,
+      "kuerzel": "M_IKVW",
+      "bezeichnung": "Verantwortungsvoll Wirtschaften: Unternehmen auf dem Prüfstand",
+      "url": "allModules/64944_M_IKVW.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44480,
+      "kuerzel": "M_KT2V",
+      "bezeichnung": "Verarbeitung von Kunststoffen: Kunststofftechnik 2",
+      "url": "allModules/44480_M_KT2V.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 65035,
+      "kuerzel": "M_IKVK",
+      "bezeichnung": "Vielfalt, Chancengleichheit und Inklusion im KI-Zeitalter ",
+      "url": "allModules/65035_M_IKVK.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65038,
+      "kuerzel": "M_IKVK_p",
+      "bezeichnung": "Vielfalt, Chancengleichheit und Inklusion im KI-Zeitalter",
+      "url": "allModules/65038_M_IKVK_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57360,
+      "kuerzel": "M_idks.IKVR",
+      "bezeichnung": "Virtual and Augmented Reality",
+      "url": "allModules/57360_M_idks.IKVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65032,
+      "kuerzel": "M_IKVA_p",
+      "bezeichnung": "Virtual Reality für gesundes Leben und Altern",
+      "url": "allModules/65032_M_IKVA_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 44172,
+      "kuerzel": "M_IKVA",
+      "bezeichnung": "Virtual Reality für gesundes Leben und Altern",
+      "url": "allModules/44172_M_IKVA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65261,
+      "kuerzel": "M_IKVA_p_BU",
+      "bezeichnung": "Virtual Reality für gesundes Leben und Altern Kopie",
+      "url": "allModules/65261_M_IKVA_p_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65255,
+      "kuerzel": "M_IKVR_RJ",
+      "bezeichnung": "Virtual Reality für Klima und Energie",
+      "url": "allModules/65255_M_IKVR_RJ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 65043,
+      "kuerzel": "M_IKVR",
+      "bezeichnung": "Virtual Reality für Klima und Energie ",
+      "url": "allModules/65043_M_IKVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44181,
+      "kuerzel": "M_IKVR_p",
+      "bezeichnung": "Virtual Reality für Klima und Energie",
+      "url": "allModules/44181_M_IKVR_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 65295,
+      "kuerzel": "M_IKVR_p_BU",
+      "bezeichnung": "Virtual Reality für Klima und Energie Kopie",
+      "url": "allModules/65295_M_IKVR_p_BU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 43978,
+      "kuerzel": "M_VE1",
+      "bezeichnung": "Virtuelles Entwickeln 1",
+      "url": "allModules/43978_M_VE1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 43998,
+      "kuerzel": "M_VE2n",
+      "bezeichnung": "Virtuelles Entwickeln 2",
+      "url": "allModules/43998_M_VE2n.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 31619,
+      "kuerzel": "M_VE2",
+      "bezeichnung": "Virtuelles Entwickeln 2",
+      "url": "allModules/31619_M_VE2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 57247,
+      "kuerzel": "M_VE3",
+      "bezeichnung": "Virtuelles Entwickeln 3",
+      "url": "allModules/57247_M_VE3.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 42760,
+      "kuerzel": "M_VwlTg",
+      "bezeichnung": "Volkswirtschaft und Technikgeschichte",
+      "url": "allModules/42760_M_VwlTg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10156,
+          "kuerzel": "M_KGM",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 43657,
+      "kuerzel": "M_WRechMess",
+      "bezeichnung": "Wahrscheinlichkeit und Messdaten",
+      "url": "allModules/43657_M_WRechMess.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10155,
+          "kuerzel": "M_MN",
+          "bezeichnung": "Mathematik und Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 44199,
+      "kuerzel": "M_IKNB",
+      "bezeichnung": "Wasser und Klima: Nachhaltige Wasserbewirtschaftung auf Gemeindeebene",
+      "url": "allModules/44199_M_IKNB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 57170,
+      "kuerzel": "M_IKNB_p",
+      "bezeichnung": "Wasser und Klima: Nachhaltige Wasserbewirtschaftung auf Gemeindeebene",
+      "url": "allModules/57170_M_IKNB_p.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10157,
+          "kuerzel": "Kat_KGMI",
+          "bezeichnung": "Kommunikation - Gesellschaft - Management - IKTS",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 25751,
+      "kuerzel": "M_WiRe",
+      "bezeichnung": "Wissenschaftliches Rechnen mit MATLAB",
+      "url": "allModules/25751_M_WiRe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 32766,
+      "kuerzel": "M_WSLS",
+      "bezeichnung": "Workshop \"Lern-Support an der OST\"",
+      "url": "allModules/32766_M_WSLS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ]
+}

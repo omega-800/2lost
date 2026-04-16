@@ -1,0 +1,191 @@
+{
+  "id": 19860,
+  "kuerzel": "M_MAR2",
+  "bezeichnung": "Mess-/Antriebs-/Regeltechnik 2",
+  "kreditpunkte": 4,
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 19861,
+      "kuerzel": "Ele",
+      "bezeichnung": "Elektrizität (physikalisch)",
+      "lernziele": "<p>Das Hauptgewicht liegt auf dem Verst&auml;ndnis der grundlegenden Eigenschaften von elektrischen und magnetischen Erscheinungen. Es k&ouml;nnen einfache Berechnungen mit elektrischen Bauteilen (Widerstand, Kondensator etc.) durchgef&uuml;hrt werden</p>\n<p>&nbsp;</p>",
+      "planinhalt": "<p>Einf&#252;hrung: Begriff der Ladung, Coulombsches Gesetz </p>\n<p>Elektrisches Feld: Entstehung des E-Feldes, Energie und Energiedichte des E-Feldes, elektrische Spannung und Potential, Feld und Potentialberechnungen f&#252;r einfache Geometrien. </p>\n<p>Materie im E-Feld: Dielektrikum, Kondensator. </p>\n<p>Elektrischer Strom: Transportmechanismen in Halbleitern, Metallen und Elektrolyten, Ohmsches Gesetz und Schaltungen von Widerst&#228;nden, RC-Kreise, Joulsche W&#228;rme. </p>\n<p>Magnetostatik: Begriff des Magnetfeldes, Energiedichte des Magnetfeldes, Entstehung von B-Feldern und magnetische Kr&#228;fte, Feldberechnungen bei einfachen Geometrien. </p>\n<p>Elektrodynamik: Induktionsgesetz, Induktivit&#228;ten, Transformator, Schwingkreise</p>",
+      "kurselemente": [
+        {
+          "id": 19862,
+          "art": "Vorlesung",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 120,
+          "harteGrenze": true
+        },
+        {
+          "id": 19863,
+          "art": "Uebung",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrizität (physikalisch) "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electricity (physics)"
+        }
+      ]
+    },
+    {
+      "id": 19865,
+      "kuerzel": "EleT1",
+      "bezeichnung": "Elektrotechnik 1 (EEU)",
+      "lernziele": "&nbsp;\n<li>Grundlagen und Berechnungsverfahren der Wechselstromtechnik</li>\n<li>Analyse und Auslegung von elektrischen Schaltungen und Netzen</li>\n<li>Messen&nbsp;elektrischer Gr&ouml;ssen <br /></li>",
+      "planinhalt": "&nbsp;\n<ol>\n    <li>Sicherheit im Umgang mit der Elektrizit&auml;t (Personenschutz, Anlagenschutz, Vorschriften) </li>\n    <li>Wechselstromtechnik&nbsp;<br /> - Grundbegriffe: Periodendauer und Frequenz, Mittel-, Scheitel- und Effektivwerte, Phasenverschiebung, Formfaktoren <br />- Darstellung von Wechselgr&ouml;ssen: Liniendiagramme, Zeigerdiagramme, Frequenzgang <br />- Komplexe Berechnung von Wechselgr&ouml;ssen <br />- Verbraucher im Wechselstromnetz: Berechnung, Schaltung und Kompensation <br />- Leistungen im Wechselstromsystem </li>\n    <li>Drehstromsystemtechnik <br />- Entstehung, Begr&uuml;ndung, Eigenschaften <br />- Verketten der Str&ouml;me bzw. Spannungen <br />- Drei- und Vierleiternetze <br />- Anwendung der Stern- und Dreieckschaltung <br />- Leistungen im Drehstromsystem <br />- Blindstromkompensation im Drehstromnetz </li>\n    <li>Einf&uuml;hrung in die Leistungselektronik <br /></li>\n</ol>",
+      "kurselemente": [
+        {
+          "id": 19866,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 120,
+          "harteGrenze": true
+        },
+        {
+          "id": 19867,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrotechnik 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electrical Engineering 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10103,
+          "kuerzel": "EEU-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10103,
+          "kuerzel": "EEU-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 113,
+      "name": "Bucher",
+      "vorname": "Benno"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 19860,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "Kurs Elektrotechnik 1: Abgabe von 2 Laborberichten mit Bewertung &gt;= 4.0",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Mess-/Antriebs-/Regeltechnik 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Measurement and Control  Engineering 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2012,
+    "beginSemester": "FS",
+    "endJahr": 2014,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 19860,
+    "kuerzel": "M_MAR2",
+    "bezeichnung": "Mess-/Antriebs-/Regeltechnik 2",
+    "url": "allModules/19860_M_MAR2.json"
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "id": 11113,
+  "kuerzel": "M_EL1",
+  "bezeichnung": "Elektrizitätslehre 1",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Der Absolvent kennt die Basisgr&ouml;ssen und Grundgesetze der Elektrotechnik. Er kann,&nbsp;Gleichstromnetzwerke auslegen und berechnen und die Gr&ouml;ssen im elektrostatischen Feld bestimmen.</p>",
+  "vorausgKenntnisse": "<p>keine</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10254,
+      "kuerzel": "EL1",
+      "bezeichnung": "Elektrizitätslehre 1",
+      "planinhalt": "<p>Elektrische Basisgr&ouml;ssen und Einheiten<br />Lineare und nichtlineare Quellen und Verbraucher&nbsp;<br />Kirchhoff'sche Gesetze zur Berechnung von Netzwerken<br />Methoden der Netzwerkumwandlung <br />Systematische Analyse von Gleichstromnetzwerken <br />Elektrische&nbsp;Felder (Einf&uuml;hrung)<br />Gr&ouml;ssen im elektrostatischen Feld: Ladung, Feldst&auml;rke, Fluss,Potential, Kraft und Energie <br />Materie im elektrostatischen Feld: Definition der Kapazit&auml;t <br />Piezoeffekt und Elektrostriktion <br />Berechnung einfacher elektrostatischer&nbsp;Felder<br />Aenderungen vorbehalten</p>\n<p>&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 10693,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 10694,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 48,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrizitätslehre 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electricity Basics 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 147,
+      "name": "Prechtl",
+      "vorname": "Heiner"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11113,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "Testat",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Elektrizitätslehre 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electricity Basics 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2009,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 11113,
+    "kuerzel": "M_EL1",
+    "bezeichnung": "Elektrizitätslehre 1",
+    "url": "allModules/11113_M_EL1.json"
+  }
+}

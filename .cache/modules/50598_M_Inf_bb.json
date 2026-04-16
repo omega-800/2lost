@@ -1,0 +1,250 @@
+{
+  "id": 50598,
+  "kuerzel": "M_Inf_bb",
+  "bezeichnung": "Informatik (bb)",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden </p>\n<ul>\n    <li>k&ouml;nnen auf systematische Art und Weise Programme entwickeln.</li>\n    <li>k&ouml;nnen abstrahieren.</li>\n    <li>beherrschen eine moderne h&ouml;here Programmiersprache.</li>\n    <li>k&ouml;nnen grundlegende Methoden des Software Engineerings verwenden.</li>\n</ul>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 50599,
+      "kuerzel": "Inf_bb-1",
+      "bezeichnung": "Informatik II",
+      "kreditpunkte": 2,
+      "lernziele": "<p>Die Studierenden </p>\n<ul>\n    <li>k&ouml;nnen auf systematische Art und Weise Programme entwickeln.</li>\n    <li>k&ouml;nnen abstrahieren.</li>\n    <li>beherrschen eine moderne h&ouml;here Programmiersprache.</li>\n    <li>k&ouml;nnen grundlegende Methoden des Software Engineerings verwenden..</li>\n</ul>",
+      "planinhalt": "Programmieren mit einer modernen h&ouml;heren Programmiersprache:&nbsp;objektorientiertes Programmieren",
+      "bibliographie": "<p>David Barnes &amp; Michael K&ouml;lling: Objetcs First with Java oder Java lernen mit BlueJ&nbsp;</p>",
+      "empfLehrmittel": "Klassenunterricht mit Lehrvortrag, Übungen, Selbststudium, Gruppenarbeiten, etc.",
+      "bemerkungKurs": "Die Unterrichtssprache ist Deutsch, die Unterrichtsunterlagen sind jedoch zum Teil auf Englisch.",
+      "leistungsnachweis": "W&auml;hrend der Unterrichtsphase werden 2 Pr&uuml;fungen geschrieben.",
+      "kurselemente": [
+        {
+          "id": 50600,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000010,
+          "name": "Bach",
+          "vorname": "Carlo"
+        }
+      ]
+    },
+    {
+      "id": 50601,
+      "kuerzel": "Inf_bb-2",
+      "bezeichnung": "Informatik II ",
+      "kreditpunkte": 2,
+      "lernziele": "<p>siehe unter Inf_bb-1</p>",
+      "planinhalt": "<p>siehe unter Inf_bb-1</p>",
+      "bibliographie": "<p>siehe unter Inf_bb-1</p>",
+      "empfLehrmittel": "<p>siehe unter Inf_bb-1</p>",
+      "leistungsnachweis": "<p>siehe unter Inf_bb-1</p>",
+      "kurselemente": [
+        {
+          "id": 50602,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000010,
+          "name": "Bach",
+          "vorname": "Carlo"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10184,
+          "kuerzel": "GLM-G6",
+          "bezeichnung": "Grundlagenmodule Gruppe 6",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10174,
+          "kuerzel": "GLM",
+          "bezeichnung": "Grundlagenmodule",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10179,
+          "kuerzel": "GLM-G1",
+          "bezeichnung": "Grundlagenmodule Gruppe 1",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10184,
+          "kuerzel": "GLM-G6",
+          "bezeichnung": "Grundlagenmodule Gruppe 6",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000010,
+      "name": "Bach",
+      "vorname": "Carlo"
+    }
+  ],
+  "mengen": [
+    {
+      "id": 52,
+      "name": "Inf",
+      "dModMengeArt": 5701,
+      "module": [
+        {
+          "id": 45771,
+          "kuerzel": "M_Inf",
+          "bezeichnung": "Informatik",
+          "url": "allModules/45771_M_Inf.json"
+        },
+        {
+          "id": 46176,
+          "kuerzel": "M_Inf_bb",
+          "bezeichnung": "Informatik (bb)",
+          "url": "allModules/46176_M_Inf_bb.json"
+        },
+        {
+          "id": 46278,
+          "kuerzel": "M_Inf",
+          "bezeichnung": "Informatik",
+          "url": "allModules/46278_M_Inf.json"
+        },
+        {
+          "id": 46281,
+          "kuerzel": "M_Inf_bb",
+          "bezeichnung": "Informatik (bb)",
+          "url": "allModules/46281_M_Inf_bb.json"
+        },
+        {
+          "id": 50590,
+          "kuerzel": "M_Inf",
+          "bezeichnung": "Informatik",
+          "url": "allModules/50590_M_Inf.json"
+        },
+        {
+          "id": 50598,
+          "kuerzel": "M_Inf_bb",
+          "bezeichnung": "Informatik (bb)",
+          "url": "allModules/50598_M_Inf_bb.json"
+        },
+        {
+          "id": 52321,
+          "kuerzel": "M_Inf",
+          "bezeichnung": "Informatik",
+          "url": "allModules/52321_M_Inf.json"
+        },
+        {
+          "id": 52324,
+          "kuerzel": "M_Inf_bb",
+          "bezeichnung": "Informatik (bb)",
+          "url": "allModules/52324_M_Inf_bb.json"
+        },
+        {
+          "id": 52948,
+          "kuerzel": "M_Inf",
+          "bezeichnung": "Informatik",
+          "url": "allModules/52948_M_Inf.json"
+        },
+        {
+          "id": 52951,
+          "kuerzel": "M_Inf_bb",
+          "bezeichnung": "Informatik (bb)",
+          "url": "allModules/52951_M_Inf_bb.json"
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    },
+    {
+      "id": 2,
+      "kuerzel": "WSG",
+      "bezeichnung": "Waldau St.Gallen",
+      "ort": "St. Gallen"
+    },
+    {
+      "id": 3,
+      "kuerzel": "CH",
+      "bezeichnung": "Chur",
+      "ort": "Chur"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Computer Science"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2018,
+    "beginSemester": "FS",
+    "endJahr": 2020,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 46281,
+    "kuerzel": "M_Inf_bb",
+    "bezeichnung": "Informatik (bb)",
+    "url": "allModules/46281_M_Inf_bb.json"
+  },
+  "nachfolger": {
+    "id": 50598,
+    "kuerzel": "M_Inf_bb",
+    "bezeichnung": "Informatik (bb)",
+    "url": "allModules/50598_M_Inf_bb.json"
+  }
+}

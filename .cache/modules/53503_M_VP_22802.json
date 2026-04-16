@@ -1,0 +1,222 @@
+{
+  "id": 53503,
+  "kuerzel": "M_VP_22802",
+  "bezeichnung": "Artificial Intelligence for 3D Model Detection",
+  "kreditpunkte": 15,
+  "lernziele": "<ul>\n<li>Understanding of 3D model data structures and its design processes.</li>\n<li>Know how to analyze and deconstruct 3D models that will be used as inputs for machine learning.</li>\n<li>Ability to implement neural networks using existing frameworks to recognize 3D models.</li>\n<li>Ability to evaluate and compare different algorithms and models with regard to efficiency and effectivity.</li>\n</ul>",
+  "vorausgKenntnisse": "<p>Digital Image Processing, Geometry, Computer Vision, Visual Computing, Computer Graphics or an equivalent class. Experience in C/C++ and Python programming language. Knowledge in machine learning algorithm.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 53504,
+      "kuerzel": "VP_2280202",
+      "bezeichnung": "Stochastic Modelling",
+      "kreditpunkte": 0,
+      "lernziele": "<ul>\n<li>Familiar with the main working tools and concepts of stochastic modelling.</li>\n<li>Ability to explain properties and limitations of stochastic processes as a modelling tool for noisy systems.</li>\n<li>Ability to create model and analyze simple random phenomena using stochastic models.</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Probability review: random variables, conditional probabilities, theorem of large numbers, central limit theorem.</li>\n<li>Introduction to discrete and continuous stochastic processes.</li>\n<li>Discrete, continuous and hidden Markov Chains.</li>\n<li>Bernoulli, Poisson, Gaussian Processes, Brownian motion, white and coloured noise.</li>\n</ul>",
+      "bibliographie": "<ul>\n<li>Sheldon M. Ross. Probability Models, Elsevier.</li>\n<li>John A. Gubner. Probability and Random Processes for Electrical and Computer Engineers, Cambridge University Press.</li>\n<li>Mario Lefebvre. Applied Stochastic Processes, Springer.</li>\n<li>Bassel Solaiman. Processus Stochastiques pour L&rsquo;Ing&eacute;nieur, PPUR.</li>\n</ul>",
+      "empfLehrmittel": "<ul>\n<li>Slides and course notes</li>\n<li>Self-study&nbsp;</li>\n</ul>",
+      "bemerkungKurs": "<p>Zentrales MSE Modul FTP_StochMod</p>",
+      "leistungsnachweis": "<p>Dieser Kurs wird mittels Pr&uuml;fung bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 53505,
+          "art": "Seminar",
+          "maxTeilnehmer": 36,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000823,
+          "name": "Frei",
+          "vorname": "Norbert"
+        }
+      ]
+    },
+    {
+      "id": 53506,
+      "kuerzel": "VP_2280201",
+      "bezeichnung": "Artificial Intelligence for 3D Model Detection",
+      "kreditpunkte": 0,
+      "lernziele": "<ul>\n<li>Understanding of 3D model data structures and its design processes.</li>\n<li>Know how to analyze and deconstruct 3D models that will be used as inputs for machine learning.</li>\n<li>Ability to implement neural networks using existing frameworks to recognize 3D models.</li>\n<li>Ability to evaluate and compare different algorithms and models with regard to efficiency and effectivity.</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Digital image fundamentals and 3D model data structures.</li>\n<li>Deep learning: Multilayer Perceptron, Convolutional Neural Networks, Recurrent Neural Networks.</li>\n<li>Implementation of deep learning strategy using deep learning frameworks, in this case: TensorFlow.</li>\n<li>Evaluation and comparison between models and architectures.</li>\n</ul>",
+      "bibliographie": "<ul>\n<li>I. Goodfellow, Y. Bengio, A. Courville. Deep Learning, MIT Press, 2016.</li>\n<li>C. M. Bishop. Neural Networks for Pattern Recognition, Clarendon Press. 1996.</li>\n<li>Rafael C. Gonzalez &amp; Richard E. Woods. Digital Image Processing, Pearson, 2018.</li>\n</ul>",
+      "empfLehrmittel": "<p>Projektarbeit</p>",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird mittels Bericht und Pr&auml;sentation bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 53507,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000823,
+          "name": "Frei",
+          "vorname": "Norbert"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 15
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000823,
+      "name": "Frei",
+      "vorname": "Norbert"
+    }
+  ],
+  "orte": [
+    {
+      "id": 2,
+      "kuerzel": "WSG",
+      "bezeichnung": "Waldau St.Gallen",
+      "ort": "St. Gallen"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Artificial Intelligence for 3D Model Detection"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2022,
+    "beginSemester": "FS",
+    "endJahr": 2022,
+    "endSemester": "FS"
+  }
+}

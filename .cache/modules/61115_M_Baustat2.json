@@ -1,0 +1,293 @@
+{
+  "id": 61115,
+  "kuerzel": "M_Baustat2",
+  "bezeichnung": "Baustatik 2: Elastizität und Plastizität",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Grundlagenkenntnisse in der Festigkeitslehre (linear elastisches und plastisches Materialverhalten, Spannungs- und Dehnungszust&auml;nde, Querschnittswerte und -widerst&auml;nde, Grenzwerts&auml;tze und Traglastverfahren der Plastizit&auml;tstheorie)</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 61116,
+      "kuerzel": "Baustat2Elas",
+      "bezeichnung": "Elastizität",
+      "lernziele": "<p>F&auml;higkeit zur Berechnung von Querschnittswerten sowie von Normal- und Schubspannungen bei homogenen Querschnitten und Verbundprofilen</p>",
+      "planinhalt": "<p>Festigkeitslehre 1: Elastizit&auml;tstheorie</p>\n<ul>\n<li>Querschnittswerte wie Fl&auml;chenmomente 1. &amp; 2. Grades und Widerstandsmomente</li>\n<li>Schwer- und Schubmittelpunkt</li>\n<li>Spannungs- und Dehnungszust&auml;nde</li>\n<li>Spannungsberechnungen bei homogenen Querschnitten und Verbundquerschnitten</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 61117,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 61118,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elastizität"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Elasticity"
+        }
+      ]
+    },
+    {
+      "id": 61120,
+      "kuerzel": "Baustat2Plas",
+      "bezeichnung": "Plastizität",
+      "lernziele": "<ul>\n<li>F&auml;higkeit zur Berechnung plastischer Querschnittswiderst&auml;nde</li>\n<li>Kenntnis der Grenzwerts&auml;tze der Plastizit&auml;tstheorie</li>\n<li>Sicherheit in der Berechnung der Traglast &nbsp;nach der Plastizit&auml;tstheorie: Statische und kinematische Verfahren</li>\n</ul>",
+      "planinhalt": "<p>Festigkeitslehre 2: Plastizit&auml;tstheorie</p>\n<ul>\n<li>Linear elastisch &ndash; ideal plastisches Materialverhalten</li>\n<li>Plastische Querschnittswiderst&auml;nde von homogenen Querschnitten und Verbundquerschnitten unter Biegung, Querkraft und Normalkraft sowie infolge kombinierter Beanspruchung (Schnittgr&ouml;ssen-Interaktionen)&nbsp;</li>\n<li>Plastische Berechnung der Traglast von Balken- und<br />Rahmentragwerken auf der Grundlage der Grenzwerts&auml;tze der Plastizit&auml;tstheorie: statische und kinematische Methode</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 61121,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 61122,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Plastizität"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Plasticity"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10005,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10005_B.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10109,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10109_B.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10131,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10131_B.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10197,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10197_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10234,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10234_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10261,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10261_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533883,
+      "name": "Wenk",
+      "vorname": "Felix"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 28467,
+      "kuerzel": "M_Baustoff1",
+      "bezeichnung": "Baustoffe 1",
+      "url": "allModules/28467_M_Baustoff1.json"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 42046,
+      "kuerzel": "M_Bausta1",
+      "bezeichnung": "Baustatik 1: Statisch bestimmte Systeme",
+      "url": "allModules/42046_M_Bausta1.json"
+    },
+    {
+      "id": 56636,
+      "kuerzel": "M_Baustat1",
+      "bezeichnung": "Baustatik 1: Statisch bestimmte Systeme",
+      "url": "allModules/56636_M_Baustat1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 61115,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat gem&auml;ss Semesterplan</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Baustatik 2: Elastizität und Plastizität"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Structural analysis 2: elasticity and plasticity"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2027,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 42079,
+    "kuerzel": "M_Baustat2",
+    "bezeichnung": "Baustatik 2: Elastizität und Plastizität",
+    "url": "allModules/42079_M_Baustat2.json"
+  }
+}

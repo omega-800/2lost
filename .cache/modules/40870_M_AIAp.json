@@ -1,0 +1,269 @@
+{
+  "id": 40870,
+  "kuerzel": "M_AIAp",
+  "bezeichnung": "AI Applications",
+  "kreditpunkte": 4,
+  "lernziele": "<p>In this module, we focus on advanced AI techniques and their application in software projects. We will discuss and implement different deep learning architectures.&nbsp;</p>\n<p>After successful completion of this module the students are able to:<br />&bull; implement and train different deep learning architectures in Tensorflow/Keras<br />&bull; explain what a computational-graph is and how it is used by neural networks<br />&bull; choose and apply appropriate deep learning techniques for solving different tasks (e.g image classification or time-series analysis)<br />&bull; approach an AI project from analysis to deployment and monitoring<br />&bull; use a pretrained network in a software project</p>",
+  "vorausgKenntnisse": "<p>This module is taught in English. Most of the AI Literature is in English. An intermediate level is recommended. The students are free to write reports in German or English. The exam questions will be in English, the students are free to write answers in German or English.</p>\n<p>&nbsp;</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 40871,
+      "kuerzel": "AIAp",
+      "bezeichnung": "AI Applications",
+      "planinhalt": "<p>In this module, we cover selected AI topics and apply them to concrete examples. The emphasis will be on commonly used deep learning techniques and their (potential) use in real-world applications. The exact list of topics may vary, but following topics are likely to be covered:</p>\n<ul>\n<li>Deep learning with Tensorflow/Keras</li>\n<li>Algorithms and data structures: computational-graph, automatic differentiation, backpropagation</li>\n<li>CNNs for image classification</li>\n<li>RNNs or transformers for time-series analysis</li>\n<li>AI-powered web-applications using tensorflow.js</li>\n<li>AI-model lifecycle management</li>\n</ul>\n<p>During the semester the students will implement two graded projects, one of them in a non-technical, interdisciplinary context.&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 40872,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        },
+        {
+          "id": 40873,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "AI Applications"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "AI Applications"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10191,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10191_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10246,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10246_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10141,
+          "kuerzel": "I_Auf",
+          "bezeichnung": "Aufbau",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10230,
+      "bezeichnung": "Frontend Engineering",
+      "kuerzel": "FrEng",
+      "url": "allStudies/10230_FrEng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10196,
+      "bezeichnung": "Data Science",
+      "kuerzel": "DaEnMaIn",
+      "url": "allStudies/10196_DaEnMaIn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10233,
+      "bezeichnung": "Data Science",
+      "kuerzel": "DaEnMaIn",
+      "url": "allStudies/10233_DaEnMaIn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10193,
+      "bezeichnung": "Frontend Engineering",
+      "kuerzel": "FrEng",
+      "url": "allStudies/10193_FrEng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10451,
+      "bezeichnung": "Artificial Intelligence",
+      "kuerzel": "VTAI",
+      "url": "allStudies/10451_VTAI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10251,
+      "bezeichnung": "Data Science",
+      "kuerzel": "DaEn",
+      "url": "allStudies/10251_DaEn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2141203,
+      "name": "Lehmann",
+      "vorname": "Marco"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 38784,
+      "kuerzel": "M_AIFo",
+      "bezeichnung": "AI Foundations",
+      "url": "allModules/38784_M_AIFo.json"
+    },
+    {
+      "id": 38891,
+      "kuerzel": "M_WE1",
+      "bezeichnung": "Web Engineering 1",
+      "url": "allModules/38891_M_WE1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 10,
+      "kuerzel": "SG",
+      "bezeichnung": "St.Gallen (Informatik Raster)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 40870,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "AI Applications"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "AI Applications"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 8,
+    "beginJahr": 2023,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 38785,
+    "kuerzel": "M_AIAp",
+    "bezeichnung": "AI Applications",
+    "url": "allModules/38785_M_AIAp.json"
+  }
+}

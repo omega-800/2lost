@@ -1,0 +1,178 @@
+{
+  "id": 26184,
+  "kuerzel": "M_TechM1",
+  "bezeichnung": "Technische Mechanik 1",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Grundgesetze der Statik der starren K&ouml;rper und der wichtigsten L&ouml;sungsmethoden kennen </li>\n    <li>Problemstellungen der Statik analysieren und den Hauptgebieten zuordnen k&ouml;nnen </li>\n    <li>R&auml;umliche Kr&auml;ftesysteme mit den Gesetzen der Statik analysieren k&ouml;nnen </li>\n    <li>Gesetze der inneren Kr&auml;fte, der Reibung und Bewegungswiderst&auml;nde kennen und anwenden k&ouml;nnen </li>\n    <li>Relevante L&ouml;sungsmethoden kennen und auf einfachere Problemstellungen anwenden k&ouml;nnen&nbsp;&nbsp;<br /></li>\n</ul>\n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 26185,
+      "kuerzel": "Statik",
+      "bezeichnung": "Statik",
+      "planinhalt": "<ul>\n    <li>Grundgesetze der Statik </li>\n    <li>Ermittlung der Resultierenden: zentrale, parallele und allgemeine ebene Kr&auml;ftegruppen </li>\n    <li>Kr&auml;ftemittelpunkt, Schwerpunkt </li>\n    <li>Standsicherheit </li>\n    <li>Freiheitsgrade, Lagerung, Freimachen </li>\n    <li>Statik der starren K&ouml;rper: Gleichgewicht bei zentralen, parallelen und allgemeinen ebenen Kr&auml;ftegruppen </li>\n    <li>Systeme starrer K&ouml;rper, Gelenktr&auml;ger, Ideales Fachwerk </li>\n    <li>Gleichgewicht bei r&auml;umlichen Kr&auml;ftegruppen </li>\n    <li>Innere Kr&auml;fte, Beanspruchung </li>\n    <li>Reibung und Bewegungswiderst&auml;nde</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 26186,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 108,
+          "harteGrenze": true
+        },
+        {
+          "id": 26187,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 26188,
+          "art": "Seminar",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Statik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Statics"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 527138,
+      "name": "Henne",
+      "vorname": "Markus"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 22028,
+      "kuerzel": "M_An1M",
+      "bezeichnung": "Analysis 1 (M-I)",
+      "url": "allModules/22028_M_An1M.json"
+    },
+    {
+      "id": 23370,
+      "kuerzel": "M_VekGM",
+      "bezeichnung": "Vektorgeometrie (M-I)",
+      "url": "allModules/23370_M_VekGM.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 26184,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Technische Mechanik 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Engineering Mechanics 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2016,
+    "beginSemester": "FS",
+    "endJahr": 2016,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 24340,
+    "kuerzel": "M_TechM1",
+    "bezeichnung": "Technische Mechanik 1",
+    "url": "allModules/24340_M_TechM1.json"
+  },
+  "nachfolger": {
+    "id": 26184,
+    "kuerzel": "M_TechM1",
+    "bezeichnung": "Technische Mechanik 1",
+    "url": "allModules/26184_M_TechM1.json"
+  }
+}

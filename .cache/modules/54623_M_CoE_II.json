@@ -1,0 +1,228 @@
+{
+  "id": 54623,
+  "kuerzel": "M_CoE_II",
+  "bezeichnung": "Computational Engineering II",
+  "kreditpunkte": 12,
+  "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>k&ouml;nnen mechanische Systeme eines Massenpunktes als ODE modellieren.</li>\n<li>k&ouml;nnen ODEs h&ouml;herer Ordnung auf ein System erster Ordnung reduzieren.</li>\n<li>k&ouml;nnen die Phasenraum- und Zustandsraumdarstellung linearer Systeme aufstellen.</li>\n<li>k&ouml;nnen den Matrix-Exponential-Kalk&uuml;l zur L&ouml;sung linearer, autonomer Systeme anwenden und deren Stabilit&auml;t bestimmen.</li>\n<li>kennen die Grundkonzepte der Feedback-Regelung von linearen Systemen</li>\n<li>k&ouml;nnen nichtlineare Bilanzgleichungen und Gleichungen der Populationsdynamik aufstellen und l&ouml;sen.</li>\n<li>k&ouml;nnen ODEs anhand chemischer Reaktionsgleichungen aufstellen.</li>\n<li>k&ouml;nnen ODEs zur Modellierung realer Systeme verwenden.</li>\n<li>k&ouml;nnen ODE Modelle mittels Experimenten verifizieren.</li>\n</ul>\n<p>&nbsp;</p>\n<ul>\n<li>k&ouml;nnen Zufallsexperimente mithilfe von Zufallsvariablen und deren Verteilungen beschreiben.</li>\n<li>k&ouml;nnen Erwartungswert und Varianz von Zufallsvariablen berechnen.</li>\n<li>kennen die Bedeutung des zentralen Grenzwertsatzes.</li>\n<li>k&ouml;nnen die Kovarianz und Korrelation von multivariaten Zufallsvariablen berechnen.</li>\n<li>k&ouml;nnen Punkt- und Intervallsch&auml;tzer f&uuml;r die wichtigsten statistischen Parameter berechnen.</li>\n<li>k&ouml;nnen das Konzept des Bootstrapping zur Bewertung von Sch&auml;tzern anwenden.</li>\n<li>k&ouml;nnen f&uuml;r eine gegebene Fragestellung den richtigen statistischen Test ausw&auml;hlen und ausf&uuml;hren.</li>\n<li>k&ouml;nnen einen einfaktorielle und mehrfaktorielle ANOVA durchf&uuml;hren und interpretieren.</li>\n<li>k&ouml;nnen eine lineare Regressionsgleichung aufstellen und die Parameter berechnen.</li>\n<li>k&ouml;nnen die G&uuml;te eines Regressionsmodells bewerten.</li>\n<li>k&ouml;nnen aus verschiedenen linearen Regressionsmodellen das beste ausw&auml;hlen.</li>\n</ul>\n<p>&nbsp;</p>\n<ul>\n<li>k&ouml;nnen Optimierungsprobleme korrekt klassifizieren und die entsprechenden L&ouml;sungsmethoden w&auml;hlen.</li>\n<li>k&ouml;nnen ein- und mehrdimensionale nichtrestringierte glatte Optimierungsprobleme l&ouml;sen.</li>\n<li>kennen die KKT Bedingung und k&ouml;nnen diese f&uuml;r restringierte Optimierungsprobleme aufstellen.</li>\n<li>kennen die grundlegenden numerischen Verfahren zur L&ouml;sung von restringierten und nichtrestringierten Optimierungsproblemen.</li>\n<li>k&ouml;nnen lineare Optimierungsprobleme in zwei Dimensionen graphisch l&ouml;sen.</li>\n<li>k&ouml;nnen lineare Optimierungsprobleme mit dem Simplex Algorithmus l&ouml;sen.</li>\n<li>kennen den Unterschied zwischen diskreter und kontinuierlicher Optimierung.</li>\n</ul>\n<p>&nbsp;</p>\n<ul>\n<li>kennen die theoretischen Grundlagen des Internets der Dinge.&nbsp;</li>\n<li>kennen wichtige IoT-Kommunikationsprotokolle, IoT-Plattformen und Interaktionsmuster.&nbsp;</li>\n<li>wissen, wie die intelligenten Dinge des IoT aufgebaut sind und wie sie sicher via Internet kommunizieren.</li>\n<li>k&ouml;nnen einfache intelligente Gegenst&auml;nde f&uuml;r das Internet der Dinge entwerfen und entwickeln.</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 54624,
+      "kuerzel": "CoE_II_C",
+      "bezeichnung": "Computational Physics: Einführung in die Modellierung",
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>k&ouml;nnen mechanische Systeme eines Massenpunktes als ODE modellieren.</li>\n<li>k&ouml;nnen ODEs h&ouml;herer Ordnung auf ein System erster Ordnung reduzieren.</li>\n<li>k&ouml;nnen die Phasenraum- und Zustandsraumdarstellung linearer Systeme aufstellen.</li>\n<li>k&ouml;nnen den Matrix-Exponential-Kalk&uuml;l zur L&ouml;sung linearer, autonomer Systeme anwenden und deren Stabilit&auml;t bestimmen.</li>\n<li>kennen die Grundkonzepte der Feedback-Regelung von linearen Systemen.</li>\n<li>k&ouml;nnen nichtlineare Bilanzgleichungen und Gleichungen der Populationsdynamik aufstellen und l&ouml;sen.</li>\n<li>k&ouml;nnen ODEs anhand chemischer Reaktionsgleichungen aufstellen.</li>\n<li>k&ouml;nnen ODEs zur Modellierung realer Systeme verwenden.</li>\n<li>k&ouml;nnen ODE Modelle mittels Experimenten verifizieren.</li>\n</ul>",
+      "planinhalt": "<p>1. &nbsp; &nbsp;Lineare gekoppelte Systeme<br />&nbsp; &nbsp; &nbsp; &nbsp;- Mechanik des Massenpunkts<br />&nbsp; &nbsp; &nbsp; &nbsp;- Systeme h&ouml;herer Ordnung und Reduktion<br />&nbsp; &nbsp; &nbsp; &nbsp;- &Uuml;bertragungsfunktion gekoppelter Systeme<br />2. &nbsp; &nbsp;Matrix-Exponentialkalk&uuml;l<br />&nbsp; &nbsp; &nbsp; &nbsp;- L&ouml;sung Lineare autonome Systeme<br />&nbsp; &nbsp; &nbsp; &nbsp;- Inhomogene lineare Systeme<br />&nbsp; &nbsp; &nbsp; &nbsp;- Matrix-Transferfunktion<br />3. &nbsp; &nbsp;Stabilit&auml;t und Regelung<br />&nbsp; &nbsp; &nbsp; &nbsp;- Stabilit&auml;t station&auml;rer L&ouml;sungen<br />&nbsp; &nbsp; &nbsp; &nbsp;- Feedback-Regelung<br />4. &nbsp; &nbsp;Nichtlineare Systeme<br />&nbsp; &nbsp; &nbsp; &nbsp;- Bilanzgleichungen und Populationsdynamik<br />&nbsp; &nbsp; &nbsp; &nbsp;- Deterministisches Chaos<br />&nbsp; &nbsp; &nbsp; &nbsp;- Reaktionskinetik (Chemie)</p>",
+      "bibliographie": "<p>Ali &Uuml;mit Keskin: Ordinary Differential Equations for Engineers Problems with MATLAB Solutions, Springer (2019)</p>",
+      "empfLehrmittel": "<p>Unterricht im Klassenverband, &Uuml;bungen, Selbststudium, Labor</p>",
+      "bemerkungKurs": "<p>Unterrichtssprache Deutsch und/oder Englisch</p>",
+      "leistungsnachweis": "<p>W&auml;hrend dem Semester wird eine Projektarbeit bewertet. Zus&auml;tzlich findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Messen und Statistik sowie Optimierung statt.</p>",
+      "kurselemente": [
+        {
+          "id": 54625,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002668,
+          "name": "Würsch",
+          "vorname": "Christoph"
+        }
+      ]
+    },
+    {
+      "id": 54626,
+      "kuerzel": "CoE_II_M",
+      "bezeichnung": "Messen und Statistik",
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>k&ouml;nnen Zufallsexperimente mithilfe von Zufallsvariablen und deren Verteilungen beschreiben.</li>\n<li>k&ouml;nnen Erwartungswert und Varianz von Zufallsvariablen berechnen.</li>\n<li>kennen die Bedeutung des zentralen Grenzwertsatzes.</li>\n<li>k&ouml;nnen die Kovarianz und Korrelation von multivariaten Zufallsvariablen berechnen.</li>\n<li>k&ouml;nnen Punkt- und Intervallsch&auml;tzer f&uuml;r die wichtigsten statistischen Parameter berechnen.</li>\n<li>k&ouml;nnen das Konzept des Bootstrapping zur Bewertung von Sch&auml;tzern anwenden.</li>\n<li>k&ouml;nnen f&uuml;r eine gegebene Fragestellung den richtigen statistischen Test ausw&auml;hlen und ausf&uuml;hren.</li>\n<li>k&ouml;nnen einen einfaktorielle und mehrfaktorielle ANOVA durchf&uuml;hren und interpretieren.</li>\n<li>k&ouml;nnen eine lineare Regressionsgleichung aufstellen und die Parameter berechnen.</li>\n<li>k&ouml;nnen die G&uuml;te eines Regressionsmodells bewerten.</li>\n<li>k&ouml;nnen aus verschiedenen linearen Regressionsmodellen das beste ausw&auml;hlen.</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>&nbsp;Wahrscheinlichkeitstheorie<br />- &nbsp; &nbsp;Verteilung diskreter und stetiger Zufallsvariablen<br />- &nbsp; &nbsp;Erwartungswert, Varianz, Schiefe<br />- &nbsp; &nbsp;Mehrdimensionale Verteilungen, Kovarianz, Korrelation</li>\n<li>Sch&auml;tzer und statistische Tests<br />- &nbsp; &nbsp;Intervall- und Punktsch&auml;tzer<br />- &nbsp; &nbsp;Erwartungstreue, Konsistenz und Konvergenz<br />- &nbsp; &nbsp;Bootstrapping<br />- &nbsp; &nbsp;T-Tests</li>\n<li>ANOVA<br />- &nbsp; &nbsp;Einfaktorielle &nbsp;ANOVA<br />- &nbsp; &nbsp;Mehrfaktorielle ANOVA</li>\n<li>Regression<br />- &nbsp; &nbsp;Einfache lineare Regression<br />- &nbsp; &nbsp;Multivariate lineare Regression<br />- &nbsp; &nbsp;Residuenanalyse<br />- &nbsp; &nbsp;Modellg&uuml;te<br />- &nbsp; &nbsp;Modellwahl</li>\n</ul>",
+      "empfLehrmittel": "<p>Unterricht im Klassenverband, &Uuml;bungen, Selbststudium, Vortr&auml;ge</p>",
+      "bemerkungKurs": "<p>Unterrichtssprache Deutsch und/oder Englisch</p>",
+      "leistungsnachweis": "<p>Es findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Computational Physics: Einf&uuml;hrung in die Programmierung sowie Optimierung statt.</p>",
+      "kurselemente": [
+        {
+          "id": 54627,
+          "art": "Klassenunterricht",
+          "anzLektionen": 4,
+          "maxTeilnehmer": 30,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002668,
+          "name": "Würsch",
+          "vorname": "Christoph"
+        }
+      ]
+    },
+    {
+      "id": 54628,
+      "kuerzel": "CoE_II_O",
+      "bezeichnung": "Optimierung",
+      "lernziele": "<p>Die Studierenden</p>\n<ul>\n<li>k&ouml;nnen Optimierungsprobleme korrekt klassifizieren und die entsprechenden L&ouml;sungsmethoden w&auml;hlen.</li>\n<li>k&ouml;nnen ein- und mehrdimensionale nichtrestringierte glatte Optimierungsprobleme l&ouml;sen.</li>\n<li>kennen die KKT Bedingung und k&ouml;nnen diese f&uuml;r restringierte Optimierungsprobleme aufstellen.</li>\n<li>kennen die grundlegenden numerischen Verfahren zur L&ouml;sung von restringierten und nichtrestringierten Optimierungsproblemen.</li>\n<li>k&ouml;nnen lineare Optimierungsprobleme in zwei Dimensionen graphisch l&ouml;sen.</li>\n<li>k&ouml;nnen lineare Optimierungsprobleme mit dem Simplex Algorithmus l&ouml;sen.</li>\n<li>kennen den Unterschied zwischen diskreter und kontinuierlicher Optimierung.</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Nichtlineare Optimierung<br />- &nbsp; &nbsp;Eindimensionale Optimierung<br />- &nbsp; &nbsp;Mehrdimensionale Optimierung ohne Nebenbedingung<br />- &nbsp; &nbsp;Gleichungs- und Ungleichungsnebenbedingungen<br />- &nbsp; &nbsp;Karush-Kuhn-Tucker Bedingunge</li>\n<li>Numerik der Optimierung<br />- &nbsp; &nbsp;Numerik eindimensionaler Probleme: Newton Algorithmus, Bisektion<br />- &nbsp; &nbsp;Gauss-Newton und Quasi-Newton Verfahren&nbsp;<br />- &nbsp; &nbsp;Line Search und SQP</li>\n<li>Lineare Programme<br />- &nbsp; &nbsp;Graphische L&ouml;sung 2 dimensionaler Probleme<br />- &nbsp; &nbsp;Simplex Algorithmus</li>\n</ul>",
+      "empfLehrmittel": "<p>Lehrgespr&auml;ch im Klassenverband, Labor&uuml;bungen, Selbststudium</p>",
+      "bemerkungKurs": "<p>Unterrichtssprache Deutsch und/oder Englisch</p>",
+      "leistungsnachweis": "<p>Es findet eine abgesetzte Modulschlusspr&uuml;fung zusammen mit den Kursen Computational Physics: Einf&uuml;hrung in die Programmierung sowie Messen und Statistik statt.</p>",
+      "kurselemente": [
+        {
+          "id": 54629,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2201228,
+          "name": "Fritz",
+          "vorname": "Hans"
+        }
+      ]
+    },
+    {
+      "id": 54630,
+      "kuerzel": "CoE_II_I",
+      "bezeichnung": "Internet of Things",
+      "lernziele": "<p>Die Studierenden&nbsp;</p>\n<ul>\n<li>kennen die theoretischen Grundlagen des Internets der Dinge.&nbsp;</li>\n<li>kennen wichtige IoT-Kommunikationsprotokolle, IoT-Plattformen und Interaktionsmuster.&nbsp;</li>\n<li>wissen, wie die intelligenten Dinge des IoT aufgebaut sind und wie sie sicher via Internet kommunizieren.</li>\n<li>k&ouml;nnen einfache intelligente Gegenst&auml;nde f&uuml;r das Internet der Dinge entwerfen und entwickeln.</li>\n</ul>",
+      "planinhalt": "<p>Das Internet der Dinge (engl. Internet of Things, IoT) besteht aus &bdquo;intelligenten&ldquo; Gegenst&auml;nden, die den Menschen bei seinen T&auml;tigkeiten unterst&uuml;tzen, ohne abzulenken oder aufzufallen. Zu diesen &bdquo;intelligenten&ldquo; Objekten geh&ouml;ren K&uuml;hlschr&auml;nke, Back&ouml;fen, Kaffeemaschinen, Briefk&auml;sten, Abfalleimer, Strassenlaternen, Regenschirme, Produktionsanlagen, etc.&nbsp;<br />&nbsp;<br />Dieser Kurs vermittelt die theoretischen Grundlagen des Internets der Dinge. Das Internet der Dinge wird definiert und seine Bestandteile werden erl&auml;utert. Dann erfolgt eine Einf&uuml;hrung in die Welt der Computerkommunikation, wobei der Fokus auf die entscheidenden IoT- Kommunikationsprotokolle gelegt wird. Praxisnahe &Uuml;bungen erg&auml;nzen die theoretischen Grundlagen zwischendurch.</p>",
+      "empfLehrmittel": "<p>Kontaktstudium, begleitetes Selbststudium</p>",
+      "bemerkungKurs": "<p>Unterrichtssprache Deutsch und/oder Englisch</p>",
+      "leistungsnachweis": "<p>W&auml;hrend dem Semester wird eine Pr&uuml;fung bewertet.&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 54631,
+          "art": "Klassenunterricht",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 30,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002823,
+          "name": "Pawlitzek",
+          "vorname": "René"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10280,
+      "bezeichnung": "Systemtechnik VZ",
+      "kuerzel": "ST_VZ",
+      "url": "allStudies/10280_ST_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10281,
+      "bezeichnung": "Systemtechnik BB",
+      "kuerzel": "ST_BB",
+      "url": "allStudies/10281_ST_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10175,
+          "kuerzel": "PM",
+          "bezeichnung": "Profilmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 10426,
+      "bezeichnung": "Computational Engineering",
+      "kuerzel": "CompEng",
+      "url": "allStudies/10426_CompEng.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10427,
+      "bezeichnung": "Computational Engineering",
+      "kuerzel": "CompEng",
+      "url": "allStudies/10427_CompEng.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002668,
+      "name": "Würsch",
+      "vorname": "Christoph"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 54614,
+      "kuerzel": "M_CoE_I",
+      "bezeichnung": "Computational Engineering I",
+      "url": "allModules/54614_M_CoE_I.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 54623,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": false,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Am Ende des Semesters findet eine abgesetzte Modulschlusspr&uuml;fung in drei Teilen statt. Die Kurse Computational Physics: Einf&uuml;hrung in die Modellierung, Optimierung sowie Messen und Statistik bilden je einen Teil der Modulschlusspr&uuml;fung.&nbsp;</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Computational Engineering II"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2025,
+    "beginSemester": "FS",
+    "endJahr": 2025,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 53865,
+    "kuerzel": "M_CoE_II",
+    "bezeichnung": "Computational Engineering II",
+    "url": "allModules/53865_M_CoE_II.json"
+  }
+}

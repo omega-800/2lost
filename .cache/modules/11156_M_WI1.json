@@ -1,0 +1,183 @@
+{
+  "id": 11156,
+  "kuerzel": "M_WI1",
+  "bezeichnung": "Wirtschaftsinformatik 1",
+  "kreditpunkte": 4,
+  "lernziele": "<p>&#8226; Kennt die spezifische Fachsprache im Schnittstellenbereich Wirtschaft / Informatik. <br />&#8226; Erkennt die Herausforderungen im Zusammenspiel von Menschen, Organisation und IT-Systemen. <br />&#8226; Erkennt die Vor- und Nachteile verschiedener IT-gest&#252;tzter Gesch&#228;ftsmodelle. <br />&#8226; Ist f&#228;hig, Fallstudien und wirtschaftliche Problemstellungen aus dem IT-Umfeld in Projektgruppen erfolgreich umzusetzen. <br /></p>\n<p>Lehrmittel:</p>\n<p>Titel: Essentials of Management Information Systems:(Int.Edition) <br />Reihe: Prentice Hall <br />Author: Kenneth C. Laudon, Jane P Laudon <br />Verlag: Prentice Hall <br />Auflage: 6 <br />Sprache: Englisch <br />Erschienen: 2005 <br />ISBN: 0-13-127311-6 <br /></p>",
+  "vorausgKenntnisse": "gute Englischkenntnisse",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10339,
+      "kuerzel": "WI1",
+      "bezeichnung": "Grundlagen der Wirtschaftsinformatik",
+      "planinhalt": "<p>&bull; Einf&uuml;hrung Wirtschaftsinformatik <br />&bull; Gesamtwirtschaftliche Prozesse <br />&bull; Gesamtwirtschaftliche Rahmenbedingungen <br />&bull; Management einer Unternehmung im Informationszeitalter <br />&bull; Informationssysteme in der Unternehmung <br />&bull; Organisation, Management und Strategie <br />&bull; Electronic Business <br />&bull; Ethische und soziale Brennpunkte <br />&bull; Wertmessungen von Systemen<br />&bull; Sicherheit und Controlling<br /></p>",
+      "kurselemente": [
+        {
+          "id": 10815,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 10816,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Grundlagen der Wirtschaftsinformatik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Basics of Business Informatics"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10012,
+          "kuerzel": "I-gwr",
+          "bezeichnung": "Gesellschaft, Wirtschaft und Recht",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 527201,
+      "name": "Koch",
+      "vorname": "Frank"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11156,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": true,
+      "zulassungsBedingung": "Testat",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Wirtschaftsinformatik 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Business Informatics 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2005,
+    "endSemester": "WS"
+  },
+  "nachfolger": {
+    "id": 11156,
+    "kuerzel": "M_WI1",
+    "bezeichnung": "Wirtschaftsinformatik 1",
+    "url": "allModules/11156_M_WI1.json"
+  }
+}

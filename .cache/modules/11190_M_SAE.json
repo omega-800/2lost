@@ -1,0 +1,169 @@
+{
+  "id": 11190,
+  "kuerzel": "M_SAE",
+  "bezeichnung": "Studienarbeit Elektrotechnik",
+  "kreditpunkte": 8,
+  "lernziele": "<p>Anwendung der erworbenen Kenntnisse und F&#228;higkeiten. Die Arbeit soll den Nachweis erbringen, dass der Absolvent f&#228;hig ist, ein Problem selbstst&#228;ndig unter Anwendung ingenieurm&#228;ssiger Methoden zu l&#246;sen.</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10366,
+      "kuerzel": "SAE",
+      "bezeichnung": "Studienarbeit Elektrotechnik",
+      "planinhalt": "<p>Die Semesterarbeit wird in der Regel einem 2er Team &#252;bertragen und von einem Dozenten betreut. Sie dauert ca. 14 Wochen (semesterbegleitend) mit einem Arbeitsaufwand von mindestens 18 Wochenstunden. <br />Das Thema der Arbeit kann von einer externen Firma, vom Dozenten oder von den Studenten vorgeschlagen werden und steht in Zusammenhang mit einem oder mehreren Profilierungsmodulen, welche die Sachbearbeiter belegen. Die definitive Aufgabenstellung obliegt dem betreuenden Dozenten. <br />Entsprechend dem Lernziel sollte die Semesterarbeit &#252;ber einen konzeptionellen, einen theoretischen und einen praktischen Anteil verf&#252;gen und folgende Teilaufgaben umfassen: <br />&#8226; Einarbeitung in eine neue Aufgabenstellung <br />&#8226; Planung des Projektes <br />&#8226; Analyse der Anforderungen (Spezifikation, Pflichtenheft) <br />&#8226; Entwurf und Realisierung der L&#246;sung (inkl. Bewertung des Standes der Technik) <br />&#8226; Test der L&#246;sung <br />&#8226; Bewertung und Ausblick. <br /></p>",
+      "kurselemente": [
+        {
+          "id": 11267,
+          "art": "Studienarbeit",
+          "anzLektionen": 8,
+          "maxTeilnehmer": 100,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Studienarbeit Elektrotechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Project Electrical Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10063,
+          "kuerzel": "K_U2E",
+          "bezeichnung": "Übergangsmodule Elektrotechnik 2 (Jahrgang 2001)",
+          "kreditpunkte": 8
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 8
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 8
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 147,
+      "name": "Prechtl",
+      "vorname": "Heiner"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Studienarbeit Elektrotechnik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Project Electrical Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2009,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 11190,
+    "kuerzel": "M_SAE",
+    "bezeichnung": "Studienarbeit Elektrotechnik",
+    "url": "allModules/11190_M_SAE.json"
+  }
+}

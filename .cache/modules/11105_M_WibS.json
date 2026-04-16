@@ -1,0 +1,152 @@
+{
+  "id": 11105,
+  "kuerzel": "M_WibS",
+  "bezeichnung": "Wissensbasierte Systeme",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Der Teilnehmer besitzt eine &Uuml;bersicht &uuml;ber die Konzepte und Eigenschaften unten aufgef&uuml;hrter, ausgew&auml;hlter Technologien und Algorithmen. </li>\n    <li>Mit ausgew&auml;hlten &Uuml;bungen lernt er deren M&ouml;glichkeiten kennen und ist in der Lage abzusch&auml;tzen, wo diese sinnvoll eingesetzt werden k&ouml;nnen. </li>\n    <li>Der Teilnehmer verf&uuml;gt &uuml;ber Grundkenntnisse in der Entwicklung von diesen Technologien und Algorithmen und kann sie in eigenen Projekten einsetzen. </li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10239,
+      "kuerzel": "WibS",
+      "bezeichnung": "Wissensbasierte Systeme",
+      "planinhalt": "<ol>\n<li>Einf&#252;hrung KI und Wissensbasierte Systeme</li><li>Fuzzy-Logik und Neuro-Fuzzy</li><li>K&#252;nstliche neuronale Netzwerke (KNN)</li><li>Experten-Systeme</li><li>Maschinelles Lernen, Optimierung</li><li>Data Mining</li><li>Semantisches Web</li><li>Intelligente Agenten</li><li>Ausblick</li></ol>",
+      "kurselemente": [
+        {
+          "id": 10671,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 10672,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Wissensbasierte Systeme"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Knowledge-based Systems"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 353,
+      "name": "Keller",
+      "vorname": "Stefan F."
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11045,
+      "kuerzel": "M_Prog2",
+      "bezeichnung": "Programmieren 2: Programmierkonzepte",
+      "url": "allModules/11045_M_Prog2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11105,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Miniprojekt im Sinne eines Praktikums. Die Bewertung setzt sich aus einer Schlusspr&auml;sentation und nachtr&auml;glichen Schlussbewertung (u.a. Reproduzierbarkeit, Vergleich und Einordnung der Arbeit, Umfang und Originalit&auml;t der L&ouml;sung) zusammen.</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Wissensbasierte Systeme"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Knowledge-based Systems"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2006,
+    "endSemester": "SS"
+  },
+  "nachfolger": {
+    "id": 11105,
+    "kuerzel": "M_WibS",
+    "bezeichnung": "Wissensbasierte Systeme",
+    "url": "allModules/11105_M_WibS.json"
+  }
+}

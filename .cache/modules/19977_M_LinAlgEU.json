@@ -1,0 +1,337 @@
+{
+  "id": 19977,
+  "kuerzel": "M_LinAlgEU",
+  "bezeichnung": "Lineare Algebra (EEU)",
+  "kreditpunkte": 2,
+  "lernziele": "<ul>\n    <li>Beherrschen der Matrizenoperationen</li>\n    <li>Anwenden des Matrizen-, Determinanten- und Eigenwertkalk&uuml;ls bei linearen Gleichungssystemen, linearen Abbildungen und Koordinatentransformationen</li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 19978,
+      "kuerzel": "LinAlgEU",
+      "bezeichnung": "Lineare Algebra (EEU)",
+      "lernziele": "siehe oben&nbsp;",
+      "planinhalt": "<ul>\n    <li>Matrizen, Addition und skalare Multiplikation von Matrizen, Matrizenmultiplikation </li>\n    <li>Einheitsmatrix, inverse Matrix, transponierte Matrix, orthogonale Matrix </li>\n    <li>Determinanten </li>\n    <li>Anwendung der Matrizenrechnung auf das L&ouml;sen linearer Gleichungssysteme und auf Abbildungen (Matrixzerlegungen) </li>\n    <li>Koordinatentransformationen (Basiswechsel) </li>\n    <li>Eigenvektoren und Eigenwerte, Orthogonalit&auml;t von Vektoren </li>\n    <li>Diagonalisierung von Matrizen (Eigenvektorbasis) </li>\n    <li>Einbezug eines Computeralgebrasystems </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 19979,
+          "art": "Vorlesung",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 19980,
+          "art": "Uebung",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Lineare Algebra"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Linear Algebra"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10005,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10005_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10101,
+          "kuerzel": "EEU-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10109,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10109_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10101,
+          "kuerzel": "EEU-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10131,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10131_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10197,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10197_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10219,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10219_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10101,
+          "kuerzel": "EEU-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10234,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10234_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 538995,
+      "name": "Weibel",
+      "vorname": "Reto"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 23366,
+      "kuerzel": "M_VekGEU",
+      "bezeichnung": "Vektorgeometrie (EEU)",
+      "url": "allModules/23366_M_VekGEU.json"
+    }
+  ],
+  "mengen": [
+    {
+      "id": 7,
+      "name": "Aequivalenz",
+      "dModMengeArt": 5701,
+      "module": [
+        {
+          "id": 19208,
+          "kuerzel": "M_LinAlg2EC",
+          "bezeichnung": "Lineare Algebra (2 ECTS-Punkte)",
+          "url": "allModules/19208_M_LinAlg2EC.json"
+        },
+        {
+          "id": 19977,
+          "kuerzel": "M_LinAlgEU",
+          "bezeichnung": "Lineare Algebra (EEU)",
+          "url": "allModules/19977_M_LinAlgEU.json"
+        },
+        {
+          "id": 43501,
+          "kuerzel": "M_LinAlgEU",
+          "bezeichnung": "Lineare Algebra (EEU)",
+          "url": "allModules/43501_M_LinAlgEU.json"
+        },
+        {
+          "id": 43505,
+          "kuerzel": "M_LinAlg2EC",
+          "bezeichnung": "Lineare Algebra (2 ECTS-Punkte)",
+          "url": "allModules/43505_M_LinAlg2EC.json"
+        },
+        {
+          "id": 43779,
+          "kuerzel": "M_LinAlg2EU",
+          "bezeichnung": "Lineare Algebra 2 (EEU)",
+          "url": "allModules/43779_M_LinAlg2EU.json"
+        },
+        {
+          "id": 44517,
+          "kuerzel": "M_LinAlg2EU",
+          "bezeichnung": "Lineare Algebra 2 (EEU)",
+          "url": "allModules/44517_M_LinAlg2EU.json"
+        },
+        {
+          "id": 45107,
+          "kuerzel": "M_LinAlg2EU",
+          "bezeichnung": "Lineare Algebra 2 (EEU)",
+          "url": "allModules/45107_M_LinAlg2EU.json"
+        }
+      ]
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 19977,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Lineare Algebra"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Linear Algebra"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2011,
+    "beginSemester": "FS",
+    "endJahr": 2023,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 19977,
+    "kuerzel": "M_LinAlgEU",
+    "bezeichnung": "Lineare Algebra (EEU)",
+    "url": "allModules/19977_M_LinAlgEU.json"
+  }
+}

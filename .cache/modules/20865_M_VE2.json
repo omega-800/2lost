@@ -1,0 +1,185 @@
+{
+  "id": 20865,
+  "kuerzel": "M_VE2",
+  "bezeichnung": "Virtuelles Entwickeln 2",
+  "kreditpunkte": 3,
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 20866,
+      "kuerzel": "CAD2M",
+      "bezeichnung": "CAD M2",
+      "lernziele": "<li>kennen von komplexeren Anwendungsm&ouml;glichkeiten in der Produktentwicklung mit dem CAD-System Unigraphics&nbsp;</li>\n<li>selbst&auml;ndiges Anwenden von Unigraphics f&uuml;r spezielle Anwendungen/Analysen in der Produktentwicklung </li>\n<li>Geometrielinker und Freiformfl&auml;chen sinnvoll und situationsgerecht anwenden k&ouml;nnen </li>",
+      "planinhalt": "<p>Expression im Part (Intelligente Bauteile), Bedingte Ausdr&uuml;cke, Visual Editor <br />Expression im Assembly (Interpart Expression), Interpart Modeling <br />Spreadsheet (Excel Tabellenkalkulation) <br />Analyse: Messen, Gewichte und Massentr&auml;gheitsmomente <br />Umfangreiche &Uuml;bung mit Spreadsheet (Goal analysis, Goal seek) <br />Geometrielinker (Methodik und &Uuml;bungen) <br />Freeform (Modellieren von Freiformfl&auml;chen) Theorie <br />Freeform (Modellieren von Freiformfl&auml;chen) Training mit diversen &Uuml;bungen <br />Freeform (Modellieren von Freiformfl&auml;chen) Tips und Tricks <br />Curve / Face Analysis <br /></p>",
+      "kurselemente": [
+        {
+          "id": 20867,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "CAD M2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "CAD 2"
+        }
+      ]
+    },
+    {
+      "id": 20868,
+      "kuerzel": "PLMGr",
+      "bezeichnung": "Product Lifecycle Management Grundlagen ",
+      "lernziele": "<p>Kennt die Zusammenh&#228;nge und Abh&#228;ngigkeiten im Entwicklungsprozess<br />Kennt einfache Aenderungsprozesse in der Entwicklung von Serieprodukten<br />Kennt Freigabeprozesse in der Entwicklung von Seriemaschinen</p>",
+      "planinhalt": "<p>Einf&#252;hrung in die Zusammenh&#228;nge und Abh&#228;ngigkeiten der Teilprozesse im Produktentwicklungsprozess von Seriemaschinen<br />Einf&#252;hrung in die Verwaltung von Konstruktionsdaten:<br />-&nbsp;Concurrent Engineering<br />- Einfacher Aenderungsablauf<br />- Einfache Freigabeprozesse<br />- Berechtigungen<br />- Versionen, Revisionen und Varianten&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 20869,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Product Lifecycle Management Grundlagen "
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Basics of Product Lifecycle Management "
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 539814,
+      "name": "Nyffenegger",
+      "vorname": "Felix"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 24072,
+      "kuerzel": "M_Inno1",
+      "bezeichnung": "Innovation 1",
+      "url": "allModules/24072_M_Inno1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 20865,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": true,
+      "zulassungsBedingung": "CAD M2: 75 % der &Uuml;bungen<br />PLMGr: 100 % der System&uuml;bungen<br />PLMGr: 75 % der Tehorie&uuml;bungen",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Virtuelles Entwickeln 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Virtual Design 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2012,
+    "beginSemester": "FS",
+    "endJahr": 2018,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 20068,
+    "kuerzel": "M_VE2",
+    "bezeichnung": "Virtuelles Entwickeln 2",
+    "url": "allModules/20068_M_VE2.json"
+  },
+  "nachfolger": {
+    "id": 20865,
+    "kuerzel": "M_VE2",
+    "bezeichnung": "Virtuelles Entwickeln 2",
+    "url": "allModules/20865_M_VE2.json"
+  }
+}

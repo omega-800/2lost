@@ -1,0 +1,209 @@
+{
+  "id": 36992,
+  "kuerzel": "M_PhAI",
+  "bezeichnung": "Physik Anwendungen für Informatik",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Grundlegendes physikalisches Verst&auml;ndnis f&uuml;r Natur und Technik.</p>\n<p>Aufstellen und L&ouml;sen von Differentialgleichungen.</p>\n<p>Numerisches Programmieren in Python und Durchf&uuml;hrung physikalischer Experimente mit IoT-Mitteln.</p>",
+  "vorausgKenntnisse": "<p>&nbsp;</p>\n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 36991,
+      "kuerzel": "PhAI",
+      "bezeichnung": "Physik Anwendungen für Informatik",
+      "planinhalt": "<p>Grundlegendes physikalisches Verst&auml;ndnis f&uuml;r Natur und Technik.</p>\n<p>Aufstellen und L&ouml;sen von Differentialgleichungen.</p>\n<p>Numerisches Programmieren in Python und Durchf&uuml;hrung physikalischer Experimente mit IoT-Mitteln.</p>\n<p>&nbsp;</p>\n<p>1.&nbsp; &nbsp; &nbsp; Physikalische Einheiten und Gr&ouml;ssen</p>\n<p>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Newtonsche Mechanik</p>\n<p>3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Differentialgleichungen</p>\n<p>4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Energie, Arbeit, Leistung</p>",
+      "kurselemente": [
+        {
+          "id": 36989,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 36990,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Physik Anwendungen für Informatik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Physics for Software Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10191,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10191_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10010,
+          "kuerzel": "I-n",
+          "bezeichnung": "Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10246,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10246_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 538489,
+      "name": "Augenstein",
+      "vorname": "Oliver"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 28151,
+      "kuerzel": "M_An1I",
+      "bezeichnung": "Analysis 1 für Informatik",
+      "url": "allModules/28151_M_An1I.json"
+    },
+    {
+      "id": 28156,
+      "kuerzel": "M_An2I",
+      "bezeichnung": "Analysis 2 für Informatik",
+      "url": "allModules/28156_M_An2I.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 36992,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Eine abgegebene korrekte L&ouml;sung einer Python-Aufgabe</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Physik Anwendungen für Informatik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Physics for Software Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2020,
+    "beginSemester": "FS",
+    "endJahr": 2024,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 26087,
+    "kuerzel": "M_PhAI",
+    "bezeichnung": "Physik Anwendungen für Informatik",
+    "url": "allModules/26087_M_PhAI.json"
+  },
+  "nachfolger": {
+    "id": 36992,
+    "kuerzel": "M_PhAI",
+    "bezeichnung": "Physik Anwendungen für Informatik",
+    "url": "allModules/36992_M_PhAI.json"
+  }
+}

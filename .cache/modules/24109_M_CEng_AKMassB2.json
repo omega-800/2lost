@@ -1,0 +1,105 @@
+{
+  "id": 24109,
+  "kuerzel": "M_CEng_AKMassB2",
+  "bezeichnung": "Seminar - Ausgewählte Kapitel Massivbau 2",
+  "kreditpunkte": 3,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 24110,
+      "kuerzel": "CEng_AKMassB2",
+      "bezeichnung": "Seminar-Ausgewählte Kapitel Massivbau 2",
+      "kurselemente": [
+        {
+          "id": 24111,
+          "art": "Seminar",
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Seminar - Ausgewählte Kapitel Massivbau 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Seminar - Advanced Topics Solid Construction 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10019,
+      "bezeichnung": "Public Planning, Construction and Building Technology",
+      "kuerzel": "PPCBT",
+      "url": "allStudies/10019_PPCBT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10066,
+      "bezeichnung": "Civil Engineering & Building Technology",
+      "kuerzel": "CEBT_FG",
+      "url": "allStudies/10066_CEBT_FG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9982,
+      "name": "ZZZ Dozent MO",
+      "vorname": "Planung"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Seminar - Ausgewählte Kapitel Massivbau 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Seminar - Advanced Topics Solid Construction 2"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2014,
+    "beginSemester": "FS",
+    "endJahr": 2020,
+    "endSemester": "FS"
+  }
+}

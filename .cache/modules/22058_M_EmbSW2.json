@@ -1,0 +1,160 @@
+{
+  "id": 22058,
+  "kuerzel": "M_EmbSW2",
+  "bezeichnung": "Embedded Software Engineering 2",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden k&ouml;nnen verschiedene Paradigmen (prozedural, objektorientiert, generisch) bei der Programmierung von Embedded Systems in C und C++ effektiv anwenden und deren Vor- und Nachteile beurteilen.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 22059,
+      "kuerzel": "EmbSW2",
+      "bezeichnung": "Embedded Software Engineering 2",
+      "planinhalt": "<ul>\n    <li>Generische Programmierung in C++(Templates) </li>\n    <li>Beurteilung von Komplexit&auml;t und Performance </li>\n    <li>Embedded Software Patterns </li>\n    <li>Verteilte Systeme </li>\n    <li>&Auml;nderungen vorbehalten </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 22060,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 64,
+          "harteGrenze": true
+        },
+        {
+          "id": 22061,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Embedded Software Engineering 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Embedded Software Engineering 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533876,
+      "name": "Bonderer",
+      "vorname": "Reto"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 22054,
+      "kuerzel": "M_EmbSW1",
+      "bezeichnung": "Embedded Software Engineering 1",
+      "url": "allModules/22054_M_EmbSW1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 22058,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "Testat",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Embedded Software Engineering 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Embedded Software Engineering 2"
+    }
+  ],
+  "skriptAblageLink": "\\\\OST.ch\\root\\alg\\skripte\\BSc_Elektrotechnik\\Fachbereich\\Embedded_Software_Engineering_2",
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "FS",
+    "endJahr": 2016,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 20041,
+    "kuerzel": "M_EmbSW2",
+    "bezeichnung": "Embedded Software Engineering 2",
+    "url": "allModules/20041_M_EmbSW2.json"
+  },
+  "nachfolger": {
+    "id": 22058,
+    "kuerzel": "M_EmbSW2",
+    "bezeichnung": "Embedded Software Engineering 2",
+    "url": "allModules/22058_M_EmbSW2.json"
+  }
+}

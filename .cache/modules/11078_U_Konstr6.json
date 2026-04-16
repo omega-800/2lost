@@ -1,0 +1,153 @@
+{
+  "id": 11078,
+  "kuerzel": "U_Konstr6",
+  "bezeichnung": "Konstruktion 6 – Übergangsmodul",
+  "kreditpunkte": 4,
+  "lernziele": "<p>&#8226; Kenntnis der Berechnungsmodelle zur Gew&#228;hrleistung von Tragsicherheit und Gebrauchstauglichkeit von Mauerwerk und zusammengesetzten Bauteilen aus Holz <br />&#8226; Kompetenz in der Wahl der zutreffenden Berechnungsannahmen und der geeigneten statischen Modelle <br />&#8226; &#220;berblick &#252;ber die einschl&#228;gigen Normen </p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10192,
+      "kuerzel": "uMwerk",
+      "bezeichnung": "Mauerwerk - Übergang",
+      "lernziele": "<p>&#8226; Kenntnis der Baustoffe und ihrer Verbundeigenschaften <br />&#8226; F&#228;higkeit zur Bemessung von Mauerwerk unter Ber&#252;cksichtigung der Tragsicherheit und der Gebrauchstauglichkeit </p>",
+      "planinhalt": "<p>&#8226; Baustoffe (Steine, M&#246;rtel, Bewehrung), Konstruktionselemente und Grundrissgestaltung <br />&#8226; Tragsicherheit: Berechnungsmodelle, Bemessung und Nachweise f&#252;r Mauerwerksw&#228;nde unter zentrischer und exzentrischer Normalkraft sowie Schubbeanspruchung und Querbelastung. <br />&#8226; Gebrauchstauglichkeit: Berechnungsmodelle zur Begrenzung der Rissbreiten, Stockwerksverschiebungen und Randzugdehnungen </p>",
+      "kurselemente": [
+        {
+          "id": 10618,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 54,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Mauerwerk - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Brickwork - Transition"
+        }
+      ]
+    },
+    {
+      "id": 10193,
+      "kuerzel": "uHobau3",
+      "bezeichnung": "Holzbau 3 - Übergang",
+      "lernziele": "<p>&#8226; F&#228;higkeit zum Entwerfen und Gestalten von zusammengesetzten Bauteilen des Holzbaus unter Ber&#252;cksichtigung der statischen, konstruktiven und ausf&#252;hrungstechnischen Anforderungen an die Verbindungen.</p>",
+      "planinhalt": "<p>&#8226; Zusammengesetzte Bauteile (Kastentr&#228;ger, Verbundtr&#228;ger, Fachwerktr&#228;ger) <br />&#8226; Verbindungstechnik im Ingenieur-Holzbau </p>",
+      "kurselemente": [
+        {
+          "id": 10619,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Holzbau 3 - Übergang"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Timber Construction 3 - Transition"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10011,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10011_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10031,
+          "kuerzel": "B-pb",
+          "bezeichnung": "Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10088,
+          "kuerzel": "B-gapb",
+          "bezeichnung": "Grundlagen und Aufbau/Profilierung Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10017,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10017_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9988,
+      "name": "ZZZ Dozent LB",
+      "vorname": "Planung"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11060,
+      "kuerzel": "M_Konstr4",
+      "bezeichnung": "Konstruktion 4",
+      "url": "allModules/11060_M_Konstr4.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11078,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Konstruktion 6 – Übergangsmodul"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Structural Engineering 6 - Bridging Module"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2007,
+    "beginSemester": "SS",
+    "endJahr": 2007,
+    "endSemester": "SS"
+  }
+}

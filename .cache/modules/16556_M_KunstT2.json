@@ -1,0 +1,158 @@
+{
+  "id": 16556,
+  "kuerzel": "M_KunstT2",
+  "bezeichnung": "Kunststofftechnik 2",
+  "kreditpunkte": 2,
+  "lernziele": "<ul>\n    <li>Grunds&auml;tze der kunststoffgerechten Gestaltung von Konstruktionsteilen kennen und anwenden k&ouml;nnen </li>\n    <li>Aufbau und Wirkungsweise der Faserverbundskunststoffe kennen<br /></li>\n</ul>\n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 16557,
+      "kuerzel": "KunstT2",
+      "bezeichnung": "Kunststofftechnik 2",
+      "planinhalt": "<p>Konstruktionspraxis der Kunststoffe:</p>\n<ul>\n<li>Gestaltung von Kunststoffkonstruktionen: Allgemeine Gestaltungskriterien, Beanspruchungsgerechte Gestaltung, Fertigungsgerechte Gestaltung von Spritzgiessteilen, Gestaltung von Blasformteilen, Umwelt- und recyclinggerechte Konstruktion</li><li>F&#252;ge- und Verbindungstechniken f&#252;r Kunststoffkonstruktionen</li><li>Faserverbundkunststoffe (FVK): Grundlagen, Mikromechanik der FVK, Makromechanik der FVK</li></ul>",
+      "kurselemente": [
+        {
+          "id": 16558,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 16559,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Kunststofftechnik 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Plastics Technology 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 527139,
+      "name": "Ehrig",
+      "vorname": "Frank"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 16545,
+      "kuerzel": "M_KunstT1",
+      "bezeichnung": "Kunststofftechnik 1",
+      "url": "allModules/16545_M_KunstT1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 16556,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Abgabe Praktikabericht der die Leistung &quot;gen&uuml;gend&quot; erzielt.</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Kunststofftechnik 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Plastics Technology 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2008,
+    "beginSemester": "FS",
+    "endJahr": 2009,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 11026,
+    "kuerzel": "M_KunstT2",
+    "bezeichnung": "Kunststofftechnik 2",
+    "url": "allModules/11026_M_KunstT2.json"
+  }
+}

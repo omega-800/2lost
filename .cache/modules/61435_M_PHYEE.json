@@ -1,0 +1,126 @@
+{
+  "id": 61435,
+  "kuerzel": "M_PHYEE",
+  "bezeichnung": "Basics in Physics & Electrical Engineering",
+  "kreditpunkte": 4,
+  "lernziele": "<p>- Physik<br>- Elektrotechnik<br>- Praktikum (experimentieren, messen, auswerten)</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 61436,
+      "kuerzel": "PHYEE",
+      "bezeichnung": "Basics in Physics & Electrical Engineering",
+      "lernziele": "<p><strong>Fachkompetenzen:</strong><br>Die Studierenden kennen<br>- die Grundbegriffe der Translation und Rotation<br>- die Bewegungsgleichungen<br>- die Erhaltungss&auml;tze der Mechanik<br>- die Grundbegriffe der Fluidik<br>- die Begriffe elektrisches und magnetisches Feld<br>- die Kr&auml;fte auf Ladungen in einem elektrischen und magnetischen Feld<br>- die Zusammenh&auml;nge in einfachen elektrischen Schaltungen<br>- grundlegende elektrische Bauteile</p>\n<p>&nbsp;</p>\n<p><strong>Methodenkompetenzen:</strong><br>Die Studierenden k&ouml;nnen<br>- Bewegungsgleichungen f&uuml;r Translation und Rotation anwenden<br>- die Erhaltungss&auml;tze in einfachen Situationen anwenden<br>- k&ouml;nnen elektrische/magnetische Felder von Ladungen berechnen<br>- einfache elektrische Netzwerke analysieren<br>- einfache Schaltungen mit RLC-Elementen analysieren<br>-einen Praktikumsversuchs nach Anleitung eigenst&auml;ndigdurchf&uuml;hren und dokumentieren</p>\n<p>&nbsp;</p>\n<p><strong>Selbstkompetenzen:</strong><br>eigenverantwortliche Lernbereitschaft</p>\n<p>&nbsp;</p>\n<p><strong>Sozialkompetenzen:</strong><br>Teamarbeit</p>",
+      "planinhalt": "<p>PHYSIK<br>- Mechanik:&nbsp;<br>Block 1: Position, Geschwindigkeit, Beschleunigung, Kraft als Vektoren<br>Block 2: Bewegungsgleichungen eines Massepunkts<br>Block 3: Starrer K&ouml;rper, Gleichgewicht, Massenmittelpunkt, Drehmoment, Statik<br>Block 4: Energie-, Impuls-, Drehimpulserhaltung<br>Block 5: Hydrostatik<br>Block 6: Hydrodynamik</p>\n<p>- Elektromagnetismus:<br>Block 7: Elektrisches Feld und Coulomb-Kraft<br>Block 8: Magnetfeld und Lorentzkraft<br>Block 9: Induktionsph&auml;nomene</p>\n<p>&nbsp;</p>\n<p>ELEKTROTECHNIK<br>- Gleichstromlehre:<br>Block 10: Strom, Spannung, Widerstand, OHMsches Gesetz<br>Block 11: Einfache Netzwerke, Kichhoffsche Regeln, Netzwerkanalyse</p>\n<p>- Wechselstromlehre:<br>Block 12: sinusf&ouml;rmige Wechselspannung, Wechselstromwiderst&auml;nde (R, L, C), Impedanz (komplex)<br>Block 13: Tief- und Hochpass<br>Block 14: Schwingkreise&nbsp;</p>",
+      "bibliographie": "<p>Tipler, Physik<br>Kuchling, Taschenbuch der Physik<br>Rinner, Physik f&uuml;r Wirtschaftsingenieure</p>",
+      "kurselemente": [
+        {
+          "id": 61437,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        },
+        {
+          "id": 61438,
+          "art": "Uebung",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 61439,
+          "art": "Praktikum",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Basics in Physics & Electrical Engineering"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Basics in Physics & Electrical Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10479,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10479_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2001325,
+      "name": "Rinner",
+      "vorname": "Stefan"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 61408,
+      "kuerzel": "M_AMATH",
+      "bezeichnung": "Applied Mathematics",
+      "url": "allModules/61408_M_AMATH.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 61435,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>Hilfsmittel:</p>\n<p>20 DIN A4-Seiten selbstgeschrieben ohne gel&ouml;ste &Uuml;bungsaufgaben, ein Formelbuch nach Wahl</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Basics in Physics & Electrical Engineering"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Basics in Physics & Electrical Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2027,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  }
+}

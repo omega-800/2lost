@@ -1,0 +1,152 @@
+{
+  "id": 20580,
+  "kuerzel": "M_WRechM",
+  "bezeichnung": "Wahrscheinlichkeitsrechnung (M-I)",
+  "kreditpunkte": 2,
+  "lernziele": "<ul>\n    <li>Verst&auml;ndnis der grundlegenden Begriffe der Wahrscheinlichkeitsrechnung</li>\n    <li>Fertigkeit im Berechnen von Ereigniswahrscheinlichkeiten</li>\n    <li>Kenntnis wichtiger Wahrscheinlichkeitsverteilungen und ihrer Kenngr&ouml;ssen</li>\n</ul>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
+  "vorausgKenntnisse": "<p>Mathematik-Module des ersten Studienjahres</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 20581,
+      "kuerzel": "WRechM",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung (M-I)",
+      "planinhalt": "<ul>\n    <li>Ereignisse und deren Wahrscheinlichkeit</li>\n    <li>Kombinatorik</li>\n    <li>Berechnung von Wahrscheinlichkeiten</li>\n    <li>Bedingte Wahrscheinlichkeit, Satz von Bayes</li>\n    <li>Zufallsgr&ouml;ssen und ihre Wahrsheinlichkeitsverteilung</li>\n    <li>Rechnen mit Zufallsvariablen</li>\n    <li>Kennzahlen von Wahrscheinlichkeitsverteilungen</li>\n</ul>\n<p>&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 20582,
+          "art": "Vorlesung",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 20583,
+          "art": "Uebung",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Wahrscheinlichkeitsrechnung"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Theory of Probability"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 534797,
+      "name": "Tietje",
+      "vorname": "Olaf"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 20580,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Theory of Probability"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2010,
+    "beginSemester": "HS",
+    "endJahr": 2017,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 20580,
+    "kuerzel": "M_WRechM",
+    "bezeichnung": "Wahrscheinlichkeitsrechnung (M-I)",
+    "url": "allModules/20580_M_WRechM.json"
+  }
+}

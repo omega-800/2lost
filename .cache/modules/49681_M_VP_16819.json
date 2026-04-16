@@ -1,0 +1,217 @@
+{
+  "id": 49681,
+  "kuerzel": "M_VP_16819",
+  "bezeichnung": "Multiphysik-Modellierung und Simulation",
+  "kreditpunkte": 18,
+  "lernziele": "<p>Die Studierenden</p>\n<ul>\n    <li>verstehen die Maxwellgleichungen und kennen deren unterschiedliche Formulierungen und deren numerische L&ouml;sungsmethoden (FEM, MoM, FDTD).</li>\n    <li>sind in der Lage, mechanisch und/oder thermisch gekoppelte elektromagnetische Systeme mit Hilfe der Methode der Finiten Elemente zu formulieren, modellieren und zu l&ouml;sen.</li>\n    <li>sind in der Lage, einfache Modelle zu parametrisieren, &uuml;ber eine Skriptsprache (MATLAB) zu steuern (scripting), zu optimieren (optimization) und auszuwerten (postprocessing).</li>\n    <li>sind in der Lage, analytische Modelle zur Validierung der numerischen Simulation in MATLAB zu implementieren und die Resultate zu vergleichen und zu bewerten.</li>\n    <li>sind in der Lage, englische Fachpublikationen und Paper zu lesen, deren Inhalte nachzuvollziehen und umzusetzen.</li>\n</ul>",
+  "vorausgKenntnisse": "<p>Bachelor of Science in Systemtechnik</p><p>Einf&uuml;hrung in mehrdimensionale Analysis</p><p>Scientific Computing</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 49682,
+      "kuerzel": "VP_1681901",
+      "bezeichnung": "Multiphysik-Modellierung und Simulation",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>verstehen die Maxwellgleichungen und kennen deren unterschiedliche Formulierungen und deren numerische L&ouml;sungsmethoden (FEM, BEM, FDTD, Fokus auf Quasistatik.</li><li>sind in der Lage, den Effekt der Stosswellenausbreitung in einem Material zu modellieren und hierf&uuml;r einen eindimensionalen Code zu entwickeln.</li><li>kennen den magnetostriktiven Effekt und k&ouml;nnen die Wirkung dieses Effekts auf einen Ferraris Sensor modellieren.</li><li>sind in der Lage, einfache Modelle zu parametrisieren, &uuml;ber eine Skriptsprache (MATLAB, Python) zu steuern (scripting), zu optimieren (optimization) und auszuwerten (postprocessing).</li><li>sind in der Lage, analytische Modelle zur Validierung der numerischen Simulation in MATLAB zu implementieren und die Resultate zu vergleichen und zu bewerten.</li><li>sind in der Lage, rechenintensive wissenschaftliche Berechnungen in MATLAB oder Python effizient und sauber strukturiert zu programmieren.</li><li>sind in der Lage, englische Fachpublikationen und Paper zu lesen, deren Inhalte nachzuvollziehen und umzusetzen.</li></ul>",
+      "planinhalt": "<p>Die obigen Ziele werden anhand von praktischen Aufgabenstellungen erarbeitet, beispielsweise:</p><ul><li>Auslegung und Optimierung eines Ferraris-Sensors zur Messung der Beschleunigung von leitf&auml;higen Materialien</li><li>Berechnung der Stosswellenausbreitung in einem Zylinder</li><li>Magnetostriktiver Effekt (elektromechanische Kopplung)</li><li>Wirbelstromeffekte</li><li>Optimierungsalgorithmen<br />&nbsp;</li></ul>",
+      "bibliographie": "<p>Computational Electromagnetics (Texts in Applied Mathematics), Thomas Rylander, P&auml;r Ingelstr&ouml;m, Anders Bondeson, Springer; Auflage: 2nd ed. 2013, ISBN-10: 146145350X</p><p>Analytical and Computational Methods in Electromagnetics, Ramesh Garg, Artech House Inc; Auflage 30. September 2008), ISBN-10: 1596933852</p><p>Dipl.-Ing. Bernhard Hiller: Neue Entwicklungen und Anwendungen des Ferraris-Sensors: im Seminar: Fortschritte in Regelungs- und Antriebstechnik, Stuttgart, ISW, 2005<br />http://www.baumerhuebner.com/uploads/media/<br />ferraris_sensoren_neue_entwicklungen.pdf</p><p>COMSOL Multiphysics Dokumentation</p>",
+      "empfLehrmittel": "Projektarbeit",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird mittels Bericht und Pr&auml;sentation bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 49683,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002668,
+          "name": "Würsch",
+          "vorname": "Christoph"
+        }
+      ]
+    },
+    {
+      "id": 49684,
+      "kuerzel": "VP_1681902",
+      "bezeichnung": "Fortgeschrittene MATLAB-Programmierung",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>sind in der Lage, rechenintensive wissenschaftliche Berechnungen in MATLAB effizient und sauber strukturiert zu programmieren.</li><li>sind in der Lage, einen Code zu debuggen und eine Testsuite f&uuml;r diesen Code zu schreiben.</li><li>k&ouml;nnen externen C-Code in MATLAB einbinden.</li><li>k&ouml;nnen eine FEM-Multiphysik-Simulation extern &uuml;ber MATLAB skripten und steuern.</li><li>k&ouml;nnen eine FEM-Multiphysik-Simulation direkt in MATLAB Simulink einbinden.</li><li>kennen die MATLAB User Community und wissen, welcher Code legal eingebunden werden kann (licensing, GPL etc.).</li><li>sind in der Lage, MATLAB Code effizient und sauber zu dokumentieren.</li></ul>",
+      "planinhalt": "<ul>\n    <li>Verwendung des Debuggers, bedingte Breakpoints</li>\n    <li>Effiziente Matrixformulierungen mit bsxfun</li>\n    <li>Einbinden von DLL&rsquo;s mit loadlibrary</li>\n    <li>Generierung von C-code mit codegen, MEX functions</li>\n    <li>Optimierung mit der Optimization Toolbox</li>\n    <li>Schnittstelle zu Comsol Multiphysics</li>\n    <li>Parametrisierung und Optimierung eines Comsol FEM-Modells</li>\n    <li>Dokumentation mit publish und automatische Dokumentation mit doxygen und MatlabDocMaker, Einbindung in LATEX mit {mcode, \\lstinputlisting}</li>\n</ul>",
+      "bibliographie": "<p>MATLAB reference<br />Optimization mit MATLAB / Python<br />k-wave toolbox Manuals COMSOL Multiphysics</p>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>Dieser Kurs wird mittels Bericht und Pr&auml;sentation bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 49685,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2002668,
+          "name": "Würsch",
+          "vorname": "Christoph"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2002668,
+      "name": "Würsch",
+      "vorname": "Christoph"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Multiphysics Modelling and Simulation"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2016,
+    "beginSemester": "FS",
+    "endJahr": 2016,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 48988,
+    "kuerzel": "M_VP_14719",
+    "bezeichnung": "Multiphysik-Modellierung und Simulation",
+    "url": "allModules/48988_M_VP_14719.json"
+  },
+  "nachfolger": {
+    "id": 49681,
+    "kuerzel": "M_VP_16819",
+    "bezeichnung": "Multiphysik-Modellierung und Simulation",
+    "url": "allModules/49681_M_VP_16819.json"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "id": 11115,
+  "kuerzel": "M_EL2",
+  "bezeichnung": "Elektrizitätslehre 2",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Der Absolvent kennt die Basisgr&#246;ssen und Grundgesetze der Elektrotechnik. Er ist in der Lage, die Gr&#246;ssen im elektrischen Str&#246;mungsfeld und im magnetischen Feld&nbsp;zu bestimmen und magnetische Kreise zu berechnen und auszulegen.<br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10255,
+      "kuerzel": "EL2",
+      "bezeichnung": "Elektrizitätslehre 2",
+      "planinhalt": "<p>Das elektrische Str&ouml;mungsfeld: Eigenschaften und Grundgr&ouml;ssen<br />H&uuml;llengesetz und&nbsp;Kreisgesetz im Str&ouml;mungsfeld<br />Berechnung einfacher&nbsp;Feldtypen anhand von Beispielen <br />Das magnetische Feld bei Gleichstrom: Eigenschaften und Grundgr&ouml;ssen<br />Magnetisches Feld bewegter Ladungen und stromf&uuml;hrender Leiter <br />Durchflutungsgesetz und Ohmsches Gesetz<br />Materie im magnetischen Feld </p>\n<p>Magnetischer Widerstand, Selbst- und Gegeninduktivit&auml;t<br />Berechnung und Auslegung&nbsp;magnetischer Kreise <br />Permanentmagnete <br />Energie und Kr&auml;fte im magnetischen Feld <br />Induktionsgesetz, Trafo-Gleichungen </p>\n<p>Differential- und Integralgesetze der Elektrotechnik<br /><br />Aenderung vorbehalten.</p>",
+      "kurselemente": [
+        {
+          "id": 10695,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 10696,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 48,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrizitätslehre 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electricity Basics 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 147,
+      "name": "Prechtl",
+      "vorname": "Heiner"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11113,
+      "kuerzel": "M_EL1",
+      "bezeichnung": "Elektrizitätslehre 1",
+      "url": "allModules/11113_M_EL1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11115,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "Testat",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Elektrizitätslehre 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electricity Basics 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2010,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 11115,
+    "kuerzel": "M_EL2",
+    "bezeichnung": "Elektrizitätslehre 2",
+    "url": "allModules/11115_M_EL2.json"
+  }
+}

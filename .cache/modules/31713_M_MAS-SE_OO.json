@@ -1,0 +1,126 @@
+{
+  "id": 31713,
+  "kuerzel": "M_MAS-SE_OO",
+  "bezeichnung": "Objekt-Orientierung",
+  "kreditpunkte": 5,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 31714,
+      "kuerzel": "MAS-SE_OOModPrax",
+      "bezeichnung": "Objektorientierte Modellierungspraxis",
+      "lernziele": "<ul><li>Wissen, was unter konzeptioneller objektorientierter Modellierung zu verstehen ist.</li><li>UML-Notation und weitere Notationen f&uuml;r konzeptionelle objektorientierte Modellierung anwenden k&ouml;nnen.</li><li>Einfache Sachverhalte sowohl mit statischen Konzepten wie Objektdiagrammen und Klassendiagrammen, wie auch mit dynamischen Konzepten wie Zustandsdiagrammen, Sequenzdiagrammen, Aktivit&auml;tsdiagrammen oder Pseudocode abbilden k&ouml;nnen.</li></ul>",
+      "planinhalt": "<ul><li><p>Begriffe Essenz, Modell, System, objektorientiertes Modell, Objekt, Klasse</p></li><li><p>Klassenspezifikation</p></li><li><p>Objekte und Klassen finden</p></li><li><p>Objektdiagramm und Klassendiagramm</p></li><li><p>Attribute finden</p></li><li><p>Zust&auml;nde finden</p></li><li><p>Zustandsdiagramm</p></li><li><p>Beziehungen finden: Assoziation, Assoziationsklasse, Aggregation, Vererbung</p></li><li><p>Operationen finden</p></li><li><p>Strukturierte Sprache</p></li><li><p>Aktivit&auml;tsdiagramm</p></li><li><p>Interaktionen finden</p></li><li><p>Sequenzdiagramm</p></li></ul><p>Alle Konzepte werden zusammen mit intensiven &Uuml;bungen eingef&uuml;hrt und angewendet.</p>",
+      "bibliographie": "<p>Lehrmittel ist ein Script der Bianchi &amp; Partner GmbH.</p><p>Wir empfehlen zus&auml;tzlich das Studium des folgenden Buches:</p><p>Balzert, Heide:<br />Lehrbuch der Objektmodellierung: Analyse und Entwurf mit der UML 2.<br />Spektrum Akademischer Verlag, 2005 (2. Auflage), Nachdruck 2011.</p>",
+      "empfLehrmittel": "<p>Vorlesung mit &Uuml;bungen.</p>",
+      "leistungsnachweis": "<p>schriftliche Pr&uuml;fung</p>",
+      "kurselemente": [
+        {
+          "id": 31715,
+          "art": "Blockkurs",
+          "anzLektionen": 5,
+          "maxTeilnehmer": 45,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 466,
+          "name": "Bianchi",
+          "vorname": "Bernhard"
+        }
+      ]
+    },
+    {
+      "id": 31717,
+      "kuerzel": "MAS-SE_PJOOSW",
+      "bezeichnung": "Projektarbeit Objektorientierte Softwareentwicklung",
+      "lernziele": "<p>Die Teilnehmer k&ouml;nnen selbst&auml;ndig ein Miniprojekt von A-Z mit objektorientierten Methoden und Technologien durchf&uuml;hren. Software-Engineering soll hautnah und sehr konkret erlebt werden, ebenso die Vorteile von Gruppenarbeit.</p><p>&nbsp;</p><p><strong>Anforderungen / Vorausgesetzte Kenntnisse</strong></p><p>Kursblock &quot;Einf&uuml;hrung Objektorientierte Softwareentwicklung&ldquo;.</p><p>&nbsp;</p><p><strong>Vermittelte Kompetenz</strong></p><p>Aufbauend auf dem Kursblock &quot;Einf&uuml;hrung Objektorientierte Softwareentwicklung&quot; lernen die Teilnehmer alle Schritte in einem konkreten und &uuml;berschaubaren objektorientierten Projekt (Miniprojekt) kennen, angefangen von der Analyse der Problemstellung, &uuml;ber den Design der Softwarearchitektur bis hin zur Realisierung mit der Programmiersprache Java.<br />Die Teilnehmer lernen wie man ausgehend von einer in UML formulierten Design-Vorgabe systematische und sukzessive eine Realisierung mit Java entwickelt.</p>",
+      "planinhalt": "<p><strong>Unterrichtsmethode und Kursablauf</strong></p><p>An zwei Abenden werden die Analysearbeiten&nbsp; durch die Teilnehmer durchgef&uuml;hrt. Darauf aufbauend erfolgt die Implementierung&nbsp;&nbsp; des Warenautomaten mit Java an zwei weiteren Abenden. Das gesamte Projekt wird intensiv von den Dozenen betreut (Coaching).</p><p><strong>Kursblockinhalt</strong></p><p>Analyse der Problemstellung &quot;Warenautomat&quot;. Erstellung verschiedener Dokumente (Use-Case Diagramm, Klassen- und Objektdiagramme, Klassenbeschreibungen, Sequenzdiagramme).<br />Programmierung des Warenautomaten als Java-Applikation aufgrund vorgegebener UML-Design-Spezifikationen.</p>",
+      "bibliographie": "<p><strong>Lehrmittel, B&uuml;cher und Software</strong></p><p>Hintergrundinformationen zum Projekt, Aufgabenstellungen zum Warenautomaten und Anleitungen in Skriptform.</p><p><strong>Literaturhinweise</strong></p><p>Gem&auml;ss Kursblock &quot;Einf&uuml;hrung Objektorientierte Softwareentwicklung&quot;</p><p><strong>Internetlinks</strong></p><p>Gem&auml;ss Kursblock &quot;Einf&uuml;hrung Objektorientierte Softwareentwicklung&quot;</p><p><strong>Tools</strong></p><p>Gem&auml;ss Kursblock &quot;Einf&uuml;hrung Objektorientierte Softwareentwicklung&quot;</p>",
+      "empfLehrmittel": "<p><strong>Unterrichtsform</strong></p><p>Der erste Teil &quot;Analyse&quot; wird als Gruppenarbeit gel&ouml;st.<br />Die Umsetzung nach Java (Teil 2) wird individuell von jedem Teilnehmer bearbeitet.</p>",
+      "leistungsnachweis": "<p>1.Teil &quot;Analyse&quot;:&nbsp;Bewertete Gruppenarbeit<br />2.Teil &quot;Design/Implementation&quot;:&nbsp;Bewertete Einzelarbeit</p><p>Dauer: ganzer Block</p>",
+      "kurselemente": [
+        {
+          "id": 31718,
+          "art": "Blockkurs",
+          "anzLektionen": 5,
+          "maxTeilnehmer": 45,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 221,
+          "name": "Letsch",
+          "vorname": "Thomas"
+        }
+      ]
+    },
+    {
+      "id": 31720,
+      "kuerzel": "MAS-SE_EinfOOSW",
+      "bezeichnung": "Einführung Objektorientierte Softwareentwicklung",
+      "lernziele": "<p>Die Teilnehmer besitzen eine &Uuml;bersicht &uuml;ber die Konzepte der objektorientierten Softwareentwicklung und beherrschen die wichtigsten Elemente der &quot;Unified Modeling Language (UML)&quot;. Sie kennen die grunds&auml;tzlichen Phasen der Softwareentwicklung, einschliesslich der Artefakte als Ergebnis von objektorientierterAnalyse, Design und Implementierung.<br />Aufbauend auf einer Einf&uuml;hrung in die elementaren Sprachkonzepte von Java lernen die Teilnehmer, wie man UML-Klassen- und Sequenzdiagramme systematisch in Java umsetzt.<br />Durchg&auml;ngige Beispiele aus der Praxis zur Darstellung und Erl&auml;uterung der verschiedenen UML- und Java-Konzepte stehen dabei im Vordergrund.</p><p>&nbsp;</p><p><strong>Anforderungen / Vorausgesetzte Kenntnisse</strong></p><p>&nbsp;</p><p>Kenntnisse einer imperativen Programmiersprache.</p><p>&nbsp;</p><p><strong>Vermittelte Kompetenz</strong></p><ul><li>Beherrschen von verschiedenen Techniken zum systematischen Finden von Klassen und Beziehungen aus einer gegebenen Problemstellung.</li><li>Kennen von Analyse&amp;Design in der Softwareentwicklung.</li><li>Erstellung von einfachen UML-Klassen- und Sequenzdiagrammen.</li><li>Systematische Umsetzung dieser Klassen- und Sequenzdiagrammen in Java.</li></ul><p>&nbsp;</p>",
+      "planinhalt": "<p>Einf&uuml;hrung und Grundbegriffe</p><ul><li><p>Phasen und Artefakte in der objektorientierten Softwareentwicklung</p></li><li><p>Use Cases</p><ul><li><p>Use Case Diagramm</p></li><li><p>Use Case Beschreibungen</p></li></ul></li><li><p>Statische Modelle</p><ul><li><p>Objekte und Klassen</p></li><li><p>Strukturen (Assoziationen, Multiplizit&auml;ten, Vererbung)</p></li><li><p>Identifizieren von Klassen und Beziehungen</p></li></ul></li><li><p>Dynamische Modelle</p><ul><li><p>Sequenzdiagramme</p></li><li><p>Entwickeln von Sequenzdiagrammen, die konsistent zum Klassendiagramm sind<br />&nbsp;</p></li></ul></li></ul><p>Einf&uuml;hrung in die objektorientierte Programmiersprache Java</p><ul><li><p>Variablen, Objekte, Arrays</p></li><li>Operatoren</li><li>Input / Output</li><li>Schleifen</li><li>Methoden-Aufrufe</li></ul><p><br /><!--  --></p><p>Umsetzung UML nach Java</p><ul><li><p>Klassen und Objekte</p></li><li><p>Strukturen (Assoziation, Vererbung) Rollen und Beziehungen</p></li><li><p>Sequenzdiagramme</p></li><li><p>Optional: Grundlagen Source-Code-Engineering mit CASE-Tool</p></li></ul>",
+      "bibliographie": "<p>Lehrmittel, B&uuml;cher und Software</p><p>Skript einschliesslich &Uuml;bungen</p><p>Literaturhinweise</p><ul><li>Heide Balzert:<br />Lehrbuch der Objektmodellierung. Analyse und Entwurf mit der UML 2<br />Verlag: Spektrum Lehrb&uuml;cher der Informatik</li><li>Bernd Oestereich, Axel Scheithauer: Analyse und Design mit UML 2.5: Objektorientierte Softwareentwicklung, 11. Auflage,M&uuml;nchen 2013,Oldenbourg Wissenschaftsverlag</li><li>Cornelia Heinisch, Frank M&uuml;ller, Joachim Goll:<br />Java als erste Programmiersprache<br />Verlag: Teubner<br />(wird zu Beginn des Kurses abgegeben)</li></ul><p><strong>Internetlinks</strong></p><ul><li>http://www.uml.org<br />Resource Page mit Informationen &uuml;ber die einzelnen Arbeitsgruppen, Presseinformationen und Artikeln zur UML.</li><li>http://www.oose.de/nuetzliches/fachliches/uml/<br />Interessante Hintergrundinformationen zu UML einschliesslich Glossar</li><li>http://www.oracle.com/technetwork/java<br />Java-Homepage.</li><li>http://www.javabuch.de<br />Online-Buch &uuml;ber Java.</li><li>http://www.cis.upenn.edu/~matuszek/General/JavaSyntax/index.html<br />Zusammenfassung der Syntax von Java.</li></ul><p><strong>Tools</strong></p><ul><li>Java-Entwicklungsumgebung<br />http://www.oracle.com/technetwork/java<br />(wird zu Beginn des Kurses auf USB-Stick abgegeben)<br />&nbsp;</li><li>Eclipse<br />http://eclipse.org<br />(wird zu Beginn des Kurses auf USB-Stick abgegeben)</li><li>Enterprise Architect<br />http://www.sparxsystems.com</li></ul><p>&nbsp;</p>",
+      "empfLehrmittel": "<p>Unterrichtsmethode und Kursablauf</p><p>Pro Abend ein Theorieblock, darauf aufbauend &Uuml;bungen (mit jeweils gleichen Anteilen)</p><p>UML-&Uuml;bungen finden in Kleingruppen statt.</p><p>Unterrichtsform</p><p>Vorlesung mit &Uuml;bungen</p>",
+      "leistungsnachweis": "<p>mit nachfolgendem Kursblock &quot;Projektarbeit OO Softwareentwicklung (Warenautomat)&quot;</p>",
+      "kurselemente": [
+        {
+          "id": 31721,
+          "art": "Blockkurs",
+          "anzLektionen": 5,
+          "maxTeilnehmer": 45,
+          "harteGrenze": true
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 221,
+          "name": "Letsch",
+          "vorname": "Thomas"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10068,
+      "bezeichnung": "MAS SW Engineering",
+      "kuerzel": "MAS-SE",
+      "url": "allStudies/10068_MAS-SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    },
+    {
+      "id": 10162,
+      "bezeichnung": "CAS Foundation",
+      "kuerzel": "MAS-SE_Fou",
+      "url": "allStudies/10162_MAS-SE_Fou.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 541091,
+      "name": "Bläser",
+      "vorname": "Luc"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ]
+}

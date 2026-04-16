@@ -1,0 +1,176 @@
+{
+  "id": 29773,
+  "kuerzel": "M_REK1",
+  "bezeichnung": "Raumentwicklung 1",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Erlangung von Basiskenntnissen der rechtlichen Grundlagen im Bereich Raumplanung.</p><p>Vermittlung der wichtigsten Fragestellungen und Zusammenh&auml;nge zwischen Siedlungs- und Landschafts- und Verkehrsentwicklung und Veranschaulichung anhand von Beispielen.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 29774,
+      "kuerzel": "RPEinf",
+      "bezeichnung": "Einführung Raumplanung",
+      "lernziele": "<p>Grundkenntnisse der kommunalen Raumplanung in der Schweiz und deren Begriffe.</p><p>Kenntnisse der Ziele und Grunds&auml;tze, Planungspflichten und Aufgaben gem&auml;ss Raumplanungsgesetz (RPG). Grundkenntnisse der Nutzungsvorschriften und deren Anwendung.</p><p>Kenntnisse der verbreitetsten Planungsinstrumente und deren Anwendung.</p><p>Grundkenntnisse &uuml;ber Planungsabl&auml;ufe und Mitwirkungsprozesse.</p>",
+      "planinhalt": "<p>Aufgaben und Funktionen des Raumplaners/der Raumplanerin.</p><p>Abriss &uuml;ber die Geschichte der Raumplanung.</p><p>Die r&auml;umliche Entwicklung der Schweiz.</p><p>Einf&uuml;hrung in das RPG: Planungspflicht, Ziele und Grunds&auml;tze.</p><p>Die Organisation der Raumplanung: Die Aufgaben auf den verschiedenen Planungsebenen.</p><p>Die kommunalen Planungsinstrumente.</p><p>Grundlagen der kommunalen Nutzungsplanung.</p><p>Planungsablauf und Mitwirkung.</p><p>Nutzungszonen: Eignungskriterien und Anforderungen.</p><p>Bauen ausserhalb der Bauzonen.</p>",
+      "kurselemente": [
+        {
+          "id": 29775,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Einführung Raumplanung"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Spatial Planning Basics"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10041,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10041_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10123,
+      "bezeichnung": "Raumplanung",
+      "kuerzel": "R",
+      "url": "allStudies/10123_R.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10023,
+          "kuerzel": "R-r",
+          "bezeichnung": "Raumplanung",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10142,
+      "bezeichnung": "Stadt-, Verkehrs- und Raumplanung ",
+      "kuerzel": "SVR",
+      "url": "allStudies/10142_SVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10133,
+          "kuerzel": "R-re",
+          "bezeichnung": "Raumentwicklung",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10201,
+      "bezeichnung": "Stadt-, Verkehrs- und Raumplanung",
+      "kuerzel": "SVR",
+      "url": "allStudies/10201_SVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10133,
+          "kuerzel": "R-re",
+          "bezeichnung": "Raumentwicklung",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10268,
+      "bezeichnung": "Stadt-, Verkehrs- und Raumplanung",
+      "kuerzel": "SVR",
+      "url": "allStudies/10268_SVR.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10133,
+          "kuerzel": "R-re",
+          "bezeichnung": "Raumentwicklung",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5022906,
+      "name": "Acocella",
+      "vorname": "Donato"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 29773,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Raumentwicklung 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Spatial Planning 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2017,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  }
+}

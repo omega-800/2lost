@@ -1,0 +1,186 @@
+{
+  "id": 23353,
+  "kuerzel": "M_DiffGlM",
+  "bezeichnung": "Differentialgleichungen (M-I)",
+  "kreditpunkte": 2,
+  "lernziele": "<ul>\n    <li>F&auml;higkeit, Probleme mit Hilfe von Differentialgleichungen zu erfassen</li>\n    <li>Kenntnis grundlegender Methoden zu L&ouml;sung bestimmter Differentialgleichungen <br /></li>\n</ul>",
+  "vorausgKenntnisse": "Mathematik-Module des ersten Studienjahrs",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 23354,
+      "kuerzel": "DiffGlM",
+      "bezeichnung": "Differentialgleichungen (M-I)",
+      "planinhalt": "<ul>\n    <li>Differentialgleichungen 1. Ordnung: Isoklinen, Numerische Verfahren </li>\n    <li>Separierbare Differentialgleichungen </li>\n    <li>L&ouml;sung von Differentialgleichungen 1. Ordnung durch Substitution </li>\n    <li>Lineare Differentialgleichungen 1. Ordnung, Variation der Konstanten</li>\n    <li>Autonome Gleichungen 1. Ordnung, Fixpunkte und ihre Stabilit&auml;t</li>\n    <li>Einfache Differentialgleichungen 2. Ordnung</li>\n    <li>Lineare Differentialgleichungen h&ouml;herer Ordnung mit konstanten Koeffizienten </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 23355,
+          "art": "Vorlesung",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 23356,
+          "art": "Uebung",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Differentialgleichungen"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Differential Equations"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 538970,
+      "name": "Martignoli",
+      "vorname": "Stefan"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 23353,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Differentialgleichungen"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Differential Equations"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2011,
+    "beginSemester": "FS",
+    "endJahr": 2023,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 20588,
+    "kuerzel": "M_DiffGlM",
+    "bezeichnung": "Differentialgleichungen (M-I)",
+    "url": "allModules/20588_M_DiffGlM.json"
+  },
+  "nachfolger": {
+    "id": 23353,
+    "kuerzel": "M_DiffGlM",
+    "bezeichnung": "Differentialgleichungen (M-I)",
+    "url": "allModules/23353_M_DiffGlM.json"
+  }
+}

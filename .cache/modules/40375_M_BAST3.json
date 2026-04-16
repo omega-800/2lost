@@ -1,0 +1,153 @@
+{
+  "id": 40375,
+  "kuerzel": "M_BAST3",
+  "bezeichnung": "Baustatik 3",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n<li>F&auml;higkeit zur Berechnung elastischer Verformung (Durchbiegungen, Verdrehungen)</li>\n<li>F&auml;higkeit zur Berechnung statisch unbestimmter Systeme (nach der Elastizit&auml;tstheorie) in 2D und in 3D</li>\n<li>F&auml;higkeit f&uuml;r Nutzung von Software f&uuml;r Berechnung der Schnittkr&auml;fte von einfachen statisch bestimmten und statisch unbestimmten Tr&auml;ger</li>\n</ul>\n<p>&nbsp;</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 40376,
+      "kuerzel": "Baustat3",
+      "bezeichnung": "Baustatik 3",
+      "lernziele": "<p>&#8226; F&#228;higkeit zur Berechnung von Spannungen und zur Durchf&#252;hrung von Spannungsnachweisen <br />&#8226; Kenntnis der Grenzwerts&#228;tze der Plastizit&#228;tstheorie <br />&#8226; Sicherheit in der Anwendung von Berechnungsverfahren der Plastizit&#228;tstheorie: Statische und kinematische Verfahren </p>",
+      "planinhalt": "<ul>\n<li>Form&auml;nderungen des Stabelements, Prinzip der virtuellen Arbeit</li>\n<li>Berechnung von Verformungen (Durchbiegungen, Verdrehungen) an Tragwerken unter Lasten und Temperatureinwirkung</li>\n<li>Kraftmethode f&uuml;r Berechnung von statisch unbestimmten Systemen: Grad der statischen Unbestimmtheit, Prinzip der Kraftmethode,</li>\n<li>Beispiele zur Kraftmethode f&uuml;r statisch unbestimmte Systeme in 2D und 3D (Durchlauftr&auml;ger, Rahmentragwerke, Unterspannte Tr&auml;ger, Tr&auml;gerrost, etc.)</li>\n<li>Lastfreie Spannungszust&auml;nde (Temperatur, Setzungen)</li>\n<li>Anwendung von Software f&uuml;r Berechnung der Schnittkr&auml;fte von einfachen statisch bestimmten und statisch unbestimmten Tragwerken&nbsp;</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 40377,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 40378,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Baustatik 3"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Structural Analysis 3"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10126,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10126_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10197,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10197_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10234,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10234_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5010785,
+      "name": "Marković",
+      "vorname": "Ivan"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 40375,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Abgabe von vollst&auml;ndigen &Uuml;bungsaufgaben/Seminararbeit</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Baustatik 3"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Structural Analysis 3"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2022,
+    "beginSemester": "FS",
+    "endJahr": 2023,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 40375,
+    "kuerzel": "M_BAST3",
+    "bezeichnung": "Baustatik 3",
+    "url": "allModules/40375_M_BAST3.json"
+  }
+}

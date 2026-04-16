@@ -1,0 +1,45 @@
+{
+  "id": 10440,
+  "kuerzel": "MARE_HR",
+  "bezeichnung": "Human Resources",
+  "versionKuerzel": "STD_23",
+  "art": "Vertiefung",
+  "parent": {
+    "id": 10438,
+    "kuerzel": "MARE_VZ",
+    "bezeichnung": "Management & Recht VZ",
+    "url": "allStudies/10438_MARE_VZ.json"
+  },
+  "zuordnungen": [
+    {
+      "id": 55800,
+      "kuerzel": "M_boek.AOPS",
+      "bezeichnung": "Arbeits- und Organisationspsychologie",
+      "url": "allModules/55800_M_boek.AOPS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 55632,
+      "kuerzel": "M_mare.DATE",
+      "bezeichnung": "Datenschutz",
+      "url": "allModules/55632_M_mare.DATE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 55839,
+      "kuerzel": "M_boek.ORGA",
+      "bezeichnung": "Der Mensch in der Organisation",
+      "url": "allModules/55839_M_boek.ORGA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ]
+}

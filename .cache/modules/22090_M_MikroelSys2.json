@@ -1,0 +1,154 @@
+{
+  "id": 22090,
+  "kuerzel": "M_MikroelSys2",
+  "bezeichnung": "Mikroelektronik-Systeme 2",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Die Studierenden k&ouml;nnen elektronische Schaltungen mit diskreten und integrierten Bauteilen analysieren, entwerfen, dimensionieren und mit einem Simulator verifizieren und optimieren.<br />Sie kennen die Funktionsweise der in ICs oft eingesetzten Switched Capacitor-Schaltungstechnik.<br />Sie kennen die verschiedenen Digital-Analog- und Analog-Digital Wandler-Typen mit ihren Vor- und nachteilen.<br />Sie kennen den Entwicklungsablauf f&uuml;r die diskrete und integrierte Schaltungen.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 22091,
+      "kuerzel": "MikroelSys2",
+      "bezeichnung": "Mikroelektronik-Systeme 2",
+      "planinhalt": "<p>Reale Operationsverst&auml;rker-Schaltungen und Feedback-Systeme<br />Switched Capacitor-Schaltungstechnik: Funktion und Einsatzgebiete<br />Digital-Analog-Wandler, Analog-Digital-Wandler<br />Sigma-Delta-Wandler<br />Oszillatoren und PLLs<br />Digitale Zellen: Aufbau, Modellierung, ideales und reales Verhalten<br />Modellierung von Mixed Signal Systemen mit Sensoren, analoger und digitaler Elektronik<br /></p>\n<p>&Auml;nderungen vorbehalten.</p>",
+      "kurselemente": [
+        {
+          "id": 22092,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 80,
+          "harteGrenze": true
+        },
+        {
+          "id": 22093,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Mikroelektronik-Systeme 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Micro Electronics Systems 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 541067,
+      "name": "Keel",
+      "vorname": "Guido"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11201,
+      "kuerzel": "M_Elo1",
+      "bezeichnung": "Elektronik 1",
+      "url": "allModules/11201_M_Elo1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 22090,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Mikroelektronik-Systeme 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Micro Electronics Systems 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2013,
+    "beginSemester": "FS",
+    "endJahr": 2015,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 17321,
+    "kuerzel": "M_Mikroel4",
+    "bezeichnung": "Mikroelektronik 4",
+    "url": "allModules/17321_M_Mikroel4.json"
+  }
+}

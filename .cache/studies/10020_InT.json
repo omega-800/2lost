@@ -1,0 +1,4999 @@
+{
+  "id": 10020,
+  "kuerzel": "InT",
+  "bezeichnung": "Industrial Technologies",
+  "versionKuerzel": "MS_08",
+  "typ": "Master",
+  "art": "Studiengang",
+  "form": "Vollzeit",
+  "kredits": [
+    {
+      "id": 10316,
+      "minKredits": 27,
+      "kategorien": [
+        {
+          "id": 10113,
+          "kuerzel": "MSE_MT",
+          "bezeichnung": "Master Thesis MSE"
+        }
+      ]
+    },
+    {
+      "id": 10278,
+      "minKredits": 18,
+      "kategorien": [
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung"
+        }
+      ]
+    },
+    {
+      "id": 10274,
+      "minKredits": 9,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen"
+        }
+      ]
+    },
+    {
+      "id": 10275,
+      "minKredits": 6,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung"
+        }
+      ]
+    },
+    {
+      "id": 10276,
+      "minKredits": 9,
+      "kategorien": [
+        {
+          "id": 10092,
+          "kuerzel": "MSE-Kontx",
+          "bezeichnung": "Kontextmodule"
+        }
+      ]
+    },
+    {
+      "id": 10277,
+      "minKredits": 30,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung"
+        }
+      ]
+    }
+  ],
+  "spezialisierungen": [
+    {
+      "id": 10028,
+      "kuerzel": "IPPM",
+      "bezeichnung": "Innovation in Products, Processes and Materials",
+      "url": "allStudies/10028_IPPM.json",
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Innovation in Products, Processes and Materials"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Innovation in Products, Processes and Materials"
+        }
+      ]
+    },
+    {
+      "id": 10032,
+      "kuerzel": "SACS",
+      "bezeichnung": "Sensor, Actuator and Communication Systems",
+      "url": "allStudies/10032_SACS.json",
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Sensor, Actuator and Communication Systems"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Sensor, Actuator and Communication Systems"
+        }
+      ]
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "bezeichnung": "Industrial Technologies"
+    },
+    {
+      "id": 3702,
+      "bezeichnung": "Industrial Technologies"
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 21469,
+      "kuerzel": "M_TSM_AdvCFD",
+      "bezeichnung": "Advanced CFD",
+      "url": "allModules/21469_M_TSM_AdvCFD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17485,
+      "kuerzel": "M_TSM_AdvElDes",
+      "bezeichnung": "Advanced Electronic Design",
+      "url": "allModules/17485_M_TSM_AdvElDes.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 30498,
+      "kuerzel": "M_CM_AdvProjMgmt",
+      "bezeichnung": "Advanced Project Management",
+      "url": "allModules/30498_M_CM_AdvProjMgmt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10092,
+          "kuerzel": "MSE-Kontx",
+          "bezeichnung": "Kontextmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17490,
+      "kuerzel": "M_TSM_Alg",
+      "bezeichnung": "Algorithmen",
+      "url": "allModules/17490_M_TSM_Alg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 32028,
+      "kuerzel": "M_TSM_AnSeqDa",
+      "bezeichnung": "Analysis of Sequential Data",
+      "url": "allModules/32028_M_TSM_AnSeqDa.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 32031,
+      "kuerzel": "M_TSM_AnTeDe",
+      "bezeichnung": "Analysis of Text Data",
+      "url": "allModules/32031_M_TSM_AnTeDe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 18180,
+      "kuerzel": "M_TSM_AppMNT",
+      "bezeichnung": "Angewandte Mikro- und Nanotechnologie",
+      "url": "allModules/18180_M_TSM_AppMNT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 19084,
+      "kuerzel": "M_TSM_AppNum",
+      "bezeichnung": "Angewandte numerische Methoden in den Bauingenieurwissenschaften",
+      "url": "allModules/19084_M_TSM_AppNum.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17613,
+      "kuerzel": "M_FTP_AppStat",
+      "bezeichnung": "Angewandte Statistik und Datenanalyse",
+      "url": "allModules/17613_M_FTP_AppStat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 28640,
+      "kuerzel": "M_TSM_AppElm",
+      "bezeichnung": "Applied Electromagnetics",
+      "url": "allModules/28640_M_TSM_AppElm.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 20425,
+      "kuerzel": "M_TSM_AppPhot",
+      "bezeichnung": "Applied Photonics",
+      "url": "allModules/20425_M_TSM_AppPhot.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 38005,
+      "kuerzel": "M_TuIT_AKeEn1",
+      "bezeichnung": "Ausgewählte Kapitel elektrische Energietechnik 1",
+      "url": "allModules/38005_M_TuIT_AKeEn1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 38011,
+      "kuerzel": "M_TuIT_AKeEn2",
+      "bezeichnung": "Ausgewählte Kapitel elektrische Energietechnik 2",
+      "url": "allModules/38011_M_TuIT_AKeEn2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 22817,
+      "kuerzel": "M_EEng_AKFluss1",
+      "bezeichnung": "Ausgewählte Kapitel Flussbau 1",
+      "url": "allModules/22817_M_EEng_AKFluss1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 30619,
+      "kuerzel": "M_EEng_AKFluss2",
+      "bezeichnung": "Ausgewählte Kapitel Flussbau 2",
+      "url": "allModules/30619_M_EEng_AKFluss2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 23988,
+      "kuerzel": "M_CEng_KapGeo",
+      "bezeichnung": "Ausgewählte Kapitel Geotechnik 1",
+      "url": "allModules/23988_M_CEng_KapGeo.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 24770,
+      "kuerzel": "M_CEng_KapGeo2",
+      "bezeichnung": "Ausgewählte Kapitel Geotechnik 2",
+      "url": "allModules/24770_M_CEng_KapGeo2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 37999,
+      "kuerzel": "M_BuP_Bauerh1",
+      "bezeichnung": "Ausgewählte Kapitel Konstruktion und Bauwerkserhaltung 1 ",
+      "url": "allModules/37999_M_BuP_Bauerh1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 38002,
+      "kuerzel": "M_BuP_Bauerh2",
+      "bezeichnung": "Ausgewählte Kapitel Konstruktion und Bauwerkserhaltung 2",
+      "url": "allModules/38002_M_BuP_Bauerh2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 38014,
+      "kuerzel": "M_TuIT_AKtEn1",
+      "bezeichnung": "Ausgewählte Kapitel thermische Energietechnik 1",
+      "url": "allModules/38014_M_TuIT_AKtEn1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 38008,
+      "kuerzel": "M_TuIT_AKtEn2",
+      "bezeichnung": "Ausgewählte Kapitel thermische Energietechnik 2",
+      "url": "allModules/38008_M_TuIT_AKtEn2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 22994,
+      "kuerzel": "M_EnEn_AKUmw1",
+      "bezeichnung": "Ausgewählte Kapitel Umwelttechnik 1",
+      "url": "allModules/22994_M_EnEn_AKUmw1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 22997,
+      "kuerzel": "M_EnEn_AKUmw2",
+      "bezeichnung": "Ausgewählte Kapitel Umwelttechnik 2",
+      "url": "allModules/22997_M_EnEn_AKUmw2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17994,
+      "kuerzel": "M_TSM_KapWass",
+      "bezeichnung": "Ausgewählte Kapitel Wasserbau",
+      "url": "allModules/17994_M_TSM_KapWass.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 22820,
+      "kuerzel": "M_EEng_KapWass",
+      "bezeichnung": "Ausgewählte Kapitel Wasserbau 1",
+      "url": "allModules/22820_M_EEng_KapWass.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 37996,
+      "kuerzel": "M_EEng_KapWass2",
+      "bezeichnung": "Ausgewählte Kapitel Wasserbau 2",
+      "url": "allModules/37996_M_EEng_KapWass2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17577,
+      "kuerzel": "M_TSM_AutoSys",
+      "bezeichnung": "Automatische Antriebssysteme",
+      "url": "allModules/17577_M_TSM_AutoSys.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 24253,
+      "kuerzel": "M_TSM_BauStat",
+      "bezeichnung": "Baustatik",
+      "url": "allModules/24253_M_TSM_BauStat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 23572,
+      "kuerzel": "M_TSM_CFD",
+      "bezeichnung": "Berechnung der Zustandsgrössen von Strömungen",
+      "url": "allModules/23572_M_TSM_CFD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17749,
+      "kuerzel": "M_CM_Block",
+      "bezeichnung": "Blockmodul",
+      "url": "allModules/17749_M_CM_Block.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10092,
+          "kuerzel": "MSE-Kontx",
+          "bezeichnung": "Kontextmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 28646,
+      "kuerzel": "M_TSM_BIM",
+      "bezeichnung": "Building Information Modelling",
+      "url": "allModules/28646_M_TSM_BIM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 28649,
+      "kuerzel": "M_TSM_BusAn",
+      "bezeichnung": "Business Analytics",
+      "url": "allModules/28649_M_TSM_BusAn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 38023,
+      "kuerzel": "M_TuIT_BusEng1",
+      "bezeichnung": "Business Engineering 1",
+      "url": "allModules/38023_M_TuIT_BusEng1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 38026,
+      "kuerzel": "M_TuIT_BusEng2",
+      "bezeichnung": "Business Engineering 2",
+      "url": "allModules/38026_M_TuIT_BusEng2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17499,
+      "kuerzel": "M_TSM_BusStrat",
+      "bezeichnung": "Business Strategy",
+      "url": "allModules/17499_M_TSM_BusStrat.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 24780,
+      "kuerzel": "M_CM_ChinaMod",
+      "bezeichnung": "China Modul",
+      "url": "allModules/24780_M_CM_ChinaMod.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 39306,
+      "kuerzel": "M_TuIT_CircSim",
+      "bezeichnung": "Circuit Simulation",
+      "url": "allModules/39306_M_TuIT_CircSim.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 28652,
+      "kuerzel": "M_TSM_ClComp",
+      "bezeichnung": "Cloud Computing",
+      "url": "allModules/28652_M_TSM_ClComp.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 22141,
+      "kuerzel": "M_TSM_CFD",
+      "bezeichnung": "Computational Fluid Dynamics",
+      "url": "allModules/22141_M_TSM_CFD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 21658,
+      "kuerzel": "M_TSM_CSM",
+      "bezeichnung": "Computational Structural Mechanics",
+      "url": "allModules/21658_M_TSM_CSM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 37785,
+      "kuerzel": "M_TSM_CSM",
+      "bezeichnung": "Computational Structural Mechanics",
+      "url": "allModules/37785_M_TSM_CSM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 39309,
+      "kuerzel": "M_TuIT_CybSec1",
+      "bezeichnung": "CyberSecurity 1",
+      "url": "allModules/39309_M_TuIT_CybSec1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 43473,
+      "kuerzel": "M_TuIT_CybSec2",
+      "bezeichnung": "CyberSecurity 2",
+      "url": "allModules/43473_M_TuIT_CybSec2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 38818,
+      "kuerzel": "M_TuIT_EVA_DDEng",
+      "bezeichnung": "Data Driven Engineering",
+      "url": "allModules/38818_M_TuIT_EVA_DDEng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17505,
+      "kuerzel": "M_TSM_DataMgmt",
+      "bezeichnung": "Data Management",
+      "url": "allModules/17505_M_TSM_DataMgmt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17723,
+      "kuerzel": "M_SWSY_DBSys1",
+      "bezeichnung": "Datenbanksysteme 1",
+      "url": "allModules/17723_M_SWSY_DBSys1.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 21447,
+      "kuerzel": "M_SWSY_DBSys2",
+      "bezeichnung": "Datenbanksysteme 2",
+      "url": "allModules/21447_M_SWSY_DBSys2.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 32037,
+      "kuerzel": "M_TSM_DeLearn",
+      "bezeichnung": "Deep Learning",
+      "url": "allModules/32037_M_TSM_DeLearn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17508,
+      "kuerzel": "M_TSM_EmbHardw",
+      "bezeichnung": "Design of Embedded Hardware and Firmware",
+      "url": "allModules/17508_M_TSM_EmbHardw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 19622,
+      "kuerzel": "M_FTP_Physics",
+      "bezeichnung": "Die Physik von Materialien und Bauteilen für Ingenieure",
+      "url": "allModules/19622_M_FTP_Physics.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 21661,
+      "kuerzel": "M_TSM_OpMgmt",
+      "bezeichnung": "Dienstleistungserbringung und Management",
+      "url": "allModules/21661_M_TSM_OpMgmt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17511,
+      "kuerzel": "M_TSM_DigImPro",
+      "bezeichnung": "Digitale Bildverarbeitung",
+      "url": "allModules/17511_M_TSM_DigImPro.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17604,
+      "kuerzel": "M_TSM_WireCom",
+      "bezeichnung": "Drahtlose Kommunikation",
+      "url": "allModules/17604_M_TSM_WireCom.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17514,
+      "kuerzel": "M_TSM_ElEnSys",
+      "bezeichnung": "Electrical Energy Systems",
+      "url": "allModules/17514_M_TSM_ElEnSys.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17517,
+      "kuerzel": "M_TSM_EmbReal",
+      "bezeichnung": "Embedded Real-time Software",
+      "url": "allModules/17517_M_TSM_EmbReal.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 41102,
+      "kuerzel": "M_TuIT_EmbSD",
+      "bezeichnung": "Embedded Software Development under Linux",
+      "url": "allModules/41102_M_TuIT_EmbSD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17622,
+      "kuerzel": "M_FTP_Energy",
+      "bezeichnung": "Energy: Production, Consumption and Management ",
+      "url": "allModules/17622_M_FTP_Energy.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 25191,
+      "kuerzel": "M_TSM_TheoPlan",
+      "bezeichnung": "Entwerfen und Planen in grösseren Räumen - Theorie und Praxis",
+      "url": "allModules/25191_M_TSM_TheoPlan.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 19087,
+      "kuerzel": "M_TSM_DesProc",
+      "bezeichnung": "Entwurfsprozesse und -methoden",
+      "url": "allModules/19087_M_TSM_DesProc.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 23468,
+      "kuerzel": "M_Kat_ErwThGrula",
+      "bezeichnung": "Erweiterte theoretische Grundlagen (Kategorie)",
+      "url": "allModules/23468_M_Kat_ErwThGrula.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17442,
+      "kuerzel": "M_CM_Ethics",
+      "bezeichnung": "Ethik und Unternehmensverantwortung",
+      "url": "allModules/17442_M_CM_Ethics.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10092,
+          "kuerzel": "MSE-Kontx",
+          "bezeichnung": "Kontextmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 39312,
+      "kuerzel": "M_TuIT_XAI",
+      "bezeichnung": "Explainable AI",
+      "url": "allModules/39312_M_TuIT_XAI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17550,
+      "kuerzel": "M_TSM_ManTech",
+      "bezeichnung": "Fertigungstechnologien",
+      "url": "allModules/17550_M_TSM_ManTech.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 18895,
+      "kuerzel": "M_TSM_Flussbau",
+      "bezeichnung": "Flussbau",
+      "url": "allModules/18895_M_TSM_Flussbau.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 20428,
+      "kuerzel": "M_TSM_AdvPrPa",
+      "bezeichnung": "Fortgeschrittene Programmierparadigmen",
+      "url": "allModules/20428_M_TSM_AdvPrPa.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 25194,
+      "kuerzel": "M_TSM_AdvContr",
+      "bezeichnung": "Fortgeschrittene Regelungstechnik",
+      "url": "allModules/25194_M_TSM_AdvContr.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 21652,
+      "kuerzel": "M_TSM_AdvTherm",
+      "bezeichnung": "Fortgeschrittene Thermodynamik",
+      "url": "allModules/21652_M_TSM_AdvTherm.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 25197,
+      "kuerzel": "M_TSM_UseInf",
+      "bezeichnung": "Fortschrittliche Benutzerschnittstellen",
+      "url": "allModules/25197_M_TSM_UseInf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17625,
+      "kuerzel": "M_FTP_Fourier",
+      "bezeichnung": "From Fourier to Wavelets",
+      "url": "allModules/17625_M_FTP_Fourier.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 21368,
+      "kuerzel": "M_TSM_GIS",
+      "bezeichnung": "Geoinformationssysteme (GIS)",
+      "url": "allModules/21368_M_TSM_GIS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 22394,
+      "kuerzel": "M_TSM_GeoProc",
+      "bezeichnung": "Geoprocessing",
+      "url": "allModules/22394_M_TSM_GeoProc.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17634,
+      "kuerzel": "M_FTP_OrdDiff_DE",
+      "bezeichnung": "Gewöhnliche Differentialgleichungen und dynamische Systeme",
+      "url": "allModules/17634_M_FTP_OrdDiff_DE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 38017,
+      "kuerzel": "M_TuIT_GISLoc",
+      "bezeichnung": "GIS Location Intelligence",
+      "url": "allModules/38017_M_TuIT_GISLoc.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17649,
+      "kuerzel": "M_CM_GlobMark",
+      "bezeichnung": "Global Markets and Intercultural Competence",
+      "url": "allModules/17649_M_CM_GlobMark.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10092,
+          "kuerzel": "MSE-Kontx",
+          "bezeichnung": "Kontextmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17526,
+      "kuerzel": "M_TSM_GlobMan",
+      "bezeichnung": "Globale Fertigung, Logistik und Mittelbeschaffung",
+      "url": "allModules/17526_M_TSM_GlobMan.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 41399,
+      "kuerzel": "M_TuIT_IoTMiniF",
+      "bezeichnung": "Hands on Industrial IoT. Mastering the Mini- Factory",
+      "url": "allModules/41399_M_TuIT_IoTMiniF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 40492,
+      "kuerzel": "M_TuIT_I2AI",
+      "bezeichnung": "Hands-on introduction to AI",
+      "url": "allModules/40492_M_TuIT_I2AI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 28655,
+      "kuerzel": "M_TSM_HiVoEn",
+      "bezeichnung": "High Voltage Engineering",
+      "url": "allModules/28655_M_TSM_HiVoEn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 25200,
+      "kuerzel": "M_TSM_MobSys",
+      "bezeichnung": "Hoch entwickelte Mobilfunksysteme",
+      "url": "allModules/25200_M_TSM_MobSys.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17532,
+      "kuerzel": "M_TSM_HydrEng",
+      "bezeichnung": "Hydraulic Engineering",
+      "url": "allModules/17532_M_TSM_HydrEng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 19625,
+      "kuerzel": "M_TSM_ICT",
+      "bezeichnung": "ICT Service Engineering and Operations",
+      "url": "allModules/19625_M_TSM_ICT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 25203,
+      "kuerzel": "M_TSM_InfVis",
+      "bezeichnung": "Information Visualization",
+      "url": "allModules/25203_M_TSM_InfVis.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17538,
+      "kuerzel": "M_TSM_InfVisUI",
+      "bezeichnung": "Information Visualization & User Interfaces",
+      "url": "allModules/17538_M_TSM_InfVisUI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 41729,
+      "kuerzel": "M_CM_InnoLEAN",
+      "bezeichnung": "Innovation and Lean",
+      "url": "allModules/41729_M_CM_InnoLEAN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10092,
+          "kuerzel": "MSE-Kontx",
+          "bezeichnung": "Kontextmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17652,
+      "kuerzel": "M_CM_InnChang",
+      "bezeichnung": "Innovations- und Änderungsmanagement",
+      "url": "allModules/17652_M_CM_InnChang.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10092,
+          "kuerzel": "MSE-Kontx",
+          "bezeichnung": "Kontextmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17541,
+      "kuerzel": "M_TSM_IntAuto",
+      "bezeichnung": "Integrierte Automatisierung",
+      "url": "allModules/17541_M_TSM_IntAuto.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 21655,
+      "kuerzel": "M_TSM_Business",
+      "bezeichnung": "International Business",
+      "url": "allModules/21655_M_TSM_Business.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 22150,
+      "kuerzel": "M_TSM_Logistic",
+      "bezeichnung": "Internationale Logistik",
+      "url": "allModules/22150_M_TSM_Logistic.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17544,
+      "kuerzel": "M_TSM_ITSec",
+      "bezeichnung": "IT-Sicherheit",
+      "url": "allModules/17544_M_TSM_ITSec.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17610,
+      "kuerzel": "M_CM_CorpCom",
+      "bezeichnung": "Kommunikation in Unternehmen",
+      "url": "allModules/17610_M_CM_CorpCom.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10092,
+          "kuerzel": "MSE-Kontx",
+          "bezeichnung": "Kontextmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17619,
+      "kuerzel": "M_FTP_CryptCod",
+      "bezeichnung": "Kryptographie und Codierungstheorie",
+      "url": "allModules/17619_M_FTP_CryptCod.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 19619,
+      "kuerzel": "M_FTP_Life",
+      "bezeichnung": "Lebenszyklus-Management von Infrastrukturen",
+      "url": "allModules/19619_M_FTP_Life.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17991,
+      "kuerzel": "M_TSM_LifCycle",
+      "bezeichnung": "Life Cycle Costing/Infrastruktur Folgekosten",
+      "url": "allModules/17991_M_TSM_LifCycle.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 28661,
+      "kuerzel": "M_TSM_MachLe",
+      "bezeichnung": "Machine Learning",
+      "url": "allModules/28661_M_TSM_MachLe.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 32034,
+      "kuerzel": "M_TSM_CompVis",
+      "bezeichnung": "Machine Learning in Computer Vision",
+      "url": "allModules/32034_M_TSM_CompVis.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 37934,
+      "kuerzel": "M_CM_ComplPro",
+      "bezeichnung": "Management of Complex Processes",
+      "url": "allModules/37934_M_CM_ComplPro.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10092,
+          "kuerzel": "MSE-Kontx",
+          "bezeichnung": "Kontextmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17655,
+      "kuerzel": "M_CM_ComplPro_DE",
+      "bezeichnung": "Management of Complex Processes DE",
+      "url": "allModules/17655_M_CM_ComplPro_DE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10092,
+          "kuerzel": "MSE-Kontx",
+          "bezeichnung": "Kontextmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 28664,
+      "kuerzel": "M_TSM_MarkFor",
+      "bezeichnung": "Market Analysis and Forecasting",
+      "url": "allModules/28664_M_TSM_MarkFor.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 30006,
+      "kuerzel": "M_PT4Y_MT",
+      "bezeichnung": "Masterarbeit",
+      "url": "allModules/30006_M_PT4Y_MT.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 27
+        },
+        {
+          "id": 10113,
+          "kuerzel": "MSE_MT",
+          "bezeichnung": "Master Thesis MSE",
+          "kreditpunkte": 27
+        }
+      ]
+    },
+    {
+      "id": 21114,
+      "kuerzel": "M_SACS_MTEx",
+      "bezeichnung": "Masterarbeit ",
+      "url": "allModules/21114_M_SACS_MTEx.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 30
+        }
+      ]
+    },
+    {
+      "id": 17709,
+      "kuerzel": "M_EnEn_MT",
+      "bezeichnung": "Masterarbeit",
+      "url": "allModules/17709_M_EnEn_MT.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 27
+        },
+        {
+          "id": 10113,
+          "kuerzel": "MSE_MT",
+          "bezeichnung": "Master Thesis MSE",
+          "kreditpunkte": 27
+        }
+      ]
+    },
+    {
+      "id": 17699,
+      "kuerzel": "M_IPPM_MT",
+      "bezeichnung": "Masterarbeit",
+      "url": "allModules/17699_M_IPPM_MT.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 27
+        },
+        {
+          "id": 10113,
+          "kuerzel": "MSE_MT",
+          "bezeichnung": "Master Thesis MSE",
+          "kreditpunkte": 27
+        }
+      ]
+    },
+    {
+      "id": 17674,
+      "kuerzel": "M_SWSY_MT",
+      "bezeichnung": "Masterarbeit",
+      "url": "allModules/17674_M_SWSY_MT.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 27
+        },
+        {
+          "id": 10113,
+          "kuerzel": "MSE_MT",
+          "bezeichnung": "Master Thesis MSE",
+          "kreditpunkte": 27
+        }
+      ]
+    },
+    {
+      "id": 17689,
+      "kuerzel": "M_SACS_MT",
+      "bezeichnung": "Masterarbeit",
+      "url": "allModules/17689_M_SACS_MT.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 27
+        },
+        {
+          "id": 10113,
+          "kuerzel": "MSE_MT",
+          "bezeichnung": "Master Thesis MSE",
+          "kreditpunkte": 27
+        }
+      ]
+    },
+    {
+      "id": 17439,
+      "kuerzel": "M_ReLa_MT",
+      "bezeichnung": "Masterarbeit",
+      "url": "allModules/17439_M_ReLa_MT.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 27
+        },
+        {
+          "id": 10113,
+          "kuerzel": "MSE_MT",
+          "bezeichnung": "Master Thesis MSE",
+          "kreditpunkte": 27
+        }
+      ]
+    },
+    {
+      "id": 21272,
+      "kuerzel": "M_SWSY_MT_JM",
+      "bezeichnung": "Masterarbeit (JM)",
+      "url": "allModules/21272_M_SWSY_MT_JM.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 27
+        },
+        {
+          "id": 10113,
+          "kuerzel": "MSE_MT",
+          "bezeichnung": "Master Thesis MSE",
+          "kreditpunkte": 27
+        }
+      ]
+    },
+    {
+      "id": 21979,
+      "kuerzel": "M_SACS_MT_JM",
+      "bezeichnung": "Masterarbeit (JM)",
+      "url": "allModules/21979_M_SACS_MT_JM.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 27
+        },
+        {
+          "id": 10113,
+          "kuerzel": "MSE_MT",
+          "bezeichnung": "Master Thesis MSE",
+          "kreditpunkte": 27
+        }
+      ]
+    },
+    {
+      "id": 21993,
+      "kuerzel": "M_IPPM_MT_JM",
+      "bezeichnung": "Masterarbeit (JM)",
+      "url": "allModules/21993_M_IPPM_MT_JM.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 27
+        },
+        {
+          "id": 10113,
+          "kuerzel": "MSE_MT",
+          "bezeichnung": "Master Thesis MSE",
+          "kreditpunkte": 27
+        }
+      ]
+    },
+    {
+      "id": 25936,
+      "kuerzel": "M_SACS_MathSem1",
+      "bezeichnung": "Mathematisches Seminar 1",
+      "url": "allModules/25936_M_SACS_MathSem1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 30009,
+      "kuerzel": "M_SACS_MathSem2",
+      "bezeichnung": "Mathematisches Seminar 2",
+      "url": "allModules/30009_M_SACS_MathSem2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 41589,
+      "kuerzel": "M_TuIT_MathS1",
+      "bezeichnung": "MathStudio 1",
+      "url": "allModules/41589_M_TuIT_MathS1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 41604,
+      "kuerzel": "M_TuIT_MathS2",
+      "bezeichnung": "MathStudio 2",
+      "url": "allModules/41604_M_TuIT_MathS2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 25206,
+      "kuerzel": "M_TSM_Mechanic",
+      "bezeichnung": "Mechanik elastischer Strukturen",
+      "url": "allModules/25206_M_TSM_Mechanic.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 22929,
+      "kuerzel": "M_TSM_MechDyn",
+      "bezeichnung": "Mechanik und Dynamik",
+      "url": "allModules/22929_M_TSM_MechDyn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 28637,
+      "kuerzel": "M_TSM_Mechatr",
+      "bezeichnung": "Mechatronics for production and logistic",
+      "url": "allModules/28637_M_TSM_Mechatr.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17556,
+      "kuerzel": "M_TSM_MobDev",
+      "bezeichnung": "Mobile Devices",
+      "url": "allModules/17556_M_TSM_MobDev.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 21371,
+      "kuerzel": "M_TSM_MobOp",
+      "bezeichnung": "Mobile Operating Systems and Applications",
+      "url": "allModules/21371_M_TSM_MobOp.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17695,
+      "kuerzel": "M_SACS_ModId",
+      "bezeichnung": "Modellierung und Identifikation",
+      "url": "allModules/17695_M_SACS_ModId.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17562,
+      "kuerzel": "M_TSM_Multiphy",
+      "bezeichnung": "Multiphysik-Modellierung und - Simulation",
+      "url": "allModules/17562_M_TSM_Multiphy.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 19099,
+      "kuerzel": "M_TSM_SustEng",
+      "bezeichnung": "Nachhaltigkeit in den Bauingenieurwissenschaften",
+      "url": "allModules/19099_M_TSM_SustEng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 25209,
+      "kuerzel": "M_TSM_NPlanPro",
+      "bezeichnung": "Nachhaltigkeit in Planungs- und Entwurfsprojekten",
+      "url": "allModules/25209_M_TSM_NPlanPro.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 19093,
+      "kuerzel": "M_TSM_NatHaz",
+      "bezeichnung": "Naturgefahren",
+      "url": "allModules/19093_M_TSM_NatHaz.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17502,
+      "kuerzel": "M_TSM_NewIPArc",
+      "bezeichnung": "Neue IP-Netzwerkarchitekturen und Mobilität",
+      "url": "allModules/17502_M_TSM_NewIPArc.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 28658,
+      "kuerzel": "M_TSM_InnoDes",
+      "bezeichnung": "Novel Innovation and Design Principles",
+      "url": "allModules/28658_M_TSM_InnoDes.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17565,
+      "kuerzel": "M_TSM_NumMeth",
+      "bezeichnung": "Numerical Methods in Geotechnical Engineering",
+      "url": "allModules/17565_M_TSM_NumMeth.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17568,
+      "kuerzel": "M_TSM_NumSim",
+      "bezeichnung": "Numerical Simulation and Validation of Technical Systems",
+      "url": "allModules/17568_M_TSM_NumSim.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 21168,
+      "kuerzel": "M_FTP_CompAlg",
+      "bezeichnung": "Numerische Analysis und Computer Algebra",
+      "url": "allModules/21168_M_FTP_CompAlg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 28679,
+      "kuerzel": "M_FTP_Optimiz",
+      "bezeichnung": "Optimization",
+      "url": "allModules/28679_M_FTP_Optimiz.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17631,
+      "kuerzel": "M_FTP_Optimiz_DE",
+      "bezeichnung": "Optimization DE",
+      "url": "allModules/17631_M_FTP_Optimiz_DE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 28676,
+      "kuerzel": "M_FTP_OrdDiff",
+      "bezeichnung": "Ordinary differential equations and dynamical systems",
+      "url": "allModules/28676_M_FTP_OrdDiff.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 21667,
+      "kuerzel": "M_TSM_ProgAlg",
+      "bezeichnung": "Parallele Berechnung und Algorithmen",
+      "url": "allModules/21667_M_TSM_ProgAlg.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17637,
+      "kuerzel": "M_FTP_PartDiff",
+      "bezeichnung": "Partielle Differentialgleichungen in den Ingenieurswissenschaften",
+      "url": "allModules/17637_M_FTP_PartDiff.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17697,
+      "kuerzel": "M_SACS_PatClass",
+      "bezeichnung": "Pattern Classification",
+      "url": "allModules/17697_M_SACS_PatClass.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 22147,
+      "kuerzel": "M_TSM_Photo",
+      "bezeichnung": "Photovoltaic",
+      "url": "allModules/22147_M_TSM_Photo.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 19616,
+      "kuerzel": "M_FTP_StatPlan",
+      "bezeichnung": "Planungsmethodik",
+      "url": "allModules/19616_M_FTP_StatPlan.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17571,
+      "kuerzel": "M_TSM_PowElSys",
+      "bezeichnung": "Power Electronics Systems",
+      "url": "allModules/17571_M_TSM_PowElSys.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 28643,
+      "kuerzel": "M_FTP_PredMod",
+      "bezeichnung": "Predictive Modelling",
+      "url": "allModules/28643_M_FTP_PredMod.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 37937,
+      "kuerzel": "M_CM_PrivLaw",
+      "bezeichnung": "Privacy and Law",
+      "url": "allModules/37937_M_CM_PrivLaw.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10092,
+          "kuerzel": "MSE-Kontx",
+          "bezeichnung": "Kontextmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17658,
+      "kuerzel": "M_CM_PrivLaw_DE",
+      "bezeichnung": "Privacy and Law DE",
+      "url": "allModules/17658_M_CM_PrivLaw_DE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10092,
+          "kuerzel": "MSE-Kontx",
+          "bezeichnung": "Kontextmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17574,
+      "kuerzel": "M_TSM_Product",
+      "bezeichnung": "Produktinnovation, Produktentwicklung und Management des Produktlebenszyklus",
+      "url": "allModules/17574_M_TSM_Product.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 42473,
+      "kuerzel": "M_SWSY_ProgAnTr",
+      "bezeichnung": "Program Analysis and Transformation",
+      "url": "allModules/42473_M_SWSY_ProgAnTr.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 38020,
+      "kuerzel": "M_TuIT_ProgLang1",
+      "bezeichnung": "Programming Languages 1",
+      "url": "allModules/38020_M_TuIT_ProgLang1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 38368,
+      "kuerzel": "M_TuIT_ProgLang2",
+      "bezeichnung": "Programming Languages 2",
+      "url": "allModules/38368_M_TuIT_ProgLang2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 37966,
+      "kuerzel": "M_TuIT_PJ1",
+      "bezeichnung": "Projektarbeit 1",
+      "url": "allModules/37966_M_TuIT_PJ1.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 17701,
+      "kuerzel": "M_IPPM_PJ1",
+      "bezeichnung": "Projektarbeit 1",
+      "url": "allModules/17701_M_IPPM_PJ1.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 17691,
+      "kuerzel": "M_SACS_PJ1",
+      "bezeichnung": "Projektarbeit 1",
+      "url": "allModules/17691_M_SACS_PJ1.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 17677,
+      "kuerzel": "M_SWSY_PJ1",
+      "bezeichnung": "Projektarbeit 1",
+      "url": "allModules/17677_M_SWSY_PJ1.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 17711,
+      "kuerzel": "M_EnEn_PJ1",
+      "bezeichnung": "Projektarbeit 1",
+      "url": "allModules/17711_M_EnEn_PJ1.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 29882,
+      "kuerzel": "M_PT4Y_PJ1",
+      "bezeichnung": "Projektarbeit 1",
+      "url": "allModules/29882_M_PT4Y_PJ1.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 29888,
+      "kuerzel": "M_PT4Y_PJ2",
+      "bezeichnung": "Projektarbeit 2",
+      "url": "allModules/29888_M_PT4Y_PJ2.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 17713,
+      "kuerzel": "M_EnEn_PJ2",
+      "bezeichnung": "Projektarbeit 2",
+      "url": "allModules/17713_M_EnEn_PJ2.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 17703,
+      "kuerzel": "M_IPPM_PJ2",
+      "bezeichnung": "Projektarbeit 2",
+      "url": "allModules/17703_M_IPPM_PJ2.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 17680,
+      "kuerzel": "M_SWSY_PJ2",
+      "bezeichnung": "Projektarbeit 2",
+      "url": "allModules/17680_M_SWSY_PJ2.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 17693,
+      "kuerzel": "M_SACS_PJ2",
+      "bezeichnung": "Projektarbeit 2",
+      "url": "allModules/17693_M_SACS_PJ2.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 37969,
+      "kuerzel": "M_TuIT_PJ2",
+      "bezeichnung": "Projektarbeit 2",
+      "url": "allModules/37969_M_TuIT_PJ2.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 21664,
+      "kuerzel": "M_TSM_ProcInt",
+      "bezeichnung": "Prozessintegration und Pinch-Analysen",
+      "url": "allModules/21664_M_TSM_ProcInt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17661,
+      "kuerzel": "M_CM_QRM",
+      "bezeichnung": "Qualitäts- und Risikomanagement",
+      "url": "allModules/17661_M_CM_QRM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10092,
+          "kuerzel": "MSE-Kontx",
+          "bezeichnung": "Kontextmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 28667,
+      "kuerzel": "M_TSM_QInOpMgmt",
+      "bezeichnung": "Quantitative Methods in Industrial Operations Management",
+      "url": "allModules/28667_M_TSM_QInOpMgmt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 31762,
+      "kuerzel": "M_FTP_RLP",
+      "bezeichnung": "Raum- und Landschaftsplanung",
+      "url": "allModules/31762_M_FTP_RLP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 21092,
+      "kuerzel": "M_FTP_RLP",
+      "bezeichnung": "Raum- und Landschaftsplanung",
+      "url": "allModules/21092_M_FTP_RLP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 21095,
+      "kuerzel": "M_TSM_RLP",
+      "bezeichnung": "Raum- und Landschaftsplanung",
+      "url": "allModules/21095_M_TSM_RLP.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 21362,
+      "kuerzel": "M_FTP_EnviPlan",
+      "bezeichnung": "Raumplanungs-, Bau- und Umweltrecht",
+      "url": "allModules/21362_M_FTP_EnviPlan.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 21374,
+      "kuerzel": "M_TSM_RegDev",
+      "bezeichnung": "Regionalentwicklung, Regionalökonomie und Politik",
+      "url": "allModules/21374_M_TSM_RegDev.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 39315,
+      "kuerzel": "M_TuIT_SegRou1",
+      "bezeichnung": "Segment Routing 1",
+      "url": "allModules/39315_M_TuIT_SegRou1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 40495,
+      "kuerzel": "M_TuIT_SegRou2",
+      "bezeichnung": "Segment Routing 2",
+      "url": "allModules/40495_M_TuIT_SegRou2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 18913,
+      "kuerzel": "M_EnEn_AppRisk",
+      "bezeichnung": "Seminar - Applied Risk and Decision Analyses",
+      "url": "allModules/18913_M_EnEn_AppRisk.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 20431,
+      "kuerzel": "M_EnEn_AKEnerg1",
+      "bezeichnung": "Seminar - Ausgewählte Kapitel Energietechnik 1",
+      "url": "allModules/20431_M_EnEn_AKEnerg1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 20434,
+      "kuerzel": "M_EnEn_AKEnerg2",
+      "bezeichnung": "Seminar - Ausgewählte Kapitel Energietechnik 2",
+      "url": "allModules/20434_M_EnEn_AKEnerg2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 22814,
+      "kuerzel": "M_EEng_AKNachH",
+      "bezeichnung": "Seminar - Ausgewählte Kapitel Nachhaltigkeit",
+      "url": "allModules/22814_M_EEng_AKNachH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 25904,
+      "kuerzel": "M_SACS_AKSiVer1",
+      "bezeichnung": "Seminar - Ausgewählte Kapitel Signalverarbeitung 1",
+      "url": "allModules/25904_M_SACS_AKSiVer1.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 21976,
+      "kuerzel": "M_EnEn_AKTFD1",
+      "bezeichnung": "Seminar - Ausgewählte Kapitel Thermo- und Fluiddynamik 1",
+      "url": "allModules/21976_M_EnEn_AKTFD1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 25933,
+      "kuerzel": "M_CEng_AKUmwIng",
+      "bezeichnung": "Seminar - Ausgewählte Kapitel Umweltingenieurwesen 1",
+      "url": "allModules/25933_M_CEng_AKUmwIng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 26416,
+      "kuerzel": "M_CEng_AKUmwIng2",
+      "bezeichnung": "Seminar - Ausgewählte Kapitel Umweltingenieurwesen 2",
+      "url": "allModules/26416_M_CEng_AKUmwIng2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 23680,
+      "kuerzel": "M_SACS_CEM",
+      "bezeichnung": "Seminar - Computational Electromagnetics (CEM) for RF",
+      "url": "allModules/23680_M_SACS_CEM.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 30003,
+      "kuerzel": "M_SACS_DeepL",
+      "bezeichnung": "Seminar - Deep Learning",
+      "url": "allModules/30003_M_SACS_DeepL.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 28581,
+      "kuerzel": "M_SWSY_DScience",
+      "bezeichnung": "Seminar - Design Science & Empirical Software Engineering",
+      "url": "allModules/28581_M_SWSY_DScience.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17721,
+      "kuerzel": "M_SACS_DSP",
+      "bezeichnung": "Seminar - DSP Programmierung und Systemidentifikation",
+      "url": "allModules/17721_M_SACS_DSP.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17715,
+      "kuerzel": "M_SWSY_Evoting",
+      "bezeichnung": "Seminar - E-Voting",
+      "url": "allModules/17715_M_SWSY_Evoting.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17719,
+      "kuerzel": "M_SACS_EMSimSyn",
+      "bezeichnung": "Seminar - EM-Simulation und Synchronisation",
+      "url": "allModules/17719_M_SACS_EMSimSyn.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17683,
+      "kuerzel": "M_EnEn_EnBauWo",
+      "bezeichnung": "Seminar - Energieautarkes Bauen & Wohnen – Minergie-Bau, Energie- & Wassertechnologie, Abfallbewirts",
+      "url": "allModules/17683_M_EnEn_EnBauWo.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17705,
+      "kuerzel": "M_IPPM_InnProdE",
+      "bezeichnung": "Seminar - Innovative Produktentwicklung",
+      "url": "allModules/17705_M_IPPM_InnProdE.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 20298,
+      "kuerzel": "M_EnEn_Konst",
+      "bezeichnung": "Seminar - Konstruktion",
+      "url": "allModules/20298_M_EnEn_Konst.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 29532,
+      "kuerzel": "M_SWSY_ModDiEr1",
+      "bezeichnung": "Seminar - Modellbildung und Diskrete Ereignissimulation 1",
+      "url": "allModules/29532_M_SWSY_ModDiEr1.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 30012,
+      "kuerzel": "M_SWSY_ModDiEr2",
+      "bezeichnung": "Seminar - Modellbildung und Diskrete Ereignissimulation 2",
+      "url": "allModules/30012_M_SWSY_ModDiEr2.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 21383,
+      "kuerzel": "M_EEng_NachH2",
+      "bezeichnung": "Seminar - Nachhaltigkeit 2",
+      "url": "allModules/21383_M_EEng_NachH2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 18183,
+      "kuerzel": "M_SWSY_ProgAnTr2",
+      "bezeichnung": "Seminar - Program Analysis and Transformation 2",
+      "url": "allModules/18183_M_SWSY_ProgAnTr2.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17707,
+      "kuerzel": "M_IPPM_ProzTe",
+      "bezeichnung": "Seminar - Prozesstechnik",
+      "url": "allModules/17707_M_IPPM_ProzTe.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 35993,
+      "kuerzel": "M_SACS_RTOS",
+      "bezeichnung": "Seminar - RTOS for Embedded Systems",
+      "url": "allModules/35993_M_SACS_RTOS.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 23677,
+      "kuerzel": "M_SACS_SensKon",
+      "bezeichnung": "Seminar - Sensoren und Sensorsignal-Konditionierung",
+      "url": "allModules/23677_M_SACS_SensKon.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 36467,
+      "kuerzel": "M_SACS_SDW",
+      "bezeichnung": "Seminar - Sigma-Delta Wandler",
+      "url": "allModules/36467_M_SACS_SDW.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17717,
+      "kuerzel": "M_EnEn_SolTherm",
+      "bezeichnung": "Seminar - Solarthermie - Grundlagen und Anwendungen",
+      "url": "allModules/17717_M_EnEn_SolTherm.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 22318,
+      "kuerzel": "M_SACS_SyEqEsDe",
+      "bezeichnung": "Seminar - Synchronization, Equalization, Estimation and Detection",
+      "url": "allModules/22318_M_SACS_SyEqEsDe.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 30622,
+      "kuerzel": "M_SACS_TSotBc",
+      "bezeichnung": "Seminar - The Science of the Blockchain",
+      "url": "allModules/30622_M_SACS_TSotBc.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 22932,
+      "kuerzel": "M_IPPM_VS1",
+      "bezeichnung": "Seminar - Vertiefung Schwerpunktthemen IPPM 1",
+      "url": "allModules/22932_M_IPPM_VS1.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 22935,
+      "kuerzel": "M_IPPM_VS2",
+      "bezeichnung": "Seminar - Vertiefung Schwerpunktthemen IPPM 2",
+      "url": "allModules/22935_M_IPPM_VS2.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 21359,
+      "kuerzel": "M_EnEn_Wbach",
+      "bezeichnung": "Seminar - Wildbach und Wildbachverbauungen",
+      "url": "allModules/21359_M_EnEn_Wbach.json",
+      "typ": "Fach",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 23590,
+      "kuerzel": "M_TSM_ServEng",
+      "bezeichnung": "Service Science & Engineering",
+      "url": "allModules/23590_M_TSM_ServEng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 28670,
+      "kuerzel": "M_TSM_ServMan",
+      "bezeichnung": "Servitization of Manufacturing",
+      "url": "allModules/28670_M_TSM_ServMan.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 21641,
+      "kuerzel": "M_TSM_Urban",
+      "bezeichnung": "Siedlung und Verkehr",
+      "url": "allModules/21641_M_TSM_Urban.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17580,
+      "kuerzel": "M_TSM_SignProc",
+      "bezeichnung": "Signalverarbeitung und -übertragung",
+      "url": "allModules/17580_M_TSM_SignProc.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17583,
+      "kuerzel": "M_TSM_SoftwEng",
+      "bezeichnung": "Software Engineering and Architectures",
+      "url": "allModules/17583_M_TSM_SoftwEng.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 23593,
+      "kuerzel": "M_TSM_Sourcing",
+      "bezeichnung": "Sourcing international, Outsourcing/Offshoring ",
+      "url": "allModules/23593_M_TSM_Sourcing.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 39318,
+      "kuerzel": "M_TuIT_StDaAn",
+      "bezeichnung": "Statistical Data Analysis",
+      "url": "allModules/39318_M_TuIT_StDaAn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 37849,
+      "kuerzel": "M_TSM_StatDig",
+      "bezeichnung": "Statistical Digital Signal Processing and Modeling",
+      "url": "allModules/37849_M_TSM_StatDig.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17643,
+      "kuerzel": "M_FTP_StochMod",
+      "bezeichnung": "Stochastic Modelling",
+      "url": "allModules/17643_M_FTP_StochMod.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17589,
+      "kuerzel": "M_TSM_StrDyn",
+      "bezeichnung": "Structural Dynamics",
+      "url": "allModules/17589_M_TSM_StrDyn.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 23581,
+      "kuerzel": "M_TSM_Dynamics",
+      "bezeichnung": "Structural Dynamics",
+      "url": "allModules/23581_M_TSM_Dynamics.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17592,
+      "kuerzel": "M_TSM_StrMech",
+      "bezeichnung": "Structural Mechanics and Dynamics",
+      "url": "allModules/17592_M_TSM_StrMech.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 23535,
+      "kuerzel": "M_Kat_TWVt",
+      "bezeichnung": "Technisch-Wissenschaftliche Vertiefung(Kategorie)",
+      "url": "allModules/23535_M_Kat_TWVt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 21377,
+      "kuerzel": "M_TSM_TecAcou",
+      "bezeichnung": "Technische Akustik",
+      "url": "allModules/21377_M_TSM_TecAcou.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 23596,
+      "kuerzel": "M_TSM_BauMech",
+      "bezeichnung": "Technische Mechanik im Civil Engineering",
+      "url": "allModules/23596_M_TSM_BauMech.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 28673,
+      "kuerzel": "M_TSM_TechMgmt",
+      "bezeichnung": "Technology Management",
+      "url": "allModules/28673_M_TSM_TechMgmt.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 21259,
+      "kuerzel": "M_FTP_TheoComp",
+      "bezeichnung": "Theoretische Informatik",
+      "url": "allModules/21259_M_FTP_TheoComp.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17601,
+      "kuerzel": "M_TSM_TrafPlan",
+      "bezeichnung": "Traffic and Spatial Planning",
+      "url": "allModules/17601_M_TSM_TrafPlan.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17607,
+      "kuerzel": "M_CM_Entrepr",
+      "bezeichnung": "Unternehmensführung und Entrepreneurship",
+      "url": "allModules/17607_M_CM_Entrepr.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10092,
+          "kuerzel": "MSE-Kontx",
+          "bezeichnung": "Kontextmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17520,
+      "kuerzel": "M_TSM_EntComp",
+      "bezeichnung": "Unternehmensinformatik",
+      "url": "allModules/17520_M_TSM_EntComp.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 39449,
+      "kuerzel": "M_TuIT_UITech",
+      "bezeichnung": "User Interface Technologien",
+      "url": "allModules/39449_M_TuIT_UITech.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 25212,
+      "kuerzel": "M_FTP_Tensors",
+      "bezeichnung": "Vektoren und Tensoren in der Technischen Physik",
+      "url": "allModules/25212_M_FTP_Tensors.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 39210,
+      "kuerzel": "M_TuIT_EmbSE",
+      "bezeichnung": "Vertiefung Embedded Software Engineering",
+      "url": "allModules/39210_M_TuIT_EmbSE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 42013,
+      "kuerzel": "M_TuIT_VertDS1",
+      "bezeichnung": "Vertiefung Schwerpunktthemen Data Science 1",
+      "url": "allModules/42013_M_TuIT_VertDS1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 42018,
+      "kuerzel": "M_TuIT_VertDS2",
+      "bezeichnung": "Vertiefung Schwerpunktthemen Data Science 2",
+      "url": "allModules/42018_M_TuIT_VertDS2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 38029,
+      "kuerzel": "M_TuIT_VertMech1",
+      "bezeichnung": "Vertiefung Schwerpunktthemen Mechanical Engineering 1",
+      "url": "allModules/38029_M_TuIT_VertMech1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 38032,
+      "kuerzel": "M_TuIT_VertMech2",
+      "bezeichnung": "Vertiefung Schwerpunktthemen Mechanical Engineering 2",
+      "url": "allModules/38032_M_TuIT_VertMech2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 38400,
+      "kuerzel": "M_TuIT_VSptMA1",
+      "bezeichnung": "Vertiefung Schwerpunktthemen Mechatronics and Automation 1",
+      "url": "allModules/38400_M_TuIT_VSptMA1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 38403,
+      "kuerzel": "M_TuIT_VSptMA2",
+      "bezeichnung": "Vertiefung Schwerpunktthemen Mechatronics and Automation 2",
+      "url": "allModules/38403_M_TuIT_VSptMA2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 39964,
+      "kuerzel": "M_TuIT_VertMed1",
+      "bezeichnung": "Vertiefung Schwerpunktthemen Medical Engineering 1",
+      "url": "allModules/39964_M_TuIT_VertMed1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 39967,
+      "kuerzel": "M_TuIT_VertMed2",
+      "bezeichnung": "Vertiefung Schwerpunktthemen Medical Engineering 2",
+      "url": "allModules/39967_M_TuIT_VertMed2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17646,
+      "kuerzel": "M_FTP_WavePhen",
+      "bezeichnung": "Wellenphänomene in modernen Technologien",
+      "url": "allModules/17646_M_FTP_WavePhen.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10091,
+          "kuerzel": "MSE-EwThGL",
+          "bezeichnung": "Erweiterte theoretische Grundlagen",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17553,
+      "kuerzel": "M_TSM_MatSurf",
+      "bezeichnung": "Werkstoffe und Oberflächen",
+      "url": "allModules/17553_M_TSM_MatSurf.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 19090,
+      "kuerzel": "M_TSM_Build",
+      "bezeichnung": "Zustandserfassung von Bauwerken",
+      "url": "allModules/19090_M_TSM_Build.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 17529,
+      "kuerzel": "M_TSM_TwoPhase",
+      "bezeichnung": "Zweiphasenströmung mit Wärme- und Stofftransport",
+      "url": "allModules/17529_M_TSM_TwoPhase.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10090,
+          "kuerzel": "MSE-TeWiVT",
+          "bezeichnung": "Technisch-wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10094,
+          "kuerzel": "MSE-ETGuTW",
+          "bezeichnung": "Erweiterte theoretische Grundlagen und Technisch- wissenschaftliche Vertiefung",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ]
+}

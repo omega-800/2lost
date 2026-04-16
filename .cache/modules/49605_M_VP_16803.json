@@ -1,0 +1,224 @@
+{
+  "id": 49605,
+  "kuerzel": "M_VP_16803",
+  "bezeichnung": "Verbrennungsprozesse und ihre Simulation",
+  "kreditpunkte": 18,
+  "lernziele": "<p>Die Studierenden</p><ul><li>verstehen die Grundlagen der Verbrennungsprozesse.</li><li>die Gleichungen der St&ouml;chiometrie und der Reaktionskinetik und sind in der Lage, sie f&uuml;r einfache Modelle numerisch zu l&ouml;sen.</li><li>verstehen unterschiedliche Verbrennungsmodelle und k&ouml;nnen beurteilen, welche Modelle f&uuml;r welche Anwendungen geeignet sind.</li><li>wenden die Verbrennungsmodelle f&uuml;r die Simulation von einfachen Benchmark-Problemen an und k&ouml;nnen die Ergebnisse interpretieren und bewerten.</li></ul>",
+  "vorausgKenntnisse": "<p>Str&ouml;mungsmechanik und CFD</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 49606,
+      "kuerzel": "VP_1680301",
+      "bezeichnung": "Verbrennungen in der Strömungsmechanik",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>verstehen die Grundlagen der Verbrennungsprozesse.</li><li>verstehen die Gleichungen der St&ouml;chiometrie und der Reaktionskinetik und sind in der Lage, sie f&uuml;r einfache Modelle numerisch zu l&ouml;sen.</li><li>verstehen unterschiedliche Verbrennungsmodelle und k&ouml;nnen beurteilen, welche Modelle f&uuml;r welche Anwendungen geeignet sind.</li></ul>",
+      "planinhalt": "<ul><li>Verbrennungsprozesse</li><li>Chemie der Verbrennung</li><li>Reaktionskinetik</li><li>Verbrennungsmodelle (EDM, FRC, PDF Flamelet, Burning velocity Modelle, etc.)</li></ul>",
+      "bibliographie": "<p>Turns: An Introduction to Combustion: Concepts and Applications: Concepts and Applications<br />Peters: Turbulent Combustion<br />Gerlinger: Numerische Verbrennungssimulation</p>",
+      "empfLehrmittel": "<p>Projektarbeit</p>\n<p>Literaturstudium</p>\n<p>Selbststudium</p>",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>Das zu bearbeitende Projekt wird mittels Bericht und Pr&auml;sentation bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 49607,
+          "art": "Projekt",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000192,
+          "name": "Schreiner",
+          "vorname": "Michael"
+        }
+      ]
+    },
+    {
+      "id": 49608,
+      "kuerzel": "VP_1680302",
+      "bezeichnung": "CFD mit Verbrennungsprozessen",
+      "kreditpunkte": 0,
+      "lernziele": "<p>Die Studierenden</p><ul><li>wenden die Verbrennungsmodelle f&uuml;r die Simulation von einfachen Benchmark-Problemen an.</li><li>k&ouml;nnen die Ergebnisse interpretieren und bewerten.</li></ul>",
+      "planinhalt": "<ul><li>Simulation von Verbrennungen</li><li>Str&ouml;mungssimulation mit Verbrennung mit Ansys CFX oder OpenFOAM</li></ul>",
+      "bibliographie": "<p>Manuals, Tutorials, etc.</p>",
+      "empfLehrmittel": "<p>Selbststudium</p>",
+      "bemerkungKurs": "Literatur teilweise in Englisch",
+      "leistungsnachweis": "<p>Dieser Kurs wird mittels Bericht und Pr&auml;sentation bewertet.</p>",
+      "kurselemente": [
+        {
+          "id": 49609,
+          "art": "Selbststudium",
+          "maxTeilnehmer": 99,
+          "harteGrenze": false
+        }
+      ],
+      "dozenten": [
+        {
+          "id": 2000192,
+          "name": "Schreiner",
+          "vorname": "Michael"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10175,
+      "bezeichnung": "Technik und IT",
+      "kuerzel": "TuIT",
+      "url": "allStudies/10175_TuIT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10282,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10282_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10283,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10283_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10287,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10287_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10288,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10288_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10291,
+      "bezeichnung": "MSE Master of Science in Engineering BB",
+      "kuerzel": "MSE_BB",
+      "url": "allStudies/10291_MSE_BB.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    },
+    {
+      "id": 10292,
+      "bezeichnung": "MSE Master of Science in Engineering VZ",
+      "kuerzel": "MSE_VZ",
+      "url": "allStudies/10292_MSE_VZ.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10093,
+          "kuerzel": "MSE-FachV",
+          "bezeichnung": "Fachliche Vertiefung",
+          "kreditpunkte": 18
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 2000192,
+      "name": "Schreiner",
+      "vorname": "Michael"
+    }
+  ],
+  "anschlussmodule": [
+    {
+      "id": 37568,
+      "kuerzel": "M_TuIT_MT",
+      "bezeichnung": "Master Thesis",
+      "url": "allModules/37568_M_TuIT_MT.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 1,
+      "kuerzel": "BU",
+      "bezeichnung": "Buchs",
+      "ort": "Buchs"
+    }
+  ],
+  "durchfuehrungen": {
+    "beginJahr": 2016,
+    "beginSemester": "FS",
+    "endJahr": 2016,
+    "endSemester": "FS"
+  }
+}

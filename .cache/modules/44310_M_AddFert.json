@@ -1,0 +1,305 @@
+{
+  "id": 44310,
+  "kuerzel": "M_AddFert",
+  "bezeichnung": "Additive Fertigung",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Die additive Fertigung ist ein wichtiges Verfahren f&uuml;r die Entwicklung und Fertigung von physischen Produkten. Im Rahmen dieses Moduls erhalten die Studierenden einen umfassenden &Uuml;berblick &uuml;ber die M&ouml;glichkeiten und Grenzen der additiven Fertigung. Die Teilnehmer werden bef&auml;higt, die additive Fertigung wertsch&ouml;pfend in technischen Anwendungen einzusetzen. Die theoretischen Inhalte der Vorlesung werden in den Praktika erlebbar gemacht.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 44311,
+      "kuerzel": "AddFert",
+      "bezeichnung": "Additive Fertigung",
+      "lernziele": "<p>Der Kurs umfasst die folgenden Themen:<br />- Aktueller &Uuml;berblick &uuml;ber die wichtigsten additiven Fertigungsverfahren f&uuml;r Metalle und Kunststoffe (PBF, MEX, DED etc.)<br />- Konstruktion und Simulation f&uuml;r die additive Fertigung<br />- Datenhandling vom CAD bis zum gedruckten Bauteil<br />- Einsatzgebiete der additiven Fertigung<br />- Postprocessing, Qualit&auml;tsmanagement</p>",
+      "planinhalt": "<p>Dieser Kurs vermittelt essentielle Kenntnisse &uuml;ber den Einsatz von additiven Fertigungsverfahren. Nach Abschluss des Moduls kennen die Teilnehmer:<br />- die wichtigsten additiven Fertigungsverfahren und Materialien<br />- Konstruktionsprinzipien f&uuml;r die verfahrensgerechte Auslegung von 3D-Druck Bauteilen<br />- wertsch&ouml;pfende Anwendungsbereiche der additiven Fertigung in Industrieunternehmen<br />- die 3D-Druck Prozesskette vom CAD, &uuml;ber der Fertigung bis zur Nachbehandlung</p>",
+      "bibliographie": "<p>Klahn, C., Meboldt, M., Fontana, F., Leutenecker-Twelsiek, B., Omidvarkarjan, D., &amp; Jansen, J. (2021). Entwicklung und Konstruktion f&uuml;r die Additive Fertigung: Grundlagen und Methoden f&uuml;r den Einsatz in industriellen Endprodukten.</p>",
+      "kurselemente": [
+        {
+          "id": 44312,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 44313,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Additive Fertigung"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Additive Production"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10107,
+          "kuerzel": "M-fs",
+          "bezeichnung": "Fachstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10106,
+          "kuerzel": "M-gs",
+          "bezeichnung": "Grundstudium Maschinentechnik-Innovation ",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10084,
+      "bezeichnung": "Produktentwicklung",
+      "kuerzel": "M-I-PE",
+      "url": "allStudies/10084_M-I-PE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10210,
+      "bezeichnung": "Produktentwicklung",
+      "kuerzel": "M-I-PE",
+      "url": "allStudies/10210_M-I-PE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10121,
+      "bezeichnung": "Produktentwicklung",
+      "kuerzel": "M-I-PE",
+      "url": "allStudies/10121_M-I-PE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10085,
+      "bezeichnung": "Simulationstechnik",
+      "kuerzel": "M-I-SI",
+      "url": "allStudies/10085_M-I-SI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10211,
+      "bezeichnung": "Simulationstechnik",
+      "kuerzel": "M-I-SI",
+      "url": "allStudies/10211_M-I-SI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10242,
+      "bezeichnung": "Kunststofftechnik",
+      "kuerzel": "M-I-KS",
+      "url": "allStudies/10242_M-I-KS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    },
+    {
+      "id": 10122,
+      "bezeichnung": "Simulationstechnik",
+      "kuerzel": "M-I-SI",
+      "url": "allStudies/10122_M-I-SI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10209,
+      "bezeichnung": "Digitalisierung",
+      "kuerzel": "M-I-DIG",
+      "url": "allStudies/10209_M-I-DIG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10083,
+      "bezeichnung": "Maschinenbau-Informatik",
+      "kuerzel": "M-I-MI",
+      "url": "allStudies/10083_M-I-MI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10120,
+      "bezeichnung": "Maschinenbau-Informatik",
+      "kuerzel": "M-I-MI",
+      "url": "allStudies/10120_M-I-MI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5027126,
+      "name": "Omidvarkarjan",
+      "vorname": "Daniel"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 20054,
+      "kuerzel": "M_MaTecM2",
+      "bezeichnung": "Materialtechnologie 2",
+      "url": "allModules/20054_M_MaTecM2.json"
+    },
+    {
+      "id": 43965,
+      "kuerzel": "M_MaTecM1",
+      "bezeichnung": "Materialtechnologie 1",
+      "url": "allModules/43965_M_MaTecM1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 44310,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Teilnahme Praktikum</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Additive Fertigung"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Additive Production"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2025,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 40487,
+    "kuerzel": "M_AddFert",
+    "bezeichnung": "Additive Fertigung",
+    "url": "allModules/40487_M_AddFert.json"
+  }
+}

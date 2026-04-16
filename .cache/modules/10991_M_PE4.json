@@ -1,0 +1,177 @@
+{
+  "id": 10991,
+  "kuerzel": "M_PE4",
+  "bezeichnung": "Produktentwicklung 4",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Kennt die Konsequenzen der Produktehaftung: <br />Anwendung der Grundlagen der Sicherheitstechnik </p>\n<p>Grundkenntnisse, &Uuml;berblick &uuml;ber CNC - Fertigungsverfahren<br />Vertiefung im Bereich Fr&auml;sen mit Uebungen</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10081,
+      "kuerzel": "uKonstrM4",
+      "bezeichnung": "Konstruktion 4 (Sicherheitstechnik)",
+      "lernziele": "<p>Kennt die Konsequenzen der Produktehaftung:<br />- Vermeidung des Konzeptfehlers<br />- Vermeidung des Herstellungsfehlers<br />- Vermeidung des Instruktionsfehlers</p> <p>Anwendung der Grundlagen der&nbsp;Sicherheitstechnik</p>",
+      "planinhalt": "<p>Einf&#252;hrung in die Produktehaftung</p>\n<p>Grundlagen der Bemessung nach SIA 260/261/263, Eurocode 3: Tragsicherheit und Gebrauchstauglichkeit</p>\n<p>Einf&#252;hrung in das Qualit&#228;tsmanagement</p>\n<p>Maschinenrichtlinie 98/37/EG<br />Sicherheitstechnik, Risc Management<br />Gefahrenanalyse und Risikobeurteilung<br />Konformit&#228;tserkl&#228;rung, CE-Kennzeichnung</p>\n<p>&#220;bungen zum praxisnahen Verarbeiten des Unterrichtsstoffes</p>",
+      "kurselemente": [
+        {
+          "id": 10466,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 10467,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Konstruktion 4 (Sicherheitstechnik)"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Design 4 (Safety Engineering)"
+        }
+      ]
+    },
+    {
+      "id": 10082,
+      "kuerzel": "uCAM",
+      "bezeichnung": "CAM / Produktionstechnik",
+      "lernziele": "<p>Grundkenntnisse, &#220;berblick &#252;ber CNC - Fertigungsverfahren <br />Vertiefung im Bereich Fr&#228;sen durch praktische Arbeit am System</p>",
+      "planinhalt": "<p>CNC Grundlagen:<br />- Grundlagen, Steuerungsaufbau<br />- Achsantriebe, Messeinrichtungen<br />- F&#252;hrungen<br />- Schutzeinrichtungen<br />- Einbindung, Anbindung an Verwaltungssysteme</p>\n<p>Fr&#228;sen / Drehen:<br />- Achsanordnungen, Aufbau, F&#252;hrungen, spezielle Kinematiken<br />- 2.5D / 3D<br />- Mehrachsenfr&#228;sen<br />- Peripherie<br />- Fr&#228;stechnologie / Fr&#228;serwerkstoffe /&nbsp;HSC Fr&#228;sen / konventionelles Fr&#228;sen<br />- Drehtechnologien<br />- Bearbeitungszentren</p>\n<p>Blechbearbeitung:<br />- Schneiden, Stanzen, Pressen, Biegen, Kanten</p>\n<p>Roboter:<br />- Montage, Fertigungsstrassen, Schweissen, Pr&#252;fen</p>\n<p>Andere Verfahren: &#220;berblick</p>",
+      "kurselemente": [
+        {
+          "id": 10464,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 10465,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "CAM / Produktionstechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "CAM / Production Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 533,
+      "name": "Meier",
+      "vorname": "Jürg"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 10991,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Produktentwicklung 4"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Product Development 4"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2007,
+    "beginSemester": "SS",
+    "endJahr": 2007,
+    "endSemester": "SS"
+  }
+}

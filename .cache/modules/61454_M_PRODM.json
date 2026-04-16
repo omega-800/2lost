@@ -1,0 +1,131 @@
+{
+  "id": 61454,
+  "kuerzel": "M_PRODM",
+  "bezeichnung": "Production Management",
+  "kreditpunkte": 4,
+  "lernziele": "<p>- Was ist Produktionsmanagement?, Einordung, KPI &amp; strategische Rolle Produktion<br>- MRPI und MRPII<br>- Deterministic &amp; stochastic Stock Management for Manufacturing<br>- Kanban Game<br>- Lean Production and Lean Change<br>- Produktionsstrategie</p>",
+  "vorausgKenntnisse": "",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 61455,
+      "kuerzel": "PRODM",
+      "bezeichnung": "Production Management",
+      "lernziele": "<p><strong>Fachkompetenzen:</strong><br>Die Teilnehmenden k&ouml;nnen:</p>\n<p>die Aufgaben der Arbeitsplanung und deren Einfluss auf die Produktionsplanung, die Produktivit&auml;t und die Fertigungskosten verstehen<br>PPS-Teilkonzepte erarbeiten<br>die Grunds&auml;tze der Lean Production wirkungsvoll anwenden<br>die wesentlichen Kostentreiber und Risiken in der Produktion erkennen und die zu deren Beherrschung notwendigen F&uuml;hrungsmittel und Vorgehen anwenden</p>\n<p>&nbsp;</p>\n<p><strong>Methodenkompetenzen:</strong><br>Die Teilnehmenden k&ouml;nnen:</p>\n<p>die Verfahren der Produktionsplanung und -steuerung situationsgerecht anwenden<br>Produktionsprozesse nach ausgew&auml;hlten Methoden aus dem Lean Toolset analysieren, bewerten und verbessern</p>\n<p>&nbsp;</p>\n<p><strong>Selbstkompetenzen:</strong><br>Die Teilnehmenden k&ouml;nnen:</p>\n<p>in komplexen Fallstudien und Praxisbeispielen ihren pers&ouml;nlichen Zeitaufwand realistisch planen und den Zeitplan einhalten</p>\n<p>&nbsp;</p>\n<p><strong>Sozialkompetenzen:</strong><br>Die Teilnehmenden k&ouml;nnen:</p>\n<p>in komplexen Fallstudien im Team die arbeitsteilige Aufgaben realistisch planen und im Team Konflikte bei individuellen Abweichungen l&ouml;sen</p>",
+      "planinhalt": "<p>1. Einf&uuml;hrung: Entwicklung des Produktionsmanagements</p>\n<p>&nbsp;</p>\n<p>2. Klassisches Produktionsmanagement:<br>a. Arbeitsplanung<br>b. Produktionsplanung<br>&nbsp; &nbsp; i. Programmplanung<br>&nbsp; &nbsp; ii. Materialwirtschaft<br>&nbsp; &nbsp; iii. Termin- und Kapazit&auml;tsplanung<br>c. Produktionssteuerung<br>d. F&uuml;hrungsmittel- und &ndash;systeme, Key Performance Indicators</p>\n<p>&nbsp;</p>\n<p>3. Lean Production:<br>a. Mindset, 7-Arten der Verschwendung und Lean Prinzipien (u.a. JIT, Harmonisierung, Null-Fehler, ...)<br>b. Toolset (u.a. Wertstromanalyse, KVP, 5-S, Poka Yoke)</p>\n<p>&nbsp;</p>\n<p>4. Synthese: Produktionsmanagement klassisch &amp; Lean f&uuml;r Werkplatz CH</p>",
+      "bibliographie": "<p>Pflichtliteratur wie Skript, B&uuml;cher:</p>\n<p>Skript<br>&Uuml;bungsunterlagen</p>\n<p>&nbsp;</p>\n<p>Weiterf&uuml;hrende Literatur (Empfehlung an Studierende):</p>\n<p>Sch&ouml;nsleben, Paul, Integrales Logistikmanagement, Operations und Supply Chain Management innerhalb des Unternehmens und unternehmens&uuml;bergreifend, ISBN 978-3-662-48334-3</p>\n<p>&nbsp;</p>\n<p>H&auml;nggi, Roman, Fimpel, Andr&eacute;, Siegenthaler, Roland, LEAN Production &ndash; einfach und umfassend, Ein praxisorientierter Leitfaden zu schlanken Prozessen mit Bildern erkl&auml;rt, Springer Berlin Heidelberg, ISBN 978-3-662-62701-3</p>",
+      "kurselemente": [
+        {
+          "id": 61456,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 108,
+          "harteGrenze": true
+        },
+        {
+          "id": 61457,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Production Management"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Production Management"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10479,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10479_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5012434,
+      "name": "Hänggi",
+      "vorname": "Roman"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 61408,
+      "kuerzel": "M_AMATH",
+      "bezeichnung": "Applied Mathematics",
+      "url": "allModules/61408_M_AMATH.json"
+    },
+    {
+      "id": 61433,
+      "kuerzel": "M_PCALC",
+      "bezeichnung": "Probability Calculus",
+      "url": "allModules/61433_M_PCALC.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    },
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 61454,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Production Management"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Production Management"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2027,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 56417,
+    "kuerzel": "M_PRODM",
+    "bezeichnung": "Produktmanagement ",
+    "url": "allModules/56417_M_PRODM.json"
+  }
+}

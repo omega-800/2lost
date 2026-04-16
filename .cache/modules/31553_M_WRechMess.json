@@ -1,0 +1,168 @@
+{
+  "id": 31553,
+  "kuerzel": "M_WRechMess",
+  "bezeichnung": "Wahrscheinlichkeit und Messdaten",
+  "kreditpunkte": 2,
+  "lernziele": "<ul><li>Wissen<ul><li>Grundlegende Begriffe der Wahrscheinlichkeitsrechnung kennen (Ereignis, Wahrscheinlichkeit, Zufallsvariable, Verteilung und Dichte u.a.)</li></ul></li><li>K&ouml;nnen<ul><li>Mit Verteilungen umgehen (Normal, Lognormal, t, Chi-Quadrat, evtl. Weibull, Beta)</li><li>Konfidenzintervalle bestimmen, statistische Tests durchf&uuml;hren</li><li>Versuche planen und auswerten</li><li>Bayes&lsquo;sche Statistik verstehen und anwenden</li></ul></li><li>Beurteilen<ul><li>Versuchsdaten beurteilen (Verteilung, Varianz, Genauigkeit)</li><li>Effekte und Signifikanzen beurteilen</li></ul></li><li>Verteilungen und statistische Modelle beurteilen (z.B. mit dem residualen Standardfehler)</li></ul><p>&nbsp;</p><p>&nbsp;</p>",
+  "vorausgKenntnisse": "<p>Mathematik-Module des ersten Studienjahres</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 31554,
+      "kuerzel": "WRechMess",
+      "bezeichnung": "Wahrscheinlichkeitsrechnung und Messdaten",
+      "planinhalt": "<ul><li>Messwerte, deren H&auml;ufigkeitsverteilungen und Verteilungs- und Dichtefunktionen</li><li>Quantile von stetigen und diskreten empirischen Wahrscheinlichkeitsverteilungen</li><li>Normalverteilung, Lognormalverteilung, Binomialverteilung und ihre Quantile</li><li>Wahrscheinlichkeitsintervalle von Messdaten und Konfidenzintervalle f&uuml;r Mittelwert, Varianz und Standardabweichung</li><li>Konfidenzintervalle f&uuml;r die Parameter der linearen Regression</li><li>Residualer Standardfehler</li><li>Anwendung und Interpretation von t-Tests, Verteilungstests (Kolmogorov-Smirnov-Test,&nbsp; -Test), F-Test und ANOVA</li><li>Bedingte Wahrscheinlichkeiten von klassierten und stetigen Variablen und Bayes&lsquo;sche Statistik</li><li>Versuchsplanung (Screening mit Mittelwertanalyse, Signifikanz der Effekte, Parameter-Optimierungen)</li></ul><p>&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 31555,
+          "art": "Vorlesung",
+          "anzLektionen": 1.5,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 31556,
+          "art": "Uebung",
+          "anzLektionen": 0.5,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Wahrscheinlichkeitsrechnung und Messdaten"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Theory of Probability and Measurement Data"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10046,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10046_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10116,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10116_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10200_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10239,
+      "bezeichnung": "Maschinentechnik-Innovation",
+      "kuerzel": "M-I",
+      "url": "allStudies/10239_M-I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 542829,
+      "name": "Himmelmann",
+      "vorname": "Lin"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 31553,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Wahrscheinlichkeit und Messdaten"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Theory of Probability and Measurement Data"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2018,
+    "beginSemester": "HS",
+    "endJahr": 2023,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 20580,
+    "kuerzel": "M_WRechM",
+    "bezeichnung": "Wahrscheinlichkeitsrechnung (M-I)",
+    "url": "allModules/20580_M_WRechM.json"
+  },
+  "nachfolger": {
+    "id": 31553,
+    "kuerzel": "M_WRechMess",
+    "bezeichnung": "Wahrscheinlichkeit und Messdaten",
+    "url": "allModules/31553_M_WRechMess.json"
+  }
+}

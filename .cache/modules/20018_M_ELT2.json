@@ -1,0 +1,160 @@
+{
+  "id": 20018,
+  "kuerzel": "M_ELT2",
+  "bezeichnung": "Elektrotechnik 2",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Der Absolvent kennt die Basisgr&#246;ssen und Grundgesetze der Elektrotechnik. Er ist in der Lage, die Gr&#246;ssen im elektrischen Str&#246;mungsfeld und im magnetischen Feld&nbsp;zu bestimmen und magnetische Kreise zu berechnen und auszulegen.<br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 20019,
+      "kuerzel": "ELT2",
+      "bezeichnung": "Elektrotechnik 2",
+      "planinhalt": "<p>Das elektrische Str&ouml;mungsfeld: Eigenschaften und Grundgr&ouml;ssen<br />H&uuml;llengesetz und&nbsp;Kreisgesetz im Str&ouml;mungsfeld<br />Berechnung einfacher&nbsp;Feldtypen anhand von Beispielen <br />Das magnetische Feld bei Gleichstrom: Eigenschaften und Grundgr&ouml;ssen<br />Magnetisches Feld bewegter Ladungen und stromf&uuml;hrender Leiter <br />Durchflutungsgesetz und Ohmsches Gesetz<br />Materie im magnetischen Feld </p>\n<p>Magnetischer Widerstand, Selbst- und Gegeninduktivit&auml;t<br />Berechnung und Auslegung&nbsp;magnetischer Kreise <br />Permanentmagnete <br />Energie und Kr&auml;fte im magnetischen Feld <br />Induktionsgesetz, Trafo-Gleichungen </p>\n<p>Differential- und Integralgesetze der Elektrotechnik<br /><br />Aenderung vorbehalten.</p>",
+      "kurselemente": [
+        {
+          "id": 20020,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 20021,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrotechnik 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electrical Engineering 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 2,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10001,
+          "kuerzel": "E-g",
+          "bezeichnung": "Grundlagen Elektrotechnik",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 139,
+      "name": "Ebneter",
+      "vorname": "Josef"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 20014,
+      "kuerzel": "M_ELT1",
+      "bezeichnung": "Elektrotechnik 1",
+      "url": "allModules/20014_M_ELT1.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 20018,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "Testat",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Elektrotechnik 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electrical Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2011,
+    "beginSemester": "FS",
+    "endJahr": 2015,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 11115,
+    "kuerzel": "M_EL2",
+    "bezeichnung": "Elektrizitätslehre 2",
+    "url": "allModules/11115_M_EL2.json"
+  },
+  "nachfolger": {
+    "id": 20018,
+    "kuerzel": "M_ELT2",
+    "bezeichnung": "Elektrotechnik 2",
+    "url": "allModules/20018_M_ELT2.json"
+  }
+}

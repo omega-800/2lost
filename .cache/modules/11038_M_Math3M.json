@@ -1,0 +1,232 @@
+{
+  "id": 11038,
+  "kuerzel": "M_Math3M",
+  "bezeichnung": "Mathematik für Maschinentechnik 3",
+  "kreditpunkte": 4,
+  "lernziele": "<ul> <li>Verst&#228;ndnis der grundlegenden Begriffe der Wahrscheinlichkeitsrechnung und Statistik</li><li>F&#228;higkeit, Probleme mit Hilfe von Differentialgleichungen zu erfassen</li><li>Kenntnis grundlegender Methoden zu L&#246;sung bestimmter Differentialgleichungen <br /></li></ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 11204,
+      "kuerzel": "BeStat",
+      "bezeichnung": "Beschreibende Statistik",
+      "lernziele": "<ul>\n<li>Verst&#228;ndnis der grundlegenden Begriffe der Wahrscheinlichkeitsrechnung und Statistik</li></ul>",
+      "planinhalt": "<ul>\n<li>Einf&#252;hrung in die Wahrscheinlichkeitsrechnung: Grundprobleme der Kombinatorik, Binomialverteilung</li><li>Beschreibende Statistik, insbesondere Lage- und Streumasse, Korrelation, Regression <br /></li></ul>",
+      "kurselemente": [
+        {
+          "id": 11232,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 11233,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Beschreibende Statistik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Descriptive Statistics"
+        }
+      ]
+    },
+    {
+      "id": 11205,
+      "kuerzel": "Diff",
+      "bezeichnung": "Differentialgleichungen",
+      "lernziele": "<ul>\n<li>F&#228;higkeit, Probleme mit Hilfe von Differentialgleichungen zu erfassen </li>\n<li>Kenntnis grundlegender Methoden zu L&#246;sung bestimmter Differentialgleichungen <br /></li></ul>",
+      "planinhalt": "<ul>\n<li>Differentialgleichungen: Insbesondere separierbare und lineare mit konstanten Koeffizienten</li><li>Beispiel eines nummerischen Verfahrens <br /></li></ul>",
+      "kurselemente": [
+        {
+          "id": 11234,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Differentialgleichungen"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Differential Equations"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10014,
+          "kuerzel": "M-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10011,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10011_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10032,
+          "kuerzel": "B-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 106,
+      "name": "Böhi",
+      "vorname": "Hannes"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11034,
+      "kuerzel": "M_An1BM",
+      "bezeichnung": "Analysis 1 für Bauingenieurwesen und Maschinentechnik",
+      "url": "allModules/11034_M_An1BM.json"
+    },
+    {
+      "id": 11037,
+      "kuerzel": "M_Math2M",
+      "bezeichnung": "Mathematik für Maschinentechnik 2",
+      "url": "allModules/11037_M_Math2M.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11038,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Mathematik für Maschinentechnik 3"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Mathematics 3 for Mechanical Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2005,
+    "endSemester": "WS"
+  },
+  "nachfolger": {
+    "id": 11038,
+    "kuerzel": "M_Math3M",
+    "bezeichnung": "Mathematik für Maschinentechnik 3",
+    "url": "allModules/11038_M_Math3M.json"
+  }
+}

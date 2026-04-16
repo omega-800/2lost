@@ -1,0 +1,175 @@
+{
+  "id": 11061,
+  "kuerzel": "M_CompB",
+  "bezeichnung": "Compilerbau",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Lernziele:</p> <ol> <li>Lexikalische Analyse (Automaten, Formale Sprachen) <br />Syntax und Semantik von abstrakten Sprachen verstehen;</li><li>Scanner und Parser entwickeln und einsetzen k&#246;nnen</li></ol>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10185,
+      "kuerzel": "CompB",
+      "bezeichnung": "Compilerbau",
+      "planinhalt": "<ol>\n<li>Scanning / Lexikalische Analyse: <br />Tokens, regul&#228;re Ausdr&#252;cke, endliche Automaten, nichtdeterministische Automaten, Lex Generatoren.</li><li>Parsing: <br />Kontextfreie Grammatiken, Top-Down Parsing, Bottom-Up Parsing, LR Parser. Optimierung einer Grammatik</li><li>Kontextsensitive Analyse: <br />Typensysteme, Attribute-Grammatiken.</li><li>Intermediate Representation / Zwischencode-Darstellung: <br />Grafische Repr&#228;sentation, Lineare Darstellungen (Stack, 3-Adress-Form), Symboltabellen</li><li>Prozedurabstraktion: <br />Kontrollabstraktion, Namensr&#228;ume, Kommunikation zwischen Prozeduren, Memory Management</li><li>Spezialthemen: <br />Code Optimierung, Data-Flow Analysis, Instruktion-Selektion und -Scheduling <br />Register-Allocation, Garbage Collection, OO Programmiersprachen</li></ol>",
+      "kurselemente": [
+        {
+          "id": 10609,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 10610,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Compilerbau"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Compiler Construction"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10008,
+          "kuerzel": "I-a",
+          "bezeichnung": "Aufbau Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 860,
+      "name": "Joller",
+      "vorname": "Josef M."
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11093,
+      "kuerzel": "M_Math1I",
+      "bezeichnung": "Mathematische Grundlagen der Informatik 1",
+      "url": "allModules/11093_M_Math1I.json"
+    },
+    {
+      "id": 22288,
+      "kuerzel": "M_AD",
+      "bezeichnung": "Programmieren 2: Algorithmen und Datenstrukturen",
+      "url": "allModules/22288_M_AD.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11061,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Compilerbau"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Compiler Construction"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2013,
+    "endSemester": "HS"
+  },
+  "nachfolger": {
+    "id": 11061,
+    "kuerzel": "M_CompB",
+    "bezeichnung": "Compilerbau",
+    "url": "allModules/11061_M_CompB.json"
+  }
+}

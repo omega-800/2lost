@@ -1,0 +1,166 @@
+{
+  "id": 16125,
+  "kuerzel": "M_PraInf2",
+  "bezeichnung": "Praktische Informatik 2",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Sie verstehen einige aktuelle Technologien sowie weitere grundlegende Konzepte der Informatik, die Ihre Qualifikation <br />als Entwicklungsingenieur erweitern. <br /><br /></p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 16126,
+      "kuerzel": "PraInf2",
+      "bezeichnung": "Praktische Informatik 2",
+      "planinhalt": "<p>Es werden 3 - 4 Themen behandelt. J&auml;hrlich findet eine Aktualisierung statt. <br /><br />Auswahl m&ouml;glicher Themen (kann von Jahr zu Jahr &auml;ndern)&nbsp;<br />1. Programmierung von grafischen Benutzeroberfl&auml;chen (GUI) <br />2. UNIX/Linux Tools <br />3. Internetanwendungen <br />4. Projekt- und Qualit&auml;tsmanagement f&uuml;r SW-Entwickler <br />5. XML <br />6. Verteilte Systeme <br />7. Datenbanken<br />8. Microsoft Dot-NET-Technologien</p>",
+      "kurselemente": [
+        {
+          "id": 16127,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 48,
+          "harteGrenze": true
+        },
+        {
+          "id": 16128,
+          "art": "Praktikum",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 16,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Praktische Informatik 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10002,
+          "kuerzel": "E-a",
+          "bezeichnung": "Aufbau Elektrotechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 140,
+      "name": "Pletscher",
+      "vorname": "Hans Heinrich"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 16135,
+      "kuerzel": "M_Info3Java",
+      "bezeichnung": "Informatik 3: Java",
+      "url": "allModules/16135_M_Info3Java.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 16125,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Praktische Informatik 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

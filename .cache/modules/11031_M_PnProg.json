@@ -1,0 +1,263 @@
+{
+  "id": 11031,
+  "kuerzel": "M_PnProg",
+  "bezeichnung": "Parallel- und Netzwerkprogrammierung",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Grundlagen von Multi-Threading und Netzwerkprogrammierung kennen und anwenden k&ouml;nnen. </li>\n    <li>Entwurf und Implementation von parallelen und/oder verteilten Programmabl&auml;ufen in Java </li>\n    <li>Socket Programmierschnittstelle zur Netzwerkprogrammierung in C++ und Java</li>\n    <li>Entwurfsmuster in der Parallel- und Netzwerkprogrammierung einsetzen k&ouml;nnen<br /><br /></li>\n</ul>",
+  "vorausgKenntnisse": "<p>Englisch, sicherer Umgang mit Eclipse und Eclipse CDT</p>\n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10130,
+      "kuerzel": "PnProg",
+      "bezeichnung": "Parallel- und Netzwerkprogrammierung",
+      "planinhalt": "<h3>Teil 1: Nebenl&auml;ufige Programmsysteme</h3>\n<ul>\n    <li>Einf&uuml;hrung in nebenl&auml;ufige Programmsysteme (Prozesse, Threads) </li>\n    <li>Multi-Threading mit Java </li>\n    <li>Semaphoren (Prinzip nach Dijkstra, Anwendungsarten Synchronisation u. gegenseitiger Ausschluss) </li>\n    <li>Standardproblemstellungen (Produzenten/Konsumenten, Leser/Schreiber, speisende Philosophen) </li>\n    <li>Abstraktion von Semaphoren (bedingte kritische Abschnitte, Monitore und Condition Variable) </li>\n    <li>Deadlock-Problematik </li>\n    <li>Entwurfsmuster f&uuml;r die Parallelprogrammierung</li>\n</ul>\n<h3>Teil 2: Netzwerkprogrammierung</h3>\n<p>&nbsp;</p>\n<ul>\n    <li>Sockets - Grundlagen in C++ und Java&nbsp;</li>\n    <li>Architektur und Patterns f&uuml;r verteilte Prozesssysteme mit Sockets <br /><br /></li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 10540,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        },
+        {
+          "id": 10541,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Parallel- und Netzwerkprogrammierung"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Parallel and Network Programming"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10229,
+      "bezeichnung": "Software Engineering",
+      "kuerzel": "SE",
+      "url": "allStudies/10229_SE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 10015,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10015_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 541091,
+      "name": "Bläser",
+      "vorname": "Luc"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 15687,
+      "kuerzel": "M_Prog1",
+      "bezeichnung": "Programmieren 1: Programmieren mit Java",
+      "url": "allModules/15687_M_Prog1.json"
+    },
+    {
+      "id": 16763,
+      "kuerzel": "M_Bsys1",
+      "bezeichnung": "Betriebssysteme 1",
+      "url": "allModules/16763_M_Bsys1.json"
+    },
+    {
+      "id": 22232,
+      "kuerzel": "M_Prog3",
+      "bezeichnung": "Programmieren 3: C++11",
+      "url": "allModules/22232_M_Prog3.json"
+    },
+    {
+      "id": 22288,
+      "kuerzel": "M_AD",
+      "bezeichnung": "Programmieren 2: Algorithmen und Datenstrukturen",
+      "url": "allModules/22288_M_AD.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 11031,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Aktive Teilnahme an mindestens 75 % der Uebungen und erfolgreiche Abgabe einzelner Uebungsl&ouml;sungen</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Parallel- und Netzwerkprogrammierung"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Parallel and Network Programming"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2013,
+    "endSemester": "FS"
+  },
+  "nachfolger": {
+    "id": 11031,
+    "kuerzel": "M_PnProg",
+    "bezeichnung": "Parallel- und Netzwerkprogrammierung",
+    "url": "allModules/11031_M_PnProg.json"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "id": 12343,
+  "kuerzel": "M_DAB",
+  "bezeichnung": "Diplomarbeit Bauingenieurwesen",
+  "kreditpunkte": 20,
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 12267,
+      "kuerzel": "DAB",
+      "bezeichnung": "Diplomarbeit Bauingenieurwesen",
+      "kurselemente": [
+        {
+          "id": 12311,
+          "art": "Diplomarbeit",
+          "anzLektionen": 20,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Diplomarbeit Bauingenieurwesen"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Diploma Thesis Civil Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10011,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10011_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10076,
+          "kuerzel": "B-DA",
+          "bezeichnung": "Diplomarbeit Bauingenieurwesen",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 10017,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10017_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10070,
+          "kuerzel": "K_DAB_U01",
+          "bezeichnung": "Diplomarbeit Bauingenieurwesen  (Übergang)",
+          "kreditpunkte": 20
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1031,
+      "name": "Speerli",
+      "vorname": "Jürg"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Diplomarbeit Bauingenieurwesen"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Diploma Thesis Civil Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2010,
+    "endSemester": "HS"
+  }
+}

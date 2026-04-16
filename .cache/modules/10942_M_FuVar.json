@@ -1,0 +1,383 @@
+{
+  "id": 10942,
+  "kuerzel": "M_FuVar",
+  "bezeichnung": "Funktionen mehrerer Variablen",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n<li>Kenntnisse aneignen und anwenden k&ouml;nnen bei Grundbegriffen wie Ableitungen, Differential, Integralen und Taylor-Approximation sowie bei h&auml;ufig angewendeten Theoremen f&uuml;r reelle Funktionen in mehreren Variablen.</li>\n<li>Mathematische Formulierungen verstehen und Berechnungen durchf&uuml;hren k&ouml;nnen in technischen Anwendungen bis hin zu den&nbsp; Maxwell-Gleichungen im Elektromagnetismus oder der Support Vector Machine im maschinellen Lernen.&nbsp;</li>\n</ul>",
+  "vorausgKenntnisse": "",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 10021,
+      "kuerzel": "FuVar",
+      "bezeichnung": "Funktionen mehrerer Variablen",
+      "lernziele": "<ul>\n<li>Kenntnisse aneignen und anwenden k&ouml;nnen bei Grundbegriffen wie Ableitungen, Differential, Integralen und Taylor-Approximation sowie bei h&auml;ufig angewendeten Theoremen f&uuml;r reelle Funktionen in mehreren Variablen.</li>\n<li>Mathematische Formulierungen verstehen und Berechnungen durchf&uuml;hren k&ouml;nnen in technischen Anwendungen bis hin zu den Maxwell-Gleichungen im Elektromagnetismus oder der Support Vector Machine im maschinellen Lernen.&nbsp;</li>\n</ul>",
+      "planinhalt": "<ul>\n<li>Ableitungen in mehreren Dimensionen: &nbsp;Partielle Ableitungen, das totale Differential, Gradient, Richtungsableitung, Volumenableitung, Fl&auml;chenableitung, h&ouml;here Ableitungen und Hesse-Matrix, Jacobi-Matrix und &ndash; Determinante &hellip;</li>\n<li>Extremalwertberechnungen mit mehreren Variablen: Station&auml;rbedingugen, Nebenbedingungen, Lagrange-Funktion und - multiplikatoren, Dualit&auml;t ...</li>\n<li>Multi-variate Taylor-Approximation</li>\n<li>Operationen der Vektoranalysis: Gradient bzw. Nabla, Divergenz, Laplace, Rotation, D'Alembert &hellip;</li>\n<li>Felder: Skalare Felder, Vektor &ndash; oder Pseudovektorfelder, Feldlinien, Gradientenfeld, Quellenfreiheit, Rotationsfreiheit &hellip;</li>\n<li>Integration in mehreren Variablen: Kurvenintegrale, Oberfl&auml;chenintegrale, Volumenintegrale, Mehrfachintegrale 1. und 2. Art, L&auml;ngen -, Fl&auml;chen - und Volumenelemente (skalar oder vektoriell) ...</li>\n<li>Integrals&auml;tze der Vektoranalysis: Integralsatz von Gauss, Stokes, Integrals&auml;tze von Green, Integration bei (zeit-)variablem Bereich und Integrals&auml;tze von Leibniz, Faraday sowie Transportsatz von Reynolds ...</li>\n<li>Koordinaten: Cartesische Koordinaten, Zylinderkoordinaten, sph&auml;rische Koordinaten, Koordinatenwechsel und Jacobi-Determinante, koordinatenfreie Darstellungen, 1. metrischer Tensor (Fundamentalform), L&auml;ngen - und Fl&auml;chenberechnungen, Verzerrungsberechnungen</li>\n<li>Zahlreiche Anwendungen aus Engineering, Physik, maschinellem Lernen ... inklusive partiellen Differentialgleichungen</li>\n</ul>",
+      "bibliographie": "<ul>\n<li>Basis-Skript und erg&auml;nzende Unterlagen mit Anwendungen, Basis-&Uuml;bungen und Anwendungs&uuml;bungen</li>\n<li>Taschenbuch der Mathematik, I. N. Bronstein et al., Harri Deutsch Verlag, Europa Lehrmittel</li>\n<li>Schaum's Outline of Vector Analysis, M. Spiegel, S. Lipschutz, McGraw Hill</li>\n<li>Schaum's Outline of Electromagnetics, M. Nahvi, J. A. Edminister, McGraw Hill</li>\n<li>Mathematik f&uuml;r Ingenieure und Naturwissenschaftler, L. Papula, B&auml;nde 2, 3, Springer Verlag</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 10435,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 36,
+          "harteGrenze": true
+        },
+        {
+          "id": 10436,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Funktionen mehrerer Variablen"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Functions of Several Variables"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10004_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10009,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10009_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10010,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10010_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10110,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10110_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10191,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10191_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10198,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10198_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10009,
+          "kuerzel": "I-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10246,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10246_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10139,
+          "kuerzel": "Kat_MaPh",
+          "bezeichnung": "Mathematik und Physik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10263_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4,
+      "kategorien": [
+        {
+          "id": 10000,
+          "kuerzel": "E-et",
+          "bezeichnung": "Technik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10003,
+          "kuerzel": "E-m",
+          "bezeichnung": "Mathematik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10016,
+      "bezeichnung": "Elektrotechnik",
+      "kuerzel": "E",
+      "url": "allStudies/10016_E.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 4
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 529048,
+      "name": "Zgraggen",
+      "vorname": "Bernhard"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 10937,
+      "kuerzel": "M_LinAlg",
+      "bezeichnung": "Lineare Algebra: Einführung",
+      "url": "allModules/10937_M_LinAlg.json"
+    },
+    {
+      "id": 25634,
+      "kuerzel": "M_An1aE",
+      "bezeichnung": "Analysis 1a für Elektrotechnik",
+      "url": "allModules/25634_M_An1aE.json"
+    },
+    {
+      "id": 25648,
+      "kuerzel": "M_An1bE",
+      "bezeichnung": "Analysis 1b für Elektrotechnik",
+      "url": "allModules/25648_M_An1bE.json"
+    },
+    {
+      "id": 25652,
+      "kuerzel": "M_An2aE",
+      "bezeichnung": "Analysis 2a für Elektrotechnik",
+      "url": "allModules/25652_M_An2aE.json"
+    },
+    {
+      "id": 25657,
+      "kuerzel": "M_An2bE",
+      "bezeichnung": "Analysis 2b für Elektrotechnik",
+      "url": "allModules/25657_M_An2bE.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 10942,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Funktionen mehrerer Variablen"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Functions of Several Variables"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 4,
+    "beginJahr": 2006,
+    "beginSemester": "SS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  }
+}

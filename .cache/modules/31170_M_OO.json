@@ -1,0 +1,183 @@
+{
+  "id": 31170,
+  "kuerzel": "M_OO",
+  "bezeichnung": "Objektorientierte Programmierung",
+  "kreditpunkte": 6,
+  "lernziele": "<p>Systematisch objekt-orientiert in Java programmieren k&ouml;nnen:</p><ul><li>Die Grundlagen der objektorientierten Programmierung kennen und verstehen.</li><li>Die Konzepte der Java Programmiersprache verstehen und anwenden k&ouml;nnen.</li><li>Programme entwerfen, in Java entwickeln und verifizieren k&ouml;nnen.</li><li>Vorgegebene kleinere Problemstellungen mit eigenen Programmen l&ouml;sen k&ouml;nnen.</li></ul>",
+  "vorausgKenntnisse": "gem&auml;ss obligatorischer Vorkenntnisse / Einf&uuml;hrungskurs &quot;Programmieren mit Java&quot;",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 31171,
+      "kuerzel": "OO",
+      "bezeichnung": "OO Programmieren mit Java",
+      "planinhalt": "<p>Imperative Programmierung:</p><ul><li>Ausdr&uuml;cke</li><li>Statements</li><li>Datentypen</li><li>Referenzen</li></ul><p>Prozedurales Programmieren:</p><ul><li>Methoden</li><li>Rekursion</li><li>Overloading&nbsp;</li></ul><p>Objektorientiertes Programmieren:</p><ul><li>Klassen und Objekte</li><li>Vererbung und Interfaces</li><li>Typ-Polymorphismus, Dynamic Dispatch</li><li>Garbage Collection</li></ul><p>Fortgeschrittene Sprachkonzepte:</p><ul><li>Exception Handling</li><li>Lambdas</li><li>Generics</li><li>Reflection</li></ul><p>Packages und Module<br />&nbsp;</p><p>Elementare APIs:</p><ul><li>Collections</li><li>Stream API</li><li>Input/Output</li></ul><p>Software Disziplinen:</p><ul><li>Testen</li><li>Design</li><li>Stil</li></ul><p>Mit den jeweils neuesten Java-Technologien und Tools.</p>",
+      "kurselemente": [
+        {
+          "id": 31172,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 126,
+          "harteGrenze": true
+        },
+        {
+          "id": 31173,
+          "art": "Uebung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "OO Programmieren mit Java"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Programming in JAVA"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10003,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10003_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10055,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10055_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10105,
+      "bezeichnung": "Informatik",
+      "kuerzel": "I",
+      "url": "allStudies/10105_I.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10137,
+          "kuerzel": "Kat_RA",
+          "bezeichnung": "Rahmenausbildung",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10140,
+          "kuerzel": "I_Inf",
+          "bezeichnung": "Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 10226,
+      "bezeichnung": "Informatik Retro",
+      "kuerzel": "I",
+      "url": "allStudies/10226_I.json",
+      "typ": "Basis",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10007,
+          "kuerzel": "I-g",
+          "bezeichnung": "Grundlagen Informatik",
+          "kreditpunkte": 6
+        },
+        {
+          "id": 10131,
+          "kuerzel": "I-gai",
+          "bezeichnung": "Grundlagen Informatik und Aufbau Informatik",
+          "kreditpunkte": 6
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 102555,
+      "name": "Stocker",
+      "vorname": "Mirko"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 31170,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Bestehen der Testatbedingungen; d.h. mehrere erfolgreich bestandene Testat-&Uuml;bungsserien.</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Objektorientierte Programmierung"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Object-Oriented Programming"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2018,
+    "beginSemester": "HS",
+    "endJahr": 2020,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 24499,
+    "kuerzel": "M_OO",
+    "bezeichnung": "Objektorientierte Programmierung",
+    "url": "allModules/24499_M_OO.json"
+  }
+}

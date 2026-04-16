@@ -1,0 +1,150 @@
+{
+  "id": 10994,
+  "kuerzel": "M_MaTechM1",
+  "bezeichnung": "Materialtechnologie 1 (M)",
+  "kreditpunkte": 4,
+  "lernziele": "<p>Kenntnisse: <br />- des Grundaufbaus der verschiedenen Werkstoffearten <br />- Grundeigenschaften im &Uuml;berblick der verschiedenen Werkstoffarten <br />- Selbst&auml;ndiges Durchf&uuml;hren der wichtigsten mechanischen Werkstoffpr&uuml;fungen:&nbsp;<br />&nbsp; der wichtigsten Eigenschaften der Werkstoffarten <br />&nbsp; der W&auml;rmebehandlung der St&auml;hle&nbsp;</p>\n<p>Kompetenz:<br />F&auml;higkeit einer sachbezogenen Werkstoffwahl </p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 10085,
+      "kuerzel": "Werkst1",
+      "bezeichnung": "Werkstoffkunde 1",
+      "lernziele": "<p>Kenntnisse:<br />- des Aufbaus der verschiedenen Werkstoffarten<br />- Eigennschaften im &Uuml;berblick der verschiedenen Werkstoffarten<br />- Selbst&auml;ndiges Durchf&uuml;hren der wichtigsten mechanischen Werkstoffpr&uuml;fungen:<br />&nbsp; der wichtigsten Eigenschaften der Metalle&nbsp;<br />&nbsp; der W&auml;rmebehandlung der St&auml;hle <br />- wichtiger Oberfl&auml;chenbehandlungen metallischer WErkstoffe<br />- zur Schadensanalytik: Korrosion, Verschleiss- und Bruchmechanismen<br /></p>",
+      "planinhalt": "<p>Struktureller Aufbau der Werkstoffe<br />Legierungskunde der Metalle</p>\n<p>Verhalten und Eigenschaften der verschiedenen Metalle<br />Mechanische Eigenschaften und mechanische Werkstoffpr&uuml;fung<br />St&auml;hle / Nichteisenmetalle<br />Spezifische Verarbeitungsmerkmale der metallischen Werkstoffe<br />Oberfl&auml;chenbehandlung metallischer Werkstoffe<br />Schadensanalyse, Schadensmechanismen, Schadenverh&uuml;tung</p>",
+      "kurselemente": [
+        {
+          "id": 10469,
+          "art": "Vorlesung",
+          "anzLektionen": 3,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 12423,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Werkstoffkunde 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Materials Science 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10001,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10001_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 527138,
+      "name": "Henne",
+      "vorname": "Markus"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 10994,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Materialtechnologie 1 (M)"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Materials Technology 1 (M)"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2006,
+    "endSemester": "WS"
+  },
+  "nachfolger": {
+    "id": 10994,
+    "kuerzel": "M_MaTechM1",
+    "bezeichnung": "Materialtechnologie 1 (M)",
+    "url": "allModules/10994_M_MaTechM1.json"
+  }
+}

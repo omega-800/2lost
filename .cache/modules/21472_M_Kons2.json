@@ -1,0 +1,185 @@
+{
+  "id": 21472,
+  "kuerzel": "M_Kons2",
+  "bezeichnung": "Konstruktion 2",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n    <li>Kenntnis der Berechnungsmodelle zur Gew&auml;hrleistung von Tragsicherheit und Gebrauchstauglichkeit von Bauteilen aus Stahl und Stahlbeton </li>\n    <li>Kompetenz in der Wahl der zutreffenden Berechnungsannahmen und der geeigneten statischen Modelle </li>\n    <li>&Uuml;berblick &uuml;ber die einschl&auml;gigen Normen </li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 21476,
+      "kuerzel": "StBau1",
+      "bezeichnung": "Stahlbau 1",
+      "lernziele": "<ul>\n    <li>F&auml;higkeit zur Bemessung von Walzprofilen&nbsp;und Verbindungsmitteln&nbsp;unter Ber&uuml;cksichtigung der Tragsicherheit und der Gebrauchstauglichkeit </li>\n</ul>",
+      "planinhalt": "<ul>\n    <li>Entwurf und Bemessung von Verbindungen</li>\n    <li>Zentrisches Knicken</li>\n    <li>Druck mit Biegung&nbsp;</li>\n    <li>Walzerzeugnisse aus Stahl </li>\n    <li>Grundlagen der Bemessung im Stahlbau </li>\n    <li>Querschnittswiderstand </li>\n    <li>Bemessung von Bauteilen aus Walzprofilen </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 21477,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Stahlbau 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Steel Construction 1"
+        }
+      ]
+    },
+    {
+      "id": 21479,
+      "kuerzel": "StBeton2",
+      "bezeichnung": "Stahlbeton 2",
+      "lernziele": "<p>&#8226; F&#228;higkeit zur Bemessung von Stahlbetonbauteilen unter besonderer Ber&#252;cksichtigung statischer, konstruktiver und ausf&#252;hrungstechnischer Aspekte</p>",
+      "planinhalt": "<ul>\n    <li>Entwurf, statische Berechnung, konstruktive Durchbildung und Gestaltung der Bewehrung von typischen Bauteilen des Massivbaus (Balken und St&uuml;tzen) </li>\n    <li>Gebrauchstauglichkeit: Berechnungsmodelle, Bemessung und Nachweise zur Begrenzung der Rissbreiten und Durchbiegungen </li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 21480,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Stahlbeton 2"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Reinforced Concrete 2"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10005,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10005_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10109,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10109_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10131,
+      "bezeichnung": "Bauingenieurwesen",
+      "kuerzel": "B",
+      "url": "allStudies/10131_B.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10029,
+          "kuerzel": "B-gab",
+          "bezeichnung": "Grundlagen und Aufbau Bauingenieurwesen",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 541724,
+      "name": "Stürwald",
+      "vorname": "Simone"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 10943,
+      "kuerzel": "M_Baustat2",
+      "bezeichnung": "Baustatik 2",
+      "url": "allModules/10943_M_Baustat2.json"
+    },
+    {
+      "id": 11056,
+      "kuerzel": "M_Konstr1",
+      "bezeichnung": "Konstruktion 1",
+      "url": "allModules/11056_M_Konstr1.json"
+    },
+    {
+      "id": 19714,
+      "kuerzel": "M_Baustoff2",
+      "bezeichnung": "Baustoffe 2",
+      "url": "allModules/19714_M_Baustoff2.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 21472,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 180,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Konstruktion 2"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Structural Engineering 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2011,
+    "beginSemester": "HS",
+    "endJahr": 2015,
+    "endSemester": "HS"
+  }
+}

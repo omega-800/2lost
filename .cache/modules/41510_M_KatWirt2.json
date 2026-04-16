@@ -1,0 +1,93 @@
+{
+  "id": 41510,
+  "kuerzel": "M_KatWirt2",
+  "bezeichnung": "Wirtschaftskompetenzen 2",
+  "kreditpunkte": 4,
+  "vorausgKenntnisse": "Anrechnung von ECTS aus anderen FachHochschulen",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 41511,
+      "kuerzel": "k_katwirt2",
+      "bezeichnung": "Wirtschaftskompetenzen",
+      "kurselemente": [
+        {
+          "id": 41512,
+          "art": "Blockkurs",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Wirtschaftskompetenzen"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10151,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10151_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10120,
+          "kuerzel": "W-WK",
+          "bezeichnung": "Wirtschaftskompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10169,
+      "bezeichnung": "Wirtschaftsingenieurwesen",
+      "kuerzel": "WING",
+      "url": "allStudies/10169_WING.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10120,
+          "kuerzel": "W-WK",
+          "bezeichnung": "Wirtschaftskompetenzen",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 540086,
+      "name": "Keller",
+      "vorname": "Daniel F."
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Wirtschaftskompetenzen 2"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch"
+}

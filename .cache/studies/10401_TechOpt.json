@@ -1,0 +1,35 @@
+{
+  "id": 10401,
+  "kuerzel": "TechOpt",
+  "bezeichnung": "Technische Optik",
+  "versionKuerzel": "STD_05",
+  "art": "Anwendungsschwerpunkt",
+  "parent": {
+    "id": 10281,
+    "kuerzel": "ST_BB",
+    "bezeichnung": "Systemtechnik BB",
+    "url": "allStudies/10281_ST_BB.json"
+  },
+  "zuordnungen": [
+    {
+      "id": 54751,
+      "kuerzel": "M_BA",
+      "bezeichnung": "Bachelor-Arbeit",
+      "url": "allModules/54751_M_BA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    },
+    {
+      "id": 54761,
+      "kuerzel": "M_FM",
+      "bezeichnung": "Fachmodul",
+      "url": "allModules/54761_M_FM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ]
+}

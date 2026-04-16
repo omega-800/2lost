@@ -1,0 +1,125 @@
+{
+  "id": 16451,
+  "kuerzel": "U_CAM",
+  "bezeichnung": "CAM / Produktionstechnik - Übergangsmodul SS07",
+  "kreditpunkte": 2,
+  "lernziele": "<p>Grundkenntnisse, &Uuml;berblick &uuml;ber CNC - Fertigungsverfahren. Vertiefung im Bereich Fr&auml;sen durch praktische Arbeit am System.</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 16452,
+      "kuerzel": "uCAM",
+      "bezeichnung": "CAM / Produktionstechnik - Uebergangsmodul SS07",
+      "planinhalt": "<p>CNC Grundlagen:<br />- Grundlagen, Steuerungsaufbau<br />- Achsantriebe, Messeinrichtungen<br />- F&uuml;hrungen<br />- Schutzeinrichtungen<br />- Einbindung, Anbindung an Verwaltungssysteme</p>\n<p>Fr&auml;sen / Drehen:<br />- Achsanordnungen, Aufbau, F&uuml;hrungen, spezielle Kinematiken<br />- 2.5D / 3D<br />- Mehrachsenfr&auml;sen<br />- Peripherie<br />- Fr&auml;stechnologie / Fr&auml;serwerkstoffe /&nbsp;HSC Fr&auml;sen / konventionelles Fr&auml;sen<br />- Drehtechnologien<br />- Bearbeitungszentren</p>\n<p>Blechbearbeitung:<br />- Schneiden, Stanzen, Pressen, Biegen, Kanten</p>\n<p>Roboter:<br />- Montage, Fertigungsstrassen, Schweissen, Pr&uuml;fen</p>\n<p>Andere Verfahren: &Uuml;berblick</p>",
+      "kurselemente": [
+        {
+          "id": 16453,
+          "art": "Vorlesung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 72,
+          "harteGrenze": true
+        },
+        {
+          "id": 16454,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "CAM / Produktionstechnik - Uebergangsmodul SS07"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "CAM / Production Engineering - Bridging Module SS07"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10013,
+          "kuerzel": "M-mt",
+          "bezeichnung": "Maschinentechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10089,
+          "kuerzel": "M-mmn",
+          "bezeichnung": "Maschinentechnik, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9988,
+      "name": "ZZZ Dozent LB",
+      "vorname": "Planung"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 16451,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": false,
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "CAM / Produktionstechnik - Übergangsmodul SS07"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "CAM / Production Engineering - Bridging Module SS07"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2007,
+    "beginSemester": "SS",
+    "endJahr": 2007,
+    "endSemester": "SS"
+  }
+}

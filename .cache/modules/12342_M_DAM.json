@@ -1,0 +1,109 @@
+{
+  "id": 12342,
+  "kuerzel": "M_DAM",
+  "bezeichnung": "Diplomarbeit Maschinentechnik",
+  "kreditpunkte": 20,
+  "lernziele": "<p>Der angehende FH Ingenieur Maschinentechnik HSR setzt die im Studium erworbenen F&#228;higkeiten und Kenntnisse an einer aktuellen, <br />praxisentsprechenden Problemstellung um. Er erarbeitet und pr&#228;sentiert ein Resultat, das seine Bef&#228;higung zum berufsgerechten Arbeiten belegt.</p>",
+  "vorausgKenntnisse": "<p>bestandene Module bis und mit 6. Semester gem&#228;ss einem Musterstudienplan bzw. abgesprochener individueller Vertiefung</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 12268,
+      "kuerzel": "DAM",
+      "bezeichnung": "Diplomarbeit Maschinentechnik",
+      "kurselemente": [
+        {
+          "id": 12312,
+          "art": "Diplomarbeit",
+          "anzLektionen": 20,
+          "maxTeilnehmer": 999,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Diplomarbeit Maschinentechnik"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Diploma Thesis Mechanical Engineering"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10007,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10007_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10080,
+          "kuerzel": "M-DA",
+          "bezeichnung": "Diplomarbeit Maschinentechnik",
+          "kreditpunkte": 20
+        }
+      ]
+    },
+    {
+      "id": 10013,
+      "bezeichnung": "Maschinentechnik",
+      "kuerzel": "M",
+      "url": "allStudies/10013_M.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": true,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 7,
+      "kategorien": [
+        {
+          "id": 10074,
+          "kuerzel": "K_DAM_U01",
+          "bezeichnung": "Diplomarbeit Maschinentechnik  (Übergang)",
+          "kreditpunkte": 20
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 1261,
+      "name": "Gysin",
+      "vorname": "Hanspeter"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Diplomarbeit Maschinentechnik"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Diploma Thesis Mechanical Engineering"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2005,
+    "beginSemester": "WS",
+    "endJahr": 2010,
+    "endSemester": "HS"
+  }
+}

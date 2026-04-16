@@ -1,0 +1,597 @@
+{
+  "id": 10477,
+  "kuerzel": "MScWINF",
+  "bezeichnung": "MSc Wirtschaftsinformatik",
+  "versionKuerzel": "STD_23",
+  "typ": "Master",
+  "art": "Studiengang",
+  "form": "Teilzeit",
+  "kredits": [
+    {
+      "id": 11053,
+      "minKredits": 45,
+      "kategorien": [
+        {
+          "id": 10200,
+          "kuerzel": "MScWINF_KM",
+          "bezeichnung": "Kernmodule"
+        }
+      ]
+    },
+    {
+      "id": 11054,
+      "minKredits": 15,
+      "kategorien": [
+        {
+          "id": 10201,
+          "kuerzel": "MScWINF_PM",
+          "bezeichnung": "Profilbildende Module"
+        }
+      ]
+    },
+    {
+      "id": 11055,
+      "minKredits": 30,
+      "kategorien": [
+        {
+          "id": 10202,
+          "kuerzel": "MScWINF_AM",
+          "bezeichnung": "Anwendungsmodule"
+        }
+      ]
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3702,
+      "bezeichnung": "MSc Business lnformation Technology"
+    }
+  ],
+  "studienberater": {
+    "id": 33643,
+    "name": "Thiel",
+    "vorname": "Christian"
+  },
+  "zuordnungen": [
+    {
+      "id": 60277,
+      "kuerzel": "M_mwinf.AFE1",
+      "bezeichnung": "aF&E - Fälle und Übungen",
+      "url": "allModules/60277_M_mwinf.AFE1.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10202,
+          "kuerzel": "MScWINF_AM",
+          "bezeichnung": "Anwendungsmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 60274,
+      "kuerzel": "M_mwinf.AFE2",
+      "bezeichnung": "aF&E - Projekte",
+      "url": "allModules/60274_M_mwinf.AFE2.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10202,
+          "kuerzel": "MScWINF_AM",
+          "bezeichnung": "Anwendungsmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 60283,
+      "kuerzel": "M_mwinf.ARTI",
+      "bezeichnung": "Artifacts in Information Technology",
+      "url": "allModules/60283_M_mwinf.ARTI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10201,
+          "kuerzel": "MScWINF_PM",
+          "bezeichnung": "Profilbildende Module",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 60259,
+      "kuerzel": "M_mwinf.BINA",
+      "bezeichnung": "Business Intelligence & Analytics",
+      "url": "allModules/60259_M_mwinf.BINA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10200,
+          "kuerzel": "MScWINF_KM",
+          "bezeichnung": "Kernmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 60262,
+      "kuerzel": "M_mwinf.BPPM",
+      "bezeichnung": "Business Process Performance Management",
+      "url": "allModules/60262_M_mwinf.BPPM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10200,
+          "kuerzel": "MScWINF_KM",
+          "bezeichnung": "Kernmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 60202,
+      "kuerzel": "M_mwinf.CONS",
+      "bezeichnung": "Consulting",
+      "url": "allModules/60202_M_mwinf.CONS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10201,
+          "kuerzel": "MScWINF_PM",
+          "bezeichnung": "Profilbildende Module",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 60229,
+      "kuerzel": "M_mwinf.DSCI",
+      "bezeichnung": "Data Science",
+      "url": "allModules/60229_M_mwinf.DSCI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10200,
+          "kuerzel": "MScWINF_KM",
+          "bezeichnung": "Kernmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 60211,
+      "kuerzel": "M_mwinf.DABA",
+      "bezeichnung": "Datenbanken & Datenbankabfragesprachen",
+      "url": "allModules/60211_M_mwinf.DABA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10201,
+          "kuerzel": "MScWINF_PM",
+          "bezeichnung": "Profilbildende Module",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 60214,
+      "kuerzel": "M_mwinf.DECO",
+      "bezeichnung": "Digital Ecosystems",
+      "url": "allModules/60214_M_mwinf.DECO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10200,
+          "kuerzel": "MScWINF_KM",
+          "bezeichnung": "Kernmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 60223,
+      "kuerzel": "M_mwinf.DIFA",
+      "bezeichnung": "Digital Finance - Anwendungen & Technologien",
+      "url": "allModules/60223_M_mwinf.DIFA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10201,
+          "kuerzel": "MScWINF_PM",
+          "bezeichnung": "Profilbildende Module",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 60247,
+      "kuerzel": "M_mwinf.DIFG",
+      "bezeichnung": "Digital Finance - Grundlagen",
+      "url": "allModules/60247_M_mwinf.DIFG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10201,
+          "kuerzel": "MScWINF_PM",
+          "bezeichnung": "Profilbildende Module",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 60226,
+      "kuerzel": "M_mwinf.DIHA",
+      "bezeichnung": "Digital Health - Anwendungen & Technologien",
+      "url": "allModules/60226_M_mwinf.DIHA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10201,
+          "kuerzel": "MScWINF_PM",
+          "bezeichnung": "Profilbildende Module",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 60250,
+      "kuerzel": "M_mwinf.DIHG",
+      "bezeichnung": "Digital Health - Grundlagen",
+      "url": "allModules/60250_M_mwinf.DIHG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10201,
+          "kuerzel": "MScWINF_PM",
+          "bezeichnung": "Profilbildende Module",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 60220,
+      "kuerzel": "M_mwinf.DIMA",
+      "bezeichnung": "Digital Manufacturing - Anwendungen & Technologien",
+      "url": "allModules/60220_M_mwinf.DIMA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10201,
+          "kuerzel": "MScWINF_PM",
+          "bezeichnung": "Profilbildende Module",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 60244,
+      "kuerzel": "M_mwinf.DIMG",
+      "bezeichnung": "Digital Manufacturing - Grundlagen",
+      "url": "allModules/60244_M_mwinf.DIMG.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10201,
+          "kuerzel": "MScWINF_PM",
+          "bezeichnung": "Profilbildende Module",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 60268,
+      "kuerzel": "M_mwinf.DTRA",
+      "bezeichnung": "Digitale Transformation: Prinzipien & Techniken",
+      "url": "allModules/60268_M_mwinf.DTRA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10200,
+          "kuerzel": "MScWINF_KM",
+          "bezeichnung": "Kernmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 60238,
+      "kuerzel": "M_mwinf.HUCI",
+      "bezeichnung": "HCI - Human Computer Interaction",
+      "url": "allModules/60238_M_mwinf.HUCI.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10201,
+          "kuerzel": "MScWINF_PM",
+          "bezeichnung": "Profilbildende Module",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 60208,
+      "kuerzel": "M_mwinf.GORC",
+      "bezeichnung": "IT Governance, Risk and Compliance",
+      "url": "allModules/60208_M_mwinf.GORC.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10200,
+          "kuerzel": "MScWINF_KM",
+          "bezeichnung": "Kernmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 60232,
+      "kuerzel": "M_mwinf.ISMA",
+      "bezeichnung": "IT Security Management",
+      "url": "allModules/60232_M_mwinf.ISMA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10200,
+          "kuerzel": "MScWINF_KM",
+          "bezeichnung": "Kernmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 60280,
+      "kuerzel": "M_mwinf.ITMA",
+      "bezeichnung": "IT-Management",
+      "url": "allModules/60280_M_mwinf.ITMA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10200,
+          "kuerzel": "MScWINF_KM",
+          "bezeichnung": "Kernmodule",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 60265,
+      "kuerzel": "M_mwinf.KETE",
+      "bezeichnung": "Key Technologies",
+      "url": "allModules/60265_M_mwinf.KETE.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10200,
+          "kuerzel": "MScWINF_KM",
+          "bezeichnung": "Kernmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 60205,
+      "kuerzel": "M_mwinf.LCCD",
+      "bezeichnung": "Low Code & Citizen Development",
+      "url": "allModules/60205_M_mwinf.LCCD.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10201,
+          "kuerzel": "MScWINF_PM",
+          "bezeichnung": "Profilbildende Module",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 60286,
+      "kuerzel": "M_mwinf.MATH",
+      "bezeichnung": "Masterarbeit",
+      "url": "allModules/60286_M_mwinf.MATH.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10202,
+          "kuerzel": "MScWINF_AM",
+          "bezeichnung": "Anwendungsmodule",
+          "kreditpunkte": 12
+        }
+      ]
+    },
+    {
+      "id": 60235,
+      "kuerzel": "M_mwinf.NWAO",
+      "bezeichnung": "New Work & Agile Organisation",
+      "url": "allModules/60235_M_mwinf.NWAO.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10201,
+          "kuerzel": "MScWINF_PM",
+          "bezeichnung": "Profilbildende Module",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 60253,
+      "kuerzel": "M_mwinf.PPMA",
+      "bezeichnung": "Programm- und Portfolio-Management",
+      "url": "allModules/60253_M_mwinf.PPMA.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10200,
+          "kuerzel": "MScWINF_KM",
+          "bezeichnung": "Kernmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 60241,
+      "kuerzel": "M_mwinf.RQEM",
+      "bezeichnung": "Requirements Engineering & -Management",
+      "url": "allModules/60241_M_mwinf.RQEM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10201,
+          "kuerzel": "MScWINF_PM",
+          "bezeichnung": "Profilbildende Module",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 60217,
+      "kuerzel": "M_mwinf.SWEN",
+      "bezeichnung": "Softwareentwicklung",
+      "url": "allModules/60217_M_mwinf.SWEN.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10201,
+          "kuerzel": "MScWINF_PM",
+          "bezeichnung": "Profilbildende Module",
+          "kreditpunkte": 6
+        }
+      ]
+    },
+    {
+      "id": 60256,
+      "kuerzel": "M_mwinf.SGPM",
+      "bezeichnung": "Strategisches Geschäftsprozessmanagement",
+      "url": "allModules/60256_M_mwinf.SGPM.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10200,
+          "kuerzel": "MScWINF_KM",
+          "bezeichnung": "Kernmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 60289,
+      "kuerzel": "M_mwinf.VMAT",
+      "bezeichnung": "Vorstudie Masterarbeit",
+      "url": "allModules/60289_M_mwinf.VMAT.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10202,
+          "kuerzel": "MScWINF_AM",
+          "bezeichnung": "Anwendungsmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    },
+    {
+      "id": 60271,
+      "kuerzel": "M_mwinf.WIAS",
+      "bezeichnung": "Wissenschaftliches Arbeiten & Schreiben",
+      "url": "allModules/60271_M_mwinf.WIAS.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": true,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10202,
+          "kuerzel": "MScWINF_AM",
+          "bezeichnung": "Anwendungsmodule",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": 60211,
+  "kuerzel": "M_mwinf.DABA",
+  "bezeichnung": "Datenbanken & Datenbankabfragesprachen",
+  "kreditpunkte": 3,
+  "lernziele": "<p>Datenbanken und ein professioneller Umgang mit Daten sind in der heutigen Zeit in Unternehmen und Verwaltung (wie auch im privaten Umfeld) eine kritische Gesch&auml;ftsf&auml;higkeit. Und f&uuml;r Wirtschaftsinformatiker eine Basiskompetenz f&uuml;r ihr professionelles Wirken.<br>Die Studierenden des MSc WI lernen die notwendige Theorie und die Praxis f&uuml;r eine angemessenen Mitsprachekompetenz.<br>Das Modul ist ausgelegt f&uuml;r Studierende, welche noch keine Kenntnisse in diesem Gebiet haben.</p>",
+  "vorausgKenntnisse": "<p>Requirements Engineering</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 60212,
+      "kuerzel": "mwinf.DABA",
+      "bezeichnung": "Datenbanken & Datenbankabfragesprachen",
+      "kreditpunkte": 0,
+      "lernziele": "<p><strong>Ausgangskompetenzen / Grobziele</strong></p>\n<p>Die Studierenden&hellip;</p>\n<ul>\n<li>Haben Mitsprachekompetenz im Kontext von Datenbanken, DB-Management und Informationsgewinnung aus DBs.<br><br></li>\n</ul>\n<p><strong>Fachkompetenz</strong></p>\n<p>Die Studierenden&hellip;</p>\n<ul>\n<li>Kennen die Konzepte und die operativen Aufgaben der Datenbankadministration (Metadaten, Transaktionen, Berechtigungen etc.).</li>\n<li>K&ouml;nnen einen (einfachen) Sachverhalt analysieren und Entit&auml;ten korrekt modellieren und korrekt darstellen (normalisiert, ERD).</li>\n<li>K&ouml;nnen ein ERD in einem RDBMs implementieren und mit Daten bef&uuml;llen.</li>\n<li>K&ouml;nnen aus Daten gew&uuml;nschte Informationen gewinnen durch Analyse von unternehmerischen Fragestellung.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Methodenkompetenz</strong></p>\n<p>Die Studierenden&hellip;</p>\n<ul>\n<li>K&ouml;nnen ein ERD methodisch korrekt erstellen.</li>\n<li>K&ouml;nnen Datenmanipulationen und Abfragen in einer relationalen DB mittels einer Abfragesprache (SQL) durchf&uuml;hren.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Sozial- und Selbstkompetenz:</strong></p>\n<p>Die Studierenden&hellip;</p>\n<ul>\n<li>K&ouml;nnen die Sachverhalte und Anforderungen im Bereich Datenmanagement zielpublikumsgerecht kommunizieren.</li>\n</ul>",
+      "planinhalt": "<p>Die Studierenden lernen die Grundlagen f&uuml;r die Modellierung von relationalen Datenbanken und k&ouml;nnen darauf aufbauend konsistente und redundanzfreie Datenmodelle erstellen und in einem g&auml;ngigen RDBMS implementieren.</p>\n<p><br>Im zweiten Teil des Moduls erfolgt eine ausf&uuml;hrliche Einf&uuml;hrung in die Datenbankabfrage, bspw. SQL im Rahmen einer Werkstatt: Struktur und Syntax von SQL, Joins, Funktionen, Prozeduren und Trigger.</p>\n<p><br>Exemplarisch k&ouml;nnen zudem typische Eigenschaften professioneller RDBMS behandelt werden. Exemplarisch k&ouml;nnen non-SQL-Konzepte behandelt werden.</p>",
+      "empfLehrmittel": "<p><strong>Kontaktstudium</strong></p>\n<ul>\n<li>Dialogorientierter Unterricht mit integrierten &Uuml;bungen</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Selbststudium</strong></p>\n<ul>\n<li>Werkstatt, &Uuml;bungen</li>\n</ul>",
+      "bemerkungKurs": "<p>Wird bei Semesterbeginn bekannt gegeben.</p>",
+      "kurselemente": [
+        {
+          "id": 60213,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 99,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Datenbanken & Datenbankabfragesprachen"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10477,
+      "bezeichnung": "MSc Wirtschaftsinformatik",
+      "kuerzel": "MScWINF",
+      "url": "allStudies/10477_MScWINF.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 0,
+      "kategorien": [
+        {
+          "id": 10201,
+          "kuerzel": "MScWINF_PM",
+          "bezeichnung": "Profilbildende Module",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 9989,
+      "name": "ZZZ Dozent HL",
+      "vorname": "Planung"
+    }
+  ],
+  "orte": [
+    {
+      "id": 13,
+      "kuerzel": "SG_SG",
+      "bezeichnung": "St. Gallen (Standard)",
+      "ort": "St. Gallen"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 60211,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 60,
+      "zulassung": false,
+      "bemerkungPruefung": "<p>open book</p>",
+      "prfAbmeldbar": false
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Datenbanken & Datenbankabfragesprachen"
+    }
+  ],
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2027,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  }
+}
