@@ -12,6 +12,8 @@ fn main() {
     let studies = fetch_studies(&study_names);
 }
 
+// TODO: parallelize
+
 fn fetch_to_file(url: &str, path: &Path) -> String {
     println!(
         "fetching {} to {}",
