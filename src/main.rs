@@ -10,10 +10,12 @@ use std::{
 use serde_json::Value;
 
 mod infer_types;
+mod fns;
 mod types;
 
 use crate::{
     infer_types::{common_shape, shape_to_code, value_to_shape},
+    fns::{decode_html, fetch_or_cache},
     types::Studies,
 };
 
@@ -41,7 +43,7 @@ fn scrape() {
     println!("Parsing modules");
     let module_names = parse_modules(&html);
     println!("Fetching modules");
-    let modules = fetch_modules(&module_names);
+    let modules = fetch_modules(&module_names.iter().map(|s| s.as_str()).collect());
     println!("Typegen modules");
     gen_types(&modules, "modules");
 
@@ -77,37 +79,6 @@ fn gen_types(ns: &HashMap<&str, Value>, name: &str) {
                 f.write_all(("use serde::{Deserialize, Serialize};\n\n".to_owned() + &c).as_bytes())
             })
             .unwrap_or_else(|_| println!("Couldn't write {} types", name));
-    }
-}
-
-fn fetch_to_file(url: &str, path: &Path) -> String {
-    println!(
-        "fetching {} to {}",
-        url,
-        path.as_os_str().to_str().unwrap_or("")
-    );
-    // FIXME: encode filename special chars
-    let r = minreq::get(url).send().unwrap();
-    let html = r.as_str().unwrap();
-
-    path.parent()
-        .and_then(|parent| fs::create_dir_all(parent).ok());
-    fs::File::create(path)
-        .and_then(|mut f| f.write_all(html.as_bytes()))
-        .unwrap_or_else(|_| println!("Couldn't cache data"));
-    html.to_string()
-}
-
-fn fetch_or_cache(url: &str, subpath: &str) -> String {
-    let pathstr = "./.cache/".to_owned() + subpath;
-    let path = Path::new(&pathstr);
-    if path.exists()
-        && let Ok(c) = fs::read_to_string(path)
-    {
-        println!("using cached {}", pathstr);
-        c
-    } else {
-        fetch_to_file(url, path)
     }
 }
 
@@ -206,7 +177,7 @@ fn fetch_modules<'a>(module_names: &Vec<&'a str>) -> HashMap<&'a str, Value> {
 
 // without .json
 // 288
-fn parse_modules(html: &str) -> Vec<&str> {
+fn parse_modules(html: &str) -> Vec<String> {
     html.match_indices("href=\"allModules/")
         .filter_map(|(i, _)| {
             let f = i + 17;
@@ -215,7 +186,7 @@ fn parse_modules(html: &str) -> Vec<&str> {
                 && let Some(t) = &h[f..].iter().position(|&b| b == b'"')
                 && let Ok(res) = from_utf8(&h[f..(t + f - 5)])
             {
-                return Some(res);
+                return Some(decode_html(res));
             }
             None
         })
