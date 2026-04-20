@@ -135,8 +135,8 @@ fn genfilter(modules: &[Modules]) -> (String, String) {
             .map(|i| {
                 format!(
                     r#"
-                    #filter_{}_{}:checked ~ .items .item_{}_{} {{
-                        display: block; 
+                    #filter_{}_{}:checked ~ .items .item:not(.item_{}_{}) {{
+                        display: none; 
                     }}
                     "#,
                     filter, i, filter, i
@@ -176,9 +176,13 @@ fn mkbody(css: &str, body: &str) -> String {
             margin: 10px;
             background-color: #f8f8f8;
         }
-        .hidden, .item {
+        .item {
+            display: block;
+        }
+        .hidden {
             display: none;
-        }"#
+        }
+        "#
     .to_string()
         + css
         + "</style><body>"
