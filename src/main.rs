@@ -7,6 +7,7 @@ mod infer_types;
 mod scraper;
 mod types;
 mod vars;
+mod sql;
 
 fn help(pname: &str) {
     println!(
