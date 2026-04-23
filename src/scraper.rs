@@ -2,9 +2,8 @@ use serde_json::Value;
 use std::{collections::HashMap, str::from_utf8};
 
 use crate::{
-    fns::{create_write_file, decode_html, fetch_or_cache},
-    infer_types::{common_shape, shape_to_code, value_to_shape},
-    vars::{BASE_URL, CACHE_PATH, MODULES_PATH, SCRAPED_PATH, STUDIES_PATH, TYPES_PATH},
+    fns::{decode_html, fetch_or_cache},
+    vars::{BASE_URL, MODULES_PATH, SCRAPED_PATH, STUDIES_PATH},
 };
 
 pub fn scrape() {
@@ -15,38 +14,16 @@ pub fn scrape() {
     let module_names = parse_modules(&html);
     println!("Fetching modules");
     let modules = fetch_modules(&module_names.iter().map(|s| s.as_str()).collect());
-    println!("Typegen modules");
-    gen_types(&modules, "modules");
 
     println!("Parsing studies");
     let study_names = parse_studies(&modules);
     println!("Fetching studies");
-    let studies = fetch_studies(&study_names);
-    println!("Typegen studies");
-    gen_types(&studies, "studies");
+    let _ = fetch_studies(&study_names);
 
     println!("Done");
 }
 
 // TODO: parallelize
-
-fn gen_types(ns: &HashMap<&str, Value>, name: &str) {
-    let v = ns.values().collect::<Vec<_>>();
-    let Some((f, r)) = v.split_first() else {
-        return;
-    };
-    let s = r.iter().fold(value_to_shape(f), |acc, c| {
-        common_shape(acc, value_to_shape(c))
-    });
-
-    if let (_, Some(c)) = shape_to_code(name, &s) {
-        create_write_file(
-            &(CACHE_PATH.to_owned() + TYPES_PATH + name + ".rs"),
-            &("use serde::{Deserialize, Serialize};\n\n".to_owned() + &c),
-        )
-        .unwrap_or_else(|_| println!("Couldn't write {} types", name));
-    }
-}
 
 fn fetch_studies<'a>(study_names: &Vec<&'a str>) -> HashMap<&'a str, Value> {
     study_names

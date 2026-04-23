@@ -1,0 +1,189 @@
+{
+  "id": 57697,
+  "kuerzel": "M_EEN",
+  "bezeichnung": "Elektrische Energienetze",
+  "kreditpunkte": 4,
+  "lernziele": "<p>siehe Kursbeschreibung</p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 57698,
+      "kuerzel": "EEN",
+      "bezeichnung": "Elektrische Energienetze",
+      "lernziele": "<p>Kenntnisse &uuml;ber</p>\n<ul>\n<li>Grundlagen Betrieb elektrische Energienetze</li>\n<li>Stabilit&auml;t von Energienetzen und Frequenzregelung sowie Betriebsprinzipien und Herausforderungen von Betrieb von Stromnetzen</li>\n<li>Ursprung von Netzausf&auml;llen, die Folgen, Vorbeugungs- und Wiederherstellungmassnahmen</li>\n<li>Spezielle aktuelle Herausforderungen und Trends in &Uuml;bertragungs- und Verteilungssystemen&nbsp;</li>\n</ul>",
+      "planinhalt": "<p>1. Einleitung</p>\n<p>a) &Uuml;bersicht und Grundlagen &uuml;ber elektrische Energienetze</p>\n<p>b) Beschreibung und Berechnung des Netzes mit symmetrischen Komponenten (Mitsystem, Gegensystem, Nullsystem)</p>\n<p>c) Frequenzregelung &nbsp;</p>\n<p>&nbsp;</p>\n<p>2. Netzberechnungen</p>\n<p>a) Netzanalysen von Fehlern (Transiente Spannungen (Schalt und Blitzstoss), Kurzschl&uuml;sse)</p>\n<p>b) Lastflussberechnungen &nbsp;</p>\n<p>&nbsp;</p>\n<p>3. Netzstabilit&auml;t</p>\n<p>a) Spannungsstabilit&auml;t</p>\n<p>b) &Uuml;bertragungskapazit&auml;t</p>\n<p>c) Tr&auml;gheit des elektrischen Energienetzes</p>\n<p>d) Regelleistung</p>\n<p>e) Speicher &nbsp;</p>\n<p>&nbsp;</p>\n<p>4. Zuk&uuml;nftige Technologien und Herausforderungen</p>\n<p>a) Smart Grid</p>\n<p>b) Energy Transistion: Neue Herausforderungen f&uuml;r das bestehende Energienetz: Vertikale Lastfl&uuml;sse, grosse und schnelle Lastwechsel, weniger mechanische Tr&auml;gheit im Energiesystem</p>\n<p>c) Virtuelle Kraftwerke</p>\n<p>d) Netzausbau&nbsp;</p>",
+      "kurselemente": [
+        {
+          "id": 57699,
+          "art": "Praktikum",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 12,
+          "harteGrenze": true
+        },
+        {
+          "id": 57700,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 108,
+          "harteGrenze": true
+        },
+        {
+          "id": 57701,
+          "art": "Uebung",
+          "anzLektionen": 1,
+          "maxTeilnehmer": 24,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Elektrische Energienetze"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Electrical power grids"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10104,
+          "kuerzel": "EEU-vet",
+          "bezeichnung": "Vertiefungsmodule Energietechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10219,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10219_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10104,
+          "kuerzel": "EEU-vet",
+          "bezeichnung": "Vertiefungsmodule Energietechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10259,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10259_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 6,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5010784,
+      "name": "Schueller",
+      "vorname": "Michael"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 31548,
+      "kuerzel": "M_EET",
+      "bezeichnung": "Elektrische Energietechnik",
+      "url": "allModules/31548_M_EET.json"
+    }
+  ],
+  "voraussetzungen": [
+    {
+      "id": 45645,
+      "kuerzel": "M_ETEU",
+      "bezeichnung": "Elektrotechnik (EEU)",
+      "url": "allModules/45645_M_ETEU.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 57697,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 120,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Teilnahme und erfolgreiche Bearbeitung von 6 von 7 Praktikumsversuchen (Testat); Praktikumsversuche mit Eingangstest</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Elektrische Energienetze"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Electrical power grids"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2027,
+    "beginSemester": "FS",
+    "endJahr": 2027,
+    "endSemester": "FS"
+  },
+  "vorgaenger": {
+    "id": 45634,
+    "kuerzel": "M_EEN",
+    "bezeichnung": "Elektrische Energienetze",
+    "url": "allModules/45634_M_EEN.json"
+  }
+}

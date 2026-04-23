@@ -1,0 +1,146 @@
+{
+  "id": 24775,
+  "kuerzel": "M_Bauadmin 1",
+  "bezeichnung": "Bauadministration 1",
+  "kreditpunkte": 2,
+  "lernziele": "<ul>\n    <li>Vermittlung von Kenntnissen der Bauadministration, die f&uuml;r die Realisierung eines Projektes in der Landschaftsarchitektur notwendig sind. <br /></li>\n</ul>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "deaktiviert",
+  "kurse": [
+    {
+      "id": 24776,
+      "kuerzel": "Bauad1",
+      "bezeichnung": "Bauadministration 1",
+      "lernziele": "<ul>\n    <li>Vermittlung von Kenntnissen der Bauadministration die f&uuml;r die Projektierung und Realisierung eines Projektes in der Landschaftsarchitektur notwendig sind</li>\n</ul>",
+      "planinhalt": "Selbst&auml;ndiges Erarbeiten eines Leistungsverzeichnisses und eines Kostenvoranschlages auf der Basis der Ausf&uuml;hrungsplanung des Kurses Ausf-2. Kennenlernen von Bauleitungsaufgaben und der Bauorganisation",
+      "kurselemente": [
+        {
+          "id": 24777,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 18,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Bauadministration 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Construction administration 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10002,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10002_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10061,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10061_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    },
+    {
+      "id": 10112,
+      "bezeichnung": "Landschaftsarchitektur",
+      "kuerzel": "L",
+      "url": "allStudies/10112_L.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 3,
+      "kategorien": [
+        {
+          "id": 10020,
+          "kuerzel": "L-k",
+          "bezeichnung": "Kernmodule Landschaftsarchitektur",
+          "kreditpunkte": 2
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 5001402,
+      "name": "Soukup",
+      "vorname": "Jochen"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 24775,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": true,
+      "zulassungsBedingung": "<p><font size=\"2\">Projektarbeit (Leistungsverzeichnis) in Kurs Bauadministration 1 mit einer Teilnahme an Zwischenkritiken<br /></font></p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Bauadministration 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Construction administration 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "beginJahr": 2014,
+    "beginSemester": "HS",
+    "endJahr": 2017,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 18644,
+    "kuerzel": "M_Bauadmin 1",
+    "bezeichnung": "Bauadministration 1",
+    "url": "allModules/18644_M_Bauadmin 1.json"
+  }
+}

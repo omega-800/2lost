@@ -1,0 +1,161 @@
+{
+  "id": 61363,
+  "kuerzel": "M_Konst1EUn",
+  "bezeichnung": "Konstruktion 1 (EEU)",
+  "kreditpunkte": 3,
+  "lernziele": "<ul>\n<li>Kann sich zeichnerisch ausdr&uuml;cken.</li>\n<li>Kenntnis der Grundlagen des Konstruktionsprozesses.</li>\n<li>Kenntnis der Gundlagen der technischen Mechanik und der Festigkeitslehre.</li>\n<li>Kenntnis der konstruktiven Anforderungen in Abh&auml;ngigkeit von Werkstoff und Herstellungsprozess.</li>\n<li>Kenntnis der Grundlagen der Bauteilauslegung unter Einhaltung von Sicherheitsfaktoren.</li>\n<li>Versteht die Form- und Lagetoleranzen.</li>\n<li>Praktische Umsetzung von Konstruktionsaufgaben an Beispielen aus dem Bereich Erneuerbare Energien und Umwelttechnik.</li>\n</ul>",
+  "vorausgKenntnisse": "keine\n<p>&nbsp;</p>",
+  "semesterBewertung": "keine Note oder Wertung",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 61364,
+      "kuerzel": "Kons1EUn",
+      "bezeichnung": "Konstruktion 1 (EEU)",
+      "lernziele": "<p>siehe Lernziele des Moduls<br /></p>",
+      "planinhalt": "<ul>\n<li>Skizzier- und Zeichen&uuml;bungen.</li>\n<li>Einf&uuml;hrung in den Konstruktionsprozess.</li>\n<li>Grundlagen der fertigungs- und materialgerechten Gestaltung.</li>\n<li>Form- und Lagetoleranzen.</li>\n<li>Einf&uuml;hrung in die mechanischen Eigenschaften der g&auml;ngigsten Werkstoffe.</li>\n<li>Einf&uuml;hrung in die technische Mechanik und deren Teilgebiete</li>\n<li>\n<p>Statische Grundlagen der Festigkeitslehre und elementare Festigkeitsrechnung unter Ber&uuml;cksichtigung von Sicherheitsfaktoren</p>\n</li>\n<li>\n<p>Spannungs- und Verformungszustand</p>\n</li>\n<li>\n<p>Typische Beanspruchungsf&auml;lle (Zug/Druck, Schub, Biegung, Torsion, zusammengesetzte Beanspruchung)</p>\n</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 61365,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 24,
+          "harteGrenze": true
+        },
+        {
+          "id": 61366,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 120,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Konstruktion 1"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Design 1"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10219,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10219_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 3
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10259,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10259_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 1,
+      "kategorien": [
+        {
+          "id": 10099,
+          "kuerzel": "EEU-g",
+          "bezeichnung": "Grundlagenmodule EEU",
+          "kreditpunkte": 3
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 541752,
+      "name": "Meier",
+      "vorname": "Boris"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "pruefung": [
+    {
+      "id": 61363,
+      "art": "Note von 1 - 6",
+      "pruefungMue": false,
+      "pruefungSchr": true,
+      "dauerPrfSchr": 90,
+      "zulassung": true,
+      "zulassungsBedingung": "<p>Testat</p>",
+      "prfAbmeldbar": true
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Konstruktion 1"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Design 1"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 2,
+    "beginJahr": 2026,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  }
+}

@@ -1,25 +1,10 @@
-use std::{
-    fs::{self, File},
-    io::BufReader,
-};
 
 use crate::{
-    fns::{create_write_file, to_alphanum},
+    fns::{create_write_file, read_bloat_into_mem, to_alphanum},
     types::{Modules, Studies},
-    vars::{CACHE_PATH, HTML_PATH, MODULES_PATH, STUDIES_PATH},
+    vars::{CACHE_PATH, HTML_PATH},
 };
 
-// - orte
-// - vorausg_kenntnisse
-// - methoden
-// - durchfuehrungen
-// - mengen
-// - zuordnungen
-// - zustand
-// - semester_bewertung
-// - voraussetzungen
-// - empfehlungen
-// - kreditpunkte
 const MODULE_FILTERS: [&str; 12] = [
     "sprache",
     "orte",
@@ -238,23 +223,4 @@ fn studies_to_html(studies: &[Studies]) -> String {
             })
             .collect::<String>()
         + "</div>"
-}
-
-// don't mind the duplicated logic
-
-fn read_bloat_into_mem() -> (Vec<Studies>, Vec<Modules>) {
-    (pawse(STUDIES_PATH), pawse(MODULES_PATH))
-}
-
-fn pawse<T: serde::de::DeserializeOwned>(path: &str) -> Vec<T> {
-    fs::read_dir(CACHE_PATH.to_owned() + path)
-        .unwrap_or_else(|_| panic!("Cached path doesn't exist: {}", path))
-        .filter_map(|s| {
-            s.ok().and_then(|s| {
-                File::open(s.path())
-                    .ok()
-                    .and_then(|f| serde_json::from_reader(BufReader::new(f)).ok())
-            })
-        })
-        .collect()
 }

@@ -1,10 +1,10 @@
 use std::env;
 
+mod codegen;
 mod fns;
 mod html;
 mod infer_types;
 mod scraper;
-mod sql;
 mod types;
 mod vars;
 
@@ -17,7 +17,7 @@ Options:
   -h    Print this help message
   -f    Scrape studien.ost.ch for data
   -t    Generate rs types from data
-  -s    Generate SQL (not implemented)
+  -s    Generate SQL
   -g    Generate HTML"#,
         pname
     );
@@ -32,10 +32,10 @@ fn main() {
             scraper::scrape();
         }
         if args.iter().any(|a| a == "-t") {
-            scraper::scrape();
+            codegen::gen_types();
         }
         if args.iter().any(|a| a == "-s") {
-            sql::gen_sql();
+            codegen::gen_sql();
         }
         if args.iter().any(|a| a == "-g") {
             html::gen_html();

@@ -1,0 +1,235 @@
+{
+  "id": 45165,
+  "kuerzel": "M_CFD_FEM",
+  "bezeichnung": "Process and Product Simulations",
+  "kreditpunkte": 4,
+  "lernziele": "<ul>\n<li>Solving engineering problems with numerical methods.</li>\n<li>Theoretical background of numerical simulations: time discretization, finite elements, and finite volumes.</li>\n<li>Practical application of numerical methods.</li>\n<li>Critical analysis of the use of simulations and interpretation of simulation results.</li>\n<li>Verification and validation &ndash; comparison with reality</li>\n<li>CFD, heat transfer, and structural mechanics in ANSYS</li>\n</ul>",
+  "vorausgKenntnisse": "<p style=\"MARGIN: 0cm 0cm 10pt\" class=\"MsoNormal\"><font size=\"3\">Englisch (Das Programm ANSYS und seine Manuals sind auf Englisch)</font></p>",
+  "semesterBewertung": "Note von 1 - 6",
+  "sprache": "de-CH",
+  "zustand": "aktiviert",
+  "kurse": [
+    {
+      "id": 45166,
+      "kuerzel": "CFD_FEM",
+      "bezeichnung": "Process and Product Simulations",
+      "lernziele": "siehe Modulbeschreibung",
+      "planinhalt": "<ul>\n<li>Continuum mechanics: the basic equations of structural mechanics, heat transfer, and fluid dynamics.</li>\n<li>Numerical methods and algorithms.</li>\n<li>Introdution to ANSYS</li>\n<li>Structural mechanics (FEM):\n<ul>\n<li>Rigid bodies</li>\n<li>Deformable bodies (linear elastic and nonlinear)</li>\n<li>Contact modeling</li>\n<li>Numerical convergence</li>\n<li>Interpretation of the results</li>\n</ul>\n</li>\n<li>Computational Fluid Dynamics (CFD):\n<ul>\n<li>Navier Stokes equations</li>\n<li>Discretization and numerics, Finite Volume Method</li>\n<li>Stationary and incompressible flow</li>\n<li>Turbulence modeling</li>\n<li>Transient flows</li>\n<li>Compressible flows</li>\n<li>Converence and mesh studies</li>\n<li>Interpretation of the results</li>\n</ul>\n</li>\n<li>Thermal Simulations:\n<ul>\n<li>Heat conduction with FEM and CFD</li>\n<li>Convection with CFD</li>\n<li>Thermal radiation</li>\n<li>Thermal Contacts</li>\n</ul>\n</li>\n<li>Fluid-Structure Interaction (FSI)</li>\n</ul>",
+      "kurselemente": [
+        {
+          "id": 45167,
+          "art": "Vorlesung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 120,
+          "harteGrenze": true
+        },
+        {
+          "id": 45168,
+          "art": "Uebung",
+          "anzLektionen": 2,
+          "maxTeilnehmer": 24,
+          "harteGrenze": true
+        }
+      ],
+      "uebersetzungen": [
+        {
+          "id": 3701,
+          "bezeichnung": "Numerische Strömungssimulation und Strukturberechnungen"
+        },
+        {
+          "id": 3702,
+          "bezeichnung": "Computational Fluid Dynamics and  Finite Element Method"
+        }
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "id": 10047,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10047_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10104,
+          "kuerzel": "EEU-vet",
+          "bezeichnung": "Vertiefungsmodule Energietechnik",
+          "kreditpunkte": 4
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10111,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10111_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10104,
+          "kuerzel": "EEU-vet",
+          "bezeichnung": "Vertiefungsmodule Energietechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10108,
+          "kuerzel": "EEU-veu",
+          "bezeichnung": "Vertiefungsmodule Umwelttechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10219,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10219_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10104,
+          "kuerzel": "EEU-vet",
+          "bezeichnung": "Vertiefungsmodule Energietechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10108,
+          "kuerzel": "EEU-veu",
+          "bezeichnung": "Vertiefungsmodule Umwelttechnik",
+          "kreditpunkte": 2
+        },
+        {
+          "id": 10109,
+          "kuerzel": "EEU-eeumn",
+          "bezeichnung": "Spezialkategorie: Grundlagen EEU, Vertiefung ET, Vertiefung UT, Mathematik, Naturwissenschaften",
+          "kreditpunkte": 4
+        }
+      ]
+    },
+    {
+      "id": 10259,
+      "bezeichnung": "Erneuerbare Energien und Umwelttechnik",
+      "kuerzel": "EEU",
+      "url": "allStudies/10259_EEU.json",
+      "typ": "Standard",
+      "istAbschlussArbeit": false,
+      "istPflichtmodul": false,
+      "semEmpfehlung": 5,
+      "kategorien": [
+        {
+          "id": 10172,
+          "kuerzel": "EEU-VT",
+          "bezeichnung": "Vertiefungsmodule EEU",
+          "kreditpunkte": 4
+        }
+      ]
+    }
+  ],
+  "dozenten": [
+    {
+      "id": 538896,
+      "name": "Nordborg",
+      "vorname": "Henrik"
+    }
+  ],
+  "empfehlungen": [
+    {
+      "id": 11043,
+      "kuerzel": "M_Ph1Mech",
+      "bezeichnung": "Physik 1 - Mechanik",
+      "url": "allModules/11043_M_Ph1Mech.json"
+    },
+    {
+      "id": 19780,
+      "kuerzel": "M_MatT1EU",
+      "bezeichnung": "Materialtechnologie 1 (EEU)",
+      "url": "allModules/19780_M_MatT1EU.json"
+    },
+    {
+      "id": 19820,
+      "kuerzel": "M_TFD2EU",
+      "bezeichnung": "Thermo- und Fluiddynamik 2 (EEU)",
+      "url": "allModules/19820_M_TFD2EU.json"
+    },
+    {
+      "id": 20825,
+      "kuerzel": "M_Ph3SWO",
+      "bezeichnung": "Physik 3 - Schwingungen und Wellen, Optik",
+      "url": "allModules/20825_M_Ph3SWO.json"
+    },
+    {
+      "id": 20935,
+      "kuerzel": "M_MatT2EU",
+      "bezeichnung": "Materialtechnologie 2 (EEU)",
+      "url": "allModules/20935_M_MatT2EU.json"
+    },
+    {
+      "id": 22009,
+      "kuerzel": "M_Ph2EU",
+      "bezeichnung": "Physik 2 (EEU)",
+      "url": "allModules/22009_M_Ph2EU.json"
+    },
+    {
+      "id": 28531,
+      "kuerzel": "M_TFD1EU",
+      "bezeichnung": "Thermo- und Fluiddynamik 1 (EEU)",
+      "url": "allModules/28531_M_TFD1EU.json"
+    }
+  ],
+  "orte": [
+    {
+      "id": 4,
+      "kuerzel": "RJ",
+      "bezeichnung": "Rapperswil-Jona",
+      "ort": "8640 Rapperswil"
+    }
+  ],
+  "uebersetzungen": [
+    {
+      "id": 3701,
+      "sprache": "de-CH",
+      "bezeichnung": "Process and Product Simulations"
+    },
+    {
+      "id": 3702,
+      "sprache": "en-US",
+      "bezeichnung": "Process and Product Simulations"
+    }
+  ],
+  "skriptAblageLink": "https://moodle.ost.ch",
+  "durchfuehrungen": {
+    "count": 1,
+    "beginJahr": 2024,
+    "beginSemester": "HS",
+    "endJahr": 2026,
+    "endSemester": "HS"
+  },
+  "vorgaenger": {
+    "id": 44553,
+    "kuerzel": "M_CFD_FEM",
+    "bezeichnung": "Process and Product Simulations",
+    "url": "allModules/44553_M_CFD_FEM.json"
+  }
+}
