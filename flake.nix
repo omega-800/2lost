@@ -53,6 +53,8 @@
             cargo-edit
             bacon
             rust-analyzer
+
+            sqlite
           ];
           env = {
             RUST_BACKTRACE = 1;

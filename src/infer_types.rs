@@ -52,6 +52,14 @@ fn object_to_shape(map: &Map<String, Value>) -> Shape {
     Shape::Recd { fields: inner }
 }
 
+pub fn reduce_to_common_shape(ss: &[&Shape]) -> Option<Shape> {
+    let (f, r) = ss.split_first()?;
+    // FIXME: too much cloning
+    Some(r.iter().fold((*f).clone(), |acc, c| {
+        common_shape(acc, (*c).clone())
+    }))
+}
+
 pub fn common_shape(a: Shape, b: Shape) -> Shape {
     if a == b {
         return a;

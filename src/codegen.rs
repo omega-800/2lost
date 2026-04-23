@@ -4,7 +4,7 @@ use serde_json::Value;
 
 use crate::{
     fns::{create_write_file, read_bloat_into_mem_untyped, to_snake_case, uppercase_first_letter},
-    infer_types::{Shape, common_shape, value_to_shape},
+    infer_types::{Shape, common_shape, reduce_to_common_shape, value_to_shape},
     vars::{CACHE_PATH, MODULES, STUDIES, TYPES_PATH},
 };
 
@@ -33,19 +33,63 @@ pub fn gen_sql() {
     println!("Reading bloat into memory");
     let (studies, modules) = read_bloat_into_mem_untyped();
 
-    if let Some(study_shape) = values_to_shape(&studies) {
-        println!("Generating studies");
-        // let study_shape = map_recd_tlks(study_shape, &STUDIES_MAP);
-        gen_sql_types_for(&study_shape, STUDIES, &STUDIES_MAP);
+    let mut all = HashMap::new();
+
+    println!("Generating studies");
+    let Some(study_shape) = values_to_shape(&studies) else {
+        panic!("Failed inferring studies types");
+    };
+    let sh = unroll_shape(&study_shape, STUDIES, &STUDIES_MAP);
+
+    println!("Generating modules");
+    let Some(module_shape) = values_to_shape(&modules) else {
+        panic!("Failed inferring modules types");
+    };
+    let mh = unroll_shape(&module_shape, MODULES, &MODULES_MAP);
+
+    println!("Merging types");
+    for (k, ss) in sh.iter().chain(mh.iter()) {
+        if let Some(ss) = reduce_to_common_shape(ss) {
+            if all.contains_key(k) {
+                let prev = all.remove(k).unwrap();
+                all.insert(*k, common_shape(prev, ss));
+            } else {
+                all.insert(*k, ss);
+            }
+        }
     }
 
-    if let Some(module_shape) = values_to_shape(&modules) {
-        println!("Generating modules");
-        // let module_shape = map_recd_tlks(module_shape, &MODULES_MAP);
-        gen_sql_types_for(&module_shape, MODULES, &MODULES_MAP);
-    }
+    // let study_shape = map_recd_tlks(study_shape, &STUDIES_MAP);
+    // gen_sql_types_for(&study_shape, STUDIES, &STUDIES_MAP);
+
+    // let module_shape = map_recd_tlks(module_shape, &MODULES_MAP);
+    // gen_sql_types_for(&module_shape, MODULES, &MODULES_MAP);
+
+    println!("Codegen");
+    let sql = all
+        .iter()
+        .map(|(k, v)| {
+            gen_sql_table(
+                k,
+                v,
+                &([
+                    (&STUDIES_MAP as &[&'static str]),
+                    (&MODULES_MAP as &[&'static str]),
+                ]
+                .concat()),
+            )
+        })
+        .collect::<Vec<_>>()
+        .join("\n");
+
+    create_write_file(&(CACHE_PATH.to_owned() + TYPES_PATH + "db.sql"), &sql)
+        .unwrap_or_else(|_| println!("Couldn't write sql definition"));
 
     println!("Done");
+}
+
+fn dedup_shapes() -> Vec<Shape> {
+    todo!()
 }
 
 pub fn gen_types() {
@@ -124,22 +168,30 @@ fn shape_to_rs(name: &str, shape: &Shape) -> (String, Option<String>) {
     }
 }
 
-fn flatten_shape<'a>(
+fn unroll_shape<'a>(
     shape: &'a Shape,
     name: &'a str,
-    mut res: &'a mut HashMap<&'a str, Vec<&'a Shape>>,
-    m: &[&str],
-) -> &'a mut HashMap<&'a str, Vec<&'a Shape>> {
+    m: &[&'a str],
+) -> HashMap<&'a str, Vec<&'a Shape>> {
+    let mut res: HashMap<&str, Vec<&Shape>> = HashMap::new();
     match *shape {
-        Shape::List { ref elem_type } => flatten_shape(elem_type, name, res, &[]),
+        Shape::List { ref elem_type } => unroll_shape(elem_type, name, &[]),
         Shape::Recd { ref fields } => {
             res.entry(name).or_default().push(shape);
-            for (k, v) in fields.iter() {
-                res = flatten_shape(v, k, res, &[]);
+            for (key, val) in fields.iter() {
+                let pos = m.iter().position(|kk| **kk == *key);
+                let mapped = if let Some(i) = pos {
+                    *m.get(i + 1).unwrap(/* trust me bro */)
+                } else {
+                    key
+                };
+                for (key, val) in unroll_shape(val, mapped, &[]).iter() {
+                    res.entry(key).or_default().extend(val);
+                }
             }
             res
         }
-        Shape::Optional(ref shape) => flatten_shape(shape, name, res, m),
+        Shape::Optional(ref shape) => unroll_shape(shape, name, &[]),
         _ => res,
     }
 }
@@ -172,6 +224,74 @@ fn gen_sql_types_for(v: &Shape, name: &str, m: &[&str]) {
         create_write_file(&(CACHE_PATH.to_owned() + TYPES_PATH + name + ".sql"), &c)
             .unwrap_or_else(|_| println!("Couldn't write {} sql definition", name));
     }
+}
+
+// TODO: clean this up
+pub fn gen_sql_table(parent: &str, shape: &Shape, m: &[&str]) -> String {
+    let Shape::Recd { fields } = shape else {
+        return "".to_string();
+    };
+    let gen_field = |field: &Shape, name: &str, n: bool| -> (String, Option<String>) {
+        let pos = m.iter().position(|k| **k == *name);
+        let mapped = if let Some(i) = pos {
+            *m.get(i + 1).unwrap(/* trust me bro */)
+        } else {
+            name
+        };
+
+        let (s, o) = match *field {
+            Shape::Bool | Shape::Int => (
+                "INTEGER ".to_string() + if name == "id" { "PRIMARY KEY" } else { "" },
+                None,
+            ),
+            Shape::Float => ("REAL".to_string(), None),
+            Shape::StringS => ("TEXT".to_string(), None),
+            Shape::List { .. } => {
+                // TODO: map m k
+                let jname = format!("{}_{}", parent, name);
+                // TODO: wrong, id should be name
+                (
+                    format!("REFERENCES {}(id)", jname),
+                    Some(format!(
+                        r#"
+CREATE TABLE {} (
+  id INTEGER PRIMARY KEY REFERENCES {}(id),
+  {} REFERENCES {}(id)
+);
+"#,
+                        jname, mapped, parent, parent
+                    )),
+                )
+            }
+            Shape::Recd { .. } => (format!("REFERENCES {}(id)", mapped), None),
+            _ => ("".to_string(), None),
+        };
+        (
+            format!(
+                "  {} {} {},\n",
+                to_snake_case(name),
+                s,
+                (if n { "" } else { " NOT NULL" })
+            ),
+            o,
+        )
+    };
+    let mut additional = "".to_string();
+    let mut table_def = format!("CREATE TABLE {} (\n", parent);
+    for (k, field) in fields.iter() {
+        let (s, o) = match *field {
+            Shape::Optional(ref f) => gen_field(f, k, true),
+            _ => gen_field(field, k, false),
+        };
+        table_def += &s;
+        if let Some(o) = o {
+            additional += &o;
+        }
+    }
+    if fields.iter().all(|(f, _)| f != "id") {
+        table_def += "  id INTEGER PRIMARY KEY,\n";
+    }
+    table_def + ");\n" + &additional
 }
 
 fn shape_to_sql(parent: &str, name: &str, shape: &Shape, m: &[&str]) -> (String, Option<String>) {
@@ -234,7 +354,7 @@ fn shape_to_sql(parent: &str, name: &str, shape: &Shape, m: &[&str]) -> (String,
             (type_name, Some(table_def + &inner_defs))
         }
         Shape::Optional(ref shape) => {
-            let (inner, t) = shape_to_sql(parent, name, shape, m);
+            let (inner, t) = shape_to_sql(parent, name, shape, &[]);
             if **shape == Shape::Bottom {
                 (inner, t)
             } else {
