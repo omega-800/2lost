@@ -5,31 +5,11 @@ use serde_json::Value;
 use crate::{
     fns::{create_write_file, read_bloat_into_mem_untyped, to_snake_case, uppercase_first_letter},
     infer_types::{Shape, common_shape, reduce_to_common_shape, value_to_shape},
-    vars::{CACHE_PATH, MODULES, STUDIES, TYPES_PATH},
+    sql::populate_sql,
+    vars::{CACHE_PATH, MODULES, MODULES_MAP, STUDIES, STUDIES_MAP, TYPES_PATH},
 };
 
-const STUDIES_MAP: [&str; 6] = [
-    "spezialisierungen",
-    "studien",
-    "parent",
-    "studien",
-    "studienberater",
-    "dozenten",
-];
-const MODULES_MAP: [&str; 10] = [
-    "nachfolger",
-    "module",
-    "vorgaenger",
-    "module",
-    "voraussetzungen",
-    "module",
-    "empfehlungen",
-    "module",
-    "anschlussmodule",
-    "module",
-];
-
-fn do_the_boring_stuff() -> (Vec<Value>, Vec<Value>, Shape, Shape, HashMap<&str, Shape>) {
+fn do_the_boring_stuff() -> (Vec<Value>, Vec<Value>, Shape, Shape, HashMap<String, Shape>) {
     println!("Reading bloat into memory");
     let (studies, modules) = read_bloat_into_mem_untyped();
 
@@ -50,11 +30,11 @@ fn do_the_boring_stuff() -> (Vec<Value>, Vec<Value>, Shape, Shape, HashMap<&str,
     println!("Merging types");
     for (k, ss) in sh.iter().chain(mh.iter()) {
         if let Some(ss) = reduce_to_common_shape(ss) {
-            if all.contains_key(k) {
-                let prev = all.remove(k).unwrap();
-                all.insert(*k, common_shape(prev, ss));
+            if all.contains_key(*k) {
+                let prev = all.remove(*k).unwrap();
+                all.insert(k.to_string(), common_shape(prev, ss));
             } else {
-                all.insert(*k, ss);
+                all.insert(k.to_string(), ss);
             }
         }
     }
@@ -66,7 +46,7 @@ fn do_the_boring_stuff() -> (Vec<Value>, Vec<Value>, Shape, Shape, HashMap<&str,
 pub fn gen_sql() {
     let (studies, modules, study_shape, module_shape, all) = do_the_boring_stuff();
 
-    println!("Codegen");
+    println!("Codegen tables");
     let sql = all
         .iter()
         .map(|(k, v)| {
@@ -83,8 +63,15 @@ pub fn gen_sql() {
         .collect::<Vec<_>>()
         .join("\n");
 
-    create_write_file(&(CACHE_PATH.to_owned() + TYPES_PATH + "db.sql"), &sql)
-        .unwrap_or_else(|_| println!("Couldn't write sql definition"));
+    println!("Codegen inserts");
+
+    let inserts = populate_sql(studies, modules);
+
+    create_write_file(
+        &(CACHE_PATH.to_owned() + TYPES_PATH + "db.sql"),
+        &(sql + &inserts),
+    )
+    .unwrap_or_else(|_| println!("Couldn't write sql definition"));
 
     println!("Done");
 }
@@ -190,6 +177,7 @@ fn shape_to_rs(name: &str, shape: &Shape) -> (String, Option<String>) {
     }
 }
 
+// TODO: RefCell
 fn unroll_shape<'a>(
     shape: &'a Shape,
     name: &'a str,
@@ -246,11 +234,12 @@ pub fn gen_sql_table(parent: &str, shape: &Shape, m: &[&str]) -> String {
                     Some(format!(
                         r#"
 CREATE TABLE {} (
-  id INTEGER PRIMARY KEY REFERENCES {}(id),
+  id INTEGER PRIMARY KEY,
+  {} REFERENCES {}(id),
   {} REFERENCES {}(id)
 );
 "#,
-                        jname, mapped, parent, parent
+                        jname,name, mapped, parent, parent
                     )),
                 )
             }
