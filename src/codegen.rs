@@ -44,7 +44,7 @@ fn do_the_boring_stuff() -> (Vec<Value>, Vec<Value>, Shape, Shape, HashMap<Strin
 
 // TODO: move sql stuff to sql module
 pub fn gen_sql() {
-    let (studies, modules, study_shape, module_shape, all) = do_the_boring_stuff();
+    let (studies, modules, _study_shape, _module_shape, all) = do_the_boring_stuff();
 
     println!("Codegen tables");
     let sql = all
@@ -77,7 +77,7 @@ pub fn gen_sql() {
 }
 
 pub fn gen_types() {
-    let (studies, modules, study_shape, module_shape, all) = do_the_boring_stuff();
+    let (_studies, _modules, study_shape, module_shape, all) = do_the_boring_stuff();
 
     println!("Codegen (json)");
     let (_, Some(study_rs)) = shape_to_rs(STUDIES, &study_shape) else {
@@ -123,16 +123,6 @@ fn values_to_shape(v: &[Value]) -> Option<Shape> {
     Some(r.iter().fold(value_to_shape(f), |acc, c| {
         common_shape(acc, value_to_shape(c))
     }))
-}
-
-fn gen_rs_types_for(v: &Shape, name: &str) {
-    if let (_, Some(c)) = shape_to_rs(name, v) {
-        create_write_file(
-            &(CACHE_PATH.to_owned() + TYPES_PATH + name + ".rs"),
-            &("use serde::{Deserialize, Serialize};\n\n".to_owned() + &c),
-        )
-        .unwrap_or_else(|_| println!("Couldn't write {} rs types", name));
-    }
 }
 
 fn shape_to_rs(name: &str, shape: &Shape) -> (String, Option<String>) {
@@ -273,6 +263,6 @@ CREATE TABLE {} (
     table_def + ");\n" + &additional
 }
 
-fn gen_sql_rs(parent: &str, shape: &Shape, m: &[&str]) -> String {
+fn gen_sql_rs(_parent: &str, _shape: &Shape, _m: &[&str]) -> String {
     todo!()
 }

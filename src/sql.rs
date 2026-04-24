@@ -3,7 +3,7 @@ use std::{cell::RefCell, collections::HashMap, rc::Rc};
 use serde_json::{Map, Number, Value};
 
 use crate::{
-    fns::{read_bloat_into_mem, read_bloat_into_mem_untyped, to_snake_case},
+    fns::to_snake_case,
     vars::{MODULES, MODULES_MAP, STUDIES, STUDIES_MAP},
 };
 
@@ -21,9 +21,9 @@ pub fn populate_sql(studies: Vec<Value>, modules: Vec<Value>) -> String {
         unroll_value(Rc::new(RefCell::new(s)), MODULES, &MODULES_MAP, &mut sm, 1);
     }
 
-    let mut inserts = "".to_string();
+    let mut inserts = "BEGIN TRANSACTION;\n".to_string();
     for (table, rows) in sm {
-        for (id, row) in rows {
+        for (_id, row) in rows {
             inserts += &gen_sql_insert(
                 &table,
                 &row.borrow(),
@@ -38,7 +38,7 @@ pub fn populate_sql(studies: Vec<Value>, modules: Vec<Value>) -> String {
         }
     }
 
-    inserts
+    inserts + "\nCOMMIT;"
 }
 
 fn unroll_value(
@@ -47,6 +47,7 @@ fn unroll_value(
     m: &[&str],
     res: &mut HashMap<String, HashMap<i64, Rc<RefCell<Value>>>>,
     // this scuffed id should only be necessary for modules_durchfuehrungen
+    // FIXME: durchfuehrungen still fukkd
     idd: i64,
 ) {
     let value_borrowed = value.borrow();
@@ -132,8 +133,8 @@ fn n2s(n: &Number) -> Option<String> {
         n.as_f64().map(|n| n.to_string())
     }
 }
-fn s2s(s: &String) -> Option<String> {
-    Some(format!("'{}'", s.replace("'", "\\'")))
+fn s2s(s: &str) -> Option<String> {
+    Some(format!("'{}'", s.replace("'", "''").replace("\n", "\\n")))
 }
 fn get_id_int(o: &Map<String, Value>) -> Option<i64> {
     if let Some(id) = o.get("id")
