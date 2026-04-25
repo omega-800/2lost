@@ -7,7 +7,7 @@ use std::{
 use serde_json::Value;
 
 use crate::{
-    types::{Modules, Studies},
+    types::{Module, Studien},
     vars::{CACHE_PATH, MODULES_PATH, STUDIES_PATH},
 };
 
@@ -74,7 +74,7 @@ pub fn fetch_or_cache(url: &str, subpath: &str) -> String {
 
 // don't mind the duplicated logic
 
-pub fn read_bloat_into_mem() -> (Vec<Studies>, Vec<Modules>) {
+pub fn read_bloat_into_mem() -> (Vec<Studien>, Vec<Module>) {
     (pawse(STUDIES_PATH), pawse(MODULES_PATH))
 }
 

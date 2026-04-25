@@ -1,7 +1,7 @@
 
 use crate::{
     fns::{create_write_file, read_bloat_into_mem, to_alphanum},
-    types::{Modules, Studies},
+    types::{Module, Studien},
     vars::{CACHE_PATH, HTML_PATH},
 };
 
@@ -45,7 +45,7 @@ pub fn gen_html() {
     println!("Wrote modules.html");
 }
 
-impl Modules {
+impl Module {
     pub fn get_field(&self, field: &str) -> Vec<&str> {
         match field {
             "sprache" => vec![&self.sprache],
@@ -100,7 +100,7 @@ impl Modules {
     }
 }
 
-fn genfilter(modules: &[Modules]) -> (String, String) {
+fn genfilter(modules: &[Module]) -> (String, String) {
     let mut css = "".to_string();
     let mut html = "<h1>Filter</h1>".to_string();
     for filter in MODULE_FILTERS {
@@ -175,7 +175,7 @@ fn mkbody(css: &str, body: &str) -> String {
         + "</body></html>"
 }
 
-fn modules_to_html(modules: &[Modules]) -> String {
+fn modules_to_html(modules: &[Module]) -> String {
     "<div class=\"items modules\">".to_string()
         + &modules
             .iter()
@@ -205,7 +205,7 @@ fn modules_to_html(modules: &[Modules]) -> String {
         + "</div>"
 }
 
-fn studies_to_html(studies: &[Studies]) -> String {
+fn studies_to_html(studies: &[Studien]) -> String {
     "<div class=\"items studies\">".to_string()
         + &studies
             .iter()

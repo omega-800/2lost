@@ -94,26 +94,26 @@ pub fn gen_types() {
     .unwrap_or_else(|_| println!("Couldn't write rs json types"));
 
     // TODO: extrapolate duplicated code
-    println!("Codegen (sql)");
-
-    let sql = all
-        .iter()
-        .map(|(k, v)| {
-            gen_sql_rs(
-                k,
-                v,
-                &([
-                    (&STUDIES_MAP as &[&'static str]),
-                    (&MODULES_MAP as &[&'static str]),
-                ]
-                .concat()),
-            )
-        })
-        .collect::<Vec<_>>()
-        .join("\n");
-
-    create_write_file(&(CACHE_PATH.to_owned() + TYPES_PATH + "types_sql.rs"), &sql)
-        .unwrap_or_else(|_| println!("Couldn't write rs sql types"));
+    // println!("Codegen (sql)");
+    //
+    // let sql = all
+    //     .iter()
+    //     .map(|(k, v)| {
+    //         gen_sql_rs(
+    //             k,
+    //             v,
+    //             &([
+    //                 (&STUDIES_MAP as &[&'static str]),
+    //                 (&MODULES_MAP as &[&'static str]),
+    //             ]
+    //             .concat()),
+    //         )
+    //     })
+    //     .collect::<Vec<_>>()
+    //     .join("\n");
+    //
+    // create_write_file(&(CACHE_PATH.to_owned() + TYPES_PATH + "types_sql.rs"), &sql)
+    //     .unwrap_or_else(|_| println!("Couldn't write rs sql types"));
 
     println!("Done");
 }
@@ -152,7 +152,7 @@ fn shape_to_rs(name: &str, shape: &Shape) -> (String, Option<String>) {
                 }
                 struct_def += &format!("  pub {}: {},\n", to_snake_case(key), field_type);
             }
-            struct_def += "}}\n";
+            struct_def += "}\n";
 
             (type_name, Some(struct_def + &inner_defs))
         }

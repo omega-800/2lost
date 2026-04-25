@@ -25,22 +25,35 @@
 
 <body>
   <h1>2lost</h1>
+
+  <div id="filters-container"></div>
+  <div id="modules-container"></div>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.13.0/sql-wasm.min.js"
     integrity="sha512-laAM/mJRoxfgUSDOnpAVE3GGgawvUZ8wQU79lX5sT55mdIKhmc5mOEIy5HcJSAy4K78sQs29wJAr+3GMQUAuMg=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
   <script>
-    // const initSqlJs = window.initSqlJs;
+    const filtersElem = document.getElementById("filters-container");
+    const modulesElem = document.getElementById("modules-container");
 
     const sqlP = initSqlJs({
       locateFile: (file) =>
-        `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.13.0/sql-wasm.wasm`,
+        "https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.13.0/sql-wasm.wasm",
     });
-    const dataP = fetch("/db.sqlite").then((res) =>
-      res.arrayBuffer(),
-    );
+    const dataP = fetch(
+      "https://proxy.corsfix.com/?https://github.com/omega-800/2lost/raw/refs/heads/main/web/db.sqlite",
+      // {mode: "no-cors"},
+    ).then((res) => res.arrayBuffer());
     Promise.all([sqlP, dataP]).then(([SQL, buf]) => {
       const db = new SQL.Database(new Uint8Array(buf));
-      console.log("here");
+      const contents = db.exec("SELECT * FROM module");
+      console.log(contents);
+      for (v of contents[0].values) {
+        const m = document.createElement("div");
+        m.innerHTML = v[1];
+        modulesElem.appendChild(m);
+      }
     });
   </script>
 </body>
