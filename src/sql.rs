@@ -1,4 +1,4 @@
-use std::{cell::RefCell, collections::HashMap, rc::Rc};
+use std::collections::HashMap;
 
 use serde_json::{Map, Number, Value};
 
@@ -12,13 +12,13 @@ pub fn populate_sql(studies: Vec<Value>, modules: Vec<Value>) -> String {
 
     println!("Merging studies");
     for s in studies {
-        unroll_value(Rc::new(RefCell::new(s)), STUDIES, &STUDIES_MAP, &mut sm, 1);
+        unroll_value(&s, STUDIES, &STUDIES_MAP, &mut sm, 1);
     }
 
     println!("Merging modules");
     for s in modules {
         // this definitely won't go wrong
-        unroll_value(Rc::new(RefCell::new(s)), MODULES, &MODULES_MAP, &mut sm, 1);
+        unroll_value(&s, MODULES, &MODULES_MAP, &mut sm, 1);
     }
 
     let mut inserts = "BEGIN TRANSACTION;\n".to_string();
@@ -26,7 +26,7 @@ pub fn populate_sql(studies: Vec<Value>, modules: Vec<Value>) -> String {
         for (_id, row) in rows {
             inserts += &gen_sql_insert(
                 &table,
-                &row.borrow(),
+                &row,
                 if table == MODULES {
                     &MODULES_MAP
                 } else if table == STUDIES {
@@ -42,47 +42,38 @@ pub fn populate_sql(studies: Vec<Value>, modules: Vec<Value>) -> String {
 }
 
 fn unroll_value(
-    value: Rc<RefCell<Value>>,
+    value: &Value,
     name: &str,
     m: &[&str],
-    res: &mut HashMap<String, HashMap<i64, Rc<RefCell<Value>>>>,
+    res: &mut HashMap<String, HashMap<i64, Value>>,
     // this scuffed id should only be necessary for modules_durchfuehrungen
     // FIXME: durchfuehrungen still fukkd
     idd: i64,
 ) {
-    let value_borrowed = value.borrow();
-    match &*value_borrowed {
+    match value {
         Value::Array(values) => {
-            let values_clone = values.clone();
-            drop(value_borrowed);
-
-            for v in values_clone {
-                unroll_value(Rc::new(RefCell::new(v)), name, &[], res, idd);
+            for v in values {
+                unroll_value(v, name, &[], res, idd);
             }
         }
         Value::Object(map) => {
             let id = get_id_int(map).unwrap_or(idd);
             let mut map_clone = map.clone();
-            drop(value_borrowed);
 
             let entry = res.entry(name.to_string()).or_default();
 
-            if let Some(prev) = entry.get(&id) {
-                let mut prev_guard = prev.borrow_mut();
-                let value_guard = value.borrow();
-                merge_values(&mut prev_guard, &value_guard);
-                drop(prev_guard);
-                drop(value_guard);
+            if let Some(prev) = entry.get_mut(&id) {
+                merge_values(prev, value);
             } else {
                 map_clone.insert("id".to_string(), id.into());
                 let nvalue = Value::Object(map_clone.clone());
-                entry.insert(id, Rc::new(RefCell::new(nvalue)));
+                entry.insert(id, nvalue);
             }
 
             for (key, val) in &map_clone {
                 let pos = m.iter().position(|kk| *kk == key);
                 let mapped = pos.and_then(|i| m.get(i + 1)).copied().unwrap_or(key);
-                unroll_value(Rc::new(RefCell::new(val.clone())), mapped, &[], res, id);
+                unroll_value(val, mapped, &[], res, id);
             }
         }
         _ => {}
