@@ -55,6 +55,7 @@
             rust-analyzer
 
             sqlite
+            rlwrap
           ];
           env = {
             RUST_BACKTRACE = 1;

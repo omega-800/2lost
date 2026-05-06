@@ -74,11 +74,11 @@ pub fn fetch_or_cache(url: &str, subpath: &str) -> String {
 
 // don't mind the duplicated logic
 
-pub fn read_bloat_into_mem() -> (Vec<Studien>, Vec<Module>) {
-    (pawse(STUDIES_PATH), pawse(MODULES_PATH))
-}
-
-pub fn read_bloat_into_mem_untyped() -> (Vec<Value>, Vec<Value>) {
+pub fn read_bloat_into_mem<S, M>() -> (Vec<S>, Vec<M>)
+where
+    S: serde::de::DeserializeOwned,
+    M: serde::de::DeserializeOwned,
+{
     (pawse(STUDIES_PATH), pawse(MODULES_PATH))
 }
 

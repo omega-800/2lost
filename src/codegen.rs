@@ -3,7 +3,7 @@ use std::collections::HashMap;
 use serde_json::Value;
 
 use crate::{
-    fns::{create_write_file, read_bloat_into_mem_untyped, to_snake_case, uppercase_first_letter},
+    fns::{create_write_file, read_bloat_into_mem, to_snake_case, uppercase_first_letter},
     infer_types::{Shape, common_shape, reduce_to_common_shape, value_to_shape},
     sql::populate_sql,
     vars::{CACHE_PATH, MODULES, MODULES_MAP, STUDIES, STUDIES_MAP, TYPES_PATH},
@@ -11,7 +11,7 @@ use crate::{
 
 fn do_the_boring_stuff() -> (Vec<Value>, Vec<Value>, Shape, Shape, HashMap<String, Shape>) {
     println!("Reading bloat into memory");
-    let (studies, modules) = read_bloat_into_mem_untyped();
+    let (studies, modules) = read_bloat_into_mem();
 
     let mut all = HashMap::new();
 
